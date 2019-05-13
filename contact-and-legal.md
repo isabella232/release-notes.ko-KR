@@ -8,7 +8,7 @@ title: 연락처 및 법적 정보
 uuid: be6810fd-8a50-4e88-af09-ab00187e4082
 internal: n
 translate: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 147b01562e6c8d579a2bec0e4fa2841d1791a671
 
 ---
@@ -23,7 +23,7 @@ source-git-commit: 147b01562e6c8d579a2bec0e4fa2841d1791a671
 
 Adobe Marketing Cloud 고객 지원 센터 팀은 고객 지원을 위해 구성되었으며 고객들이 참여할 수 있는 많은 메커니즘을 제공합니다.
 
-자세한 내용은 [Adobe 엔터프라이즈 지원에 문의](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+자세한 내용은 [Adobe 엔터프라이즈 지원에 문의](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html)
 
 ## 서비스, 기능 및 과금 {#section_FA4F5274FDFE4DF7BB079E575877DFC2}
 
@@ -41,8 +41,8 @@ Adobe Systems welcome any suggestions or feedback regarding this solution. You c
  <li> Published by Adobe Systems Incorporated. </li> 
 </ul>
 
-[Terms of Use](https://www.adobe.com/go/marketingcloud_terms_of_use) | [Privacy Center](https://www.adobe.com/privacy/policy.html)
+[사용 약관](https://www.adobe.com/kr/go/marketingcloud_terms_of_use) | [개인 정보 보호 센터](https://www.adobe.com/kr/privacy/policy.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. 상표 기호(®, ™ 등)는 Adobe 상표를 나타냅니다.
 
-모든 타사 상표는 해당 소유자의 자산입니다. 업데이트된 정보/추가 타사 코드 정보는 [http://www.adobe.com/go/thirdparty_kr](https://www.adobe.com/products/eula/third_party/)을 참조하십시오.
+모든 타사 상표는 해당 소유자의 자산입니다. 업데이트 정보/추가 타사 코드 정보는 [https://www.adobe.com/go/thirdparty](https://www.adobe.com/products/eula/third_party/)에서 사용할 수 있습니다.
