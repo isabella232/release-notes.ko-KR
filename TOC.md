@@ -11,8 +11,8 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 자습서
 tutorials-url: https://helpx.adobe.com/kr/experience-cloud/tutorials.html
 mini-toc-levels: '1'
-translation-type: ht
-source-git-commit: f123e32395be3e2f83f6ed3004f142253c8f6d36
+translation-type: tm+mt
+source-git-commit: 3be54c2a7d063c6ebc9c0535efd6712abada071d
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: f123e32395be3e2f83f6ed3004f142253c8f6d36
 + [Adobe Experience Cloud 릴리스 노트](current.md)
 + 이전 릴리스 노트 {#previous}
    + 2019 {#2019}
+      + [2019년 4월](c-legacy-releases/2019/04112019.md)
       + [2019년 3월](c-legacy-releases/2019/03072019.md)
       + [2019년 2월](c-legacy-releases/2019/02072019.md)
       + [2019년 1월](c-legacy-releases/2019/01172019.md)
