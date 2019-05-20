@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019년 5월
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3be54c2a7d063c6ebc9c0535efd6712abada071d
+source-git-commit: c5d973e002c607c1b9b7422c9d3abaa9c827a000
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 
 **릴리스 날짜: 2019 년 5 월**
 
-* [경험 플랫폼](#platform)
+* [Adobe Experience Platform](#platform)
 * [Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
@@ -30,21 +30,25 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 * [Magento](#magento)
 * [Primetime](#primetime)
 
-## 경험 플랫폼 {#platform}
+## Adobe Experience Platform {#platform}
 
-관리, 활성화 (Experience Platform Launch), ID 서비스, 자산, 제안 및 사용자를 비롯한 Experience Cloud 플랫폼의 릴리스 노트입니다.
+### Adobe Experience Platform 릴리스 노트
 
-### 경험 플랫폼 Launch
+버전 1.0, 2019 년 5 월 15 일
+
+* 경험 플랫폼에 대한 최신 업데이트를 보려면 Adobe. io에서 [Experience Platform 릴리스 노트를](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md) 참조하십시오.
+
+### Experience Platform Launch
 
 * 최신 정보는 [Experience Platform Launch](https://docs.adobelaunch.com/) 를 참조하십시오.
 
 ### Experience Cloud ID 서비스
 
-2019 년 **5 월 13 일 릴리스**
+**2019년 5월 13일** 릴리스
 
-* 방문자 API 4.3.0 지원
+* Visitor API 4.3.0 지원
 * ITP 2.1 지원.
-* Securecookie 구성에 대한 문제를 수정했습니다.
+* secureCookie 구성 관련 문제를 해결했습니다.
 
 ## Analytics {#analytics}
 
