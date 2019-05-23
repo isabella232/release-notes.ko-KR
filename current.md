@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019년 5월
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c5d973e002c607c1b9b7422c9d3abaa9c827a000
+source-git-commit: eb567f2f7b740c2fab9b95540cfdf240cf1f6955
 
 ---
 
@@ -63,6 +63,7 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 
 | 기능 | 설명 |
 | -----------| ---------- |  
+| **Appmeasurement 버전 2.14.0** <ul><li>여러 개의 히트가 보류 중일 때 추적기 매개 변수 상태 관리에 대한 문제가 해결되었습니다. (AN -176931, AN -176629, DTM -12758)</li><li>Visitor. js 4.3.0를 포함하도록 appmeasurement를 업데이트했습니다 (AN -180049).</li></ul> |
 | **분석 작업 공간:** 새로운 기능 _반복 인스턴스_ 흐름 시각화 설정 포함 | _반복 인스턴스 포함_ 흐름 설정은 페이지 다시 로드와 같은 반복된 인스턴스를 포함하거나 제외하는 옵션을 제공합니다. 또한 모든 흐름 시각화는 이제 인스턴스만 기반으로 합니다. |
 | **애드혹 분석:** Java 11 과의 호환성 | Ad Hoc Analysis는 이제 Java 11과 호환됩니다. Java 11에서 애드혹 분석을 실행하는 [](https://marketing.adobe.com/resources/help/en_US/dsc/adhoc-java.html)방법을 학습합니다. |
 | **데이터 수집:** 새 s_ ecid 쿠키 | 데이터 수집에서 방문자의 ECID를 저장하는 새로운 자사 서버 쿠키인 s_ecid가 추가되었습니다. |
