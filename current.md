@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019년 5월
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8517ef177c10b4a0e5228ccbcb9168d0e35577e0
+source-git-commit: c8db350233cea9b83993e4723601b01a8e301f87
 
 ---
 
@@ -15,8 +15,7 @@ source-git-commit: 8517ef177c10b4a0e5228ccbcb9168d0e35577e0
 Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 
 >[!NOTE]
->>예정된 릴리스에 대한 이메일 알림을 받으려면 [Adobe 우선 제품 업데이트](https://www.adobe.com/subscription/priority-product-update.html)에 가입하십시오. 업무일 기준으로 릴리스 3-5일 전에 공지를 받게 됩니다. 릴리스 후 게시된 새 정보는 발행 날짜로 표시됩니다.
-
+>예정된 릴리스에 대한 이메일 알림을 받으려면 [Adobe 우선 제품 업데이트](https://www.adobe.com/subscription/priority-product-update.html)에 가입하십시오. 업무일 기준으로 릴리스 3-5일 전에 공지를 받게 됩니다. 릴리스 후 게시된 새 정보는 발행 날짜로 표시됩니다.
 
 **릴리스 날짜: 2019 년 5 월**
 
