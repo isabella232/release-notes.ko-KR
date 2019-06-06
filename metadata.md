@@ -2,16 +2,16 @@
 cloud: experience-cloud
 solution-title: Experience Cloud
 solution-hub-url: https://helpx.adobe.com/kr/support/experience-cloud.html
-solution-icon: assets/experience-cloud-logo-24.png
-getting-started-title: Experience League
+solution-icon: assets/assets/experience-cloud-logo-24.png
+getting-started-title: 시작하기
 getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 자습서
 tutorials-url: https://helpx.adobe.com/kr/experience-cloud/tutorials.html
 mini-toc-levels: '1'
 git-repo: https://github.com/AdobeDocs/release-notes.en
-index: false
-translation-type: ht
-source-git-commit: 147b01562e6c8d579a2bec0e4fa2841d1791a671
+index: true
+translation-type: tm+mt
+source-git-commit: 8e54bd3d73d2729e22d09765069d311bc0bc5248
 
 ---
 
@@ -22,7 +22,7 @@ metadata.md 파일에는 리포지토리의 사용 안내서 TOC.md 파일에 �
 
 | 메타데이터 | 기능 |
 |--- |--- |
-| solution-title | 문서 헤더에 링크로 사용됨 |
+| solution-title | 문서 헤더에 링크로 사용됨라는 사용자 지정 코드에서 변수를 찾습니다. 짧게 유지하십시오. |
 | solution-hub-url | Helpx Hub 페이지 열기 |
 | solution-icon | 솔루션 제목 옆에 솔루션 아이콘이 표시됩니다. 아직 구현되지 않음 |
 | getting-started-title | 튜토리얼이 적절하지 않을 때 거의 사용되지 않음 |
