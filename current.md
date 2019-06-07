@@ -1,31 +1,35 @@
 ---
 title: Adobe Experience Cloud 릴리스 노트
-description: Experience Cloud 릴리스 노트 템플릿
+description: 2019 년 6 월 Experience Cloud 릴리스 노트
 doc-type: 릴리스 노트
-last-update: 2019년 5월
+last-update: 2019 년 6 월
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c8db350233cea9b83993e4723601b01a8e301f87
+source-git-commit: 1f156e4fcbd0d39b27f2c254e2117ad2e4e0b793
 
 ---
 
 
-# Adobe Experience Cloud 릴리스 노트
+# 조기 사용 - Adobe Experience Cloud 릴리스 노트
 
 Adobe Experience Cloud의 새로운 기능 및 수정 사항.
+
+>[!IMPORTANT]
+>이 페이지에는 출시 전 컨텐츠가 포함되어 있으며 계획된 출시 전에 변경될 수 있습니다.
 
 >[!NOTE]
 >예정된 릴리스에 대한 이메일 알림을 받으려면 [Adobe 우선 제품 업데이트](https://www.adobe.com/subscription/priority-product-update.html)에 가입하십시오. 업무일 기준으로 릴리스 3-5일 전에 공지를 받게 됩니다. 릴리스 후 게시된 새 정보는 발행 날짜로 표시됩니다.
 
-**릴리스 날짜: 2019 년 5 월**
+**릴리스 날짜: 2019 년 6 월**
 
 * [Adobe Experience Platform](#platform)
 * [Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [캠페인](#ac)
+* [Mobile Services](#mobile)
 * [Advertising Cloud](#adcloud)
-* [Target Standard/Premium 19.5.1](#target)
+* [Target Standard/Premium 19.6.1](#target)
 * [Magento](#magento)
 * [Primetime](#primetime)
 
@@ -33,21 +37,11 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 
 ### Adobe Experience Platform 릴리스 노트
 
-버전 1.0, 2019 년 5 월 15 일
-
 * 경험 플랫폼에 대한 최신 업데이트를 보려면 Adobe. io에서 [Experience Platform 릴리스 노트를](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md) 참조하십시오.
 
 ### Experience Platform Launch
 
 * 최신 정보는 [Experience Platform Launch](https://docs.adobelaunch.com/) 를 참조하십시오.
-
-### Experience Cloud ID 서비스
-
-**2019년 5월 13일** 릴리스
-
-* Visitor API 4.3.0 지원
-* ITP 2.1 지원.
-* secureCookie 구성 관련 문제를 해결했습니다.
 
 ## Analytics {#analytics}
 
@@ -62,31 +56,31 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 
 | 기능 | 설명 |
 | -----------| ---------- |  
-| [!DNL AppMeasurement Version 2.14.0] <ul><li>여러 개의 히트가 보류 중일 때 추적기 매개 변수 상태 관리에 대한 문제가 해결되었습니다. (AN -176931, AN -176629, DTM -12758)</li><li>Visitor. js 4.3.0를 포함하도록 appmeasurement를 업데이트했습니다 (AN -180049).</li></ul> |
-| [!DNL Analysis Workspace]: 새 _반복 인스턴스 포함_ 흐름 시각화 설정 | _반복 인스턴스 포함_ 흐름 설정은 페이지 다시 로드와 같은 반복된 인스턴스를 포함하거나 제외하는 옵션을 제공합니다. 또한 모든 흐름 시각화는 이제 인스턴스만 기반으로 합니다. |
-| [!DNL Ad Hoc Analysis]: Java 11과의 호환성 | Ad Hoc Analysis는 이제 Java 11과 호환됩니다. Java 11에서 애드혹 분석을 실행하는 [](https://marketing.adobe.com/resources/help/en_US/dsc/adhoc-java.html)방법을 학습합니다. |
-| **데이터 수집:** 새 s_ ecid 쿠키 | 데이터 수집에서 방문자의 ECID를 저장하는 새로운 자사 서버 쿠키인 s_ecid가 추가되었습니다. |
+| **세그먼테이션** | 세그멘테이션의 차원 새로운 기여도 모델:<ul><li>반복 (기본값): 차원에 대한 인스턴스 + 지속적인 값을 포함합니다.</li><li>instance: 차원에 대한 인스턴스를 포함합니다.</li><li>반복되지 않는 인스턴스: 차원에 대한 고유 인스턴스 (반복되지 않음) 를 포함합니다.</li></ul> |
+| **세그먼테이션** | 새 세그먼트 연산자: **[!UICONTROL 와 같으며 같지]** **[!UICONTROL 않습니다]**. |
+| **디버거** | Adobe ID로 로그인하면 이제 Experience Cloud 디버거에서 처리된 히트를 검색할 수 있는 옵션이 제공됩니다. 처리 후 히트는 [!UICONTROL 처리 규칙] 및 VISTA 규칙을 거친 후 서버 호출로서 [!UICONTROL 처리 규칙] 및 VISTA 규칙의 유효성을 확인할 수 있습니다. **** 참고: A 4 T (보충 지원) 를 사용하는 경우 후처리 데이터가 돌아오는 데 몇 분 정도 걸릴 수 있습니다. |
+| **Analysis Workspace:** | 왼쪽 레일 검색에 즉시 새로운 필터가 추가되었습니다. 현재 보이는 항목 (차원, 지표, 승인됨 등), 계산된 지표, 고객 속성, Evar, prop, 비디오 등의 새로운 필터 가 추가되었습니다. |
 
 **Analysis Workspace 공간 수정 사항**
 
-* **[!UICONTROL 페이지 체류 시간에 영향을 주는 문제가 해결되었습니다]**. [!DNL Analysis Workspace] 보고서는 체류 시간 버킷을 계산할 때 더 이상 페이지 이름을 사용하지 않고, 계산할 세부 및 그룹화된 적중 수를 활성화합니다. **[!UICONTROL ]****[!UICONTROL ]** (AN-140479)
-* 성능을 개선하기 [!DNL Analysis Workspace] 위한 더 큰 노력의 일환으로 라인 시각화 성능 문제를 해결했습니다. (AN-174878)
-* 다운로드한 .csv 파일에서 UTF-8 인코딩이 없는 문제가 해결되었습니다. (AN-178393)
-* 프로젝트 성능 저하 [!DNL Analysis Workspace] 문제가 해결되었습니다. (AN-177710)
-* y축의 작은 세분 기간 범위로 라인 시각화가 표시되는 문제가 해결되었습니다. (AN-176467)
+* 시각화의 현지화 일본어 날짜 관련 문제를 [!DNL Analysis Workspace] 해결했습니다. (AN-180114)
+* 차원 항목을 복사하여 붙여넣은 후 발생하는 문제를 수정했습니다. 이후에 항목을 검색하면 오류가 발생했습니다. (AN-177394)
+* 자유 형식 테이블 내의 세그먼트 패널에 편집 옵션이 누락되는 문제가 해결되었습니다. (AN-171703)
+* 대규모 수신자와 **[!UICONTROL 공유할 때 랜딩 페이지]** 기능이 작동하지 않던 문제가 해결되었습니다. (AN-163922)
+* 문자열이 실시간 보고서에서 세로로 잘렸던 문제를 수정했습니다. (AN-175980)
 
 **기타 Analytics 수정 사항**
 
-* [!DNL Audience Analytics]: 대상 이름이 변경된 [!DNL Audience Manager (AAM)] 후에 발생하던 문제를 수정했습니다. 업데이트된 이름은 대상 분석에서 반영되지 않았습니다. (AN-176237)
-* 사용자가 [! DNL Analytics 세그먼트 [!DNL Audience Manager]. 이 문제는 기존 AAM 폴더 이름에 대문자와 소문자가 혼용되어 발생한 것입니다. 이제 모든 폴더가 동기화되도록 대/소문자를 구분하지 않고 처리합니다. (AN-177934)
-* 사용자가를 (를) [!DNL Analytics] 통해 로그인했을 때 세션이 시간 [!DNL Experience Cloud] 초과되는 문제가 해결되었습니다. 세션을 재개할 때 사용자가 결함이 있는 URL로 리디렉션됩니다. (AN-176812)
-* 요청의 시간대 오프셋 문제를 [!DNL Data Warehouse] 수정했습니다. (AN-177585)
+* 관리 사용자가 성공 이벤트를 활성화할 **[!UICONTROL 수]** 없는 문제를 해결했습니다. (AN-176689)
+* **[!UICONTROL 종료 비율]** 지표로 경고를 만들 때 발생하던 문제를 수정했습니다. (AN-177476)
 
 ### Analytics 관리자에 대한 중요 공지 {#aa-notices}
 
 | 알림 | 추가한 날짜 업데이트한 날짜 | 설명 |
 | -----------| ---------- | ---------- |
-| **[!UICONTROL Date-Enabled]** 및 **[!UICONTROL Numeric 2 분류에 대한 향후 지원 변경 사항]** | 업데이트 날짜: 2019년 5월 28일 | Numeric 2 및 날짜 지원 분류를 가져오는 기능이 코드베이스에 제거됩니다. 이 변경 사항은 2019 년 7 월 유지관리 릴리스에서 적용됩니다. 가져온 파일에 숫자 또는 활성화된 날짜 열이 있는 경우 해당 셀은 자동으로 무시되며, 해당 파일의 다른 모든 데이터는 정상적으로 가져와집니다. <br/>기존 분류는 여전히 표준 분류 워크플로우를 통해 내보낼 수 있으며, 보고에서 계속 사용할 수 있습니다. |
+| 분류 규칙 빌더 제한 | 2019 년 6 월 5 일에 추가된 날짜 | 이러한 제한 사항은 새로운 것이 아니지만 여기에 설명서가 [추가되었습니다](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html). |
+| 새 세그먼트 연산자 제한 | 2019 년 5 월 31 일에 추가된 날짜 | 2019 년 7 월 18 일부터, 세그먼트 연산자에 &quot;contains any of&quot;, &quot;contains any of&quot;, &quot;contains all of&quot; 및 &quot;does not contain all of words are limited to 100 words per input field. 이 날짜 이후로 모든 신규 세그먼트와 수정된 세그먼트에 한도가 적용됩니다. 한계를 초과하는 기존 세그먼트는 계속 지원되지만 입력 필드가 감소될 때까지 수정하거나 저장할 수 없습니다. 이러한 제한은 쿼리 성능을 향상시키기 위한 지속적인 노력의 일환으로 적용됩니다. |
+| **[!UICONTROL Date-Enabled]** 및 **[!UICONTROL Numeric 2 분류에 대한 향후 지원 변경 사항]** | 업데이트 날짜: 2019년 5월 28일 | 숫자 2와 활성화된 날짜 분류를 가져오는 기능이 코드 베이스에서 제거되었습니다. 이 변경 사항은 2019 년 7 월 유지관리 릴리스에서 적용됩니다. 가져온 파일에 숫자 또는 활성화된 날짜 열이 있는 경우 해당 셀은 자동으로 무시되며, 해당 파일의 다른 모든 데이터는 정상적으로 가져와집니다. <br/>기존 분류는 여전히 표준 분류 워크플로우를 통해 내보낼 수 있으며, 보고에서 계속 사용할 수 있습니다. |
 | _보고서 총계_ 계산과 관련한 변경 예정 | 업데이트 날짜: 2019년 5월 2일 | **2019년 6월 13일** 에 Adobe Analytics는 모든 차원 및 지표에서 _보고서 총계_를 동일하게 변경할 예정입니다. 이를 통해 일부 보고서(예: Prop 또는 고객 특성 보고서)의 총계가 변경됩니다. 본 변경에 앞서 일부 보고서 총계는 보고서에서 _미지정_으로 표시되는지의 여부와 관계없이, 총계의 _미지정_ 라인 항목에 일관성 없이 포함되거나 제외됩니다. <br/>2019년 6월 13일부터, _미지정_ 항목은 보고서의 라인 항목으로 표시되지 않는 경우에도 보고서 총계에 항상 표시됩니다. 또한 _존재하는_ 논리 또는 _존재하지 않는_ 논리를 사용하는 세그먼트는 이러한 변경 이후 일부 차원에 대해 다른 결과가 나타날 수 있습니다. 본 변경은 Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder 및 Reporting API에 적용됩니다. |
 | CSV 다운로드로 업데이트 [!DNL Analysis Workspace] | 2019년 4월 10일 | 2019 년 4 월 11 일부터 내보낸 데이터에서 서식을 제거하기 위해 **[!UICONTROL CSV 다운로드]** (및 **[!UICONTORL 클립보드에 복사]**) [!DNL Analysis Workspace] 가 몇 가지 변경되었습니다.  <ul><li>천 단위 구분 기호는 더 이상 포함되지 않습니다. 소수점 구분 기호는 계속해서 포함되며, **[!UICONTROL 구성 요소 &gt; 보고서 설정 &gt; 천 단위 구분 기호]** 에 정의된 형식을 따릅니다. 참고: 쉼표를 소수점 구분 기호로 사용하는 숫자 값은 내보낸 CSV에서 계속 따옴표로 표시됩니다.</li><li>통화 기호가 표시되지 않습니다.</li><li>퍼센트 기호가 표시되지 않습니다. 백분율은 10진수 형식입니다. 예를 들어, 75%는 0.75로 표시됩니다.</li><li>시간은 초 단위로 표시됩니다.</li><li>집단 테이블은 원시값만 표시합니다. 백분율이 제거됩니다.</li><li>숫자가 올바르지 않으면 빈 셀이 표시됩니다.</li></ul> |
 | 예정된 [!DNL Analysis Workspace] 디버거 명령 변경 | 2019년 4월 4일 | [!DNL Analysis Workspace] 디버거를 켜려는 콘솔 명령은 2019 **년 6 월 13 일에 Adobetools. debug. includeoberonxml로 변경됩니다**. adobe.tools.debug.includeOberonXml은 이 날짜 이후에 작동이 중지됩니다. |
@@ -100,14 +94,17 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 
 ## Audience Manager {#aam}
 
-| 기능 | 설명 |
-| -----------| ---------- |  
-| [IP 주소 난독화](https://marketing.adobe.com/resources/help/en_US/aam/ip-obfuscation.html) | 회사에서 글로벌 개인 정보 보호 규정으로 인해 여러 국가의 IP 주소를 난독 처리하려고 할 수 있습니다. Audience Manager를 사용하면 글로벌 또는 국가별로 방문자 IP 주소를 난독 처리할 수 있습니다. |
-| [사용자 지정 파트너 통합 - Oracle Data Cloud](https://marketing.adobe.com/resources/help/en_US/aam/custom-partner-integrations.html) | 이 페이지에 Audience Manager와 데이터 파트너 간의 사용자 지정 통합 목록이 표시됩니다. Audience Manager는 인바운드 데이터 파일을 통해 Oracle Data Cloud for Audience Marketplace의 쿠키 및 모바일 ID 데이터를 통합합니다. 이 페이지에 설명된 사용자 지정 통합 사양은 모바일 ID(IDFA 및 Android 장치 ID)가 포함된 인바운드 데이터 파일만을 참조합니다. |
-
 **수정 사항, 개선 사항 및 중단 사항**
 
-* 대상에 대한 일반 보고서에 두 개의 열을 새로 추가했습니다. 이제 대상의 세그먼트 매핑에 대한 시작 날짜와 종료 날짜를 확인할 수 있습니다. (AAM-44781)
+* 이제 Audience Manager는 사용 제한에 대해 활성 알고리즘 모델을 카운트합니다.
+* 해당 모델을 사용하는 트레이트에 알고리즘 모델 도달이 표시되지 않는 문제를 해결했습니다.
+* 트레이트 폴더 컨텐츠를 표시하지 않고 폴더 이름에 대괄호가 포함된 문제를 해결했습니다.
+* 특성 유형을 하나만 선택할 때 트레이트 정렬이 실패하는 문제를 해결했습니다.
+* 트레이트 폴더 트리가 새 하위 폴더를 만들거나 업데이트할 [!UICONTROL 때마다 모든 특성] 보기로 축소되는 문제를 해결했습니다.
+* 파트너 삭제를 시도할 때 view_ Datasources 권한이 필요한 문제를 해결했습니다.
+* 세그먼트 페이지의 [!UICONTROL 검색] 상자가 선택된 [!UICONTROL 폴더 대신] 모든 폴더에서 검색되는 문제를 해결했습니다.
+* 새로운 알고리즘 모델을 만들 때 헤더 컨트롤을 통해 트레이트 [!UICONTROL 제외] 테이블을 정렬하는 문제를 해결했습니다.
+* 빈 간격 날짜가 있는 보고서를 실행할 때 Audience Manager가 충돌하는 문제를 해결했습니다.
 
 ## Experience Manager {#aem}
 
@@ -115,45 +112,95 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 내용 및 업데이�
 
 ### 제품 릴리스
 
-**AEM 6.5**
+**Cloud Manager 2019.5.0**
 
-2019년 4월 8일부터 사용 가능한 AEM 6.5는 AEM 6.4 코드베이스에 대한 업그레이드 릴리스입니다. AEM 6.5에 대한 최신 업데이트를 통해 비즈니스를 더욱 빠르게 성장시킬 수 있는 흥미로운 개선 사항에 즉시 액세스할 수 있습니다.
+최신 Cloud Manager 릴리스 (2019.5.0) 는 몇 가지 버그 수정 사항을 제공하긴 하지만 상당한 기능 변경 사항을 포함하지 않습니다.
 
-* [Adobe Experience Manager 6.5의 새로운 기능](https://www.adobe.com/marketing/experience-manager/new.html)
-* [Adobe Experience Manager 6.5 릴리스 노트](https://helpx.adobe.com/experience-manager/6-5/release-notes.html)
+* [Cloud Manager 2019.5.0 릴리스 노트](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/release-notes/release-notes-current.html)
 
-**Cloud Manager 2019.4.0**
+**AEM용 XML 설명서**
 
-최신 Cloud Manager 릴리스(2019.4.0이 2019년 4월 18일에 릴리스됨)는 프랑스어, 독일어 및 일본어로 현지화된 사용자 인터페이스를 추가합니다. 또한 배포 단계가 개선되었습니다.
+XML 설명서 솔루션에 대한 3.3 릴리스를 현재 사용할 수 있습니다. 다음 릴리스 노트를 참조하십시오.
 
-* [Cloud Manager 2019.4.0 릴리스 노트](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/release-notes/release-notes-current.html)
+***고급 맵 기능***
+* 저장소 보기에서 드래그하여 놓거나 가로 막대형 및 요소 카탈로그를 사용하여 주제 참조를 추가합니다.
+* nav title, chunk, like nav 제목, 형식, 범위 등에 메타데이터를 추가합니다.
+* 주제 참조를 클릭하면 편집기에서 주제가 열립니다 (체크아웃되지 않은 경우 미리 보기 모드 사용 및 체크아웃으로 편집을 비활성화함 사용).
+* 토픽 헤드 및 토픽 그룹을 추가합니다.
+* frontmatter (주제, 서체, 책 목록, 고지 사항 등) 와 배경 (주제, 부록, 용어집 등) 로 책맵을 추가합니다.
+* 작성 모드에서는 끊어진 링크가 강조 표시되고, 탐색 표시가 표시되고, 전체 태그 보기가 사용할 수 있습니다.
+* 맵 수준 속성을 설정하는 기능.
+* 제목/책갈피 설정 기능.
+* Rel 헤더 추가, 열, 맵에서 항목 드래그/드롭 항목을 Rel 테이블로 드래그, 링크, 범위 및 기타 링크에 대한 기타 매개 변수를 설정하는 기능을 사용하여 reltables에 대한 지원을 셀 내에서 재정렬합니다.
+* 이전에 삽입할 도구 모음 widget, 뒤에 삽입 및 요소 삽입.
+* 조건이 항목에 적용되는 경우 강조 표시됩니다.
+* 한 번에 여러 맵을 편집할 수 있습니다 (각 맵은 동일한 브라우저에서 탭으로 열림).
+* 맵 패널 및 저장소 보기에서 마우스를 놓을 때 전체 토픽 제목과 파일 이름을 표시합니다.
 
-### 제품 유지 관리
+***전체 태그 보기***
 
-**AEM 6.4.4.0**
+* 두 요소 사이에 새 태그를 삽입합니다.
+* 태그를 복사하여 붙여넣습니다.
+* 허용되는 위치에 태그를 드래그하여 놓고 파일 내에서 삽입할 수 없습니다.
+* 태그를 확장하거나 축소합니다.
 
-2019년 4월 4일에 릴리스된 AEM 6.4 서비스 팩 4(6.4.4.0)는 2018년 4월, AEM 6.4의 공식 출시 이후 릴리스된 주요 고객 수정 사항을 포함하는 중요한 업데이트입니다.
+***향상된 DITA 별 검색 기능***
 
-[AEM 6.4 서비스 팩 릴리스 노트](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html)
-[AEM 양식 릴리스](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
+* 선택한 컨텐츠를 다시 색인화하는 일련화 도구를 제공했습니다.
+* 사용자가 사용하고 `contains``exact match` 검색할 수 있습니다. 또한 다음 매개 변수를 사용하여 검색할 수도 있습니다. :
+   * 자산 메타데이터를 참조하십시오. 예: `file name`, `title`또는 고객이 정의한 사용자 지정 메타데이터.
+   * DITA 속성 이름 및 값. 예, `platform=winOS`.
+   * DITA 요소 이름 및 해당 값. 예, `author = Joe Smith`.
+   * DITA 요소 이름 및 적용된 속성. 예를 들어 product = spacebase 속성 이름/값 쌍이 적용된 표가 여기에 적용됩니다.
+   * DITA 주제 및 맵 메타데이터.
+   * DITA 정보 유형. For exam [ple, map, topic, concept.
+   * 루트 폴더 경로를 참조하십시오.
+   * 문서 상태.
+   * 체크아웃 상태.
+   * 날짜 범위를 수정했습니다.
+   * CQ 태그.
+* 위의 검색 매개 변수 중 하나 이상을 결합하여 복잡한 쿼리를 만들 수 있습니다.
 
-**AEM S3 Connector**
+***검토 기능 변경 사항***
 
-2019년 6월 24일에 서명 버전 2에 대한 지원 종료 이후, S3 데이터 저장소 커넥터를 사용하는 AEM 인스턴스를 사용할 수 없을 수 있습니다. AEM 고객으로서, 사용 중인 S3 데이터 저장소 커넥터의 버전을 확인하는 것이 좋습니다. 필요한 경우 최신 버전으로 업데이트하십시오.
+* 검토자용 팁:
+   * 3.3 빌드로 업그레이드하기 전에 모든 주석을 가져와 진행 중인 검토에 대한 변경 사항을 통합할 수 있습니다.
+   * 편집기에 대해 여러 탭이 열려 있지 않은지 확인합니다.
+   * 전체 태그 보기가 활성화되어 있지 않은지 확인합니다.
+   * 검토 진행 중에 작성자 모드와 소스 모드 간을 전환하지 마십시오.
+* 검토할 내 컨텐트의 버전을 지정하는 기능
+* 기준선, 날짜, 레이블 또는 현재 활성 버전을 기반으로 선택한 항목 버전을 선택하거나, 검토를 만드는 동안 각 주제에 대한 버전을 지정할 수 있습니다.
+* 검토용 주제/맵을 여러 번 보내고 작성자는 편집기의 검토 패널에 있는 모든 검토 작업에 액세스할 수 있습니다.
+* 개시자는 검토자에 대해 최신 버전의 콘텐트를 푸시할 수 있습니다. 검토자는 새 컨텐츠를 검토할 때 알림을 받게 됩니다.
+* 작성자는 편집기의 검토 패널에서 모든 버전의 컨텐츠에 대한 검토 주석을 볼 수 있습니다. 작성자는 버전 번호별로 주석을 필터링할 수 있습니다.
+* 작성자 사용자는 검토 중이었던 편집기에서 이전 버전의 컨텐츠에서 주석을 보고 가져올 수 있습니다.
 
-자세한 내용은 [Amazon S3용 AWS 서명 버전 2 사용 중단의 영향](https://helpx.adobe.com/experience-manager/kb/the-impact-of-aws-signature-version-2-deprecation-for-amazon-s3.html)을 참조하십시오.
+***기타***
 
-### 사용자 도움말
+* 저장소 보기에서 새 폴더, 주제 또는 맵을 만듭니다.
+* 자산 UI에서 보기 - &quot;자산 UI에서 보기&quot; 와 폴더 및 주제 모두에 대한 메뉴 옵션을 추가합니다. 이 옵션은 자산 UI를 엽니다. 여기서 사용자는 왼쪽의 컨텐츠 트리를 보고 맨 위에는 모든 자산 메뉴가 있는 모든 파일이 표시됩니다.
+* 검토 대시보드는 이제 검토 수준 및 검토 작업 수준에서 검토를 추적하는 타일로 DITA 프로젝트에 사용할 수 있습니다.
+* IDML를 DITA로 변환하는 기능이 추가되었습니다.
+* 지정된 모든 버전에 지정된 레이블을 적용하려면 API를 제공합니다.
+* XHTML/DOCX에서 DITA 로의 변환이 완료된 후 이벤트를 활성화합니다. 이 이벤트를 사용하여 변환된 컨텐츠 또는 구현해야 하는 기타 모든 사용자 지정 논리에 특수 속성을 추가할 수 있습니다.
+* 기본 성능 탭 기능이 개선되었습니다. 사용자는 먼저 모든 기존 기준선에서 스크립트를 실행해야 합니다.
+* XHTML에서 DITA 로의 변환이 향상되었습니다.
+* 게시 최적화를 위한 DITA-OT 오프로드.
+* 목록 보기의 유형 열에서 정렬을 수정했습니다.
+* Word에서 계단식 스타일을 DITA로 변환하는 기능이 지원됩니다.
 
-**AEM Sites 코드베이스 현대화**
+### 커뮤니티
 
-최신 AEM 기술을 활용하여 AEM Sites 코드베이스를 현대화하는 방법을 알아봅니다. [기존 Adobe Experience Manager Sites 코드 베이스 현대화](https://expleague.azureedge.net/labs/L761/index.html)
+**[Cloud Manager Skill Builder 웨비나 시리즈](https://cloudmanagerskillbuilder.experienceleague.adobeevents.com/)**
 
-**AEM 리치 텍스트 편집기 - 자세히 알아보기**
+Adobe Experience Manager Management의 일상적인 활동을 간소화하는 데에도 관심이 있으십니까? 클라우드 관리자는 조직이 Devops 변환을 시작하든 기존 devops 프로세스를 강화할 전략을 모색하고 있는지 상관없이 클라우드 민첩성을 구현하는 Adobe Experience Manager의 1 세대 클라우드 기본 기능을 제공합니다.
 
-AEM에서 리치 텍스트 편집기 사용 및 다양한 구성에 대한 권장 지침을 알아봅니다.
+[이번 월별 시리즈에서는](https://cloudmanagerskillbuilder.experienceleague.adobeevents.com/)Adobe 제품 팀에서 클라우드 관리자 기능을 사용하여 클라우드에서 Adobe Experience Manager 관리를 간소화하는 방법에 대해 직접 배울 수 있습니다.
 
-[AEM RTE(리치 텍스트 편집기) 자세히 알아보기](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Rich-Text-Editor-RTE-Deep-Dive1.html)를 참조하십시오.
+다음을 학습합니다.
+* 클라우드 관리자를 시작하는 방법 및 CI/CD 파이프라인 설정 방법
+* 자동 크기 조절 및 투명한 서비스 제공 방식을 사용하고 클라우드에서 Adobe Experience Manager 환경 관리를 간소화할 수 있는 방법
+* 클라우드 관리자 API를 사용하고 기존의 devops 프로세스를 통합하는 방법
 
 ### 추가 리소스
 
@@ -170,46 +217,53 @@ AEM에서 리치 텍스트 편집기 사용 및 다양한 구성에 대한 권�
 
 Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적이고, 자동화된 방식으로 일대일 메시지를 제공합니다. 이제 고객이 습관 및 선호도에 따라 결정된 작업 환경을 통해 원하는 사항을 예측할 수 있습니다.
 
-* Campaign Classic 18.10.4 - Build 8983
-* Campaign Classic 18.10.5 - Build 8984
+### Campaign Classic 19.1 봄 릴리스
+
+| 기능 | 설명 |
+| ------------- | ----------- |
+| 제어판 | 관리자 사용자로 작업의 효율성을 높이려면 저장소 모니터링, IP 주소 허용 및 각 인스턴스에 대한 SSH 키 설치를 통해 SFTP 서버의 설정을 관리합니다. 참고 패널은 오늘부터 AWS를 통해 호스팅되는 고객에게만 제공됩니다. [Experience Cloud를 통해 로그인합니다](https://experiencecloud.adobe.com/campaign/controlpanel/). <br> 자세한 내용은 [자세한 설명서](https://helpx.adobe.com/campaign/kb/control-panel.html) 및 [사용 방법 비디오를](https://helpx.adobe.com/campaign/kt/acc/using/acc-control-panel-video-use.html)참조하십시오. |
+| 감사 추적 | 관리자는 Adobe Campaign Classic 인스턴스 내에서 수행한 변경 사항을 모니터링하고 관리하여 생산성을 높입니다. 감사 추적은 소스 스키마, 워크플로우 및 옵션에서 수행한 작업을 기록합니다. 요소를 생성, 수정 또는 삭제했는지 여부를 빠르게 확인할 수 있습니다.<br>자세한 내용은 [자세한 설명서](https://docs.campaign.adobe.com/doc/AC/en/PRO_Production_procedures_Audit_trail.html) 및 [사용 방법 비디오를](https://helpx.adobe.com/campaign/kt/acc/using/acc-audit-trail-feature-video-use.html)참조하십시오. |
+| Guardrail, Robustness 및 Scalability | 일련의 향상된 기능이 Campaign Classic에 추가되었습니다. 캠페인 Classic 릴리스 노트에 Guardrail, Robustness 및 [확장 기능이 개선되었습니다](https://docs.campaign.adobe.com/doc/AC/en/RN.html). |
+| 보안 SMS 메시징 (TLS) | 보안 SMS는 이제 확장된 일반 SMPP 커넥터를 통해 지원됩니다. 이를 통해 공급자에 암호화된 연결을 허용할 수 있습니다. <br>[ 자세한 내용은 상세 문서를 참조하십시오](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html). |
+| 호환성 매트릭스 업데이트 | 이 새 버전에서는 Adobe Campaign 이 이제 다음의 데이터베이스 시스템을 지원합니다. [호환성 표 참조](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) <ul><li>Oracle 18 c</li><li>MySQL 5.7 (FDA)</li><li>SQL Server 2017</li><li>Teradata 16 (FDA)</li><li>Postgresql 11</li></ul> |
 
 수정 사항 및 개선 사항은 [Adobe Campaign Classic 릴리스 노트](http://docs.campaign.adobe.com/doc/AC/en/RN.html)를 참조하십시오.
+
+### Campaign Standard 19.2 봄 릴리스
+
+| 기능 | 설명 |
+| ------------- | ----------- |
+| 제어판 | 관리 사용자로 작업의 효율성을 높이려면 인스턴스의 용량을 쉽게 모니터링하고 인스턴스의 설정을 관리할 수 있습니다 (SFTP 서버 관리 시작). <br> 자세한 내용은 [자세한 설명서](https://helpx.adobe.com/campaign/kb/control-panel.html) 및 [사용 방법 비디오를](https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html)참조하십시오. |
+| 로컬 알림 | 로컬 알림 메시지를 사용하면 인터넷 또는 전경의 모바일 애플리케이션에 액세스하지 않고도 모바일 애플리케이션에서 새로운 데이터를 사용할 수 있게 되면 사용자에게 알릴 수 있습니다. 로컬 알림은 특정 시간 및 이벤트에 따라 모바일 응용 프로그램에서 트리거됩니다.<br>[자세한 내용은 상세 문서를 참조하십시오](https://helpx.adobe.com/campaign/standard/channels/using/customizing-an-in-app-message.html#customizing-a-local-notification-message-type). |
+| 향상된 워크플로우 - 외부 신호 활동에 페이로드를 추가할 수 있습니다. | 다른 워크플로우나 REST API 호출에서 정의된 조건이 성공적으로 충족되면 페이로드를 사용하여 워크플로우를 시작하여 외부 시스템과 통합합니다. 여기에는 이 기능에 대한 테스트를 실행할 수 있는 새 테스트 활동이 포함되어 있습니다. <br>자세한 내용은 [자세한 설명서](https://helpx.adobe.com/campaign/standard/channels/using/customizing-an-in-app-message.html#customizing-a-local-notification-message-type) 및 [사용 방법 비디오를](https://helpx.adobe.com/campaign/kt/acs/using/acs-external-signal-activity-feature-video-use.html)참조하십시오. |
+| 랜딩 페이지 개선 - Google recaptcha | Google recaptcha를 활용하면 고객의 행동 없이 랜딩 페이지에서 스팸을 방지할 수 있습니다. <br>[자세한 내용은 상세 문서를 참조하십시오](https://helpx.adobe.com/campaign/standard/channels/using/designing-a-landing-page.html#setting-google-recaptcha). |
 
 제품 설명서의 경우 다음을 참조하십시오.
 
 * Adobe Campaign Standard: [설명서](https://helpx.adobe.com/support/campaign/standard.html) - [ 릴리스 노트](https://helpx.adobe.com/campaign/standard/rn/using/release-notes.html) - [ 기능 비디오](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html)
 * Adobe Campaign Classic: [설명서](https://helpx.adobe.com/support/campaign/classic.html) - [릴리스 노트](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [ 기능 비디오](https://helpx.adobe.com/campaign/kt/acc/index/acc-videos.html)
 
+## Mobile Services {#mobile}
+
+* 모든 Adobe 서버에서 TLS 1.0 이 비활성화되었습니다. SSL를 통해 Adobe 서비스에 연결할 Android 4. x 장치의 경우, SDK가 핸드셰이크를 설정할 때 TLS 1.1/TLS 1.2가 강제로 적용됩니다.
+
 ## Advertising Cloud {#adcloud}
 
-| 기능 | 설명 |
-| -----------| ---------- |  
-| 검색 도구 | (Google 광고 계정이 있는 광고주) Advertising Cloud에서는 Advertising Cloud 전환 추적 서비스를 사용하는 Google 광고 캠페인을 추적하여 모든 변환 데이터를 Google 광고에 선택적으로 업로드할 수 있습니다. 일별 업로드에는 광고주 수준의 속성 모델을 사용하여 정의된 변환 값이 포함됩니다. 업로드된 모든 변환에는 &quot;Adobe_ACS_&quot; 접두사가 추가됩니다(예: &quot;Subscriptions&quot; 변환의 경우 &quot;Adobe_ACS_Subscriptions&quot;). <br/> **참고:** 이 업로드에는 피드 파일에서 Advertising Cloud에 업로드되는 변환 데이터가 포함되지 않습니다. |
-| 캠페인 검색 | **검색** &gt; **캠페인** &gt; **캠페인의** 메뉴는 이제 계정 아래의 캠페인과 함께 계층적 상태입니다. 캠페인 아래의 광고 그룹; 키워드 (하위 메뉴가 있음), 광고, 제품 그룹 (라이브 보기만), 배치 (하위 메뉴가 있는 경우), 광고 그룹 아래의 자동 타겟이 있습니다.<br/>라이브 뷰에서 대상 및 확장자는 자체 하위 메뉴가 있는 계정과 동일한 수준에 있습니다. |
+업데이트 날짜: 2019년 5월 6일, 6월 8일 릴리스
 
-## Target Standard/Premium 19.5.1 {#target}
+| 제품 | 기능 | 설명 |
+| -----------| ---------- | ----------  |
+| 캠페인 검색, 레이블 분류 및 제한 | 키보드 단축키 | <b>이제 Shift 키를 누른 상태로 여러</b> 개의 연속 행을 선택할 <b>수 있으며 연속되지</b> 않은 여러 행을 선택할 수 있습니다. |
+|  | 페이지 모두를 선택하고 모두를 선택합니다. | 데이터 테이블에서 맨 위 확인란을 선택하여 모든 행을 선택하는 경우 새 기본값은 페이지에서 모든 행을 선택하는 것입니다 (25 행, 50 행, 100 행, 200 행 또는 연속 스크롤 기준). 사용할 수 있는 모든 행을 선택할 수 있는 옵션이 있습니다. |
+| 기본 보기, 사용자 정의 보기 및 독립형 열 사용자 정의 설정 | 열 순서 다시 지정 | 새로운 위쪽 및 아래쪽 단추를 사용하여 열 순서를 변경할 수 있습니다. 이전 경우처럼 열을 드래그하여 놓아 순서를 변경할 수 있습니다. |
 
-이 릴리스에는 다음과 같은 기능, 변경 사항 및 개선 사항이 포함되었습니다.
+## Target Standard/Premium 19.6.1(2019년 6월 25일) {#target}
 
-(괄호 안의 문제 번호는 내부 Adobe용입니다.)
+최신 릴리스 정보에 대해서는 Adobe Target 릴리스 노트를 참조하십시오.
 
-### 기능 업데이트
+[Target 릴리스 노트(사전 릴리스)](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html)
 
-| 기능/향상 | 설명 |
-| --- | --- |
-| SPA VEC(Single Page App Visual Experience Composer) | SPA VEC에는 작업을 보다 빠르고 효율적으로 수행할 수 있도록 다음과 같은 개선 사항이 포함되어 있습니다.<ul><li>이제 VEC에서 웹 사이트 로드를 취소하여 활동 편집을 차단 해제할 수 있습니다. 이 개선 사항은 활동을 약간 편집하거나, 설정을 검토하거나, 사용자 지정 코드를 추가하고 사이트가 로드될 때까지 기다리지 않으려는 경우에 유용합니다. (TGT-33872)</li><li>페이지가 VEC에 로드되기 전에 또는 페이지가 완전히 로드되지 않은 경우에도 여러 작업을 수행할 수 있습니다(예: 사용자 지정 코드가 더 이상 작동하지 않음). 사이트가 로드되기 전에 편집할 수 없는 작업은 Target UI에서 비활성화됩니다. (TGT-33851 및 TGT-34149)</li></ul> |
-| AP(자동화된 개인화) 및 자동 타겟 활동 | AP 또는 자동 타겟 활동을 작성하는 동안 컨트롤로 사용할 환경을 선택할 수 있습니다. 이 기능을 사용하면 활동에 구성된 트래픽 할당 비율에 따라 전체 제어 트래픽을 특정 환경으로 라우팅할 수 있습니다. 그런 다음 제어 환경에 대해 개인화된 작업 성능을 평가할 수 있습니다. (TGT-26572) |
-| 권장 사항 | 최근에 본 항목 로직을 생성하는 동안 이전에 구입한 추천 항목 전환을 사용할 수 있습니다. (TGT-34030) |
-
-### 개선 사항, 수정 사항 및 변경 사항
-
-* VEC 내에서 페이지 로드를 취소하면 도구 모음 아이콘이 적절하게 표시됩니다. 페이지가 완전히 로드될 때까지 특정 작업을 수행할 수 없는 경우 연관된 도구 모음 아이콘이 비활성화됩니다. (TGT-33811)
-* 이제 일반 폴더 계층 구조를 탐색하는 대신 자산 선택기에서 오퍼 폴더를 통해 보다 쉽게 나열하고 탐색할 수 있습니다. (TGT-33725)
-
-다음 제품에 대한 최신 릴리스 정보가 필요하면 [Adobe Target 릴리스 노트](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html)를 참조하십시오.
-
-* Target Standard 및 Target Premium
-* Recommendations Classic 
+[Target 릴리스 노트(현재)](https://docs.adobe.com/content/help/en/target/using/release-notes/release-notes.html)
 
 ## Magento {#magento}
 
