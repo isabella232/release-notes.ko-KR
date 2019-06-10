@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019년 3월
 author: mfrei
 translation-type: ht
-source-git-commit: 147b01562e6c8d579a2bec0e4fa2841d1791a671
+source-git-commit: 0a0d683509026758d5fb80742e29e6addf7ba6f8
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 147b01562e6c8d579a2bec0e4fa2841d1791a671
 | 짧은 Analytics 보고서 링크 | 2019년 1월 14일 | 1년 안에 방문하지 않은 짧은 Analytics 보고서 링크는 롤링 일정에서 2019년 1월 17일, 목요일부터 정리되고 삭제됩니다. |
 | TLS 1.0 지원 종료 | 업데이트 날짜: 2019년 1월 10일 | 2019년 2월 11일부터 Adobe Analytics 보고에서는 더 이상 TLS(Transport Layer Security) 1.0 암호화를 지원하지 않습니다. 이 변경은 가장 높은 보안 표준을 유지하고 고객 데이터의 안전을 홍보하기 위해 진행 중인 노력의 일환입니다. 2019년 2월 11일 이후에도 Adobe Analytics 보고에 연결할 수 없는 경우 브라우저를 [최신 버전](https://marketing.adobe.com/resources/help/ko_KR/sc/user/requirements.html)으로 업그레이드해야 합니다.<br/> 2019년 2월 20일부터 Adobe Analytics Data Collection에서는 더 이상 TLS 1.0을 지원하지 않습니다. 이 변경으로, Adobe에서는 더 이상 TLS 1.1 이상을 지원하지 않는 이전 장치 또는 웹 브라우저를 사용하는 최종 사용자의 Analytics 데이터를 수집하지 않습니다. 이렇게 해도 고객 데이터 또는 보고에 큰 영향을 주지는 않습니다. (웹 사이트에서 TLS 1.0을 지원하지 않는 경우는 영향을 받지 않습니다.) <br/>2019년 4월 11일부터 Adobe Analytics Reporting API는 더 이상 TLS 1.0 암호화를 지원하지 않습니다. API에 액세스하는 고객은 자신들에게 영향이 없는지 확인해야 합니다. <br/>* Java 7을 기본 설정으로 사용하는 API 클라이언트는[ TLS 1.2](https://www.java.com/kr/configure_crypto.html)를 지원하도록 수정해야 합니다. (_클라이언트 종단점에 대한 기본 TLS 프로토콜 버전을 TLS 1.0에서 TLS 1.2로 변경_을 참조하십시오.) <br/>* Java 8을 사용하는 API 클라이언트는 기본 설정이 TLS 1.2이므로 영향을 받으면 안 됩니다. <br/>* TLS 1.2 지원에 대한 자세한 내용은 다른 프레임워크를 사용하는 API 클라이언트가 해당 공급업체에 문의해야 합니다. |
 | TLS 1.0에 대한 지원 종료로 인해 Adobe Report Builder 업데이트 | 2018년 9월 7일 | TLS 1.0에 대한 지원 종료로 인해 Adobe는 ARB(Adobe Report Builder) 사용자가 2019년 2월 7일 이전에 ARB v5.6.21을 다운로드하도록 권장하였습니다. **해당 날짜 이후, 이전 버전의 ARB는 더 이상 작동하지 않습니다.** |
-| Analysis Workspace에서 CSV 다운로드로 업데이트 | 2019년 1월 9일 | 2019년 2월 7일부터 Analysis Workspace에서 CSV 다운로드(및 클립보드에 복사) 항목에는 더 이상 천단위 구분 기호가 포함되지 않습니다. 참고: Analysis Workspace UI는 천단위 구분 기호를 계속 표시합니다. 또한 소수점 구분 기호는 계속 포함되며, **[!UICONTROL 구성 요소]** &gt; **[!UICONTROL 보고서 설정]** &gt; **[!UICONTROL 천단위 구분 기호]**에 정의된 형식을 준수합니다. |
+| Analysis Workspace에서 CSV 다운로드로 업데이트 | 2019년 1월 9일 | 2019년 2월 7일부터 Analysis Workspace에서 CSV 다운로드(및 클립보드에 복사) 항목에는 더 이상 천단위 구분 기호가 포함되지 않습니다. 참고: Analysis Workspace UI는 천단위 구분 기호를 계속 표시합니다. 또한 소수점 구분 기호는 계속 포함되며, **[!UICONTROL 구성 요소]** &gt; **[!UICONTROL 보고서 설정]** &gt; **[!UICONTROL 천단위 구분 기호]** 에 정의된 형식을 준수합니다. |
 | 데이터 피드: post_product_list 열 - 크기 변경 | 2019년 1월 9일 | Adobe는 2019년 2월 7일부터 post_product_list 열 크기를 64MB에서 16MB로 확장할 예정입니다. 이 변경은 처리 중에 post_product_list에 추가된 머천다이징 eVar 값이 제품 및 수익 값을 자르지 않도록 하기 위한 것입니다. post_product_list 값을 수집하는 프로세스가 있는 경우 해당 프로세스가 길이에서 최대 16MB의 값을 처리할 수 있는지 확인하거나 데이터 수집 실패를 방지하기 위해 16KB에서 값을 자릅니다. |
 | 관리 변경 사항은 비활성 Analytics 라이브 스트림 종단점에 영향을 줌 | 2018년 12월 20일 | 2019년 2월 1일부터 90일 동안 활성 소비자 연결이 없는 라이브 스트림 종단점은 비활성화될 수 있습니다.  고객 지원 담당자에게 연락하여 라이브 스트림 종단점에 대해 문의하고, 필요한 경우 다시 활성화할 수 있습니다. 또한 소비자 프로세스가 서비스 설계에 의도한 대로 지속적 연결을 유지하도록 하고, 연결이 끊기거나 중단되는 경우 다시 연결하도록 구현되어 있는지 확인하십시오. |
 | Dallas FTP 서버 마이그레이션(ftp2.omniture.com) | 2018년 10월 19일 | 2018년 10월 23일에 SFTP 프로토콜을 통해 ftp2.omniture.com에 연결하는 경우 SJ1 사이트의 호스트 식별자를 다시 허용해야 할 수 있습니다. 이 문제는 10월 23일에만 적용됩니다. [Adobe FTP 서버 업그레이드](https://marketing.adobe.com/resources/help/ko_KR/whitepapers/ftp/ftp_upgrade.html)를 참조하십시오. |
