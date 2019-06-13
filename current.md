@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019 년 6 월
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d216b079f73662c1d43e154b2a4e8195d09a2f18
+source-git-commit: 0c4355bbb17d5b67a8f136a07b7fc2a682441a01
 
 ---
 
@@ -58,6 +58,8 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 | **디버거** | Adobe ID로 로그인하면 이제 Experience Cloud 디버거에서 처리된 히트를 검색할 수 있는 옵션이 제공됩니다. 처리 후 히트는 [!UICONTROL 처리 규칙] 및 VISTA 규칙을 거친 후 서버 호출로서 [!UICONTROL 처리 규칙] 및 VISTA 규칙의 유효성을 확인할 수 있습니다. **** 참고: A 4 T (보충 지원) 를 사용하는 경우 후처리 데이터가 돌아오는 데 몇 분 정도 걸릴 수 있습니다. |
 | **Analysis Workspace:** | 왼쪽 레일 검색에 즉시 새로운 필터가 추가되었습니다. 현재 보이는 항목 (차원, 지표, 승인됨 등), 계산된 지표, 고객 속성, Evar, prop, 비디오 등의 새로운 필터 가 추가되었습니다. |
 | **Analysis Workspace** | 세그먼트를 터치포인트로 추가할 때 표시되는 폴아웃 시각화에 경고가 추가되었습니다. 특정 잘못된 세그먼트 컨테이너 조합에서는 잘못된 폴아웃 다이어그램이 <ul><li>방문자 기반 세그먼트를 방문자 컨텍스트 폴아웃 시각화를 통해 터치포인트로 사용</li><li>방문자 기반 세그먼트를 방문 컨텍스트 폴아웃 시각화 내의 터치포인트로 사용</li><li>방문 컨텍스트 폴아웃 시각화를 통해 방문 기반 세그먼트를 터치포인트로 사용</li></ul> <br> [자세히...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)</br> |
+| **분석 설명서 개선 사항** | 분석 설명서가 재구성되었습니다. 이제 콘텐츠를 개선할 수 있는 공동 작업 기능이 포함되어 있습니다. 문서에 대한 문제를 기록하고 편집을 제안할 수 있습니다. DOC 세트가 [새 도메인으로 이동되었습니다](https://docs.adobe.com/content/help/en/analytics/landing/home.html). 리디렉션이 제자리에 있어야 합니다. |
+| **새 기술 노트 사용자 안내서** | [이제 기술 노트 사용 안내서를](https://docs.adobe.com/content/help/en/analytics/technotes/home.html) 사용할 수 있습니다. 현재, Google Analytics와 같은 타사 분석 도구를 사용하는 사용자가 Adobe Analytics에 더욱 익숙해지도록 지원하기 위해 고안되었습니다. 기술 노트 사용 안내서는 추가 컨텐츠를 포함하도록 향후 몇 개월 동안 확장됩니다. |
 
 **Analysis Workspace 공간 수정 사항**
 
