@@ -5,22 +5,19 @@ doc-type: 릴리스 노트
 last-update: 2019 년 6 월
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1055e2ece605b5c1147f92cfd06cf103860e3d4c
+source-git-commit: d216b079f73662c1d43e154b2a4e8195d09a2f18
 
 ---
 
 
-# 조기 사용 - Adobe Experience Cloud 릴리스 노트
+# Adobe Experience Cloud 릴리스 노트
 
 Adobe Experience Cloud의 새로운 기능 및 수정 사항.
-
->[!IMPORTANT]
->이 페이지에는 출시 전 컨텐츠가 포함되어 있으며 계획된 출시 전에 변경될 수 있습니다.
 
 >[!NOTE]
 >예정된 릴리스에 대한 이메일 알림을 받으려면 [Adobe 우선 제품 업데이트](https://www.adobe.com/subscription/priority-product-update.html)에 가입하십시오. 업무일 기준으로 릴리스 3-5일 전에 공지를 받게 됩니다. 릴리스 후 게시된 새 정보는 발행 날짜로 표시됩니다.
 
-**릴리스 날짜: 2019 년 6 월**
+**릴리스 날짜: 2019년 6월 13일**
 
 * [Adobe Experience Platform](#platform)
 * [Analytics](#analytics)
@@ -56,8 +53,8 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 
 | 기능 | 설명 |
 | -----------| ---------- |  
-| **세그먼테이션** | 세그멘테이션의 차원 새로운 기여도 모델:<ul><li>반복 (기본값): 차원에 대한 인스턴스 + 지속적인 값을 포함합니다.</li><li>instance: 차원에 대한 인스턴스를 포함합니다.</li><li>반복되지 않는 인스턴스: 차원에 대한 고유 인스턴스 (반복되지 않음) 를 포함합니다.</li></ul> |
-| **세그먼테이션** | 새 세그먼트 연산자: **[!UICONTROL 와 같으며 같지]** **[!UICONTROL 않습니다]**. |
+| **세그먼테이션** | 세그멘테이션의 차원 새로운 기여도 모델:<ul><li>반복 (기본값): 차원에 대한 인스턴스 + 지속적인 값을 포함합니다.</li><li>instance: 차원에 대한 인스턴스를 포함합니다.</li><li>반복되지 않는 인스턴스: 차원에 대한 고유 인스턴스 (반복되지 않음) 를 포함합니다.</li></ul> [자세히](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html) |
+| **세그먼테이션** | 새 세그먼트 연산자: **[!UICONTROL 와 같으며 같지]** **[!UICONTROL 않습니다]**. [자세히...](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-operators.html) |
 | **디버거** | Adobe ID로 로그인하면 이제 Experience Cloud 디버거에서 처리된 히트를 검색할 수 있는 옵션이 제공됩니다. 처리 후 히트는 [!UICONTROL 처리 규칙] 및 VISTA 규칙을 거친 후 서버 호출로서 [!UICONTROL 처리 규칙] 및 VISTA 규칙의 유효성을 확인할 수 있습니다. **** 참고: A 4 T (보충 지원) 를 사용하는 경우 후처리 데이터가 돌아오는 데 몇 분 정도 걸릴 수 있습니다. |
 | **Analysis Workspace:** | 왼쪽 레일 검색에 즉시 새로운 필터가 추가되었습니다. 현재 보이는 항목 (차원, 지표, 승인됨 등), 계산된 지표, 고객 속성, Evar, prop, 비디오 등의 새로운 필터 가 추가되었습니다. |
 | **Analysis Workspace** | 세그먼트를 터치포인트로 추가할 때 표시되는 폴아웃 시각화에 경고가 추가되었습니다. 특정 잘못된 세그먼트 컨테이너 조합에서는 잘못된 폴아웃 다이어그램이 <ul><li>방문자 기반 세그먼트를 방문자 컨텍스트 폴아웃 시각화를 통해 터치포인트로 사용</li><li>방문자 기반 세그먼트를 방문 컨텍스트 폴아웃 시각화 내의 터치포인트로 사용</li><li>방문 컨텍스트 폴아웃 시각화를 통해 방문 기반 세그먼트를 터치포인트로 사용</li></ul> <br> [자세히...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)</br> |
