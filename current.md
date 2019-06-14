@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019 년 6 월
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 0c4355bbb17d5b67a8f136a07b7fc2a682441a01
+source-git-commit: dbcd180c5fd07abd8a6b8ed9ec47b3b1d996f275
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 * [Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
-* [캠페인](#ac)
+* [[! DNL 캠페인]](#ac)
 * [Mobile Services](#mobile)
 * [Advertising Cloud](#adcloud)
 * [Target Standard/Premium 19.6.1](#target)
@@ -34,11 +34,11 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 
 ### Adobe Experience Platform 릴리스 노트
 
-* 경험 플랫폼에 대한 최신 업데이트를 보려면 Adobe. io에서 [Experience Platform 릴리스 노트를](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md) 참조하십시오.
+* [ [! DNL Experience Platform] 에 대한 Adobe. io의 릴리스 노트를](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md) [!DNL Experience Platform]참조하십시오.
 
-### Experience Platform Launch
+### [!DNL Experience Platform Launch]
 
-* 최신 정보는 [Experience Platform Launch](https://docs.adobelaunch.com/) 를 참조하십시오.
+* [ [! DNL Experience Platform Launch]](https://docs.adobelaunch.com/) 를 참조하십시오.
 
 ## Analytics {#analytics}
 
@@ -101,7 +101,7 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 * 트레이트 폴더 컨텐츠를 표시하지 않고 폴더 이름에 대괄호가 포함된 문제를 해결했습니다.
 * 특성 유형을 하나만 선택할 때 트레이트 정렬이 실패하는 문제를 해결했습니다.
 * 트레이트 폴더 트리가 새 하위 폴더를 만들거나 업데이트할 [!UICONTROL 때마다 모든 특성] 보기로 축소되는 문제를 해결했습니다.
-* 파트너 삭제를 시도할 때 view_ Datasources 권한이 필요한 문제를 해결했습니다.
+* 파트너 삭제를 시도할 때 [!DNL VIEW_DATASOURCES] 권한이 필요한 문제를 해결했습니다.
 * 세그먼트 페이지의 [!UICONTROL 검색] 상자가 선택된 [!UICONTROL 폴더 대신] 모든 폴더에서 검색되는 문제를 해결했습니다.
 * 새로운 알고리즘 모델을 만들 때 헤더 컨트롤을 통해 트레이트 [!UICONTROL 제외] 테이블을 정렬하는 문제를 해결했습니다.
 * 빈 간격 날짜가 있는 보고서를 실행할 때 Audience Manager가 충돌하는 문제를 해결했습니다.
@@ -213,23 +213,23 @@ Adobe Experience Manager Management의 일상적인 활동을 간소화하는 �
 * [Scene7 Publishing System 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
 * [Livefyre 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
 
-## 캠페인 {#ac}
+## [!DNL Campaign] {#ac}
 
 Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적이고, 자동화된 방식으로 일대일 메시지를 제공합니다. 이제 고객이 습관 및 선호도에 따라 결정된 작업 환경을 통해 원하는 사항을 예측할 수 있습니다.
 
-### Campaign Classic 19.1 봄 릴리스
+### [!DNL Campaign Classic] 19.1 봄 릴리스
 
 | 기능 | 설명 |
 | ------------- | ----------- |
 | 제어판 | 관리자 사용자로 작업의 효율성을 높이려면 저장소 모니터링, IP 주소 허용 및 각 인스턴스에 대한 SSH 키 설치를 통해 SFTP 서버의 설정을 관리합니다. 참고 패널은 오늘부터 AWS를 통해 호스팅되는 고객에게만 제공됩니다. [Experience Cloud를 통해 로그인합니다](https://experiencecloud.adobe.com/campaign/controlpanel/). <br> 자세한 내용은 [자세한 설명서](https://helpx.adobe.com/campaign/kb/control-panel.html) 및 [사용 방법 비디오를](https://helpx.adobe.com/campaign/kt/acc/using/acc-control-panel-video-use.html)참조하십시오. |
 | 감사 추적 | 관리자는 Adobe Campaign Classic 인스턴스 내에서 수행한 변경 사항을 모니터링하고 관리하여 생산성을 높입니다. 감사 추적은 소스 스키마, 워크플로우 및 옵션에서 수행한 작업을 기록합니다. 요소를 생성, 수정 또는 삭제했는지 여부를 빠르게 확인할 수 있습니다.<br>자세한 내용은 [자세한 설명서](https://docs.campaign.adobe.com/doc/AC/en/PRO_Production_procedures_Audit_trail.html) 및 [사용 방법 비디오를](https://helpx.adobe.com/campaign/kt/acc/using/acc-audit-trail-feature-video-use.html)참조하십시오. |
-| Guardrail, Robustness 및 Scalability | 일련의 향상된 기능이 Campaign Classic에 추가되었습니다. 캠페인 Classic 릴리스 노트에 Guardrail, Robustness 및 [확장 기능이 개선되었습니다](https://docs.campaign.adobe.com/doc/AC/en/RN.html). |
+| Guardrail, Robustness 및 Scalability | 일련의 향상된 기능이 [!DNL Campaign Classic]추가되었습니다. Adobe Campaign Classic 릴리스 노트에 Guardrail, 견고함 및 [확장 기능이 개선되었습니다](https://docs.campaign.adobe.com/doc/AC/en/RN.html). |
 | 보안 SMS 메시징 (TLS) | 보안 SMS는 이제 확장된 일반 SMPP 커넥터를 통해 지원됩니다. 이를 통해 공급자에 암호화된 연결을 허용할 수 있습니다. <br>[ 자세한 내용은 상세 문서를 참조하십시오](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html). |
 | 호환성 매트릭스 업데이트 | 이 새 버전에서는 Adobe Campaign 이 이제 다음의 데이터베이스 시스템을 지원합니다. [호환성 표 참조](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) <ul><li>Oracle 18 c</li><li>MySQL 5.7 (FDA)</li><li>SQL Server 2017</li><li>Teradata 16 (FDA)</li><li>Postgresql 11</li></ul> |
 
-수정 사항 및 개선 사항은 [Adobe Campaign Classic 릴리스 노트](http://docs.campaign.adobe.com/doc/AC/en/RN.html)를 참조하십시오.
+수정 사항 및 개선 사항은 [Adobe Campaign Classic] 릴리스 노트] (http://docs.campaign.adobe.com/doc/AC/en/RN.html)를 참조하십시오.
 
-### Campaign Standard 19.2 봄 릴리스
+### [!DNL Campaign Standard] 19.2 봄 릴리스
 
 | 기능 | 설명 |
 | ------------- | ----------- |
