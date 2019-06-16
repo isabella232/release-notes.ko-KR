@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019 년 6 월
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3db1b9386db42a9b63a9a313ef80f05f377f1c65
+source-git-commit: a4233ae2bcb89b8695b92385142ee25b654a2300
 
 ---
 
@@ -227,7 +227,7 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 | 보안 SMS 메시징 (TLS) | 보안 SMS는 이제 확장된 일반 SMPP 커넥터를 통해 지원됩니다. 이를 통해 공급자에 암호화된 연결을 허용할 수 있습니다. <br>[ 자세한 내용은 상세 문서를 참조하십시오](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html). |
 | 호환성 매트릭스 업데이트 | 이 새 버전에서는 Adobe Campaign 이 이제 다음의 데이터베이스 시스템을 지원합니다. [호환성 표 참조](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) <ul><li>Oracle 18 c</li><li>MySQL 5.7 (FDA)</li><li>SQL Server 2017</li><li>Teradata 16 (FDA)</li><li>Postgresql 11</li></ul> |
 
-수정 사항 및 개선 사항은 [Adobe Campaign Classic] 릴리스 노트] (http://docs.campaign.adobe.com/doc/AC/en/RN.html)를 참조하십시오.
+수정 사항 및 개선 사항은 [Adobe Campaign Classic 릴리스 노트](http://docs.campaign.adobe.com/doc/AC/en/RN.html)를 참조하십시오.
 
 ### [!DNL Campaign Standard] 19.2 봄 릴리스
 
