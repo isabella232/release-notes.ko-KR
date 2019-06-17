@@ -23,7 +23,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 * [Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
-* [! DNL [캠페인](#ac)]
+* [!DNL Campaign(#ac)
 * [Mobile Services](#mobile)
 * [Advertising Cloud](#adcloud)
 * [Target Standard/Premium 19.6.1](#target)
@@ -34,11 +34,11 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 
 ### Adobe Experience Platform 릴리스 노트
 
-* [ [! DNL Experience Platform] 에 대한 Adobe. io의 릴리스 노트를](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md) [!DNL Experience Platform]참조하십시오.
+* [[!DNL Experience Platform] 에 대한 Adobe. io의 릴리스 노트를](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md) [!DNL Experience Platform]참조하십시오.
 
 ### [!DNL Experience Platform Launch]
 
-* [ [! DNL Experience Platform Launch]](https://docs.adobelaunch.com/) 를 참조하십시오.
+* [!DNL Experience Platform Launch](https://docs.adobelaunch.com/) 를 참조하십시오.
 
 ## Analytics {#analytics}
 
