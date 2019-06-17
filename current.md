@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019 년 6 월
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 7708f905e8f5baf0843e7ccb6c652a3450dd5d82
+source-git-commit: 9fbbe902ba5f95b86f8bf2eed7d3e85b4785ba6e
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 
 ### Adobe Experience Platform 릴리스 노트
 
-* [ [! DNL Experience Platform] 에 대한 Adobe. io의 릴리스 노트를](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md) [!DNL Experience Platform]참조하십시오.
+* 최신 업데이트를 위한 Adobe. io의 [Adobe Experience Platform 릴리스 노트를](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md) 참조하십시오 [!DNL Experience Platform].
 
 ### [!DNL Experience Platform Launch]
 
@@ -278,4 +278,4 @@ Magento Commerce는 Adobe Commerce Cloud의 일부이며, B2C 및 B2B 환경을 
 Adobe Primetime은 미디어 회사가 개인화된 시청 환경을 제공하며 수익을 창출할 수 있도록 도와주는 멀티스크린 TV 플랫폼입니다.
 
 [Primetime 릴리스 노트](http://help.adobe.com/en_US/primetime/release_notes/index.html)
-[Primetime 도움말 홈](http://help.adobe.com/en_US/primet
+[Primetime 도움말 홈](http://help.adobe.com/en_US/primetime/)
