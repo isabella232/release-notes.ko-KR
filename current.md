@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019년 6월
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 271087e92e26cd3b0aa382fe9760021d50414a13
+source-git-commit: 382a2936c5294fe04bb65fb0cfa6415175ce1da6
 
 ---
 
