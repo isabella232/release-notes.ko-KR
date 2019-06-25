@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019년 6월
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 382a2936c5294fe04bb65fb0cfa6415175ce1da6
+source-git-commit: 6af4853d00495a347671d31700c969c4d431b9b8
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 **릴리스 날짜: 2019년 6월 13일**
 
 * [Adobe Experience Platform](#platform)
-* [분석 (](#analytics)**2019 년 6 월 24 일 업데이트됨)**
+* [분석 (](#analytics)**2019 년 6 월 25 일 업데이트됨)**
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -45,7 +45,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 Adobe Analytics의 새로운 기능 및 수정 내용:
 
 * [Adobe Analytics의 새로운 기능 및 수정 내용](#aa-features)
-* [Analytics 관리자를](#aa-notices) **위한 중요 알림 (2019 년 6 월 24 일 업데이트됨)**
+* [Analytics 관리자를](#aa-notices) **위한 중요 알림 (2019 년 6 월 25 일 업데이트됨)**
 
 제품 설명서의 경우 [Analytics 도움말 홈](https://marketing.adobe.com/resources/help/en_US/reference/)을 참조하십시오.
 
@@ -78,7 +78,7 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 
 | 알림 | 추가한 날짜 업데이트한 날짜 | 설명 |
 | -----------| ---------- | ---------- | 
-| 감사 로그 UI 변경 사항 | 2019년 6월 24일에 추가됨 | In the API `Logs.GetUsageLog`, the following changes were made to the UI: <ul><li>The response headers in the API were changed: a) from `timestamp` to `dateCreated`, b) from `login` to `companyLogin`, c) from `event_num` to `eventType`, d) from `event_type` to `event_type`, e) from `ip_address` to `ipAddress`, f) from `report_suite` to `rsid`, g) from `event_details` to `logText`. </li><li>타임스탬프 형식이 Unix 타임스탬프에서 ISO 8601 시간으로 변경되었습니다.</li><li>이제 감사 로그 결과에 보고서 세트 이름 대신 보고서 세트 ID가 포함됩니다. </li></ul> |
+| 감사 로그 UI 변경 사항 | 업데이트 날짜: 2019 년 6 월 25 일 | In the API `Logs.GetUsageLog`, the following changes were made to the UI: <ul><li>The response headers in the API were changed: a) from `timestamp` to `dateCreated`, b) from `login` to `companyLogin`, c) from `event_num` to `eventType`, d) from `event_type` to `event_type`, e) from `ip_address` to `ipAddress`, f) from `report_suite` to `rsid`, g) from `event_details` to `logText`. </li><li>타임스탬프 형식이 Unix 타임스탬프에서 ISO 8601 시간으로 변경되었습니다.</li></ul><br>이제 API와 관리자 로그 UI에서 감사 로그 결과에 보고서 세트 이름 대신 보고서 세트 ID가 포함됩니다. |
 | 분류 규칙 빌더 제한 | 2019년 6월 5일에 추가됨 | These limits are not new, but have been added to the documentation [here](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html). |
 | 새로운 세그먼트 연산자 제한 | 2019년 5월 31일에 추가됨 | 2019년 7월 18일부터 세그먼트 연산자 &quot;임의 항목 포함&quot;, &quot;임의 항목을 포함하지 않음&quot;, &quot;모두 포함&quot; 및 &quot;모두 포함하지 않음&quot;은 입력 필드당 100 단어로 제한됩니다. 이 날짜 이후로 모든 신규 세그먼트와 수정된 세그먼트에 제한이 적용됩니다. 제한을 초과하는 기존 세그먼트는 계속 지원되지만 입력 필드가 감소될 때까지 수정하거나 저장할 수 없습니다. 이 제한은 쿼리 성능을 향상시키기 위한 지속적인 노력의 일환으로 적용됩니다. |
 | **[!UICONTROL 활성화된 날짜]** 및 **[!UICONTROL 숫자 2 분류]** 에 대해 예정된 지원 변경 사항 | 업데이트 날짜: 2019년 5월 28일 | 숫자 2와 활성화된 날짜 분류를 가져오는 기능이 코드 베이스에서 제거되었습니다. 이 변경 사항은 2019년 7월 유지 관리 릴리스에 적용됩니다. 가져온 파일에 숫자 또는 활성화된 날짜 열이 있는 경우 해당 셀은 자동으로 무시되며, 해당 파일의 다른 모든 데이터는 정상적으로 가져와집니다. <br/>기존 분류는 여전히 표준 분류 워크플로우를 통해 내보낼 수 있으며, 보고에서 계속 사용할 수 있습니다. |
