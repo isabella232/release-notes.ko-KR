@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019년 3월
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 147b01562e6c8d579a2bec0e4fa2841d1791a671
+source-git-commit: 9bb54a57fa2b905fcc01951c81fd32e6444c8cd6
 
 ---
 
@@ -25,29 +25,29 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 **릴리스 날짜: 2019 년**
 
 * [Experience Cloud 핵심 서비스 및 관리](#experiencecloud)
-* [Analytics](#analytics)
+* [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
-* [캠페인](#ac)
+* [!DNL Campaign](#ac)
 * [Advertising Cloud](#adcloud)
-* [Target (](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) 솔루션 도움말에 링크)
-* [Primetime](https://helpx.adobe.com/primetime/user-guide.html) (솔루션 도움말 링크)
+* [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (솔루션 도움말에 링크)
+* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (솔루션 도움말에 링크)
 
 ## Experience Cloud 핵심 서비스 및 관리 {#experiencecloud}
 
-[!UICONTROL 플랫폼] 코어 서비스 및 제품 관리를 비롯한 Experience Cloud 인터페이스에 대한 릴리스 노트입니다.
+[!UICONTROL 플랫폼] 핵심 서비스 및 제품 관리를 포함한 Experience Cloud 인터페이스의 릴리스 노트입니다.
 
 * [핵심 서비스](#core-services)
 * [Experience Cloud ID 서비스](#ecid)
 * [Mobile Services 및 Mobile SDK](#mobile)
 * [관리 및 개발자](#admin)
-* [Launch, by Adobe](https://docs.adobelaunch.com/) (Link to Product Help)
+* [Experience Cloud Launch](https://docs.adobelaunch.com/) (제품 도움말에 대한 링크)
 
-### 핵심 서비스 {#core-services}
+### Core services {#core-services}
 
 기능 및 수정 사항.
 
-제품 설명서의 경우 [Experience Cloud 및 핵심 서비스](https://marketing.adobe.com/resources/help/en_US/mcloud/)
+For product documentation, see [Experience Cloud and Core Services](https://marketing.adobe.com/resources/help/en_US/mcloud/)
 
 ### Experience Cloud ID 서비스 {#ecid}
 
@@ -72,21 +72,21 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 
 Mobile SDK에 대한 자세한 내용은 [Experience 솔루션용 Android SDK 4.x](https://marketing.adobe.com/resources/help/en_US/mobile/android/) 및 [Experience Cloud 솔루션용 iOS SDK 4.x](https://marketing.adobe.com/resources/help/en_US/mobile/ios/)를 참조하십시오.
 
-### 관리 및 개발자 {#admin}
+### Administration and developer {#admin}
 
 기능 및 수정 사항.
 
 제품 설명서의 경우 [Experience Cloud ID 서비스](https://marketing.adobe.com/resources/help/en_US/mcvid/)를 참조하십시오.
 
-## Analytics {#analytics}
+## [!DNL Analytics] {#analytics}
 
 Adobe Analytics의 새로운 기능 및 수정 내용:
 
 * [Adobe Analytics의 새로운 기능](#aa-features)
 * [iOS 및 Android용 Media Analytics SDK (이전의 VHL SDK)](#aa-va)
-* [Analytics 관리자를 위한 중요 알림](analytics-important-notices.md)
+* [Analytics 관리자에 대한 중요 공지](analytics-important-notices.md)
 
-제품 설명서의 경우 [Analytics 도움말 홈](https://marketing.adobe.com/resources/help/en_US/reference/)을 참조하십시오.
+For product documentation, see [Adobe Analytics Help Home](https://marketing.adobe.com/resources/help/en_US/reference/).
 
 ### Adobe Analytics의 새로운 기능 {#aa-features}
 
@@ -96,7 +96,7 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 | 기능 B | 텍스트 |
 | 기능 C | 텍스트 |
 
-### iOS 및 Android용 Media Analytics SDK (이전의 VHL SDK) {#aa-va}
+### [!DNL Media Analytics] Ios 및 Android 용 SDK (이전 VHL SDK) {#aa-va}
 
 | 기능 | 설명 |
 | -----------| ---------- |  
@@ -104,7 +104,7 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 | 기능 B | 텍스트 |
 | 기능 C | 텍스트 |
 
-### Data Workbench {#aa-dwb}
+### [!DNL Data Workbench] {#aa-dwb}
 
 [Data Workbench 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/insight/whatsnew/)에서 최신 정보를 확인하십시오.
 
@@ -131,7 +131,7 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 * Flash-Flex
 * OSX
 * Windows Phone, XBOX, Silverlight 및 .NET
-* BlackBerry
+* [!DNL BlackBerry]
 * Java
 * PHP
 * Symbian
@@ -207,7 +207,7 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 내용 및 업데이�
 * 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
 * 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
 
-## Social {#soc}
+## [!DNL Social] {#soc}
 
 | 기능 | 설명 |
 | -----------| ---------- |  
@@ -222,7 +222,7 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 내용 및 업데이�
 * 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
 * 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
 
-## 캠페인 {#ac}
+## [!DNL Campaign] {#ac}
 
 Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적이고, 자동화된 방식으로 일대일 메시지를 제공합니다. 이제 고객이 습관 및 선호도에 따라 결정된 작업 환경을 통해 원하는 사항을 예측할 수 있습니다.
 
