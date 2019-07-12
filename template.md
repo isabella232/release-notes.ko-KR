@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019년 3월
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 9bb54a57fa2b905fcc01951c81fd32e6444c8cd6
+source-git-commit: 450d03363720b88254413d7387665fc3d0eb0819
 
 ---
 
@@ -15,16 +15,16 @@ source-git-commit: 9bb54a57fa2b905fcc01951c81fd32e6444c8cd6
 Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 
 >[!IMPORTANT]
->>이 페이지에는 출시 전 컨텐츠가 포함되어 있으며 계획된 출시 전에 변경될 수 있습니다.
-
+>
+>이 페이지에는 출시 전 컨텐츠가 포함되어 있으며 계획된 출시 전에 변경될 수 있습니다.
 
 >[!NOTE]
->>예정된 릴리스에 대한 이메일 알림을 받으려면 [Adobe 우선 제품 업데이트](https://www.adobe.com/subscription/priority-product-update.html)에 가입하십시오. 업무일 기준으로 릴리스 3-5일 전에 공지를 받게 됩니다. 릴리스 후 게시된 새 정보는 발행 날짜로 표시됩니다.
-
+>
+>예정된 릴리스에 대한 이메일 알림을 받으려면 [Adobe 우선 제품 업데이트](https://www.adobe.com/subscription/priority-product-update.html)에 가입하십시오. 업무일 기준으로 릴리스 3-5일 전에 공지를 받게 됩니다. 릴리스 후 게시된 새 정보는 발행 날짜로 표시됩니다.
 
 **릴리스 날짜: 2019 년**
 
-* [Experience Cloud 핵심 서비스 및 관리](#experiencecloud)
+* [핵심 서비스 및 관리](#experiencecloud)
 * [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
@@ -33,21 +33,22 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 * [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (솔루션 도움말에 링크)
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (솔루션 도움말에 링크)
 
-## Experience Cloud 핵심 서비스 및 관리 {#experiencecloud}
+## Core services and administration {#experiencecloud}
 
-[!UICONTROL 플랫폼] 핵심 서비스 및 제품 관리를 포함한 Experience Cloud 인터페이스의 릴리스 노트입니다.
+[!UICONTROL 플랫폼] 코어 서비스, 제품 관리 및 보안 게시판을 비롯한 Experience Cloud 인터페이스에 대한 릴리스 노트입니다.
 
 * [핵심 서비스](#core-services)
 * [Experience Cloud ID 서비스](#ecid)
 * [Mobile Services 및 Mobile SDK](#mobile)
 * [관리 및 개발자](#admin)
-* [Experience Cloud Launch](https://docs.adobelaunch.com/) (제품 도움말에 대한 링크)
+* [Experience Platform Launch](#launch)
+* [보안 게시판 및 권고 조치](https://helpx.adobe.com/security.html) (모든 Adobe 제품)
 
 ### Core services {#core-services}
 
 기능 및 수정 사항.
 
-For product documentation, see [Experience Cloud and Core Services](https://marketing.adobe.com/resources/help/en_US/mcloud/)
+For product documentation, see [Experience Cloud and Core Services](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)
 
 ### Experience Cloud ID 서비스 {#ecid}
 
@@ -68,15 +69,19 @@ For product documentation, see [Experience Cloud and Core Services](https://mark
 * 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
 * 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
 
-제품 설명서는 [Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/)를 참조하십시오.
+제품 설명서는 [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)를 참조하십시오.
 
-Mobile SDK에 대한 자세한 내용은 [Experience 솔루션용 Android SDK 4.x](https://marketing.adobe.com/resources/help/en_US/mobile/android/) 및 [Experience Cloud 솔루션용 iOS SDK 4.x](https://marketing.adobe.com/resources/help/en_US/mobile/ios/)를 참조하십시오.
+Mobile SDK에 대한 자세한 내용은 [Experience 솔루션용 Android SDK 4.x](https://marketing.adobe.com/resources/help/en_US/mobile/android/) 및 [Experience Cloud 솔루션용 iOS SDK 4.x](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)를 참조하십시오.
 
 ### Administration and developer {#admin}
 
 기능 및 수정 사항.
 
 제품 설명서의 경우 [Experience Cloud ID 서비스](https://marketing.adobe.com/resources/help/en_US/mcvid/)를 참조하십시오.
+
+### Experience Platform Launch {#launch}
+
+See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html) for release notes and product documentation.
 
 ## [!DNL Analytics] {#analytics}
 
@@ -86,7 +91,7 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 * [iOS 및 Android용 Media Analytics SDK (이전의 VHL SDK)](#aa-va)
 * [Analytics 관리자에 대한 중요 공지](analytics-important-notices.md)
 
-For product documentation, see [Adobe Analytics Help Home](https://marketing.adobe.com/resources/help/en_US/reference/).
+For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.com/content/help/en/analytics/landing/home.html).
 
 ### Adobe Analytics의 새로운 기능 {#aa-features}
 
@@ -123,7 +128,7 @@ For product documentation, see [Adobe Analytics Help Home](https://marketing.ado
 * 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
 * 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
 
-다음 플랫폼에 대한 [AppMeasurement 릴리스 내역](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/index.html)이 필요하면 AppMeasurement 릴리스 내역을 참조하십시오.
+다음 플랫폼에 대한 [AppMeasurement 릴리스 내역](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)이 필요하면 AppMeasurement 릴리스 내역을 참조하십시오.
 
 * JavaScript
 * iOS
@@ -222,7 +227,7 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 내용 및 업데이�
 * 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
 * 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
 
-## [!DNL Campaign] {#ac}
+## [!DNL Campaign {#ac}
 
 Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적이고, 자동화된 방식으로 일대일 메시지를 제공합니다. 이제 고객이 습관 및 선호도에 따라 결정된 작업 환경을 통해 원하는 사항을 예측할 수 있습니다.
 
@@ -240,11 +245,6 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 * 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
 
 제품 설명서의 경우 다음을 참조하십시오.
-
-* [Adobe Campaign Classic 릴리스 노트](https://docs.campaign.adobe.com/doc/AC/en/RN.html)
-* [Adobe Campaign Classic 학습 및 지원](https://helpx.adobe.com/support/campaign/classic.html)
-* [Adobe Campaign Standard 릴리스 노트](https://helpx.adobe.com/campaign/standard/rn/rn.html)
-* [Adobe Campaign Standard 학습 및 지원](https://helpx.adobe.com/support/campaign/standard.html)
 
 ## Advertising Cloud {#adcloud}
 
