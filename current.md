@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019년 7월
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 91126cc2d75b6c50afe429a1b4313309ab76108a
+source-git-commit: 19b6c0547d06a3ec5887f6fd17bcd662528844ca
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 **릴리스 날짜: 2019년 7월 18일**
 
 * [Experience Cloud 핵심 서비스 및 관리](#experiencecloud)
-* [!DNL Analytics](#analytics)
+* [!DNL Analytics](#analytics)**(7 월 15 일 업데이트됨)**
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -84,7 +84,7 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 
 ## [!DNL Analytics] {#analytics}
 
-* [Adobe Analytics의 새로운 기능 및 수정 내용](#aa-features)
+* [Adobe Analytics의 새로운 기능 및 수정 사항](#aa-features) **(7 월 15 일 업데이트됨)**
 * [Analytics 관리자에 대한 중요 공지](#aa-notices)
 
 ### 의 새로운 기능:[!DNL Analytics]{#aa-features}
@@ -95,7 +95,7 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 | -----------| ---------- |   
 | 분석 작업 공간 - 집단 분석 개선 사항 | 새 집단 분석 설정이 추가되었습니다. <ul><li>%만 표시</li><li>가장 가까운 전체 %</li><li>상단의 평균 % 행 표시</li></ul> |
 | Analysis Workspace | In the left rail, users now have the option to _Show items from last 18 months_. 이전에는 lookback 기간이 최대 6 개월이었습니다. 따라서 최대 18 개월 전, 전년도의 페이지 또는 캠페인과 비교할 수 있습니다. |
-| Analytics 데이터 피드 | Users can now see the history for all feeds that are enabled with the _Make Feed Visible to Customer_ flag. |
+| 새 분석 작업 공간 템플릿 | &quot; Autonomy: 마케팅 및 커머스를 참조하십시오. 이 제품은 Autonomy e 커머스 고객을 위해 특별히 고안되었지만 모든 소매업체는 이를 통해 자사의 상거래 활동에 대한 고유한 통찰력을 얻을 수 있습니다. |
 
 #### [!DNL Analysis Workspace] 수정 사항
 
@@ -103,9 +103,10 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 * 시각화 오류 문제를 수정했습니다. 시각화 오류가 발생하면 빨간색 오류 막대가 표시됩니다.(AN-175542)
 * 현지화된 환경에서 차원 이름이 영어로 표시되는 문제가 해결되었습니다.(AN-178695)
 
-#### [!DNL Reports & Analytics] 수정 사항
+#### [!DNL Analytics] 수정 사항
 
 * 실시간 드릴다운 보고서의 라인 그래프가 비어 있는 문제를 해결했습니다. (AN-181690)
+* 일부 상황에서 데이터 피드 내역의 일부가 관리 콘솔 UI에 표시되지 않는 문제가 해결되었습니다. (AN-176219)
 
 ### [!DNL Analytics] 관리자에 대한 중요 공지{#aa-notices}
 
