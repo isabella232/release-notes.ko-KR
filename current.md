@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019년 7월
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 19b6c0547d06a3ec5887f6fd17bcd662528844ca
+source-git-commit: b4a91b853cfb5d228fc2195d65b4370e607475f2
 
 ---
 
@@ -62,13 +62,13 @@ iOS 및 Android는 다음과 같이 업데이트되었습니다.
 
 * Adobe Target: All requests now include the client and the `sessionId` in the URL query parameters.
 * Adobe Target: 메모리 누수가 수정되었습니다.
-* The double encoding of the visitor ID URL, which contains characters such as _%25_, was being flagged in security reviews. 이 문제가 수정되었습니다.
+* Visitor ID Service: The `visitorAppendToURL` and `visitorGetUrlVariablesAsync` APIs no longer double-encode their return values. 이중 인코딩으로 인해 해당 API의 반환 값이 특정 보안 검토에 의해 플래그가 지정되었습니다.
 
 **Android**
 
 * Target: 이제 모든 요청이 URL 쿼리 매개 변수에 클라이언트 및 sessionid를 포함합니다.
-* 메시지가 빈 클릭스루 URL로 인해 트리밍되면 Android 앱이 충돌하던 문제가 해결되었습니다.
-* The double encoding of the visitor ID URL, which contains characters such as _%25_, was being flagged in security reviews. 이 문제가 수정되었습니다.
+* 인앱 메시지: 메시지가 빈 클릭스루 URL로 인해 트리밍되면 Android 앱이 충돌하던 문제가 해결되었습니다.
+* Visitor ID Service: The `Visitor.appendToURL` and `Visitor.getUrlVariablesAsync` APIs no longer double-encode their return values. 이중 인코딩으로 인해 해당 API의 반환 값이 특정 보안 검토에 의해 플래그가 지정되었습니다.
 
 제품 설명서는 [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)를 참조하십시오.
 
