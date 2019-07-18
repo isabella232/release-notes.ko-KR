@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019년 7월
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2010152649fccb8997913f52b6d43e11c3a5d18e
+source-git-commit: e8470127c1cd343637d61bc0ac6bdd26339a8e2c
 
 ---
 
@@ -93,7 +93,7 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 
 | 구성 요소 | 설명 |
 | -----------| ---------- |   
-| Analysis Workspace - Cohort Analysis 개선 사항 | 새 Cohort Analysis 설정이 추가되었습니다. <ul><li>%만 표시</li><li>가장 가까운 전체 라운드 %</li><li>상단의 평균 % 행 표시</li></ul> |
+| Analysis Workspace - Cohort Analysis 개선 사항 | New [Cohort Analysis settings](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.html) have been added: <ul><li>퍼센트 표시</li><li>가장 가까운 단위로 반올림 비율</li><li>평균 행 행 표시</li></ul> |
 | Analysis Workspace | 왼쪽 레일에서 이제 사용자는 _지난 18개월 동안의 항목을 표시_&#x200B;할 수 있습니다. 이전에는 되돌아보기 기간이 최대 6개월이었습니다. 이를 통해 최대 18개월 전, 전년도의 페이지 또는 캠페인과 더욱 쉽게 비교할 수 있습니다. |
 | 새 Analysis Workspace 템플릿 | We added a new template called ["Magento: Marketing &amp; Commerce"](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) to Analysis Workspace. Magento 전자 상거래 고객을 위해 특별히 고안되었지만 모든 소매업체는 이를 통해 상거래 활동에 대한 고유한 통찰력을 얻을 수 있습니다. |
 
