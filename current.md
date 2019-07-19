@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019년 7월
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 50a8aaf58413337e4aa0478e5505f8ea9d8edd36
+source-git-commit: c45b9f49e0732e52b01677c0acb8e6b12d155e77
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 **릴리스 날짜: 2019년 7월 18일**
 
 * [Experience Cloud 핵심 서비스 및 관리](#experiencecloud)
-* [!DNL Analytics](#analytics)  **(업데이트됨: 7월 15일)**
+* [!DNL Analytics](#analytics) - **(7월 15일에 업데이트됨)**
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -58,13 +58,13 @@ iOS 및 Android는 다음과 같이 업데이트되었습니다.
 
 * Adobe Target: 이제 모든 요청에 클라이언트와 `sessionId` 매개 변수가 URL 쿼리 매개 변수에 포함됩니다.
 * Adobe Target: 메모리 누수가 수정되었습니다.
-* Visitor ID Service: The `visitorAppendToURL` and `visitorGetUrlVariablesAsync` APIs no longer double-encode their return values. 이중 인코딩으로 인해 해당 API의 반환 값이 특정 보안 검토에 의해 플래그가 지정되었습니다.
+* 방문자 ID 서비스: `visitorAppendToURL` 및 `visitorGetUrlVariablesAsync` API는 더 이상 반환 값을 이중 인코딩하지 않습니다. 이중 인코딩으로 해당 API의 반환 값에 특정 보안 검토에 의한 플래그가 지정되었습니다.
 
 **Android**
 
 * Target: 이제 모든 요청에 클라이언트와 sessionId가 URL 쿼리 매개 변수에 포함됩니다.
-* 인앱 메시지: 메시지가 빈 클릭스루 URL로 인해 트리밍되면 Android 앱이 충돌하던 문제가 해결되었습니다.
-* Visitor ID Service: The `Visitor.appendToURL` and `Visitor.getUrlVariablesAsync` APIs no longer double-encode their return values. 이중 인코딩으로 인해 해당 API의 반환 값이 특정 보안 검토에 의해 플래그가 지정되었습니다.
+* 인앱 메시징: 메시지가 빈 클릭 광고 URL로 인해 트리거되면 Android 앱이 충돌하던 문제가 수정되었습니다.
+* 방문자 ID 서비스: `Visitor.appendToURL` 및 `Visitor.getUrlVariablesAsync` API는 더 이상 반환 값을 이중 인코딩하지 않습니다. 이중 인코딩으로 해당 API의 반환 값에 특정 보안 검토에 의한 플래그가 지정되었습니다.
 
 제품 설명서는 [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)를 참조하십시오.
 
@@ -80,7 +80,7 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 
 ## [!DNL Analytics] {#analytics}
 
-* [Adobe Analytics의 새로운 기능 및 수정 내용](#aa-features)**(업데이트됨: 7월 15일)**
+* [Adobe Analytics의 새로운 기능 및 수정 내용](#aa-features)**(7월 15일에 업데이트됨)**
 * [Analytics 관리자에 대한 중요 공지](#aa-notices)
 
 ### [!DNL Analytics] {#aa-features} 의 새로운 기능
@@ -106,12 +106,12 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 
 ### [!DNL Analytics] 관리자에 대한 중요 공지{#aa-notices}
 
-| 알림 | 추가한 날짜 업데이트한 날짜 | 설명 |
+| 알림 | 추가한 날짜 또는 업데이트한 날짜 | 설명 |
 | -----------| ---------- | ---------- |
 | 분류 규칙 빌더 제한 | 2019년 6월 5일에 추가됨 | These limits are not new, but have been added to the documentation [here](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html). |
 | 새로운 세그먼트 연산자 제한 | 2019년 5월 31일에 추가됨 | 2019년 7월 18일부터 세그먼트 연산자 "임의 항목 포함", "임의 항목을 포함하지 않음", "모두 포함" 및 "모두 포함하지 않음"은 입력 필드당 100 단어로 제한됩니다. 이 날짜 이후로 모든 신규 세그먼트와 수정된 세그먼트에 제한이 적용됩니다. 제한을 초과하는 기존 세그먼트는 계속 지원되지만 입력 필드가 감소될 때까지 수정하거나 저장할 수 없습니다. 이 제한은 쿼리 성능을 향상시키기 위한 지속적인 노력의 일환으로 적용됩니다. |
 | **[!UICONTROL 활성화된 날짜]** 및 **[!UICONTROL 숫자 2 분류]**&#x200B;에 대해 예정된 지원 변경 사항 | 업데이트 날짜: 2019년 5월 28일 | 숫자 2와 활성화된 날짜 분류를 가져오는 기능이 코드 베이스에서 제거되었습니다. 이 변경 사항은 2019년 7월 유지 관리 릴리스에 적용됩니다. 가져온 파일에 숫자 또는 활성화된 날짜 열이 있는 경우 해당 셀은 자동으로 무시되며, 해당 파일의 다른 모든 데이터는 정상적으로 가져와집니다. <br/>기존 분류는 여전히 표준 분류 워크플로우를 통해 내보낼 수 있으며, 보고에서 계속 사용할 수 있습니다. |
-| _보고서 총계_ 계산과 관련한 변경 예정 | 업데이트됨: 2019년 7월 9일 | **2019년 6월 18일**&#x200B;에 Adobe Analytics는 모든 차원 및 지표에서 _보고서 총계_ 를 동일하게 변경할 예정입니다. 이를 통해 일부 보고서(예: Prop 또는 고객 특성 보고서)의 총계가 변경됩니다. 본 변경에 앞서 일부 보고서 총계는 보고서에서 _미지정_ 으로 표시되는지의 여부와 관계없이, 총계의 _미지정_ 라인 항목에 일관성 없이 포함되거나 제외됩니다. <br/>2019년 6월 18일부터, _미지정_ 항목은 보고서의 라인 항목으로 표시되지 않는 경우에도 보고서 총계에 항상 표시됩니다. 또한 _exists_ 또는 _does not exist_ 로직을 사용하는 세그먼트는 이 변경 후 일부 차원에 대해 다른 결과를 볼 수 있습니다. 특히 _Unspecified_&#x200B;에 레퍼러 유형 차원에 대한 "Typed/Bookmarked" 라인 항목 또는 장치 유형 차원에 대한 "Other" 라인 항목 등의 특수 이름이 있는 차원입니다. 본 변경은 Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder 및 Reporting API에 적용됩니다. |
+| _보고서 총계_ 계산과 관련한 변경 예정 | 업데이트 날짜: 2019년 7월 9일 | **2019년 6월 18일**&#x200B;에 Adobe Analytics는 모든 차원 및 지표에서 _보고서 총계_ 를 동일하게 변경할 예정입니다. 이를 통해 일부 보고서(예를 들어 Prop 또는 고객 특성 보고서)의 총계가 변경됩니다. 본 변경에 앞서 일부 보고서 총계는 보고서에서 _미지정_ 으로 표시되는지의 여부와 관계없이, 총계의 _미지정_ 라인 항목에 일관성 없이 포함되거나 제외됩니다. <br/>2019년 6월 18일부터, _미지정_ 항목은 보고서의 라인 항목으로 표시되지 않는 경우에도 보고서 총계에 항상 표시됩니다. 또한 _exists_ 또는 _does not exist_ 로직을 사용하는 세그먼트는 이 변경 후 일부 차원에 대해 다른 결과를 볼 수 있습니다. 특히 _Unspecified_&#x200B;에 레퍼러 유형 차원에 대한 "Typed/Bookmarked" 라인 항목 또는 장치 유형 차원에 대한 "Other" 라인 항목 등의 특수 이름이 있는 차원입니다. 본 변경은 Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder 및 Reporting API에 적용됩니다. |
 | [!DNL Analysis Workspace] 에서 CSV 다운로드로 업데이트 | 2019년 4월 10일 | 2019년 4월 11일부터, [!DNL Analysis Workspace]의 **[!UICONTROL CSV 다운로드]** (및 **[!UICONTORL 클립보드로 복사]**)가 변경되어 내보낸 데이터의 형식을 제거할 수 있습니다.  <ul><li>천 단위 구분 기호가 더 이상 포함되지 않습니다. 소수점 구분 기호는 계속해서 포함되며, **[!UICONTROL 구성 요소 &gt; 보고서 설정 &gt; 천 단위 구분 기호]**&#x200B;에 정의된 형식을 따릅니다. 참고: 쉼표를 소수점 구분 기호로 사용하는 숫자 값은 내보낸 CSV에서 계속 따옴표로 표시됩니다.</li><li>통화 기호가 표시되지 않습니다.</li><li>퍼센트 기호가 표시되지 않습니다. 백분율은 10진수 형식입니다. 예를 들어, 75%는 0.75로 표시됩니다.</li><li>시간은 초 단위로 표시됩니다.</li><li>집단 테이블은 원시값만 표시합니다. 백분율이 제거됩니다.</li><li>숫자가 올바르지 않으면 빈 셀이 표시됩니다.</li></ul> |
 | [!DNL Analysis Workspace] 디버거 명령 변경 예정 | 2019년 4월 4일 | **2019년 6월 13일**&#x200B;에 [!DNL Analysis Workspace] 디버거를 켜는 콘솔 명령이 adobeTools.debug.includeOberonXml로 변경됩니다. adobe.tools.debug.includeOberonXml은 이 날짜 이후에 작동이 중지됩니다. |
 | 모바일 브라우저 버전 번호 | 2019년 2월 7일 | 2019년 1월 8일부터 모바일 브라우저 버전 번호의 자르기 레벨이 2에서 1로 변경되었습니다. 1월 8일부터는 버전에 첫 두 개 레벨만 표시됩니다(예: _Firefox 64.0.2_&#x200B;가 이제 _Firefox 64.0_&#x200B;으로 보고됨). |
@@ -126,9 +126,9 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 
 2019년 7월 15일 발표:
 
-**JavaScript 2.15.0 용 appmeasurement**
+**JavaScript 2.15.0용 AppMeasurement**
 
-* Activity Map 확장에 Activity Map 스크롤 도달 추적 추가 (AN -172949)
+* Activity Map 스크롤 도달 추적이 Activity Map 확장(AN -172949)에 추가됨
 * Appmeasurement에 DIL 9.2를 추가했습니다. (AN-182472)
 
 다음 플랫폼에 대한 [AppMeasurement 릴리스 내역](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)이 필요하면 AppMeasurement 릴리스 내역을 참조하십시오.
