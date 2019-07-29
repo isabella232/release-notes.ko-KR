@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019년 7월
 author: mfrei
 translation-type: ht
-source-git-commit: 41b4cbb1b93fe857c80cebd631a785e234e2ce07
+source-git-commit: dd7674ce4a4dbac46ee7238ef3798513c3bd6ab4
 
 ---
 
@@ -128,7 +128,10 @@ Mobile SDK에 대한 자세한 정보는 [Experience Solutions용 Android SDK 4.
 
 **JavaScript 2.15.0용 AppMeasurement**
 
-* Activity Map 스크롤 도달 추적이 Activity Map 확장(AN -172949)에 추가됨
+* Activity Map 스크롤 도달 추적이 Activity Map 확장(AN -172949)에 추가됩니다.
+>[!NOTE]
+>
+>이 기능은 Activity Map으로 향후 업데이트하는 전제 조건으로 릴리스 중입니다. 다른 구성 요소가 릴리스될 때까지 중요하지 않을 수 있습니다.
 * Appmeasurement에 DIL 9.2를 추가했습니다. (AN-182472)
 
 다음 플랫폼에서 Appmeasurement의 릴리스 내역을 확인하려면 [AppMeasurement 릴리스 내역](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)을 참조하십시오.
