@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019 년 8 월
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 626b6b170539ebe54c86f17eec0593bd2decd4e5
+source-git-commit: b3fa98427b027218e9600cb4c5e10dd2ba880f89
 
 ---
 
@@ -44,13 +44,13 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 * 일부 사용자에 대해 세션 로그아웃 시 발생하는 Experience Cloud 로그인의 중요한 문제를 해결했습니다. (MCUI-6908)
 * 성능을 개선하고 지연을 줄이기 위해 Experience Cloud 로그인을 업데이트했습니다. (MCUI -6854, MCUI -6869, MCUI -6883)
 * 인터페이스가 화장적으로 업데이트되었습니다. (MCUI -6861, MCUI -6911, MCUI -6862)
-* Fixed an issue with Experience Cloud [!UICONTROL Triggers] that led to incorrect interpretation of _Like_ clause in the [!UICONTROL Trigger] definition. (MCUI-6611)
+* 트리거 [!UICONTROL 정의에서] _LIKE_ 절에 대한 잘못된 해석을 유발한 Experience Cloud 트리거의 [!UICONTROL 문제를] 수정했습니다. (MCUI-6611)
 
 For product documentation, see [Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html).
 
 ### Experience Platform Launch {#launch}
 
-See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html) for release notes and product documentation.
+릴리스 노트 및 제품 설명서는 [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html) 를 참조하십시오.
 
 ## [!DNL Analytics] {#analytics}
 
@@ -77,8 +77,8 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | 알림 | 추가한 날짜 또는 업데이트한 날짜 | 설명 |
 | -----------| ---------- | ---------- |
-| 분류 규칙 빌더 제한 | 2019년 6월 5일에 추가됨 | These limits are not new, but have been added to the documentation [here](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html). |
-| 새로운 세그먼트 연산자 제한 | 2019년 5월 31일에 추가됨 | Starting on July 18, 2019, the segment operators _contains any of_, _does not contain any of_, _contains all of_ and _does not contain all_ of will be limited to 100 words per input field. 이 날짜 이후로 모든 신규 세그먼트와 수정된 세그먼트에 제한이 적용됩니다. 제한을 초과하는 기존 세그먼트는 계속 지원되지만 입력 필드가 감소될 때까지 수정하거나 저장할 수 없습니다. 이 제한은 쿼리 성능을 향상시키기 위한 지속적인 노력의 일환으로 적용됩니다. |
+| 분류 규칙 빌더 제한 | 2019년 6월 5일에 추가됨 | 이러한 제한 사항은 새로운 것이 아니지만 여기에 설명서가 [추가되었습니다](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html). |
+| 새로운 세그먼트 연산자 제한 | 2019년 5월 31일에 추가됨 | Starting July 18, 2019, the segment operators _contains any of_, _does not contain any of_, _contains all of_ and _does not contain all_ of will be limited to 100 words per input field. 이 날짜 이후로 모든 신규 세그먼트와 수정된 세그먼트에 제한이 적용됩니다. 제한을 초과하는 기존 세그먼트는 계속 지원되지만 입력 필드가 감소될 때까지 수정하거나 저장할 수 없습니다. 이 제한은 쿼리 성능을 향상시키기 위한 지속적인 노력의 일환으로 적용됩니다. |
 | **[!UICONTROL 활성화된 날짜]** 및 **[!UICONTROL 숫자 2 분류]**&#x200B;에 대해 예정된 지원 변경 사항 | 업데이트 날짜: 2019년 5월 28일 | 숫자 2와 활성화된 날짜 분류를 가져오는 기능이 코드 베이스에서 제거되었습니다. 이 변경 사항은 2019년 7월 유지 관리 릴리스에 적용됩니다. 가져온 파일에 숫자 또는 활성화된 날짜 열이 있는 경우 해당 셀은 자동으로 무시되며, 해당 파일의 다른 모든 데이터는 정상적으로 가져와집니다. <br/>기존 분류는 여전히 표준 분류 워크플로우를 통해 내보낼 수 있으며, 보고에서 계속 사용할 수 있습니다. |
 | _보고서 총계_ 계산과 관련한 변경 예정 | 업데이트 날짜: 2019년 7월 9일 | **2019년 6월 18일**&#x200B;에 Adobe Analytics는 모든 차원 및 지표에서 _보고서 총계_ 를 동일하게 변경할 예정입니다. 이를 통해 일부 보고서(예를 들어 Prop 또는 고객 특성 보고서)의 총계가 변경됩니다. 본 변경에 앞서 일부 보고서 총계는 보고서에서 _미지정_ 으로 표시되는지의 여부와 관계없이, 총계의 _미지정_ 라인 항목에 일관성 없이 포함되거나 제외됩니다. <br/>2019년 6월 18일부터, _미지정_ 항목은 보고서의 라인 항목으로 표시되지 않는 경우에도 보고서 총계에 항상 표시됩니다. 또한 _exists_ 또는 _does not exist_ 로직을 사용하는 세그먼트는 이 변경 후 일부 차원에 대해 다른 결과를 볼 수 있습니다. 특히 _Unspecified_&#x200B;에 레퍼러 유형 차원에 대한 "Typed/Bookmarked" 라인 항목 또는 장치 유형 차원에 대한 "Other" 라인 항목 등의 특수 이름이 있는 차원입니다. 본 변경은 Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder 및 Reporting API에 적용됩니다. |
 | [!DNL Analysis Workspace] 에서 CSV 다운로드로 업데이트 | 2019년 4월 10일 | 2019년 4월 11일부터, [!DNL Analysis Workspace]의 **[!UICONTROL CSV 다운로드]** (및 **[!UICONTORL 클립보드로 복사]**)가 변경되어 내보낸 데이터의 형식을 제거할 수 있습니다.  <ul><li>천 단위 구분 기호가 더 이상 포함되지 않습니다. 소수점 구분 기호는 계속해서 포함되며, **[!UICONTROL 구성 요소 &gt; 보고서 설정 &gt; 천 단위 구분 기호]**&#x200B;에 정의된 형식을 따릅니다. 참고: 쉼표를 소수점 구분 기호로 사용하는 숫자 값은 내보낸 CSV에서 계속 따옴표로 표시됩니다.</li><li>통화 기호가 표시되지 않습니다.</li><li>퍼센트 기호가 표시되지 않습니다. 백분율은 10진수 형식입니다. 예를 들어, 75%는 0.75로 표시됩니다.</li><li>시간은 초 단위로 표시됩니다.</li><li>집단 테이블은 원시값만 표시합니다. 백분율이 제거됩니다.</li><li>숫자가 올바르지 않으면 빈 셀이 표시됩니다.</li></ul> |
@@ -97,7 +97,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | 기능 | 설명 |
 | -----------| ---------- |
-| `sendBeacon` 종료 링크 지원 | Implemented `sendBeacon` support in [!UICONTROL AppMeasurement] for exit links. 이렇게 하면 종료 링크 추적이 개선되고 트래픽이 증가할 수 있습니다. |
+| `sendBeacon` 종료 링크 지원 | Appmeasurement `sendBeacon` 에서 [!UICONTROL 종료] 링크용 지원을 구현했습니다. 이렇게 하면 종료 링크 추적이 개선되고 트래픽이 증가할 수 있습니다. |
 | ECID/FID 값 | 이제 Optin 설정이 변경되더라도 ECID/FID 값이 첫 번째 히트에 캐시됩니다. |
 | DIL 9.3 | 고객 관리 모듈을 DIL 9.3로 업데이트했습니다. |
 | 스크롤 도달 추적 | s. activitymap. trackscrollreach에서 노출로 전환하여 스크롤 도달 추적을 켜거나 끕니다. |
@@ -140,8 +140,8 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 | 기능 | 설명 |
 | -----------| ---------- |  
-| 외부 API 활동 (공개 베타) | 더 심층적인 개인화를 위해 외부 API 활동을 통해 REST API 호출을 통해 외부 시스템의 데이터를 워크플로우로 가져올 수 있습니다. REST 엔드포인트는 고객 관리 시스템, Adobe I/O 런타임 또는 Adobe Experience Cloud REST 엔드포인트 (예: 데이터 플랫폼, Target, Analytics, Campaign) 일 수 있습니다. 현재 이 기능은 공개 베타 버전입니다. For more information, refer to the [detailed documentation](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html) and the [how-to video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html). |
-| 워크플로우 세그먼트에 대한 보고서 | 이 기능을 사용하면 마케터는 세그먼트 코드별로 배달 성과를 분류할 수 있습니다. 워크플로우를 만들고 세그멘테이션 활동을 사용하여 세그먼트를 배달 모집단에 할당할 때, 이러한 세그먼트는 이제 동일한 배달으로 이동할 수 있습니다. 이렇게 하면 단일 배달 내의 여러 세그먼트를 기반으로 한 클릭/클릭 통계를 표시할 수 있습니다. For more information, refer to the [detailed documentation](https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/customizing-reports/creating-a-report-workflow-segment.html) and the [how-to video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html). |
+| 외부 API 활동 (공개 베타) | 더 심층적인 개인화를 위해 외부 API 활동을 통해 REST API 호출을 통해 외부 시스템의 데이터를 워크플로우로 가져올 수 있습니다. REST 엔드포인트는 고객 관리 시스템, Adobe I/O 런타임 또는 Adobe Experience Cloud REST 엔드포인트 (예: 데이터 플랫폼, Target, Analytics, Campaign) 일 수 있습니다. 현재 이 기능은 공개 베타 버전입니다. 자세한 내용은 [자세한 설명서](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html) 및 [사용 방법 비디오를](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html)참조하십시오. |
+| 워크플로우 세그먼트에 대한 보고서 | 이 기능을 사용하면 마케터는 세그먼트 코드별로 배달 성과를 분류할 수 있습니다. 워크플로우를 만들고 세그멘테이션 활동을 사용하여 세그먼트를 배달 모집단에 할당할 때, 이러한 세그먼트는 이제 동일한 배달으로 이동할 수 있습니다. 이렇게 하면 단일 배달 내의 여러 세그먼트를 기반으로 한 클릭/클릭 통계를 표시할 수 있습니다. 자세한 내용은 [자세한 설명서](https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/customizing-reports/creating-a-report-workflow-segment.html) 및 [사용 방법 비디오를](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html)참조하십시오. |
 
 ### Adobe Campaign Classic
 
