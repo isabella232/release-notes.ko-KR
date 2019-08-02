@@ -3,8 +3,8 @@ cloud: experience-cloud
 product: Experience Cloud
 user-guide-title: Adobe Experience Cloud 릴리스 노트
 user-guide-url: https://www.adobe.com
-translation-type: ht
-source-git-commit: 03b2d2f1b07d723ac6dbbe5464ed22f1d0d7a02c
+translation-type: tm+mt
+source-git-commit: afd02edefe88a8d970899adcd414217b65a91d7e
 
 ---
 
@@ -14,6 +14,7 @@ source-git-commit: 03b2d2f1b07d723ac6dbbe5464ed22f1d0d7a02c
 + [릴리스 노트](current.md)
 + 이전 릴리스 노트 {#previous}
    + 2019 {#2019}
+      + [2019년 7월](c-legacy-releases/2019/07182019.md)
       + [2019년 6월](c-legacy-releases/2019/06132019.md)
       + [2019년 5월](c-legacy-releases/2019/05092019.md)
       + [2019년 4월](c-legacy-releases/2019/04112019.md)
