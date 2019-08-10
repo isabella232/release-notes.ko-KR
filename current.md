@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019년 8월
 author: mfrei
 translation-type: tm+mt
-source-git-commit: f63c0117090ec65a989b298bc555e4028fc3e5ad
+source-git-commit: 1e8bca79345949fe99903857eb24771d8a9d9f98
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 * [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
 * [!DNL Campaign](#ac)
-* [!DNL Ad Cloud](# Ad Cloud)
+* [!DNL Ad Cloud](#adcloud)
 * [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (솔루션 도움말에 링크)
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (솔루션 도움말에 링크)
 
