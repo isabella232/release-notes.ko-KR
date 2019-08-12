@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019년 8월
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 4c069f031b48a2e1eccecc09e21e2a202da874b1
+source-git-commit: 8daec90ad3ce5cd0ef2a523c52decd9b269b46b3
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 **릴리스 날짜: 2019년 8월 8일**
 
 * [Experience Platform 및 관리](#platform)
-* [!DNL Analytics](#analytics)
+* [!DNL Analytics](#analytics) (2019 년 **8 월 12 일 업데이트됨**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -56,7 +56,7 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 
 * [Adobe Analytics의 새로운 기능, 향상된 기능 및 수정 내용](#aa-features)
 * [Analytics 관리자에 대한 중요 공지](#aa-notices)
-* [AppMeasurement](#appm)
+* [AppMeasurement](#appm) (**Updated August 12, 2019**)
 
 For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.com/content/help/en/analytics/landing/home.html).
 
@@ -93,7 +93,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 ### AppMeasurement {#appm}
 
-2019년 8월 8일에 [!UICONTROL AppMeasurement] 2.16.0이 릴리스됩니다.
+[!UICONTROL 2019 년 8 월 15 일 (8 월 8 일이 아닌 8 월 15 일) 에 Appmeasurement] 2.16.0 릴리스.
 
 | 기능 | 설명 |
 | -----------| ---------- |
