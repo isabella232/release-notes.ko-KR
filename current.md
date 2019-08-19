@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019년 8월
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1483a7a90f2f3ab00cc471081631cb737f324a6b
+source-git-commit: 8ec590d7cbf63b67cfaf869f54c3707dbb5c2e83
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 
 **릴리스 날짜: 2019년 8월 8일**
 
-* [Experience Platform 및 관리](#platform)
+* [Experience Cloud 및 Experience Platform](#platform)
 * [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
@@ -29,7 +29,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 * [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (솔루션 도움말에 링크)
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (솔루션 도움말에 링크)
 
-## [!UICONTROL Experience Platform] 및 관리 {#platform}
+## [!DNL Experience Cloud] and [!DNL Experience Platform]{#platform}
 
 [!UICONTROL Experience Platform], Experience Cloud 인터페이스, 제품 관리, Experience Platform Launch, Identity Service 및 보안 게시판에 대한 릴리스 정보입니다.
 
