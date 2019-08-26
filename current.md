@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019년 8월
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 71a796a132a752b69a10b9ac9cce3530b7d02b27
+source-git-commit: bf128d5ab0d16a15935f73fd8b80c7eab12b4e1f
 
 ---
 
@@ -64,7 +64,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | 기능 | 설명 |
 | -----------| ---------- |  
-| SameSite 쿠키 설정 지원 | [SameSite 쿠키 설정](https://web.dev/samesite-cookies-explained)이 Analytics에서 설정된 모든 쿠키 집합에 추가됩니다. 이 변경 사항에 따라 SameSite 쿠키 필드를 요구하는 Chrome 변경 사항을 준수하게 됩니다. Analytics 쿠키는 기본적으로 `none`(으)로 설정됩니다. 자사 도메인(예: stats.domain.com)을 독점적으로 사용하는 경우, Adobe ClientCare를 자사 수집 도메인에 대해 `lax`(으)로 설정할 수 있습니다. |
+| SameSite 쿠키 설정 지원 | [SameSite 쿠키 설정](https://web.dev/samesite-cookies-explained)이 Analytics에서 설정된 모든 쿠키 집합에 추가됩니다. 이 변경 사항에 따라 SameSite 쿠키 필드를 요구하는 Chrome 변경 사항을 준수하게 됩니다. Analytics 쿠키는 기본적으로 `none`(으)로 설정됩니다. If you have exclusively used a 1st-party domain (e.g. stats.domain.com) you can have Adobe Customer Care set it to `lax` for 1st-party collection domains. |
 | 작업 영역: 드롭다운 필터의 항목 제한을 50개에서 200개로 늘림 | 드롭다운 필터에 배치할 수 있는 항목 제한을 50개에서 200개로 늘렸습니다. 이 개선 사항은 필터에 모든 국가(195) 추가, 모든 미국 주 및 도(52) 추가와 같은 다양한 활용 사례를 포용합니다. |
 | 기여도 IQ에 대해 A4T 활동 노출 횟수 및 활동 전환율이 활성화됨 | 기여도 IQ에 대해 두 개의 A4T(Analytics for Target) 지표(활동 노출 횟수 및 활동 전환율)를 활성화했습니다. 이전에는 Analysis Workspace에서 이러한 지표가 Reports &amp; Analytics와 비교하여 부풀려졌습니다. 이러한 변화를 통해 사용자는 이제 "동일한 터치" 기여도 모델을 적용할 수 있으므로 Reports &amp; Analytics와 함께 Analysis Workspace를 가져오게 됩니다. |
 
