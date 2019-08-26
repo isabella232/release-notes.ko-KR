@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019년 8월
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c4e89f21b3cd1231592f962bf5abfca49571f943
+source-git-commit: 71a796a132a752b69a10b9ac9cce3530b7d02b27
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 **릴리스 날짜: 2019년 8월 8일**
 
 * [Experience Cloud 및 Experience Platform](#platform)
-* [!DNL Analytics](#analytics) (**2019년 8월 20일 업데이트됨**)
+* [!DNL Analytics](#analytics) (**2019년 8월 23일 업데이트됨**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -56,7 +56,7 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 
 * [Adobe Analytics의 새로운 기능, 향상된 기능 및 수정 내용](#aa-features)  (**2019년 8월 20일 업데이트됨**)
 * [Analytics 관리자에 대한 중요 공지](#aa-notices)
-* [AppMeasurement](#appm)
+* [AppMeasurement](#appm) (**2019년 8월 23일 업데이트됨**)
 
 For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.com/content/help/en/analytics/landing/home.html).
 
@@ -96,7 +96,14 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 ### AppMeasurement {#appm}
 
-2019년 8월 8일에 [!UICONTROL AppMeasurement] 2.16.0이 릴리스됩니다.
+[!UICONTROL 2019 년 8 월 23 일에 릴리스된 Appmeasurement] 2.17.0.
+
+| 기능/수정 | 설명 |
+| -----------| ---------- |
+| Baidu 지원 추가 | Baidu 쿼리 문자열 순서 변경 지원을 추가했습니다. |
+| 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는 | 옵트인을 기다리는 동안 큐에 있었던 히트에 오래된 방문자 값이 발생하던 문제를 수정했습니다. |
+
+[!UICONTROL Appmeasurement] 2.16.0는 2019 년 8 월 8 일에 릴리스되었습니다.
 
 | 기능 | 설명 |
 | -----------| ---------- |
