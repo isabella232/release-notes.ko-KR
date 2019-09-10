@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019 년 9 월
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3b26af48364509946706cd183c1261ea8c15eab2
+source-git-commit: 694a71cb6caaf04135c93d099988c9b9bbc8abf3
 
 ---
 
@@ -87,7 +87,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | 기능 | 설명 |
 | -----------| ---------- |  
-| **경로 IQ: 크로스 디바이스 분석** | 2019 년 9 월 Adobe Analytics는 Analytics Ultimate 고객이 Journey IQ 라는 강력한 새로운 기능을 이용할 수 있도록 지원합니다. 크로스 디바이스 분석 CDA (Cross-Device Analytics) 는 Adobe Analytics를 장치 중심에서 인간 중심 분석 도구로 혁신합니다. CDA를 사용하여 다음과 같은 질문에 답변할 수 있습니다. <ul><li>얼마나 많은 사람들이 내 브랜드와 상호 작용하고 있습니까? 어떤 유형의 디바이스를 사용하고 있습니까? 어떻게 오버랩됩니까?</li><li>사람들이 모바일 장치에서 작업을 시작한 다음 나중에 데스크탑 PC로 이동하여 작업을 완료하는 빈도 한 장치에 랜딩되는 캠페인 클릭스루가 다른 곳에서 전환을 가져오는가?</li><li>크로스 디바이스 여정을 고려하면 캠페인 효과에 대한 이해가 어떻게 달라집니까? 단계 분석은 어떻게 변경됩니까?</li><li>사용자가 한 장치에서 다른 장치로 이동하는 가장 일반적인 경로는 무엇입니까? 어디에서 중단됩니까? 고객의 성공적인 참여</li><li>여러 디바이스를 가진 사용자의 행동은 단일 장치를 사용하는 사용자와 어떻게 다릅니까?</li></ul><br/>자세한 내용은 [adobe.ly/aacda](https://spark.adobe.com/page/8ZpjsX6Lp5XTM/)를 참조하십시오. |
+| **경로 IQ: 크로스 디바이스 분석** | 2019 년 9 월 Adobe Analytics는 Journey IQ 라는 강력한 새로운 기능을 도입했습니다. 크로스 디바이스 분석 (이 기능은 Analytics Ultimate 고객에게만 제공됩니다.) CDA (Cross-Device Analytics) 는 Adobe Analytics를 장치 중심에서 인간 중심 분석 도구로 혁신합니다. CDA를 사용하여 다음과 같은 질문에 답변할 수 있습니다. <ul><li>얼마나 많은 사람들이 내 브랜드와 상호 작용하고 있습니까? 어떤 유형의 디바이스를 사용하고 있습니까? 어떻게 오버랩됩니까?</li><li>사람들이 모바일 장치에서 작업을 시작한 다음 나중에 데스크탑 PC로 이동하여 작업을 완료하는 빈도 한 장치에 랜딩되는 캠페인 클릭스루가 다른 곳에서 전환을 가져오는가?</li><li>크로스 디바이스 여정을 고려하면 캠페인 효과에 대한 이해가 어떻게 달라집니까? 단계 분석은 어떻게 변경됩니까?</li><li>사용자가 한 장치에서 다른 장치로 이동하는 가장 일반적인 경로는 무엇입니까? 어디에서 중단됩니까? 고객의 성공적인 참여</li><li>여러 디바이스를 가진 사용자의 행동은 단일 장치를 사용하는 사용자와 어떻게 다릅니까?</li></ul><br/>자세한 내용은 [adobe.ly/aacda](https://spark.adobe.com/page/8ZpjsX6Lp5XTM/)를 참조하십시오. |
 | **업데이트된 분류 아키텍처** | 9 월부터 분류 아키텍처에 대한 업데이트는 몇 개월 동안 고객으로 마이그레이션됩니다. 9 월 릴리스에는 적은 수의 조기 채택자에 대한 마이그레이션이 포함됩니다.<br/>업데이트는 업로드하는 데 걸리는 시간 (규칙 로직 포함) 를 가져오기/인제스트하여 보고하는 데 걸리는 시간을 크게 줄입니다. |
 
 #### 수정 사항
@@ -133,7 +133,7 @@ Audience Manager의 새로운 기능, 개선 사항 및 수정 사항
 
 | 기능 | 설명 |
 | -----------| ---------- |  
-| **[People-based destinations](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-overview.html)** | [!DNLPEople 기반 대상은] 이메일 주소와 같이 해시된 식별자를 사용하여 Facebook와 같이 사용자 기반 환경에서 퍼스트 파티 대상 세그먼트를 활성화하는 데 도움이 되는 유료 Audience Manager 추가 기능입니다. |
+| **[[! DNL People-based destinations]](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-overview.html)** | [!DNL People-Based Destinations] 는 이메일 주소와 같이 해시된 식별자를 사용하여 Facebook와 같이 사용자 기반 환경에서 퍼스트 파티 대상 세그먼트를 활성화할 수 있도록 해주는 유료 Audience Manager 추가 기능입니다. |
 | **[Twitter 맞춤 대상을 셀프 서비스 장치 기반 대상으로 구성](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/device-based/twitter-tailored-audiences.html)** | Twitter 대상을 셀프 서비스 구성 모델로 마이그레이션합니다. 이 문서에서는 기존 Twitter 통합에서 마이그레이션 후 작업을 계속 진행하기 위해 수행해야 하는 작업에 대해 설명합니다. |
 | **[Audience Marketplace 요금 청구 예제](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/audience-marketplace/audience-marketplace-for-data-buyers/marketplace-buyer-billing.html#billing-examples)** | 활성화 및 모델링 사용 사례를 통해 세그먼트에 대한 청구가 작동하는 방식을 자세히 설명하는 사례 3 이 추가되었습니다. |
 
