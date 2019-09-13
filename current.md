@@ -246,7 +246,7 @@ AEM Forms 자동화된 양식 변환 서비스에 대한 설명서를 이제 사
 
 ### 제품 사용 종료
 
-[!DNL Digital Publishing Suite Classic](DPSC)은 2019년 8월 31일에 사용이 종료됩니다. 자세한 내용은 [[!DNL Digital Publishing Suite Classic] 사용 종료 FAQ](https://helpx.adobe.com/kr/digital-publishing-suite/help/eol-statement-for-dpsc.html)를 참조하십시오.
+[!DNL Digital Publishing Suite Classic] (DPSC)은 2019년 8월 31일에 사용이 종료됩니다. 자세한 내용은 [[!DNL Digital Publishing Suite Classic] 사용 종료 FAQ](https://helpx.adobe.com/kr/digital-publishing-suite/help/eol-statement-for-dpsc.html)를 참조하십시오.
 
 ### 추가 리소스
 
