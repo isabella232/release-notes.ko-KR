@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019년 9월
 author: mfrei
 translation-type: ht
-source-git-commit: adb17defaa34adc0866985a5eb5a621e9fb36c7d
+source-git-commit: 8e959510cb32eef2e619f562cd998b4e75c2c8d3
 
 ---
 
@@ -269,6 +269,9 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 * [Campaign Classic 19.1.5 업데이트](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9033) – 빌드 9033
 
 ### Adobe Campaign [!UICONTROL 제어판]
+
+관리 사용자가 Campaign Classic 인스턴스에 연결하기 위해 IP 주소를 허용 목록에 추가하는 새로운 기능을 추가했습니다.
+또한 이제 관리 사용자는 빌드 업그레이드의 인스턴스 및 자격 조건 목록을 볼 수 있습니다. 자세한 내용은 [상세 설명서](https://helpx.adobe.com/kr/campaign/kb/control-panel-instance-settings.html)를 참조하십시오.
 
 관리자가 도메인에 대한 SSL 인증서가 만료되기 전에 알림을 받을 수 있는 새로운 기능을 추가했습니다. 자세한 내용은 [상세 설명서](https://helpx.adobe.com/kr/campaign/kb/control-panel-subdomains-certificates.html)를 참조하십시오.
 
