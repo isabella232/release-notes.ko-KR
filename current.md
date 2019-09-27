@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019년 9월
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8e959510cb32eef2e619f562cd998b4e75c2c8d3
+source-git-commit: eb150b48019a2fc54c3de3fa58475a9eb475505f
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
 * [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (솔루션 도움말 링크)
-* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (links to solution help)
+* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (솔루션 도움말 링크)
 
 ## Experience Cloud 인터페이스 {#ecloud}
 
@@ -36,7 +36,7 @@ Experience Cloud 인터페이스 및 제품 관리에 대한 릴리스 정보입
 * 권장 HTTP 헤더를 포함하도록 보안 취약성 문제를 해결했습니다. (MCUI-9942)
 * Analytics 로그인 회사 간 전환 문제를 해결했습니다. (MCUI-10049)
 
-제품 문서는 Experience Cloud [를 참조하십시오](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html).
+For product documentation, see [Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html).
 
 ## Experience Platform {#platform}
 
@@ -44,28 +44,36 @@ Experience Platform, Experience Platform Launch, Idendity Service 및 보안 게
 
 * [Experience Platform Launch](#launch)
 * [Mobile Services 및 Mobile SDK](#mobile)
-* [보안 게시판 및 권고 조치](https://helpx.adobe.com/security.html) (모든 Adobe 제품)
+* [Security bulletins and advisories](https://helpx.adobe.com/security.html) (All Adobe products)
 
 ### Experience Platform Launch {#launch}
 
-릴리스 [노트 및 제품](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html) 설명서는 Experience Platform Launch를 참조하십시오.
+See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html) for release notes and product documentation.
 
 ### Mobile Services 및 Mobile SDK {#mobile}
 
 릴리스 날짜: **9월 26일**
 
-**iOS(4.18.8)**
+**iOS:버전 4.18.8**
 
-* SDK 데이터가 모든 Analytics 호출에서 쌍을 이루는 watchOS 앱과 동기화되는 버그를 수정했습니다.
-* 푸시 클릭스루 페이로드가 인앱 메시지의 특성으로 사용될 수 없던 버그를 수정했습니다.
-* iOS 10 이상에서 더 이상 사용되지 않는 UILocalNotification API 대신 사용자 알림 프레임워크 API로 업데이트되었습니다.
-* iOS 12 이상에서 더 이상 사용되지 않는 UIWebView가 아닌 WKWebView로 업데이트되었습니다.
+릴리스 날짜: 2019년 9월 20일
 
-**Android 4.17.10**
+* In App Messaging:
+   * On devices running iOS 10 or newer, the UserNotifications framework is now used to schedule local notifications for apps that are linked to the UserNotifications.framework .
+   * Fullscreen messages now use WKWebViews from WebKit.framework, which must be linked in your Xcode project.
+   * 푸시 클릭스루 페이로드를 인앱 메시징의 트레이트로 사용할 수 없었던 버그가 수정되었습니다.
+   * Fixed a crash issue.
+* 일반 - 모든 Analytics 호출에서 SDK 데이터가 쌍으로 설정된 watchOS 앱과 동기화된 버그를 수정했습니다.
 
-* BCP 47 언어 태그에 대한 지원을 추가했습니다.
+**Android:버전 4.17.10**
+
+릴리스 날짜: 2019년 9월 20일
+
+* General: Fixed locale string generation for some regions on Android API level 21 or newer.
 
 **Unity**
+
+릴리스 날짜: 2019년 9월 26일
 
 * iOS용 4.18.7 및 Android용 4.17.9로 업데이트된 플러그인
 
@@ -83,14 +91,14 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | 기능 | 설명 |
 | -----------| ---------- |  
-| **Journey IQ: 교차 장치 Analytics** | 2019년 9월 Adobe Analytics는 Journey IQ: Cross-Device Analytics라는 강력한 새로운 기능을 도입했습니다. (이 기능은 Analytics Ultimate 고객에게만 제공됩니다.) CDA(교차 장치 Analytics)는 Adobe Analytics를 장치 중심에서 인간 중심 분석 도구로 혁신합니다. CDA를 사용하여 다음과 같은 질문에 답변할 수 있습니다. <ul><li>얼마나 많은 사람들이 내 브랜드와 상호 작용하고 있습니까? 얼마나 많은 장치와 어떤 유형의 장치를 사용하고 있습니까? 어떻게 중첩됩니까?</li><li>사람들이 모바일 장치에서 작업을 시작한 다음 나중에 데스크탑 PC로 이동하여 작업을 완료하는 빈도는 얼마나 됩니까? 하나의 장치에 랜딩되는 캠페인 클릭스루가 다른 곳에서 전환을 가져옵니까?</li><li>장치 간 여정을 고려하면 캠페인 효과에 대한 이해가 어떻게 달라집니까? 단계 분석은 어떻게 변경됩니까?</li><li>사용자가 하나의 장치에서 다른 장치로 이동하는 가장 일반적인 경로는 무엇입니까? 어디에서 중단됩니까? 어디에서 성공합니까?</li><li>여러 장치가 있는 사용자의 행동은 단일 장치가 있는 사용자와 어떻게 다릅니까?</li></ul><br/>자세한 내용은 adobe.ly/aacda을 [참조하십시오](https://spark.adobe.com/page/8ZpjsX6Lp5XTM/). |
+| **Journey IQ: 교차 장치 Analytics** | 2019년 9월 Adobe Analytics는 Journey IQ: Cross-Device Analytics라는 강력한 새로운 기능을 도입했습니다. (이 기능은 Analytics Ultimate 고객에게만 제공됩니다.) CDA(교차 장치 Analytics)는 Adobe Analytics를 장치 중심에서 인간 중심 분석 도구로 혁신합니다. CDA를 사용하여 다음과 같은 질문에 답변할 수 있습니다. <ul><li>얼마나 많은 사람들이 내 브랜드와 상호 작용하고 있습니까? 얼마나 많은 장치와 어떤 유형의 장치를 사용하고 있습니까? 어떻게 중첩됩니까?</li><li>사람들이 모바일 장치에서 작업을 시작한 다음 나중에 데스크탑 PC로 이동하여 작업을 완료하는 빈도는 얼마나 됩니까? 하나의 장치에 랜딩되는 캠페인 클릭스루가 다른 곳에서 전환을 가져옵니까?</li><li>장치 간 여정을 고려하면 캠페인 효과에 대한 이해가 어떻게 달라집니까? 단계 분석은 어떻게 변경됩니까?</li><li>사용자가 하나의 장치에서 다른 장치로 이동하는 가장 일반적인 경로는 무엇입니까? 어디에서 중단됩니까? 어디에서 성공합니까?</li><li>여러 장치가 있는 사용자의 행동은 단일 장치가 있는 사용자와 어떻게 다릅니까?</li></ul><br/>To learn more, visit adobe.ly/aacda.[](https://spark.adobe.com/page/8ZpjsX6Lp5XTM/) |
 | **업데이트된 분류 아키텍처** | 9월부터 분류 아키텍처에 대한 업데이트는 몇 개월 동안 고객으로 마이그레이션됩니다. 9월 릴리스에는 적은 수의 얼리어답터에 대한 마이그레이션이 포함됩니다.<br/>업데이트는 가져오기/수집하여 보고하는 데 사용할 수 있도록 업로드하는 데 걸리는 시간(규칙 로직 포함)을 크게 줄입니다. |
 
 #### 수정 사항
 
 * 기본 Experience Cloud 메뉴에서 액세스할 수 없는 [!UICONTROL 사람] 및 [!UICONTROL 제공] 핵심 서비스에 대한 문제를 수정했습니다. (AN-184294)
 * 스크롤 막대가 있고 스크롤 막대가 없는 [!UICONTROL Analysis Workspace]에서 왼쪽 레일이 흔들리는 문제가 수정되었습니다. (AN-183904)
-* 오류 보고와 관련된 문제가 해결되었습니다. 빨간색 오류 표시기 대신 더 구체적인 오류 메시지가 표시됩니다. 특히, 부하가 높거나 오류가 있거나 너무 복잡한 보고서 요청을 작성하여 문제가 발생하는 경우를 이해하는 데 도움이 됩니다. (AN-184135) [자세히...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/optimizing-performance.html)
+* 오류 보고와 관련된 문제가 해결되었습니다. 빨간색 오류 표시기 대신 더 구체적인 오류 메시지가 표시됩니다. 특히, 부하가 높거나 오류가 있거나 너무 복잡한 보고서 요청을 작성하여 문제가 발생하는 경우를 이해하는 데 도움이 됩니다. (AN-184135) [More…](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/optimizing-performance.html)
 * `.pdf/.xls/.rtf` 형식으로 폴아웃 보고서를 성공적으로 다운로드할 수 없는 문제를 해결했습니다. (AN-183165)
 * Experience Cloud를 통해 로그인하고 다른 Experience Cloud 솔루션으로 전환하거나 다른 로그인 회사로 전환하는 문제가 해결되었습니다. (AN-183376)
 * 예약된 프로젝트의 자산 전송이 제대로 작동하지 않는 문제를 해결했습니다. 그룹은 이제 [!UICONTROL 관리 콘솔]에서 관리되므로, 자산을 전송할 때 더 이상 사용자 간에 복사하지 않습니다. (AN-183751)
@@ -100,10 +108,10 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | 알림 | 추가한 날짜 또는 업데이트한 날짜 | 설명 |
 | -----------| ---------- | ---------- |
-| Analysis Workspace 자유 형식 테이블 합계 업데이트 | 2019년 9월 12일 | 2019년 10월에는 자유 형식 테이블 합계 행이 적용된 [보고서 필터에](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) 대한 회계를 시작합니다. 현재까지 합계가 세분화에 대해서만 계산되었습니다. 이 변경 사항에 따라 종속 시각화는 내보내기한 CSV 및 PDF 데이터뿐만 아니라 업데이트(예: 연결된 [!UICONTROL 요약 번호] 시각화)됩니다. |
+| Analysis Workspace 자유 형식 테이블 합계 업데이트 | 2019년 9월 12일 | In October 2019, freeform table total rows will begin accounting for report filters applied. [](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) 현재까지 합계가 세분화에 대해서만 계산되었습니다. 이 변경 사항에 따라 종속 시각화는 내보내기한 CSV 및 PDF 데이터뿐만 아니라 업데이트(예: 연결된 [!UICONTROL 요약 번호] 시각화)됩니다. |
 | Analytics 사용자의 `createDate` 필드 관련 향후 변경 사항 | 2019년 8월 30일 | 2019년 10월 또는 11월에는 Analytics 사용자의 `createDate` 필드가 미국 태평양 표준시에서 시간대 정보가 있는 올바른 형식의 날짜/시간 값으로 업데이트됩니다. (AN-183468) |
 | 이전 시간대 오프셋 지원 | 2019년 8월 8일 | 이제 Analytics는 타임스탬프가 지정된 히트에 대해 시간대 오프셋을 자동으로 처리합니다. 8월 8일에 이 변경사항이 적용되면, 내역 처리를 위해 데이터에 로드되는 시스템은 데이터를 보내기 전에 더 이상 시간대 오프셋을 조정하지 않아도 됩니다. |
-| 분류 규칙 빌더 제한 | 2019년 6월 5일에 추가됨 | 이러한 제한은 새로운 것은 아니지만 [여기에서](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html)문서에 추가되었습니다. |
+| 분류 규칙 빌더 제한 | 2019년 6월 5일에 추가됨 | These limits are not new, but have been added to the documentation here.[](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html) |
 | 새로운 세그먼트 연산자 제한 | 2019년 5월 31일에 추가됨 | 2019년 7월 18일부터 세그먼트 연산자 _임의 항목 포함_, _임의 항목 포함하지 않음_, _모두 포함_ 및 _모두 포함하지 않음_&#x200B;은 입력 필드당 100단어로 제한됩니다. 이 날짜 이후로 모든 신규 세그먼트와 수정된 세그먼트에 제한이 적용됩니다. 제한을 초과하는 기존 세그먼트는 계속 지원되지만 입력 필드가 감소될 때까지 수정하거나 저장할 수 없습니다. 이 제한은 쿼리 성능을 향상시키기 위한 지속적인 노력의 일환으로 적용됩니다. |
 | **[!UICONTROL 활성화된 날짜]** 및 **[!UICONTROL 숫자 2 분류]**&#x200B;에 대한 지원 변경 사항 | 업데이트 날짜: 2019년 5월 28일 | 숫자 2와 활성화된 날짜 분류를 가져오는 기능이 코드 베이스에서 제거되었습니다. 이 변경 사항은 2019년 7월 유지 관리 릴리스에 적용되었습니다. 가져온 파일에 숫자 또는 활성화된 날짜 열이 있는 경우 해당 셀은 자동으로 무시되며, 해당 파일의 다른 모든 데이터는 정상적으로 가져와집니다. <br/>기존 분류는 여전히 표준 분류 워크플로우를 통해 내보낼 수 있으며, 보고에서 계속 사용할 수 있습니다. |
 | _보고서 총계_ 계산과 관련한 변경 | 업데이트 날짜: 2019년 7월 9일 | **2019년 6월 18일**&#x200B;에 Adobe Analytics는 모든 차원 및 지표에서 _보고서 총계_&#x200B;를 동일하게 변경했습니다. 이를 통해 일부 보고서(예: Prop 또는 고객 특성 보고서)의 총계가 변경되었습니다. 본 변경에 앞서 일부 보고서 총계는 보고서에서 _미지정_ 으로 표시되는지의 여부와 관계없이, 총계의 _미지정_ 라인 항목에 일관성 없이 포함되거나 제외됩니다. <br/>2019년 6월 18일부터, _미지정_ 항목은 보고서의 라인 항목으로 표시되지 않는 경우에도 보고서 총계에 항상 표시됩니다. 또한 _exists_ 또는 _does not exist_ 로직을 사용하는 세그먼트는 이 변경 후 일부 차원에 대해 다른 결과를 볼 수 있습니다. 특히 _Unspecified_&#x200B;에 레퍼러 유형 차원에 대한 "Typed/Bookmarked" 라인 항목 또는 장치 유형 차원에 대한 "Other" 라인 항목 등의 특수 이름이 있는 차원입니다. 본 변경은 Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder 및 Reporting API에 적용됩니다. |
@@ -119,7 +127,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 ### [!DNL AppMeasurement] {#appm}
 
-JavaScript [용 AppMeasurement 릴리스 노트를](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)참조하십시오.
+See AppMeasurement for Javascript release notes.[](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)
 
 ## Audience Manager {#aam}
 
@@ -129,8 +137,8 @@ Audience Manager의 새로운 기능, 개선 사항 및 수정 사항.
 
 | 기능 | 설명 |
 | -----------| ---------- |  
-| **[[!DNL 사람 기반 대상]](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-overview.html)** | [!DNL People-Based Destinations] 이메일 주소와 같이 해시된 식별자를 사용하여 Facebook과 같이 사용자 기반 환경에서 자사 대상 세그먼트를 활성화하는 데 도움이 되는 유료 Audience Manager 추가 기능입니다. |
-| **[Twitter 맞춤 대상을 셀프 서비스 장치 기반 대상으로 구성](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/device-based/twitter-tailored-audiences.html)** | Twitter 대상을 셀프 서비스 구성 모델로 마이그레이션하고 있습니다. 이 문서에서는 기존 Twitter 통합에서 마이그레이션 후 작업을 계속 진행하기 위해 수행해야 하는 작업에 대해 설명합니다. |
+| **[[!DNL People-Based Destinations]](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-overview.html)** | [!DNL People-Based Destinations] 이메일 주소와 같이 해시된 식별자를 사용하여 Facebook과 같이 사용자 기반 환경에서 자사 대상 세그먼트를 활성화하는 데 도움이 되는 유료 Audience Manager 추가 기능입니다. |
+| **[Configuring Twitter Tailored Audiences as a Self-Service Device-Based Destination](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/device-based/twitter-tailored-audiences.html)** | Twitter 대상을 셀프 서비스 구성 모델로 마이그레이션하고 있습니다. 이 문서에서는 기존 Twitter 통합에서 마이그레이션 후 작업을 계속 진행하기 위해 수행해야 하는 작업에 대해 설명합니다. |
 | **[Audience Marketplace 청구 예](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/audience-marketplace/audience-marketplace-for-data-buyers/marketplace-buyer-billing.html#billing-examples)** | 활성화 및 모델링 사용 사례를 통해 세그먼트에 대한 비용 청구가 작동하는 방식을 자세히 설명하는 사례 3이 추가되었습니다. |
 
 **수정 사항 및 향상된 기능**
