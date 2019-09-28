@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019년 9월
 author: mfrei
 translation-type: tm+mt
-source-git-commit: eb150b48019a2fc54c3de3fa58475a9eb475505f
+source-git-commit: b8639c07c29e929b786b515b0d8e1e3cb89fa45a
 
 ---
 
@@ -36,7 +36,7 @@ Experience Cloud 인터페이스 및 제품 관리에 대한 릴리스 정보입
 * 권장 HTTP 헤더를 포함하도록 보안 취약성 문제를 해결했습니다. (MCUI-9942)
 * Analytics 로그인 회사 간 전환 문제를 해결했습니다. (MCUI-10049)
 
-For product documentation, see [Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html).
+제품 문서는 Experience Cloud [를 참조하십시오](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html).
 
 ## Experience Platform {#platform}
 
@@ -44,32 +44,30 @@ Experience Platform, Experience Platform Launch, Idendity Service 및 보안 게
 
 * [Experience Platform Launch](#launch)
 * [Mobile Services 및 Mobile SDK](#mobile)
-* [Security bulletins and advisories](https://helpx.adobe.com/security.html) (All Adobe products)
+* [보안 게시판 및 권고 조치](https://helpx.adobe.com/security.html) (모든 Adobe 제품)
 
 ### Experience Platform Launch {#launch}
 
-See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html) for release notes and product documentation.
+릴리스 [노트 및 제품](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html) 설명서는 Experience Platform Launch를 참조하십시오.
 
 ### Mobile Services 및 Mobile SDK {#mobile}
 
-릴리스 날짜: **9월 26일**
-
-**iOS:버전 4.18.8**
+**iOS: Version 4.18.8**
 
 릴리스 날짜: 2019년 9월 20일
 
-* In App Messaging:
-   * On devices running iOS 10 or newer, the UserNotifications framework is now used to schedule local notifications for apps that are linked to the UserNotifications.framework .
-   * Fullscreen messages now use WKWebViews from WebKit.framework, which must be linked in your Xcode project.
+* 앱 메시지:
+   * iOS 10 이상을 실행하는 장치에서 이제 UserNotifications 프레임워크를 사용하여 UserNotifications.framework에 연결된 앱에 대한 로컬 알림을 예약합니다.
+   * 이제 전체 화면 메시지는 Xcode 프로젝트에 연결해야 하는 WebKit.framework의 WKWebViews를 사용합니다.
    * 푸시 클릭스루 페이로드를 인앱 메시징의 트레이트로 사용할 수 없었던 버그가 수정되었습니다.
-   * Fixed a crash issue.
+   * 충돌 문제가 수정되었습니다.
 * 일반 - 모든 Analytics 호출에서 SDK 데이터가 쌍으로 설정된 watchOS 앱과 동기화된 버그를 수정했습니다.
 
 **Android:버전 4.17.10**
 
 릴리스 날짜: 2019년 9월 20일
 
-* General: Fixed locale string generation for some regions on Android API level 21 or newer.
+* 일반:Android API 레벨 21 이상에서 일부 영역에 대한 로케일 문자열 생성을 수정했습니다.
 
 **Unity**
 
@@ -98,7 +96,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 * 기본 Experience Cloud 메뉴에서 액세스할 수 없는 [!UICONTROL 사람] 및 [!UICONTROL 제공] 핵심 서비스에 대한 문제를 수정했습니다. (AN-184294)
 * 스크롤 막대가 있고 스크롤 막대가 없는 [!UICONTROL Analysis Workspace]에서 왼쪽 레일이 흔들리는 문제가 수정되었습니다. (AN-183904)
-* 오류 보고와 관련된 문제가 해결되었습니다. 빨간색 오류 표시기 대신 더 구체적인 오류 메시지가 표시됩니다. 특히, 부하가 높거나 오류가 있거나 너무 복잡한 보고서 요청을 작성하여 문제가 발생하는 경우를 이해하는 데 도움이 됩니다. (AN-184135) [More…](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/optimizing-performance.html)
+* 오류 보고와 관련된 문제가 해결되었습니다. 빨간색 오류 표시기 대신 더 구체적인 오류 메시지가 표시됩니다. 특히, 부하가 높거나 오류가 있거나 너무 복잡한 보고서 요청을 작성하여 문제가 발생하는 경우를 이해하는 데 도움이 됩니다. (AN-184135) [자세히...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/optimizing-performance.html)
 * `.pdf/.xls/.rtf` 형식으로 폴아웃 보고서를 성공적으로 다운로드할 수 없는 문제를 해결했습니다. (AN-183165)
 * Experience Cloud를 통해 로그인하고 다른 Experience Cloud 솔루션으로 전환하거나 다른 로그인 회사로 전환하는 문제가 해결되었습니다. (AN-183376)
 * 예약된 프로젝트의 자산 전송이 제대로 작동하지 않는 문제를 해결했습니다. 그룹은 이제 [!UICONTROL 관리 콘솔]에서 관리되므로, 자산을 전송할 때 더 이상 사용자 간에 복사하지 않습니다. (AN-183751)
@@ -165,14 +163,14 @@ Cloud Manager 릴리스 2019.8.0 에서는 다양한 사소한 버그가 수정�
 
 [소프트웨어](https://downloads.experiencecloud.adobe.com/) 배포는 AEM 패키지의 검색 및 다운로드를 간소화하기 위해 고안된 새로운 사용자 인터페이스입니다. 현재 베타 상태이며 Adobe Managed Services 고객만 액세스할 수 있습니다.
 
-* [패키지](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html#PackageShare) 공유는 모든 고객이 소프트웨어 배포에 액세스할 수 있을 때까지 액세스할 수 있습니다.
+* [Package Share](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html#PackageShare) will remain accessible until all customers have access to Software Distribution.
 * 모든 패키지는 Package Share 및 Software Distribution 모두에서 사용할 수 있습니다.
 
 ### 제품 유지 관리
 
 **AEM 유지 관리 릴리스 로드맵**
 
-AEM 유지 관리 릴리스 로드맵은 [여기에](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html)게시되어 있습니다.
+See the AEM maintenance release roadmap as published here.[](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html)
 
 ### 사용자 도움말
 
@@ -197,7 +195,7 @@ MAC용 AEM 데스크탑 앱 2.0은 2019년 8월 30일에 출시되었습니다. 
 
 **자동화된 양식 변환 서비스**
 
-AEM Forms 자동화된 양식 변환 서비스에 대한 설명서를 이제 사용할 수 있습니다. 자동화된 [양식 변환 서비스](https://helpx.adobe.com/experience-manager/Automated-Forms-Conversion-Service/introduction-to-automated-form-conversion-service.html)소개를 참조하십시오.
+AEM Forms 자동화된 양식 변환 서비스에 대한 설명서를 이제 사용할 수 있습니다. See Introduction to Automated Forms Conversion service.[](https://helpx.adobe.com/experience-manager/Automated-Forms-Conversion-Service/introduction-to-automated-form-conversion-service.html)
 
 ### 커뮤니티
 
@@ -246,7 +244,7 @@ AEM Forms 자동화된 양식 변환 서비스에 대한 설명서를 이제 사
 * [AEM 6.3 학습 및 지원 홈](https://helpx.adobe.com/support/experience-manager/6-3.html)
 * [AEM 6.2 학습 및 지원 홈](https://helpx.adobe.com/support/experience-manager/6-2.html)
 * [Cloud Manager 사용 안내서](https://helpx.adobe.com/experience-manager/cloud-manager/user-guide.html)
-* [Older Versions of AEM Documentation](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
+* [이전 버전의 AEM 설명서](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
 * [Dynamic Media Classic 도움말 홈](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)
 * [Dynamic Media 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
 * [Livefyre 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
@@ -272,8 +270,8 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 ### Adobe Campaign Classic
 
-* [Campaign Classic 19.1.4 업데이트](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9032) - 빌드 9032
-* [Campaign Classic 19.1.5 업데이트](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9033) - 빌드 9033
+* [Campaign Classic 19.1.4 update – build 9032](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9032)
+* [Campaign Classic 19.1.5 update – build 9033](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9033)
 
 ### Adobe Campaign [!UICONTROL 제어판]
 
