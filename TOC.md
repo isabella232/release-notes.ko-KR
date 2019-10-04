@@ -14,7 +14,7 @@ source-git-commit: 7759ee9ded40d019321df67478cf08565f6830cc
 + [릴리스 노트](current.md)
 + 이전 릴리스 노트 {#previous}
    + 2019 {#2019}
-      + [September 2019](c-legacy-releases/2019/09122019.md)
+      + [2019년 9월](c-legacy-releases/2019/09122019.md)
       + [2019년 8월](c-legacy-releases/2019/08082019.md)
       + [2019년 7월](c-legacy-releases/2019/07182019.md)
       + [2019년 6월](c-legacy-releases/2019/06132019.md)
