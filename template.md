@@ -4,8 +4,8 @@ description: Experience Cloud 릴리스 노트 템플릿
 doc-type: 릴리스 노트
 last-update: 2019년 3월
 author: mfrei
-translation-type: ht
-source-git-commit: 8ec590d7cbf63b67cfaf869f54c3707dbb5c2e83
+translation-type: tm+mt
+source-git-commit: 04228df4d9a7279fe2c8627aeb0bb7492d34327e
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 
 >[!NOTE]
 >
->예정된 릴리스에 대한 이메일 알림을 받으려면 [Adobe 우선 제품 업데이트](https://www.adobe.com/subscription/priority-product-update.html)에 가입하십시오. 업무일 기준으로 릴리스 3-5일 전에 공지를 받게 됩니다. 릴리스 후 게시된 새 정보는 발행 날짜로 표시됩니다.
+>예정된 릴리스에 대한 이메일 알림을 받으려면 [Adobe 우선 제품 업데이트](https://www.adobe.com/subscription/priority-product-update.html)에 가입하십시오. 릴리스 후 게시된 새 정보는 발행 날짜로 표시됩니다.
 
 **릴리스 날짜: 2019년**
 
@@ -30,8 +30,8 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
 * [Advertising Cloud](#adcloud)
-* [!DNL Target](https://docs.adobe.com/content/help/ko-KR/target/using/release-notes/target-release-notes.html) (솔루션 도움말 링크)
-* [!DNL Primetime](https://helpx.adobe.com/kr/primetime/user-guide.html) (솔루션 도움말 링크)
+* [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (솔루션 도움말 링크)
+* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (links to solution help)
 
 ## Experience Cloud 및 Experience Platform{#platform}
 
@@ -42,19 +42,19 @@ Experience Platform, Experience Cloud 인터페이스, 제품 관리, Experience
 * [Mobile Services 및 Mobile SDK](#mobile)
 * [관리 및 개발자](#admin)
 * [Experience Platform Launch](#launch)
-* [보안 게시판 및 권장 사항](https://helpx.adobe.com/kr/security.html)(모든 Adobe 제품)
+* [보안 게시판 및 권고 조치](https://helpx.adobe.com/security.html) (All Adobe products)
 
 ### 핵심 서비스 {#core-services}
 
 기능 및 수정 사항.
 
-제품 설명서는 [Experience Cloud 및 Core Services](https://docs.adobe.com/content/help/ko-KR/core-services/interface/experience-cloud.html)를 참조하십시오.
+For product documentation, see [Experience Cloud and Core Services](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)
 
 ### Experience Cloud ID 서비스 {#ecid}
 
 기능 및 수정 사항.
 
-제품 설명서는 [Experience Cloud ID 서비스](https://marketing.adobe.com/resources/help/ko_KR/mcvid/)를 참조하십시오.
+제품 설명서의 경우 [Experience Cloud ID 서비스](https://marketing.adobe.com/resources/help/en_US/mcvid/)를 참조하십시오.
 
 ### Mobile Services 및 Mobile SDK {#mobile}
 
@@ -69,19 +69,19 @@ Experience Platform, Experience Cloud 인터페이스, 제품 관리, Experience
 * 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
 * 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
 
-제품 설명서는 [모바일 서비스](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)를 참조하십시오.
+제품 설명서는 [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)를 참조하십시오.
 
-Mobile SDK에 대한 자세한 정보는 [Experience Solutions용 Android SDK 4.x](https://marketing.adobe.com/resources/help/ko_KR/mobile/android/) 및 [Experience Cloud Solutions용 iOS SDK 4.x](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)를 참조하십시오.
+Mobile SDK에 대한 자세한 내용은 [Experience 솔루션용 Android SDK 4.x](https://marketing.adobe.com/resources/help/en_US/mobile/android/) 및 [Experience Cloud 솔루션용 iOS SDK 4.x](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)를 참조하십시오.
 
 ### 관리 및 개발자 {#admin}
 
 기능 및 수정 사항.
 
-제품 설명서는 [사용자 및 제품 관리](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/admin-getting-started.html)를 참조하십시오.
+For product documentation, see [Manage user and products](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ### Experience Platform Launch {#launch}
 
-릴리스 노트 및 제품 설명서는 [Experience Platform Launch](https://docs.adobe.com/content/help/ko-KR/launch/using/intro/release-notes/current.html)를 참조하십시오.
+릴리스 [노트 및 제품](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html) 설명서는 Experience Platform Launch를 참조하십시오.
 
 ## [!DNL Analytics] {#analytics}
 
@@ -91,7 +91,7 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 * [iOS 및 Android용 Media Analytics SDK (이전의 VHL SDK)](#aa-va)
 * [Analytics 관리자에 대한 중요 공지](analytics-important-notices.md)
 
-제품 설명서는 [Adobe Analytics 도움말 홈](https://docs.adobe.com/content/help/en/analytics/landing/home.html)을 참조하십시오.
+For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.com/content/help/en/analytics/landing/home.html).
 
 ### Adobe Analytics의 새로운 기능 {#aa-features}
 
@@ -111,7 +111,7 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 
 ### [!DNL Data Workbench] {#aa-dwb}
 
-최신 정보는 [Data Workbench 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/insight/whatsnew/)를 참조하십시오.
+[Data Workbench 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/insight/whatsnew/)에서 최신 정보를 확인하십시오.
 
 ### AppMeasurement {#appm}
 
@@ -128,7 +128,7 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 * 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
 * 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
 
-다음 플랫폼에서 AppMeasurement의 릴리스 내역을 확인하려면 [AppMeasurement 릴리스 내역](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)을 참조하십시오.
+다음 플랫폼에 대한 [AppMeasurement 릴리스 내역](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)이 필요하면 AppMeasurement 릴리스 내역을 참조하십시오.
 
 * JavaScript
 * iOS
@@ -189,12 +189,12 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 내용 및 업데이�
 
 ### 추가 리소스
 
-* [AEM 6.4 학습 및 지원 홈](https://helpx.adobe.com/kr/support/experience-manager/6-4.html)
-* [AEM 6.3 학습 및 지원 홈](https://helpx.adobe.com/kr/support/experience-manager/6-3.html)
-* [AEM 6.2 학습 및 지원 홈](https://helpx.adobe.com/kr/support/experience-manager/6-2.html)
-* [Cloud Manager 사용 안내서](https://helpx.adobe.com/kr/experience-manager/cloud-manager/user-guide.html)
-* [이전 버전의 AEM 설명서](https://helpx.adobe.com/kr/experience-manager/aem-previous-versions.html)
-* [Scene7 Publishing System 릴리스 노트](https://marketing.adobe.com/resources/help/ko_KR/s/release_notes/index.html)
+* [AEM 6.4 학습 및 지원 홈](https://helpx.adobe.com/support/experience-manager/6-4.html)
+* [AEM 6.3 학습 및 지원 홈](https://helpx.adobe.com/support/experience-manager/6-3.html)
+* [AEM 6.2 학습 및 지원 홈](https://helpx.adobe.com/support/experience-manager/6-2.html)
+* [Cloud Manager 사용 안내서](https://helpx.adobe.com/experience-manager/cloud-manager/user-guide.html)
+* [이전 버전의 AEM 설명서](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
+* [Scene7 Publishing System 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
 * [Livefyre 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
 
 ### Livefyre {#livefyre}
