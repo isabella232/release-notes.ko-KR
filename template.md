@@ -42,13 +42,13 @@ Experience Platform, Experience Cloud 인터페이스, 제품 관리, Experience
 * [Mobile Services 및 Mobile SDK](#mobile)
 * [관리 및 개발자](#admin)
 * [Experience Platform Launch](#launch)
-* [보안 게시판 및 권고 조치](https://helpx.adobe.com/security.html) (All Adobe products)
+* [Security bulletins and advisories](https://helpx.adobe.com/security.html) (All Adobe products)
 
 ### 핵심 서비스 {#core-services}
 
 기능 및 수정 사항.
 
-For product documentation, see [Experience Cloud and Core Services](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)
+For product documentation, see Experience Cloud and Core Services[](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)
 
 ### Experience Cloud ID 서비스 {#ecid}
 
