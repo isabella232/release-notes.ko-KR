@@ -2,10 +2,10 @@
 title: Adobe Experience Cloud 릴리스 노트
 description: Experience Cloud 릴리스 노트 템플릿
 doc-type: 릴리스 노트
-last-update: 2019년 3월
+last-update: 2019년 10월 일
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 04228df4d9a7279fe2c8627aeb0bb7492d34327e
+source-git-commit: 94ac88d981c552deb801877398489b1819d1fc54
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
 * [Advertising Cloud](#adcloud)
-* [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (솔루션 도움말 링크)
+* [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (links to solution help)
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (links to solution help)
 
 ## Experience Cloud 및 Experience Platform{#platform}
@@ -81,7 +81,7 @@ For product documentation, see [Manage user and products](https://docs.adobe.com
 
 ### Experience Platform Launch {#launch}
 
-릴리스 [노트 및 제품](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html) 설명서는 Experience Platform Launch를 참조하십시오.
+See Experience Platform Launch for release notes and product documentation.[](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html)
 
 ## [!DNL Analytics] {#analytics}
 
