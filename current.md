@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019년 10월 일
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8ef4569f130fe606dc9119a11e288f57205b7c0e
+source-git-commit: 6660591c30a677b429967c0b7dbee6a306ed7f54
 
 ---
 
@@ -81,6 +81,8 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 * 애드혹 분석에서 세그먼트를 로드할 수 없는 시간 초과 문제를 해결했습니다. (AN-184654)
 * 마지막으로 사용한 보고서 세트가 나중에 숨겨지거나 더 이상 이 보고서 세트에 액세스할 권한이 없을 때 발생하는 문제를 수정했습니다. 이 경우 Experience Cloud를 통해 더 이상 로그인할 수 없습니다. (AN-181777)
 * 세그먼트를 기반으로 VRS를 만들기 어렵게 했던 세그먼트의 시간 초과 문제를 수정했습니다. (AN-179684)
+* 드문 경우 잘못된 인코딩이 있을 경우 데이터가 잘렸던 문제를 수정했습니다. (AN-186707)
+* 이제 Yandex Search Engine은 국가별로 적절하게 분리됩니다. (AN-181728)
 
 ### [!DNL Analytics] 관리자에 대한 중요 공지 {#aa-notices}
 
