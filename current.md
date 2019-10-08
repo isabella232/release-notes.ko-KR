@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019년 10월 일
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 6660591c30a677b429967c0b7dbee6a306ed7f54
+source-git-commit: b4a973b8292ecfd8b203b7fac0b391e42924a7ca
 
 ---
 
@@ -117,7 +117,7 @@ Audience Manager의 새로운 기능, 개선 사항 및 수정 사항.
 **수정 사항 및 향상된 기능**
 
 * 2019년 7월 1일 이후에 생성된 모든 고객 계정은 자동으로 [!DNL Tableau] 라이선스가 할당되어 보고서에 액세스할 수 있습니다. 계정이 2019년 7월 1일 이전에 만들어졌지만 여전히 [!DNL Tableau] 보고서에 액세스할 수 없는 경우 고객 지원 센터에 문의하십시오.
-* 특성 데이터 원본과 ID 동기화가 없는 방문자 프로필에 대해 잘못 생성된 활동 트레이트 멤버십을 제거했습니다(AAM 파섹
+* 잘못된 활동 특성 생성과 인위적으로 일치율 및 고객 크기를 증가시키는 버그를 수정했습니다. 이 수정 사항 후에는 자동 생성된 활동 트레이트로 생성된 세그먼트의 크기가 감소될 수 있습니다. 이는 정상이며 예상 동작입니다(AAM 파섹
 * 글로벌 데이터 소스에서 잘못된 전역 장치 ID를 제거했습니다. Audience [Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html) 에서 수락해야 하는 유효한 장치 ID를 확인하려면 전역 데이터 소스를 참조하십시오(AAM 파섹 41259).
 * 보호된 세그먼트를 삭제하려고 할 때 세그먼트 페이지가 응답하지 않는 버그를 수정했습니다(AAM 파섹-49881).
 * Twitter 맞춤형 대상에 대한 대상을 편집할 [!UICONTROL 때] 대상에 [!DNL Twitter Ads] 계정이 할당되지 않은 경우에만 계정 선택기가 활성화됩니다(AAM 파섹-49975).
