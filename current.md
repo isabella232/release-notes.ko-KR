@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019년 10월 일
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b4a973b8292ecfd8b203b7fac0b391e42924a7ca
+source-git-commit: 0b49b33936be089aaa6f910eeb1af9138a55ae17
 
 ---
 
@@ -132,7 +132,7 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 내용 및 업데이�
 
 * **Cloud Manager 2019.9.0**
 
-   Cloud Manager 2019.9.0, 2019년 9월 12일 릴리스, 보안 테스트 기준을 업데이트하고 다운로드 가능한 모니터링 그래프를 추가하고 고객이 보고한 일부 사용성 문제를 수정합니다.
+   * Cloud Manager 2019.9.0, 2019년 9월 12일 릴리스, 보안 테스트 기준을 업데이트하고 다운로드 가능한 모니터링 그래프를 추가하고 고객이 보고한 일부 사용성 문제를 수정합니다.
    * [릴리스 노트](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/release-notes/release-notes-current.html)
 
 ### 제품 유지 관리
