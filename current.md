@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019년 10월 일
 author: mfrei
 translation-type: tm+mt
-source-git-commit: dc067709de5d85aa142067f4d2e14e80cca4476e
+source-git-commit: 3d35a004385f3e94feeb205d25e6c420e54ca835
 
 ---
 
@@ -67,8 +67,8 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | 기능 | 설명 |
 | -----------| ---------- |  
-| 개인 정보 서비스 API:CCPA | CCPA(California Consumer Privacy Act)는 미국 캘리포니아 거주자에 대한 개인정보 보호 권한과 소비자 보호를 강화합니다. 이 법은 2020년 1월 1일부터 시행한다.<br/><br/>CPA는 캘리포니아 거주자에게 개인 데이터에 액세스하고 삭제할 수 있는 권리, 개인 데이터가 판매되거나 공개(및 개인)되었는지 여부, 그리고 개인 데이터의 판매를 거부할 수 있는 권리 등 새로운 데이터 개인정보 보호 권한을 제공합니다.<br/><br/>CPA를 예상하고 있는 경우, 개인정보 보호 서비스는 개인 데이터의 판매 거부 요청을 지원할 것입니다.<br/><br/>개인 정보 보호 서비스는 이전에 GDPR 서비스라고 불렀으며, 현재 CCPA를 지원하도록 확장되어 있는 모든 이전 기능을 보유합니다.<br/><br/>[Analytics의 CPA](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/an-ccpa-overview.html)<br/><br/>`Link activating by 10/10/19 - [Privacy Service Overview](https://www.adobe.io/apis/experiencecloud/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md)` |
-| 개인 정보 보고:Analytics 관리 콘솔 | Analytics에 대한 개인 정보 보고를 활성화하면 예약된 변수 세트가 보고서 세트에 추가됩니다.  이 변수는 히트 수준에서 소비자 동의 데이터 수집을 지원하기 위해 고안되었습니다.<br/><br/>새 차원:<br/><ul><li>동의 관리 옵트아웃</li><li>동의 관리 옵트인</li><li>`Link activating by 10/10/19 - [Consent Management Variables](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/consent-variables.html)`</li></ul> |
+| 개인 정보 서비스 API:CCPA | CCPA(California Consumer Privacy Act)는 미국 캘리포니아 거주자에 대한 개인정보 보호 권한과 소비자 보호를 강화합니다. 이 법은 2020년 1월 1일부터 시행한다.<br/><br/>CPA는 캘리포니아 거주자에게 개인 데이터에 액세스하고 삭제할 수 있는 권리, 개인 데이터가 판매되거나 공개(및 개인)되었는지 여부, 그리고 개인 데이터의 판매를 거부할 수 있는 권리 등 새로운 데이터 개인정보 보호 권한을 제공합니다.<br/><br/>CPA를 예상하고 있는 경우, 개인정보 보호 서비스는 개인 데이터의 판매 거부 요청을 지원할 것입니다.<br/><br/>개인 정보 보호 서비스는 이전에 GDPR 서비스라고 불렀으며, 현재 CCPA를 지원하도록 확장되어 있는 모든 이전 기능을 보유합니다.<br/><br/>[Analytics의](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/an-ccpa-overview.html)<br/><br/>[CPA개인 정보 보호 서비스 개요](https://www.adobe.io/apis/experiencecloud/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md) |
+| 개인 정보 보고:Analytics 관리 콘솔 | Analytics에 대한 개인 정보 보고를 활성화하면 예약된 변수 세트가 보고서 세트에 추가됩니다.  이 변수는 히트 수준에서 소비자 동의 데이터 수집을 지원하기 위해 고안되었습니다.<br/><br/>새 차원:<br/><ul><li>동의 관리 옵트아웃</li><li>동의 관리 옵트인</li><li>[동의 관리 변수](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/consent-variables.html)</li></ul> |
 | 오디오 및 비디오 분석:개인 정보 지원 | Media Collection API에는 두 개의 새 변수가 추가되었습니다.<br/><ul><li>analytics.optOutServerSideForwarding</li><li>analytics.optOutShare</li></ul><br/><br/>이러한 변수는 히트 시 소비자의 동의 상태를 캡처하는 데 사용할 수 있는 선택 변수입니다.<br/><br/>[미디어 수집 API](https://docs.adobe.com/content/help/en/media-analytics/using/media-collection-api/mc-api-overview.html)<br/><br/>설명서 새로운 Analytics 동의 관리 컨텍스트 데이터 변수가 Federated Analytics 양식에 추가되었습니다. 이제 이러한 변수를 페더레이션에 대한 옵트아웃 또는 판매 히트에 플래그를 지정하는 데 사용할 수 있습니다.<br/><br/>[Federated 양식 다운로드](https://docs.adobe.com/content/help/en/media-analytics/using/federated-analytics.html#download-the-federated-analytics-form) |
 | 분석 작업 공간:자유 형식 테이블 합계 업데이트 | 자유 형식 표에는 이제 테이블 총계 **[!UICONTROL 및]** 총계 **[!UICONTROL 두 개의 합계가]**&#x200B;포함됩니다. 적용된 [보고서 필터에](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) 대한 테이블 합계 행 계정. 이전에는 세그먼테이션에 영향을 받은 총계만 있었습니다. [자세한](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>내용 **[!UICONTROL 또한]** 합계 표시 **[!UICONTROL 및 총계]** 표시 **[!UICONTROL 옵션이 열 설정에]**&#x200B;추가되었습니다.<br/>자유 형식 합계에 대한 이 변경 사항이 적용되면 종속 시각화(예: 연결된 요약 번호 **[!UICONTROL 시각화]** )와 내보낸 CSV 및 PDF 데이터가 업데이트됩니다. |
 | 분석 작업 공간:지정되지 않음/없음 제거 옵션 | '지정되지 않음(없음)'을 쉽게 제거하는 기능이 필터 보고 옵션으로 추가되었습니다. |
