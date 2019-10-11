@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019년 10월 일
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 94ac88d981c552deb801877398489b1819d1fc54
+source-git-commit: bf2c8f512aac526511b959108b00023f02765de3
 
 ---
 
@@ -30,8 +30,8 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
 * [Advertising Cloud](#adcloud)
-* [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (links to solution help)
-* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (links to solution help)
+* [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (솔루션 도움말 링크)
+* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (솔루션 도움말 링크)
 
 ## Experience Cloud 및 Experience Platform{#platform}
 
@@ -42,13 +42,13 @@ Experience Platform, Experience Cloud 인터페이스, 제품 관리, Experience
 * [Mobile Services 및 Mobile SDK](#mobile)
 * [관리 및 개발자](#admin)
 * [Experience Platform Launch](#launch)
-* [Security bulletins and advisories](https://helpx.adobe.com/security.html) (All Adobe products)
+* [보안 게시판 및 권고 조치](https://helpx.adobe.com/security.html) (모든 Adobe 제품)
 
 ### 핵심 서비스 {#core-services}
 
 기능 및 수정 사항.
 
-For product documentation, see Experience Cloud and Core Services[](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)
+제품 문서는 Experience [Cloud 및 핵심 서비스를 참조하십시오.](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)
 
 ### Experience Cloud ID 서비스 {#ecid}
 
@@ -77,11 +77,11 @@ Mobile SDK에 대한 자세한 내용은 [Experience 솔루션용 Android SDK 4.
 
 기능 및 수정 사항.
 
-For product documentation, see [Manage user and products](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
+제품 설명서의 경우 사용자 [및 제품](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)관리를 참조하십시오.
 
 ### Experience Platform Launch {#launch}
 
-See Experience Platform Launch for release notes and product documentation.[](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html)
+릴리스 [노트 및 제품](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html) 설명서는 Experience Platform Launch를 참조하십시오.
 
 ## [!DNL Analytics] {#analytics}
 
@@ -244,7 +244,10 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 * 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
 * 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
 
-제품 설명서의 경우 다음을 참조하십시오.
+### 추가 리소스
+
+* Adobe Campaign Standard:설명서 [](https://helpx.adobe.com/support/campaign/standard.html) - [릴리스 노트](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [사용 방법 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [릴리스계획](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
+* Adobe Campaign Classic: [Documentation](https://helpx.adobe.com/support/campaign/classic.html) - [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 
 ## Advertising Cloud {#adcloud}
 
