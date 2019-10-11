@@ -5,18 +5,14 @@ doc-type: 릴리스 노트
 last-update: 2019년 10월 일
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3d35a004385f3e94feeb205d25e6c420e54ca835
+source-git-commit: 11f19eef3e0d5fec9b7008c51a3afbb94ec1c2c6
 
 ---
 
 
-# 조기 이용 - Experience Cloud 릴리스 노트 - 2019년 10월
+# Adobe Experience Cloud 릴리스 노트 - 2019년 10월
 
 Adobe Experience Cloud의 새로운 기능 및 수정 사항.
-
->[!IMPORTANT]
->
->이 페이지에는 출시 전 컨텐츠가 포함되어 있으며 계획된 출시 전에 변경될 수 있습니다.
 
 >[!NOTE]
 >
