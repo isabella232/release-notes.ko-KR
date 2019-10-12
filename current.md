@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019년 10월 일
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 0b28b2835840757a936434b28597526069e19517
+source-git-commit: 0371f31dcb1feb368bd8a2937a9f2d9583e208dc
 
 ---
 
@@ -28,6 +28,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 * [!DNL Campaign](#ac)
 * [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (솔루션 도움말 링크)
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (솔루션 도움말 링크)
+* [!DNL Advertising Cloud](#adcloud)
 
 <!-- ## Experience Cloud interface {#ecloud}
 
@@ -204,3 +205,17 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 * Adobe Campaign Standard:설명서 [](https://helpx.adobe.com/support/campaign/standard.html) - [릴리스 노트](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [사용 방법 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [릴리스계획](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 * Adobe Campaign Classic: [Documentation](https://helpx.adobe.com/support/campaign/classic.html) - [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+
+## Advertising Cloud {#adcloud}
+
+2019년 10월 12일 릴리스 업데이트
+
+| 보기 | 기능 |
+|------|---------|
+| 캠페인 검색 | 이제 Adobe Advertising Cloud가 Yahoo! 일본 디스플레이 네트워크. 계정에 대한 로그인 세부 정보를 제공하는 경우 계정의 모든 기존 캠페인, 광고 그룹 및 광고를 캠페인 관리 보기에서 읽기 전용으로 사용할 수 있습니다. 클릭, 비용, 전환 및 기타 성능 데이터는 캠페인 관리 보기 내와 기본 및 고급 보고서에서 사용할 수 있습니다. |
+|  | (Google Analytics를 사용하는 광고주) Adobe Advertising Cloud 검색은 특정 Google Analytics 계정, 속성에 대한 전환 지표를 동기화하고 최적화 및 보고를 위해 조합을 볼 수 있습니다. 페이지 보기 횟수, 세션, 바운스 비율(바운스/세션으로 계산됨) 및 세션 기간이 자동으로 포함됩니다. 데이터 소스당 최대 16개의 추가 지표를 포함할 수 있습니다. |
+|  | (Advertising Cloud-Adobe Analytics와의 통합을 통해 광고주를 위한 기존 Google 광고 계정) s_kwcid 추적 코드에 대한 새로운 형식을 사용할 수 있습니다. 이 코드를 사용하면 Advertising Cloud가 Adobe Analytics 보고 및 분석 기능과 계정에 대한 데이터를 공유할 수 있습니다. 최신 형식에는 캠페인 ID와 광고 그룹 ID에 대한 매개 변수가 포함되어 있습니다. 이 매개 변수는 Analytics의 Google 초안 및 실험 캠페인에 대한 캠페인 및 광고 그룹 수준에서 정확하게 보고하는 데 필요합니다. 기존 Google 계정에 Google 초안 및 실험 캠페인이 포함된 경우 각 개별 계정에 대한 계정 추적 설정을 편집하여 새 s_kwcid로 마이그레이션합니다. Google 초안 및 실험 캠페인이 없는 경우 새 형식으로 마이그레이션하는 것은 선택 사항입니다. 참고:모든 새 Google 계정은 자동으로 새 형식을 사용합니다. |
+| ACM(Advanced Campaign Management) 검색 | (Google 광고 캠페인) 이제 Google 텍스트 광고 및 쇼핑 광고 템플릿에 대한 캠페인 수준의 최종 URL 접미어를 구성할 수 있습니다. |
+|  | (Google 광고 캠페인) 선택적 "헤드라인 3" 및 "설명 2" 필드는 Google 확장 텍스트 광고에 사용할 수 있습니다. |
+| 보고서 | 최신 Bing 광고 API로 중단된 다음 Bing 광고 노출 공유 지표는 10월 11일 이후 수집되지 않습니다. 검색 IS%가 등급 지정, 검색 IS% 손실(Bing), 검색 IS%가 페이지 연관성(Bing)으로 손실됨, 검색 IS%가 키워드 관련성(Bing)으로 손실됨. 이전에 수집된 지표는 여전히 보고에 사용할 수 있습니다. |
+| Adobe Analytics 통합 | (Adobe Analytics를 사용하는 광고주) 분석 작업 공간에서 데이터를 수집하지 않은 "장치(AMO ID)" 차원을 더 이상 사용할 수 없습니다. 온라인 Analytics 데이터에 대해 보고하려면 "모바일 장치 유형" 차원을 사용합니다. 장치 유형별로 검색 엔진 트래픽 지표(클릭 수, 비용 및 노출 횟수)를 보고하려면 Advertising Cloud Search에서 보고를 계속 사용합니다. |
