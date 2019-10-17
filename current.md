@@ -2,9 +2,9 @@
 title: Adobe Experience Cloud 릴리스 노트
 description: Experience Cloud 릴리스 노트 템플릿
 doc-type: 릴리스 노트
-last-update: 2019년 10월 일
-author: mfrei
-translation-type: tm+mt
+last-update: 2019년 10월
+author: 'mfrei '
+translation-type: ht
 source-git-commit: 0371f31dcb1feb368bd8a2937a9f2d9583e208dc
 
 ---
@@ -16,9 +16,10 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 
 >[!NOTE]
 >
->Subscribe to the [[!DNL Adobe Priority Product Update]](https://www.adobe.com/subscription/priority-product-update.html) to be notified via email about upcoming releases. 릴리스 후 게시된 새 정보는 발행 날짜로 표시됩니다.
+>예정된 릴리스에 대한 이메일 알림을 받으려면 [[!DNL Adobe 우선 제품 업데이트]](https://www.adobe.com/subscription/priority-product-update.html)
+에 가입하십시오. 릴리스 후 게시된 새 정보는 발행 날짜로 표시됩니다.
 
-## 릴리스 날짜: 2019년 10월 10일
+## 릴리스 날짜: 2019년 10월 10일 
 
 <!-- * [Experience Cloud interface](#ecloud) -->
 * [Experience Platform](#platform)
@@ -26,8 +27,8 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
-* [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (솔루션 도움말 링크)
-* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (솔루션 도움말 링크)
+* [!DNL Target](https://docs.adobe.com/content/help/ko-KR/target/using/release-notes/target-release-notes.html) (솔루션 도움말 링크)
+* [!DNL Primetime](https://helpx.adobe.com/kr/primetime/user-guide.html) (솔루션 도움말 링크)
 * [!DNL Advertising Cloud](#adcloud)
 
 <!-- ## Experience Cloud interface {#ecloud}
@@ -44,11 +45,11 @@ For product documentation, see [Experience Cloud](https://docs.adobe.com/content
 Experience Platform, Experience Platform Launch, Idendity Service 및 보안 게시판의 릴리스 정보입니다.
 
 * [Experience Platform Launch](#launch)
-* [보안 게시판 및 권고 조치](https://helpx.adobe.com/security.html) (모든 Adobe 제품)
+* [보안 게시판 및 권고 조치](https://helpx.adobe.com/kr/security.html) (모든 Adobe 제품)
 
 ### Experience Platform Launch {#launch}
 
-릴리스 [노트 및 제품](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html) 설명서는 Experience Platform Launch를 참조하십시오.
+릴리스 노트 및 제품 설명서는 [Experience Platform Launch](https://docs.adobe.com/content/help/ko-KR/launch/using/intro/release-notes/current.html)를 참조하십시오.
 
 ## [!DNL Analytics] {#analytics}
 
@@ -58,39 +59,39 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 * [Analytics 관리자에 대한 중요 공지](#aa-notices)
 * [AppMeasurement](#appm)
 
-For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.com/content/help/en/analytics/landing/home.html).
+제품 설명서는 [Adobe Analytics 도움말 홈](https://docs.adobe.com/content/help/ko-KR/analytics/landing/home.html)을 참조하십시오.
 
 ### Adobe Analytics의 새로운 기능, 향상된 기능 및 수정 내용 {#aa-features}
 
 | 기능 | 설명 |
 | -----------| ---------- |  
-| 개인 정보 서비스 API:CCPA | CCPA(California Consumer Privacy Act)는 미국 캘리포니아 거주자에 대한 개인정보 보호 권한과 소비자 보호를 강화합니다. 이 법은 2020년 1월 1일부터 시행한다.<br/><br/>CPA는 캘리포니아 거주자에게 개인 데이터에 액세스하고 삭제할 수 있는 권리, 개인 데이터가 판매되거나 공개(및 개인)되었는지 여부, 그리고 개인 데이터의 판매를 거부할 수 있는 권리 등 새로운 데이터 개인정보 보호 권한을 제공합니다.<br/><br/>CPA를 예상하고 있는 경우, 개인정보 보호 서비스는 개인 데이터의 판매 거부 요청을 지원할 것입니다.<br/><br/>개인 정보 보호 서비스는 이전에 GDPR 서비스라고 불렀으며, 현재 CCPA를 지원하도록 확장되어 있는 모든 이전 기능을 보유합니다.<br/><br/>[Analytics의](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/an-ccpa-overview.html)<br/><br/>[CPA개인 정보 보호 서비스 개요](https://www.adobe.io/apis/experiencecloud/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md) |
-| 개인 정보 보고:Analytics 관리 콘솔 | Analytics에 대한 개인 정보 보고를 활성화하면 예약된 변수 세트가 보고서 세트에 추가됩니다.  이 변수는 히트 수준에서 소비자 동의 데이터 수집을 지원하기 위해 고안되었습니다.<br/><br/>새 차원:<br/><ul><li>동의 관리 옵트아웃</li><li>동의 관리 옵트인</li><li>[동의 관리 변수](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/consent-variables.html)</li></ul> |
-| 오디오 및 비디오 분석:개인 정보 지원 | Media Collection API에는 두 개의 새 변수가 추가되었습니다.<br/><ul><li>analytics.optOutServerSideForwarding</li><li>analytics.optOutShare</li></ul><br/><br/>이러한 변수는 히트 시 소비자의 동의 상태를 캡처하는 데 사용할 수 있는 선택 변수입니다.<br/><br/>[미디어 수집 API](https://docs.adobe.com/content/help/en/media-analytics/using/media-collection-api/mc-api-overview.html)<br/><br/>설명서 새로운 Analytics 동의 관리 컨텍스트 데이터 변수가 Federated Analytics 양식에 추가되었습니다. 이제 이러한 변수를 페더레이션에 대한 옵트아웃 또는 판매 히트에 플래그를 지정하는 데 사용할 수 있습니다.<br/><br/>[Federated 양식 다운로드](https://docs.adobe.com/content/help/en/media-analytics/using/federated-analytics.html#download-the-federated-analytics-form) |
-| 분석 작업 공간:자유 형식 테이블 합계 업데이트 | 자유 형식 표에는 이제 테이블 총계 **[!UICONTROL 및]** 총계 **[!UICONTROL 두 개의 합계가]**&#x200B;포함됩니다. 적용된 [보고서 필터에](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) 대한 테이블 합계 행 계정. 이전에는 세그먼테이션에 영향을 받은 총계만 있었습니다. [자세한](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>내용 **[!UICONTROL 또한]** 합계 표시 **[!UICONTROL 및 총계]** 표시 **[!UICONTROL 옵션이 열 설정에]**&#x200B;추가되었습니다.<br/>자유 형식 합계에 대한 이 변경 사항이 적용되면 종속 시각화(예: 연결된 요약 번호 **[!UICONTROL 시각화]** )와 내보낸 CSV 및 PDF 데이터가 업데이트됩니다. |
-| 분석 작업 공간:지정되지 않음/없음 제거 옵션 | '지정되지 않음(없음)'을 쉽게 제거하는 기능이 필터 보고 옵션으로 추가되었습니다. |
-| 분석 작업 공간:자주색 세부기간 구성 요소의 사용 중단 | 자주색 세부기간 시간 구성 요소(분, 시간, 일, 주, 월, 분기, 연도)는 더 이상 사용되지 않습니다. 자주색 시간 구성 요소는 항상 주황색 크기와 정확히 동일하게 작동했으므로 이 변경 사항은 경험을 단순화합니다. **이전에 자주색 시간 구성 요소 중 하나를 사용한 경우에는 작업을** 수행할 필요가 없습니다.<br/>이 변경 사항으로 자주색 **[!UICONTROL 시간]** 섹션도 날짜 범위로 **[!UICONTROL 변경되었습니다]**. |
+| 개인 정보 서비스 API: CCPA | CCPA(California Consumer Privacy Act)는 미국 캘리포니아 거주자를 위해 개인 정보 권한 및 소비자 보호를 개선합니다. 이 조례는 2020년 1월 1일부터 시행될 예정입니다.<br/><br/>CCPA는 개인 데이터가 판매되었거나 공개되었는지의 여부 및 그 대상을 확인하거나 개인 데이터 판매를 거절하기 위한 개인 데이터 액세스 및 삭제 권한과 같은 새로운 데이터 개인 정보 권한을 캘리포니아 거주자에게 제공합니다.<br/><br/>CCPA의 예상에 따라 개인 정보 서비스는 개인 데이터 판매를 거부하도록 요청을 지원합니다.<br/><br/>개인 정보 서비스는 이전에 GDPR 서비스라고 하였으며 이전의 모든 기능을 유지하고 현재 CCPA를 지원하기 위해 확장되었습니다.<br/><br/>[Analytics의 CCPA](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/an-ccpa-overview.html)<br/><br/>[개인 정보 서비스 개요](https://www.adobe.io/apis/experiencecloud/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md) |
+| 개인 정보 보고: 분석 관리 콘솔 | 분석을 위한 개인 정보 보고 활성화는 예약된 변수 집합을 보고서 세트에 추가합니다.  이 변수는 히트 수준에서 소비자 동의 데이터 수집을 지원하기 위해 고안되었습니다.<br/><br/>새로운 차원:<br/><ul><li>동의 관리 옵트아웃</li><li>동의 관리 옵트인</li><li>[동의 관리 변수](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/consent-variables.html)</li></ul> |
+| 오디오 및 비디오 분석: 개인 정보 지원 | 두 개의 새로운 변수가 미디어 컬렉션 API에 추가되었습니다:<br/><ul><li>analytics.optOutServerSideForwarding</li><li>analytics.optOutShare</li></ul><br/><br/>이러한 변수는 히트 시 소비자의 동의 상태를 캡처하는 데 사용할 수 있는 선택 변수입니다.<br/><br/>[Media Coolection API 설명서](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/media-collection-api/mc-api-overview.html)<br/><br/>새로운 Analytics Consent Management 컨텍스트 데이터 변수가 Federated Analytics 양식에 추가되었습니다. 이제 이러한 변수를 페더레이션에 대한 공유 또는 판매 히트 플래그 지정 옵트아웃에 사용할 수 있습니다.<br/><br/>[Federated Form 다운로드](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/federated-analytics.html#download-the-federated-analytics-form) |
+| Analysis Workspace: 자유 형식 테이블 합계 업데이트 | 자유 형식 표에는 이제 **[!UICONTROL 테이블 합계]** 및 **[!UICONTROL 총합계]**&#x200B;라는 두 개의 합계가 포함됩니다. 테이블 요약 행은 적용된 [보고서 필터](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)를 처리합니다. 이전에는 세그먼테이션만 합계에 영향을 주었습니다. [자세히 알아보기](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>또한 **[!UICONTROL 총계 표시]** 및 **[!UICONTROL 총 합계 표시]** 옵션이 **[!UICONTROL 열 설정]**&#x200B;에 추가되었습니다.<br/>자유 양식 합계에 대한 이 변경 사항에 따라 종속 시각화는 내보내기한 CSV 및 PDF 데이터뿐만 아니라 업데이트(예: 연결된 **[!UICONTROL 요약 번호]시각화)됩니다.** |
+| Analysis Workspace: 지정되지 않음/없음 제거 옵션 | 다음 '지정되지 않음(없음)'을 쉽게 제거하는 기능이 보고서 필터에 대한 옵션으로 추가되었습니다. |
+| Analysis Workspace: 자주색 세부 기간 구성 요소의 사용 중단 | 자주색 세부 시간 구성 요소(분, 시간, 일, 주, 월, 분기, 연도)는 더 이상 사용되지 않습니다. 자주색 시간 구성 요소는 항상 주황색 크기와 정확히 동일하게 작동했으므로 이 변경 사항은 경험을 단순화합니다. 이전에 자주색 시간 구성 요소 중 하나를 사용한 경우에는 **작업을 수행할 필요가 없습니다**.<br/>이 변경 사항으로 자주색 **[!UICONTROL 시간]** 섹션도 **[!UICONTROL 날짜 범위]**&#x200B;로 이름이 변경되었습니다. |
 
 #### 수정 사항
 
-* 분석 작업 공간:왼쪽 레일에서 차원 항목을 검색할 때 잘못된 검색 결과가 표시되는 문제를 해결했습니다. (AN-185065)
-* AAM(Adobe Audience Manager)에서 공유 세그먼트를 삭제하거나 게시 취소할 수 없는 문제가 해결되었습니다. AAM이 응답하지 않으면 세그먼트를 삭제하지 않는 문제가 수정되었습니다. (AN-185882, AN-185883, AN-184607)
-* 애드혹 분석에서 세그먼트를 로드할 수 없는 시간 초과 문제를 해결했습니다. (AN-184654)
-* 마지막으로 사용한 보고서 세트가 나중에 숨겨지거나 더 이상 이 보고서 세트에 액세스할 권한이 없을 때 발생하는 문제를 수정했습니다. 이 경우 Experience Cloud를 통해 더 이상 로그인할 수 없습니다. (AN-181777)
-* 세그먼트를 기반으로 VRS를 만들기 어렵게 했던 세그먼트의 시간 초과 문제를 수정했습니다. (AN-179684)
-* 드문 경우 잘못된 인코딩이 있을 경우 데이터가 잘렸던 문제를 수정했습니다. (AN-186707)
-* 이제 Yandex Search Engine은 국가별로 적절하게 분리됩니다. (AN-181728)
+* Analysis Workspace: 왼쪽 레일에서 차원 항목을 검색할 때 잘못된 검색 결과가 표시되는 문제를 해결했습니다. (AN-185065)
+* AAM(Adobe Audience Manager)에서 공유 세그먼트를 삭제하거나 게시 취소할 수 없는 문제를 해결했습니다. AAM이 응답하지 않으면 세그먼트를 삭제하지 않는 문제가 수정되었습니다. (AN-185882, AN-185883, AN-184607)
+* Ad Hoc Analysis에서 세그먼트를 로드할 수 없는 시간 초과 문제를 해결했습니다. (AN-184654)
+* 마지막으로 사용한 보고서 세트가 나중에 숨겨지거나 더 이상 이 보고서 세트에 액세스할 권한이 없을 때 발생하는 문제를 해결했습니다. 이 경우 Experience Cloud를 통해 더 이상 로그인할 수 없습니다. (AN-181777)
+* 세그먼트 기반 VRS 생성 시 문제가 되는 세그먼트의 시간 초과 문제를 해결했습니다. (AN-179684)
+* 드문 경우에 잘못된 인코딩이 있는 경우 데이터가 잘린 문제를 수정했습니다. (AN-186707)
+* Yandex 검색 엔진은 이제 국가별로 제대로 수행됩니다. (AN-181728)
 
 ### [!DNL Analytics] 관리자에 대한 중요 공지 {#aa-notices}
 
 | 알림 | 추가한 날짜 또는 업데이트한 날짜 | 설명 |
 | -----------| ---------- | ---------- |
-| TLS 1.1 지원 종료 | 2019년 10월 3일 | 2020년 3월 31일까지 Adobe Analytics는 TLS 1.1에 대한 지원을 제거합니다.이러한 변경은 최고 수준의 보안 표준을 유지하고 고객 데이터의 보안을 향상시키기 위한 지속적인 노력의 일환입니다. |
-| San Jose FTP Broker - London and Singapore 종료 | 2020년 7월 | 런던과 싱가포르 고객의 경우 Adobe는 더 이상 런던 또는 싱가포르와 San Jose 데이터 센터 [ftp.omniture.com](ftp://ftp.omniture.com/)간의 데이터 중재를 지원하지 않습니다.<br/><ul><li>London의 경우 [ftp3.omniture.com 사용](ftp://ftp3.omniture.com/)</li><li>싱가폴의 경우 [ftp4.omniture.com 사용](ftp://ftp4.omniture.com/)</li> |
-| Analysis Workspace 자유 형식 테이블 합계 업데이트 | 2019년 9월 12일 | 2019년 10월에는 자유 형식 테이블 합계 행이 적용된 [보고서 필터에](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) 대한 회계를 시작합니다. 현재까지 합계가 세분화에 대해서만 계산되었습니다. 이 변경 사항에 따라 종속 시각화는 내보내기한 CSV 및 PDF 데이터뿐만 아니라 업데이트(예: 연결된 [!UICONTROL 요약 번호] 시각화)됩니다. |
+| TLS 1.1 지원 종료 | 2019년 10월 3일 | 2020년 3월 31일까지 Adobe Analytics는 TLS 1.1에 대한 지원을 제거합니다. 이러한 변경은 최고 수준의 보안 표준을 유지하고 고객 데이터의 보안을 향상시키기 위한 지속적인 노력의 일환입니다. |
+| 런던 및 싱가포르의 산호세 FTP Broker 종료 | 2020년 7월 | 런던 및 싱가포르의 고객을 위해 런던 또는 싱가포르와 산호세 데이터 센터 간의 데이터 브로커링을 더 이상 지원하지 않습니다[ftp.omniture.com](ftp://ftp.omniture.com/).<br/><ul><li>런던의 경우 [ftp3.omniture.com](ftp://ftp3.omniture.com/) 사용</li><li>싱가포르의 경우 [ftp4.omniture.com](ftp://ftp4.omniture.com/) 사용</li> |
+| Analysis Workspace 자유 형식 테이블 합계 업데이트 | 2019년 9월 12일 | 2019년 10월 자유형 테이블 요약 행은 적용된 [보고서 필터](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)에 대한 처리를 시작합니다. 현재까지 합계가 세분화에 대해서만 계산되었습니다. 이 변경 사항에 따라 종속 시각화는 내보내기한 CSV 및 PDF 데이터뿐만 아니라 업데이트(예: 연결된 [!UICONTROL 요약 번호] 시각화)됩니다. |
 | Analytics 사용자의 `createDate` 필드 관련 향후 변경 사항 | 2019년 8월 30일 | 2019년 10월 또는 11월에는 Analytics 사용자의 `createDate` 필드가 미국 태평양 표준시에서 시간대 정보가 있는 올바른 형식의 날짜/시간 값으로 업데이트됩니다. (AN-183468) |
 | 이전 시간대 오프셋 지원 | 2019년 8월 8일 | 이제 Analytics는 타임스탬프가 지정된 히트에 대해 시간대 오프셋을 자동으로 처리합니다. 8월 8일에 이 변경사항이 적용되면, 내역 처리를 위해 데이터에 로드되는 시스템은 데이터를 보내기 전에 더 이상 시간대 오프셋을 조정하지 않아도 됩니다. |
-| 분류 규칙 빌더 제한 | 2019년 6월 5일에 추가됨 | 이러한 제한은 새로운 것은 아니지만 [여기에서](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html)문서에 추가되었습니다. |
+| 분류 규칙 빌더 제한 | 2019년 6월 5일에 추가됨 | 이러한 제한은 새로운 것이 아니지만 [여기](https://docs.adobe.com/content/help/ko-KR/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html)에서 설명서에 추가되었습니다. |
 | 새로운 세그먼트 연산자 제한 | 2019년 5월 31일에 추가됨 | 2019년 7월 18일부터 세그먼트 연산자 _임의 항목 포함_, _임의 항목 포함하지 않음_, _모두 포함_ 및 _모두 포함하지 않음_&#x200B;은 입력 필드당 100단어로 제한됩니다. 이 날짜 이후로 모든 신규 세그먼트와 수정된 세그먼트에 제한이 적용됩니다. 제한을 초과하는 기존 세그먼트는 계속 지원되지만 입력 필드가 감소될 때까지 수정하거나 저장할 수 없습니다. 이 제한은 쿼리 성능을 향상시키기 위한 지속적인 노력의 일환으로 적용됩니다. |
 | **[!UICONTROL 활성화된 날짜]** 및 **[!UICONTROL 숫자 2 분류]**&#x200B;에 대한 지원 변경 사항 | 업데이트 날짜: 2019년 5월 28일 | 숫자 2와 활성화된 날짜 분류를 가져오는 기능이 코드 베이스에서 제거되었습니다. 이 변경 사항은 2019년 7월 유지 관리 릴리스에 적용되었습니다. 가져온 파일에 숫자 또는 활성화된 날짜 열이 있는 경우 해당 셀은 자동으로 무시되며, 해당 파일의 다른 모든 데이터는 정상적으로 가져와집니다. <br/>기존 분류는 여전히 표준 분류 워크플로우를 통해 내보낼 수 있으며, 보고에서 계속 사용할 수 있습니다. |
 | _보고서 총계_ 계산과 관련한 변경 | 업데이트 날짜: 2019년 7월 9일 | **2019년 6월 18일**&#x200B;에 Adobe Analytics는 모든 차원 및 지표에서 _보고서 총계_&#x200B;를 동일하게 변경했습니다. 이를 통해 일부 보고서(예: Prop 또는 고객 특성 보고서)의 총계가 변경되었습니다. 본 변경에 앞서 일부 보고서 총계는 보고서에서 _미지정_ 으로 표시되는지의 여부와 관계없이, 총계의 _미지정_ 라인 항목에 일관성 없이 포함되거나 제외됩니다. <br/>2019년 6월 18일부터, _미지정_ 항목은 보고서의 라인 항목으로 표시되지 않는 경우에도 보고서 총계에 항상 표시됩니다. 또한 _exists_ 또는 _does not exist_ 로직을 사용하는 세그먼트는 이 변경 후 일부 차원에 대해 다른 결과를 볼 수 있습니다. 특히 _Unspecified_&#x200B;에 레퍼러 유형 차원에 대한 "Typed/Bookmarked" 라인 항목 또는 장치 유형 차원에 대한 "Other" 라인 항목 등의 특수 이름이 있는 차원입니다. 본 변경은 Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder 및 Reporting API에 적용됩니다. |
@@ -105,7 +106,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 ### [!DNL AppMeasurement] {#appm}
 
-JavaScript [용 AppMeasurement 릴리스 노트를](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)참조하십시오.
+[JavaScript 릴리스 노트의 AppMeasurement](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)를 참조하십시오.
 
 ## Audience Manager {#aam}
 
@@ -113,12 +114,12 @@ Audience Manager의 새로운 기능, 개선 사항 및 수정 사항.
 
 **수정 사항 및 향상된 기능**
 
-* 2019년 7월 1일 이후에 생성된 모든 고객 계정은 자동으로 [!DNL Tableau] 라이선스가 할당되어 보고서에 액세스할 수 있습니다. 계정이 2019년 7월 1일 이전에 만들어졌지만 여전히 [!DNL Tableau] 보고서에 액세스할 수 없는 경우 고객 지원 센터에 문의하십시오.
-* 잘못된 활동 특성 생성과 인위적으로 일치율 및 고객 크기를 증가시키는 버그를 수정했습니다. 이 수정 사항 후에는 자동 생성된 활동 트레이트로 생성된 세그먼트의 크기가 감소될 수 있습니다. 이는 정상이며 예상 동작입니다(AAM 파섹
-* 글로벌 데이터 소스에서 잘못된 전역 장치 ID를 제거했습니다. Audience [Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html) 에서 수락해야 하는 유효한 장치 ID를 확인하려면 전역 데이터 소스를 참조하십시오(AAM 파섹 41259).
-* 보호된 세그먼트를 삭제하려고 할 때 세그먼트 페이지가 응답하지 않는 버그를 수정했습니다(AAM 파섹-49881).
-* Twitter 맞춤형 대상에 대한 대상을 편집할 [!UICONTROL 때] 대상에 [!DNL Twitter Ads] 계정이 할당되지 않은 경우에만 계정 선택기가 활성화됩니다(AAM 파섹-49975).
-* 구독이 비활성화되었을 때 사용자가 Audience [!UICONTROL Marketplace] 데이터 피드를 비활성화하지 못했던 버그를 수정했습니다(AAM 파섹
+* 2019년 7월 1일 이후에 생성된 모든 고객 계정에는 보고서에 액세스를 제공하는 [!DNL Tableau] 라이선스가 자동으로 할당됩니다. 2019년 7월 1일 이전에 계정이 생성되었으며 [!DNL Tableau] 보고서에 대한 액세스 권한이 계속 없는 경우 고객 지원 센터에 문의하시기 바랍니다.
+* 활동 특성이 잘못 생성되고 일치율과 대상 크기를 인공적으로 늘린 버그를 수정했습니다. 이 수정 사항에 따라 자동 생성된 활동 특성을 사용하여 생성된 세그먼트의 크기가 줄어든 것을 알 수 있습니다. 이는 일반적이며 예상된 동작입니다(AAM-45371).
+* 글로벌 데이터 소스에서 잘못된 글로벌 장치 ID를 제거했습니다. Audience Manager에서 수락하는 유효한 장치 ID가 어떤 것인지 알아보려면 [글로벌 데이터 소스](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/data-sources/global-data-sources.html)를 참조하십시오(AAM-41259).
+* 보호된 세그먼트를 삭제 시도할 때 세그먼트 페이지가 응답을 중지하는 버그를 해결했습니다(AAM-49881).
+* Twitter Tailored Audience에 대한 대상을 편집할 때 [!UICONTROL Account] 선택기는 이제 대상에 [!DNL Twitter Ads] 계정이 할당되지 않은 경우에만 활성화됩니다(AAM-49975).
+* 구독이 비활성화될 때 사용자가 [!UICONTROL Audience Marketplace] 데이터 피드를 비활성화하지 못하도록 하는 버그를 해결했습니다(AAM-49640).
 * Audience Manager 사용자 인터페이스의 접근성과 관련하여 몇 가지 개선 사항이 있었습니다.
 
 ## Experience Manager {#aem}
@@ -129,67 +130,68 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 내용 및 업데이�
 
 * **Cloud Manager 2019.9.0**
 
-   * Cloud Manager 2019.9.0, 2019년 9월 12일 릴리스, 보안 테스트 기준을 업데이트하고 다운로드 가능한 모니터링 그래프를 추가하고 고객이 보고한 일부 사용성 문제를 수정합니다.
-   * [릴리스 노트](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/release-notes/release-notes-current.html)
+   * 2019년 9월 12일에 릴리스된 Cloud Manager 2019.9.0은 보안 테스트 기준을 업데이트하고, 다운로드 가능한 모니터링 그래프를 추가하고, 고객이 보고한 일부 사용성 문제를 수정합니다.
+   * [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-manager/using/release-notes/release-notes-current.html)
 
 ### 제품 유지 관리
 
 * **AEM 6.3.3.6**
 
-   AEM 6.3, 서비스 팩 3, 누적 수정 팩 6(2019년 9월 25일 릴리스된 6.3.6)는 2017년 4월 AEM 6.3의 일반 가용성 이후 릴리스된 주요 고객 픽스를 포함하는 중요한 업데이트입니다.
-   * [릴리스 노트](https://helpx.adobe.com/experience-manager/release-notes--aem-6-3-cumulative-fix-pack.html)
-   * [AEM Forms CFP 릴리스](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
+   AEM 6.3, 서비스 팩 3, Cumulative Fix Pack 6(6.3.3.6, 2019년 9월 25일 릴리스)는 2017년 4월 AEM 6.3의 공식 출시 이후 릴리스된 주요 고객 수정 사항이 포함된 중요한 업데이트입니다.
+   * [릴리스 노트](https://helpx.adobe.com/kr/experience-manager/release-notes--aem-6-3-cumulative-fix-pack.html)
+   * [AEM Forms CFP 릴리스](https://helpx.adobe.com/kr/aem-forms/kb/aem-forms-releases.html)
 
 * **AEM 6.4.6.0**
 
-   AEM 6.4, 서비스 팩 6.0(2019년 9월 19일에 릴리스된 6.4.6.0)은 2018년 4월 AEM 6.4의 일반 가용성 이후 릴리스된 주요 고객 픽스를 포함하는 중요한 업데이트입니다.
-   * [릴리스 노트](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html)
-   * [AEM Forms CFP 릴리스](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
+   AEM 6.4 서비스 팩 6(6.4.6.0, 2019년 9월 19일 릴리스)는 2018년 4월 AEM 6.4의 공식 출시 이후 릴리스된 주요 고객 수정 사항을 포함하는 중요한 업데이트입니다.
+   * [릴리스 노트](https://helpx.adobe.com/kr/experience-manager/6-4/release-notes/sp-release-notes.html)
+   * [AEM Forms CFP 릴리스](https://helpx.adobe.com/kr/aem-forms/kb/aem-forms-releases.html)
 
-* **AEM 6.5.2.0** AEM 6.5, 서비스 팩 2.0(2019년 9월 19일 릴리스된 6.5.2.0)은 2019년 4월 AEM 6.5의 일반 가용성 이후 릴리스된 주요 고객 픽스를 포함하는 중요한 업데이트입니다.
-   * [릴리스 노트](https://helpx.adobe.com/experience-manager/6-5/release-notes/sp-release-notes.html)
-   * [AEM Forms CFP 릴리스](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
+* **AEM 6.5.2.0**
+AEM 6.5, 서비스 팩 2.0(6.5.2.0 2019년 9월 19일 릴리스)은 2019년 4월, AEM 6.5의 공식 출시 이후 릴리스된 주요 고객 수정 사항을 포함하는 중요한 업데이트입니다.
+   * [릴리스 노트](https://helpx.adobe.com/kr/experience-manager/6-5/release-notes/sp-release-notes.html)
+   * [AEM Forms CFP 릴리스](https://helpx.adobe.com/kr/aem-forms/kb/aem-forms-releases.html)
 
 ### 사용자 도움말
 
-* **Scene7:자산 재처리 워크플로우**
+* **Scene7: 자산 워크플로우 재처리**
 
-   이제 나중에 변경한 기존 처리 프로필이 이미 있는 폴더의 자산을 재처리할 수 있습니다.
-처리 [프로필을](https://helpx.adobe.com/experience-manager/6-5/assets/using/processing-profiles.html#Reprocessingassetsinafolderafteryouhaveediteditsprocessingprofile)편집한 후 폴더의 자산 재처리를 참조하십시오.
+   이제 나중에 변경한 기존 프로세싱 프로필이 이미 있는 폴더에서 자산을 재처리할 수 있습니다.
+[처리 중인 프로필을 편집한 후 폴더에서 자산 재처리](https://helpx.adobe.com/kr/experience-manager/6-5/assets/using/processing-profiles.html#Reprocessingassetsinafolderafteryouhaveediteditsprocessingprofile)를 참조하십시오.
 
 * **Adobe Analytics 및 Adobe Launch와 Dynamic Media Viewer 통합**
 
-   Dynamic Media Viewers 5.13 릴리스와 함께 Adobe Launch용 Dynamic Media Viewers 익스텐션을 사용하면 Dynamic Media, Adobe Analytics 및 Adobe Launch 고객은 Adobe Launch 구성에서 다이내믹 미디어 뷰어별 이벤트 및 데이터를 사용할 수 있습니다.
-Adobe [Analytics 및 Adobe Launch와 Dynamic Media 뷰어 통합을 참조하십시오](https://helpx.adobe.com/experience-manager/6-5/assets/using/launch.html).
+   Dynamic Media Viewers 5.13 릴리스와 함께 Adobe Launch용 Dynamic Media Viewer 확장 프로그램을 사용하면 Dynamic Media, Adobe Analytics 및 Adobe Launch 고객은 Adobe Launch 구성에서 Dynamic Media Viewer에 대한 특정 이벤트 및 데이터를 사용할 수 있습니다.
+[Adobe Analytics 및 Adobe Launch와 Dynamic Media Viewer 통합](https://helpx.adobe.com/kr/experience-manager/6-5/assets/using/launch.html)을 참조하십시오.
 
-* **AEM 데스크탑 앱**
+* **AEM Desktop App**
 
-   AEM 데스크탑 앱 2.0은 이제 크리에이티브, 마케터 및 비즈니스 라인 사용자가 AEM Assets를 사용하여 작업할 수 있습니다.
-AEM [데스크탑 앱 릴리스 정보를 참조하십시오.](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/release-notes.html)
+   AEM Desktop App 2.0은 이제 크리에이티브, 마케터 및 비즈니스군 사용자가 AEM Assets와 작업하는 데 사용할 수 있습니다.
+[AEM Desktop App 릴리스 정보를 참조하십시오.](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/release-notes.html)
 
 * **핵심 구성 요소**
    * 핵심 구성 요소의 현지화 기능과 AEM 템플릿으로 작업하는 방법에 대해 알아봅니다.
-      [예제를](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/get-started/localization.html)참조하십시오.
-   * 코어 구성 요소 2.6.0은 경험 조각 구성 요소를 도입합니다. 이제 구성 요소를 [제작 설명서](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html) 및 [개발자 세부 사항 및 GitHub에서 프로젝트 다운로드와 함께 사용할 수 있습니다](https://github.com/adobe/aem-core-wcm-components).
+      [예제를 참조하십시오](https://docs.adobe.com/content/help/ko-KR/experience-manager-core-components/using/get-started/localization.html).
+   * 코어 구성 요소 2.6.0은 경험 조각 구성 요소를 도입합니다. 구성 요소는 이제 [작성 설명서](https://docs.adobe.com/content/help/ko-KR/experience-manager-core-components/using/introduction.html) 및 [GitHub에서 사용 가능한 개발자 세부 사항 및 프로젝트 다운로드](https://github.com/adobe/aem-core-wcm-components)와 함께 사용할 수 있습니다.
 
 * **AEM Assets**
    * 시각적/유사성 검색 기능에 대한 새로운 설명서입니다.
-유사한 [이미지](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html#visualsearch)찾기를 참조하십시오.
-   * 연결된 자산 기능은 이제 이미지 파일 포맷 외에도 원격 DAM 배포에 사용할 수 있는 문서를 사용합니다.
-AEM [Sites에서 연결된 자산을 사용하여 DAM 자산을 공유하십시오](https://helpx.adobe.com/experience-manager/6-5/assets/using/use-assets-across-connected-assets-instances.html).
-   * 자산 검색 및 검색에 대한 새로운 컨텐츠 AEM _의_ 자산 검색 항목은 사용, 구성, 문제 해결, 제한 사항 및 팁에 대한 자세한 내용을 보려면 원스톱 숍입니다.
-AEM [에서 자산 검색을 참조하십시오](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html).
+[유사한 이미지 찾기](https://helpx.adobe.com/kr/experience-manager/6-5/assets/using/search-assets.html#visualsearch)를 참조하십시오.
+   * 연결된 자산 기능은 이제 이미지 파일 형식 외에도 원격 DAM 배포에 사용할 수 있는 문서를 사용합니다.
+[AEM Sites에서 DAM 자산을 공유하도록 연결된 자산 사용](https://helpx.adobe.com/kr/experience-manager/6-5/assets/using/use-assets-across-connected-assets-instances.html)을 참조하십시오.
+   * 자산 검색 및 검색에 대한 새로운 컨텐츠입니다. _AEM에서 자산 검색_ 항목은 사용, 구성, 문제 해결, 제한 사항 및 팁에 대한 자세한 내용을 보기 위한 원스톱 샵입니다.
+[AEM에서 자산 검색](https://helpx.adobe.com/kr/experience-manager/6-5/assets/using/search-assets.html)을 참조하십시오.
 
 ### 추가 리소스
 
-* [AEM 6.5 학습 및 지원 홈](https://helpx.adobe.com/support/experience-manager/6-5.html)
-* [AEM 6.4 학습 및 지원 홈](https://helpx.adobe.com/support/experience-manager/6-4.html)
-* [AEM 6.3 학습 및 지원 홈](https://helpx.adobe.com/support/experience-manager/6-3.html)
-* [AEM 6.2 학습 및 지원 홈](https://helpx.adobe.com/support/experience-manager/6-2.html)
-* [Cloud Manager 사용 안내서](https://helpx.adobe.com/experience-manager/cloud-manager/user-guide.html)
-* [이전 버전의 AEM 설명서](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
-* [Dynamic Media Classic 도움말 홈](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)
-* [Dynamic Media 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
+* [AEM 6.5 학습 및 지원 홈](https://helpx.adobe.com/kr/support/experience-manager/6-5.html)
+* [AEM 6.4 학습 및 지원 홈](https://helpx.adobe.com/kr/support/experience-manager/6-4.html)
+* [AEM 6.3 학습 및 지원 홈](https://helpx.adobe.com/kr/support/experience-manager/6-3.html)
+* [AEM 6.2 학습 및 지원 홈](https://helpx.adobe.com/kr/support/experience-manager/6-2.html)
+* [Cloud Manager 사용 안내서](https://helpx.adobe.com/kr/experience-manager/cloud-manager/user-guide.html)
+* [이전 버전의 AEM 설명서](https://helpx.adobe.com/kr/experience-manager/aem-previous-versions.html)
+* [Dynamic Media Classic 도움말 홈](https://docs.adobe.com/content/help/ko-KR/dynamic-media-classic/using/home.html)
+* [Dynamic Media 릴리스 노트](https://marketing.adobe.com/resources/help/ko_KR/s7/release_notes/index.html)
 * [Livefyre 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
 
 ## [!DNL Campaign] {#ac}
@@ -198,24 +200,24 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 ### Adobe Campaign Classic
 
-* [Campaign Classic 19.1.4 업데이트](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9032) - 새 빌드 9032
-* [Campaign Classic 19.1.6 업데이트](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html#release-19-1-6-build-9035) - 빌드 9035
+* [Campaign Classic 19.1.4 업데이트](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9032) – 새로운 빌드 9032
+* [Campaign Classic 19.1.6 업데이트](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html#release-19-1-6-build-9035) – 빌드 9035
 
 ### 추가 리소스
 
-* Adobe Campaign Standard:설명서 [](https://helpx.adobe.com/support/campaign/standard.html) - [릴리스 노트](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [사용 방법 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [릴리스계획](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
-* Adobe Campaign Classic: [Documentation](https://helpx.adobe.com/support/campaign/classic.html) - [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+* Adobe Campaign Standard: [설명서](https://helpx.adobe.com/kr/support/campaign/standard.html) - [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/release-notes/release-notes.html) - [기능 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [릴리스 계획](https://helpx.adobe.com/kr/campaign/kb/acs-release-planning.html)
+* Adobe Campaign Classic: [설명서](https://helpx.adobe.com/kr/support/campaign/classic.html) - [릴리스 노트](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [기능 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 
 ## Advertising Cloud {#adcloud}
 
-2019년 10월 12일 릴리스 업데이트
+2019년 10월 12일에 대해 업데이트됨, 릴리스
 
 | 보기 | 기능 |
 |------|---------|
-| 캠페인 검색 | 이제 Adobe Advertising Cloud가 Yahoo! 일본 디스플레이 네트워크. 계정에 대한 로그인 세부 정보를 제공하는 경우 계정의 모든 기존 캠페인, 광고 그룹 및 광고를 캠페인 관리 보기에서 읽기 전용으로 사용할 수 있습니다. 클릭, 비용, 전환 및 기타 성능 데이터는 캠페인 관리 보기 내와 기본 및 고급 보고서에서 사용할 수 있습니다. |
-|  | (Google Analytics를 사용하는 광고주) Adobe Advertising Cloud 검색은 특정 Google Analytics 계정, 속성에 대한 전환 지표를 동기화하고 최적화 및 보고를 위해 조합을 볼 수 있습니다. 페이지 보기 횟수, 세션, 바운스 비율(바운스/세션으로 계산됨) 및 세션 기간이 자동으로 포함됩니다. 데이터 소스당 최대 16개의 추가 지표를 포함할 수 있습니다. |
-|  | (Advertising Cloud-Adobe Analytics와의 통합을 통해 광고주를 위한 기존 Google 광고 계정) s_kwcid 추적 코드에 대한 새로운 형식을 사용할 수 있습니다. 이 코드를 사용하면 Advertising Cloud가 Adobe Analytics 보고 및 분석 기능과 계정에 대한 데이터를 공유할 수 있습니다. 최신 형식에는 캠페인 ID와 광고 그룹 ID에 대한 매개 변수가 포함되어 있습니다. 이 매개 변수는 Analytics의 Google 초안 및 실험 캠페인에 대한 캠페인 및 광고 그룹 수준에서 정확하게 보고하는 데 필요합니다. 기존 Google 계정에 Google 초안 및 실험 캠페인이 포함된 경우 각 개별 계정에 대한 계정 추적 설정을 편집하여 새 s_kwcid로 마이그레이션합니다. Google 초안 및 실험 캠페인이 없는 경우 새 형식으로 마이그레이션하는 것은 선택 사항입니다. 참고:모든 새 Google 계정은 자동으로 새 형식을 사용합니다. |
-| ACM(Advanced Campaign Management) 검색 | (Google 광고 캠페인) 이제 Google 텍스트 광고 및 쇼핑 광고 템플릿에 대한 캠페인 수준의 최종 URL 접미어를 구성할 수 있습니다. |
-|  | (Google 광고 캠페인) 선택적 "헤드라인 3" 및 "설명 2" 필드는 Google 확장 텍스트 광고에 사용할 수 있습니다. |
-| 보고서 | 최신 Bing 광고 API로 중단된 다음 Bing 광고 노출 공유 지표는 10월 11일 이후 수집되지 않습니다. 검색 IS%가 등급 지정, 검색 IS% 손실(Bing), 검색 IS%가 페이지 연관성(Bing)으로 손실됨, 검색 IS%가 키워드 관련성(Bing)으로 손실됨. 이전에 수집된 지표는 여전히 보고에 사용할 수 있습니다. |
-| Adobe Analytics 통합 | (Adobe Analytics를 사용하는 광고주) 분석 작업 공간에서 데이터를 수집하지 않은 "장치(AMO ID)" 차원을 더 이상 사용할 수 없습니다. 온라인 Analytics 데이터에 대해 보고하려면 "모바일 장치 유형" 차원을 사용합니다. 장치 유형별로 검색 엔진 트래픽 지표(클릭 수, 비용 및 노출 횟수)를 보고하려면 Advertising Cloud Search에서 보고를 계속 사용합니다. |
+| 캠페인 검색 | Advertising Cloud는 이제 Yahoo에서 계정에 대해 동기화하고 광고 수준 추적을 제공할 수 있습니다! 일본 디스플레이 네트워크. 계정에 대한 로그인 세부 사항을 제공하면 기존의 모든 캠페인, 광고 그룹 및 계정에 있는 광고를 캠페인 관리 보기에서 읽기 전용으로 사용할 수 있습니다. 클릭, 비용, 전환 및 기타 성능 데이터는 캠페인 관리 보기와 기본 및 고급 보고서에서 사용할 수 있습니다. |
+|  | (Google Analytics를 사용하는 광고주) Advertising Cloud Search는 특정 Google Analytics 계정, 속성 및 최적화와 보고서에 대한 보기 결합에 대해 전환 지표를 동기화할 수 있습니다. 페이지 보기, 세션, 바운스 비율(바운스/세션으로 계산됨) 및 세션 기간은 자동으로 포함됩니다. 데이터 소스당 최대 16개의 추가 지표를 추가할 수 있습니다. |
+|  | (기존 Google Ads는 Advertising Cloud-Adobe Analytics 통합을 사용하는 광고주를 처리합니다) 새로운 포맷은 s_kwcid 추적 코드에 대해 사용할 수 있으며 Advertising Cloud에서 Adobe Analytics 보고 및 분석 기능이 있는 계정에 대해 데이터를 공유할 수 있습니다. 최신 형식에는 캠페인 ID 및 광고 그룹 ID의 매개변수가 포함되며 이는 Analytics의 Google Draft 및 Experiment 캠페인에 대한 캠페인 및 광고 그룹 수준에서 정확하게 보고하는 데 필요합니다. 기존 Google 계정에 Google Draft 및 Experiment 캠페인이 포함되어 있는 경우 각 개별 계정에서 새로운 s_kwcid로 마이그레이션하도록 계정 추적 설정을 편집합니다. Google Draft 및 Experiment 캠페인이 없는 경우 새로운 포맷으로의 마이그레이션은 선택 사항입니다. 참고: 새로운 모든 Google 계정은 자동으로 새로운 포맷을 사용합니다. |
+| ACM(Advanced Campaign Management) 검색 | (Google Ads 캠페인) 이제 Google 텍스트 광고 및 쇼핑 광고 템플릿에 대한 캠페인 수준의 최종 URL 접미사를 구성할 수 있습니다. |
+|  | (Google Ads 캠페인) 선택 사항 "헤드라인 3" 및 "설명 2" 필드는 Google 확장된 텍스트 광고에 사용할 수 있습니다. |
+| 보고서 | 최신 Bing Ads API에서는 중지된 다음 Bing Ads 노출 횟수 공유 지표는 10월 11일 이후부터 수집되지 않습니다. Search IS% Lost to Rank, Search IS% Lost to Bid (Bing), Search IS% Lost to Page Relevance (Bing) 및 Search IS% Lost to Keyword Relevance (Bing). 이전에 수집된 지표는 계속 보고에 사용할 수 있습니다. |
+| Adobe Analytics 통합 | (Adobe Analytics만 사용하는 광고주) Analysis Workspace에서 데이터를 수집하지 않은 "장치(AMO ID)" 차원을 더 이상 사용할 수 없습니다. 온라인 Analytics 데이터에 대해 보고하려면 차원 "모바일 장치 유형"을 사용합니다. 장치 유형별 검색 엔진 트래픽 지표(예: 클릭, 비용 및 노출 횟수)에 대해 보고하려면 계속하여 Advertising Cloud Search에서 보고를 사용합니다. |
