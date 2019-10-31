@@ -2,7 +2,7 @@
 title: Adobe Experience Cloud 릴리스 노트
 description: Experience Cloud 릴리스 노트 템플릿
 doc-type: 릴리스 노트
-last-update: 2019년 11월 일
+last-update: 2019년 10월 30 일
 author: 'mfrei '
 translation-type: tm+mt
 source-git-commit: 2c6076aa0af7b9a273e31b1f8919e006ff48e6b4
@@ -19,7 +19,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 > [!NOTE] 예정된 릴리스에 대한 이메일 알림을 받으려면 [[!DNL Adobe 우선 제품 업데이트]](https://www.adobe.com/subscription/priority-product-update.html)
 에 가입하십시오. 릴리스 후 게시된 새 정보는 발행 날짜로 표시됩니다.
 
-**릴리스 날짜: 2019년 30월 10일**
+**릴리스 날짜: 2019년 10월 30일**
 
 * [Experience Cloud 인터페이스](#ecloud)
 * [Experience Platform](#platform)
