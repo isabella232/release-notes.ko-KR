@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019년 11월
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 4dbc8703a58261a57deae59effa22fc89faaad32
+source-git-commit: 69b1516bd6bea67429843ba6a47082bf7e211a4c
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 * [!DNL Campaign](#ac)
 * [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (솔루션 도움말 링크)
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (솔루션 도움말 링크)
-* [!DNL Advertising Cloud](#adcloud) (업데이트 날짜: 1/11)
+* [!DNL Advertising Cloud](#adcloud) (업데이트 날짜: 11/1)
 
 도움말 홈을 찾고 계십니까? [Experience Cloud 학습 및 지원](https://helpx.adobe.com/support/experience-cloud.html)을 참조하십시오.
 
