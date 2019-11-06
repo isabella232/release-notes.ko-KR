@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019년 11월
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 0fba1b7a9cef1262a4fa03188ba81b1d1a15a2e4
+source-git-commit: 386664d1decd801eb894bead1afe848dfef22795
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 * [!DNL Campaign](#ac)
 * [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (솔루션 도움말 링크)
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (솔루션 도움말 링크)
-* [!DNL Advertising Cloud](#adcloud) (업데이트 날짜: 11/1)
+* [!DNL Advertising Cloud](#adcloud) (11월 1일에 업데이트됨)
 
 도움말 홈을 찾고 계십니까? [Experience Cloud 학습 및 지원](https://helpx.adobe.com/support/experience-cloud.html)을 참조하십시오.
 
@@ -109,7 +109,7 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 
 ## Audience Manager {#aam}
 
-Audience Manager의 새로운 기능, 개선 사항 및 수정 사항.
+### Audience Manager의 새로운 기능, 개선 사항 및 수정 사항 {#aam-new-features}
 
 | 기능 | 설명 |
 |--- |----|
@@ -118,7 +118,20 @@ Audience Manager의 새로운 기능, 개선 사항 및 수정 사항.
 | [벌크 관리 도구](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html) | Adobe는 MacOS 및 Microsoft Windows 운영 체제에서 작동하고 Experience Cloud 로그인을 지원하는 벌크 관리 워크시트의 새 버전을 발표했습니다. |
 | [HTTP Strict-Transport-Security](https://docs.adobe.com/help/en/audience-manager/user-guide/overview/data-security-and-privacy/data-security.html#hsts) | 쿠키 하이재킹 및 프로토콜 다운그레이드 공격으로부터 보호하는 웹 보안 정책인 [!DNL HTTP Strict-Transport-Security]에 대한 지원이 추가되었습니다.  |
 
-**수정 사항 및 향상된 기능**
+### 개선 사항 {#aam-enhancements}
+
+2019년 11월 현재 Audience Manager는 이전에 지원되는 쿠키, IDFA 및 GAID 파섹 장치 ID 외에도 Roku ID, Amazon Fire TV ID 및 Xbox/Microsoft ID를 Google Ad Manager 및 DV360 대상으로 전송하는 기능도 지원합니다. 기존 Google 통합에서 변경할 필요가 없습니다.
+
+Audience Manager에서 Roku ID, Amazon Fire TV ID 및 Xbox/Microsoft ID를 전역 장치 ID라고 합니다. Audience Manager 제품 설명서에서 이러한 ID 및 ID와 연결된 데이터 소스에 대해 자세히 알아볼 수 있습니다.
+
+* [전역 장치 ID](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/ids-in-aam.html#global-device-ids)
+* [글로벌 데이터 소스](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html)
+
+Roku, Amazon Fire TV 및 Xbox/Microsoft 데이터 소스에 대한 데이터 수집은 IDFA 및 GAID와 같은 방식으로 작동합니다. Audience Manager ID는 키잉된 데이터를 수집할 때 자동으로 생성되고 DAID에 연결됩니다. 새 ID는 계정에 구성된 기존 및 새 Google 대상으로 자동으로 전송됩니다.
+
+자세한 내용은 Audience Manager 컨설턴트 또는 고객 지원 센터에 문의하십시오.
+
+### 수정 사항 및 향상된 기능 {#aam-fixes-and-improvements}
 
 * 고객이 월별 세그먼트 사용을 제출할 때 UI가 오류 409를 반환하는 Audience Marketplace의 버그가 수정되었습니다. (AAM-50825)
 * 단기간 동안 고객이 새로운 파생된 신호를 만들 수 없었던 파생 신호의 버그가 수정되었습니다. (AAM-50968)
