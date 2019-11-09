@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019년 11월
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 386664d1decd801eb894bead1afe848dfef22795
+source-git-commit: 9a17edded46ddd9f95ea3c849e23bc1962075174
 
 ---
 
@@ -69,7 +69,7 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 
 | 기능 | 설명 |
 | -----------| ---------- | 
-| 고객 여정 분석 | On November 21, 2019, [Customer Journey Analytics](https://www.adobe.com/analytics/customer-journey-analytics.html) becomes available as an add-on to Adobe Analytics.<br><br/>고객 여정 분석을 통해 선택한 모든 채널에서 고객 데이터를 가져올 수 있습니다. 온라인과 오프라인을 막론하고 Adobe Experience Platform으로 전환한 다음 분석 작업 공간을 사용하여 기존 디지털 데이터와 마찬가지로 이 데이터를 분석합니다. 고객 여정 분석에는 일반 고객 ID로 Analysis Workspace에서 온라인 및 오프라인 데이터를 연결하는 방법을 제어하는 기능이 포함되어 있으므로 Adobe Analytics의 전체 고객 데이터 세트에 속성, 세그먼트, 흐름, 폴아웃 등을 수행할 수 있습니다.<br><br/>Analytics Select, Prime 및 Ultimate 고객은 이 추가 기능 제품을 구입할 수 있습니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오. |
+| 고객 여정 분석 | 2019년 11월 21일, [고객 여정 분석](https://www.adobe.com/analytics/customer-journey-analytics.html)을 Adobe Analytics의 추가 기능으로 사용할 수 있게 됩니다.<br><br/>고객 여정 분석을 사용하면 온라인과 오프라인을 막론하고 선택한 모든 채널에서 고객 데이터를 Adobe Experience Platform으로 가져온 다음 Analysis Workspace를 사용하여 기존 디지털 데이터를 분석하는 것처럼 이 데이터를 분석할 수 있습니다. 고객 여정 분석에는 일반 고객 ID로 Analysis Workspace에서 온라인 및 오프라인 데이터를 연결하는 방법을 제어하는 기능이 포함되어 있으므로 Adobe Analytics의 전체 고객 데이터 세트에 속성, 세그먼트, 흐름, 폴아웃 등을 수행할 수 있습니다.<br><br/>Analytics Select, Prime 및 Ultimate 고객은 이 추가 기능 제품을 구입할 수 있습니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오. |
 | 개인 정보 서비스 API: CCPA | CCPA(California Consumer Privacy Act)는 미국 캘리포니아 거주자를 위해 개인 정보 권한 및 소비자 보호를 개선합니다. 이 조례는 2020년 1월 1일부터 시행될 예정입니다.<br><br/>CCPA는 개인 데이터가 판매되었거나 공개되었는지의 여부 및 그 대상을 확인하거나 개인 데이터 판매를 거절하기 위한 개인 데이터 액세스 및 삭제 권한과 같은 새로운 데이터 개인 정보 권한을 캘리포니아 거주자에게 제공합니다.<br><br/>CCPA의 예상에 따라 개인 정보 서비스는 개인 데이터 판매를 거부하도록 요청을 지원합니다.<br><br/>개인 정보 서비스는 이전에 GDPR 서비스라고 하였으며 이전의 모든 기능을 유지하고 현재 CCPA를 지원하기 위해 확장되었습니다.<br/><br/>[Analytics의 CCPA](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/an-ccpa-overview.html)<br><br/>[개인 정보 서비스 개요](https://www.adobe.io/apis/experiencecloud/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md) |
 | 개인 정보 보고: 분석 관리 콘솔 | 분석을 위한 개인 정보 보고 활성화는 예약된 변수 집합을 보고서 세트에 추가합니다.  이 변수는 히트 수준에서 소비자 동의 데이터 수집을 지원하기 위해 고안되었습니다.<br><br/>새로운 차원:<br/><ul><li>동의 관리 옵트아웃</li><li>동의 관리 옵트인</li><li>[동의 관리 변수](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/consent-variables.html)</li></ul> |
 | 오디오 및 비디오 분석: 개인 정보 지원 | 두 개의 새로운 변수가 미디어 컬렉션 API에 추가되었습니다:<br/><ul><li>analytics.optOutServerSideForwarding</li><li>analytics.optOutShare</li></ul><br/><br/>이러한 변수는 히트 시 소비자의 동의 상태를 캡처하는 데 사용할 수 있는 선택 변수입니다.<br/><br/>[Media Coolection API 설명서](https://docs.adobe.com/content/help/en/media-analytics/using/media-collection-api/mc-api-overview.html)<br/><br/>새로운 Analytics Consent Management 컨텍스트 데이터 변수가 Federated Analytics 양식에 추가되었습니다. 이제 이러한 변수를 페더레이션에 대한 공유 또는 판매 히트 플래그 지정 옵트아웃에 사용할 수 있습니다.<br/><br/>[Federated Form 다운로드](https://docs.adobe.com/content/help/en/media-analytics/using/federated-analytics.html#download-the-federated-analytics-form) |
@@ -224,10 +224,11 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 ## Advertising Cloud {#adcloud}
 
-2019년 11월 2일 릴리스에 대해 업데이트됨
+2019년 11월 8일 릴리스 업데이트
 
 | 보기 | 기능 |
 |------|---------|
 | 전환 추적 | Advertising Cloud JavaScript 기반 전환 매핑 태그는 이제 Mozilla Firefox 버전 69 이상에서 클릭스루 추적을 지원하며, 기본적으로 타사 쿠키를 차단합니다. 동일한 태그에는 이미 Apple Safari 지원이 포함되어 있습니다.<br><br/>Advertising Cloud 전환 추적을 사용하고 아직 Advertising Cloud 전환 매핑 태그를 배포하지 않은 경우, 다음 코드를 모든 랜딩 페이지에 배포하십시오.<br></br>`<script src="//www.everestjs.net/static/amo-conversion-mapper.js"></script>`<br></br>참고: 이 태그는 이미지 추적 태그가 아닌 Advertising Cloud JavaScript v2 및 v3 전환 추적 태그를 지원합니다. |
 | 포트폴리오 | 포트폴리오 옵션 "캠페인 최대 지출 % 타겟 활성화"가 활성화되면 이제 최대 지출 타겟이 절대 초과되지 않습니다. 이전에는 그렇게 하는 것이 최적일 경우에 Advertising Cloud가 최대 지출 타겟을 초과했습니다. |
 | 대상 검색 | 이제 검색 &gt; 대상 &gt; 라이브러리의 대상 라이브러리에는 Bing 광고 및 Google 광고에서 매일 채워지는 "대상 크기" 열이 자동으로 포함됩니다. 선택적으로 열을 데이터 필터로 사용할 수 있습니다. |
+| Adobe Analytics와의 통합 | 이제 Analytics에는 Advertising Cloud DSP 캠페인에 대한 "랜딩 유형(AMO ID)" 차원이 포함됩니다.  이 차원을 사용하여 방문자가 사이트에 도착한 방식을 기반으로 Analytics 지표를 세그먼트화할 수 있습니다. 값에는 "클릭스루" 및 "뷰스루"가 포함됩니다.<br><br/>**** 참고:2019년 10월 31일 이전에 발생한 뷰스루 데이터는 클릭스루 횟수의 데이터로 표시됩니다. 따라서 2019년 11월 중순 이전의 데이터에 이 차원을 사용하는 것은 권장되지 않습니다. |
