@@ -5,7 +5,7 @@ doc-type: 릴리스 노트
 last-update: 2019년 11월
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 9a17edded46ddd9f95ea3c849e23bc1962075174
+source-git-commit: 72028146219c6244c501e55e30c03de925c54b3c
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 * [!DNL Campaign](#ac)
 * [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (솔루션 도움말 링크)
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (솔루션 도움말 링크)
-* [!DNL Advertising Cloud](#adcloud) (11월 1일에 업데이트됨)
+* [!DNL Advertising Cloud](#adcloud) (11월 8일에 업데이트됨)
 
 도움말 홈을 찾고 계십니까? [Experience Cloud 학습 및 지원](https://helpx.adobe.com/support/experience-cloud.html)을 참조하십시오.
 
@@ -120,14 +120,14 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 
 ### 개선 사항 {#aam-enhancements}
 
-2019년 11월 현재 Audience Manager는 이전에 지원되는 쿠키, IDFA 및 GAID 파섹 장치 ID 외에도 Roku ID, Amazon Fire TV ID 및 Xbox/Microsoft ID를 Google Ad Manager 및 DV360 대상으로 전송하는 기능도 지원합니다. 기존 Google 통합에서 변경할 필요가 없습니다.
+2019년 11월부터 Audience Manager는 이전에 지원되는 쿠키, IDFA 및 GAID 장치 ID 외에도 Roku ID, Amazon Fire TV ID 및 Xbox/Microsoft ID를 Google Ad Manager 및 DV360 대상으로 전송하는 기능도 지원합니다. 기존 Google 통합에서 변경할 필요가 없습니다.
 
-Audience Manager에서 Roku ID, Amazon Fire TV ID 및 Xbox/Microsoft ID를 전역 장치 ID라고 합니다. Audience Manager 제품 설명서에서 이러한 ID 및 ID와 연결된 데이터 소스에 대해 자세히 알아볼 수 있습니다.
+Audience Manager에서 Roku ID, Amazon Fire TV ID 및 Xbox/Microsoft ID를 글로벌 장치 ID라고 합니다. Audience Manager 제품 설명서에서 이러한 ID 및 ID와 연결된 데이터 소스에 대해 자세히 알아볼 수 있습니다.
 
-* [전역 장치 ID](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/ids-in-aam.html#global-device-ids)
+* [글로벌 장치 ID](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/ids-in-aam.html#global-device-ids)
 * [글로벌 데이터 소스](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html)
 
-Roku, Amazon Fire TV 및 Xbox/Microsoft 데이터 소스에 대한 데이터 수집은 IDFA 및 GAID와 같은 방식으로 작동합니다. Audience Manager ID는 키잉된 데이터를 수집할 때 자동으로 생성되고 DAID에 연결됩니다. 새 ID는 계정에 구성된 기존 및 새 Google 대상으로 자동으로 전송됩니다.
+Roku, Amazon Fire TV 및 Xbox/Microsoft 데이터 소스에 대한 데이터 수집은 IDFA 및 GAID와 같은 방식으로 작동합니다. Audience Manager ID는 차단된 데이터를 수집할 때 자동으로 생성되고 DAID에 연결됩니다. 새 ID는 계정에 구성된 기존 및 새 Google 대상으로 자동으로 전송됩니다.
 
 자세한 내용은 Audience Manager 컨설턴트 또는 고객 지원 센터에 문의하십시오.
 
