@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: November 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 99ff53a630caedb0073076d19e306504235a98ab
+source-git-commit: e023f8bb366a21e41013e6f94682d48e0a194ee6
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 
 * [Experience Cloud 인터페이스](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics)
+* [!DNL Analytics](#analytics) (**업데이트 날짜: 2019년 11월 21일**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -60,7 +60,7 @@ Experience Platform, Experience Platform Launch, Idendity Service 및 보안 게
 Adobe Analytics의 새로운 기능 및 수정 내용:
 
 * [Adobe Analytics의 새로운 기능, 향상된 기능 및 수정 내용](#aa-features)
-* [Analytics 관리자에 대한 중요 공지](#aa-notices)
+* [Analytics 관리자에 대한 중요 공지](#aa-notices) (**업데이트 날짜: 2019년 11월 21일**)
 * [AppMeasurement](#appm)
 
 제품 설명서는 [Adobe Analytics 도움말 홈](https://docs.adobe.com/content/help/en/analytics/landing/home.html)을 참조하십시오.
@@ -82,7 +82,7 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 
 | 알림 | 추가한 날짜 또는 업데이트한 날짜 | 설명 |
 | -----------| ---------- | ---------- |
-| **[!UICONTROL IP 로그인 제한 적용]** 옵션 EOL | 2019년 11월 21일 | Announcing the October, 2020, end-of-life date for the IP login whitelisting (**[!UICONTROL Enforce IP Login Restrictions]**) functionality under the **[!UICONTROL Admin &gt; Company Settings &gt; Security]** menu. (2020년 1월에 있었던 일입니다.) |
+| **[!UICONTROL IP 로그인 제한 적용]** 옵션 EOL | 2019년 11월 21일 | Announcing the *October, 2020*, end-of-life date for the IP login whitelisting (**[!UICONTROL Enforce IP Login Restrictions]**) functionality under the **[!UICONTROL Admin &gt; Company Settings &gt; Security]** menu. (2020년 1월에 있었던 일입니다.) |
 | **[!UICONTROL 아카이브 보기]** 옵션 EOL | 2019년 10월 30일 | 대시보드 관리자(**[!UICONTROL 구성 요소 &gt; 대시보드]**)에 있는 **[!UICONTROL 아카이브 보기]** 옵션의 종료 날짜를 2020년 1월로 발표합니다. |
 | 쿠키의 SameSite 속성에 대한 처리가 업데이트됨 | 2019년 10월 15일 | Adobe는 2019년 8월, Analytics에서 설정한 모든 쿠키에 SameSite 쿠키 설정을 추가했다고 발표했습니다. 로직의 업데이트가 적용된 위치는 다음과 같습니다.<ul><li>Webkit을 기반으로 하지 않는 모든 타사 쿠키는 SameSite 속성이 `none`으로 설정되어 있습니다.</li><li>다른 모든 쿠키에는 SameSite 속성이 설정되어 있지 않습니다.</li></ul> |
 | TLS 1.1 지원 종료 | 2019년 10월 3일 | 2020년 3월 31일까지 Adobe Analytics는 TLS 1.1에 대한 지원을 제거합니다. 이러한 변경은 최고 수준의 보안 표준을 유지하고 고객 데이터의 보안을 향상시키기 위한 지속적인 노력의 일환입니다. |
