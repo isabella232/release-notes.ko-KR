@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: November 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8d06f199f14455854bb8f54a5699f7538a674c3c
+source-git-commit: ba99a07c966a56306daa151606f4503586cb898a
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (솔루션 도움말 링크)
 * [!DNL Advertising Cloud](#adcloud) (11월 8일에 업데이트됨)
 
-도움말 홈을 찾고 계십니까? [Experience Cloud 학습 및 지원](https://helpx.adobe.com/support/experience-cloud.html)을 참조하십시오.
+도움말 홈을 찾고 계십니까? Adobe [Experience Cloud 설명서를 참조하십시오](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html).
 
 ## Experience Cloud 인터페이스 {#ecloud}
 
