@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: January 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d48cab564bb6a45022d5c8a388dd71d52a1b63f1
+source-git-commit: 51e45852d84bd30b5d0fb21640b2e9f31080840c
 
 ---
 
@@ -64,9 +64,9 @@ Adobe는 모든 Experience Cloud 애플리케이션에서 경험을 통합하고
 
 업데이트에는 다음이 포함됩니다.
 
-* 새 솔루션 URL:모든 `experience.adobe.com/<application name>.` 제품은 결국 이 URL 패턴을 채택하게 됩니다. 한 달 동안 새 URL이 유효한지 확인합니다. 새 도메인으로 리디렉션되는 내용이 표시되면 책갈피를 업데이트하는 것이 좋습니다.
+* 새 솔루션 URL:모든 `experience.adobe.com/<application name>.` 제품은 결국 이 URL 패턴을 채택하게 됩니다. 한 달 동안 새 URL이 유효한지 확인합니다.
 * 조직 간 또는 다른 애플리케이션으로 손쉽게 전환할 수 있습니다.
-* 향상된 제품 도움말:Experience [!UICONTROL League] 는 제품에 통합되어 도움말 검색에는 커뮤니티 포럼 및 비디오 컨텐츠의 결과도 포함됩니다. 이러한 변경 사항을 통해 더 많은 컨텐츠에 대한 액세스를 간소화하고 Experience Cloud를 최대한 활용할 수 있습니다. 또한 도움말 > **[!UICONTROL 피드백을]**클릭하여**** 문제를 보고하거나 제품 설명서 팀과 아이디어를 공유할 수 있습니다.
+* 향상된 제품 도움말:Experience [!UICONTROL League] 는 제품에 통합되어 도움말 검색에는 커뮤니티 포럼 및 비디오 컨텐츠의 결과도 포함됩니다. 이러한 변경 사항을 통해 더 많은 컨텐츠에 대한 액세스를 간소화하고 Experience Cloud를 최대한 활용할 수 있습니다. 또한 도움말 > **[!UICONTROL 피드백을]**클릭하여**** 문제를 보고하거나 Adobe 제품과 아이디어를 공유할 수 있습니다.
 * 향상된 알림:이제 [!UICONTROL 알림] 드롭다운 메뉴에는 두 개의 탭이 있으며, 하나는 고유한 제품 알림과 글로벌 제품 공지를 위한 탭입니다.
 
 **** 참고:피드 [!UICONTROL 페이지는] 2020년 1월에 더 이상 사용되지 않습니다. 제품 내 사용 중단 알림을 찾으십시오.
