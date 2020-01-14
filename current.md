@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: January 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b0f2fe07102a20e343f69b1c156f48ca4f284966
+source-git-commit: 7ec12529edf495c36cc153028458257939782e41
 
 ---
 
@@ -64,7 +64,8 @@ Adobe는 모든 Experience Cloud 애플리케이션에서 경험을 통합하고
 
 업데이트에는 다음이 포함됩니다.
 
-* 새 솔루션 URL:모든 `experience.adobe.com/<application name>.` 제품은 결국 이 URL 패턴을 채택하게 됩니다. 한 달 동안 새 URL이 유효한지 확인합니다.
+* 새 솔루션 URL:모든 `experience.adobe.com/<application name>.` 제품은 결국 이 URL 패턴을 채택하게 됩니다. 한 달 동안 새 URL이 유효한지 확인합니다. 참고:
+   * 도메인 변경으로 인해 Safari에서 쿠키 문제가 발생할 수 있습니다. Unchecking _Prevent cross-site tracking_ in the Safari Privacy Preferences enables cookies across domains (and all cross-site experiences), and allows Experience Cloud to function on this new domain. Safari 사용자만 영향을 받기 때문에 문제 없이 다른 브라우저를 사용할 수 있습니다.
 * 조직 간 또는 다른 애플리케이션으로 손쉽게 전환할 수 있습니다.
 * 향상된 제품 도움말:Experience [!UICONTROL League] 는 제품에 통합되어 도움말 검색에는 커뮤니티 포럼 및 비디오 컨텐츠의 결과도 포함됩니다. 이러한 변경 사항을 통해 더 많은 컨텐츠에 대한 액세스를 간소화하고 Experience Cloud를 최대한 활용할 수 있습니다. 또한 도움말 > **[!UICONTROL 피드백을]**클릭하여**[!UICONTROL &#x200B;문제를]** 보고하거나 Adobe와 아이디어를 공유할 수 있습니다.
 * 향상된 알림:이제 [!UICONTROL 알림] 드롭다운 메뉴에는 두 개의 탭이 있으며, 하나는 고유한 제품 알림과 글로벌 제품 공지를 위한 탭입니다.
@@ -195,6 +196,14 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 내용 및 업데이�
 
 ### 제품 릴리스
 
+* **새로운 기능:클라우드 서비스로 AEM 사용**
+
+   [Adobe Experience](https://www.adobe.com/marketing/experience-manager.html) Manager(AEM)는 이제 클라우드 서비스로 제공됩니다.
+
+   * [소개](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/overview/introduction.html)
+   * [릴리스 정보](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/home.html)
+   * [설명서](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)
+
 * **자동화된 양식 변환 서비스**
 
    PDF 양식을 멋진 모바일 전용 HTML 양식으로 자동 변환하는 서비스인 Automated Forms Conversion Service는 2019년 12월 12일에 일반 소비를 수행할 수 있게 되었습니다.
@@ -220,6 +229,7 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 내용 및 업데이�
 
 ### 추가 리소스
 
+* [클라우드 서비스로 AEM 사용](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)
 * [AEM 6.5 학습 및 지원 홈](https://helpx.adobe.com/support/experience-manager/6-5.html)
 * [AEM 6.4 학습 및 지원 홈](https://helpx.adobe.com/support/experience-manager/6-4.html)
 * [AEM 6.3 학습 및 지원 홈](https://helpx.adobe.com/support/experience-manager/6-3.html)
