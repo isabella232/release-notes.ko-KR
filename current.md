@@ -92,7 +92,7 @@ Experience Platform, Experience Platform Launch, Idendity Service 및 보안 게
 
 * [Experience Platform 릴리스 노트](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
 * [Experience Platform Launch](#launch)
-* [보안 게시판 및 권고](https://helpx.adobe.com/security.html)(모든 Adobe 제품)
+* [보안 게시판 및 권고 조치](https://helpx.adobe.com/security.html) (모든 Adobe 제품)
 
 ### Experience Platform Launch {#launch}
 
