@@ -5,17 +5,14 @@ doc-type: release notes
 last-update: January 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e49bdb89cd3cf434a4932d1669d6f3a2df973769
+source-git-commit: dec998d8e23bf8ac302d750fd36b13eb330abafe
 
 ---
 
 
-# 조기 액세스 - Adobe Experience Cloud 릴리스 노트 - 2020년 1월
+# Adobe Experience Cloud 릴리스 노트 - 2020년 1월
 
 Adobe Experience Cloud의 새로운 기능 및 수정 사항.
-
->[!IMPORTANT]
->이 페이지에는 출시 전 컨텐츠가 포함되어 있으며 각 제품의 계획된 출시 전에 변경될 수 있습니다.
 
 >[!NOTE]
 >예정된 릴리스에 대한 이메일 알림을 받으려면 [[!DNL Adobe Priority Product Update]](https://www.adobe.com/subscription/priority-product-update.html)
@@ -80,7 +77,7 @@ Adobe는 모든 Experience Cloud 애플리케이션에서 사용자 경험을 �
 
 Adobe는 Chrome 80(2020년 2월 출시)의 변경 사항에 대비하기 위해 쿠키의 `same-site` 설정을 조정하고 있습니다.
 
-자사 데이터 수집에 CNAME을 사용하지 않지만 여러 도메인(익숙한 타사 도메인)에서 해당 CNAME을 사용하며 Experience Cloud(방문자) ID 서비스를 사용하는 경우에는 변경할 필요가 없습니다. Chrome 80 릴리스에서는 Chrome이 Analytics 방문자 ID 쿠키에 다른 도메인에서 해당 쿠키를 사용할 수 없게 하는 `Lax,`의 SameSite 값을 자동으로 제공합니다. 도메인에서 CNAME을 계속 사용하려면 Adobe 고객 지원 팀에 문의하고 CNAME에 대한 SameSite 값을 다음으로 변경하도록 요청해야 합니다. `None.`
+자사 데이터 수집에 CNAME을 사용하지 않지만 여러 도메인(익숙한 타사 도메인)에서 해당 CNAME을 사용하며 Experience Cloud(방문자) ID 서비스를 사용하는 경우에는 변경할 필요가 없습니다. Chrome 80 릴리스에서는 Chrome이 Analytics 방문자 ID 쿠키에 다른 도메인에서 해당 쿠키를 사용할 수 없게 하는 `Lax,`의 SameSite 값을 자동으로 제공합니다. 도메인에서 CNAME을 계속 사용하려면 Adobe 고객 지원 팀에 문의하고 CNAME에 대한 SameSite 값을 다음으로 변경하도록 요청해야 함: `None.`
 
 Adobe에서는 Experience Cloud ID 서비스를 사용하든 사용하지 않든 간에 각 도메인에 대해 별도의 CNAME을 사용할 것을 권장합니다.
 
