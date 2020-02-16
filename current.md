@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: February 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d61884a3de7bd7c8d32fb9dc88727e82083ca5c1
+source-git-commit: 0a9f95d1d9a2bba69cecada0d0c39f70e507c995
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 * [Experience Cloud 인터페이스 및 핵심 서비스](#ecloud)
 * [Experience Platform](#platform)
 * [Mobile Services 및 Mobile SDK](#mobile)
-* [!DNL Analytics](#analytics) **(2020년 1월 21일 업데이트됨)**
+* [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
