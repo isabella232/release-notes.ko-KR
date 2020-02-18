@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: February 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 0a9f95d1d9a2bba69cecada0d0c39f70e507c995
+source-git-commit: d2b03da33ea1c49d683fc9486ae8b7d7bc59c87f
 
 ---
 
@@ -157,10 +157,13 @@ Audience Manager에 수정 사항 및 기능이 추가되었습니다.
 |----|----|
 | [활동 사용량 보고](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/activity-usage-reporting.html) | 활동 [!UICONTROL 사용량 보고서는] Audience Manager 인스턴스의 활동 사용량을 보고 추적하는 데 도움이 되며, 계약 약정과 활동 사용량이 어떻게 다른지 명확하게 파악할 수 있습니다. |
 
-<!-- ### Fixes and Improvements {#aam-fixes-and-improvements}
+### 수정 사항 및 향상된 기능 {#aam-fixes-and-improvements}
 
-* Fixes
-* Fixes -->
+* 통합 계정 선택을 위한 UI가 대상 생성 플로우를 중단하게 하는 버그를 수정했습니다(AAM 파섹-52414).
+* 알고리즘 모델 생성 흐름을 탐색할 때 UI가 중단되는 버그를 수정했습니다(AAM 파섹-37942).
+* Adobe Experience Platform 통합(AAM-52814)을 사용하는 고객을 위해 신규 또는 기존 대상에 대한 데이터 내보내기 컨트롤을 저장할 때 데이터 내보내기 선택이 저장되지 않는 버그를 수정했습니다.
+* 이름에 파이프 문자(`|`)가 들어 있는 트레이트에 대해 타사 트레이트 추천이 제대로 작동하지 않는 버그를 수정했습니다(AAM-51635).
+* UI 전체에서 다양한 액세스 가능성 개선
 
 ## Experience Manager {#aem}
 
@@ -223,13 +226,13 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 ## Advertising Cloud {#adcloud}
 
-2020년 2월 10일 업데이트(2월 8일 릴리스)
+Updated February 10, 2020, for February 8 release
 
 | 보기 | 기능 |
 |------|---------|
-| 포트폴리오 | 이제 Yahoo! YDN(Japan Display Network) 캠페인을 포트폴리오로 전환하여 캠페인 예산 및 광고 그룹 수준 입찰을 최적화합니다. 동일한 입찰이 광고 그룹의 모든 광고에 적용됩니다. YDN 캠페인에 대한 데이터는 포트폴리오의 시뮬레이션에 포함됩니다. |
-| 검색 > 일괄 시트 | 이제 일괄 시트를 사용하여 Google RSA(Responsive Search Ads)를 생성, 편집 및 삭제할 수 있습니다. 이전에는 검색 > 캠페인의 표준 캠페인 관리 인터페이스를 통해서만 지원을 **[!UICONTROL 사용할]** 수 **[!UICONTROL 있었습니다]** |
-| 검색 > 캠페인, 보고서 | Google Ads `Impr. (Abs. Top) %` 의 주요 지표 및 `Impr. (Top) %` 이제 쇼핑 제품 그룹, 캠페인 일일 노출 공유 및 키워드 일별 노출 [!UICONTROL 공유] 보고서, 레이블 및 제약 조건 보기에서만 모든 기본 보고서 및 엔티티 수준 캠페인 관리 [!UICONTROL 보기에서 사용할 수] 있습니다. |
+| 포트폴리오 | 이제 Yahoo!  Japan Display Network(YDN) 캠페인을 포트폴리오에 추가하여 캠페인 예산과 광고 그룹 수준의 입찰을 최적화할 수 있습니다. 같은 입찰이 한 광고 그룹의 모든 광고에 적용됩니다. YDN 캠페인에 대한 데이터는 포트폴리오의 시뮬레이션에 포함됩니다. |
+| 검색 > 일괄 시트 | 이제 일괄 시트를 사용하여 Google RSA(Responsive Search Ads)를 생성, 편집 및 삭제할 수 있습니다. Previously, support was available only through the standard campaign management interface at **[!UICONTROL Search]** > **[!UICONTROL Campaigns]** |
+| 검색 > 캠페인, 보고서 | The Google Ads prominence metrics `Impr. (Abs. Top) %` and `Impr. (Top) %` are now available in all basic reports and entity-level campaign management views except for those for shopping product groups, in the [!UICONTROL Campaign Daily Impression Share] and [!UICONTROL Keyword Daily Impression Share] reports, and in the labels and constraints views. |
 
 ## [!DNL Magento] {#magento}
 
