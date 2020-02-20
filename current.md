@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: February 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d2b03da33ea1c49d683fc9486ae8b7d7bc59c87f
+source-git-commit: 6ff4708a5ec57bb590e9dacc718a42d1b8f71a8f
 
 ---
 
@@ -99,7 +99,7 @@ Experience Platform, Experience Platform Launch, Idendity Service 및 보안 게
 
 ## Mobile Services 및 Mobile SDK {#mobile}
 
-**2020년 2월 4일:버전 4.19.0**
+**2020년 2월 4일: 버전 4.19.0**
 
 이 릴리스에서는 다음과 같은 업데이트가 수행되었습니다.
 
@@ -210,13 +210,16 @@ JEE [에서 AEM Forms에 대해 지원되는 플랫폼을 참조하십시오](ht
 
 Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적이고, 자동화된 방식으로 일대일 메시지를 제공합니다. 이제 고객이 습관 및 선호도에 따라 결정된 작업 환경을 통해 원하는 사항을 예측할 수 있습니다.
 
-### Campaign Classic 19.2.3
+### Campaign Classic
 
-수정 사항 및 향상된 기능은 [Adobe Campaign Classic 릴리스 노트](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html)를 참조하십시오.
+* [Campaign Classic 20.1 업데이트](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html)
+* [Campaign Classic 19.2.3 업데이트](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/previous-releases/release--19-2.html)
 
-### Campaign Standard 20.1
+### Campaign Standard
 
-수정 사항 및 향상된 기능은 [Adobe Campaign Standard 릴리스 노트](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html)를 참조하십시오.
+* [Campaign Standard 20.1.3 업데이트](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html#release-20-1-3---february-2020)
+* [Campaign Standard 20.1.2 업데이트](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.htmll#release-20-1-2---february-2020)
+* [Campaign Standard 20.1 업데이트](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html#release-20-1---february-2020)
 
 ### 추가 리소스
 
@@ -226,11 +229,11 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 ## Advertising Cloud {#adcloud}
 
-Updated February 10, 2020, for February 8 release
+2020년 2월 10일에 업데이트됨, 2월 8일 릴리스 기준
 
 | 보기 | 기능 |
 |------|---------|
-| 포트폴리오 | 이제 Yahoo!  Japan Display Network(YDN) 캠페인을 포트폴리오에 추가하여 캠페인 예산과 광고 그룹 수준의 입찰을 최적화할 수 있습니다. 같은 입찰이 한 광고 그룹의 모든 광고에 적용됩니다. YDN 캠페인에 대한 데이터는 포트폴리오의 시뮬레이션에 포함됩니다. |
+| 포트폴리오 | 이제 Yahoo! Japan Display Network(YDN) 캠페인을 포트폴리오에 추가하여 캠페인 예산과 광고 그룹 수준의 입찰을 최적화할 수 있습니다. 같은 입찰이 한 광고 그룹의 모든 광고에 적용됩니다. YDN 캠페인에 대한 데이터는 포트폴리오의 시뮬레이션에 포함됩니다. |
 | 검색 > 일괄 시트 | 이제 일괄 시트를 사용하여 Google RSA(Responsive Search Ads)를 생성, 편집 및 삭제할 수 있습니다. Previously, support was available only through the standard campaign management interface at **[!UICONTROL Search]** > **[!UICONTROL Campaigns]** |
 | 검색 > 캠페인, 보고서 | The Google Ads prominence metrics `Impr. (Abs. Top) %` and `Impr. (Top) %` are now available in all basic reports and entity-level campaign management views except for those for shopping product groups, in the [!UICONTROL Campaign Daily Impression Share] and [!UICONTROL Keyword Daily Impression Share] reports, and in the labels and constraints views. |
 
