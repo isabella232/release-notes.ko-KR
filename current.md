@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: February 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c62d85f09ce596482a019aa5d0f1d517bf2df9fe
+source-git-commit: 7a8c0c680195b5308dfb6c0214b1d56ceda88584
 
 ---
 
@@ -22,13 +22,13 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 
 (특정 제품 릴리스 날짜는 매우 다양함)
 
-최신 업데이트:2020년 2월 10일
+최신 업데이트:2020년 2월 21일
 
 * [Adobe 시스템 상태](#status)
 * [Experience Cloud 인터페이스 및 핵심 서비스](#ecloud)
 * [Experience Platform](#platform)
 * [Mobile Services 및 Mobile SDK](#mobile)
-* [!DNL Analytics](#analytics)
+* [!DNL Analytics](#analytics) (2020년 2월 21일 업데이트됨)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -106,9 +106,9 @@ Experience Platform, Experience Platform Launch, Idendity Service 및 보안 게
 
 Adobe Analytics의 새로운 기능 및 수정 내용:
 
-* [Adobe Analytics의 새로운 기능, 향상된 기능 및 수정 내용](#aa-features) (2020년 1월 21일 업데이트됨)
+* [Adobe Analytics의 새로운 기능, 향상된 기능 및 수정 내용](#aa-features)
 * [Analytics 관리자에 대한 중요 공지](#aa-notices)
-* [AppMeasurement](#appm)
+* [AppMeasurement](#appm) (업데이트: 2020년 2월 21일)
 
 제품 설명서는 [Adobe Analytics 도움말 홈](https://docs.adobe.com/content/help/en/analytics/landing/home.html)을 참조하십시오.
 
@@ -142,7 +142,7 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 
 ### [!DNL AppMeasurement] {#appm}
 
-[JavaScript 릴리스 노트의 AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-updates.html)를 참조하십시오. 버전 2.18.0은 2020년 2월 13일에 릴리스되었습니다.
+[JavaScript 릴리스 노트의 AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-updates.html)를 참조하십시오. 버전 2.19.0은 2020년 2월 21일에 릴리스되었습니다.
 
 ## Audience Manager {#aam}
 
