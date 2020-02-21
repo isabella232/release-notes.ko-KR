@@ -5,17 +5,14 @@ doc-type: release notes
 last-update: February 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 71ba31c62c66771c16273131db3b72bbaa614d52
+source-git-commit: c62d85f09ce596482a019aa5d0f1d517bf2df9fe
 
 ---
 
 
-# 조기 이용 - Adobe Experience Cloud 릴리스 노트 - 2020년 2월
+# Adobe Experience Cloud 릴리스 노트 - 2020년 2월
 
 Adobe Experience Cloud의 새로운 기능 및 수정 사항.
-
->[!IMPORTANT]
->이 페이지에는 출시 전 컨텐츠가 포함되어 있으며 계획된 출시 전에 변경될 수 있습니다.
 
 >[!NOTE]
 >예정된 릴리스에 대한 이메일 알림을 받으려면 [[!DNL Adobe Priority Product Update]](https://www.adobe.com/subscription/priority-product-update.html)
@@ -163,7 +160,7 @@ Audience Manager에 수정 사항 및 기능이 추가되었습니다.
 * 알고리즘 모델 생성 흐름을 탐색할 때 UI가 중단되는 버그를 수정했습니다(AAM 파섹-37942).
 * Adobe Experience Platform 통합(AAM-52814)을 사용하는 고객을 위해 신규 또는 기존 대상에 대한 데이터 내보내기 컨트롤을 저장할 때 데이터 내보내기 선택이 저장되지 않는 버그를 수정했습니다.
 * 이름에 파이프 문자(`|`)가 들어 있는 트레이트에 대해 타사 트레이트 추천이 제대로 작동하지 않는 버그를 수정했습니다(AAM-51635).
-* UI 전체에서 다양한 액세스 가능성 개선
+* UI 전체에서 다양한 액세서빌러티 개선
 
 ## Experience Manager {#aem}
 
@@ -210,16 +207,13 @@ JEE [에서 AEM Forms에 대해 지원되는 플랫폼을 참조하십시오](ht
 
 Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적이고, 자동화된 방식으로 일대일 메시지를 제공합니다. 이제 고객이 습관 및 선호도에 따라 결정된 작업 환경을 통해 원하는 사항을 예측할 수 있습니다.
 
-### Campaign Classic
+### Campaign Classic 19.2.3
 
-* [Campaign Classic 20.1](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html)
-* [Campaign Classic 19.2.3 업데이트](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/previous-releases/release--19-2.html)
+수정 사항 및 향상된 기능은 [Adobe Campaign Classic 릴리스 노트](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html)를 참조하십시오.
 
-### Campaign Standard
+### Campaign Standard 20.1
 
-* [Campaign Standard 20.1.3 업데이트](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html#release-20-1-3---february-2020)
-* [Campaign Standard 20.1.2 업데이트](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.htmll#release-20-1-2---february-2020)
-* [Campaign Standard 20.1](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html#release-20-1---february-2020)
+수정 사항 및 향상된 기능은 [Adobe Campaign Standard 릴리스 노트](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html)를 참조하십시오.
 
 ### 추가 리소스
 
