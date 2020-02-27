@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: February 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d6c2892cedd2641f35556f36c149b4a8a8203683
+source-git-commit: 8ee099db4445862bdae3c94010f70ba2696798f9
 
 ---
 
@@ -22,13 +22,13 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 
 (특정 제품 릴리스 날짜는 다를 수 있음)
 
-최신 업데이트: 2020년 2월 21일
+최신 업데이트: 2020년 2월 26일
 
 * [Adobe 시스템 상태](#status)
-* [Experience Cloud 인터페이스 및 핵심 서비스](#ecloud)
+* [Experience Cloud 인터페이스 및 핵심 서비스](#ecloud) (업데이트: **2020년 2월 26일**)
 * [Experience Platform](#platform)
 * [Mobile Services 및 Mobile SDK](#mobile)
-* [!DNL Analytics](#analytics) (2020년 2월 21일 업데이트됨)
+* [!DNL Analytics](#analytics) (업데이트:2020년 2월 21일)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -36,6 +36,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (솔루션 도움말 링크)
 * [!DNL Advertising Cloud](#adcloud)
 * [!DNL Magento](#magento)
+* [!DNL Marketo](#marketo) (업데이트: **2019년 2월 26일**)
 
 도움말 홈을 찾고 계십니까? [Adobe Experience Cloud 설명서](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)를 참조하십시오.
 
@@ -57,7 +58,13 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 
 ## Experience Cloud 인터페이스 및 핵심 서비스 {#ecloud}
 
+릴리스 업데이트:2016 **년 2월 26일**
+
 관리 및 핵심 서비스(고객 특성, 대상, 트리거, 쿠키 등)를 비롯한 Experience Cloud 인터페이스의 새로운 기능 및 수정 사항.
+
+| 기능 | 설명 |
+| -----------| ---------- |
+| 관리 도구 - 사용자 세부 사항 보기 | 관리자는 새로운 관리 도구에서 모든 Experience Cloud 사용자의 정렬 및 필터링 가능한 목록과 세부 정보를 볼 수 있습니다. 사용자 세부 사항에는 사용자의 제품 액세스, 역할 및 마지막으로 액세스한 정보가 포함됩니다. 자세한 [내용은 Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html) 관리 도구 도움말을 참조하십시오. |
 
 **수정 사항**
 
@@ -161,7 +168,7 @@ Audience Manager에 수정 사항 및 기능이 추가되었습니다.
 * 알고리즘 모델 생성 플로우를 탐색할 때 UI가 중단되는 버그를 수정했습니다(AAM-37942).
 * Adobe Experience Platform 통합을 사용하는 고객을 위해 신규 또는 기존 대상에 대한 데이터 내보내기 제어를 저장할 때 데이터 내보내기 선택이 저장되지 않는 버그를 수정했습니다.(AAM-52814)
 * 이름에 파이프 문자(`|`)가 들어 있는 특성에 대해 타사 특성 추천이 제대로 작동하지 않는 버그를 수정했습니다(AAM-51635).
-* UI 전체에서 다양한 액세서빌러티 개선
+* UI 전체에서 다양한 액세스 가능성 개선.
 
 ## Experience Manager {#aem}
 
@@ -238,3 +245,40 @@ Magento 릴리스 노트에 대해서는 다음을 참조하십시오.
 
 * [Magento Commerce 2.3.4](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html)
 * [Magento Open Source 2.3.4](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-open-source.html)
+
+## [!DNL Marketo] {#marketo}
+
+[!DNL Marketo Engage] 이 솔루션은 리드 관리를 위한 완벽한 솔루션이며, 복잡한 구매 경로의 모든 단계에서 고객 경험을 전환하여 고객 경험을 혁신하고자 하는 B2B 마케터입니다.
+
+### Core Marketing에서 업데이트 참여
+
+릴리스 날짜: 2020년 2월 21일
+
+* **_Microsoft Flow_Action의 Microsoft** Dynamics 변경 담당자:리드를 변경하거나 Marketing에서 직접 담당자에게 문의하십시오.
+* **API 호출에 대한 개선 사항:**
+   * 사용자 관리 API
+   * 사용자 정의 개체 스키마 API
+   * 랜딩 페이지 리디렉션 규칙 API
+* **** 양식 설명자 캐싱:랜딩 페이지 및 양식 개선 사항.
+
+See [!DNL Marketo] release notes for [February 2020](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+Feb+%2720) for more information.
+
+### 예정된 기능
+
+다음 기능은 분기별로 제공됩니다.
+
+| 보기 | 기능 |
+|------|---------|
+| [!DNL Bizible] | <ul><li>새로운 계정 기반 세분화</li><li>대시보드별 필터 저장</li><li>비모바일 대시보드를 PDF로 내보내기</li></ul> |
+| Sales Connect | 창 작성 및 명령 센터 업데이트/개선 사항 |
+
+### 공지
+
+**・** Marketing To Engage Success Center:2020년 2월에 런칭. Success Center는 제품 문서 및 커뮤니티를 검색하고 사용 방법 가이드를 실행하고 채택률 컨텐츠에 액세스하는 등 다양한 작업을 할 수 있는 제품 내 도움말 센터입니다. 참고:이 기능은 ANZ에서 베타 버전으로 출시되며, 분기 후반에 북미에 출시될 예정입니다.
+
+### 사용 중단
+
+* **** 자산 API &quot;_method&quot; 매개 변수:2020년 9월 이후, 자산 API 끝점은 더 이상 &quot;_method&quot;를 사용하여 쿼리 매개 변수를 URI 길이 제한을 무시하도록 POST 본문에 전달하지 않습니다.
+* **** Internet Explorer 지원 중단:2020년 7월 31일부터 Marketing To Engage 사용자 인터페이스는 더 이상 Internet Explorer에서 지원되지 않습니다.
+
+누적 릴리스 노트와 내역 릴리스 노트는 [Marketing](https://docs.marketo.com/x/CgA6Ag)릴리스 노트를 참조하십시오.
