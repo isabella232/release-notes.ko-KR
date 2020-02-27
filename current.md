@@ -103,7 +103,7 @@ Experience Platform, Experience Platform Launch, Idendity Service 및 보안 게
 
 ## Mobile Services 및 Mobile SDK {#mobile}
 
-**2020년 2월 4일: 버전 4.19.0**
+2020년 2월 4일:버전 4.19.0
 
 이 릴리스에서는 다음과 같은 업데이트가 수행되었습니다.
 
@@ -267,14 +267,14 @@ See [!DNL Marketo] release notes for [February 2020](https://docs.marketo.com/di
 
 다음 기능은 분기별로 제공됩니다.
 
-| 보기 | 기능 |
+| 기능 | 설명 |
 |------|---------|
 | [!DNL Bizible] | <ul><li>새로운 계정 기반 세분화</li><li>대시보드별 필터 저장</li><li>비모바일 대시보드를 PDF로 내보내기</li></ul> |
 | Sales Connect | 창 작성 및 명령 센터 업데이트/개선 사항 |
 
 ### 공지
 
-**・** Marketing To Engage Success Center:2020년 2월에 런칭. Success Center는 제품 문서 및 커뮤니티를 검색하고 사용 방법 가이드를 실행하고 채택률 컨텐츠에 액세스하는 등 다양한 작업을 할 수 있는 제품 내 도움말 센터입니다. 참고:이 기능은 ANZ에서 베타 버전으로 출시되며, 분기 후반에 북미에 출시될 예정입니다.
+**** Marketing To Engage Success Center:2020년 2월에 런칭. Success Center는 제품 문서 및 커뮤니티를 검색하고 사용 방법 가이드를 실행하고 채택률 컨텐츠에 액세스하는 등 다양한 작업을 할 수 있는 제품 내 도움말 센터입니다. 참고:이 기능은 ANZ에서 베타 버전으로 출시되며, 분기 후반에 북미에 출시될 예정입니다.
 
 ### 사용 중단
 
