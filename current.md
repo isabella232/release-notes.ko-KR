@@ -5,12 +5,12 @@ doc-type: release notes
 last-update: February 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 9ed727b23cbc90965f44c4bb914728bbc2394d6b
+source-git-commit: 2363a9f58f658e49054e3ac7a63083925a381eec
 
 ---
 
 
-# Adobe Experience Cloud 릴리스 노트 - 2020년 3월
+# Adobe Experience Cloud 릴리스 노트 - 2020년 2월
 
 Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 
@@ -18,9 +18,11 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 >예정된 릴리스에 대한 이메일 알림을 받으려면 [[!DNL Adobe Priority Product Update]](https://www.adobe.com/subscription/priority-product-update.html)
 에 가입하십시오. 릴리스 후 게시된 새 정보는 발행 날짜로 표시됩니다.
 
-**릴리스 날짜: 2020년 3월**
+**릴리스 날짜: 2020년 2월 20일**
 
 (특정 제품 릴리스 날짜는 다를 수 있음)
+
+최신 업데이트: 2020년 2월 26일
 
 * [Adobe 시스템 상태](#status)
 * [Experience Cloud 인터페이스 및 핵심 서비스](#ecloud) (업데이트: **2020년 2월 26일**)
@@ -34,7 +36,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (솔루션 도움말 링크)
 * [!DNL Advertising Cloud](#adcloud)
 * [!DNL Magento](#magento)
-* [!DNL Marketo](#marketo)
+* [!DNL Marketo](#marketo) (업데이트: **2019년 2월 26일**)
 
 도움말 홈을 찾고 계십니까? [Adobe Experience Cloud 설명서](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)를 참조하십시오.
 
@@ -63,6 +65,11 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 | 기능 | 설명 |
 | -----------| ---------- |
 | 관리 도구 - 사용자 세부 정보 보기 | 관리자는 새로운 관리 도구에서 모든 Experience Cloud 사용자의 정렬 및 필터링 가능한 목록과 세부 정보를 볼 수 있습니다. 사용자 세부 정보에는 사용자의 제품 액세스, 역할 및 마지막으로 액세스한 정보가 포함됩니다. 자세한 내용은 [Experience Cloud 관리 도구](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html) 도움말을 참조하십시오. |
+
+**수정 사항**
+
+* **고객 속성:** 이제 고객 속성 UI에 타겟에서 동기화된 프로필의 추가 상태가 표시됩니다. (MCUI-10231)
+* **코어 서비스 트리거:** 사용 부족으로 중단 유형 트리거를 만들 때 성향 점수 &quot;30일 후에 반환될 가능성&quot;이 제거되었습니다. (MCUI-10056)
 
 ### 통합 제품 도메인
 
@@ -96,7 +103,11 @@ Experience Platform, Experience Platform Launch, Idendity Service 및 보안 게
 
 ## Mobile Services 및 Mobile SDK {#mobile}
 
-모바일 컨텐츠.
+2020년 2월 4일: 버전 4.19.0
+
+이 릴리스에서는 다음과 같은 업데이트가 수행되었습니다.
+
+**라이프사이클:** 일부 이전 iOS 장치에서 보고된 비정상적인 세션 길이 데이터를 완화하도록 새 API `pauseCollectingLifecycleData`를 추가했습니다.
 
 ## [!DNL Analytics] {#analytics}
 
@@ -110,20 +121,24 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 
 ### Adobe Analytics의 새로운 기능, 향상된 기능 및 수정 내용 {#aa-features}
 
-* **분석 작업 공간의 여러 보고서 세트**:이제 여러 보고서 세트의 데이터를 하나의 분석 작업 공간 프로젝트로 가져와 나란히 볼 수 있습니다. 2020년 3월 12일부터 몇 주 동안 모든 고객에게 이 기능이 제공됩니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)
-* **Experience Cloud 고객 최적화**:이 기능을 사용하면 세그먼트를 8시간 이내에 Experience Cloud에 게시할 수 있습니다(이전 48시간 처리 시간이 아니라). [추가 정보...](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+<!--* **Support for multiple report suites in Workspace:** You can now bring in data from multiple report suites into a single project to view side by side. Beginning on Feb 20, 2020, the feature will roll out to all customers over the course of several weeks. [Learn more...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)-->
+* **장치 상호 Analytics를 사용하는 조직에 대한 새로운 Workspace 템플릿:** 이 템플릿에서는 CDA가 방문 횟수를 합치는 데 얼마나 효과적인지를 보여주며 CDA 전용 차원 및 지표에 대해 교육합니다. CDA를 사용하는 보고서 세트가 필요합니다. 자세한 내용은 [상호 장치 Analytics 설정](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html)을 참조하십시오.
+* **비공개 그래프를 사용하는 조직의 CDA 스티칭 지연은 하루로 줄어듭니다.** 비공개 그래프 기능이 향상되어 주별 일괄 처리 프로세스에서 매일 새로 고쳐진 그래프로 그래프 생성 지연을 줄여 CDA 고객이 최신 ID 그래프와 링크에 액세스할 수 있습니다.
+* **Labs(기술 미리 보기):** 이 새로운 Analytics 기능을 사용하면 프로덕션에서 새로운 기능 프로토타입을 테스트하고 Adobe에 중요한 피드백을 제공할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html)
+* **Workspace의 새로운 핫키:**<ul><li>모든 패널 축소/확장: `alt + m`</li><li>활성 패널 축소/확장: `alt + ctrl + m`</li><li>왼쪽 레일 검색: `ctrl + /`</li><li>다음 패널로 이동: `alt + Right Key`</li><li>이전 패널로 이동: `alt + Left Key`</li></ul>[추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html)
+* **Workspace의 기타 향상된 기능**<ul><li>패널이나 시각화가 [!UICONTROL Workspace]로 드롭되면 왼쪽 레일은 구성 요소로 자동 전환되므로 더 원활한 워크플로우가 가능합니다.</li><li>이제 템플릿 구성 요소를 활성화할 수 있습니다(예: 태그됨, 즐겨찾기로 표시됨, 승인됨).</li><li>필터링된 지표 및 세그먼트 목록은 필요한 항목을 찾지 못할 경우 새 구성 요소를 추가하기 위한 `+` 버튼을 제공합니다.</li></ul>
+* **Workspace 디버거**&#x200B;가 도움말 메뉴에 추가되어 Workspace 요청 디버깅에 더 원활하게 사용할 수 있습니다. [추가 정보...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md)
+* **Chromium 기반 Microsoft Edge 브라우저:** 이 릴리스에는 보고를 위해 Chromium 기반 Microsoft Edge 브라우저(버전 79 이상)를 인식하기 위한 변경 사항이 포함되어 있습니다.
 
 #### 수정 사항
 
-* 고객이 .xls 보고서를 다운로드하지 못하는 보고 및 분석 문제를 해결했습니다.(AN-206541, AN-204008)
-* 새 셸의 롤아웃은 Experience Cloud 조직 전환과 관련된 몇 가지 고객 문제를 해결했습니다.(AN-200844, AN-186920)
+* 실제로는 그렇지 않은데 [!UICONTROL 마케팅 채널] 차원이 [!UICONTROL Data Warehouse]와 호환된다고 하는 세그먼트 UI 문제를 수정했습니다. 앞으로 [!UICONTROL 세그먼트 빌더]에 이러한 차원을 더 이상 [!UICONTROL Data Warehouse] 호환으로 표시하지 않습니다. (AN-202297)
+* Analytics에서 업데이트된 게시된 세그먼트 이름이 24시간 이내에 Audience Manager에서 업데이트되지 않는 문제를 수정했습니다. (AN-199974)
 
 ### [!DNL Analytics] 관리자에 대한 중요 공지 {#aa-notices}
 
 | 알림 | 추가한 날짜 또는 업데이트한 날짜 | 설명 |
 | -----------| ---------- | ---------- |
-| &quot;전환 수준&quot; 설정의 EOL | 2020년 3월 3일 | 관리 도구 > [보고서](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/general-acct-settings-admin.html) 세트 > 일반 계정 설정에서 작동하지 않는 전환 수준 설정이 2020년 3월 12일 UI에서 제거됩니다. |
-| 대시보드 아카이브 EOL | 2020년 3월 3일 | 보고 및 분석의 대시보드 관리 아래의 &quot;보관 보기&quot; 설정은 2020년 3월 12일부터 더 이상 사용할 수 없습니다. |
 | 새 Adobe Analytics 도메인 | 2019년 12월 18일 | 2020년 1월 16일부터 Adobe Analytics가 새 도메인으로 이동합니다. `https://experience.adobe.com/analytics.`<br>**참고&#x200B;**: 이 변경 사항은 Adobe ID 또는 Enterprise ID로 Analytics에 액세스하는 모든 사용자에게 적용됩니다.<ul><li>도메인 변경으로 인해 Safari에서 Analytics를 로드할 때 쿠키 문제가 발생할 수 있습니다. Safari 개인 정보 보호 기본 설정에서 _사이트 간 추적 방지_&#x200B;를 선택 해제하면 도메인(및 모든 사이트 간 경험)에서 쿠키가 활성화되고 Analytics가 이 새로운 Adobe Experience Cloud 도메인에서 작동할 수 있습니다. 이 경우 Safari 사용자만 영향을 받기 때문에 다른 브라우저는 문제 없이 사용할 수 있습니다.</li><li>도메인 변경으로 인해 일부 고객은 [특정 경우](https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/activity-map.html)에 [!UICONTROL Activity Map]이 중단될 수 있습니다.</li></ul> |
 | 수명 종료 - Analytics 이전 API | 2020년 1월 9일 | 2020년 11월에 다음 Analytics 이전 API 서비스가 종료됩니다. 이러한 서비스를 사용하여 구축된 현재의 통합 기능은 작동하지 않습니다. <ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증(OAuth 및 JWT)</li></ul>질문에 대한 답변과 진행 방법에 대한 지침을 제공하는 데 도움이 되도록 [이전 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)를 제공했습니다. 이러한 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 이전 OAuth 계정은 [Adobe IO](https://console.adobe.io/home?mv=email) Analytics 통합 계정으로 마이그레이션할 수 있으며, 이 계정은 1.4 Analytics API 및 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다. |
 | **[!UICONTROL 아카이브 보기]** 옵션 EOL | 2019년 10월 30일 | 대시보드 관리자(**[!UICONTROL 구성 요소 > 대시보드]**)에 있는 **[!UICONTROL 아카이브 보기]** 옵션의 종료 날짜를 2020년 1월로 발표합니다. |
@@ -144,16 +159,44 @@ Audience Manager에 수정 사항 및 기능이 추가되었습니다.
 
 | 기능 | 설명 |
 |----|----|
-|  |  |
-|  |  |
+| [활동 사용량 보고](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/activity-usage-reporting.html) | [!UICONTROL 활동 사용량 보고서]는 Audience Manager 인스턴스의 활동 사용량을 보고 추적하는 데 도움이 되며 계약 약정과 활동 사용량이 어떻게 다른지 명확하게 파악할 수 있습니다. |
+| [DIL 9.4](https://docs.adobe.com/content/help/en/audience-manager/user-guide/dil-api/dil-release-notes.html) | 버전 [!DNL Data Integration Library]([!DNL DIL])을 버전 9.4로 업데이트했습니다. 이 업데이트는 [!DNL Google Chrome] [!DNL SameSite] 쿠키와의 호환성을 향상합니다. |
 
 ### 수정 사항 및 향상된 기능 {#aam-fixes-and-improvements}
 
-AAM에 대한 수정 사항.
+* 대상 생성 플로우가 통합 계정 선택을 위한 UI를 중단하게 하는 버그를 수정했습니다.(AAM-52414)
+* 알고리즘 모델 생성 플로우를 탐색할 때 UI가 중단되는 버그를 수정했습니다(AAM-37942).
+* Adobe Experience Platform 통합을 사용하는 고객을 위해 신규 또는 기존 대상에 대한 데이터 내보내기 제어를 저장할 때 데이터 내보내기 선택이 저장되지 않는 버그를 수정했습니다.(AAM-52814)
+* 이름에 파이프 문자(`|`)가 들어 있는 특성에 대해 타사 특성 추천이 제대로 작동하지 않는 버그를 수정했습니다(AAM-51635).
+* UI 전체에서 다양한 액세스 가능성 개선.
 
 ## Experience Manager {#aem}
 
 Adobe Experience Manager(AEM)의 새로운 기능, 수정 내용 및 업데이트. 안정성, 보안 및 성능 향상을 위해 최신 패치를 배포하려는 경우 온-프레미스 배포를 사용하는 것이 좋습니다.
+
+### 제품 릴리스
+
+* **Cloud Manager 2020.2.0**
+
+   Cloud Manager 2020.2.0을 사용하면 Cloud Service로서 Adobe Experience Manager의 샌드박스 셀프 서비스 관리를 간소화할 수 있습니다.
+
+   [릴리스 노트](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/release-notes/release-notes-current.html)를 참조하십시오.
+
+### 사용자 도움말
+
+* **Cloud Service로서의 AEM에 대한 자습서**
+
+   [Cloud Service로 AEM에 대한 자습서](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/overview.html)를 빠르게 시작하십시오.
+
+* **AEM Forms 인터랙티브 통신 일괄 처리 API**
+
+   AEM Forms 인터랙티브 통신의 일괄 처리 API를 통해 고객은 자동으로 또는 온디맨드 방식으로 다양한 인터랙티브 통신을 제작할 수 있습니다. 고객은 인쇄 및 웹 출력을 동시에 생성할 수 있습니다.
+[일괄 처리 API를 사용하여 여러 인터랙티브 통신 생성](https://docs.adobe.com/content/help/en/experience-manager-65/forms/interactive-communications/generate-multiple-interactive-communication-using-batch-api.html)을 참조하십시오.
+
+* **JEE에서 AEM Forms에 대해 지원되는 플랫폼**
+
+   JEE 고객의 AEM Forms에 대한 Oracle 19c 지원이 추가되었습니다.
+[JEE에서 AEM Forms에 대해 지원되는 플랫폼](https://docs.adobe.com/content/help/en/experience-manager-65/forms/install-aem-forms/jee-installation/aem-forms-jee-supported-platforms.html)을 참조하십시오.
 
 ### 추가 리소스
 
@@ -172,6 +215,14 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 내용 및 업데이�
 
 Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적이고, 자동화된 방식으로 일대일 메시지를 제공합니다. 이제 고객이 습관 및 선호도에 따라 결정된 작업 환경을 통해 원하는 사항을 예측할 수 있습니다.
 
+### Campaign Classic 19.2.3
+
+수정 사항 및 향상된 기능은 [Adobe Campaign Classic 릴리스 노트](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html)를 참조하십시오.
+
+### Campaign Standard 20.1
+
+수정 사항 및 향상된 기능은 [Adobe Campaign Standard 릴리스 노트](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html)를 참조하십시오.
+
 ### 추가 리소스
 
 * Adobe Campaign Standard: [설명서](https://helpx.adobe.com/support/campaign/standard.html) - [릴리스 노트](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [기능 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [릴리스 계획](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
@@ -181,6 +232,12 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 ## Advertising Cloud {#adcloud}
 
 2020년 2월 10일에 업데이트됨, 2월 8일 릴리스 기준
+
+| 보기 | 기능 |
+|------|---------|
+| 포트폴리오 | 이제 Yahoo! Japan Display Network(YDN) 캠페인을 포트폴리오에 추가하여 캠페인 예산과 광고 그룹 수준의 입찰을 최적화할 수 있습니다. 같은 입찰이 한 광고 그룹의 모든 광고에 적용됩니다. YDN 캠페인에 대한 데이터는 포트폴리오의 시뮬레이션에 포함됩니다. |
+| 검색 > 일괄 시트 | 이제 일괄 시트를 사용하여 Google RSA(Responsive Search Ads)를 생성, 편집 및 삭제할 수 있습니다. 이전에는 **[!UICONTROL 검색]** > **[!UICONTROL 캠페인]**&#x200B;의 기본 캠페인 관리 인터페이스를 통해서만 지원할 수 있었습니다. |
+| 검색 > 캠페인, 보고서 | Google Ads 강조 지표 `Impr. (Abs. Top) %` 및 `Impr. (Top) %`은(는) 이제 [!UICONTROL 캠페인 일일 노출 횟수 공유] 및 [!UICONTROL 키워드 일별 노출 횟수 공유] 보고서와 레이블 및 구속 조건 보기에서 쇼핑 제품 그룹을 제외한 모든 기본 보고서 및 엔티티 수준 캠페인 관리 보기로 사용할 수 있습니다. |
 
 ## [!DNL Magento] {#magento}
 
