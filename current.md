@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: ecee1c664485d710a62c9455e64eea3a16966780
+source-git-commit: e9fdb1166b47f17256afeaa7bced60f884de8d16
 
 ---
 
@@ -129,6 +129,12 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 
 * 보고 및 분석에서 [!UICONTROL 보고서를] 다운로드할 수 없는 문제를 `.xls` 수정했습니다.(AN-206541, AN-204008)
 * 새 셸의 롤아웃은 Experience Cloud 조직 전환과 관련된 몇 가지 고객 문제를 해결했습니다.(AN-200844, AN-186920)
+* 분류의 검색 필터에서 지정되지 않음(없음) _을_ 제외하고 지정되지 않음 _라인 항목(또는 기타 일부 보고 라인 항목)에 분류를 수행하면_ 분류에서 결과가 반환되지 않는 문제가 해결되었습니다.
+* 분류된 차원을 사용할 때 시작 또는 종료 지표 합계가 분류에서 라인 항목 합계와 일치하지 않는 문제를 수정했습니다.
+* Attribution IQ의 첫 번째 터치 및 마지막 터치 모델이 일부 기본 차원의 일부 라인 항목에 대한 크레딧을 올바로 계산하지 않았던 문제를 수정했습니다.
+* 특정 날짜 차원을 다른 날짜 차원으로 분류하면 잘못된 결과가 반환되는 문제를 해결했습니다.
+* 때로 분류된 차원 보고서에서 &quot;지정되지 않음&quot;에 적용될 때 시작 또는 종료 지표가 잘못 카운트되는 문제를 수정했습니다.
+
 
 ### [!DNL Analytics] 관리자에 대한 중요 공지 {#aa-notices}
 
@@ -308,7 +314,7 @@ Magento 릴리스 노트에 대해서는 다음을 참조하십시오.
 | [!DNL Adobe Campaign] - AEP 데이터 커넥터 | 비디오 - [데이터 매핑 수정](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/modifying-data-mapping.html) | 상태를 확인하고 데이터 매핑을 수정하는 방법을 알아봅니다. |
 | [!DNL Adobe Campaign] - AEP 데이터 커넥터 | 비디오 - [경험 이벤트 매핑](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/mapping-experience-events.html) | Adobe Experience Platform에서 경험 이벤트를 매핑하는 방법을 알아봅니다. |
 | [!DNL Adobe Campaign] - AEP 데이터 커넥터 | 비디오 - [사용자 정의 리소스 매핑](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/mapping-custom-resources.html) | Adobe Campaign Standard와 Adobe Experience Platform 간에 서로 다른 데이터 유형을 매핑하는 방법을 알아봅니다. |
-| [!DNL Adobe Campaign] - AEP 데이터 커넥터 | 비디오 - [Adobe Experience Platform 데이터 커넥터 이해](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html) | Adobe Experience Platform에서 XTK 데이터(Campaign에서 인제스트된 데이터)를 XDM(Experience Data Model) 데이터에 매핑하여 Adobe Experience Platform에서 데이터를 사용할 수 있도록 하는 방법을 알아봅니다. |
+| [!DNL Adobe Campaign] - AEP 데이터 커넥터 | 비디오 - [Adobe Experience Platform 데이터 커넥터 이해](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html) | Adobe Experience Platform에서 XTK 데이터(Campaign에서 인제스트된 데이터)를 XDM(Experience Data Model) 데이터에 매핑하여 Adobe Experience Platform에서 데이터를 제공하는 방법을 알아봅니다. |
 | [!DNL Adobe Campaign] - AEP 데이터 커넥터 | 비디오 - [시드 테이블 데이터 매핑](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/mapping-seed-table-data.html) | Adobe Experience Platform을 사용하여 시드 데이터를 매핑하고 프로파일을 테스트하는 방법을 알아봅니다. |
 | [!DNL Adobe Campaign]- 대상 | 비디오 - [플랫폼 대상에 대한 게재의 타깃팅 차원 변경](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/changing-targeting-dimension.html) | Adobe Campaign Standard의 기본 프로필 테이블 외부에 있는 플랫폼 대상에 대한 게재의 타깃팅 차원을 변경하는 방법을 알아봅니다. |
 | [!DNL Adobe Campaign] | 비디오 - [Snowflake의 빅데이터 관리](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/fda/big-data-segmentation-on-snowflake.html) | Adobe Campaign Classic에서 Snowflake 커넥터를 활용할 수 있습니다. |
@@ -316,7 +322,7 @@ Magento 릴리스 노트에 대해서는 다음을 참조하십시오.
 | [!DNL Adobe Target] - Mobile SDK | 자습서 - [Adobe Target을 사용하여 앱 경험 개인화](https://docs.adobe.com/content/help/en/target-learn/mobile-sdk-v4-android/overview.html) | Android 앱에서 Adobe Target을 구현합니다. Mobile Services SDK 설정의 유효성을 확인하고 콘텐츠 사전 가져오기, 차단 요청 등과 같은 [!DNL Target] 요청을 구현합니다. |
 | Adobe Analytics | 비디오 - [Adobe Summit 2019 Super Session](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-high-tech.html) | 2019년 Summit에서 첨단 기술 &quot;수퍼 세션&quot;에서 선별된 클립을 볼 수 있습니다. |
 | Adobe Analytics | 비디오 - [고객 경로 분석의 계산된 지표 소개](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/introduction-to-calculated-metrics-in-customer-journey-analytics.html) | 고객 경로 분석에서 계산된 지표를 [!UICONTROL 만드는] 기본 [!UICONTROL 사항을 살펴봅니다]. |
-| Adobe Analytics | 비디오 - [Adobe Summit 2019 Super Session](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-travel.html) | Summit 2019에서 여행 및 숙박 세션에서 선별된 클립을 볼 수 있습니다. |
+| Adobe Analytics | 비디오 - [Adobe Summit 2019 Super Session](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-travel.html) | Summit 2019에서 여행 및 숙박 세션에서 선별된 클립을 확인할 수 있습니다. |
 | Adobe Analytics | 비디오 - [Adobe Summit 2019 Super Session](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-retail.html) | Summit 2019에서 소매 세션을 통해 선별된 클립을 확인할 수 있습니다. |
 | Adobe Analytics | 비디오 - [고객 활용 사례:고객 경험에 대한 강조로 매출 증대](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/accent-group-invests-in-customer-experience-to-drive-sales.html) | 강조 그룹이 Adobe Experience Cloud를 사용하여 매끄러운 디지털 경험을 제작하는 방법을 살펴보십시오. |
 | Adobe Analytics | 비디오 - [고객 활용 사례:ServiceNow, 잠재 고객과 교류하기 위한 올바른 인사이트 확보](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/servicenow-gets-the-right-insights-to-connect-with-prospects.html) | Adobe Advertising Cloud 및 Adobe Analytics를 사용하여 마케팅 채널에서 실행 가능한 데이터를 [!DNL ServiceNow] 얻고 유료 검색 광고의 ROI를 높이는 방법을 살펴볼 수 있습니다. |
