@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: dcbcc2fff5026c07898e7887b837767e9a71dbf3
+source-git-commit: 897f8d8138403d42ee0387d3582464b41fd1a54c
 
 ---
 
@@ -28,6 +28,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 * [Adobe 시스템 상태](#status)
 * [Experience Cloud 인터페이스 및 핵심 서비스](#ecloud)
 * [Experience Platform](#platform)
+* [여정 통합 운영](#journey)
 * [Mobile Services 및 Mobile SDK](#mobile)
 * [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
@@ -104,11 +105,7 @@ Adobe Experience Platform을 사용하면 고객 여정의 모든 접점에서 �
 
 ### 추가 리소스
 
-[설명서](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html)
-
-[릴리스 노트](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html)
-
-[사용 방법 비디오](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
+[설명서](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) - [릴리스 노트](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html) - [사용 방법 비디오](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
 
 ## Mobile Services 및 Mobile SDK {#mobile}
 
