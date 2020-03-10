@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8486e0014a6ea57fca43ce2e95e0ac9762c170f7
+source-git-commit: 2fca65aeb62ff60e4776492857af064ec3ef707f
 
 ---
 
@@ -26,6 +26,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 
 * [Adobe 시스템 상태](#status)
 * [Experience Cloud 및 Experience Platform](#platform)
+* [여정 통합 운영](#journey)
 * [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
@@ -103,6 +104,14 @@ Experience Platform, Experience Platform Launch, Idendity Service 및 보안 게
 ### Experience Platform Launch {#launch}
 
 릴리스 노트 및 제품 설명서는 [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html)를 참조하십시오.
+
+## 여정 통합 운영 {#journey}
+
+Adobe Experience Platform을 사용하면 고객 여정의 모든 접점에서 개인별 요구 사항을 실시간으로 지능적으로 예측하여 경험 채널에서 고객 여정을 규모에 맞게 조정할 수 있습니다.
+
+### 추가 리소스
+
+[설명서](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) - [릴리스 노트](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html) - [사용 방법 비디오](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
 
 ## [!DNL Analytics] {#analytics}
 
@@ -248,27 +257,15 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 내용 및 업데이�
 * 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
 * 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
 
-## [!DNL Campaign {#ac}
+## [!DNL Campaign] {#ac}
 
 Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적이고, 자동화된 방식으로 일대일 메시지를 제공합니다. 이제 고객이 습관 및 선호도에 따라 결정된 작업 환경을 통해 원하는 사항을 예측할 수 있습니다.
 
-| 기능 | 설명 |
-| -----------| ---------- |  
-| 기능 A | 텍스트 |
-| 기능 B | 텍스트 |
-| 기능 C | 텍스트 |
-
-**수정 사항**
-
-* 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
-* 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
-* 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
-* 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
-
-**추가 리소스**
+### 추가 리소스
 
 * Adobe Campaign Standard: [설명서](https://helpx.adobe.com/support/campaign/standard.html) - [릴리스 노트](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [기능 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [릴리스 계획](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 * Adobe Campaign Classic: [설명서](https://helpx.adobe.com/support/campaign/classic.html) - [릴리스 노트](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [기능 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+* Adobe Campaign 제어판: [설명서](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) - [릴리스 노트](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
 
 ## Advertising Cloud {#adcloud}
 
@@ -354,7 +351,7 @@ Magento 릴리스 노트에 대해서는 다음을 참조하십시오.
 | [!DNL Adobe Target] - Mobile SDK | 자습서 - [Adobe Target을 사용하여 앱 경험 개인화](https://docs.adobe.com/content/help/en/target-learn/mobile-sdk-v4-android/overview.html) | Android 앱에서 Adobe Target을 구현합니다. Mobile Services SDK 설정의 유효성을 확인하고 콘텐츠 사전 가져오기, 차단 요청 등과 같은 [!DNL Target] 요청을 구현합니다. |
 | Adobe Analytics | 비디오 - [Adobe Summit 2019 Super Session](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-high-tech.html) | 2019년 Summit에서 첨단 기술 &quot;수퍼 세션&quot;에서 선별된 클립을 볼 수 있습니다. |
 | Adobe Analytics | 비디오 - [고객 경로 분석의 계산된 지표 소개](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/introduction-to-calculated-metrics-in-customer-journey-analytics.html) | 고객 경로 분석에서 계산된 지표를 [!UICONTROL 만드는] 기본 [!UICONTROL 사항을 살펴봅니다]. |
-| Adobe Analytics | 비디오 - [Adobe Summit 2019 Super Session](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-travel.html) | Summit 2019에서 여행 및 숙박 세션에서 선별된 클립을 확인할 수 있습니다. |
+| Adobe Analytics | 비디오 - [Adobe Summit 2019 Super Session](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-travel.html) | Summit 2019에서 여행 및 숙박 세션에서 선별된 클립을 볼 수 있습니다. |
 | Adobe Analytics | 비디오 - [Adobe Summit 2019 Super Session](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-retail.html) | Summit 2019에서 소매 세션을 통해 선별된 클립을 확인할 수 있습니다. |
 | Adobe Analytics | 비디오 - [고객 활용 사례:고객 경험에 대한 강조로 매출 증대](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/accent-group-invests-in-customer-experience-to-drive-sales.html) | 강조 그룹이 Adobe Experience Cloud를 사용하여 매끄러운 디지털 경험을 제작하는 방법을 살펴보십시오. |
 | Adobe Analytics | 비디오 - [고객 활용 사례:ServiceNow, 잠재 고객과 교류하기 위한 올바른 인사이트 확보](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/servicenow-gets-the-right-insights-to-connect-with-prospects.html) | Adobe Advertising Cloud 및 Adobe Analytics를 사용하여 마케팅 채널에서 실행 가능한 데이터를 [!DNL ServiceNow] 얻고 유료 검색 광고의 ROI를 높이는 방법을 살펴볼 수 있습니다. |
