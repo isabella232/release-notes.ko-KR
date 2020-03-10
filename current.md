@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b58151e366ba9aef341a8bd6742d6275d5cd8b30
+source-git-commit: 2282dd7a9b0575021f2262e43f644af4b1dc3f0b
 
 ---
 
@@ -132,7 +132,7 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 
 ### Adobe Analytics의 새로운 기능, 향상된 기능 및 수정 내용 {#aa-features}
 
-* **분석 작업 공간의 여러[!UICONTROL 보고서 세트&#x200B;]**:이제 여러 보고서 세트의 데이터를 단일 분석 작업 공간[!UICONTROL 프로젝트로 가져와서]나란히 볼 수 있습니다. 이 기능은 여러 주 동안 모든 고객에게 제공됩니다.[추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)
+* **분석 작업 공간의 여러[!UICONTROL 보고서 세트&#x200B;]**:이제 여러 보고서 세트의 데이터를 단일 분석 작업[!UICONTROL 공간]프로젝트로 가져와 나란히 패널에서 볼 수 있습니다.[추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)
 * **Experience Cloud 고객 최적화**:이 기능을 사용하면 세그먼트를 8시간 이내에 Experience Cloud에 게시할 수 있습니다(이전 48시간 처리 시간이 아니라). [추가 정보...](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
 * **분석 작업 공간 - 교육 자습서 템플릿**:이 새로운 표준 템플릿은 작업 공간에서 첫 번째 분석을 작성하는 일반적인 용어 및 단계를 안내합니다. 새 프로젝트 모달에서 표준 템플릿으로 사용할 수 [!UICONTROL 있으며] 목록에 다른 프로젝트가 없는 신규 사용자에게 현재 존재하는 샘플 프로젝트를 대체합니다.
 
