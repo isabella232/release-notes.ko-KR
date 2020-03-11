@@ -5,12 +5,14 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e2cb2ca3bd773fb8d8de24142c876e5ed1f32e97
+source-git-commit: 6fa8ddb48734849f15490dce814b1fd8763051d3
 
 ---
 
 
 # 조기 이용 - Adobe Experience Cloud 릴리스 노트 - 2020년 3월
+
+![배너](/assets/experience-cloud-banner-3.png)
 
 [!DNL Adobe Experience Cloud]의 새로운 기능 및 수정 사항.
 
@@ -23,13 +25,11 @@ source-git-commit: e2cb2ca3bd773fb8d8de24142c876e5ed1f32e97
 
 **릴리스 날짜: 2020년 3월**
 
-(특정 제품 릴리스 날짜는 다를 수 있음)
+최신 업데이트:2020년 3월 11일
 
 * [Adobe 시스템 상태](#status)
 * [Experience Cloud 인터페이스 및 핵심 서비스](#ecloud)
 * [Experience Platform](#platform)
-* [여정 통합 운영](#journey)
-* [Mobile Services 및 Mobile SDK](#mobile)
 * [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
@@ -43,7 +43,9 @@ source-git-commit: e2cb2ca3bd773fb8d8de24142c876e5ed1f32e97
 
 도움말 홈을 찾고 계십니까? [Adobe Experience Cloud 설명서](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)를 참조하십시오.
 
-## Adobe 시스템 상태 {#status}
+(특정 제품 릴리스 날짜는 다를 수 있음.)
+
+## ![아이콘](/assets/adobe.png) Adobe 시스템 상태 {#status}
 
 [!UICONTROL Adobe 시스템 상태]는 Adobe 클라우드 제품 및 서비스 중단, 중단 및 유지 관리 이벤트에 대한 자세한 정보, 상태 업데이트 및 이메일 알림을 제공합니다. [status.adobe.com](https://status.adobe.com/)에서 관련 정보를 확인하십시오.
 
@@ -59,7 +61,7 @@ source-git-commit: e2cb2ca3bd773fb8d8de24142c876e5ed1f32e97
 | 사용자 선호도에 따라 개인화된 경험 | <ul><li>브라우저 설정을 기반으로 하는 표준 시간대 환경 설정은 이메일 알림에 사용됩니다.</li><li>선택한 모든 기본 설정이 포함된 구독/구독 취소 시 이메일 확인 메시지가 전송됩니다.</li></ul> |
 | 이벤트 메시지 전달 향상 | <ul><li>이벤트 내역은 시간 이벤트 업데이트를 기반으로 정렬됩니다.</li><li>주요/부 종료 문제에 추가된 이벤트 확인 타임스탬프</li></ul> |
 
-## Experience Cloud 인터페이스 및 핵심 서비스 {#ecloud}
+## ![아이콘](/assets/experience-cloud.png) Experience Cloud 인터페이스 및 핵심 서비스 {#ecloud}
 
 관리 및 핵심 서비스(고객 특성, 대상, 트리거, 쿠키 등)를 비롯한 Experience Cloud 인터페이스의 새로운 기능 및 수정 사항.
 
@@ -85,29 +87,31 @@ Adobe는 모든 Experience Cloud 애플리케이션에서 사용자 경험을 �
 
 For product documentation, see [Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html) help.
 
-## Experience Platform {#platform}
+## ![아이콘](/assets/platform.png) 경험 플랫폼 {#platform}
 
 Release notes for the [!UICONTROL Experience Platform,] [!UICONTROL Experience Platform Launch,] [!UICONTROL Identity Service,] and security bulletins.
 
 * [Experience Platform 릴리스 노트](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
 * [Experience Platform Launch](#launch)
+* [여정 통합 운영](#journey)
+* [Mobile Services 및 Mobile SDK](#mobile)
 * [보안 게시판 및 권고](https://helpx.adobe.com/security.html)(모든 Adobe 제품)
 
 ### Experience Platform Launch {#launch}
 
 릴리스 노트 및 제품 설명서는 [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html)를 참조하십시오.
 
-## 여정 통합 운영 {#journey}
+### 여정 통합 운영 {#journey}
 
 Adobe Experience Platform을 사용하면 고객 여정의 모든 접점에서 개인별 요구 사항을 실시간으로 지능적으로 예측하여 경험 채널에서 고객 여정을 규모에 맞게 조정할 수 있습니다.
 
 1분기 릴리스가 게시되었습니다. [자세한 내용](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html#q1-release---march-2020)
 
-### 추가 리소스
+**추가 리소스**
 
 [설명서](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) - [릴리스 노트](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html) - [사용 방법 비디오](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
 
-## Mobile Services 및 Mobile SDK {#mobile}
+### Mobile Services 및 Mobile SDK {#mobile}
 
 **iOS v4.19.1**
 
@@ -118,7 +122,7 @@ Adobe Experience Platform을 사용하면 고객 여정의 모든 접점에서 �
 
 * [!DNL Target] - [!DNL Target] 세션 ID는 이제 Adobe Analytics로 전송된 내부 Analytics- [!UICONTROL for-Target 히트에서 컨텍스트 데이터 매개 변수 &quot;a.target.sessionId&quot;로] 추가됩니다.
 
-## [!DNL Analytics] {#analytics}
+## ![아이콘](/assets/analytics.png) [!DNL Analytics] {#analytics}
 
 릴리스 날짜: **2020년 3월 12일**
 
@@ -161,7 +165,7 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 
 [JavaScript 릴리스 노트의 AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-updates.html)를 참조하십시오. 버전 2.20.0은 2020년 3월 5일에 릴리스되었습니다.
 
-## Audience Manager {#aam}
+## ![아이콘](/assets/audience-manager.png) Audience Manager {#aam}
 
 Audience Manager의 새로운 기능 및 업데이트:
 
@@ -173,7 +177,7 @@ Audience Manager의 새로운 기능 및 업데이트:
 * 설명이 없는 일부 [!UICONTROL 세그먼트로 인해] 사용자가 해당 세그먼트에 액세스하려고 하고 사용자가 해당 페이지에서 멀리 이동해야 하는 경우 인터페이스가 중지되는 세그먼트 API의 버그를 수정했습니다. (AAM-53071)
 * 인터페이스 전체에서 여러 접근성 향상 (AAM-48952, AAM-48969, AAM-48979, AAM-48993, AAM-49048, AAM-49058,AAM 4 aam-49392)
 
-## Experience Manager {#aem}
+## ![아이콘](/assets/aem.png) Experience Manager {#aem}
 
 Adobe Experience Manager(AEM)의 새로운 기능, 수정 내용 및 업데이트. 안정성, 보안 및 성능 향상을 위해 최신 패치를 배포하려는 경우 온-프레미스 배포를 사용하는 것이 좋습니다.
 
@@ -243,7 +247,7 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 내용 및 업데이�
 * [Dynamic Media 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
 * [Livefyre 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
 
-## [!DNL Campaign] {#ac}
+## ![아이콘](/assets/campaign.png) [!DNL Campaign] {#ac}
 
 Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적이고, 자동화된 방식으로 일대일 메시지를 제공합니다. 이제 고객이 습관 및 선호도에 따라 결정된 작업 환경을 통해 원하는 사항을 예측할 수 있습니다.
 
@@ -257,7 +261,7 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 * Adobe Campaign Classic: [설명서](https://helpx.adobe.com/support/campaign/classic.html) - [릴리스 노트](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [기능 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 * Adobe Campaign 제어판: [설명서](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) - [릴리스 노트](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
 
-## Advertising Cloud {#adcloud}
+## ![아이콘](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
 2020년 2월 10일에 업데이트됨, 2월 8일 릴리스 기준:
 
@@ -267,14 +271,14 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 | [!UICONTROL 검색] > [!UICONTROL 일괄 시트] | 이제 일괄 시트를 사용하여 Google RSA(Responsive Search Ads)를 생성, 편집 및 삭제할 수 있습니다. 이전에는 **[!UICONTROL 검색]** > **[!UICONTROL 캠페인]**&#x200B;의 기본 캠페인 관리 인터페이스를 통해서만 지원할 수 있었습니다. |
 | [!UICONTROL 검색] > [!UICONTROL 캠페인, 보고서] | Google Ads 강조 지표 `Impr. (Abs. Top) %` 및 `Impr. (Top) %`은(는) 이제 [!UICONTROL 캠페인 일일 노출 횟수 공유] 및 [!UICONTROL 키워드 일별 노출 횟수 공유] 보고서와 레이블 및 구속 조건 보기에서 쇼핑 제품 그룹을 제외한 모든 기본 보고서 및 엔티티 수준 캠페인 관리 보기로 사용할 수 있습니다. |
 
-## [!DNL Magento] {#magento}
+## ![아이콘](/assets/magento.png) [!DNL Magento] {#magento}
 
 Magento 릴리스 노트에 대해서는 다음을 참조하십시오.
 
 * [Magento Commerce 2.3.4](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html)
 * [Magento Open Source 2.3.4](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-open-source.html)
 
-## [!DNL Marketo] {#marketo}
+## ![아이콘](/assets/marketo.png) [!DNL Marketo] {#marketo}
 
 [!DNL Marketo Engage]는 리드 관리를 위한 완전한 솔루션이며, 복잡한 구매 여정의 모든 단계에서 고객 경험을 전환하여 고객 경험을 혁신하고자 하는 B2B 마케터입니다.
 
@@ -311,7 +315,7 @@ Magento 릴리스 노트에 대해서는 다음을 참조하십시오.
 
 누적 릴리스 노트와 내역 릴리스 노트는 [Marketo 릴리스 노트](https://docs.marketo.com/x/CgA6Ag)를 참조하십시오.
 
-## 새로운 설명서 및 자습서 {#selfhelp}
+## ![아이콘](/assets/experience-cloud.png) 새로운 설명서 및 자습서 {#selfhelp}
 
 새로운 기능 및 최근 자가 도움말 문서 및 비디오 <!--`https://jira.corp.adobe.com/secure/Dashboard.jspa?selectPageId=60327`-->
 
