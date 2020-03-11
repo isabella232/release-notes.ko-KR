@@ -5,14 +5,14 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2282dd7a9b0575021f2262e43f644af4b1dc3f0b
+source-git-commit: e2cb2ca3bd773fb8d8de24142c876e5ed1f32e97
 
 ---
 
 
 # 조기 이용 - Adobe Experience Cloud 릴리스 노트 - 2020년 3월
 
-Adobe Experience Cloud의 새로운 기능 및 수정 사항.
+[!DNL Adobe Experience Cloud]의 새로운 기능 및 수정 사항.
 
 >[!IMPORTANT]
 >이 페이지에는 출시 전 컨텐츠가 포함되어 있으며 계획된 출시 전에 변경될 수 있습니다.
@@ -336,7 +336,7 @@ Magento 릴리스 노트에 대해서는 다음을 참조하십시오.
 | [!DNL Adobe Target] - Mobile SDK | 자습서 - [Adobe Target을 사용하여 앱 경험 개인화](https://docs.adobe.com/content/help/en/target-learn/mobile-sdk-v4-android/overview.html) | Android 앱에서 Adobe Target을 구현합니다. Mobile Services SDK 설정의 유효성을 확인하고 콘텐츠 사전 가져오기, 차단 요청 등과 같은 [!DNL Target] 요청을 구현합니다. |
 | Adobe Analytics | 비디오 - [Adobe Summit 2019 Super Session](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-high-tech.html) | 2019년 Summit에서 첨단 기술 &quot;수퍼 세션&quot;에서 선별된 클립을 볼 수 있습니다. |
 | Adobe Analytics | 비디오 - [고객 경로 분석의 계산된 지표 소개](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/introduction-to-calculated-metrics-in-customer-journey-analytics.html) | 고객 경로 분석에서 계산된 지표를 [!UICONTROL 만드는] 기본 [!UICONTROL 사항을 살펴봅니다]. |
-| Adobe Analytics | 비디오 - [Adobe Summit 2019 Super Session](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-travel.html) | Summit 2019에서 여행 및 숙박 세션에서 선별된 클립을 볼 수 있습니다. |
+| Adobe Analytics | 비디오 - [Adobe Summit 2019 Super Session](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-travel.html) | Summit 2019에서 여행 및 숙박 세션에서 선별된 클립을 확인할 수 있습니다. |
 | Adobe Analytics | 비디오 - [Adobe Summit 2019 Super Session](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-retail.html) | Summit 2019에서 소매 세션을 통해 선별된 클립을 확인할 수 있습니다. |
 | Adobe Analytics | 비디오 - [고객 활용 사례:고객 경험에 대한 강조로 매출 증대](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/accent-group-invests-in-customer-experience-to-drive-sales.html) | 강조 그룹이 Adobe Experience Cloud를 사용하여 매끄러운 디지털 경험을 제작하는 방법을 살펴보십시오. |
 | Adobe Analytics | 비디오 - [고객 활용 사례:ServiceNow, 잠재 고객과 교류하기 위한 올바른 인사이트 확보](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/servicenow-gets-the-right-insights-to-connect-with-prospects.html) | Adobe Advertising Cloud 및 Adobe Analytics를 사용하여 마케팅 채널에서 실행 가능한 데이터를 [!DNL ServiceNow] 얻고 유료 검색 광고의 ROI를 높이는 방법을 살펴볼 수 있습니다. |
