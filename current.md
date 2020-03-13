@@ -35,10 +35,10 @@ source-git-commit: 01f2d4ae03be92da8d5d6feb1900cd4901a1b142
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
 * [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (솔루션 도움말 링크)
-* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (솔루션 도움말 링크)
 * [!DNL Advertising Cloud](#adcloud)
 * [!DNL Magento](#magento)
 * [!DNL Marketo](#marketo)
+* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (솔루션 도움말 링크)
 * [새로운 설명서 및 자습서](#selfhelp)
 
 도움말 홈을 찾고 계십니까? [Adobe Experience Cloud 설명서](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)를 참조하십시오.
@@ -89,7 +89,7 @@ Adobe는 모든 Experience Cloud 애플리케이션에서 사용자 경험을 �
 
 ## ![아이콘](/assets/platform.png) 경험 플랫폼 {#platform}
 
-[!UICONTROL Experience Platform], [!UICONTROL Experience Platform Launch], [!UICONTROL Identity Service] 및 보안 게시판의 릴리스 정보입니다.
+Release notes for the [!UICONTROL Experience Platform,] [!UICONTROL Experience Platform Launch,] [!UICONTROL Identity Service,] Journey Orchestration, Mobile Services, and security bulletins.
 
 * [Experience Platform 릴리스 노트](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
 * [Experience Platform Launch](#launch)
@@ -107,7 +107,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 1분기 릴리스가 게시되었습니다. [자세히 보기](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html#q1-release---march-2020)
 
-**추가 리소스**
+#### 추가 리소스 고객 여정 통합 운영
 
 [설명서](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) - [릴리스 노트](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html) - [기능 비디오](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
 
