@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 01a3dab2c109edf6664ed79814022d61d2b82675
+source-git-commit: abf763ddf0ed4ae9d8df5b7dcef4e664db4cf682
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 01a3dab2c109edf6664ed79814022d61d2b82675
 * [Adobe 시스템 상태](#status)
 * [Experience Cloud 인터페이스 및 핵심 서비스](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) - 릴리스 날짜: **2020년 3월 12일**
+* [!DNL Analytics](#analytics) - 릴리스 날짜: **2020년 3월 12일** (2020년 3월 27일 업데이트됨)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -129,7 +129,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 Adobe Analytics의 새로운 기능 및 수정 내용:
 
 * [Adobe Analytics의 새로운 기능, 향상된 기능 및 수정 내용](#aa-features)
-* [Analytics 관리자에 대한 중요 공지](#aa-notices)
+* [Analytics 관리자에 대한 중요 공지](#aa-notices) (2020년 3월 27일 업데이트됨)
 * [AppMeasurement](#appm)
 
 제품 설명서는 [Adobe Analytics 도움말 홈](https://docs.adobe.com/content/help/en/analytics/landing/home.html)을 참조하십시오.
@@ -152,10 +152,10 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 
 ### [!DNL Analytics] 관리자에 대한 중요 공지 {#aa-notices}
 
-| 알림 | 추가 또는 업데이트된 날짜 | 설명 |
+| 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | -----------| ---------- | ---------- |
 | **[!UICONTROL 전환 수준]** 설정의 EOL | 2020년 3월 3일 | [관리 도구](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/general-acct-settings-admin.html) > **[!UICONTROL 보고서 세트]>[!UICONTROL 일반 계정 설정]에서 작동하지 않는[!UICONTROL 전환 수준]** 설정은 2020년 3월 12일에 UI에서 제거됩니다. |
-| **[!UICONTROL 대시보드 아카이브]**&#x200B;의 EOL | 2020년 3월 3일 | **[!UICONTROL Reports &amp; Analytics]**&#x200B;의 **[!UICONTROL 대시보드 관리]** 아래에 있는 [!UICONTROL 아카이브 보기] 설정은 2020년 3월 12일부터 더 이상 사용할 수 없습니다. |
+| **[!UICONTROL 대시보드 아카이브]**&#x200B;의 EOL | 2020년 3월 27일 | The **[!UICONTROL View Archive]** setting under **[!UICONTROL Manage Dashboards]** in [!UICONTROL Reports &amp; Analytics] will no longer be available as of October, 2020. |
 | TLS 1.1 지원 종료 | 2019년 10월 3일 | 2020년 3월 31일까지 Adobe Analytics는 TLS 1.1에 대한 지원을 제거합니다. 이러한 변경은 최고 수준의 보안 표준을 유지하고 고객 데이터의 보안을 향상시키기 위한 지속적인 노력의 일환입니다. |
 | 새 Adobe Analytics 도메인 | 2019년 12월 18일 | 2020년 1월 16일부터 Adobe Analytics가 새 도메인으로 이동합니다. `https://experience.adobe.com/analytics.`<br>**참고&#x200B;**: 이 변경 사항은 Adobe ID 또는 Enterprise ID로 Analytics에 액세스하는 모든 사용자에게 적용됩니다.<ul><li>도메인 변경으로 인해 Safari에서 Analytics를 로드할 때 쿠키 문제가 발생할 수 있습니다.  개인 정보 보호 기본 설정에서 _사이트 간 추적 방지_&#x200B;를 선택 해제하면 도메인(및 모든 사이트 간 경험)에서 쿠키가 활성화되고 Analytics가 이 새로운 Adobe Experience Cloud 도메인에서 작동할 수 있습니다. [!DNL Safari] 이 경우 [!DNL Safari] 사용자만 영향을 받기 때문에 다른 브라우저는 문제 없이 사용할 수 있습니다.</li><li>도메인 변경으로 인해 일부 고객은 [특정 경우](https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/activity-map.html)에 [!UICONTROL Activity Map]이 중단될 수 있습니다.</li></ul> |
 | 수명 종료 - Analytics 이전 API | 2020년 1월 9일 | 2020년 11월에 다음 Analytics 이전 API 서비스가 종료됩니다. 이러한 서비스를 사용하여 구축된 현재의 통합 기능은 작동하지 않습니다. <ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증(OAuth 및 JWT)</li></ul>질문에 대한 답변과 진행 방법에 대한 지침을 제공하는 데 도움이 되도록 [이전 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)를 제공했습니다. 이러한 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 이전 OAuth 계정은 [Adobe IO](https://console.adobe.io/home?mv=email) Analytics 통합 계정으로 마이그레이션할 수 있으며, 이 계정은 1.4 Analytics API 및 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다. |
@@ -184,7 +184,7 @@ Audience Manager의 새로운 기능 및 업데이트:
 
 ## ![아이콘](/assets/aem.png) Experience Manager {#aem}
 
-AEM(Adobe Experience Manager)의 새로운 기능, 수정 사항 및 업데이트. 안정성, 보안 및 성능 향상을 위해 최신 패치를 배포하려는 경우 온-프레미스 배포를 사용하는 것이 좋습니다.
+Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니다. 안정성, 보안 및 성능 향상을 위해 최신 패치를 배포하려는 경우 온-프레미스 배포를 사용하는 것이 좋습니다.
 
 ### 제품 업데이트
 
@@ -273,10 +273,10 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 | 보기 | 기능 |
 |------|---------|
-| [!UICONTROL 포트폴리오] | COVID-19로 인한 트래픽 변경 사항을 처리하기 위해 포트폴리오를 관리하는 방법에 대한 지침은 계정 관리자에게 문의하십시오. |
-| Google 광고 및 Microsoft 광고 캠페인 | &quot;입찰 조정 값 자동 최적화&quot; 옵션을 사용하여 최적화된 포트폴리오에서 Advertising Cloud는 더 이상 향상된 클릭당 비용(eCPC) 입찰 전략을 사용하여 캠페인에 대한 입찰 조정 설정을 자동으로 최적화하지 않습니다. 검색 엔진은 경매 시 모든 입찰 조정을 최적화합니다. Advertising Cloud는 기본 입찰을 최적화하고 &quot;캠페인 예산 제한 자동 조정&quot; 옵션이 활성화된 경우 — 캠페인 예산. |
-| [!UICONTROL 알림 베타] | (베타 기능) 이제 경고 템플릿을 만들어 포트폴리오가 특정 조건을 충족하는 시점을 식별할 수 있습니다. 예를 들어, 성과 지표 지정된 기간 동안 경고를 생성한 다음 인사이트 및 보고서 > 경고(베타) ******** 에서 포트폴리오 수준 경고를 만들 수 **[!UICONTROL 있지만 최적화]** > **[!UICONTROL 포트폴리오에서는 만들 수]**&#x200B;없습니다. **참고:** 1월에 대체된 기존 버전의 경고 베타에서 생성된 모든 경고는 더 이상 사용할 수 없습니다. |
-| [!UICONTROL 관리] > [!UICONTROL 거래 속성] | 새로운 &quot;속성 ID&quot; 열은 각 거래 속성에 대한 고유 속성 ID를 표시합니다. 열 값에 포함된 문자열을 검색할 수 있습니다. |
+| [!UICONTROL 포트폴리오] | 신종 코로나바이러스(COVID-19)로 인한 트래픽 변경 사항 관련 포트폴리오 관리 방법에 대한 지침은 계정 관리자에게 문의하십시오. |
+| Google 광고 및 Microsoft 광고 캠페인 | (Google 광고 및 Microsoft 광고 캠페인) Google 광고 및 Microsoft 광고 캠페인: &quot;입찰 조정값 자동 최적화&quot; 선택 사항을 사용하여 최적화된 포트폴리오에서 Advertising Cloud는 이제 향상된 클릭당 비용(eCPC) 입찰 전략으로 캠페인에 대한 입찰 조정 설정을 자동으로 최적화하지 않습니다. 검색 엔진은 경매 시 모든 입찰 조정을 최적화합니다. Advertising Cloud는 &quot;캠페인 예산 제한 자동 조정&quot; 선택 사항이 활성화된 경우 기본 입찰과 캠페인 예산을 최적화합니다. |
+| [!UICONTROL 경고 베타] | 베타 기능: 이제 경고 템플릿을 만들어 포트폴리오가 특정 기간 성능 지표와 같은 특정 조건을 충족하는 시점을 식별한 다음 경고를 생성할 수 있습니다. **[!UICONTROL 인사이트 및 보고서]** > **[!UICONTROL 경고(베타)]** 에서 포트폴리오 수준의 경고를 만들 수 있지만 **[!UICONTROL 최적화]** > **[!UICONTROL 포트폴리오]**&#x200B;에서는 만들 수 없습니다. **참고:** 1월에 대체된 기존 버전의 경고 베타에서 생성된 모든 경고는 이제 사용할 수 없습니다. |
+| [!UICONTROL 관리자] > [!UICONTROL 거래 속성] | 새로운 &quot;속성 ID&quot; 열은 각 거래 속성에 대한 고유 속성 ID를 표시합니다. 열 값에 포함된 문자열을 검색할 수 있습니다. |
 
 ## ![아이콘](/assets/magento.png) [!DNL Magento] {#magento}
 
@@ -329,7 +329,7 @@ Magento 릴리스 노트에 대해서는 다음을 참조하십시오.
 | 솔루션 | 컨텐츠 | 설명 |
 |----------| -----------| ---------- |  
 | [!UICONTROL AEM Commerce] | 비디오 - [여러 범주 및 제품 페이지 만들기](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/tutorials.html#!AdobeDocs/commerce-cif-documentation/master/tutorials/04-style-cif-component.md) | CIF 코어 구성 요소를 사용하여 고객 프로젝트의 시작점으로 최소 AEM(Adobe Experience Manager) CIF 프로젝트를 만드는 방법을 알아봅니다. 테마 및 CSS 스타일링을 구성 요소에 적용하고 원형에서 생성된 새로운 AEM CIF 프로젝트를 검사합니다. 또한 CIF 코어 구성 요소에 사용되는 CSS 및 JavaScript를 구성하는 방법도 알아봅니다. |
-| [!UICONTROL AEM 양식] | 문서 - [OKTA를 사용하여 AEM 작성자 인증](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/single-sign-on-with-okta.html) | OKTA 포털에서 앱을 구성하는 방법과 새 애플리케이션 등록 시 일반적으로 사용하는 설정에 대해 알아봅니다. |
+| [!UICONTROL AEM Forms] | 문서 - [OKTA를 사용하여 AEM 작성자 인증](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/single-sign-on-with-okta.html) | OKTA 포털에서 앱을 구성하는 방법과 새 애플리케이션 등록 시 일반적으로 사용하는 설정에 대해 알아봅니다. |
 | [!UICONTROL AEM Commerce] | 자습서 - [CIF 코어 구성 요소 사용자 지정](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/tutorials.html#!AdobeDocs/commerce-cif-documentation/master/tutorials/05-customize-cif-components.md) | 일반적으로 CIF 코어 구성 요소 및 AEM에서 제공하는 여러 가지 다른 확장 지점을 검토합니다. CIF 코어 구성 요소는 AEM(Adobe Experience Manager)과 Magento 솔루션을 통합하는 프로젝트를 가속화하는 데 사용할 수 있는 표준 Commerce 구성 요소 집합을 제공합니다. |
 | [!DNL Adobe Campaign] - Audience 대상 | 비디오 - [대상 만들기...](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/creating-audiences-using-segment-builder.html) | Adobe [!UICONTROL Experience Platform 세그먼트 빌더]를 사용하여 Campaign Standard에서 대상을 만듭니다. [!UICONTROL Audiences] 모듈을 통해 Adobe Campaign Standard 내에서 직접 이 기능에 액세스할 수 있습니다. |
 | [!DNL Adobe Campaign] - Audience 대상 | 비디오 - [마케팅 워크플로우에서 Adobe Experience Platform 대상 활성화](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/activating-aep-audiences.html) | [!UICONTROL 대상 읽기] 활동을 사용하여 워크플로우 내에서 [!UICONTROL Data Services 쿼리 대상]을 활성화하는 방법을 알아봅니다. |
