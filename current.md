@@ -4,8 +4,8 @@ description: Experience Cloud 릴리스 노트 템플릿
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: ht
-source-git-commit: abf763ddf0ed4ae9d8df5b7dcef4e664db4cf682
+translation-type: tm+mt
+source-git-commit: 870c6694107d7ca60a4b9c20031fb0e6c6d68645
 
 ---
 
@@ -61,7 +61,7 @@ source-git-commit: abf763ddf0ed4ae9d8df5b7dcef4e664db4cf682
 | 사용자 환경 설정에 따라 개인화된 환경 | <ul><li>브라우저 설정을 기반으로 하는 시간대 기본 설정은 이메일 알림에 사용됩니다.</li><li>선택한 모든 기본 설정을 사용한 구독/구독 취소 시 이메일 확인 메시지가 전송됩니다.</li></ul> |
 | 이벤트 메시지 전달 기능 개선 | <ul><li>이벤트 내역은 시간 순 이벤트 업데이트에 따라 정렬됩니다.</li><li>이벤트 확인 타임스탬프가 완료된 주요/사소한 문제에 추가되었습니다.</li></ul> |
 
-## ![아이콘](/assets/experience-cloud.png) Experience Cloud 인터페이스 및 핵심 서비스 {#ecloud}
+## ![아이콘](/assets/ec_appicon_24.png) Experience Cloud 인터페이스 및 핵심 서비스 {#ecloud}
 
 관리 및 핵심 서비스(고객 특성, 대상, 트리거, 쿠키 등)를 비롯한 Experience Cloud 인터페이스의 새로운 기능 및 수정 사항.
 
@@ -87,7 +87,7 @@ Adobe는 모든 Experience Cloud 애플리케이션에서 사용자 경험을 �
 
 제품 설명서는 [Experience Cloud](https://docs.adobe.com/content/help/ko-KR/core-services/interface/experience-cloud.html) 도움말을 참조하십시오.
 
-## ![아이콘](/assets/platform.png) Experience Platform {#platform}
+## ![아이콘](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
 [!UICONTROL Experience Platform], [!UICONTROL Experience Platform Launch], [!UICONTROL Identity Service,] Journey Orchestration, 모바일 서비스 및 보안 게시판의 릴리스 정보입니다.
 
@@ -322,7 +322,7 @@ Magento 릴리스 노트에 대해서는 다음을 참조하십시오.
 
 누적 릴리스 노트와 내역 릴리스 노트는 [Marketo 릴리스 노트](https://docs.marketo.com/x/CgA6Ag)를 참조하십시오.
 
-## ![아이콘](/assets/experience-cloud.png) 새로운 설명서 및 자습서 {#selfhelp}
+## ![아이콘](/assets/ec_appicon_24.png) 새로운 설명서 및 자습서 {#selfhelp}
 
 최근 및 새로운 자가 진단 도움말 문서와 비디오입니다. <!--`https://jira.corp.adobe.com/secure/Dashboard.jspa?selectPageId=60327`-->
 
