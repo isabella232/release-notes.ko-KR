@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 96d931c9b5001ddbaf9887b45a95adcc468a0376
+source-git-commit: 8858c0e35b44936624540fb10067cd9a8b1589c6
 
 ---
 
@@ -16,16 +16,13 @@ source-git-commit: 96d931c9b5001ddbaf9887b45a95adcc468a0376
 
 [!DNL Adobe Experience Cloud]의 새로운 기능 및 수정 사항.
 
->[!IMPORTANT]
->이 페이지에는 출시 전 컨텐츠가 포함되어 있으며 계획된 출시 전에 변경될 수 있습니다.
-
 >[!NOTE]
 >예정된 릴리스에 대한 이메일 알림을 받으려면 [[!DNL Adobe Priority Product Update]](https://www.adobe.com/subscription/priority-product-update.html)
 에 가입하십시오. 릴리스 후 게시된 새 정보는 발행 날짜로 표시됩니다.
 
 **릴리스 날짜: 2020년 3월**
 
-최신 업데이트: 2020년 3월 11일
+Latest update: **March 11, 2020**
 
 * [Adobe 시스템 상태](#status)
 * [Experience Cloud 인터페이스 및 핵심 서비스](#ecloud)
