@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 5147d6252a3bf0bcf0426490c3d3bd96cb1739d5
+source-git-commit: 96d931c9b5001ddbaf9887b45a95adcc468a0376
 
 ---
 
@@ -274,10 +274,10 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 | 보기 | 기능 |
 |------|---------|
-| [!UICONTROL 포트폴리오] | 신종 코로나바이러스(COVID-19)로 인한 트래픽 변경 사항 관련 포트폴리오 관리 방법에 대한 지침은 계정 관리자에게 문의하십시오. |
-| Google 광고 및 Microsoft 광고 캠페인 | (Google 광고 및 Microsoft 광고 캠페인) Google 광고 및 Microsoft 광고 캠페인: &quot;입찰 조정값 자동 최적화&quot; 선택 사항을 사용하여 최적화된 포트폴리오에서 Advertising Cloud는 이제 향상된 클릭당 비용(eCPC) 입찰 전략으로 캠페인에 대한 입찰 조정 설정을 자동으로 최적화하지 않습니다. 검색 엔진은 경매 시 모든 입찰 조정을 최적화합니다. Advertising Cloud는 &quot;캠페인 예산 제한 자동 조정&quot; 선택 사항이 활성화된 경우 기본 입찰과 캠페인 예산을 최적화합니다. |
+| [!UICONTROL 포트폴리오] | For guidelines on how to manage your portfolios to account for traffic changes resulting from [!DNL COVID-19], contact your account manager. |
+| Google 광고 및 Microsoft 광고 캠페인 | In optimized portfolios with the [!UICONTROL Auto-optimize Bid Adjustment Values] option, Advertising Cloud no longer automatically optimizes the bid adjustment settings for campaigns using the enhanced cost per click (eCPC) bid strategy. 검색 엔진은 경매 시 모든 입찰 조정을 최적화합니다. Advertising Cloud still optimizes the base bids and — when the [!UICONTROL Auto adjust campaign budget limits] option is enabled — the campaign budget. |
 | [!UICONTROL 경고 베타] | 베타 기능: 이제 경고 템플릿을 만들어 포트폴리오가 특정 기간 성능 지표와 같은 특정 조건을 충족하는 시점을 식별한 다음 경고를 생성할 수 있습니다. **[!UICONTROL 인사이트 및 보고서]** > **[!UICONTROL 경고(베타)]** 에서 포트폴리오 수준의 경고를 만들 수 있지만 **[!UICONTROL 최적화]** > **[!UICONTROL 포트폴리오]**&#x200B;에서는 만들 수 없습니다. **참고:** 1월에 대체된 기존 버전의 경고 베타에서 생성된 모든 경고는 이제 사용할 수 없습니다. |
-| [!UICONTROL 관리자] > [!UICONTROL 거래 속성] | 새로운 &quot;속성 ID&quot; 열은 각 거래 속성에 대한 고유 속성 ID를 표시합니다. 열 값에 포함된 문자열을 검색할 수 있습니다. |
+| [!UICONTROL 관리자] > [!UICONTROL 거래 속성] | A new [!UICONTROL Property ID] column shows the unique property ID for each transaction property. 열 값에 포함된 문자열을 검색할 수 있습니다. |
 
 ## ![아이콘](/assets/magento.png) [!DNL Magento] {#magento}
 
