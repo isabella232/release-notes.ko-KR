@@ -4,8 +4,8 @@ description: Experience Cloud 릴리스 노트 템플릿
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: ht
-source-git-commit: 870c6694107d7ca60a4b9c20031fb0e6c6d68645
+translation-type: tm+mt
+source-git-commit: 5147d6252a3bf0bcf0426490c3d3bd96cb1739d5
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 870c6694107d7ca60a4b9c20031fb0e6c6d68645
 * [Adobe 시스템 상태](#status)
 * [Experience Cloud 인터페이스 및 핵심 서비스](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) - 릴리스 날짜: **2020년 3월 12일** (업데이트 날짜: 2020년 3월 27일)
+* [!DNL Analytics](#analytics) - 릴리스 날짜: **2020년 3월 12일** (2020년 4월 7일 업데이트)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -129,7 +129,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 Adobe Analytics의 새로운 기능 및 수정 내용:
 
 * [Adobe Analytics의 새로운 기능, 향상된 기능 및 수정 내용](#aa-features)
-* [Analytics 관리자에 대한 중요 공지](#aa-notices) (업데이트 날짜: 2020년 3월 27일)
+* [Analytics 관리자에 대한 중요 공지](#aa-notices) (2020년 4월 7일 업데이트)
 * [AppMeasurement](#appm)
 
 제품 설명서는 [Adobe Analytics 도움말 홈](https://docs.adobe.com/content/help/ko-KR/analytics/landing/home.html)을 참조하십시오.
@@ -154,6 +154,7 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | -----------| ---------- | ---------- |
+| 작업 공간에서 시작/종료 수를 계산하는 방법 변경 | 2020년 4월 7일 | 2020년 3월 현재 분석 작업 공간에서 &quot;없음&quot; 값이 시작/종료와 상호 작용하는 방식을 변경했습니다. 이제 분석 작업 공간에서 &quot;Ones&quot;를 켜거나 끌 수 있으므로, 시작 또는 종료 후에 &quot;없음&quot;을 적용하고, 이전에 적용되었던 (eVar의 경우)을 적용합니다. 예를 들어, 방문의 첫 번째 히트에 eVarx에 대한 값이 없다고 가정하지만 두 번째 히트는 값이 없다고 가정합니다. 보고 및 분석에서는 항목에 대해 &quot;지정되지 않음&quot;으로 표시되지만 분석 작업 공간에 두 번째 히트에 대한 값으로 표시됩니다. |
 | **[!UICONTROL 전환 수준]** 설정의 EOL | 2020년 3월 3일 | [관리 도구](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/general-acct-settings-admin.html) > **[!UICONTROL 보고서 세트]>[!UICONTROL 일반 계정 설정]에서 작동하지 않는[!UICONTROL 전환 수준]** 설정은 2020년 3월 12일에 UI에서 제거됩니다. |
 | **[!UICONTROL 대시보드 아카이브]**&#x200B;의 EOL | 2020년 3월 27일 | [!UICONTROL Reports &amp; Analytics]의 **[!UICONTROL 대시보드 관리]** 아래에 있는 **[!UICONTROL 아카이브 보기]** 설정은 2020년 10월부터 더 이상 사용할 수 없습니다. |
 | TLS 1.1 지원 종료 | 2019년 10월 3일 | 2020년 3월 31일까지 Adobe Analytics는 TLS 1.1에 대한 지원을 제거합니다. 이러한 변경은 최고 수준의 보안 표준을 유지하고 고객 데이터의 보안을 향상시키기 위한 지속적인 노력의 일환입니다. |
