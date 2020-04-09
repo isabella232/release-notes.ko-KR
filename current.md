@@ -4,7 +4,7 @@ description: Experience Cloud 릴리스 노트 템플릿
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8858c0e35b44936624540fb10067cd9a8b1589c6
 
 ---
@@ -22,12 +22,12 @@ source-git-commit: 8858c0e35b44936624540fb10067cd9a8b1589c6
 
 **릴리스 날짜: 2020년 3월**
 
-Latest update: **March 11, 2020**
+최신 업데이트: **2020년 3월 11일**
 
 * [Adobe 시스템 상태](#status)
 * [Experience Cloud 인터페이스 및 핵심 서비스](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) - 릴리스 날짜: **2020년 3월 12일** (2020년 4월 7일 업데이트)
+* [!DNL Analytics](#analytics) - 릴리스 날짜: **2020년 3월 12일** (업데이트: 2020년 4월 7일)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -126,7 +126,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 Adobe Analytics의 새로운 기능 및 수정 내용:
 
 * [Adobe Analytics의 새로운 기능, 향상된 기능 및 수정 내용](#aa-features)
-* [Analytics 관리자에 대한 중요 공지](#aa-notices) (2020년 4월 7일 업데이트)
+* [Analytics 관리자에 대한 중요 공지](#aa-notices) (업데이트: 2020년 4월 7일)
 * [AppMeasurement](#appm)
 
 제품 설명서는 [Adobe Analytics 도움말 홈](https://docs.adobe.com/content/help/ko-KR/analytics/landing/home.html)을 참조하십시오.
@@ -151,7 +151,7 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | -----------| ---------- | ---------- |
-| 작업 공간에서 시작/종료 수를 계산하는 방법 변경 | 2020년 4월 7일 | 2020년 3월 현재 분석 작업 공간에서 &quot;없음&quot; 값이 시작/종료와 상호 작용하는 방식을 변경했습니다. 이제 분석 작업 공간에서 &quot;Ones&quot;를 켜거나 끌 수 있으므로, 시작 또는 종료 후에 &quot;없음&quot;을 적용하고, 이전에 적용되었던 (eVar의 경우)을 적용합니다. 예를 들어, 방문의 첫 번째 히트에 eVarx에 대한 값이 없다고 가정하지만 두 번째 히트는 값이 없다고 가정합니다. 보고 및 분석에서는 항목에 대해 &quot;지정되지 않음&quot;으로 표시되지만 분석 작업 공간에 두 번째 히트에 대한 값으로 표시됩니다. |
+| Workspace에서 시작/종료 수를 계산되는 방법으로 변경 | 2020년 4월 7일 | 2020년 3월 현재 Analysis Workspace에서 &quot;없음&quot; 값이 시작/종료와 상호 작용하는 방식을 변경했습니다. 이제 Analysis Workspace에서 &quot;없음&quot;을 켜거나 끌 수 있으므로 시작 또는 종료 후에 &quot;없음&quot;을 적용하지만 기존에는(eVars의 경우) 이전에 적용되었습니다. 예를 들어, 방문의 첫 번째 히트에는 eVarx에 대한 값이 없다고 가정하지만 두 번째 히트에는 값이 있다고 가정합니다. Reports &amp; Analytics에서는 시작에 대해 &quot;지정되지 않음&quot;으로 표시되지만 Analysis Workspace에 두 번째 히트에 대한 값으로 표시됩니다. |
 | **[!UICONTROL 전환 수준]** 설정의 EOL | 2020년 3월 3일 | [관리 도구](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/general-acct-settings-admin.html) > **[!UICONTROL 보고서 세트]>[!UICONTROL 일반 계정 설정]에서 작동하지 않는[!UICONTROL 전환 수준]** 설정은 2020년 3월 12일에 UI에서 제거됩니다. |
 | **[!UICONTROL 대시보드 아카이브]**&#x200B;의 EOL | 2020년 3월 27일 | [!UICONTROL Reports &amp; Analytics]의 **[!UICONTROL 대시보드 관리]** 아래에 있는 **[!UICONTROL 아카이브 보기]** 설정은 2020년 10월부터 더 이상 사용할 수 없습니다. |
 | TLS 1.1 지원 종료 | 2019년 10월 3일 | 2020년 3월 31일까지 Adobe Analytics는 TLS 1.1에 대한 지원을 제거합니다. 이러한 변경은 최고 수준의 보안 표준을 유지하고 고객 데이터의 보안을 향상시키기 위한 지속적인 노력의 일환입니다. |
@@ -271,10 +271,10 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 | 보기 | 기능 |
 |------|---------|
-| [!UICONTROL 포트폴리오] | For guidelines on how to manage your portfolios to account for traffic changes resulting from [!DNL COVID-19], contact your account manager. |
-| Google 광고 및 Microsoft 광고 캠페인 | In optimized portfolios with the [!UICONTROL Auto-optimize Bid Adjustment Values] option, Advertising Cloud no longer automatically optimizes the bid adjustment settings for campaigns using the enhanced cost per click (eCPC) bid strategy. 검색 엔진은 경매 시 모든 입찰 조정을 최적화합니다. Advertising Cloud still optimizes the base bids and — when the [!UICONTROL Auto adjust campaign budget limits] option is enabled — the campaign budget. |
+| [!UICONTROL 포트폴리오] | [!DNL COVID-19]로 인한 트래픽 변경 사항 관련 포트폴리오 관리 방법에 대한 지침은 계정 관리자에게 문의하십시오. |
+| Google 광고 및 Microsoft 광고 캠페인 | [!UICONTROL 입찰 조정값 자동 최적화] 선택 사항을 사용하여 최적화된 포트폴리오에서 Advertising Cloud는 이제 향상된 클릭당 비용(eCPC) 입찰 전략으로 캠페인에 대한 입찰 조정 설정을 자동으로 최적화하지 않습니다. 검색 엔진은 경매 시 모든 입찰 조정을 최적화합니다. Advertising Cloud는 [!UICONTROL 캠페인 예산 제한 자동 조정] 선택 사항이 활성화된 경우 기본 입찰과 캠페인 예산을 최적화합니다. |
 | [!UICONTROL 경고 베타] | 베타 기능: 이제 경고 템플릿을 만들어 포트폴리오가 특정 기간 성능 지표와 같은 특정 조건을 충족하는 시점을 식별한 다음 경고를 생성할 수 있습니다. **[!UICONTROL 인사이트 및 보고서]** > **[!UICONTROL 경고(베타)]** 에서 포트폴리오 수준의 경고를 만들 수 있지만 **[!UICONTROL 최적화]** > **[!UICONTROL 포트폴리오]**&#x200B;에서는 만들 수 없습니다. **참고:** 1월에 대체된 기존 버전의 경고 베타에서 생성된 모든 경고는 이제 사용할 수 없습니다. |
-| [!UICONTROL 관리자] > [!UICONTROL 거래 속성] | A new [!UICONTROL Property ID] column shows the unique property ID for each transaction property. 열 값에 포함된 문자열을 검색할 수 있습니다. |
+| [!UICONTROL 관리자] > [!UICONTROL 거래 속성] | 새로운 [!UICONTROL 속성 ID] 열은 각 거래 속성에 대한 고유 속성 ID를 표시합니다. 열 값에 포함된 문자열을 검색할 수 있습니다. |
 
 ## ![아이콘](/assets/magento.png) [!DNL Magento] {#magento}
 
