@@ -4,43 +4,44 @@ description: Experience Cloud 릴리스 노트 템플릿
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: ht
-source-git-commit: 8858c0e35b44936624540fb10067cd9a8b1589c6
+translation-type: tm+mt
+source-git-commit: 3e124e820e573047298f878cf8cb2bf2a6b7f7dd
 
 ---
 
 
-# Adobe Experience Cloud 릴리스 노트 - 2020년 3월
+# 빠른 액세스 - Adobe Experience Cloud 릴리스 노트 - 2020년 4월
 
 ![배너](/assets/experience-cloud-banner-3.png)
 
 [!DNL Adobe Experience Cloud]의 새로운 기능 및 수정 사항.
 
+>[!IMPORTANT]
+>
+>이 페이지에는 출시 전 컨텐츠가 포함되어 있으며 계획된 출시 전에 변경될 수 있습니다.
+
 >[!NOTE]
+>
 >예정된 릴리스에 대한 이메일 알림을 받으려면 [[!DNL Adobe Priority Product Update]](https://www.adobe.com/subscription/priority-product-update.html)
 에 가입하십시오. 릴리스 후 게시된 새 정보는 발행 날짜로 표시됩니다.
 
-**릴리스 날짜: 2020년 3월**
+**릴리스 날짜: 2020년 4월**
 
-최신 업데이트: **2020년 3월 11일**
+(특정 솔루션 릴리스 날짜는 매우 다양합니다.)
 
 * [Adobe 시스템 상태](#status)
 * [Experience Cloud 인터페이스 및 핵심 서비스](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) - 릴리스 날짜: **2020년 3월 12일** (업데이트: 2020년 4월 7일)
+* [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
-* [!DNL Target](https://docs.adobe.com/content/help/ko-KR/target/using/release-notes/target-release-notes.html) (솔루션 도움말 링크)
-* [!DNL Advertising Cloud](#adcloud)
+* [!DNL Target](https://docs.adobe.com/content/help/ko-KR/target/using/release-notes/target-release-notes.html) (솔루션 도움말 페이지에 대한 링크)
 * [!DNL Magento](#magento)
 * [!DNL Marketo](#marketo)
-* [!DNL Primetime](https://helpx.adobe.com/kr/primetime/user-guide.html) (솔루션 도움말 링크)
-* [새로운 설명서 및 자습서](#selfhelp)
+* [!DNL Primetime](https://helpx.adobe.com/kr/primetime/user-guide.html) (솔루션 도움말 페이지에 대한 링크)
 
 도움말 홈을 찾고 계십니까? [Adobe Experience Cloud 설명서](https://docs.adobe.com/content/help/ko-KR/experience-cloud/user-guides/home.html)를 참조하십시오.
-
-(특정 제품 릴리스 날짜는 다를 수 있음.)
 
 ## ![아이콘](/assets/adobe.png) Adobe 시스템 상태 {#status}
 
@@ -48,39 +49,21 @@ source-git-commit: 8858c0e35b44936624540fb10067cd9a8b1589c6
 
 **새로운 기능**
 
-* Adobe ID를 사용하면 제품 서비스 및 추가 기능 수준까지 세부적으로 이벤트 알림을 구독할 수 있습니다. Experience Cloud 제품에서 가입하려는 제품 및 서비스에 대한 하위 서비스가 자체 구독 프로세스에 표시되는 새로운 기능을 찾아보십시오. 이 개선 작업으로 인해 수신하는 알림이 크게 줄어들고 사용하는 제품 및 기능과 연관이 더 있는 알림을 만들 수 있습니다. [status.adobe.com/subscriptions](https://status.adobe.com/proactive-notifications/subscriptions/edit)에서 시작해 보십시오.
+* Adobe ID를 사용하면 제품 서비스 및 추가 기능 수준까지 세부적으로 이벤트 알림을 구독할 수 있습니다. 또한 최신 릴리스에서 자체 구독 프로세스에서는 제품 이용 권한을 기반으로 제품 및 서비스를 선택할 것을 권장합니다. 따라서 구독을 만드는 데 필요한 의사 결정 또는 클릭 수를 줄여 구독 프로세스를 간소화해야 하며, 가장 중요한 것은 받은 편지함에 보다 관련성이 높은 알림을 전달하는 것입니다. [status.adobe.com/subscriptions](https://status.adobe.com/proactive-notifications/subscriptions/edit)에서 시작해 보십시오.
 
 **현재 사용할 수 있는 새로운 기능 및 향상된 기능**
 
 | 기능 | 설명 |
 | -----------| ---------- |
-| 제품 하위 서비스별 맞춤형 자체 구독 | <ul><li>Adobe Experience Cloud 제품에 대한 제품 서비스 및 추가 기능별 자체 구독입니다.</li><li>수신한 이벤트 알림은 제품 및 제품 서비스 환경 설정과 관련이 있습니다.</li></ul> |
-| 사용자 환경 설정에 따라 개인화된 환경 | <ul><li>브라우저 설정을 기반으로 하는 시간대 기본 설정은 이메일 알림에 사용됩니다.</li><li>선택한 모든 기본 설정을 사용한 구독/구독 취소 시 이메일 확인 메시지가 전송됩니다.</li></ul> |
-| 이벤트 메시지 전달 기능 개선 | <ul><li>이벤트 내역은 시간 순 이벤트 업데이트에 따라 정렬됩니다.</li><li>이벤트 확인 타임스탬프가 완료된 주요/사소한 문제에 추가되었습니다.</li></ul> |
+| 이용 권한을 기반으로 개인화된 구독 | <ul><li>사용자의 DX 권한에 따라 미리 선택된 구독 권장 사항</li><li>빠른 시각화를 위해 제품 목록 맨 위에 권장 구독이 강조 표시됩니다.</li><li>받은 이메일 알림은 사용자의 제품 권한에 관련됩니다.</li></ul> |
+| 간편한 구독 관리 | <ul><li>**[!UICONTROL 구독]** 관리에는 제품 및 이벤트 구독을 모두 관리할 수 있는 새로운 사용자 경험이 있습니다.</li><li>제품 및 이벤트 구독을 별도로 보고 편집할 수 있는 새로운 옵션입니다.</li><li>삭제 **[!UICONTROL 옵션을]** 사용하면 제품 또는 이벤트 구독의 구독을 취소할 수 있습니다.</li><li>한 번의 클릭으로 **[!UICONTROL 모든]** 구독 취소 옵션을 제품 구독에 사용할 수 있습니다.</li><li>UX는 웹/모바일/태블릿 표면 및 로컬라이제이션(19개 언어)에서 지원됩니다.</li></ul> |
 
 ## ![아이콘](/assets/ec_appicon_24.png) Experience Cloud 인터페이스 및 핵심 서비스 {#ecloud}
 
-관리 및 핵심 서비스(고객 특성, 대상, 트리거, 쿠키 등)를 비롯한 Experience Cloud 인터페이스의 새로운 기능 및 수정 사항.
+관리 및 핵심 서비스(고객 속성, 대상, 트리거, 쿠키 등)를 비롯한 Experience Cloud 인터페이스의 새로운 기능 및 수정 사항:
 
-| 기능 | 릴리스 날짜 | 설명 |
-| ----|----|---- |
-| 관리 도구 - 사용자 세부 정보 보기 | 2020년 2월 26일 | 관리자는 새로운 관리 도구에서 모든 Experience Cloud 사용자의 정렬 및 필터링 가능한 목록과 세부 정보를 볼 수 있습니다. 사용자 세부 정보에는 사용자의 제품 액세스, 역할 및 마지막으로 액세스한 정보가 포함됩니다. 자세한 내용은 [Experience Cloud 관리 도구](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html) 도움말을 참조하십시오. |
-
-### 통합 제품 도메인
-
-Adobe는 모든 Experience Cloud 애플리케이션에서 사용자 경험을 통합하고 개선하기 위해 도메인 및 인터페이스 헤더를 업데이트하고 있습니다. 이러한 개선 사항은 작지만 중요한 방식으로 경험을 간소화하도록 설계되었습니다. 이러한 개선 사항은 현재 워크플로우를 변경하지 않습니다.
-
-업데이트 내용은 다음과 같습니다.
-
-* 새로운 솔루션 URL: `experience.adobe.com/<application name>`:
-   * 모든 제품이 결국 이 URL 패턴을 채택합니다. 한 달 동안 새 URL이 유효한지 확인합니다.
-   * 브라우저 지원: 지원되는 브라우저에는 [!DNL Microsoft Edge], [!DNL Google Chrome], [!DNL Firefox], [!DNL Safari] 및 [!DNL Opera](최신 버전)이(가) 포함됩니다. **참고:** Experience Cloud 인터페이스는 이러한 브라우저를 지원하지만 개별 솔루션은 모든 브라우저를 지원하지 않을 수 있습니다. (예: [Analytics](https://docs.adobe.com/content/help/ko-KR/analytics/admin/sys-reqs.html)는 [!DNL Opera]를 지원하지 않으며, [Target](https://docs.adobe.com/help/ko-KR/target/using/implement-target/before-implement/supported-browsers.html)은 [!DNL Safari]를 지원하지 않습니다.)
-   * ([!DNL Safari] 전용) 도메인 변경으로 인해 [!DNL Safari]에 쿠키 문제가 발생할 수 있습니다. _개인 정보 보호 환경설정에서_&#x200B;사이트 간 추적 방지[!DNL Safari]를 선택 해제하면 도메인(및 모든 사이트 간 경험)에서 쿠키가 활성화되고 Experience Cloud가 이 새로운 도메인에서 작동할 수 있습니다.
-* 조직 간 또는 다른 애플리케이션으로 쉽게 전환할 수 있습니다.
-* 향상된 제품 도움말: [!UICONTROL Experience League]는 제품에 통합되어 있으므로 도움말 검색에 커뮤니티 포럼 및 비디오 컨텐츠의 결과도 포함됩니다. 이러한 변경 사항을 통해 더 많은 컨텐츠를 간편하게 이용하고 Experience Cloud를 최대한 활용할 수 있습니다. 또한 **[!UICONTROL 도움말]** > **[!UICONTROL 피드백]**&#x200B;을 클릭하여 문제를 보고하거나 Adobe와 아이디어를 공유할 수 있습니다.
-* 향상된 알림: 이제 [!UICONTROL 알림] 드롭다운 메뉴에 두 개의 탭이 있습니다. 각각 고유한 제품 알림과 글로벌 제품 공지를 위한 탭입니다.
-
-**참고:** [!UICONTROL 피드] 페이지는 2020년 1월부로더 이상 사용되지 않습니다. 제품 내 사용 중단 알림을 찾으십시오.
+* Experience Cloud [!UICONTROL 피드] 페이지는 더 이상 사용되지 않습니다. (EXC-8505)
+* 새로운 브랜딩 요소를 반영하도록 Experience Cloud 로그인 페이지가 업데이트되었습니다. (EXC-10747)
 
 제품 설명서는 [Experience Cloud](https://docs.adobe.com/content/help/ko-KR/core-services/interface/experience-cloud.html) 도움말을 참조하십시오.
 
@@ -88,71 +71,77 @@ Adobe는 모든 Experience Cloud 애플리케이션에서 사용자 경험을 �
 
 [!UICONTROL Experience Platform], [!UICONTROL Experience Platform Launch], [!UICONTROL Identity Service,] Journey Orchestration, 모바일 서비스 및 보안 게시판의 릴리스 정보입니다.
 
-* [Experience Platform 릴리스 노트](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
-* [Experience Platform Launch](#launch)
-* [여정 편성](#journey)
-* [Mobile Services 및 Mobile SDK](#mobile)
-* [보안 게시판 및 권고](https://helpx.adobe.com/kr/security.html)(모든 Adobe 제품)
-
-### Experience Platform Launch {#launch}
-
-릴리스 노트 및 제품 설명서는 [Experience Platform Launch](https://docs.adobe.com/content/help/ko-KR/launch/using/intro/release-notes/current.html)를 참조하십시오.
-
 ### 여정 편성 {#journey}
 
 Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실시간으로 지능적으로 예측하여 경험 채널에서 규모에 맞게 개별 고객 여정을 편성합니다.
 
-1분기 릴리스가 게시되었습니다. [자세히 보기](https://docs.adobe.com/content/help/ko-KR/journeys/using/release-notes/release-notes.html#q1-release---march-2020)
-
-#### Journey Orchestration용 추가 리소스
-
-[설명서](https://docs.adobe.com/content/help/ko-KR/journeys/using/journey-orchestration-home.html) - [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/journeys/using/release-notes/release-notes.html) - [기능 비디오](https://docs.adobe.com/content/help/ko-KR/platform-learn/tutorials/journey-orchestration/introduction.html)
+* [설명서](https://docs.adobe.com/content/help/ko-KR/journeys/using/journey-orchestration-home.html)
+* [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/journeys/using/release-notes/release-notes.html)
+* [방법 비디오](https://docs.adobe.com/content/help/ko-KR/platform-learn/tutorials/journey-orchestration/introduction.html)
 
 ### Mobile Services 및 Mobile SDK {#mobile}
 
-**iOS v4.19.1**
+Android 4.18.2(2020년 4월 3일):
 
-* 일반 - [!UICONTROL Swift] 열거형이 추적 호출을 위한 컨텍스트 데이터에 포함될 때 발생할 수 있는 충돌을 해결했습니다.
-* [!DNL Target] – [!DNL Target] 이제 세션 ID가 Adobe Analytics로 전송된 내부 [!UICONTROL Analytics-for-Target] 히트에서 컨텍스트 데이터 매개 변수 `a.target.sessionId`로 추가됩니다.
+* 앱 메시지:보안상의 이유로 [!UICONTROL SDK에서] 만든 WebViews는 이제 `setAllowFileAccess` false _로 설정됩니다_.
 
-**Android v4.18.1**
+iOS 4.19.2(2020년 3월 24일):
 
-* [!DNL Target] – [!DNL Target] 이제 세션 ID가 Adobe Analytics로 전송된 내부 [!UICONTROL Analytics-for-Target] 히트에서 컨텍스트 데이터 매개 변수 &quot;a.target.sessionId&quot;로 추가됩니다.
+* 일반:일부 [!DNL Target] 코드 누수가 수정되었습니다.
+
+Unity 4.19.0(2020년 3월 10일):
+
+* iOS [!UICONTROL 버전 4.19] .0 및 4.18.0 이상을 사용하도록 Unity 플러그인을 [!DNL Android]업데이트했습니다.
+* 레퍼러 API에서 제공하는 URL을 처리할 [!DNL Android] 수 있도록 새 획득 방법이 [!DNL Google Play] 노출되었습니다.
+
+### 추가 경험 플랫폼 릴리스 정보
+
+* [Experience Platform Launch 릴리스 정보를 참조하십시오](https://docs.adobe.com/content/help/ko-KR/launch/using/intro/release-notes/current.html).
+* [Experience Platform 릴리스 노트](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
+* [보안 게시판 및 권고](https://helpx.adobe.com/kr/security.html)(모든 Adobe 제품)
 
 ## ![아이콘](/assets/analytics.png) [!DNL Analytics] {#analytics}
 
-릴리스 날짜: **2020년 3월 12일**
-
-Adobe Analytics의 새로운 기능 및 수정 내용:
+릴리스 날짜: **2020년 4월 16일**
 
 * [Adobe Analytics의 새로운 기능, 향상된 기능 및 수정 내용](#aa-features)
 * [Analytics 관리자에 대한 중요 공지](#aa-notices) (업데이트: 2020년 4월 7일)
 * [AppMeasurement](#appm)
-
-제품 설명서는 [Adobe Analytics 도움말 홈](https://docs.adobe.com/content/help/ko-KR/analytics/landing/home.html)을 참조하십시오.
+* [새로운 Analytics 자습서](#tutorials-analytics)
 
 ### Adobe Analytics의 새로운 기능, 향상된 기능 및 수정 내용 {#aa-features}
 
-* **[!UICONTROL Analysis Workspace ]**의 여러 보고서 세트: 이제 여러 보고서 세트의 데이터를 단일[!UICONTROL Analysis Workspace]프로젝트로 가져와서 나란히 볼 수 있습니다.[추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)
-* **Experience Cloud 대상 최적화**: 이 기능을 사용하여 세그먼트를 8시간 이내에(이전의 48시간 처리 시간이 아니라) Experience Cloud에 게시할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
-* **Analysis Workspace - 교육 자습서 템플릿**: 이 새로운 표준 템플릿은 Workspace에 첫 번째 분석을 작성하는 일반적인 용어 및 단계를 안내합니다. 이 템플릿은 [!UICONTROL 새 프로젝트] 모달에서 표준 템플릿으로 사용할 수 있으며 목록에 다른 프로젝트가 없는 신규 사용자에게 현재 표시되는 샘플 프로젝트를 대체합니다.
+| 기능 | 설명 |
+| -----------| ---------- |
+| [!UICONTROL 고객 여정 분석]:데이터 [!UICONTROL 세트 채우기 자동화] | 이 새로운 옵션을 사용하면 고객 경로 분석에서 연결에 대한 모든 내역 데이터를 가져올 [!UICONTROL 수 있습니다]. (따라야 할 설명서) |
+| Adobe Experience Edge [!UICONTROL 분석 지원] | 이제 Experience Edge로 전송된 데이터를 Analytics [!UICONTROL 로 전달할] 수 있습니다. |
+| [!UICONTROL 작업 영역]:빈 상태에서 자유 형식 테이블 자동 작성 | 이전에는 구성 요소를 빈 프로젝트 또는 빈 패널에 직접 드롭할 수 없었습니다.자유 형식 테이블을 먼저 추가해야 했습니다. 이제 구성 요소를 빈 프로젝트 또는 패널에 직접 놓을 수 있으며 자유 형식 테이블이 권장 형식으로 자동으로 만들어집니다. 또한 빈 자유 형식 테이블로 함께 드롭될 때 혼합 구성 요소 유형(예: 차원 및 지표)이 처리되는 방식이 개선되었습니다. |
 
-#### 수정 사항
+#### 분석 수정 사항
 
-* [!UICONTROL Reports &amp; Analytics]에서 `.xls` 보고서를 다운로드할 수 없는 문제가 해결되었습니다. 이 문제는 미국 달러 및 유로 이외의 통화를 사용하는 고객에게 영향을 주었습니다. (AN-206541, AN-204008)
-* 새 쉘의 롤아웃을 통해 Experience Cloud 조직 전환과 관련된 여러 가지 고객 문제가 해결되었습니다.(AN-200844, AN-186920)
-* 분류의 검색 필터에서 _지정되지 않음(없음)_&#x200B;을 포함하지 않고 _지정되지 않음_ 개별 항목(또는 기타 일부 보고 개별 항목)에 분류를 수행하면 분류에 결과가 반환되지 않는 문제가 해결되었습니다.
-* 분류된 차원을 사용할 때 시작 또는 종료 지표 합계가 분류에서 개별 항목 합계와 일치하지 않는 문제가 해결되었습니다.
-* 속성 IQ의 첫 번째 터치 모델과 마지막 터치 모델이 일부 기본 제공 차원의 일부 개별 항목에 대한 크레딧을 올바르게 계산하지 않는 문제가 해결되었습니다.
-* 특정 날짜 차원을 다른 날짜 차원으로 분류하면 잘못된 결과가 반환되는 문제가 해결되었습니다.
-* 분류된 차원 보고서의 &quot;지정되지 않음&quot;에 적용했을 때 시작 또는 종료 지표가 잘못 계산되는 문제가 해결되었습니다.
+* Audience Manager에서 Analytics 세그먼트 데이터가 누락되었던 문제를 수정했습니다. (AN-206221)
+* Data Sources 처리에서 [!UICONTROL 잘못된 날짜를] 표시하는 문제를 수정했습니다. (AN-213604)
+* 분류 파일이 FTP에 제대로 업로드되지 않는 문제를 해결했습니다. (AN-214102)
+* API 메서드에서 전체 응답을 반환하지 `Segments.Get` 않는 문제를 수정했습니다. (AN-206210)
+* PDF 다운로드에서 테이블 라인 항목이 특수 문자로 변환되던 문제를 [!DNL Workspace] 수정했습니다. (AN-196153)
+* Adobe Analytics API 1.4 호출이 제대로 작동하지 `visattrcustomeridcustomerattributes` 않는 문제를 수정했습니다. (AN-186873)
+* 보고서에 데이터가 표시되지만 데이터 피드에서 누락되는 문제를 [!UICONTROL 수정했습니다]. (AN-211923)
+* 제품 프로필 권한을 복사할 수 없는 [!UICONTROL 문제를] 수정했습니다. (AN-211113)
+* Federated ID를 가진 사용자가 Report Builder에 로그인할 수 없던 문제를 해결했습니다. (AN-207750)
+* AdWords 데이터가 [!UICONTROL 광고 분석에] 표시되지 않는 문제를 [!UICONTROL 수정했습니다]. (AN-213249)
+* 트렌드 보기에 분류 데이터가 표시되지 않는 문제를 해결했습니다. (AN-212761)
+* 세그먼트 관리자에서 잘못된 게시된 세그먼트 카운트가 발생하는 문제를 [!UICONTROL 수정했습니다]. (AN-213374)
+
+#### 추가 Analytics 수정
+
+AN-212151;AN-214343;AN-215017;AN-115525;AN-123869;AN-101871;AN-152580;AN-160480;AN-199299;AN-209486;AN-212961;AN-211539;AN-213095;AN-212653;AN-211826;AN-206948;AN-208607;AN-204286;AN-214401;AN-212130;AN-211943;AN-212709;AN-212833;AN-211550;AN-212977;AN-213422;AN-213450;AN-214528;AN-213827;AN-214094;AN-214153;AN-214234;AN-214355;AN-214427;AN-214642;AN-214691;AN-214924;AN-215080;AN-215212
 
 ### [!DNL Analytics] 관리자에 대한 중요 공지 {#aa-notices}
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | -----------| ---------- | ---------- |
-| Workspace에서 시작/종료 수를 계산되는 방법으로 변경 | 2020년 4월 7일 | 2020년 3월 현재 Analysis Workspace에서 &quot;없음&quot; 값이 시작/종료와 상호 작용하는 방식을 변경했습니다. 이제 Analysis Workspace에서 &quot;없음&quot;을 켜거나 끌 수 있으므로 시작 또는 종료 후에 &quot;없음&quot;을 적용하지만 기존에는(eVars의 경우) 이전에 적용되었습니다. 예를 들어, 방문의 첫 번째 히트에는 eVarx에 대한 값이 없다고 가정하지만 두 번째 히트에는 값이 있다고 가정합니다. Reports &amp; Analytics에서는 시작에 대해 &quot;지정되지 않음&quot;으로 표시되지만 Analysis Workspace에 두 번째 히트에 대한 값으로 표시됩니다. |
-| **[!UICONTROL 전환 수준]** 설정의 EOL | 2020년 3월 3일 | [관리 도구](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/general-acct-settings-admin.html) > **[!UICONTROL 보고서 세트]>[!UICONTROL 일반 계정 설정]에서 작동하지 않는[!UICONTROL 전환 수준]** 설정은 2020년 3월 12일에 UI에서 제거됩니다. |
+| Change to how [!UICONTROL Entries/Exits] are calculated in [!UICONTROL Workspace] | 2020년 4월 7일 | In [!UICONTROL Analysis Workspace], as of March 2020, we have changed how the _None_ value interacts with [!UICONTROL Entries/Exits]. Because you can now turn _Nones_ on and off in [!UICONTROL Analysis Workspace], we apply the _None_ value after the entry or exit, whereas (for eVars) it used to be applied before. 예를 들어, 방문의 첫 번째 히트에 eVar에 대한 값이 없다고 가정하지만 두 번째 히트는 값이 없다고 가정합니다. In [!UICONTROL Reports &amp; Analytics] it will show up as _Unspecified_ for the Entry, but in [!UICONTROL Analysis Workspace] it will show up as the value on the second hit. |
+| **[!UICONTROL 전환 수준]** 설정의 EOL | 2020년 3월 3일 | The non-functioning [Conversion Level](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/general-acct-settings-admin.html) setting in **[!UICONTROL Admin Tools]** > **[!UICONTROL Report Suites]** > **[!UICONTROL General Account Settings]** will be removed from the interface on March 12, 2020. |
 | **[!UICONTROL 대시보드 아카이브]**&#x200B;의 EOL | 2020년 3월 27일 | [!UICONTROL Reports &amp; Analytics]의 **[!UICONTROL 대시보드 관리]** 아래에 있는 **[!UICONTROL 아카이브 보기]** 설정은 2020년 10월부터 더 이상 사용할 수 없습니다. |
 | TLS 1.1 지원 종료 | 2019년 10월 3일 | 2020년 3월 31일까지 Adobe Analytics는 TLS 1.1에 대한 지원을 제거합니다. 이러한 변경은 최고 수준의 보안 표준을 유지하고 고객 데이터의 보안을 향상시키기 위한 지속적인 노력의 일환입니다. |
 | 새 Adobe Analytics 도메인 | 2019년 12월 18일 | 2020년 1월 16일부터 Adobe Analytics가 새 도메인으로 이동합니다. `https://experience.adobe.com/analytics.`<br>**참고&#x200B;**: 이 변경 사항은 Adobe ID 또는 Enterprise ID로 Analytics에 액세스하는 모든 사용자에게 적용됩니다.<ul><li>도메인 변경으로 인해 Safari에서 Analytics를 로드할 때 쿠키 문제가 발생할 수 있습니다.  개인 정보 보호 기본 설정에서 _사이트 간 추적 방지_&#x200B;를 선택 해제하면 도메인(및 모든 사이트 간 경험)에서 쿠키가 활성화되고 Analytics가 이 새로운 Adobe Experience Cloud 도메인에서 작동할 수 있습니다. [!DNL Safari] 이 경우 [!DNL Safari] 사용자만 영향을 받기 때문에 다른 브라우저는 문제 없이 사용할 수 있습니다.</li><li>도메인 변경으로 인해 일부 고객은 [특정 경우](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/activity-map/activity-map.html)에 [!UICONTROL Activity Map]이 중단될 수 있습니다.</li></ul> |
@@ -164,81 +153,91 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 
 [JavaScript 릴리스 노트의 AppMeasurement](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/appmeasurement-updates.html)를 참조하십시오. 버전 2.20.0은 2020년 2월 5일에 릴리스되었습니다.
 
+### 새로운 Analytics 자습서 {#tutorials-analytics}
+
+| 컨텐츠 | 설명 |
+| -----------| ---------- |
+| [Adobe Analytics를 사용한 Adobe Labs(기술 미리 보기)](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/analytics-basics/adobe-labs-technology-previews.html) | Adobe Labs(기술 미리 보기)를 사용하면 신생 기술에 참여하거나 중요한 통찰력을 얻을 수 있으며 향후 [!DNL Analytics] 기능 개발 및 우선 순위에 영향을 줄 수 있습니다. |
+| [향상된 Experience Cloud 대상 게시](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing.html) | Experience Cloud 대상 [!UICONTROL 게시가 개선되었습니다]. 이제 대상자(세그먼트)를 게시하여 6배 더 빠르게 사용할 수 있도록 할 수 있습니다. 이렇게 하면 트래픽 및 세그먼트 크기에 따라 현재 지연 시간이 48시간에서 약 8시간으로 단축됩니다. |
+| [분석 작업 공간의 여러 보고서 세트](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/multiple-report-suites-in-analysis-workspace.html) | 패널 수준에서 보고서 세트를 선택하여 단일 [!UICONTROL Workspace] 프로젝트에서 여러 보고서 세트를 분석할 수 있습니다. 이렇게 하면 여러 데이터 세트에서 나란히 패널 분석을 수행할 수 있습니다. |
+
+제품 [설명서는 Adobe Analytics](https://docs.adobe.com/content/help/ko-KR/analytics/landing/home.html) 도움말 홈을 참조하십시오.
+
 ## ![아이콘](/assets/audience-manager.png) Audience Manager {#aam}
 
-Audience Manager의 새로운 기능 및 업데이트:
+Adobe Audience Manager의 새로운 기능 및 수정 사항:
 
-| 기능 | 설명 |
-| -----------| ---------- |
-| [벌크 관리 도구 워크시트](https://docs.adobe.com/help/ko-KR/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html) | Windows 64비트 운영 체제에서 알고리즘 모델을 생성할 때 일부 고객이 직면한 문제를 해결하는 워크시트의 새 버전을 사용할 수 있습니다. 최신 버전을 [여기](https://docs.adobe.com/help/en/audience-manager/user-guide/reference/bulk-management-tools/assets/BAAAM_V2_20200311.xlsm)에서 다운로드하십시오. |
-
-### 수정 사항 및 향상된 기능 {#aam-fixes-and-improvements}
-
-* RBAC 권한 [!UICONTROL VIEW_ALL_DESTINATIONS]가 누락되어 고객이 세그먼트 이름을 업데이트할 수 없었던 버그가 수정되었습니다. 세그먼트를 업데이트하는 데 [!UICONTROL VIEW_ALL_DESTINATIONS] 권한이 필요하지 않습니다. RBAC 권한에 대한 자세한 내용은 [관리(RBAC 컨트롤)](https://docs.adobe.com/help/ko-KR/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions)를 참조하십시오. (AAM-52760)
-* [데이터 탐색기](https://docs.adobe.com/help/ko-KR/audience-manager/user-guide/features/data-explorer/data-explorer-overview.html) 신호를 기반으로 트레이트를 만들 때 일부 고객이 기본 정보 섹션의 컨텐츠와 식 작성기의 작업을 볼 수 없었던 [!UICONTROL 데이터 탐색기]의 버그가 수정되었습니다. (AAM-53130)
-* 일부 고객이 [!UICONTROL Audience Marketplace] 인터페이스를 로드할 수 없는 버그가 수정되었습니다. (AAM-52070)
-* 설명이 없는 일부 세그먼트로 인해 사용자가 해당 세그먼트에 액세스하려고 하고 사용자가 해당 페이지에서 멀리 이동해야 하는 경우 인터페이스가 중지되는 [!UICONTROL 세그먼트 API]의 버그가 수정되었습니다. (AAM-53071)
-* 인터페이스 전체에서 다양한 액세스 가능성이 개선되었습니다. (AAM-48952, AAM-48969, AAM-48979, AAM-48993, AAM-49048, AAM-49057, AAM-49058,AAM-49392)
+* Audience Lab의 테스트 [!UICONTROL 복제] 및 [!UICONTROL 할당 템플릿] 단추가 [!UICONTROL 작동하지 않는] 문제를 해결했습니다. (AAM-53388)
+* 대상이 UUID를 [!UICONTROL 내보내도록] 구성되면 일치 비율 및 세그먼트 지정 가능 대상이  0으로 표시되는 문제를 수정했습니다. 이제 [!UICONTROL 일치 비율] 및 [!UICONTROL 세그먼트 지정 가능] 대상이 100%로 표시됩니다. (AAM-51615)
+* 특수 문자가 포함된 트레이트 이름이 HTML로 두 번 인코딩되는 문제를 해결했습니다. (AAM-54001)
+* 일부 사용자가 [!DNL Audience Manager] 사용자 인터페이스에서 다른 Adobe Experience Cloud 솔루션으로 전환할 수 없는 문제를 수정했습니다. (AAM-52917)
+* 일부 사용자가 사람 기반 대상에 대해 SHA256 데이터 소스를 만들지 못하게 하는 문제를 해결했습니다. (AAM-53525)
+* 인터페이스 전반에서 다양한 접근성 향상 (AAM-48986, AAM-49009, AAM-48984, AAM-48939, AAM-48940, AAM-48964, AAM-49032,AAM-49360)
 
 ## ![아이콘](/assets/aem.png) Experience Manager {#aem}
 
 Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니다. 안정성, 보안 및 성능 향상을 위해 최신 패치를 배포하려는 경우 온-프레미스 배포를 사용하는 것이 좋습니다.
 
-### 제품 업데이트
-
-* **AEM 6.5.4.0**
-AEM 6.5, 서비스 팩 4.0(2020년 3월 5일 릴리스된 6.5.4.0)은 새로운 기능, 주요 고객 개선 사항, 향상된 성능, 안정성 및 보안 기능을 포함한 중요한 업데이트로, 2019년 4월 AEM 6.5의 공식 출시 이후 릴리스되었습니다.
-   * [Adobe Experience Manager 6.5, 서비스 팩 4의 새로운 기능](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/release-notes/service-pack/new-features-latest-service-pack.html)
-   * [릴리스 노트](https://helpx.adobe.com/kr/experience-manager/6-5/release-notes/sp-release-notes.html)
-   * [AEM Forms 릴리스 결과물](https://helpx.adobe.com/kr/aem-forms/kb/aem-forms-releases.html)
-
-* **AEM 6.4.8.0**
-
-   AEM 6.4, 서비스 팩 8.0(6.4.8.0, 2020년 3월 5일 릴리스)은 2018년 4월 AEM 6.4의 공식 출시 이후 릴리스된 주요 고객 수정 사항이 포함된 중요한 업데이트입니다.
-   * [릴리스 노트](https://helpx.adobe.com/kr/experience-manager/6-4/release-notes/sp-release-notes.html)
-   * [AEM Forms CFP 릴리스](https://helpx.adobe.com/kr/aem-forms/kb/aem-forms-releases.html)
-
-* **AEM 6.3.3.8**
-
-   AEM 6.3, 서비스 팩 3, Cumulative Fix Pack 8(6.3.3.8, 2019년 3월 5일 릴리스)은 2017년 4월 AEM 6.3의 공식 출시 이후 릴리스된 주요 고객 수정 사항이 포함된 중요한 업데이트입니다.
-   * [릴리스 노트](https://helpx.adobe.com/kr/experience-manager/release-notes--aem-6-3-cumulative-fix-pack.html)
-   * [AEM Forms CFP 릴리스](https://helpx.adobe.com/kr/aem-forms/kb/aem-forms-releases.html)
-
-* **AEM Assets Brand Portal**
-
-   AEM Assets Brand Portal 6.4, 서비스 팩 6(6.4.6, 2020년 3월 5일 릴리스)은 AEM 자산을 [!UICONTROL Brand Portal로 구성하는 방식을 변경합니다.] 또한 릴리스에 기타 개선 사항 및 버그 수정 사항이 포함되어 있습니다.
-   * [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html)
-
 ### 사용자 도움말
 
-* **클라우드 서비스로서의 AEM - 역할 기반 권한**
+* **AEM 뉴스레터**
 
-   Cloud Manager에는 적절한 권한이 있는 미리 구성된 역할이 있습니다. 각 역할에는 해당 역할과 연관된 특정 권한, 사전 구성된 작업 또는 권한이 있습니다. [역할 기반 권한](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/onboarding/what-is-required/role-based-permissions.html) 도움말 항목에서는 사용 가능한 기능과 이 기능을 실행할 수 있는 역할을 식별합니다.
+   최신 Adobe Experience [Manager 뉴스레터를 참조하십시오](https://expleague.azureedge.net/assets/aem/Experience-Insider-vol.30.html).
 
-* **클라우드 서비스로서의 AEM - Dispatcher**
+* **클라우드 서비스로 AEM 사용 - Dynamic Media Cloud 서비스 구성**
 
-   [Dispatcher 및 CDN](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/implementing/dispatcher/overview.html#dispatcher-cdn)와 [명식적 Dispatcher 캐시 무효화](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/implementing/dispatcher/overview.html#explicit-invalidation) 섹션이 사용 가능한 옵션과 작동 방식을 명확히 하기 위해 업데이트되었습니다.
+   Dynamic Media Cloud 서비스를 구성할 때 새로운 옵션을 사용할 수 있습니다.
 
-* **Brand Portal로 AEM Assets 구성**
+   **선택적 게시** - 이 옵션을 선택하면 에셋이 보안 미리 보기만을 위해 자동으로 게시되며 공개 도메인에 전달을 위해 DMS7에 게시하지 않고도 AEM에 명시적으로 게시할 수 있습니다.
 
-   AEM Assets는 이제 Brand Portal 테넌트의 승인을 위해 IMS 토큰을 전달하는 Adobe I/O를 통해 [!UICONTROL Brand Portal]로 구성합니다. 이전에는 [!UICONTROL 기존 OAuth 게이트웨이]를 통해 클래식 인터페이스에서 구성했습니다.
-[Brand Portal로 AEM Assets 구성](https://docs.adobe.com/content/help/ko-KR/experience-manager-brand-portal/using/publish/configure-aem-assets-with-brand-portal.html)을 참조하십시오.
+   Dynamic [Media Cloud 서비스 구성을 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/dynamicmedia/config-dm.html#configuring-dynamic-media-cloud-services).
 
-* **클라우드 서비스로서의 AEM - Dynamic Media의 스마트 자르기**
+* **다이내믹 미디어 - 스마트 이미징**
 
-   Dynamic Media 구성 요소에서 스마트 자르기 작업을 할 때 AEM에서 클라우드 서비스로 새 옵션을 사용할 수 있습니다.
+   추가된 스마트 이미징 최적화를 설명하는 이미지 에셋 예를 비롯한 전체 스마트 이미징 도움말 항목이 새로운 정보로 업데이트되었습니다.
 
-   **비율 일치 활성화** - Dynamic Media에서 원본 이미지의 비율과 가장 일치하는 스마트 자르기 렌디션을 선택하도록 하려면 이 옵션을 선택합니다.
-[스마트 자르기 작업](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/assets/dynamicmedia/adding-dynamic-media-assets-to-pages.html#when-working-with-smart-crop)을 참조하십시오.
+   스마트 [이미징을 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/imaging-faq.html).
 
-### 커뮤니티
+* **다이내믹 미디어 구성 - Scene7 모드**
 
-* **AEM Skill Builder 웨비나**
+   이제 도구 > 클라우드 서비스에 있는 Dynamic Media 구성 페이지에서 모든 컨텐츠 동기화 옵션을 **[!UICONTROL 사용할 수 있습니다]**.
 
-   * AEM Sites - 2020년 3월 17일부터 컨텐츠 작성 빌딩 블록과 AEM Sites의 기본 개념 및 작업에 대해 학습합니다. [지금 등록](https://aemskillbuilder-sites.experienceleague.adobeevents.com/register)하십시오.
-   * AEM Assets - 2020년 3월 19일부터 디지털 자산 관리에 대한 전문 지식을 갖추고 Brand Portal, [!UICONTROL Dynamic Media], [!UICONTROL 자산 링크] 등에 대한 기본 사항을 알아보십시오. [지금 등록](https://aemskillbuilder-assets.experienceleague.adobeevents.com/register)하십시오.
+   다이내믹 [미디어 구성 만들기를 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/config-dms7.html#configuring-dynamic-media-cloud-services).
 
-### 추가 리소스
+* **AEM Assets 브랜드 포털은 AEM Assets를 클라우드 서비스로 지원합니다.**
+
+   이제 AEM Assets의 자산을 클라우드 서비스로 AEM Assets 브랜드 포털에 게시할 수 있습니다.
+
+   브랜드 [포털과 함께 AEM 자산 구성](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) 및 브랜드 포털에 [자산 게시를 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/publish-to-brand-portal.html).
+
+* **Adobe Asset Link 2.0 릴리스**
+
+   Adobe Asset Link 2.0은 여러 AEM 환경에서 작업을 지원하고 AEM을 클라우드 서비스로 지원합니다. AEM 파섹
+
+   See [Adobe Asset Link](https://helpx.adobe.com/kr/enterprise/using/adobe-asset-link.html).
+
+### 새로운 Experience Manager 튜토리얼
+
+| 컨텐츠 | 설명 |
+| -----------| ---------- |  
+| [로컬 디스패처 도구 설정](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/dispatcher-tools.html) | 로컬에서 Dispatcher 구성, 유효성 검사 및 시뮬레이션을 [!UICONTROL 활성화하는 방법에 대해] 알아봅니다. |
+| [AEM 프로젝트용 개발 도구 설정](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/development-tools.html) | AEM(Adobe Experience Manager) 개발을 위해서는 최소한의 개발 도구를 설치하고 개발자 시스템에 설정해야 합니다. 이러한 도구는 AEM 프로젝트의 개발 및 빌드를 지원합니다. |
+| [로컬 AEM 런타임 설정](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html) | AEM(Adobe Experience Manager)은 AEM을 클라우드 서비스 SDK의 QuickStart Jar로 사용하여 로컬에서 실행할 [!UICONTROL 수 있습니다]. 이를 통해 개발자는 소스 제어에 커밋하기 전에 사용자 지정 코드, 구성 및 컨텐츠를 배포하고 테스트하여 클라우드 서비스 환경으로 AEM에 배포할 수 있습니다. |
+| [탐색](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/authoring/navigation.html) | AEM 자산 탐색에 대한 기본 사항을 살펴보십시오. |
+| [버전](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/versions.html) | AEM에서 자산 버전을 만들고 유지 관리하는 방법을 알아봅니다. |
+| [AEM - [!DNL Magento] Commerce Integration [!UICONTROL Framework를 사용한 통합]](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/getting-started.html) | 이 비디오에서는 AEM과 AEM 간의 통합 설정을 안내합니다 [!DNL Magento]. |
+| [AEM 아키텍처 스택 소개](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/underlying-technology/introduction-architecture.html) | CIF 프로젝트 원형에서는 CIF 코어 구성 요소를 사용하는 고객 프로젝트의 시작점으로 최소한의 AEM(Adobe Experience Manager) CIF 프로젝트를 만듭니다. |
+| [OSGi 소개](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/underlying-technology/introduction-osgi.html) | Adobe Experience Manager의 기반이 되는 Java 애플리케이션을 위한 다이내믹한 모듈식 아키텍처인 OSGi를 소개합니다. |
+| [JCR 파섹](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/underlying-technology/introduction-jcr.html) | Adobe Experience Manager에서 사용하는 [JCR(Java Content Repository) 소개 |
+| [Sling 소개](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/underlying-technology/introduction-sling.html) | Adobe Experience [!DNL Sling]Manager의 기본 기술 스택에 포함된 오픈 소스 RESTful 웹 프레임워크에 대한 소개입니다. |
+| [작성자 및 게시 계층 소개](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/underlying-technology/introduction-author-publish.html) | Adobe Experience Manager [!UICONTROL 의] 아키텍처의 일부로 작성자  및 게시 계층에 대한 소개입니다. |
+| [Dispatcher 소개](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/underlying-technology/introduction-dispatcher.html) | AEM 아키텍처의 일부로 디스패처의 기능 및 기능에 대한 소개입니다. |
+| [구성 요소 개발 소개](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/components/component-development.html) | Adobe Experience Manager Sites를 사용한 구성 요소 개발에 대한 개요입니다. 대화 상자, [!UICONTROL Sling 모델], [!UICONTROL HTL]스크립트 [!UICONTROL 및]클라이언트측 라이브러리에 대한 소개가 [!UICONTROL 포함되어 있습니다]. |
+| [AEM 프로젝트 원형](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/developing/aem-project-archetype.html) | AEM Project에는 구현에 대한 모든 코드와 구성이 포함되어 있습니다. The AEM [!UICONTROL Project Archetype] creates a minimal, best-practices-based Adobe Experience Manager project as a starting point for your own AEM projects. |
+| [핵심 구성 요소 이해](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/components/core-components-feature-video-understand.html) | AEM [!UICONTROL 코어] 구성 요소는 Adobe Experience Manager와 함께 사용할 표준 세트 구성 요소입니다. |
+| [AEM Quickstart Jar 사용](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/developing/quickstart-jar.html) | AEM Quickstart jar를 사용하여 몇 분 만에 Adobe Experience Manager의 로컬 인스턴스를 설치하고 실행하는 방법을 [!UICONTROL 살펴봅니다]. |
+
+### 추가 도움말 리소스
 
 * [AEM을 클라우드 서비스로 사용](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/landing/home.html)
 * [AEM 6.5 학습 및 지원 홈](https://helpx.adobe.com/kr/support/experience-manager/6-5.html)
@@ -255,26 +254,25 @@ AEM 6.5, 서비스 팩 4.0(2020년 3월 5일 릴리스된 6.5.4.0)은 새로운 
 
 Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적이고, 자동화된 방식으로 일대일 메시지를 제공합니다. 이제 고객이 습관 및 선호도에 따라 결정된 작업 환경을 통해 원하는 사항을 예측할 수 있습니다.
 
-### Campaign Classic
+### Campaign Standard
 
-* [Campaign Classic 19.1.4 업데이트](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/release-notes/previous-releases/release--19-1.html#release-19-1-4-build-9032)
+* [Adobe Campaign Standard 20.2](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/release-notes/release-notes.html)
 
-### 추가 리소스
+### 새로운 Campaign Standard 자습서 {#tutorials-acs}
+
+| 컨텐츠 | 설명 |
+| -----------| ---------- |  
+| [프로필 대체 - 타깃팅된 프로필을 사용하여 이메일 메시지 테스트](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html) | 프로필 대체 기능을 사용하여 이메일 메시지를 테스트합니다. |
+
+### 추가 캠페인 도움말 리소스
 
 * Adobe Campaign Standard: [설명서](https://helpx.adobe.com/kr/support/campaign/standard.html) - [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/release-notes/release-notes.html) - [기능 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [릴리스 계획](https://helpx.adobe.com/kr/campaign/kb/acs-release-planning.html)
 * Adobe Campaign Classic: [설명서](https://helpx.adobe.com/kr/support/campaign/classic.html) - [릴리스 노트](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [기능 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 * Adobe Campaign 제어판: [설명서](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html) - [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
 
-## ![아이콘](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
+<!-- ## ![Icon](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
-3월 21일 릴리스, 2020년 3월 20일 업데이트됨:
-
-| 보기 | 기능 |
-|------|---------|
-| [!UICONTROL 포트폴리오] | [!DNL COVID-19]로 인한 트래픽 변경 사항 관련 포트폴리오 관리 방법에 대한 지침은 계정 관리자에게 문의하십시오. |
-| Google 광고 및 Microsoft 광고 캠페인 | [!UICONTROL 입찰 조정값 자동 최적화] 선택 사항을 사용하여 최적화된 포트폴리오에서 Advertising Cloud는 이제 향상된 클릭당 비용(eCPC) 입찰 전략으로 캠페인에 대한 입찰 조정 설정을 자동으로 최적화하지 않습니다. 검색 엔진은 경매 시 모든 입찰 조정을 최적화합니다. Advertising Cloud는 [!UICONTROL 캠페인 예산 제한 자동 조정] 선택 사항이 활성화된 경우 기본 입찰과 캠페인 예산을 최적화합니다. |
-| [!UICONTROL 경고 베타] | 베타 기능: 이제 경고 템플릿을 만들어 포트폴리오가 특정 기간 성능 지표와 같은 특정 조건을 충족하는 시점을 식별한 다음 경고를 생성할 수 있습니다. **[!UICONTROL 인사이트 및 보고서]** > **[!UICONTROL 경고(베타)]** 에서 포트폴리오 수준의 경고를 만들 수 있지만 **[!UICONTROL 최적화]** > **[!UICONTROL 포트폴리오]**&#x200B;에서는 만들 수 없습니다. **참고:** 1월에 대체된 기존 버전의 경고 베타에서 생성된 모든 경고는 이제 사용할 수 없습니다. |
-| [!UICONTROL 관리자] > [!UICONTROL 거래 속성] | 새로운 [!UICONTROL 속성 ID] 열은 각 거래 속성에 대한 고유 속성 ID를 표시합니다. 열 값에 포함된 문자열을 검색할 수 있습니다. |
+Advertising Cloud release notes. -->
 
 ## ![아이콘](/assets/magento.png) [!DNL Magento] {#magento}
 
@@ -289,16 +287,7 @@ Magento 릴리스 노트에 대해서는 다음을 참조하십시오.
 
 ### 핵심 Marketo Engage 업데이트
 
-릴리스 날짜: 2020년 2월 21일
-
-* Microsoft _Flow Action **의**Microsoft Dynamics_&#x200B;변경 담당자: 리드를 변경하거나 Marketo Engage에서 직접 담당자에게 문의하십시오.
-* **API 호출에 대한 개선 사항:**
-   * 사용자 관리 API
-   * 사용자 지정 개체 스키마 API
-   * 랜딩 페이지 리디렉션 규칙 API
-* **양식 설명자 캐싱:** 랜딩 페이지 및 양식 개선 사항.
-
-자세한 내용은 [!DNL Marketo]2020년 2월[ 릴리스 노트](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+Feb+%2720)를 참조하십시오.
+자세한 내용은 [!DNL Marketo] 릴리스 노트를 [](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+Feb+%2720) 참조하십시오.
 
 ### 예정된 기능
 
@@ -315,46 +304,7 @@ Magento 릴리스 노트에 대해서는 다음을 참조하십시오.
 
 ### 사용 중단
 
-* **자산 API &quot;_method&quot; 매개 변수:** 2020년 9월 이후, 자산 API 끝점은 이제 &quot;_method&quot;를 사용하여 쿼리 매개 변수를 URI 길이 제한을 무시하도록 POST 본문에 전달하지 않습니다.
+* **자산 API &quot;_method&quot; 매개 변수:** 2020년 9월 이후, 자산 API 끝점은 더 이상 URI 길이 제한을 우회하기 `_method` 위해 POST 본문에 쿼리 매개 변수를 전달하지 않습니다.
 * **Internet Explorer 지원 중단:** 2020년 7월 31일부터 Marketo Engage 사용자 인터페이스는 이제 Internet Explorer에서 지원되지 않습니다.
 
 누적 릴리스 노트와 내역 릴리스 노트는 [Marketo 릴리스 노트](https://docs.marketo.com/x/CgA6Ag)를 참조하십시오.
-
-## ![아이콘](/assets/ec_appicon_24.png) 새로운 설명서 및 자습서 {#selfhelp}
-
-최근 및 새로운 자가 진단 도움말 문서와 비디오입니다. <!--`https://jira.corp.adobe.com/secure/Dashboard.jspa?selectPageId=60327`-->
-
-| 솔루션 | 컨텐츠 | 설명 |
-|----------| -----------| ---------- |  
-| [!UICONTROL AEM Commerce] | 비디오 - [여러 범주 및 제품 페이지 만들기](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/tutorials.html#!AdobeDocs/commerce-cif-documentation/master/tutorials/04-style-cif-component.md) | CIF 코어 구성 요소를 사용하여 고객 프로젝트의 시작점으로 최소 AEM(Adobe Experience Manager) CIF 프로젝트를 만드는 방법을 알아봅니다. 테마 및 CSS 스타일링을 구성 요소에 적용하고 원형에서 생성된 새로운 AEM CIF 프로젝트를 검사합니다. 또한 CIF 코어 구성 요소에 사용되는 CSS 및 JavaScript를 구성하는 방법도 알아봅니다. |
-| [!UICONTROL AEM Forms] | 문서 - [OKTA를 사용하여 AEM 작성자 인증](https://docs.adobe.com/content/help/ko-KR/experience-manager-learn/forms/single-sign-on-with-okta.html) | OKTA 포털에서 앱을 구성하는 방법과 새 애플리케이션 등록 시 일반적으로 사용하는 설정에 대해 알아봅니다. |
-| [!UICONTROL AEM Commerce] | 자습서 - [CIF 코어 구성 요소 사용자 지정](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/tutorials.html#!AdobeDocs/commerce-cif-documentation/master/tutorials/05-customize-cif-components.md) | 일반적으로 CIF 코어 구성 요소 및 AEM에서 제공하는 여러 가지 다른 확장 지점을 검토합니다. CIF 코어 구성 요소는 AEM(Adobe Experience Manager)과 Magento 솔루션을 통합하는 프로젝트를 가속화하는 데 사용할 수 있는 표준 Commerce 구성 요소 집합을 제공합니다. |
-| [!DNL Adobe Campaign] - Audience 대상 | 비디오 - [대상 만들기...](https://docs.adobe.com/content/help/ko-KR/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/creating-audiences-using-segment-builder.html) | Adobe [!UICONTROL Experience Platform 세그먼트 빌더]를 사용하여 Campaign Standard에서 대상을 만듭니다. [!UICONTROL Audiences] 모듈을 통해 Adobe Campaign Standard 내에서 직접 이 기능에 액세스할 수 있습니다. |
-| [!DNL Adobe Campaign] - Audience 대상 | 비디오 - [마케팅 워크플로우에서 Adobe Experience Platform 대상 활성화](https://docs.adobe.com/content/help/ko-KR/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/activating-aep-audiences.html) | [!UICONTROL 대상 읽기] 활동을 사용하여 워크플로우 내에서 [!UICONTROL Data Services 쿼리 대상]을 활성화하는 방법을 알아봅니다. |
-| [!DNL Adobe Campaign] | 자습서 - [Android에서 푸시 알림](https://docs.adobe.com/content/help/ko-KR/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/push/getting-started-push-notifications/getting-started-with-push-notifications-android.html) | iOS 및 Android 모바일 장치로 맞춤형 및 세그먼트화된 푸시 알림을 보냅니다. 이 자습서는 Adobe Campaign에서 푸시 알림을 보내고 Android 앱에서 이러한 알림을 받는 것과 관련된 단계를 안내합니다. |
-| [!DNL Adobe Campaign] | 비디오 - [푸시 알림 만들기](https://docs.adobe.com/content/help/ko-KR/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/push/creating-a-push-notification.html) | Adobe Campaign Standard에서 푸시 알림을 만듭니다. iOS 및 Android 모바일 장치로 맞춤형 및 세그먼트화된 푸시 알림을 보낼 수 있습니다. |
-| [!DNL Adobe Campaign] - AEP Data Connector | 비디오 - [데이터 수집 작업의 상태 확인](https://docs.adobe.com/content/help/ko-KR/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/checking-status-of-data-ingestion-jobs.html) | 데이터 통합 작업의 상태와 데이터가 Adobe Campaign Standard에서 Adobe Experience Platform으로 가져왔는지 확인하는 방법을 알아봅니다. |
-| [!DNL Adobe Campaign] - AEP Data Connector | 비디오 - [데이터 매핑 수정](https://docs.adobe.com/content/help/ko-KR/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/modifying-data-mapping.html) | 상태를 확인하고 데이터 매핑을 수정하는 방법을 알아봅니다. |
-| [!DNL Adobe Campaign] - AEP Data Connector | 비디오 - [경험 이벤트 매핑](https://docs.adobe.com/content/help/ko-KR/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/mapping-experience-events.html) | Adobe Experience Platform에서 경험 이벤트를 매핑하는 방법을 알아봅니다. |
-| [!DNL Adobe Campaign] - AEP Data Connector | 비디오 - [사용자 지정 리소스 매핑](https://docs.adobe.com/content/help/ko-KR/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/mapping-custom-resources.html) | Adobe Campaign Standard와 Adobe Experience Platform 간에 서로 다른 데이터 유형을 매핑하는 방법을 알아봅니다. |
-| [!DNL Adobe Campaign] - AEP Data Connector | 비디오 - [Adobe Experience Platform Data Connector 이해](https://docs.adobe.com/content/help/ko-KR/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html) | XTK 데이터(Campaign에서 수집된 데이터)를 XDM(Experience Data Model) 데이터에 매핑하여 Adobe Experience Platform에서 데이터를 사용할 수 있도록 설정하는 방법을 알아봅니다. |
-| [!DNL Adobe Campaign] - AEP Data Connector | 비디오 - [시드 테이블 데이터 매핑](https://docs.adobe.com/content/help/ko-KR/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/mapping-seed-table-data.html) | 시드 데이터/테스트 프로필을 Adobe Experience Platform과 매핑하고 방법을 알아봅니다. |
-| [!DNL Adobe Campaign] - Audience 대상 | 비디오 - [Platform 대상에 대한 게재 타깃팅 차원 변경](https://docs.adobe.com/content/help/ko-KR/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/changing-targeting-dimension.html) | Adobe Campaign Standard에서 기본 프로필 테이블 외부에 있는 Platform 대상에 대한 게재 타깃팅 차원을 변경하는 방법을 알아봅니다. |
-| [!DNL Adobe Campaign] | 비디오 - [Snowflake의 빅데이터 관리](https://docs.adobe.com/content/help/ko-KR/campaign-learn/campaign-classic-tutorials/administrating/fda/big-data-segmentation-on-snowflake.html) | Adobe Campaign Classic에서 Snowflake 커넥터를 활용합니다. |
-| [!DNL Adobe Campaign] - Audience 대상 | 문서 - [Audience 대상(베타) - 개요](https://docs.adobe.com/content/help/ko-KR/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html) | Adobe Campaign Standard에서 마케팅 캠페인을 위해 Adobe Experience Platform의 중앙 집중식 및 통합 프로필 데이터를 활용하는 방법을 알아봅니다. |
-| [!DNL Adobe Target] - Mobile SDK | 자습서 - [Adobe Target을 사용하여 앱 경험 개인화](https://docs.adobe.com/content/help/ko-KR/target-learn/mobile-sdk-v4-android/overview.html) | 고유한 Android 앱에서 Adobe Target을 구현합니다. Mobile Services SDK 설정의 유효성을 확인하고 컨텐츠 사전 가져오기, 차단 요청 등과 같은 [!DNL Target] 요청을 구현합니다. |
-| Adobe Analytics | 비디오 - [Adobe Summit 2019 슈퍼 세션](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-high-tech.html) | Summit 2019에서 첨단 기술 &quot;슈퍼 세션&quot;을 통해 선별된 클립을 봅니다. |
-| Adobe Analytics | 비디오 - [고객 여정 분석에서 계산된 지표 소개](https://docs.adobe.com/content/help/ko-KR/platform-learn/tutorials/cja/introduction-to-calculated-metrics-in-customer-journey-analytics.html) | [!UICONTROL 고객 여정 분석]에서 [!UICONTROL 계산된 지표]를 작성하는 기본 사항을 안내합니다. |
-| Adobe Analytics | 비디오 - [Adobe Summit 2019 슈퍼 세션](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-travel.html) | Summit 2019에서 여행 및 숙박 세션을 통해 선별된 클립을 봅니다. |
-| Adobe Analytics | 비디오 - [Adobe Summit 2019 슈퍼 세션](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-retail.html) | Summit 2019에서 리테일 세션을 통해 선별된 클립을 확인합니다. |
-| Adobe Analytics | 비디오 - [고객 사용 사례: Accent Group이 판매 촉진을 위해 고객 경험에 투자](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/accent-group-invests-in-customer-experience-to-drive-sales.html) | Accent Group이 Adobe Experience Cloud를 사용하여 매끄러운 디지털 경험을 생성하는 방법을 살펴봅니다. |
-| Adobe Analytics | 비디오 - [고객 사용 사례: ServiceNow가 잠재 고객과 교류하기 위한 올바른 통찰력 얻기](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/servicenow-gets-the-right-insights-to-connect-with-prospects.html) | Adobe Advertising Cloud 및 Adobe Analytics를 사용하여 마케팅 채널에서 실행 가능한 데이터를 가져오고 [!DNL ServiceNow] 유료 검색 광고에서 ROI를 높이는 방법을 알아봅니다. |
-| Adobe Analytics | 비디오 - [Adobe Analytics - 데이터 그 이상이며, 고객 인텔리전스입니다.](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-analytics-customer-intelligence.html) | 데이터 기반의 마케팅에 대해 알아보고 데이터에서 통찰력을 얻을 수 있게 분석 능력을 향상시키는 방법을 알아봅니다. |
-| Adobe Analytics | 비디오 - [Adobe Sensei 및 Adobe Analytics - 확장 버전](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-sensei-and-adobe-analytics.html) | [!UICONTROL 예외 항목 탐지], [!UICONTROL 기여도 분석], [!UICONTROL 지능형 알림], [!UICONTROL 클러스터링], [!UICONTROL 세그먼트 IQ] 및 [!UICONTROL 성향 모델링]을 포함하여 Adobe [!DNL Sensei,]에서 제공하는 Adobe Analytics의 기능을 확인합니다. |
-| Adobe Analytics | 비디오 - [Adobe Analysis Workspace에서 비즈니스를 변경하는 방법](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business.html) | [!UICONTROL Analysis Workspace]를 사용하여 Ad Hoc Analysis, 유연한 분석, 집단 분석 및 폴아웃 분석을 수행하는 방법을 알아봅니다. 또한 분석 작업 환경을 회사의 모든 사람과 공유할 수 있고, 드래그 앤 드롭 기능을 통해 모든 사람이 데이터를 쉽게 분석하고 통찰력을 신속하게 얻을 수 있습니다. |
-| Adobe Analytics | 비디오 - [고객 사용 사례: 고객 경험 관리를 통해 혁신을 이룬 Home Depot](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/the-home-depot-innovates-with-customer-experience-management.html) | [!DNL Home Depot]Adobe 솔루션을 사용하여 개인화된 맞춤형 쇼핑 경험을 통해 브랜드 충성도 및 고객 만족도를 생성하는 방법을 알아봅니다. |
-| Adobe Analytics | 프레젠테이션 - [고객 여정 분석 이해](https://docs.adobe.com/content/help/ko-KR/platform-learn/tutorials/cja/understanding-customer-journey-analytics.html) | [!DNL Adobe Experience Platform]에 구축된 애플리케이션 서비스인 Adobe의 [!UICONTROL 고객 여정 분석]이 [!UICONTROL Analysis Workspace]를 Experience Platform으로 가져오는 방법을 알아봅니다. 이 기능을 사용하면 [!DNL Adobe Experience Platform] 데이터 세트에서 다중 채널 분석을 사용할 수 있습니다. |
-| Adobe Analytics | 비디오 - [CJA의 크로스 채널 속성](https://docs.adobe.com/content/help/ko-KR/platform-learn/tutorials/cja/cross-channel-attribution-in-customer-journey-analytics.html) | 시각화를 사용하여 [!UICONTROL 고객 여정 분석]의 채널에서 속성을 표시(크레딧 제공)하는 방법을 알아봅니다. |
-| Adobe Analytics | 문서 - [Adobe Analytics 학습 여정을 계속하기 위한 고객 팁](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/customer-tips-for-continuing-your-adobe-analytics-learning-journey.html) | Adobe Analytics를 최대한 활용할 수 있는 방법에 대한 유용한 팁을 보유한 세 명의 Adobe 고객을 만나보십시오. |
-| Adobe Analytics | 비디오 - [CJA에서 크로스 채널 시각화 만들기](https://docs.adobe.com/content/help/ko-KR/platform-learn/tutorials/cja/creating-cross-channel-visualizations-in-customer-journey-analytics.html) | [!UICONTROL 고객 여정 분석]을 통해 방문자별 데이터 병합을 포함하여 여러 채널 간에 여러 데이터 세트의 데이터를 포함하는 시각화를 만드는 방법을 살펴봅니다. |
-| Adobe Analytics | 비디오 - [계산된 지표를 Adobe Analytics에서 고객 여정 분석으로 이동](https://docs.adobe.com/content/help/ko-KR/platform-learn/tutorials/cja/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html) | [!UICONTROLC고객 여정 분석]에서 Analytics [!UICONTROL 계산 지표]를 다시 만드는 팁을 찾습니다. |
