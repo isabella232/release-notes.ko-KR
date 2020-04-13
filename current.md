@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3e124e820e573047298f878cf8cb2bf2a6b7f7dd
+source-git-commit: 87f42aedd2b8c987b092c614468d536fa48ae724
 
 ---
 
@@ -166,6 +166,10 @@ AN-212151;AN-214343;AN-215017;AN-115525;AN-123869;AN-101871;AN-152580;AN-160480;
 ## ![아이콘](/assets/audience-manager.png) Audience Manager {#aam}
 
 Adobe Audience Manager의 새로운 기능 및 수정 사항:
+
+| 기능 | 설명 |
+| -----------| ---------- |  
+| [주요 고객 지원 문제](../support-issues/support-issues-overview.md) | 고객 지원 팀에서 가장 자주 받는 질문에 대한 답변이 포함된 새로운 섹션이 설명서 포털에 추가되었습니다. |
 
 * Audience Lab의 테스트 [!UICONTROL 복제] 및 [!UICONTROL 할당 템플릿] 단추가 [!UICONTROL 작동하지 않는] 문제를 해결했습니다. (AAM-53388)
 * 대상이 UUID를 [!UICONTROL 내보내도록] 구성되면 일치 비율 및 세그먼트 지정 가능 대상이  0으로 표시되는 문제를 수정했습니다. 이제 [!UICONTROL 일치 비율] 및 [!UICONTROL 세그먼트 지정 가능] 대상이 100%로 표시됩니다. (AAM-51615)
