@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1cbba06183a2cd2897303e99dd7da89041a2d106
+source-git-commit: 26ff9349ed0c5dc19167e4d21c03f5261f802e73
 
 ---
 
@@ -182,8 +182,9 @@ Adobe Audience Manager의 새로운 기능 및 수정 사항:
 
 | 기능 | 설명 |
 | -----------| ---------- |  
-| 주요 고객 지원 문제 | 고객 지원 팀에서 가장 자주 받는 질문에 대한 답변이 포함된 새로운 섹션이 설명서 포털에 추가되었습니다. |
+| [주요 고객 지원 문제](https://docs.adobe.com/content/help/en/audience-manager/user-guide/top-support-issues/support-issues-overview.html) | 고객 지원 팀에서 가장 자주 받는 질문에 대한 답변이 포함된 새로운 섹션이 설명서 포털에 추가되었습니다. |
 
+* 모바일 장치 ID가 들어 있는 [세그먼트에](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/addressable-audiences.html) 대해 주소 지정 가능 대상을 부정확하게 보고하는 문제를 수정했습니다. 이 업데이트 후에 주소 지정 가능 대상이 증가할 [수 있습니다](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/addressable-audiences.html).
 * Audience Lab의 테스트 [!UICONTROL 복제] 및 [!UICONTROL 할당 템플릿] 단추가 [!UICONTROL 작동하지 않는] 문제를 해결했습니다. (AAM-53388)
 * 대상이 UUID를 [!UICONTROL 내보내도록] 구성되면 일치 비율 및 세그먼트 지정 가능 대상이  0으로 표시되는 문제를 수정했습니다. 이제 [!UICONTROL 일치 비율] 및 [!UICONTROL 세그먼트 지정 가능] 대상이 100%로 표시됩니다. (AAM-51615)
 * 특수 문자가 포함된 트레이트 이름이 HTML로 두 번 인코딩되는 문제를 해결했습니다. (AAM-54001)
@@ -213,9 +214,9 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 
    추가된 스마트 이미징 최적화를 설명하는 이미지 에셋 예를 비롯한 전체 스마트 이미징 도움말 항목이 새로운 정보로 업데이트되었습니다.
 
-   스마트 [이미징을 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/imaging-faq.html).
+   [스마트 이미징](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/imaging-faq.html)을 참조하십시오.
 
-* **다이내믹 미디어 구성 - Scene7 모드**
+* **Dynamic Media 구성 - Scene7 모드**
 
    이제 도구 > 클라우드 서비스에 있는 Dynamic Media 구성 페이지에서 모든 컨텐츠 동기화 옵션을 **[!UICONTROL 사용할 수 있습니다]**.
 
