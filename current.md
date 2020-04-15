@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 69b6adbefa394d7d44939588dcef27c89890b00b
+source-git-commit: 34940c585feab93f47f7915f4b45fa4a555cd235
 
 ---
 
@@ -123,13 +123,13 @@ Unity 4.19.0(2020년 3월 10일):
 * [Important notices for Analytics administrators](#aa-notices) (Updated April 7, 2020)
 * [AppMeasurement](#appm) -->
 
+* [고객 여정 분석](#cust-journey)
 * [새로운 Analytics 자습서](#tutorials-analytics)
 
 <!-- ### New features, enhancements, and fixes in Adobe Analytics {#aa-features}
 
 | Feature    | Description  |
 | -----------| ---------- |
-|[!UICONTROL Customer Journey Analytics]: [!UICONTROL Automated Dataset Backfill]|This new option lets you import all historical data for a connection in [!UICONTROL Customer Journey Analytics]. (Documentation to follow)|
 |Analytics support for [!UICONTROL Experience Edge] |You can now forward data that was sent to [!UICONTROL Experience Edge] to Analytics.|
 |[!UICONTROL Workspace]: Automatically build Freeform Tables from a blank state|Previously, you could not drop components directly into a blank project or blank panel; you had to add a freeform table first. You can now drop components directly into a blank project or panel, and a freeform table will automatically be built for you in a recommended format. Additionally, improvements were made to how mixed component types (e.g. dimensions & metrics) are handled when dropped into a blank freeform table together.|
 
@@ -168,6 +168,12 @@ AN-212151; AN-214343; AN-215017; AN-115525; AN-123869; AN-101871; AN-152580; AN-
 ### [!DNL AppMeasurement] {#appm}
 
 See [AppMeasurement for Javascript release notes](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-updates.html). Version 2.20.0 was released on March 5, 2020. -->
+
+### 고객 여정 분석 {#cust-journey}
+
+| 기능 | 설명 |
+| -----------| ---------- |
+| [!UICONTROL Customer Journey Analytics]: [!UICONTROL 자동화된 데이터 세트 채우기] | 이 새 옵션을 사용하면 [!UICONTROL Customer Journey Analytics]에서 연결에 대한 모든 이전 데이터를 가져올 수 있습니다. (참조할 설명서) |
 
 ### 새로운 Analytics 자습서{#tutorials-analytics}
 
