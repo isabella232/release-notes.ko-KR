@@ -117,7 +117,7 @@ Unity 4.19.0(2020년 3월 10일):
 
 >[!IMPORTANT]
 >
->Adobe Analytics 4월 유지 관리 릴리스는 2020년 5월 21일로 옮겨졌습니다. 최신 Analytics 릴리스 정보는 3월 [릴리스 노트를 참조하십시오](c-legacy-releases\2020\03122020.md)
+>Adobe Analytics 4월 유지 관리 릴리스는 2020년 5월 21일로 옮겨졌습니다. 최신 Analytics 릴리스 정보는 3월 [릴리스 노트를 참조하십시오](c-legacy-releases/2020/03122020.md)
 
 <!-- * [New features, enhancements, and fixes in Adobe Analytics](#aa-features)
 * [Important notices for Analytics administrators](#aa-notices) (Updated April 7, 2020)
