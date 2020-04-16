@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 41c551a6c2e3e8b621abacb5afe2240c30b851da
+source-git-commit: be1e03f7420ea4a1bd9c2797a087cbb42246049c
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: 41c551a6c2e3e8b621abacb5afe2240c30b851da
 * [Adobe 시스템 상태](#status)
 * [Experience Cloud 인터페이스 및 핵심 서비스](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) (**릴리스 날짜 변경 - 4월 15일 업데이트 참조**)
+* [!DNL Analytics](#analytics) **(릴리스 날짜 변경 - 4월 15일 업데이트 참조)**
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
