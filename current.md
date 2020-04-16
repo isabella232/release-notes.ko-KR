@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: be1e03f7420ea4a1bd9c2797a087cbb42246049c
+source-git-commit: 6bd8e1af2afa691e6796769ad1f8cb5f29433d8e
 
 ---
 
@@ -117,7 +117,7 @@ Unity 4.19.0(2020년 3월 10일):
 
 >[!IMPORTANT]
 >
->Adobe Analytics 4월 유지 관리 릴리스의 대부분은 2020년 5월 21일로 옮겨졌습니다. 최신 Analytics 릴리스 정보는 3월 [릴리스 노트를 참조하십시오](c-legacy-releases/2020/03122020.md)
+>Adobe Analytics 4월 유지 관리 릴리스는 2020년 5월 21일로 옮겨졌습니다. 최신 Analytics 릴리스 정보는 3월 [릴리스 노트를 참조하십시오](c-legacy-releases/2020/03122020.md)
 
 * [고객 여정 분석](#cust-journey)
 <!--* [New features in Adobe Analytics](#aa-features)-->
@@ -190,9 +190,9 @@ Adobe Audience Manager의 새로운 기능 및 수정 사항:
 
 | 기능 | 설명 |
 | -----------| ---------- |  
-| [주요 고객 지원 문제](https://docs.adobe.com/content/help/en/audience-manager/user-guide/top-support-issues/support-issues-overview.html) | 고객 지원 팀에서 가장 자주 받는 질문에 대한 답변이 포함된 새로운 섹션이 설명서 포털에 추가되었습니다. |
+| [주요 고객 지원 문제](https://docs.adobe.com/content/help/en/audience-manager/user-guide/top-support-issues/support-issues-overview.html) | 고객 지원 팀에서 가장 자주 받는 질문에 대한 답변이 포함된 새로운 섹션을 설명서 포털에 추가했습니다. |
 
-* 모바일 장치 ID가 들어 있는 [세그먼트에](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/addressable-audiences.html) 대해 주소 지정 가능 대상을 부정확하게 보고하는 문제를 수정했습니다. 이 업데이트 후에 주소 지정 가능 대상이 증가할 [수 있습니다](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/addressable-audiences.html).
+* 모바일 디바이스 ID가 포함된 세그먼트에 대한 [주소 지정 가능한 고객](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/addressable-audiences.html)에 대해 부정확하게 보고하는 문제를 수정했습니다. 이 업데이트 후에, [주소 지정 가능한 고객](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/addressable-audiences.html)이 증가할 수도 있습니다.
 * [!UICONTROL Audience Lab]의 [!UICONTROL 중복 테스트] 및 [!UICONTROL 중복 할당 템플릿] 단추가 작동하지 않는 문제가 해결되었습니다. (AAM-53388)
 * 대상이 UUID를 내보내도록 구성되면 [!UICONTROL 일치율] 및 [!UICONTROL 세그먼트 주소 지정 가능 대상]이 0으로 표시되는 문제가 해결되었습니다. 이제 [!UICONTROL 일치율] 및 [!UICONTROL 세그먼트 주소 지정 가능 대상]이 100%로 표시됩니다. (AAM-51615)
 * 특수 문자가 포함된 트레이트 이름이 HTML로 두 번 인코딩되는 문제가 해결되었습니다. (AAM-54001)
