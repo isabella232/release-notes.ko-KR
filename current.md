@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8ae9a44aa90a578b681ec1449d65781d3e3b7b65
+source-git-commit: 16804e8f1eeb1d836b904c85a8c538077166242b
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 8ae9a44aa90a578b681ec1449d65781d3e3b7b65
 
 **릴리스 날짜: 2020년 4월**
 
-(특정 솔루션 릴리스 날짜는 다를 수 있음.)
+(특정 릴리스 날짜는 매우 다양합니다.)
 
 * [Adobe 시스템 상태](#status)
 * [Experience Platform](#platform)
@@ -35,10 +35,10 @@ source-git-commit: 8ae9a44aa90a578b681ec1449d65781d3e3b7b65
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
-* [!DNL Target](https://docs.adobe.com/content/help/ko-KR/target/using/release-notes/target-release-notes.html)(솔루션 도움말 페이지 링크)
+* [!DNL Target](https://docs.adobe.com/content/help/ko-KR/target/using/release-notes/target-release-notes.html) (Target 도움말 페이지에 대한 링크)
 * [!DNL Magento](#magento)
 * [!DNL Marketo](#marketo)
-* [!DNL Primetime](https://helpx.adobe.com/kr/primetime/user-guide.html)(솔루션 도움말 페이지 링크)
+* [!DNL Primetime](https://helpx.adobe.com/kr/primetime/user-guide.html) (Primetime 도움말 페이지 링크)
 
 도움말 홈을 찾고 계십니까? [Adobe Experience Cloud 설명서](https://docs.adobe.com/content/help/ko-KR/experience-cloud/user-guides/home.html)를 참조하십시오.
 
@@ -72,9 +72,9 @@ Adobe는 모든 Experience Cloud 애플리케이션에서 사용자 경험을 �
 
 업데이트 내용은 다음과 같습니다.
 
-* 새로운 솔루션 URL: `experience.adobe.com/<application name>`:
+* 새 응용 프로그램 URL: `experience.adobe.com/<application name>`:
    * 모든 제품이 결국 이 URL 패턴을 채택합니다. 한 달 동안 새 URL이 유효한지 확인합니다.
-   * 브라우저 지원: 지원되는 브라우저에는 [!DNL Microsoft Edge], [!DNL Google Chrome], [!DNL Firefox], [!DNL Safari] 및 [!DNL Opera](최신 버전)이(가) 포함됩니다. **참고:** Experience Cloud 인터페이스는 이러한 브라우저를 지원하지만 개별 솔루션은 모든 브라우저를 지원하지 않을 수 있습니다. (예: [Analytics](https://docs.adobe.com/content/help/ko-KR/analytics/admin/sys-reqs.html)는 [!DNL Opera]를 지원하지 않으며, [Target](https://docs.adobe.com/help/ko-KR/target/using/implement-target/before-implement/supported-browsers.html)은 [!DNL Safari]를 지원하지 않습니다.)
+   * 브라우저 지원: 지원되는 브라우저에는 [!DNL Microsoft Edge], [!DNL Google Chrome], [!DNL Firefox], [!DNL Safari] 및 [!DNL Opera](최신 버전)이(가) 포함됩니다. **참고:** Experience Cloud 인터페이스는 이러한 브라우저를 지원하지만 개별 애플리케이션은 모든 브라우저를 지원하지 않을 수 있습니다. (예: [Analytics](https://docs.adobe.com/content/help/ko-KR/analytics/admin/sys-reqs.html)는 [!DNL Opera]를 지원하지 않으며, [Target](https://docs.adobe.com/help/ko-KR/target/using/implement-target/before-implement/supported-browsers.html)은 [!DNL Safari]를 지원하지 않습니다.)
    * ([!DNL Safari] 전용) 도메인 변경으로 인해 [!DNL Safari]에 쿠키 문제가 발생할 수 있습니다. _개인 정보 보호 환경설정에서_&#x200B;사이트 간 추적 방지[!DNL Safari]를 선택 해제하면 도메인(및 모든 사이트 간 경험)에서 쿠키가 활성화되고 Experience Cloud가 이 새로운 도메인에서 작동할 수 있습니다.
 * 조직 간 또는 다른 애플리케이션으로 쉽게 전환할 수 있습니다.
 * 향상된 제품 도움말: [!UICONTROL Experience League]는 제품에 통합되어 있으므로 도움말 검색에 커뮤니티 포럼 및 비디오 컨텐츠의 결과도 포함됩니다. 이러한 변경 사항을 통해 더 많은 컨텐츠를 간편하게 이용하고 Experience Cloud를 최대한 활용할 수 있습니다. 또한 **[!UICONTROL 도움말]** > **[!UICONTROL 피드백]**&#x200B;을 클릭하여 문제를 보고하거나 Adobe와 아이디어를 공유할 수 있습니다.
@@ -195,7 +195,7 @@ Adobe Audience Manager의 새로운 기능 및 수정 사항:
 * [!UICONTROL Audience Lab]의 [!UICONTROL 중복 테스트] 및 [!UICONTROL 중복 할당 템플릿] 단추가 작동하지 않는 문제가 해결되었습니다. (AAM-53388)
 * 대상이 UUID를 내보내도록 구성되면 [!UICONTROL 일치율] 및 [!UICONTROL 세그먼트 주소 지정 가능 대상]이 0으로 표시되는 문제가 해결되었습니다. 이제 [!UICONTROL 일치율] 및 [!UICONTROL 세그먼트 주소 지정 가능 대상]이 100%로 표시됩니다. (AAM-51615)
 * 특수 문자가 포함된 트레이트 이름이 HTML로 두 번 인코딩되는 문제가 해결되었습니다. (AAM-54001)
-* 일부 사용자가 [!DNL Audience Manager]사용자 인터페이스에서 다른 Adobe Experience Cloud 솔루션으로 전환할 수 없는 문제가 해결되었습니다. (AAM-52917)
+* Fixed an issue blocking some users from switching to other Adobe Experience Cloud applications from the [!DNL Audience Manager] user interface. (AAM-52917)
 * 일부 사용자가 사람 기반 대상의 SHA256 데이터 소스를 만들지 못하는 문제가 해결되었습니다. (AAM-53525)
 * 인터페이스에서 여러 액세스 가능성이 개선되었습니다. (AAM-48986, AAM-49009, AAM-48984, AAM-48939, AAM-48940, AAM-48964, AAM-49032,AAM-49360)
 
@@ -308,7 +308,7 @@ Magento 릴리스 노트에 대해서는 다음을 참조하십시오.
 
 ## ![아이콘](/assets/marketo.png) [!DNL Marketo] {#marketo}
 
-[!DNL Marketo Engage]는 리드 관리를 위한 완전한 솔루션이며, 복잡한 구매 여정의 모든 단계에서 고객 경험을 전환하여 고객 경험을 혁신하고자 하는 B2B 마케터입니다.
+[!DNL Marketo Engage] 는 리드 관리를 위한 완벽한 애플리케이션이며 B2B 마케터는 복잡한 구매 경로의 모든 단계에서 고객의 경험을 혁신하고자 합니다.
 
 ### 핵심 Marketo Engage 업데이트
 
