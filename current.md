@@ -5,12 +5,12 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: f2687895a6795bb636ddb5c10f60fe9d6231e8c5
+source-git-commit: 8ae9a44aa90a578b681ec1449d65781d3e3b7b65
 
 ---
 
 
-# 조기 액세스 - Adobe Experience Cloud 릴리스 노트 - 2020년 4월
+# Adobe Experience Cloud 릴리스 노트 - 2020년 4월
 
 ![배너](/assets/experience-cloud-banner-3.png)
 
