@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 6bd8e1af2afa691e6796769ad1f8cb5f29433d8e
+source-git-commit: 8b516bbbc35cd7cbf450ac423b05ea69ded4b091
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 6bd8e1af2afa691e6796769ad1f8cb5f29433d8e
 (특정 솔루션 릴리스 날짜는 다를 수 있음.)
 
 * [Adobe 시스템 상태](#status)
-* [Experience Cloud 인터페이스 및 핵심 서비스](#ecloud)
+* [Experience Cloud 인터페이스](#ecloud)
 * [Experience Platform](#platform)
 * [!DNL Analytics](#analytics) **(릴리스 날짜 변경 - 4월 15일 업데이트 참조)**
 * [Audience Manager](#aam)
@@ -58,9 +58,9 @@ source-git-commit: 6bd8e1af2afa691e6796769ad1f8cb5f29433d8e
 | 이용 권한에 따라 개인화된 구독 | <ul><li>사용자의 DX 권한에 따라 미리 선택된 구독 권장 사항입니다.</li><li>권장 구독은 빠른 시각화를 위해 제품 목록 맨 위에 강조 표시됩니다.</li><li>받은 이메일 알림은 사용자의 제품 이용 권한과 관련된 것입니다.</li></ul> |
 | 더욱 쉬워진 구독 관리 | <ul><li>**[!UICONTROL 구독 관리]**&#x200B;에는 제품 및 이벤트 구독을 모두 관리하는 새로운 사용자 환경이 있습니다.</li><li>제품 및 이벤트 구독을 별도로 보고 편집하는 새로운 옵션입니다.</li><li>**[!UICONTROL 삭제]** 옵션을 사용하면 제품 또는 이벤트 구독에서 구독을 취소할 수 있습니다.</li><li>원클릭 **[!UICONTROL 모든 구독 취소]** 옵션을 제품을 구독에 사용할 수 있습니다.</li><li>UX는 웹/모바일/태블릿 표면 및 지역화(19개 언어)에서 지원됩니다.</li></ul> |
 
-## ![아이콘](/assets/ec_appicon_24.png) Experience Cloud 인터페이스 및 핵심 서비스 {#ecloud}
+## ![아이콘](/assets/ec_appicon_24.png) Experience Cloud 인터페이스 {#ecloud}
 
-관리 및 핵심 서비스(사용자 특성, 대상, 트리거, 쿠키 등)를 비롯한 Experience Cloud 인터페이스의 새로운 기능 및 수정 사항.
+고객 속성, 대상, 트리거 등과 같은 관리 및 서비스를 비롯한 Experience Cloud 인터페이스의 새로운 기능 및 수정 사항:
 
 * Experience Cloud [!UICONTROL 피드] 페이지는 더 이상 사용되지 않습니다. (EXC-8505)
 * 새로운 브랜딩 요소를 반영하도록 Experience Cloud 로그인 페이지가 업데이트되었습니다. (EXC-10747)
@@ -117,19 +117,19 @@ Unity 4.19.0(2020년 3월 10일):
 
 >[!IMPORTANT]
 >
->Adobe Analytics 4월 유지 관리 릴리스는 2020년 5월 21일로 옮겨졌습니다. 최신 Analytics 릴리스 정보는 3월 [릴리스 노트를 참조하십시오](c-legacy-releases/2020/03122020.md)
+>Adobe Analytics 4월 유지 관리 릴리스는 2020년 5월 21일로 옮겨졌습니다. 최신 Analytics 릴리스 정보는 [3월 릴리스 노트](c-legacy-releases/2020/03122020.md)를 참조하십시오.
 
-* [고객 여정 분석](#cust-journey)
+* [Customer Journey Analytics](#cust-journey)
 <!--* [New features in Adobe Analytics](#aa-features)-->
-* [Analytics 관리자를](#aa-notices) 위한 중요 알림(2020년 4월 7일 업데이트)
+* [Analytics 관리자를 대상으로 한 중요 공지](#aa-notices)(업데이트 날짜: 2020년 4월 7일)
 * [AppMeasurement](#appm)
 * [새로운 Analytics 자습서](#tutorials-analytics)
 
-### 고객 여정 분석 {#cust-journey}
+### Customer Journey Analytics {#cust-journey}
 
 | 기능 | 설명 |
 | -----------| ---------- |
-| [!UICONTROL Customer Journey Analytics]: 자동화된 데이터 세트 채우기 | 이 새 옵션을 사용하면 [!UICONTROL Customer Journey Analytics]에서 연결에 대한 모든 이전 데이터를 가져올 수 있습니다. [추가 정보](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html) |
+| [!UICONTROL Customer Journey Analytics]: 자동화된 데이터 세트 채우기 | 이 새 옵션을 사용하면 [!UICONTROL Customer Journey Analytics]에서 연결에 대한 모든 이전 데이터를 가져올 수 있습니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-connections/create-connection.html) |
 
 <!--### New features in Adobe Analytics {#aa-features}
 
