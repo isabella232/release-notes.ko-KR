@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8b516bbbc35cd7cbf450ac423b05ea69ded4b091
+source-git-commit: f2687895a6795bb636ddb5c10f60fe9d6231e8c5
 
 ---
 
@@ -30,7 +30,6 @@ source-git-commit: 8b516bbbc35cd7cbf450ac423b05ea69ded4b091
 (특정 솔루션 릴리스 날짜는 다를 수 있음.)
 
 * [Adobe 시스템 상태](#status)
-* [Experience Cloud 인터페이스](#ecloud)
 * [Experience Platform](#platform)
 * [!DNL Analytics](#analytics) **(릴리스 날짜 변경 - 4월 15일 업데이트 참조)**
 * [Audience Manager](#aam)
@@ -60,7 +59,7 @@ source-git-commit: 8b516bbbc35cd7cbf450ac423b05ea69ded4b091
 
 ## ![아이콘](/assets/ec_appicon_24.png) Experience Cloud 인터페이스 {#ecloud}
 
-고객 속성, 대상, 트리거 등과 같은 관리 및 서비스를 비롯한 Experience Cloud 인터페이스의 새로운 기능 및 수정 사항:
+Experience Cloud 인터페이스의 새로운 기능 및 수정 사항:
 
 * Experience Cloud [!UICONTROL 피드] 페이지는 더 이상 사용되지 않습니다. (EXC-8505)
 * 새로운 브랜딩 요소를 반영하도록 Experience Cloud 로그인 페이지가 업데이트되었습니다. (EXC-10747)
@@ -82,7 +81,7 @@ Adobe는 모든 Experience Cloud 애플리케이션에서 사용자 경험을 �
 
 ## ![아이콘](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
-[!UICONTROL Experience Platform], [!UICONTROL Experience Platform Launch], [!UICONTROL Identity Service,] Journey Orchestration, 모바일 서비스 및 보안 게시판의 릴리스 정보입니다.
+Offers [!DNL Experience Platform,] , [!DNL Experience Platform Launch,] Journey Orchestration [!UICONTROL , PlacesPlacesPlaces, Mobile Services], Security 게시판을 비롯한 릴리스 노트입니다.
 
 ### 여정 편성 {#journey}
 
