@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 16804e8f1eeb1d836b904c85a8c538077166242b
+source-git-commit: 14d29e8e2baf7f09929353acbb71466eee3b0de2
 
 ---
 
@@ -15,10 +15,6 @@ source-git-commit: 16804e8f1eeb1d836b904c85a8c538077166242b
 ![배너](/assets/experience-cloud-banner-3.png)
 
 [!DNL Adobe Experience Cloud]의 새로운 기능 및 수정 사항.
-
->[!IMPORTANT]
->
->이 페이지에는 출시 전 컨텐츠가 포함되어 있으며 계획된 출시 전에 변경될 수 있습니다.
 
 >[!NOTE]
 >
