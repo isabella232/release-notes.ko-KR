@@ -1,6 +1,6 @@
 ---
 source-git-commit: 33e804cd274c9b612a78f49059890c317736c091
-translation-type: tm+mt
+translation-type: ht
 
 ---
-# 자산에 대해 사용되지 않은 읽어보기
+# 자산의 사용되지 않은 readme 파일
