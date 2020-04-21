@@ -4,8 +4,8 @@ description: Experience Cloud 릴리스 노트 템플릿
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: ht
-source-git-commit: 2d9a0e6ae9e796bdb09ce7d27e4e4a765462283a
+translation-type: tm+mt
+source-git-commit: 3a66c0ee04a336a702ea9ff502a0f2ce6c5b2109
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 2d9a0e6ae9e796bdb09ce7d27e4e4a765462283a
 
 * [Adobe 시스템 상태](#status)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) **(릴리스 날짜 변경 - 4월 15일 업데이트 참조)**
+* [!DNL Analytics](#analytics) ( **업데이트 날짜: 4월 16일)**
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -116,7 +116,7 @@ Unity 4.19.0(2020년 3월 10일):
 
 * [Customer Journey Analytics](#cust-journey)
 <!--* [New features in Adobe Analytics](#aa-features)-->
-* [Analytics 관리자를 대상으로 한 중요 공지](#aa-notices)(업데이트 날짜: 2020년 4월 7일)
+* [Analytics 관리자를 대상으로 한 중요 공지](#aa-notices)(업데이트 날짜: 2020년 4월 16일)
 * [AppMeasurement](#appm)
 * [새로운 Analytics 자습서](#tutorials-analytics)
 
@@ -156,6 +156,7 @@ AN-212151; AN-214343; AN-215017; AN-115525; AN-123869; AN-101871; AN-152580; AN-
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | -----------| ---------- | ---------- |
+| &quot;데이터 웨어하우스에서 적용된 세그먼트&quot; 확인 제거 | 2020년 4월 16일 | 2020년 4월 16일부터 세그먼트 빌더 내에서 세그먼트가 데이터 웨어하우스 요청에 적용되었는지 더 이상 확인하지 않습니다. 이전에는 이 검사가 데이터 웨어하우스 요청에 적용된 단일 세그먼트를 검색했으며(적용된 여러 세그먼트를 제외함), true이면 경고 알림을 반환했습니다. 이 변경 사항은 세그먼트에 대한 데이터 웨어하우스 제품 호환성 확인에 영향을 주지 않습니다. |
 | [!UICONTROL Workspace]에서 [!UICONTROL 시작/종료 수]를 계산하는 방법 변경 | 2020년 4월 7일 | 2020년 3월 현재 [!UICONTROL Analysis Workspace]에서 _없음_ 값이 [!UICONTROL 시작/종료]와 상호 작용하는 방식을 변경했습니다. 이제 _Analysis Workspace_&#x200B;에서 [!UICONTROL 없음]을 켜거나 끌 수 있으므로 시작 또는 종료 후에 _없음_&#x200B;을 적용하지만 기존에는(eVars의 경우) 이전에 적용되었습니다. 예를 들어, 방문의 첫 번째 히트에는 eVar에 대한 값이 없다고 가정하지만 두 번째 히트에는 값이 있다고 가정합니다. [!UICONTROL Reports &amp; Analytics]에서는 시작에 대해 _지정되지 않음_&#x200B;으로 표시되지만 [!UICONTROL Analysis Workspace]에서는 두 번째 히트에 대한 값으로 표시됩니다. |
 | **[!UICONTROL 전환 수준]** 설정의 EOL | 2020년 3월 3일 | [관리 도구](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/general-acct-settings-admin.html) > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 일반 계정 설정]**&#x200B;에서 작동하지 않는 **[!UICONTROL 전환 수준]** 설정은 2020년 3월 12일에 인터페이스에서 제거됩니다. |
 | **[!UICONTROL 대시보드 아카이브]**&#x200B;의 EOL | 2020년 3월 27일 | [!UICONTROL Reports &amp; Analytics]의 **[!UICONTROL 대시보드 관리]** 아래에 있는 **[!UICONTROL 아카이브 보기]** 설정은 2020년 10월부터 더 이상 사용할 수 없습니다. |
