@@ -4,8 +4,8 @@ description: Experience Cloud 릴리스 노트 템플릿
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: ht
-source-git-commit: bdd987971b9bb9afbc97847642c5d797f122e67d
+translation-type: tm+mt
+source-git-commit: a9f229b5766e90c4fef37d5c35f055856aa42f5a
 
 ---
 
@@ -189,6 +189,8 @@ Adobe Audience Manager의 새로운 기능 및 수정 사항:
 
 | 기능 | 설명 |
 | -----------| ---------- |  
+| [예측 고객](../features/algorithmic-models/predictive-audiences.md) | [!UICONTROL 예측] 대상을 사용하면 고급 데이터 과학 기법을 사용하여 알 수 없는 고객을 고유한 개인으로 실시간으로 분류할 수 있습니다. <br><br> 마케팅 컨텍스트에서는 방문자, 사용자 또는 잠재 구매자가 정의한 고객 세그먼트로, 인구 통계, 탐색 습관, 쇼핑 내역 등과 같은 특정 트레이트를 공유합니다.<br><br>[!UICONTROL 예측] 대상 모델은 Audience Manager의 머신 러닝 기능을 사용하여 알 수 없는 고객을 별개의 개인으로 분류할 수 있으므로 이러한 개념을 한 단계 더 발전시켰습니다. <br><br>Adobe Audience Manager를 사용하면 알 수 없는 자사 고객의 알려진 자사 고객 성향을 파악하여 이를 달성할 수 있습니다. |
+| Additional [!UICONTROL Profile Merge Rules] Enhancements | [!UICONTROL 프로필 병합 규칙을] 통해 Audience Manager 고객은 장치가 아닌 ID를 기반으로 고객 세그먼트를 정의, 관리 및 활성화할 수 있습니다. <br><br> 4월 29일부터 Audience Manager 고객은 개별 세그멘테이션 및 Audience Manager UI의 벌크 보고 내에서 트레이트 및 세그먼트에 대한 장치 및 장치 간 ID 모집단의 분류를 더 잘 이해할 수 있습니다. <br><br> 이를 통해 Adobe Audience Manager의 ID에 대한 통찰력을 높일 수 있으므로 고객은 디바이스, 개인 및 가구별 총 세그먼트 인구를 종합적으로 파악할 수 있습니다. 장치 간 및 장치 ID의 벌크 트레이트 내보내기도 이러한 개선 사항을 반영하도록 업데이트됩니다.<br><br>  특정 업데이트에는 다음과 같은 기능이 포함됩니다. <ul><li>일반 및 [트렌드](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/reference/ids-in-aam.html) 보고서에서 [크로스 장치](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/general-reports.html) ID에 대해 [](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/trend-reports.html) 보고합니다.</li><li>세그먼트 [!UICONTROL 빌더에서] 트레이트 [선택기를 강화하여](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/segments/segment-builder.html) CRM ID에서 키잉된 트레이트 모집단을 [포함시킵니다](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/reference/ids-in-aam.html).</li><li>크로스 디바이스 ID에서 키잉된 정확한 트레이트 내보내기 [생성](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/reference/ids-in-aam.html);</li><li>장치 ID에서 키잉된 정확한 트레이트 내보내기를 [](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/reference/ids-in-aam.html) 만듭니다(인증된 트레이트를 제외해야 함).</li><li>BAAAM 도구를 사용하여 요청할 때 [CRM ID와](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/reference/ids-in-aam.html) 연결된 트레이트에 대한 올바른 [수를](https://docs.adobe.com/help/ko-KR/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html) 반환합니다.</li></ul> |
 | [주요 고객 지원 문제](https://docs.adobe.com/content/help/en/audience-manager/user-guide/top-support-issues/support-issues-overview.html) | 고객 지원 팀에서 가장 자주 받는 질문에 대한 답변이 포함된 새로운 섹션을 설명서 포털에 추가했습니다. |
 
 * 모바일 디바이스 ID가 포함된 세그먼트에 대한 [주소 지정 가능한 고객](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/addressable-audiences.html)에 대해 부정확하게 보고하는 문제를 수정했습니다. 이 업데이트 후에, [주소 지정 가능한 고객](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/addressable-audiences.html)이 증가할 수도 있습니다.
