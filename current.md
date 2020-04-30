@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: a9f229b5766e90c4fef37d5c35f055856aa42f5a
+source-git-commit: d3802d290f1d5192e5bc31f4003ee12fd0ad1ff4
 
 ---
 
@@ -23,14 +23,14 @@ source-git-commit: a9f229b5766e90c4fef37d5c35f055856aa42f5a
 
 **릴리스 날짜: 2020년 4월**
 
-최신 업데이트 날짜: **2020년 4월 29일**
+최신 업데이트 날짜: **2020년 4월 30일**
 
 (특정 릴리스 날짜는 다를 수 있음.)
 
 * [Adobe 시스템 상태](#status)
 * [Experience Platform](#platform)
 * [!DNL Analytics](#analytics) **(업데이트 날짜: 4월 29일)**
-* [Audience Manager](#aam)
+* [Audience Manager](#aam) ( **4월 30일 업데이트)**
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
 * [!DNL Target](https://docs.adobe.com/content/help/ko-KR/target/using/release-notes/target-release-notes.html)(Target 도움말 페이지 링크)
@@ -186,6 +186,8 @@ AN-212151; AN-214343; AN-215017; AN-115525; AN-123869; AN-101871; AN-152580; AN-
 ## ![아이콘](/assets/audience-manager.png) Audience Manager{#aam}
 
 Adobe Audience Manager의 새로운 기능 및 수정 사항:
+
+**(업데이트 날짜: 4월 30일)**
 
 | 기능 | 설명 |
 | -----------| ---------- |  
