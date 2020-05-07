@@ -4,8 +4,11 @@ description: Experience Cloud 릴리스 노트 템플릿
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bf3e1b2ed24c2f106ee3e6bfcc888ffa7eda7ba0
+workflow-type: ht
+source-wordcount: '3637'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,7 @@ source-git-commit: bf3e1b2ed24c2f106ee3e6bfcc888ffa7eda7ba0
 * [Adobe 시스템 상태](#status)
 * [Experience Platform](#platform)
 * [!DNL Analytics](#analytics) **(업데이트 날짜: 4월 29일)**
-* [Audience Manager](#aam) ( **4월 30일 업데이트)**
+* [Audience Manager](#aam) **(업데이트 날짜: 4월 30일)**
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
 * [!DNL Target](https://docs.adobe.com/content/help/ko-KR/target/using/release-notes/target-release-notes.html)(Target 도움말 페이지 링크)
@@ -191,8 +194,8 @@ Adobe Audience Manager의 새로운 기능 및 수정 사항:
 
 | 기능 | 설명 |
 | -----------| ---------- |  
-| [예측 고객](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html) | [!UICONTROL 예측] 대상을 사용하면 고급 데이터 과학 기법을 사용하여 알 수 없는 고객을 고유한 개인으로 실시간으로 분류할 수 있습니다. <br><br> 마케팅 컨텍스트에서는 방문자, 사용자 또는 잠재 구매자가 정의한 고객 세그먼트로, 인구 통계, 탐색 습관, 쇼핑 내역 등과 같은 특정 트레이트를 공유합니다.<br><br>[!UICONTROL 예측] 대상 모델은 Audience Manager의 머신 러닝 기능을 사용하여 알 수 없는 고객을 별개의 개인으로 분류할 수 있으므로 이러한 개념을 한 단계 더 발전시켰습니다. <br><br>Adobe Audience Manager를 사용하면 알 수 없는 자사 고객의 알려진 자사 고객 성향을 파악하여 이를 달성할 수 있습니다. |
-| Additional [!UICONTROL Profile Merge Rules] Enhancements | [!UICONTROL 프로필 병합 규칙을] 통해 Audience Manager 고객은 장치가 아닌 ID를 기반으로 고객 세그먼트를 정의, 관리 및 활성화할 수 있습니다. <br><br> 4월 29일부터 Audience Manager 고객은 개별 세그멘테이션 및 Audience Manager UI의 벌크 보고 내에서 트레이트 및 세그먼트에 대한 장치 및 장치 간 ID 모집단의 분류를 더 잘 이해할 수 있습니다. <br><br> 이를 통해 Adobe Audience Manager의 ID에 대한 통찰력을 높일 수 있으므로 고객은 디바이스, 개인 및 가구별 총 세그먼트 인구를 종합적으로 파악할 수 있습니다. 장치 간 및 장치 ID의 벌크 트레이트 내보내기도 이러한 개선 사항을 반영하도록 업데이트됩니다.<br><br>  특정 업데이트에는 다음과 같은 기능이 포함됩니다. <ul><li>일반 및 [트렌드](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/reference/ids-in-aam.html) 보고서에서 [크로스 장치](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/general-reports.html) ID에 대해 [](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/trend-reports.html) 보고합니다.</li><li>세그먼트 [!UICONTROL 빌더에서] 트레이트 [선택기를 강화하여](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/segments/segment-builder.html) CRM ID에서 키잉된 트레이트 모집단을 [포함시킵니다](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/reference/ids-in-aam.html).</li><li>크로스 디바이스 ID에서 키잉된 정확한 트레이트 내보내기 [생성](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/reference/ids-in-aam.html);</li><li>장치 ID에서 키잉된 정확한 트레이트 내보내기를 [](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/reference/ids-in-aam.html) 만듭니다(인증된 트레이트를 제외해야 함).</li><li>BAAAM 도구를 사용하여 요청할 때 [CRM ID와](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/reference/ids-in-aam.html) 연결된 트레이트에 대한 올바른 [수를](https://docs.adobe.com/help/ko-KR/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html) 반환합니다.</li></ul> |
+| [Predictive Audiences](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html) | [!UICONTROL Predictive Audiences]를 사용하면 고급 데이터 과학 기술을 사용하여 알 수 없는 대상을 고유한 개인으로 실시간 분류할 수 있습니다. <br><br> 마케팅 컨텍스트에서 모습은 인구 통계, 탐색 습관, 쇼핑 내역 등과 같은 특정 트레이트를 공유하는 방문자, 사용자 또는 잠재 구매자가 정의한 대상 세그먼트입니다.<br><br>[!UICONTROL Predictive Audiences] 모델은 Audience Manager의 머신 러닝 기능을 사용하여 알 수 없는 대상을 뚜렷한 모습으로 분류할 수 있으므로 이러한 개념을 한 단계 더 발전시킵니다. <br><br>Audience Manager를 사용하면 알려진 자사 대상 세트에 대해 알 수 없는 자사 대상의 성향을 계산하여 이를 달성할 수 있습니다. |
+| 추가 [!UICONTROL 프로필 병합 규칙] 개선 사항 | [!UICONTROL 프로필 병합 규칙]을 통해 Audience Manager 고객은 장치가 아닌 ID를 기반으로 대상 세그먼트를 정의, 관리 및 활성화할 수 있습니다. <br><br> 4월 29일부터 Audience Manager 고객은 개별 세그멘테이션 및 Audience Manager UI의 대량 보고 내의 트레이트 및 세그먼트에 대한 장치 및 교차 장치 ID 모집단의 분류를 더 잘 이해할 수 있습니다. <br><br> 이를 통해 Audience Manager 내의 ID에 대한 통찰력을 향상시킬 수 있으므로 고객은 장치, 개인 및 가족 구성원의 총 세그먼트 모집단을 종합적으로 파악할 수 있습니다. 장치 간 및 장치 ID의 대량 트레이트 내보내기도 이러한 개선 사항을 반영하도록 업데이트됩니다.<br><br>  구체적인 업데이트에 포함되는 기능은 다음과 같습니다. <ul><li>[일반](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/reporting/general-reports.html) 및 [트렌드 보고서](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/reporting/trend-reports.html)에서 [교차 장치 ID](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/reference/ids-in-aam.html)에 대해  보고합니다.</li><li>[CRM ID](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/reference/ids-in-aam.html)에서 처리된 트레이트 모집단을 포함하도록 [세그먼트 빌더](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/segments/segment-builder.html)에서 [!UICONTROL 트레이트 선택기]를 향상시킵니다.</li><li>[교차 장치 ID](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/reference/ids-in-aam.html)에서 처리된 정확한 트레이트 내보내기를 생성합니다.</li><li>[장치 ID](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/reference/ids-in-aam.html)에서 처리된 정확한 트레이트 내보내기를 만듭니다(인증된 트레이트를 제외해야 함).</li><li>[BAAAM](https://docs.adobe.com/help/ko-KR/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html) 도구를 사용하여 요청한 경우 [CRM ID](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/reference/ids-in-aam.html)와 연결된 트레이트에 대한 올바른 개수를 반환합니다.</li></ul> |
 | [주요 고객 지원 문제](https://docs.adobe.com/content/help/en/audience-manager/user-guide/top-support-issues/support-issues-overview.html) | 고객 지원 팀에서 가장 자주 받는 질문에 대한 답변이 포함된 새로운 섹션을 설명서 포털에 추가했습니다. |
 
 * 모바일 디바이스 ID가 포함된 세그먼트에 대한 [주소 지정 가능한 고객](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/addressable-audiences.html)에 대해 부정확하게 보고하는 문제를 수정했습니다. 이 업데이트 후에, [주소 지정 가능한 고객](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/addressable-audiences.html)이 증가할 수도 있습니다.
@@ -254,7 +257,7 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 | [로컬 AEM 런타임 설정](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html) | AEM(Adobe Experience Manager)은 AEM을 클라우드 서비스 SDK의 [!UICONTROL QuickStart Jar]로 사용하여 로컬에서 실행할 수 있습니다. 이 경우 개발자는 소스 제어에 커밋하기 전에 사용자 지정 코드, 구성 및 콘텐츠를 배포하고 테스트하고, AEM에 클라우드 서비스 환경으로 배포할 수 있습니다. |
 | [탐색](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/authoring/navigation.html) | AEM Assets 탐색에 대한 기본 사항을 살펴보십시오. |
 | [버전](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/versions.html) | AEM에서 자산 버전을 만들고 유지 관리하는 방법을 알아봅니다. |
-| [AEM - [!DNL Magento] [!UICONTROL Commerce Integration Framework]를 사용하여 통합](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/getting-started.html) | 이 비디오에는 AEM과 [!DNL Magento]간의 통합 설정을 안내합니다. |
+| [ [!DNL Magento] AEM - [!UICONTROL Commerce Integration Framework를 사용하여 통합]](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/getting-started.html) | 이 비디오에는 AEM과 [!DNL Magento]간의 통합 설정을 안내합니다. |
 | [AEM 아키텍처 스택 소개](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/underlying-technology/introduction-architecture.html) | CIF 프로젝트 원형은 CIF 코어 구성 요소를 사용하여 고객 프로젝트의 시작점으로 최소 AEM(Adobe Experience Manager) CIF 프로젝트를 만듭니다. |
 | [OSGi 소개](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/underlying-technology/introduction-osgi.html) | Adobe Experience Manager의 기반이 되는 Java 애플리케이션의 동적 모듈식 아키텍처인 OSGi를 소개합니다. |
 | [JCR(Java Content Repository) 소개](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/underlying-technology/introduction-jcr.html) | Adobe Experience Manager에서 사용하는 JCR(Java Content Repository)을 소개합니다. |
