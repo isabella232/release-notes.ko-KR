@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: ht
-source-git-commit: bf3e1b2ed24c2f106ee3e6bfcc888ffa7eda7ba0
+source-git-commit: 77e4ac05707d9aa42ddf2e7fb93027b3226058e9
 workflow-type: ht
-source-wordcount: '3637'
+source-wordcount: '3632'
 ht-degree: 100%
 
 ---
@@ -89,7 +89,7 @@ Adobe는 모든 Experience Cloud 애플리케이션에서 사용자 경험을 �
 Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실시간으로 지능적으로 예측하여 경험 채널에서 규모에 맞게 개별 고객 여정을 편성합니다.
 
 * [설명서](https://docs.adobe.com/content/help/ko-KR/journeys/using/journey-orchestration-home.html)
-* [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/journeys/using/release-notes/release-notes.html)
+* [릴리스 노트](http://www.adobe.com/go/platform-release-notes-en)
 * [방법 비디오](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
 
 ### Mobile Services 및 Mobile SDK {#mobile}
