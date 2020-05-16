@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b41cdd18c7e3251218bf41aee62979e5f79a4c2a
+source-git-commit: de8c5772f391dffac4458a736f0e0ea38c53c701
 workflow-type: tm+mt
-source-wordcount: '4722'
-ht-degree: 39%
+source-wordcount: '4764'
+ht-degree: 38%
 
 ---
 
@@ -346,39 +346,41 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 ### Campaign Standard
 
-제어판 릴리스:
-
-| 기능 | 설명 |
-| -----------| ---------- |  
-| GPG 키 관리 | Campaign에서 전송된 데이터를 암호화하고 들어오는 데이터를 해독하기 위해 마케팅 인스턴스에 GPG 키를 설치 및/또는 생성합니다. |
-| CNAME 하위 도메인을 위한 인증서 관리 | 이제 제어판에서 CNAME 메서드로 위임된 하위 도메인의 SSL 인증서를 갱신할 수 있습니다. |
-
-* [Adobe Campaign Standard 20.3](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/release-notes/release-notes.html)
+* [Adobe Campaign Standard 20.3 릴리스](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/release-notes/release-notes.html)
 
 ### Campaign Classic
 
 * [Adobe Campaign Classic 20.1.3](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html#release-20-1-3-build-9124)
 * [Adobe Campaign Classic 19.1.4](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/release-notes/previous-releases/release--19-1.html#release-19-1-4-build-9032)
 
-### 새로운 Campaign Standard 자습서{#tutorials-acs}
+### 캠페인 제어판
+
+| 기능 | 설명 |
+| -----------| ---------- |  
+| GPG 키 관리 | Campaign에서 전송된 데이터를 암호화하고 들어오는 데이터를 해독하기 위해 마케팅 인스턴스에 GPG 키를 설치 및/또는 생성합니다. |
+| CNAME 하위 도메인을 위한 인증서 관리 | 이제 제어판에서 CNAME 메서드로 위임된 하위 도메인의 SSL 인증서를 갱신할 수 있습니다. |
+
+### 새 캠페인 자습서
+
+* 새로운 Campaign Standard 자습서
 
 | 컨텐츠 | 설명 |
 | -----------| ---------- |  
 | [제어판 - Google TXT 레코드 관리](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html) | 캠페인 제어판에서 GMAIL 주소로 이메일을 전송하는 데 사용되는 모든 하위 도메인에 Google TXT 사이트 확인 레코드를 추가하는 방법을 알아봅니다. |
 | [외부 API 활동을 사용하여 워크플로우 구성 및 실행](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html) | 외부 API 활동을 사용하여 외부 REST API 끝점을 호출하는 방법을 알아봅니다. |
-| (ACS) [Android용 푸시 알림 시작하기-자습서](https://jira.corp.adobe.com/browse/KT-3846) | 이 자습서에서는 ACS 및 Android 앱을 사용하여 푸시 알림을 설정하는 데 필요한 단계에 대해 설명합니다. |
+| (ACS) [Android용 푸시 알림 시작하기-자습서](https://docs.adobe.com/content/help/en/campaign-standard-learn/getting-started-with-push-notifications-android/introduction.html) | 이 자습서에서는 Campaign Standard 및 Android 앱을 사용하여 푸시 알림을 설정하는 데 필요한 단계에 대해 설명합니다. |
 
-### New Campaign Classic tutorials {#tutorials-acc}
+* 새 Campaign Classic 자습서
 
 | 컨텐츠 | 설명 |
 | -----------| ---------- |  
 | [Snowflake의 빅데이터 관리](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/fda/big-data-segmentation-on-snowflake.html) | Adobe Campaign Classic에서 Snowflake 커넥터를 활용하는 방법을 이해합니다. |
 | [제어판 - Google TXT 레코드 관리](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/google-txt-record-management.html) | 캠페인 제어판에서 GMAIL 주소로 이메일을 전송하는 데 사용되는 모든 하위 도메인에 Google TXT 사이트 확인 레코드를 추가하는 방법을 알아봅니다. |
 
-### 추가 캠페인 도움말 리소스
+### 캠페인 도움말 리소스
 
-* Adobe Campaign Standard: [설명서](https://helpx.adobe.com/kr/support/campaign/standard.html) - [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/release-notes/release-notes.html) - [기능 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [릴리스 계획](https://helpx.adobe.com/kr/campaign/kb/acs-release-planning.html)
-* Adobe Campaign Classic: [설명서](https://helpx.adobe.com/kr/support/campaign/classic.html) - [릴리스 노트](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [기능 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+* Adobe Campaign Standard: [도움말 센터](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/campaign-standard-home.html) - [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/release-notes/release-notes.html) - [사용 방법 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [릴리스 계획](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-planning.htmll) [] - 최신 문서 업데이트최신 문서 업데이트(https://docs.adobe.com/content/help/en/campaign-standard/using/documentation-updates.html)
+* Adobe Campaign Classic: [도움말 센터](https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html) - [릴리스 노트](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [사용 방법 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)- [최신 설명서 업데이트] (https://docs.adobe.com/content/help/en/campaign-classic/using/documentation-updates.html)
 * Adobe Campaign 제어판: [설명서](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html) - [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
 
 ## ![아이콘](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
