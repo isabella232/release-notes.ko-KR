@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: de8c5772f391dffac4458a736f0e0ea38c53c701
+source-git-commit: ea42901b975981a10d42b9681d494604c385018c
 workflow-type: tm+mt
-source-wordcount: '4764'
+source-wordcount: '4766'
 ht-degree: 38%
 
 ---
@@ -50,6 +50,8 @@ ht-degree: 38%
 ## ![아이콘](/assets/adobe.png) Adobe 시스템 상태 {#status}
 
 [!UICONTROL Adobe 시스템 상태]는 Adobe 클라우드 제품 및 서비스 중단, 중단 및 유지 관리 이벤트에 대한 자세한 정보, 상태 업데이트 및 이메일 알림을 제공합니다. [status.adobe.com](https://status.adobe.com/)에서 관련 정보를 확인하십시오.
+
+릴리스 날짜: **2020년 5월 21일**
 
 **새로운 기능**
 
