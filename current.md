@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8ed0b98440cd68357d792abaec2a99dccbfa47dc
+source-git-commit: 2cd60d72cfd5fa7d7ab0a17ba230162601f69b13
 workflow-type: tm+mt
-source-wordcount: '4766'
+source-wordcount: '4768'
 ht-degree: 38%
 
 ---
@@ -370,7 +370,7 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 | -----------| ---------- |  
 | [제어판 - Google TXT 레코드 관리](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html) | 캠페인 제어판에서 GMAIL 주소로 이메일을 전송하는 데 사용되는 모든 하위 도메인에 Google TXT 사이트 확인 레코드를 추가하는 방법을 알아봅니다. |
 | [외부 API 활동을 사용하여 워크플로우 구성 및 실행](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html) | 외부 API 활동을 사용하여 외부 REST API 끝점을 호출하는 방법을 알아봅니다. |
-| (ACS) [Android용 푸시 알림 시작하기-자습서](https://docs.adobe.com/content/help/en/campaign-standard-learn/getting-started-with-push-notifications-android/introduction.html) | 이 자습서에서는 Campaign Standard 및 Android 앱을 사용하여 푸시 알림을 설정하는 데 필요한 단계에 대해 설명합니다. |
+| [Android용 푸시 알림 시작하기-자습서](https://docs.adobe.com/content/help/en/campaign-standard-learn/getting-started-with-push-notifications-android/introduction.html) | 이 자습서에서는 Campaign Standard 및 Android 앱을 사용하여 푸시 알림을 설정하는 데 필요한 단계에 대해 설명합니다. |
 
 * 새 Campaign Classic 자습서
 
@@ -381,8 +381,8 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 ### 캠페인 도움말 리소스
 
-* Adobe Campaign Standard: [도움말 센터](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/campaign-standard-home.html) - [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/release-notes/release-notes.html) - [사용 방법 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [릴리스 계획](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-planning.htmll) [] - 최신 문서 업데이트최신 문서 업데이트(https://docs.adobe.com/content/help/en/campaign-standard/using/documentation-updates.html)
-* Adobe Campaign Classic: [도움말 센터](https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html) - [릴리스 노트](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [사용 방법 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)- [최신 설명서 업데이트] (https://docs.adobe.com/content/help/en/campaign-classic/using/documentation-updates.html)
+* Adobe Campaign Standard: [도움말 센터](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/campaign-standard-home.html) - [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/release-notes/release-notes.html) - [사용 방법 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [릴리스 계획](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-planning.html) [- 최신 설명서 업데이트](https://docs.adobe.com/content/help/en/campaign-standard/using/documentation-updates.html)
+* Adobe Campaign Classic: [도움말 센터](https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html) - [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/release-notes/latest-release.html) - [사용 방법 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)- [최신 설명서 업데이트](https://docs.adobe.com/content/help/en/campaign-classic/using/documentation-updates.html)
 * Adobe Campaign 제어판: [설명서](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html) - [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
 
 ## ![아이콘](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
