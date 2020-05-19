@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2cd60d72cfd5fa7d7ab0a17ba230162601f69b13
+source-git-commit: e10656f2a2d2180295c61b7aad9e75391e23ccbd
 workflow-type: tm+mt
-source-wordcount: '4768'
+source-wordcount: '4800'
 ht-degree: 38%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 38%
 
 **릴리스 날짜: 2020년 5월**
 
-최신 업데이트: **2020년 5월 16일**
+최신 업데이트: **2020년 5월 19일**
 
 * [Adobe 시스템 상태](#status)
 * [Experience Cloud 인터페이스](#ecloud)
@@ -161,6 +161,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 | Adobe Experience [!UICONTROL Platform Edge Network에 대한 분석 지원] | 단일 태그를 사용하여 Adobe Analytics, Adobe Target, Adobe Audience Manager, Adobe Experience Platform Data Lake, Unified Profile 및 Experience Cloud ID Service와 같은 여러 Adobe 솔루션으로 데이터를 전송할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/experience-platform/edge/home.html) |
 | [!UICONTROL Adobe Analytics 대시보드] | [!UICONTROL Adobe Analytics 대시보드는] 사용자가 언제 어디서나 Adobe Analytics에서 얻은 인사이트에 액세스할 수 있는 모바일 앱입니다. 이 앱은 주요 지표에 대한 이동 중에 액세스하려는 경영진에게 적합합니다. 선별된 대화형 스코어카드에 액세스할 수 있으며 iOS와 Android 운영 체제 모두에서 사용할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/home.html) |
 | [!UICONTROL 작업 영역][!UICONTROL : 빈 상태에서 자유 형식 테이블 자동 작성] | Previously, you could not drop components directly into a blank project or blank panel; you had to add a [!UICONTROL Freeform Table] first. You can now drop components directly into a blank project or panel, and a [!UICONTROL Freeform Table] is automatically built for you in a recommended format. 또한, 빈 자유 형식 테이블로 함께 드롭될 때 혼합 구성 요소 유형(예: 차원 및 지표)이 처리되는 방식이 개선되었습니다. |
+| [!UICONTROL 기능 액세스 수준] 페이지에 [!UICONTROL 추가된 Adobe Analytics] 패키지 | 이제 회사에서 관리 > [!UICONTROL 회사 설정] > [!UICONTROL 기능 액세스] 수준 페이지에서 [!UICONTROL 권한이 부여된] Adobe Analytics 패키지 [!UICONTROL (SKU)를 볼 수] 있습니다. |
 
 #### Adobe Analytics 수정 사항
 
