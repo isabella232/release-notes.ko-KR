@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 99e67d659f3da76d0613629dfc7e7d853a9e1349
+source-git-commit: 16d1b900c55d8e9674275c4113298a109de09df6
 workflow-type: tm+mt
-source-wordcount: '4798'
+source-wordcount: '4811'
 ht-degree: 38%
 
 ---
@@ -98,6 +98,10 @@ Adobe는 모든 Experience Cloud 애플리케이션에서 경험을 통합하고
 | Places Service | `experience.adobe.com/places` |
 | Software Distribution | `experience.adobe.com/downloads` |
 | 관리 도구(베타) | `experience.adobe.com/admin` |
+
+>[!NOTE]
+>
+>**[!UICONTROL Marketing Cloud Assets]**&#x200B;선택기의 기존 필터인 [!UICONTROL 보드 및 컬렉션이] 중단되었습니다.
 
 ## ![아이콘](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
