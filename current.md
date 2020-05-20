@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 16d1b900c55d8e9674275c4113298a109de09df6
+source-git-commit: 4ad9ee85f4eba950bf6cc1a6a18ece9d3eb5e61a
 workflow-type: tm+mt
-source-wordcount: '4811'
+source-wordcount: '4835'
 ht-degree: 38%
 
 ---
@@ -166,6 +166,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 | [!UICONTROL Adobe Analytics 대시보드] | [!UICONTROL Adobe Analytics 대시보드는] 사용자가 언제 어디서나 Adobe Analytics에서 얻은 인사이트에 액세스할 수 있는 모바일 앱입니다. 이 앱은 주요 지표에 대한 이동 중에 액세스하려는 경영진에게 적합합니다. 선별된 대화형 스코어카드에 액세스할 수 있으며 iOS와 Android 운영 체제 모두에서 사용할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/home.html) |
 | [!UICONTROL 작업 영역][!UICONTROL : 빈 상태에서 자유 형식 테이블 자동 작성] | Previously, you could not drop components directly into a blank project or blank panel; you had to add a [!UICONTROL Freeform Table] first. You can now drop components directly into a blank project or panel, and a [!UICONTROL Freeform Table] is automatically built for you in a recommended format. 또한, 빈 자유 형식 테이블로 함께 드롭될 때 혼합 구성 요소 유형(예: 차원 및 지표)이 처리되는 방식이 개선되었습니다. |
 | [!UICONTROL 기능 액세스 수준] 페이지에 [!UICONTROL 추가된 Adobe Analytics] 패키지 | 이제 회사에서 [관리] > [ [!UICONTROL 회사 설정] ] > [ **[!UICONTROL 기능]** 액세스 **[!UICONTROL 수준]에서 사용할 수 있는]** Adobe Analytics 패키지 **[!UICONTROL (SKU)]**&#x200B;를 볼 수 있습니다. |
+| 향상된 접근성 | Adobe Analytics 팀은 향상된 키보드 탐색, 색상 대비 및 화면 판독기 지원을 포함하여 분석 작업 공간에 대한 액세스 가능성 향상을 수행했습니다. |
 
 #### Adobe Analytics 수정 사항
 
