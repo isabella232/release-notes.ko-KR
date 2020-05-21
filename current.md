@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c0a5d3cca0320f8459aeb4ee34bfd655d032c23c
+source-git-commit: 2a41fbc7e69c9c2a262c71e20808e6b672037c6a
 workflow-type: tm+mt
-source-wordcount: '4895'
-ht-degree: 95%
+source-wordcount: '5024'
+ht-degree: 92%
 
 ---
 
@@ -145,6 +145,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 * [Customer Journey Analytics의 새로운 기능](#cust-journey)
 * [Adobe Analytics의 새로운 기능](#aa-features)
 * [Analytics 관리자를 위한 중요 정보](#aa-notices) (**2020년 5월 21일 업데이트**)
+* [Adobe Analytics 수정](#aa-fixes) 사항(**2020년 5월 21일 업데이트**)
 * [AppMeasurement](#appm)
 * [새로운 Analytics 자습서](#tutorials-analytics)
 
@@ -168,8 +169,10 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 | [!UICONTROL 기능 액세스 수준] 페이지에 [!UICONTROL 추가된 Adobe Analytics] 패키지 | 이제 회사에서 [관리] > [ [!UICONTROL 회사 설정] ] > [ **[!UICONTROL 기능]** 액세스 **[!UICONTROL 수준]에서 사용할 수 있는]** Adobe Analytics 패키지 **[!UICONTROL (SKU)]**&#x200B;를 볼 수 있습니다. |
 | 향상된 접근성 | Adobe Analytics 팀은 향상된 키보드 탐색, 색상 대비 및 화면 판독기 지원을 포함하여 분석 작업 공간에 대한 액세스 가능성 향상을 수행했습니다. |
 
-#### Adobe Analytics 수정 사항
+#### Adobe Analytics 수정 사항(#aa-fixes)
 
+* Adobe는 체류 [!UICONTROL 시간] 지표를 &quot;없음&quot;을 포함하지 않도록 변경했습니다. 즉, UI가 없음을 포함할지 여부에 관계없이 체류 시간 계산에서 &quot;없음&quot;을 항상 제외하도록 특별한 예외 [!UICONTROL 를] 합니다. 따라서 체류 [!UICONTROL 시간] 지표를 &quot;포함 없음&quot;으로 포함하는 보고서를 구성한 경우에도 &quot;없음&quot; 라인 항목에 대해 체류 시간 0을 반환합니다. 이 경우 보고 API v1.4뿐만 아니라 보고 및 분석의 기록 보고가 변경될 수 있습니다. (AN-197958)
+* 인스턴스/방문/방문자가 체류 [!UICONTROL 시간 지표에 대한 분모로 계산되지 않는 문제를] 수정했습니다.  이 문제는 차원에 대한 값이 없는 히트(예: [!UICONTROL 페이지 이름])가 같은 초 뒤에 올 때 발생합니다. (AN-211074)
 * Audience Manager에서 [!DNL Analytics] 세그먼트 데이터가 누락되었던 문제가 해결되었습니다. (AN-206221)
 * [!UICONTROL Data Sources] 처리 시 잘못된 날짜를 표시하는 문제가 해결되었습니다. (AN-213604)
 * 분류 파일이 FTP에 제대로 업로드되지 않는 문제가 해결되었습니다. (AN-214102)
