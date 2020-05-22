@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 36c098558e178fdaea0bab49528e54a93980ac0b
+source-git-commit: 4bdb8dde04f55703e52aca1295aad03374f3eb25
 workflow-type: tm+mt
 source-wordcount: '4998'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 92%
 
 | 기능 | 설명 |
 | -----------| ---------- |
-| 향상된 구독 및 알림 사용자 경험 | <ul><li>[!DNL Marketo Engage] 지역 위치는 이제 선택한 제품 제공 목록을 기반으로 필터링됩니다.</li><li>[!DNL Marketo Engage] 이메일 알림은 사용자의 지역, 위치 및 환경 설정과 관련이 있습니다.</li></ul> |
+| 향상된 구독 및 알림 사용자 경험 | <ul><li>[!DNL Marketo Engage] 지역 위치는 이제 선택한 제품 제공 목록을 기반으로 필터링됩니다.</li><li>[!DNL Marketo Engage] 전자 메일 알림은 사용자의 지역, 위치 및 환경 설정과 관련이 있습니다.</li></ul> |
 | 이벤트 구독 확인 | <ul><li>이제 진행 중인 단일 이벤트 업데이트를 구독하면 전자 메일 확인이 제공됩니다.</li></ul> |
 | 전역 탐색 유용성 개선 사항 | <ul><li>`Adobe.com`의 최상위 탐색 메뉴에서 일관적인 사용자 경험 제공.</li></ul> |
 
@@ -97,7 +97,7 @@ Adobe는 모든 Experience Cloud 애플리케이션에서 사용자 경험을 �
 
 >[!NOTE]
 >
->**[!UICONTROL Marketing Cloud Assets]**&#x200B;선택기의 기존 필터인 [!UICONTROL 보드 및 컬렉션이] 중단되었습니다.
+>[!UICONTROL Marketing Cloud Assets] 선택기의 기존 필터인 **[!UICONTROL 보드 및 컬렉션]**&#x200B;이 중단되었습니다.
 
 ## ![아이콘](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
@@ -162,13 +162,13 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 | [!UICONTROL Adobe Experience Platform Edge Network]에 대한 분석 지원 | 단일 태그를 사용하여 Adobe Analytics, Adobe Target, Adobe Audience Manager, Adobe Experience Platform Data Lake, Unified Profile 및 Experience Cloud ID Service 등 여러 Adobe 솔루션으로 데이터를 전송할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/en/experience-platform/edge/solutions/analytics/analytics-overview.html) |
 | [!UICONTROL Adobe Analytics 대시보드] | [!UICONTROL Adobe Analytics 대시보드]는 사용자가 언제 어디서나 Adobe Analytics에서 제공되는 인사이트에 액세스할 수 있도록 해주는 모바일 앱입니다. 이 앱은 이동 중에 주요 지표를 확인하려는 경영진에게 적합합니다. 엄선된 대화형 스코어카드에 액세스할 수 있으며 iOS와 Android 운영 체제 모두에서 사용할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/mobapp/home.html) |
 | [!UICONTROL 작업 영역][!UICONTROL : 빈 상태에서 자유 형식 테이블 자동 작성] | 이전에는 구성 요소를 빈 프로젝트 또는 빈 패널에 직접 끌어 놓을 수 없었습니다. [!UICONTROL 자유 형식 테이블]을 먼저 추가해야 했습니다. 이제 구성 요소를 빈 프로젝트 또는 패널에 직접 끌어 놓을 수 있으며, [!UICONTROL 자유 형식 테이블]이 권장 형식으로 자동으로 작성됩니다. 또한 빈 자유 형식 테이블에 함께 끌어 놓을 때 혼합 구성 요소 유형(예: 차원 및 지표)이 처리되는 방식이 개선되었습니다. |
-| [!UICONTROL 기능 액세스 수준] 페이지에 [!UICONTROL 추가된 Adobe Analytics] 패키지 | 이제 회사에서 [관리] > [ [!UICONTROL 회사 설정] ] > [ **[!UICONTROL 기능]** 액세스 **[!UICONTROL 수준]에서 사용할 수 있는]** Adobe Analytics 패키지 **[!UICONTROL (SKU)]**&#x200B;를 볼 수 있습니다. |
-| 향상된 접근성 | Adobe Analytics 팀은 향상된 키보드 탐색, 색상 대비 및 화면 판독기 지원을 포함하여 분석 작업 공간에 대한 액세스 가능성 향상을 수행했습니다. |
+| [!UICONTROL 기능 액세스 수준] 페이지에 [!UICONTROL Adobe Analytics 패키지] 추가 | 이제 **[!UICONTROL 관리자]** > **[!UICONTROL 회사 설정]** > **[!UICONTROL 기능 액세스 수준]**&#x200B;에서 귀사에 부여된 [!UICONTROL Adobe Analytics 패키지](SKU)를 볼 수 있습니다. |
+| 접근성 향상 | Adobe Analytics 팀은 향상된 키보드 탐색, 색상 대비 및 화면 판독기 지원을 포함하여 분석 Analysis Workspace에 대한 액세스 가능성 향상을 수행했습니다. |
 
 #### Adobe Analytics 수정 사항(#aa-fixes)
 
-* Adobe는 체류 [!UICONTROL 시간] 지표를 &quot;없음&quot;을 포함하지 않도록 변경했습니다. 즉, UI가 없음을 포함할지 여부에 관계없이 체류 시간 계산에서 &quot;없음&quot;을 항상 제외하도록 특별한 예외 [!UICONTROL 를] 합니다. 따라서 체류 [!UICONTROL 시간] 지표를 &quot;포함 없음&quot;으로 포함하는 보고서를 구성한 경우에도 &quot;없음&quot; 라인 항목에 대해 체류 시간 0을 반환합니다. 이 경우 보고 API v1.4뿐만 아니라 보고 및 분석의 기록 보고가 변경될 수 있습니다. (AN-197958)
-* 인스턴스/방문/방문자가 체류 [!UICONTROL 시간 지표에 대한 분모로 계산되지 않는 문제를] 수정했습니다.  이 문제는 차원에 대한 값이 없는 히트(예: [!UICONTROL 페이지 이름])가 같은 초 뒤에 올 때 발생합니다. (AN-211074)
+* Adobe는 [!UICONTROL 체류] 시간 지표를 계산에 &quot;지정되지 않음&quot;이 포함되지 않도록 변경했습니다. 즉, UI에서 &quot;지정되지 않음&quot;을 포함할지 여부에 관계없이, 체류 시간 계산에서 항상 &quot;지정되지 않음&quot;을 제외하도록 [!UICONTROL 특별한 예외를] 만듭니다. 따라서 체류 [!UICONTROL 시간] 지표가 포함된 보고서를 &quot;지정되지 않음&quot;을 포함하도록 구성한 경우에도 항상 &quot;지정되지 않음&quot; 라인 항목에 대해 체류 시간 0을 반환합니다. 보고 및 분석과 보고 API v1.4의 내역 보고는 변경될 수 있습니다. (AN-197958)
+* 인스턴스/방문/방문자가 체류 [!UICONTROL 시간 지표에 대한 분모로 계산되지 않는 문제를] 수정했습니다.  이 문제는 차원에 대한 값이 없는 히트(예: [!UICONTROL Pagename])가 같은 초 뒤에 올 때 발생합니다. (AN-211074)
 * Audience Manager에서 [!DNL Analytics] 세그먼트 데이터가 누락되었던 문제가 해결되었습니다. (AN-206221)
 * [!UICONTROL Data Sources] 처리 시 잘못된 날짜를 표시하는 문제가 해결되었습니다. (AN-213604)
 * 분류 파일이 FTP에 제대로 업로드되지 않는 문제가 해결되었습니다. (AN-214102)
@@ -361,14 +361,14 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 * [Adobe Campaign Classic 20.1.3](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/release-notes/latest-release.html#release-20-1-3-build-9124)
 * [Adobe Campaign Classic 19.1.4](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/release-notes/previous-releases/release--19-1.html#release-19-1-4-build-9032)
 
-### 캠페인 제어판
+### Campaign 컨트롤 패널
 
 | 기능 | 설명 |
 | -----------| ---------- |  
 | GPG 키 관리 | Campaign에서 전송된 데이터를 암호화하고 수신되는 데이터를 해독하기 위해 마케팅 인스턴스에 GPG 키를 설치 및/또는 생성합니다. |
 | CNAME 하위 도메인을 위한 인증서 관리 | 이제 제어판에서 CNAME 메서드로 위임된 하위 도메인의 SSL 인증서를 갱신할 수 있습니다. |
 
-### 새 캠페인 자습서
+### 새로운 Campaign 자습서
 
 * 새로운 Campaign Standard 자습서
 
@@ -387,8 +387,8 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 ### 캠페인 도움말 리소스
 
-* Adobe Campaign Standard: [도움말 센터](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/campaign-standard-home.html) - [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/release-notes/release-notes.html) - [사용 방법 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [릴리스 계획](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-planning.html) [- 최신 설명서 업데이트](https://docs.adobe.com/content/help/en/campaign-standard/using/documentation-updates.html)
-* Adobe Campaign Classic: [도움말 센터](https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html) - [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/release-notes/latest-release.html) - [사용 방법 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)- [최신 설명서 업데이트](https://docs.adobe.com/content/help/en/campaign-classic/using/documentation-updates.html)
+* Adobe Campaign Standard: [도움말 센터](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/campaign-standard-home.html) - [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/release-notes/release-notes.html) - [사용 방법 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [릴리스 계획](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/release-notes/release-planning.html) [- 최신 설명서 업데이트](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/documentation-updates.html)
+* Adobe Campaign Classic: [도움말 센터](https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html) - [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/release-notes/latest-release.html) - [사용 방법 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)- [최신 설명서 업데이트](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/documentation-updates.html)
 * Adobe Campaign 제어판: [설명서](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html) - [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
 
 ## ![아이콘](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
