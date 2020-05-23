@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 4bdb8dde04f55703e52aca1295aad03374f3eb25
+source-git-commit: 1784b66efbcd85c25145fbf5b84f95c0285412ab
 workflow-type: tm+mt
-source-wordcount: '4998'
+source-wordcount: '4997'
 ht-degree: 95%
 
 ---
@@ -165,7 +165,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 | [!UICONTROL 기능 액세스 수준] 페이지에 [!UICONTROL Adobe Analytics 패키지] 추가 | 이제 **[!UICONTROL 관리자]** > **[!UICONTROL 회사 설정]** > **[!UICONTROL 기능 액세스 수준]**&#x200B;에서 귀사에 부여된 [!UICONTROL Adobe Analytics 패키지](SKU)를 볼 수 있습니다. |
 | 접근성 향상 | Adobe Analytics 팀은 향상된 키보드 탐색, 색상 대비 및 화면 판독기 지원을 포함하여 분석 Analysis Workspace에 대한 액세스 가능성 향상을 수행했습니다. |
 
-#### Adobe Analytics 수정 사항(#aa-fixes)
+#### Adobe Analytics 수정 사항 {#aa-fixes}
 
 * Adobe는 [!UICONTROL 체류] 시간 지표를 계산에 &quot;지정되지 않음&quot;이 포함되지 않도록 변경했습니다. 즉, UI에서 &quot;지정되지 않음&quot;을 포함할지 여부에 관계없이, 체류 시간 계산에서 항상 &quot;지정되지 않음&quot;을 제외하도록 [!UICONTROL 특별한 예외를] 만듭니다. 따라서 체류 [!UICONTROL 시간] 지표가 포함된 보고서를 &quot;지정되지 않음&quot;을 포함하도록 구성한 경우에도 항상 &quot;지정되지 않음&quot; 라인 항목에 대해 체류 시간 0을 반환합니다. 보고 및 분석과 보고 API v1.4의 내역 보고는 변경될 수 있습니다. (AN-197958)
 * 인스턴스/방문/방문자가 체류 [!UICONTROL 시간 지표에 대한 분모로 계산되지 않는 문제를] 수정했습니다.  이 문제는 차원에 대한 값이 없는 히트(예: [!UICONTROL Pagename])가 같은 초 뒤에 올 때 발생합니다. (AN-211074)
