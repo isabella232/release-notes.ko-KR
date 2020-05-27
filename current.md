@@ -4,11 +4,11 @@ description: Experience Cloud 릴리스 노트 템플릿
 doc-type: release notes
 last-update: May 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: be366e4ce14fe1f095ba60b85cc9adcd633cb3eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5040'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -162,7 +162,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 | [!UICONTROL Adobe Experience Platform Edge Network]에 대한 분석 지원 | 단일 태그를 사용하여 Adobe Analytics, Adobe Target, Adobe Audience Manager, Adobe Experience Platform Data Lake, Unified Profile 및 Experience Cloud ID Service 등 여러 Adobe 솔루션으로 데이터를 전송할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/experience-platform/edge/solutions/analytics/analytics-overview.html) |
 | [!UICONTROL Adobe Analytics 대시보드] | [!UICONTROL Adobe Analytics 대시보드]는 사용자가 언제 어디서나 Adobe Analytics에서 제공되는 인사이트에 액세스할 수 있도록 해주는 모바일 앱입니다. 이 앱은 이동 중에 주요 지표를 확인하려는 경영진에게 적합합니다. 엄선된 대화형 스코어카드에 액세스할 수 있으며 iOS와 Android 운영 체제 모두에서 사용할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/mobapp/home.html) |
 | [!UICONTROL 작업 영역][!UICONTROL : 빈 상태에서 자유 형식 테이블 자동 작성] | 이전에는 구성 요소를 빈 프로젝트 또는 빈 패널에 직접 끌어 놓을 수 없었습니다. [!UICONTROL 자유 형식 테이블]을 먼저 추가해야 했습니다. 이제 구성 요소를 빈 프로젝트 또는 패널에 직접 끌어 놓을 수 있으며, [!UICONTROL 자유 형식 테이블]이 권장 형식으로 자동으로 작성됩니다. 또한 빈 자유 형식 테이블에 함께 끌어 놓을 때 혼합 구성 요소 유형(예: 차원 및 지표)이 처리되는 방식이 개선되었습니다. |
-| [!UICONTROL 기능 액세스 수준] 페이지에 [!UICONTROL Adobe Analytics 패키지] 추가 | 이제 **[!UICONTROL 관리자]** > **[!UICONTROL 회사 설정]** > **[!UICONTROL 기능 액세스 수준]**&#x200B;에서 귀사에 부여된 [!UICONTROL Adobe Analytics 패키지](SKU)를 볼 수 있습니다. |
+| [!UICONTROL 기능 액세스 수준] 페이지에 [!UICONTROL Adobe Analytics 패키지] 추가 | 이제 **[!UICONTROL 관리자]** > **[!UICONTROL 회사 설정]** > **[!UICONTROL 기능 액세스 수준]**&#x200B;에서 귀사에 부여된 [!UICONTROL Adobe Analytics 패키지] (SKU)를 볼 수 있습니다. |
 | 접근성 향상 | Adobe Analytics 팀은 향상된 키보드 탐색, 색상 대비 및 화면 판독기 지원을 포함하여 분석 Analysis Workspace에 대한 액세스 가능성 향상을 수행했습니다. |
 
 #### Adobe Analytics 수정 사항 {#aa-fixes}
@@ -210,7 +210,7 @@ AN-101871, AN-115525; AN-123869; AN-152580; AN-160480; AN-178128; AN-186907; AN-
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | -----------| ---------- | ---------- |
-| 타사 기술 화이트 리스트 | 2020년 3월 12일 (시행일) | Adobe Analytics는 기능 롤아웃 관리 및 제품 내 지원을 위한 타사 기술을 활용하기 시작했습니다. 다음 URL을 필요한 네트워크 방화벽 허용 목록에 추가하여 전체 기능 액세스를 보장해야 합니다.<ul><li>승자: https://esp.aptrinsic.com</li><li>LaunchDarkly: https://app.launchdarkly.com</li></ul> |
+| 타사 기술 화이트리스트 | 2020년 3월 12일(유효 날짜) | Adobe Analytics는 기능 롤아웃 관리 및 제품 내 지원을 위한 타사 기술을 활용하기 시작했습니다. 모든 기능에 액세스하려면 필수 네트워크 방화벽 화이트리스트에 다음 URL을 추가해야 합니다.<ul><li>Gainsight: https://esp.aptrinsic.com</li><li>LaunchDarkly: https://app.launchdarkly.com</li></ul> |
 | Analysis Workspace 가용성을 위한 중복성 개선 | 2020년 5월 21일 | Analysis Workspace의 가용성을 보장하기 위해 중복성을 향상시키기 위해 보조 CDN(Content Delivery Network)을 추가하고 있습니다. 필요한 네트워크 방화벽 허용 목록에 다음 URL을 추가해야 합니다.<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul> |
 | [!UICONTROL Workspace]에서 [!UICONTROL 시작/종료 수]를 계산하는 방법 변경 | 2020년 4월 7일 | 2020년 3월 현재 [!UICONTROL Analysis Workspace]에서 _없음_ 값이 [!UICONTROL 시작/종료]와 상호 작용하는 방식을 변경했습니다. 이제 _Analysis Workspace_&#x200B;에서 [!UICONTROL 없음]을 켜거나 끌 수 있으므로 시작 또는 종료 후에 _없음_&#x200B;을 적용하지만 기존에는(eVars의 경우) 시작 또는 종료 이전에 적용되었습니다. 예를 들어, 방문의 첫 번째 히트에는 eVar에 대한 값이 없다고 가정하지만 두 번째 히트에는 값이 있다고 가정합니다. [!UICONTROL Reports &amp; Analytics]에서는 첫 번째 히트가 시작에 대해 _지정되지 않음_&#x200B;으로 표시되지만 [!UICONTROL Analysis Workspace]에서는 두 번째 히트에 대한 값으로 표시됩니다. |
 | **[!UICONTROL 전환 수준]** 설정의 EOL | 2020년 3월 3일 | [관리 도구](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/general-acct-settings-admin.html) > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 일반 계정 설정]**&#x200B;에서 작동하지 않는 **[!UICONTROL 전환 수준]** 설정은 2020년 3월 12일에 인터페이스에서 제거됩니다. |
