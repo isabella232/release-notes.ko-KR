@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8296d1788e4768e12b7dcbb6b520c534419d6360
+source-git-commit: 5283f48c529ee5d1eca229bbd0164bb9e8864aa6
 workflow-type: tm+mt
-source-wordcount: '5161'
-ht-degree: 97%
+source-wordcount: '5201'
+ht-degree: 99%
 
 ---
 
@@ -138,11 +138,11 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 ## ![아이콘](/assets/analytics.png) [!DNL Analytics] {#analytics}
 
-Updated **May 27, 2020**
+**2020년 5월 27일**&#x200B;에 업데이트됨
 
 * [Customer Journey Analytics의 새로운 기능](#cust-journey)
 * [Adobe Analytics의 새로운 기능](#aa-features)
-* [미디어 분석의 새로운 기능](#media-aa) (2020년&#x200B;**5월 27일 업데이트**)
+* [Media Analytics의 새로운 기능](#media-aa) (**2020년 5월 27일 업데이트됨**)
 * [Analytics 관리자를 대상으로 한 중요 공지](#aa-notices)**(업데이트 날짜: 2020년 5월 26일**)
 * [Adobe Analytics 수정 사항](#aa-fixes)(**2020년 5월 21일 업데이트**)
 * [AppMeasurement](#appm)
@@ -168,16 +168,16 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 | [!UICONTROL 기능 액세스 수준] 페이지에 [!UICONTROL Adobe Analytics 패키지] 추가 | 이제 **[!UICONTROL 관리자]** > **[!UICONTROL 회사 설정]** > **[!UICONTROL 기능 액세스 수준]**&#x200B;에서 귀사에 부여된 [!UICONTROL Adobe Analytics 패키지]&amp;#x200B;(SKU)를 볼 수 있습니다. |
 | 접근성 향상 | Adobe Analytics 팀은 향상된 키보드 탐색, 색상 대비 및 화면 판독기 지원을 포함하여 분석 Analysis Workspace에 대한 액세스 가능성 향상을 수행했습니다. |
 
-#### New features in [!UICONTROL Media Analytics] {#media-aa}
+#### [!UICONTROL Media Analytics]의 새로운 기능 {#media-aa}
 
-Date added: **May 27, 2020**
+추가된 날짜: **2020년 5월 27일**
 
-**플레이어 상태 추적:** [!UICONTROL Media Analytics] 고객은 전체 화면, 자막, 음소거, PIP(Picture-in-Picture) 및 초점이 맞춰진 표준 솔루션 변수를 사용하여 재생하는 동안 뷰어 상호 작용을 캡처할 수 있습니다. 사용자 정의 플레이어 상태를 만들 수 있는 유연성도 있습니다. 이제 [!UICONTROL 분석 작업 공간에서 플레이어 상태 추적 변수를 보고할 수 있습니다]. 이 기능을 사용하려면 다음 중 하나가 필요합니다.
+**플레이어 상태 추적:** [!UICONTROL Media Analytics] 고객은 전체 화면, 자막, 음소거, PIP(Picture-in-Picture) 및 인포커스에 대한 표준 솔루션 변수 세트를 사용하여 재생 중 뷰어 상호 작용을 캡처할 수 있습니다. 또한 사용자 정의 플레이어 상태를 생성할 수 있는 유연성을 가지게 됩니다. 이제 플레이어 상태 추적 변수를 [!UICONTROL Analysis Workspace] 보고에서 확인할 수 있습니다. 이 기능을 사용하려면 다음 중 하나가 필요합니다.
 
 * Media [!DNL JavaScript] SDK 3.0 이상
-* (AEP) [!DNL Adobe Experience Platform] SDK와 함께 사용하는 경우:
-   * [!UICONTROL 미디어 분석 확장] (웹용): [!UICONTROL 오디오 및 비디오 v1.0 이상용 Adobe Media Analytics] (3.x SDK)
-   * [!UICONTROL 미디어 분석 확장] (모바일용): [!UICONTROL Adobe Media Analytics for Audio] and Video v2.0 이상
+* [!DNL Adobe Experience Platform] (AEP) SDK와 함께 사용하는 경우:
+   * [!UICONTROL Media Analytics 확장 프로그램](웹용): 오디오 및 비디오 v1.0 이상용 [!UICONTROL Adobe Media Analytics](3.x SDK)
+   * [!UICONTROL Media Analytics 확장 프로그램](모바일용): 오디오 및 비디오 v2.0 이상용 [!UICONTROL Adobe Media Analytics]
 * [!UICONTROL 미디어 컬렉션]
 
 콘텐츠 링크 제공 예정
@@ -227,7 +227,8 @@ AN-101871, AN-115525; AN-123869; AN-152580; AN-160480; AN-178128; AN-186907; AN-
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | -----------| ---------- | ---------- |
-| 타사 기술 화이트리스트 | 2020년 3월 12일(유효 날짜) | Adobe Analytics는 기능 롤아웃 관리 및 제품 내 지원을 위한 타사 기술을 활용하기 시작했습니다. 모든 기능에 액세스하려면 필수 네트워크 방화벽 화이트리스트에 다음 URL을 추가해야 합니다.<ul><li>Gainsight: https://esp.aptrinsic.com</li><li>LaunchDarkly: https://app.launchdarkly.com</li></ul> |
+| 새 Adobe Analytics 기본 랜딩 페이지 | 효력 발생일: 2020년 6월 18일 | 2020년 6월 18일에 Adobe Analytics의 기본 랜딩 페이지가 [!UICONTROL 보고서] 에서 [!UICONTROL 작업 공간으로]변경됩니다. 이 변경 사항은 이전에 사용자 지정 랜딩 페이지를 설정하지 않은 모든 사용자에 대해 발생합니다. |
+| 타사 기술 화이트리스트 | (시행일: 2020년 3월 12일 | Adobe Analytics는 기능 롤아웃 관리 및 제품 내 지원을 위한 타사 기술을 활용하기 시작했습니다. 모든 기능에 액세스하려면 필수 네트워크 방화벽 화이트리스트에 다음 URL을 추가해야 합니다.<ul><li>Gainsight: https://esp.aptrinsic.com</li><li>LaunchDarkly: https://app.launchdarkly.com</li></ul> |
 | Analysis Workspace 가용성을 위한 중복성 개선 | 2020년 5월 21일 | Analysis Workspace의 가용성을 보장하기 위해 중복성을 향상시키기 위해 보조 CDN(Content Delivery Network)을 추가하고 있습니다. 필요한 네트워크 방화벽 허용 목록에 다음 URL을 추가해야 합니다.<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul> |
 | [!UICONTROL Workspace]에서 [!UICONTROL 시작/종료 수]를 계산하는 방법 변경 | 2020년 4월 7일 | 2020년 3월 현재 [!UICONTROL Analysis Workspace]에서 _없음_ 값이 [!UICONTROL 시작/종료]와 상호 작용하는 방식을 변경했습니다. 이제 _Analysis Workspace_&#x200B;에서 [!UICONTROL 없음]을 켜거나 끌 수 있으므로 시작 또는 종료 후에 _없음_&#x200B;을 적용하지만 기존에는(eVars의 경우) 시작 또는 종료 이전에 적용되었습니다. 예를 들어, 방문의 첫 번째 히트에는 eVar에 대한 값이 없다고 가정하지만 두 번째 히트에는 값이 있다고 가정합니다. [!UICONTROL Reports &amp; Analytics]에서는 첫 번째 히트가 시작에 대해 _지정되지 않음_&#x200B;으로 표시되지만 [!UICONTROL Analysis Workspace]에서는 두 번째 히트에 대한 값으로 표시됩니다. |
 | **[!UICONTROL 전환 수준]** 설정의 EOL | 2020년 3월 3일 | [관리 도구](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/general-acct-settings-admin.html) > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 일반 계정 설정]**&#x200B;에서 작동하지 않는 **[!UICONTROL 전환 수준]** 설정은 2020년 3월 12일에 인터페이스에서 제거됩니다. |
