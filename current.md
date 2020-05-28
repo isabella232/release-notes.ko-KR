@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: fd2f8976431bd49e32939414b71f08edbe9e245e
+source-git-commit: 0256f7a16a4a3b0909d83256d82e5f44cafa43da
 workflow-type: tm+mt
-source-wordcount: '5159'
-ht-degree: 97%
+source-wordcount: '5042'
+ht-degree: 99%
 
 ---
 
@@ -142,7 +142,7 @@ Updated **May 27, 2020**
 
 * [Customer Journey Analytics의 새로운 기능](#cust-journey)
 * [Adobe Analytics의 새로운 기능](#aa-features)
-* [미디어 분석의 새로운 기능](#media-aa) (2020년&#x200B;**5월 27일 업데이트**)
+<!-- * [New features in Media Analytics](#media-aa) (**Updated May 27, 2020**) -->
 * [Analytics 관리자를 대상으로 한 중요 공지](#aa-notices)**(업데이트 날짜: 2020년 5월 26일**)
 * [Adobe Analytics 수정 사항](#aa-fixes)(**2020년 5월 21일 업데이트**)
 * [AppMeasurement](#appm)
@@ -168,17 +168,17 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 | [!UICONTROL 기능 액세스 수준] 페이지에 [!UICONTROL Adobe Analytics 패키지] 추가 | 이제 **[!UICONTROL 관리자]** > **[!UICONTROL 회사 설정]** > **[!UICONTROL 기능 액세스 수준]**&#x200B;에서 귀사에 부여된 [!UICONTROL Adobe Analytics 패키지]&amp;#x200B;(SKU)를 볼 수 있습니다. |
 | 접근성 향상 | Adobe Analytics 팀은 향상된 키보드 탐색, 색상 대비 및 화면 판독기 지원을 포함하여 분석 Analysis Workspace에 대한 액세스 가능성 향상을 수행했습니다. |
 
-#### New features in [!UICONTROL Media Analytics] {#media-aa}
+<!-- #### New features in [!UICONTROL Media Analytics] {#media-aa}
 
 Date added: **May 27, 2020**
 
-**플레이어 상태 추적:** [!UICONTROL Media Analytics] 고객은 전체 화면, 자막, 음소거, PIP(Picture-in-Picture) 및 초점이 맞춰진 표준 솔루션 변수를 사용하여 재생하는 동안 뷰어 상호 작용을 캡처할 수 있습니다. 사용자 정의 플레이어 상태를 만들 수 있는 유연성도 있습니다. 이제 [!UICONTROL 분석 작업 공간에서 플레이어 상태 추적 변수를 보고할 수 있습니다]. 이 기능을 사용하려면 다음 중 하나가 필요합니다.
+**Player State Tracking:** [!UICONTROL Media Analytics] customers can capture viewer interaction during playback using a standard set of solution variables for full screen, closed captioning, mute, picture-in-picture, and in-focus. You also have the flexibility to create custom player states. Player State Tracking variables are now available for reporting in [!UICONTROL Analysis Workspace]. This feature requires one of the following:
 
-* Media [!DNL JavaScript] SDK 3.0 이상
-* (AEP) [!DNL Adobe Experience Platform] SDK와 함께 사용하는 경우:
-   * [!UICONTROL 미디어 분석 확장] (웹용): [!UICONTROL 오디오 및 비디오 v1.0 이상용 Adobe Media Analytics] (3.x SDK)
-   * [!UICONTROL 미디어 분석 확장] (모바일용): [!UICONTROL Adobe Media Analytics for Audio] and Video v2.0 이상
-* [!UICONTROL Media Collection API]
+* Media [!DNL JavaScript] SDK 3.0 or higher
+* For use with the [!DNL Adobe Experience Platform] (AEP) SDK:
+  * [!UICONTROL Media Analytics Extension] (for web): [!UICONTROL Adobe Media Analytics] (3.x SDK) for Audio and Video v1.0 or higher
+  * [!UICONTROL Media Analytics Extension] (for mobile): [!UICONTROL Adobe Media Analytics for Audio] and Video v2.0 or higher
+* [!UICONTROL Media Collection] API -->
 
 #### Adobe Analytics 수정 사항 {#aa-fixes}
 
