@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: be366e4ce14fe1f095ba60b85cc9adcd633cb3eb
+source-git-commit: fd2f8976431bd49e32939414b71f08edbe9e245e
 workflow-type: tm+mt
-source-wordcount: '5040'
-ht-degree: 100%
+source-wordcount: '5159'
+ht-degree: 97%
 
 ---
 
@@ -26,12 +26,12 @@ ht-degree: 100%
 
 **릴리스 날짜: 2020년 5월**
 
-최근 업데이트: **2020년 5월 26일**
+최근 업데이트: **2020년 5월 27일**
 
 * [Adobe 시스템 상태](#status)
 * [Experience Cloud 인터페이스](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) (**2020년 5월 26일에 업데이트됨**)
+* [!DNL Analytics](#analytics) (**2020년 5월 27일에 업데이트됨**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -138,8 +138,11 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 ## ![아이콘](/assets/analytics.png) [!DNL Analytics] {#analytics}
 
+Updated **May 27, 2020**
+
 * [Customer Journey Analytics의 새로운 기능](#cust-journey)
 * [Adobe Analytics의 새로운 기능](#aa-features)
+* [미디어 분석의 새로운 기능](#media-aa) (2020년&#x200B;**5월 27일 업데이트**)
 * [Analytics 관리자를 대상으로 한 중요 공지](#aa-notices)**(업데이트 날짜: 2020년 5월 26일**)
 * [Adobe Analytics 수정 사항](#aa-fixes)(**2020년 5월 21일 업데이트**)
 * [AppMeasurement](#appm)
@@ -164,6 +167,18 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 | [!UICONTROL 작업 영역][!UICONTROL : 빈 상태에서 자유 형식 테이블 자동 작성] | 이전에는 구성 요소를 빈 프로젝트 또는 빈 패널에 직접 끌어 놓을 수 없었습니다. [!UICONTROL 자유 형식 테이블]을 먼저 추가해야 했습니다. 이제 구성 요소를 빈 프로젝트 또는 패널에 직접 끌어 놓을 수 있으며, [!UICONTROL 자유 형식 테이블]이 권장 형식으로 자동으로 작성됩니다. 또한 빈 자유 형식 테이블에 함께 끌어 놓을 때 혼합 구성 요소 유형(예: 차원 및 지표)이 처리되는 방식이 개선되었습니다. |
 | [!UICONTROL 기능 액세스 수준] 페이지에 [!UICONTROL Adobe Analytics 패키지] 추가 | 이제 **[!UICONTROL 관리자]** > **[!UICONTROL 회사 설정]** > **[!UICONTROL 기능 액세스 수준]**&#x200B;에서 귀사에 부여된 [!UICONTROL Adobe Analytics 패키지]&amp;#x200B;(SKU)를 볼 수 있습니다. |
 | 접근성 향상 | Adobe Analytics 팀은 향상된 키보드 탐색, 색상 대비 및 화면 판독기 지원을 포함하여 분석 Analysis Workspace에 대한 액세스 가능성 향상을 수행했습니다. |
+
+#### New features in [!UICONTROL Media Analytics] {#media-aa}
+
+Date added: **May 27, 2020**
+
+**플레이어 상태 추적:** [!UICONTROL Media Analytics] 고객은 전체 화면, 자막, 음소거, PIP(Picture-in-Picture) 및 초점이 맞춰진 표준 솔루션 변수를 사용하여 재생하는 동안 뷰어 상호 작용을 캡처할 수 있습니다. 사용자 정의 플레이어 상태를 만들 수 있는 유연성도 있습니다. 이제 [!UICONTROL 분석 작업 공간에서 플레이어 상태 추적 변수를 보고할 수 있습니다]. 이 기능을 사용하려면 다음 중 하나가 필요합니다.
+
+* Media [!DNL JavaScript] SDK 3.0 이상
+* (AEP) [!DNL Adobe Experience Platform] SDK와 함께 사용하는 경우:
+   * [!UICONTROL 미디어 분석 확장] (웹용): [!UICONTROL 오디오 및 비디오 v1.0 이상용 Adobe Media Analytics] (3.x SDK)
+   * [!UICONTROL 미디어 분석 확장] (모바일용): [!UICONTROL Adobe Media Analytics for Audio] and Video v2.0 이상
+* [!UICONTROL Media Collection API]
 
 #### Adobe Analytics 수정 사항 {#aa-fixes}
 
