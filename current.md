@@ -4,9 +4,9 @@ description: Experience Cloud 릴리스 노트 템플릿
 doc-type: release notes
 last-update: May 2020
 author: mfrei
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 5283f48c529ee5d1eca229bbd0164bb9e8864aa6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '5201'
 ht-degree: 100%
 
