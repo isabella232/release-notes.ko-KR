@@ -176,8 +176,8 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 
 * Media [!DNL JavaScript] SDK 3.0 이상
 * [!DNL Adobe Experience Platform] (AEP) SDK와 함께 사용하는 경우:
-   * [!UICONTROL Media Analytics 확장 프로그램](웹용): 오디오 및 비디오 v1.0 이상용 [!UICONTROL Adobe Media Analytics](3.x SDK)
-   * [!UICONTROL Media Analytics 확장 프로그램](모바일용): 오디오 및 비디오 v2.0 이상용 [!UICONTROL Adobe Media Analytics]
+   * [!UICONTROL Media Analytics 확장 프로그램] (웹용): 오디오 및 비디오 v1.0 이상용 [!UICONTROL Adobe Media Analytics](3.x SDK)
+   * [!UICONTROL Media Analytics 확장 프로그램] (모바일용): 오디오 및 비디오 v2.0 이상용 [!UICONTROL Adobe Media Analytics]
 * [!UICONTROL 미디어 컬렉션]
 
 콘텐츠 링크 제공 예정
