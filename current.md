@@ -4,11 +4,11 @@ description: Experience Cloud 릴리스 노트 템플릿
 doc-type: release notes
 last-update: May 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5283f48c529ee5d1eca229bbd0164bb9e8864aa6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5201'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -227,7 +227,7 @@ AN-101871, AN-115525; AN-123869; AN-152580; AN-160480; AN-178128; AN-186907; AN-
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | -----------| ---------- | ---------- |
-| 새 Adobe Analytics 기본 랜딩 페이지 | 효력 발생일: 2020년 6월 18일 | 2020년 6월 18일에 Adobe Analytics의 기본 랜딩 페이지가 [!UICONTROL 보고서] 에서 [!UICONTROL 작업 공간으로]변경됩니다. 이 변경 사항은 이전에 사용자 지정 랜딩 페이지를 설정하지 않은 모든 사용자에 대해 발생합니다. |
+| 새 Adobe Analytics 기본 랜딩 페이지 | 시행일: 2020년 6월 18일 | 2020년 6월 18일에 Adobe Analytics의 기본 랜딩 페이지가 [!UICONTROL 보고서]에서 [!UICONTROL 작업 공간]으로 변경됩니다. 이 변경 사항은 이전에 사용자 지정 랜딩 페이지를 설정하지 않은 모든 사용자에게 발생합니다. |
 | 타사 기술 화이트리스트 | (시행일: 2020년 3월 12일 | Adobe Analytics는 기능 롤아웃 관리 및 제품 내 지원을 위한 타사 기술을 활용하기 시작했습니다. 모든 기능에 액세스하려면 필수 네트워크 방화벽 화이트리스트에 다음 URL을 추가해야 합니다.<ul><li>Gainsight: https://esp.aptrinsic.com</li><li>LaunchDarkly: https://app.launchdarkly.com</li></ul> |
 | Analysis Workspace 가용성을 위한 중복성 개선 | 2020년 5월 21일 | Analysis Workspace의 가용성을 보장하기 위해 중복성을 향상시키기 위해 보조 CDN(Content Delivery Network)을 추가하고 있습니다. 필요한 네트워크 방화벽 허용 목록에 다음 URL을 추가해야 합니다.<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul> |
 | [!UICONTROL Workspace]에서 [!UICONTROL 시작/종료 수]를 계산하는 방법 변경 | 2020년 4월 7일 | 2020년 3월 현재 [!UICONTROL Analysis Workspace]에서 _없음_ 값이 [!UICONTROL 시작/종료]와 상호 작용하는 방식을 변경했습니다. 이제 _Analysis Workspace_&#x200B;에서 [!UICONTROL 없음]을 켜거나 끌 수 있으므로 시작 또는 종료 후에 _없음_&#x200B;을 적용하지만 기존에는(eVars의 경우) 시작 또는 종료 이전에 적용되었습니다. 예를 들어, 방문의 첫 번째 히트에는 eVar에 대한 값이 없다고 가정하지만 두 번째 히트에는 값이 있다고 가정합니다. [!UICONTROL Reports &amp; Analytics]에서는 첫 번째 히트가 시작에 대해 _지정되지 않음_&#x200B;으로 표시되지만 [!UICONTROL Analysis Workspace]에서는 두 번째 히트에 대한 값으로 표시됩니다. |
@@ -446,7 +446,7 @@ Magento 릴리스 노트에 대해서는 다음을 참조하십시오.
 
 ### 핵심 Marketo Engage 업데이트
 
-최신 릴리스 정보는 [!DNL Marketo][릴리스 노트](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+Feb+%2720)를 참조하십시오 .
+최신 릴리스 정보는 [!DNL Marketo][릴리스 노트](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+Feb+%2720)를 참조하십시오.
 
 ### 예정된 기능
 
