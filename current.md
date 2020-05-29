@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 5283f48c529ee5d1eca229bbd0164bb9e8864aa6
+source-git-commit: 8e6be9e0d672aceac0cb99ec0973de6122e3ad51
 workflow-type: tm+mt
-source-wordcount: '5201'
-ht-degree: 100%
+source-wordcount: '5212'
+ht-degree: 99%
 
 ---
 
@@ -26,12 +26,12 @@ ht-degree: 100%
 
 **릴리스 날짜: 2020년 5월**
 
-최근 업데이트: **2020년 5월 27일**
+최근 업데이트: **2020년 5월 29일**
 
 * [Adobe 시스템 상태](#status)
 * [Experience Cloud 인터페이스](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) (**2020년 5월 27일에 업데이트됨**)
+* [!DNL Analytics](#analytics) (**2020년 5월 29일에 업데이트됨**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -138,11 +138,11 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 ## ![아이콘](/assets/analytics.png) [!DNL Analytics] {#analytics}
 
-**2020년 5월 27일**&#x200B;에 업데이트됨
+**2020년 5월 29일**&#x200B;에 업데이트됨
 
 * [Customer Journey Analytics의 새로운 기능](#cust-journey)
 * [Adobe Analytics의 새로운 기능](#aa-features)
-* [Media Analytics의 새로운 기능](#media-aa) (**2020년 5월 27일 업데이트됨**)
+* [Media Analytics의 새로운 기능](#media-aa) (**2020년 5월 29일 업데이트됨**)
 * [Analytics 관리자를 대상으로 한 중요 공지](#aa-notices)**(업데이트 날짜: 2020년 5월 26일**)
 * [Adobe Analytics 수정 사항](#aa-fixes)(**2020년 5월 21일 업데이트**)
 * [AppMeasurement](#appm)
@@ -170,7 +170,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 
 #### [!UICONTROL Media Analytics]의 새로운 기능 {#media-aa}
 
-추가된 날짜: **2020년 5월 27일**
+업데이트 날짜: **2020년 5월 29일**
 
 **플레이어 상태 추적:** [!UICONTROL Media Analytics] 고객은 전체 화면, 자막, 음소거, PIP(Picture-in-Picture) 및 인포커스에 대한 표준 솔루션 변수 세트를 사용하여 재생 중 뷰어 상호 작용을 캡처할 수 있습니다. 또한 사용자 정의 플레이어 상태를 생성할 수 있는 유연성을 가지게 됩니다. 이제 플레이어 상태 추적 변수를 [!UICONTROL Analysis Workspace] 보고에서 확인할 수 있습니다. 이 기능을 사용하려면 다음 중 하나가 필요합니다.
 
@@ -180,7 +180,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
    * [!UICONTROL Media Analytics 확장 프로그램] (모바일용): 오디오 및 비디오 v2.0 이상용 [!UICONTROL Adobe Media Analytics]
 * [!UICONTROL 미디어 컬렉션]
 
-콘텐츠 링크 제공 예정
+플레이어 상태 추적 [정보를 참조하십시오](https://docs.adobe.com/content/help/en/media-analytics/using/player-state-tracking/player-state-overview.html).
 
 #### Adobe Analytics 수정 사항 {#aa-fixes}
 
