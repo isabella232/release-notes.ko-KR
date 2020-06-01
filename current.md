@@ -4,11 +4,11 @@ description: Experience Cloud 릴리스 노트 템플릿
 doc-type: release notes
 last-update: May 2020
 author: mfrei
-translation-type: ht
-source-git-commit: 8e6be9e0d672aceac0cb99ec0973de6122e3ad51
-workflow-type: ht
-source-wordcount: '5212'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6c9c4b782fdf3dc9283d98d78d459bd38fef648d
+workflow-type: tm+mt
+source-wordcount: '5322'
+ht-degree: 97%
 
 ---
 
@@ -26,12 +26,12 @@ ht-degree: 100%
 
 **릴리스 날짜: 2020년 5월**
 
-최근 업데이트: **2020년 5월 29일**
+최신 업데이트: **2020년 6월 1일**
 
 * [Adobe 시스템 상태](#status)
 * [Experience Cloud 인터페이스](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) (**2020년 5월 29일에 업데이트됨**)
+* [!DNL Analytics](#analytics) (**업데이트 날짜: 2020년 6월 1일**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -143,7 +143,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 * [Customer Journey Analytics의 새로운 기능](#cust-journey)
 * [Adobe Analytics의 새로운 기능](#aa-features)
 * [Media Analytics의 새로운 기능](#media-aa)(**2020년 5월 29일 업데이트됨**)
-* [Analytics 관리자를 대상으로 한 중요 공지](#aa-notices)**(업데이트 날짜: 2020년 5월 26일**)
+* [Analytics 관리자를 위한 중요 정보](#aa-notices) (**2020년 6월 1일 업데이트**)
 * [Adobe Analytics 수정 사항](#aa-fixes)(**2020년 5월 21일 업데이트**)
 * [AppMeasurement](#appm)
 * [새로운 Analytics 자습서](#tutorials-analytics)
@@ -227,6 +227,7 @@ AN-101871, AN-115525; AN-123869; AN-152580; AN-160480; AN-178128; AN-186907; AN-
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | -----------| ---------- | ---------- |
+| 통합된 제품 도메인으로 마이그레이션 | 효력 발생일: 2020년 5월 28일 | 2020년 1월에 시작된 Adobe Analytics용 통합 제품 도메인으로의 마이그레이션은 2020년 5월 28일에 완료되었습니다. Adobe Analytics에서는 아키텍처에서 모든 `omniture.com` 도메인 참조를 제거하지만 서드 파티 쿠키로 허용 목록 `omniture.com` 을 만드는 것이 중요합니다. 전체 아키텍처 마이그레이션이 곧 완료되면 릴리스 노트를 통해 통지할 것이며 이 허용 목록 단계는 더 이상 필요하지 않습니다. [권장 IP 주소 및 도메인 전체 목록은 다음과 같습니다](https://helpx.adobe.com/kr/analytics/kb/adobe-ip-addresses.html) .<br>조직에서 타사 쿠키를 차단하는 경우 고객 지원 센터에 연락하여 Adobe Analytics에 대한 액세스 권한을 다시 얻으십시오. |
 | 새 Adobe Analytics 기본 랜딩 페이지 | 시행일: 2020년 6월 18일 | 2020년 6월 18일에 Adobe Analytics의 기본 랜딩 페이지가 [!UICONTROL 보고서]에서 [!UICONTROL 작업 공간]으로 변경됩니다. 이 변경 사항은 이전에 사용자 지정 랜딩 페이지를 설정하지 않은 모든 사용자에게 발생합니다. |
 | 타사 기술 화이트리스트 | (시행일: 2020년 3월 12일 | Adobe Analytics는 기능 롤아웃 관리 및 제품 내 지원을 위한 타사 기술을 활용하기 시작했습니다. 모든 기능에 액세스하려면 필수 네트워크 방화벽 화이트리스트에 다음 URL을 추가해야 합니다.<ul><li>Gainsight: https://esp.aptrinsic.com</li><li>LaunchDarkly: https://app.launchdarkly.com</li></ul> |
 | Analysis Workspace 가용성을 위한 중복성 개선 | 2020년 5월 21일 | Analysis Workspace의 가용성을 보장하기 위해 중복성을 향상시키기 위해 보조 CDN(Content Delivery Network)을 추가하고 있습니다. 필요한 네트워크 방화벽 허용 목록에 다음 URL을 추가해야 합니다.<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul> |
