@@ -4,11 +4,11 @@ description: Experience Cloud 릴리스 노트 템플릿
 doc-type: release notes
 last-update: May 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8e6be9e0d672aceac0cb99ec0973de6122e3ad51
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5212'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -142,7 +142,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 * [Customer Journey Analytics의 새로운 기능](#cust-journey)
 * [Adobe Analytics의 새로운 기능](#aa-features)
-* [Media Analytics의 새로운 기능](#media-aa) (**2020년 5월 29일 업데이트됨**)
+* [Media Analytics의 새로운 기능](#media-aa)(**2020년 5월 29일 업데이트됨**)
 * [Analytics 관리자를 대상으로 한 중요 공지](#aa-notices)**(업데이트 날짜: 2020년 5월 26일**)
 * [Adobe Analytics 수정 사항](#aa-fixes)(**2020년 5월 21일 업데이트**)
 * [AppMeasurement](#appm)
@@ -180,7 +180,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
    * [!UICONTROL Media Analytics 확장 프로그램] (모바일용): 오디오 및 비디오 v2.0 이상용 [!UICONTROL Adobe Media Analytics]
 * [!UICONTROL 미디어 컬렉션]
 
-플레이어 상태 추적 [정보를 참조하십시오](https://docs.adobe.com/content/help/en/media-analytics/using/player-state-tracking/player-state-overview.html).
+[플레이어 상태 추적](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/player-state-tracking/player-state-overview.html)에 대해 참조하십시오.
 
 #### Adobe Analytics 수정 사항 {#aa-fixes}
 
