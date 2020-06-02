@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 4e1e40af6c04665ce8a44e4fb30156da2d5d9357
+source-git-commit: 9ca2b181b020052ec1f2cc968e9c2cf1bdfa7fdc
 workflow-type: tm+mt
-source-wordcount: '5379'
-ht-degree: 99%
+source-wordcount: '5386'
+ht-degree: 98%
 
 ---
 
@@ -138,8 +138,6 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 ## ![아이콘](/assets/analytics.png) [!DNL Analytics] {#analytics}
 
-**2020년 5월 29일**&#x200B;에 업데이트됨
-
 * [Customer Journey Analytics의 새로운 기능](#cust-journey)
 * [Adobe Analytics의 새로운 기능](#aa-features) (**업데이트 날짜: 2020년 6월 2일**)
 * [Media Analytics의 새로운 기능](#media-aa)(**2020년 5월 29일 업데이트됨**)
@@ -159,11 +157,11 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 <!--First-Party Domains Available in China RDC: Enables customers with a cn domain to request a 1st-party domain for use inside of Mainland China. Learn more... -->
 
-| 기능 | 일반 가용 일자 | 설명 |
+| 기능 | [Target 일반 가용성 날짜](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) | 설명 |
 | -----------| ------------ | ---------- |
 | 벌크 데이터 삽입 API | 2020년 5월 31일 | Analytics 데이터의 일괄 처리를 쉽고 독립적으로 인제스트할 수 있습니다. 서버측 및 오프라인 데이터에 유용합니다. [추가 정보...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) |
 | [!UICONTROL Adobe Experience Platform Edge Network]에 대한 분석 지원 | 2020년 5월 31일 | 단일 태그를 사용하여 Adobe Analytics, Adobe Target, Adobe Audience Manager, Adobe Experience Platform Data Lake, Unified Profile 및 Experience Cloud ID Service 등 여러 Adobe 솔루션으로 데이터를 전송할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/experience-platform/edge/solutions/analytics/analytics-overview.html) |
-| [!UICONTROL Adobe Analytics 대시보드] | 2020년 5월 31일 | [!UICONTROL Adobe Analytics 대시보드]는 사용자가 언제 어디서나 Adobe Analytics에서 제공되는 인사이트에 액세스할 수 있도록 해주는 모바일 앱입니다. 이 앱은 이동 중에 주요 지표를 확인하려는 경영진에게 적합합니다. 엄선된 대화형 스코어카드에 액세스할 수 있으며 iOS와 Android 운영 체제 모두에서 사용할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/mobapp/home.html) |
+| [!UICONTROL Adobe Analytics 대시보드] | 2020년 5월 21일 | [!UICONTROL Adobe Analytics 대시보드]는 사용자가 언제 어디서나 Adobe Analytics에서 제공되는 인사이트에 액세스할 수 있도록 해주는 모바일 앱입니다. 이 앱은 이동 중에 주요 지표를 확인하려는 경영진에게 적합합니다. 엄선된 대화형 스코어카드에 액세스할 수 있으며 iOS와 Android 운영 체제 모두에서 사용할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/mobapp/home.html) |
 | [!UICONTROL 작업 영역][!UICONTROL : 빈 상태에서 자유 형식 테이블 자동 작성] | [2020년 5월 21일 | 이전에는 구성 요소를 빈 프로젝트 또는 빈 패널에 직접 끌어 놓을 수 없었습니다. [!UICONTROL 자유 형식 테이블]을 먼저 추가해야 했습니다. 이제 구성 요소를 빈 프로젝트 또는 패널에 직접 끌어 놓을 수 있으며, [!UICONTROL 자유 형식 테이블]이 권장 형식으로 자동으로 작성됩니다. 또한 빈 자유 형식 테이블에 함께 끌어 놓을 때 혼합 구성 요소 유형(예: 차원 및 지표)이 처리되는 방식이 개선되었습니다. |
 | [!UICONTROL 기능 액세스 수준] 페이지에 [!UICONTROL Adobe Analytics 패키지] 추가 | 2020년 5월 21일 | 이제 **[!UICONTROL 관리자]** > **[!UICONTROL 회사 설정]** > **[!UICONTROL 기능 액세스 수준]**&#x200B;에서 귀사에 부여된 [!UICONTROL Adobe Analytics 패키지]&amp;#x200B;(SKU)를 볼 수 있습니다. |
 | 접근성 향상 | 2020년 5월 21일 | Adobe Analytics 팀은 향상된 키보드 탐색, 색상 대비 및 화면 판독기 지원을 포함하여 분석 Analysis Workspace에 대한 액세스 가능성 향상을 수행했습니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
