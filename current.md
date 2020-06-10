@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: feb921205059c7ab4ba9d59964fae9b1954d12a0
+source-git-commit: be2f2b5ad468ad63bfcb2fdd67d063203ac08654
 workflow-type: tm+mt
-source-wordcount: '5640'
-ht-degree: 96%
+source-wordcount: '5030'
+ht-degree: 81%
 
 ---
 
@@ -138,41 +138,40 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 ## ![아이콘](/assets/analytics.png) [!DNL Analytics] {#analytics}
 
-* [Adobe Analytics의 새로운 기능](#aa-features) (**2020년 6월 4일 업데이트**)
-* [고객 경로 분석의 새로운 기능](#cust-journey) (2020년 6 **월 4일 업데이트**)
-* [Media Analytics의 새로운 기능](#media-aa)(**2020년 5월 29일 업데이트됨**)
-* [Analytics 관리자를 대상으로 한 중요 공지](#aa-notices)(**업데이트 날짜: 2020년 6월 1일**)
-* [Adobe Analytics 수정 사항](#aa-fixes)(**2020년 5월 21일 업데이트**)
+Updated **June, 2020**
+
+* [Adobe Analytics의 새로운 기능](#aa-features)
+* [Customer Journey Analytics의 새로운 기능](#cust-journey)
+* [Media Analytics](#media-aa)의 새로운 기능
+* [Adobe Analytics 수정 사항](#aa-fixes)
+* [Analytics 관리자에 대한 중요 공지](#aa-notices)
 * [AppMeasurement](#appm)
 * [새로운 Analytics 자습서](#tutorials-analytics)
 
 ### Adobe Analytics의 새로운 기능 {#aa-features}
 
-<!--First-Party Domains Available in China RDC: June 18 - Enables customers with a cn domain to request a 1st-party domain for use inside of Mainland China. Learn more... 
-Anomaly det. support in CJA - June 18; Project Sharing Roles - June 18; Blank panel in WS now includes panels and vizs - June 18; -->
-
-| 기능 | [일반 가용성](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
-| -----------| ------------ | ---------- |
-| [!UICONTROL 작업 공간의 타겟] 패널에 대한 [!UICONTROL 분석] | 2020년 6월 25일 | Target [!UICONTROL 용] 분석(A4T) 패널을 사용하면 분석 작업 공간에서 Adobe Target 활동 및 경험을 분석할 수 [!UICONTROL 있습니다.] [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) |
-| [!UICONTROL 작업 공간의 빠른 인사이트] [!UICONTROL 패널] | 2020년 6월 25일 | [!UICONTROL 빠른 통찰력] 은 분석 작업 공간의 비분석가 및 새로운 사용자가 비즈니스 질문에 빠르고 손쉽게 대답하는 방법을  배울 수 있도록 도움을 줍니다. [추가 정보](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
-| [!UICONTROL 대량 데이터 삽입 API] | 2020년 5월 31일 | Analytics 데이터의 일괄 처리를 쉽고 독립적으로 처리할 수 있습니다. 서버측 및 오프라인 데이터에 유용합니다. [추가 정보...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) |
-| Adobe Analytics support for [!UICONTROL Adobe Experience Platform Edge Network] | 2020년 5월 31일 | 단일 태그를 사용하여 Adobe Analytics, Adobe Target, Adobe Audience Manager, Adobe Experience Platform Data Lake, Unified Profile 및 Experience Cloud ID Service 등 여러 Adobe 솔루션으로 데이터를 전송할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/experience-platform/edge/solutions/analytics/analytics-overview.html) |
-| [!UICONTROL Adobe Analytics 대시보드] | 2020년 5월 21일 | [!UICONTROL Adobe Analytics 대시보드]는 사용자가 언제 어디서나 Adobe Analytics에서 제공되는 인사이트에 액세스할 수 있도록 해주는 모바일 앱입니다. 이 앱은 이동 중에 주요 지표를 확인하려는 경영진에게 적합합니다. 엄선된 대화형 스코어카드에 액세스할 수 있으며 iOS와 Android 운영 체제 모두에서 사용할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/mobapp/home.html) |
-| [!UICONTROL 작업 영역][!UICONTROL : 빈 상태에서 자유 형식 테이블 자동 작성] | [2020년 5월 21일 | 이전에는 구성 요소를 빈 프로젝트 또는 빈 패널에 직접 끌어 놓을 수 없었습니다. [!UICONTROL 자유 형식 테이블]을 먼저 추가해야 했습니다. 이제 구성 요소를 빈 프로젝트 또는 패널에 직접 끌어 놓을 수 있으며, [!UICONTROL 자유 형식 테이블]이 권장 형식으로 자동으로 작성됩니다. 또한 빈 자유 형식 테이블에 함께 끌어 놓을 때 혼합 구성 요소 유형(예: 차원 및 지표)이 처리되는 방식이 개선되었습니다. |
-| [!UICONTROL 기능 액세스 수준] 페이지에 [!UICONTROL Adobe Analytics 패키지] 추가 | 2020년 5월 21일 | 이제 **[!UICONTROL 관리자]** > **[!UICONTROL 회사 설정]** > **[!UICONTROL 기능 액세스 수준]**&#x200B;에서 귀사에 부여된 [!UICONTROL Adobe Analytics 패키지]&amp;#x200B;(SKU)를 볼 수 있습니다. |
-| 접근성 향상 | 2020년 5월 21일 | Adobe Analytics 팀은 향상된 키보드 탐색, 색상 대비 및 화면 판독기 지원을 포함하여 분석 Analysis Workspace에 대한 액세스 가능성 향상을 수행했습니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
+| 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
+| -----------| ---------- |-------|
+| 기여도 IQ: 알고리즘 속성 | 2020년 6월 18일 | 분석 작업 공간의 [!UICONTROL 알고리즘 속성] 모델은 통계 기법을 사용하여 선택한 지표에 대한 크레딧의 최적 할당을 동적으로 결정합니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
+| 기여도 IQ: 사용자 지정 검색 창 | 2020년 6월 18일 | 이제 보고 기간 전 최대 90일 [!UICONTROL 의 터치포인트를 포함하도록 Attribution IQ에서] 모든 속성 모델을 구성할 수 있습니다. 이렇게 하면 일반적으로 이전 달에 발생한 상호 작용에 대한 회계로 보고 기간 초에 발생하는 이벤트의 속성 정확도가 높아집니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
+| 공유 작업 공간 프로젝트에 대한 프로젝트 역할 | 2020년 6월 18일 | 이제 작업 공간 프로젝트를 공유할 때 수신자가 원하는 프로젝트 경험에 따라 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다. 편집, 복제 및 보기를 참조하십시오. [자세한 내용..](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 보기 전용 작업 공간 프로젝트 | 2020년 6월 18일 | 작업 공간 프로젝트는 &quot;볼 수 있음&quot;으로 사용자에게 공유할 수 있습니다. 뷰 수신자가 공유 프로젝트를 열면 왼쪽 레일과 제한된 상호 작용 없이 보다 제한적인 프로젝트 경험을 받게 됩니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
+| 작업 공간 프로젝트 공동 편집 | 2020년 6월 18일 | &quot;편집 가능&quot; 역할에 추가된 받는 사람은 공유된 프로젝트에 대해 저장할 수 있습니다. 이 범위는 관리자와 관리자가 아닌 사용자 모두에게 적용됩니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 작업 공간의 빈 패널 업데이트 | 2020년 6월 18일 | 이제 작업 공간의 빈 패널에는 패널과 시각화가 포함되어 있으므로 자신에게 가장 적합한 분석 워크플로우를 선택하는 보다 매끄러운 방법을 제공합니다. |
+| 중국 RDC에서 사용 가능한 자사 도메인 | 2020년 6월 18일 | 중국 본토에서 사용할 자사 도메인을 요청할 `.cn` 수 있습니다. (&quot;중국 성능 최적화&quot; SKU 구입 시 사용 가능한 설명서) |
+| 작업 공간의 Quick Insights 패널 | 2020년 6월 25일 | Quick Insights는 Analysis Workspace의 비분석가 및 새 사용자에게 비즈니스 관련 질문에 빠르고 쉽게 답변할 수 있는 방법을 배울 수 있도록 지침을 제공합니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
+| 작업 공간의 Analytics for Target 패널 | 2020년 6월 25일 | Analytics for Target(A4T) 패널을 사용하면 Analysis Workspace에서 Adobe Target 활동 및 경험을 분석할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/a4t-panel.html) |
 
 ### Customer Journey Analytics의 새로운 기능 {#cust-journey}
 
-| 기능 | [일반 가용성](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
-| -----------| --------- | ---------- |
-| [!UICONTROL 작업 공간의 빠른 인사이트] [!UICONTROL 패널] | 2020년 6월 25일 | [!UICONTROL 빠른 통찰력] 은 분석 작업 공간의 비분석가 및 새로운 사용자가 비즈니스 질문에 빠르고 손쉽게 대답하는 방법을  배울 수 있도록 도움을 줍니다. [추가 정보](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
-| [!UICONTROL Customer Journey Analytics]: 글로벌 가용성 | 2020년 5월 21일 | EMEA 및 APAC 지역의 고객이 [!UICONTROL Customer Journey Analytics]를 이용할 수 있게 되었습니다. |
-| [!UICONTROL Customer Journey Analytics]: [!UICONTROL Adobe Experience Platform Sandboxes] 지원 | 2020년 5월 21일 | CJA Connection을 수립할 특정 [!UICONTROL Adobe Experience Platform Sandboxes]를 선택할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-connections/create-connection.html) |
-| [!UICONTROL 작업 영역][!UICONTROL : 빈 상태에서 자유 형식 테이블 자동 작성] | [2020년 5월 21일 | 이전에는 구성 요소를 빈 프로젝트 또는 빈 패널에 직접 끌어 놓을 수 없었습니다. [!UICONTROL 자유 형식 테이블]을 먼저 추가해야 했습니다. 이제 구성 요소를 빈 프로젝트 또는 패널에 직접 끌어 놓을 수 있으며, [!UICONTROL 자유 형식 테이블]이 권장 형식으로 자동으로 작성됩니다. 또한 빈 자유 형식 테이블에 함께 끌어 놓을 때 혼합 구성 요소 유형(예: 차원 및 지표)이 처리되는 방식이 개선되었습니다. |
-| 접근성 향상 | 2020년 5월 21일 | Adobe Analytics 팀은 향상된 키보드 탐색, 색상 대비 및 화면 판독기 지원을 포함하여 분석 Analysis Workspace에 대한 액세스 가능성 향상을 수행했습니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
+| 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
+| -----------| ---------- |-----|
+| 예외 항목 탐지 지원 | 2020년 6월 18일 | 예외 항목 탐지는 이전 데이터에 관해 주어진 지표가 변경되는 방법을 결정하는 통계적 방법을 제공합니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
+| 공유 작업 공간 프로젝트에 대한 프로젝트 역할 | 2020년 6월 18일 | 이제 작업 공간 프로젝트를 공유할 때 수신자가 원하는 프로젝트 경험에 따라 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다. 편집, 복제 및 보기를 참조하십시오. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 보기 전용 작업 공간 프로젝트 | 2020년 6월 18일 | 작업 공간 프로젝트는 &quot;볼 수 있음&quot;으로 사용자에게 공유할 수 있습니다. 뷰 수신자가 공유 프로젝트를 열면 왼쪽 레일과 제한된 상호 작용 없이 보다 제한적인 프로젝트 경험을 받게 됩니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
+| 작업 공간 프로젝트 공동 편집 | 2020년 6월 18일 | &quot;편집 가능&quot; 역할에 추가된 받는 사람은 공유된 프로젝트에 대해 저장할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 
-#### [!UICONTROL Media Analytics]의 새로운 기능 {#media-aa}
+### [!UICONTROL Media Analytics]의 새로운 기능 {#media-aa}
 
 업데이트 날짜: **2020년 5월 29일**
 
@@ -186,63 +185,41 @@ Anomaly det. support in CJA - June 18; Project Sharing Roles - June 18; Blank pa
 
 [플레이어 상태 추적](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/player-state-tracking/player-state-overview.html)에 대해 참조하십시오.
 
-#### Adobe Analytics 수정 사항 {#aa-fixes}
+### Adobe Analytics Fixes {#aa-fixes}
 
-* Adobe는 계산에 &quot;지정되지 않음&quot;이 포함되지 [!UICONTROL 체류 시간] 지표를 않도록 변경했습니다. 즉, UI에서 &quot;지정되지 않음&quot;을 포함할지 여부에 관계없이, [!UICONTROL 체류 시간] 계산에서 항상 &quot;지정되지 않음&quot;을 제외하도록 특별한 예외를 만듭니다. 따라서 [!UICONTROL 체류 시간] 지표가 포함된 보고서를 &quot;지정되지 않음&quot;을 포함하도록 구성한 경우에도 항상 &quot;지정되지 않음&quot; 라인 항목에 대해 체류 시간 0을 반환합니다. Reports &amp; Analytics와 보고 API v1.4의 내역 보고는 변경될 수 있습니다. (AN-197958)
-* 인스턴스/방문/방문자가 [!UICONTROL 체류 시간] 지표에 대한 분모로 계산되지 않는 문제를 수정했습니다. 이 문제는 차원에 대한 값이 없는 히트(예: [!UICONTROL Pagename])가 같은 초 뒤에 올 때 발생합니다. (AN-211074)
-* Audience Manager에서 [!DNL Analytics] 세그먼트 데이터가 누락되었던 문제가 해결되었습니다. (AN-206221)
-* [!UICONTROL Data Sources] 처리 시 잘못된 날짜를 표시하는 문제가 해결되었습니다. (AN-213604)
-* 분류 파일이 FTP에 제대로 업로드되지 않는 문제가 해결되었습니다. (AN-214102)
-* API 메서드`Segments.Get`가 전체 응답을 반환하지 않는 문제가 해결되었습니다. (AN-206210)
-* [!DNL Workspace] PDF 다운로드에서 테이블 라인 항목이 특수 문자로 변환되던 문제가 해결되었습니다. (AN-196153)
-* Adobe Analytics API 1.4 호출`visattrcustomeridcustomerattributes`이 제대로 작동하지 않는 문제가 해결되었습니다. (AN-186873)
-* 보고서에 데이터가 표시되지만 [!UICONTROL 데이터 피드]에서 누락되는 문제가 해결되었습니다. (AN-211923)
-* [!UICONTROL 제품 프로필] 권한을 복사할 수 없는 문제가 해결되었습니다. (AN-211113)
-* Federated ID를 가진 사용자가 [!UICONTROL Report Builder]에 로그인할 수 없던 문제가 해결되었습니다. (AN-207750)
-* [!UICONTROL AdWords] 데이터가 [!UICONTROL Advertising Analytics]에 표시되지 않는 문제가 해결되었습니다. (AN-213249)
-* 분류 데이터가 트렌드 보기에 표시되지 않는 문제가 해결되었습니다. (AN-212761)
-* [!UICONTROL 세그먼트 관리자]에서 잘못 게시된 세그먼트 카운트가 발생하는 문제가 해결되었습니다. (AN-213374)
-* [!UICONTROL 계산된 지표 편집기]의 **[!UICONTROL 상향으로 경향 표시...]** 옵션이 수정되었습니다. 이전에는 필터를 적용해도 작동하지 않았습니다. (AN-214223)
-* [!UICONTROL 분류] 가져오기 및 내보내기와 관련된 여러 문제가 해결되었습니다. (AN-213488, AN-215309, AN-216345, AN-215307, AN-216671)
-* [!UICONTROL 분류 규칙 빌더]와 관련된 여러 문제가 해결되었습니다. (AN-213826, AN-213550, AN-213095)
-* [!UICONTROL 데이터 소스] 처리와 관련된 문제가 해결되었습니다. (AN-218083, AN-213604, AN-214102, AN-215485, AN-215339, AN-212911, AN-217551, AN-217947, AN-219018, AN-214691, AN-218401)
-* FTP 연결 문제가 해결되었습니다. (AN-115525)
-* 여러 [!DNL Analytics][!UICONTROL 데이터 피드] 문제가 해결되었습니다. (AN-176769, AN-160480, AN-211923, AN-204286, AN-212977, AN-214528, AN-215080, AN-217784, AN-219093, AN-218817, AN-217798, AN-218267, AN-218382)
-* [!UICONTROL Data Warehouse] 요청 관련 문제가 해결되었습니다. (AN-181836)
-* PDF 다운로드 [!UICONTROL Workspace] 프로젝트에서의 문제가 해결되었습니다. 이전에는 값이 특수 문자로 변환되었습니다. (AN-196153)
-* [!UICONTROL 제품 프로필] 권한을 [!UICONTROL Admin Console]에서 복사할 수 없는 문제가 해결되었습니다. (AN-211113)
-* 계산된 지표의 시간 형식이 음수 값에 대해 끊겼던 문제가 해결되었습니다. (AN-210900)
-* 사용자가 정적 행 지표에서 [!UICONTROL 속성 모델]을 변경할 수 없는 문제가 해결되었습니다. (AN-207872)
-* [!UICONTROL 예약된 보고서] 빌더가 대기 중인 상태로 고정되는 문제가 해결되었습니다. (AN-215317)
-* [!UICONTROL ExactTarget 데이터 커넥터]가 수정되었습니다. (AN-210794)
-* [!UICONTROL 대량 수집 API]에서의 지연 문제가 해결되었습니다. (AN-210165)
-* 사용자가 Federated ID로 [!UICONTROL Report Builder]에 로그인할 수 없는 문제가 해결되었습니다. (AN-207750)
-* [!UICONTROL Advertising Analytics]에서 [!DNL Google AdWords] 데이터가 표시되지 않는 문제가 해결되었습니다. (AN-213249)
-* [!UICONTROL Workspace] [!UICONTROL 프로젝트 보기] 이벤트에서 로그가 표시되지 않는 문제가 해결되었습니다. (AN-214134)
-* [!UICONTROL Workspace]에서 날짜 범위를 변경하고 **[!UICONTROL 모든 패널에 적용]**&#x200B;을 선택할 때 발생하는 문제가 해결되었습니다. 일부 패널에서는 날짜가 변경되지 않았습니다. (AN-214944)
-* 경고를 만들거나 편집할 수 없는 문제가 해결되었습니다. (AN-215920)
-* [!UICONTROL Workspace]의 모든 동적 날짜 범위에서 한 주의 첫 번째 날로 인해 종종 월요일이 아닌 일요일로 잘못 표시되는 문제가 해결되었습니다. (AN-218835)
+* 멀티바이트 검색이 있는 세그먼트가 특정 보고서 세트와 일치하지 않는 문제를 해결했습니다. 이제 올바른 문자열과 일치합니다. AN-220043
+* 보고 및 분석의 항목 필터가 작동하지 않던 문제를 수정했습니다. AN-206132
+* 예약된 프로젝트 UI의 느린 응답 시간을 수정했습니다. AN-214837
+* Analytics 보고 API 2.0에서 날짜 범위 오류가 발생하는 문제를 수정했습니다. AN-215087
+* 인스턴스/방문/방문자가 체류 시간 지표에 대한 분모에 계산되지 않던 문제를 수정했습니다. 이 문제는 차원에 대한 값이 없는 히트(예: 페이지 이름)가 같은 초 뒤에 올 때 발생합니다. AN-211074
+* 사용자가 공유된 작업 공간 프로젝트에 액세스할 수 없는 문제가 해결되었습니다. AN-217561
+* 키가 분류 규칙 빌더로 분류되지 않는 문제가 해결되었습니다. AN-221538
+* 서버 호출 사용량이 사용 데이터를 보고하지 않는 문제를 수정했습니다. AN-210452
+* 게시된 Adobe Analytics 세그먼트에 AAM의 데이터가 누락되는 문제가 해결되었습니다. AN-220208, AN-220659
+* 데이터가 표시되지만 데이터 피드가 &quot;데이터 웨어하우스 데이터 없음&quot;이라고 기록되는 보고서 관련 문제가 해결되었습니다. AN-220784, AN-220858
+* 도메인에서 애드혹 분석을 시작할 수 없는 문제가 `experiencecloud.com` 해결되었습니다. AN-219680, AN-221629
+* &quot;Ctrl(또는 Command) + C&quot; 핫키 사용 시 발생하는 문제가 해결되었습니다. AN-221101, AN-221537
+* Activity Map 지원 페이지의 문제를 수정했습니다. AN-222029, AN-221242
+* 폴아웃 시각화 중간에 터치포인트를 추가할 수 없는 문제가 해결되었습니다. AN-221648
 
 #### 추가 Adobe Analytics 수정 사항
 
-AN-101871, AN-115525; AN-123869; AN-152580; AN-160480; AN-178128; AN-186907; AN-199299; AN-201342; AN-201397; AN-204286; AN-204518; AN-206045; AN-206948; AN-208607; AN-209486; AN-210743; AN-211550; AN-211539; AN-211826; AN-211943; AN-212130; AN-212151; AN-212653; AN-212673; AN-212709; AN-212833; AN-212961; AN-212977; AN-213095; AN-213422; AN-213450; AN-213490; AN-213752; AN-213827; AN-214094; AN-214153; AN-214214; AN-214234; AN-214253;  AN-214255; AN-214343; AN-214355; AN-214401; AN-214427; AN-214528; AN-214642; AN-214691; AN-214772; AN-214793; AN-214924; AN-215017; AN-215080; AN-215212; AN-215312; AN-215377; AN-215402; AN-215545; AN-215905; AN-215963; AN-216447; AN-216676; AN-216880; AN-216999; AN-217245; AN-218450; AN-218899; AN-219487; AN-219677
+AN-218269; AN-218455; AN-218492; AN-219888; AN-220447; AN-220546; AN-220788; AN-220866; AN-221165; AN-221545; AN-221712; AN-221832; AN-221853; AN-222000; AN-222505; AN-222559
 
 ### [!DNL Analytics] 관리자에 대한 중요 공지 {#aa-notices}
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | -----------| ---------- | ---------- |
-| 통합 제품 도메인으로 마이그레이션 | 시행일: 2020년 5월 28일 | 2020년 1월에 시작된 Adobe Analytics용 통합 제품 도메인으로의 마이그레이션은 2020년 5월 28일에 완료되었습니다. Adobe Analytics에서는 아키텍처에서 모든 `omniture.com` 도메인 참조를 제거하지만 `omniture.com`을 타사 쿠키로 화이트리스트 설정하는 것이 중요합니다. 전체 아키텍처 마이그레이션이 (곧) 완료되면 릴리스 노트를 통해 알려 드릴 예정이며 이 화이트리스트 단계는 더 이상 필요하지 않습니다. 화이트리스트 설정해야 할 권장 IP 주소 및 도메인 전체 목록은 [다음](https://helpx.adobe.com/kr/analytics/kb/adobe-ip-addresses.html)과 같습니다.<br>조직에서 타사 쿠키를 차단하는 경우 고객 지원 센터에 문의하여 Adobe Analytics에 다시 액세스하십시오. |
-| 새 Adobe Analytics 기본 랜딩 페이지 | 시행일: 2020년 6월 18일 | 2020년 6월 18일에 Adobe Analytics의 기본 랜딩 페이지가 [!UICONTROL 보고서]에서 [!UICONTROL 작업 공간]으로 변경됩니다. 이 변경 사항은 이전에 사용자 지정 랜딩 페이지를 설정하지 않은 모든 사용자에게 발생합니다. |
-| 타사 기술 화이트리스트 | (시행일: 2020년 3월 12일 | Adobe Analytics는 기능 롤아웃 관리 및 제품 내 지원을 위한 타사 기술을 활용하기 시작했습니다. 모든 기능에 액세스하려면 필수 네트워크 방화벽 화이트리스트에 다음 URL을 추가해야 합니다.<ul><li>Gainsight: https://esp.aptrinsic.com</li><li>LaunchDarkly: https://app.launchdarkly.com</li></ul> |
-| Analysis Workspace 가용성을 위한 중복성 개선 | 2020년 5월 21일 | Analysis Workspace의 가용성을 보장하기 위해 중복성을 향상시키기 위해 보조 CDN(Content Delivery Network)을 추가하고 있습니다. 필요한 네트워크 방화벽 허용 목록에 다음 URL을 추가해야 합니다.<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul> |
-| [!UICONTROL Workspace]에서 [!UICONTROL 시작/종료 수]를 계산하는 방법 변경 | 2020년 4월 7일 | 2020년 3월 현재 [!UICONTROL Analysis Workspace]에서 _없음_ 값이 [!UICONTROL 시작/종료]와 상호 작용하는 방식을 변경했습니다. 이제 _Analysis Workspace_&#x200B;에서 [!UICONTROL 없음]을 켜거나 끌 수 있으므로 시작 또는 종료 후에 _없음_&#x200B;을 적용하지만 기존에는(eVars의 경우) 시작 또는 종료 이전에 적용되었습니다. 예를 들어, 방문의 첫 번째 히트에는 eVar에 대한 값이 없다고 가정하지만 두 번째 히트에는 값이 있다고 가정합니다. [!UICONTROL Reports &amp; Analytics]에서는 첫 번째 히트가 시작에 대해 _지정되지 않음_&#x200B;으로 표시되지만 [!UICONTROL Analysis Workspace]에서는 두 번째 히트에 대한 값으로 표시됩니다. |
-| **[!UICONTROL 전환 수준]** 설정의 EOL | 2020년 3월 3일 | [관리 도구](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/general-acct-settings-admin.html) > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 일반 계정 설정]**&#x200B;에서 작동하지 않는 **[!UICONTROL 전환 수준]** 설정은 2020년 3월 12일에 인터페이스에서 제거됩니다. |
-| **[!UICONTROL 대시보드 아카이브]**&#x200B;의 EOL | 2020년 3월 27일 | [!UICONTROL Reports &amp; Analytics]의 **[!UICONTROL 대시보드 관리]** 아래에 있는 **[!UICONTROL 아카이브 보기]** 설정은 2020년 10월부터 더 이상 사용할 수 없습니다. |
-| TLS 1.1 지원 종료 | 2019년 10월 3일 | 2020년 3월 31일까지 Adobe Analytics는 TLS 1.1에 대한 지원을 제거합니다. 이러한 변경은 최고 수준의 보안 표준을 유지하고 고객 데이터의 보안을 향상시키기 위한 지속적인 노력의 일환입니다. |
-| 새 Adobe Analytics 도메인 | 2019년 12월 18일 | 2020년 1월 16일부터 Adobe Analytics가 새 도메인으로 이동합니다. `https://experience.adobe.com/analytics.`<br>**참고&#x200B;**: 이 변경 사항은 Adobe ID 또는 Enterprise ID로 Analytics에 액세스하는 모든 사용자에게 적용됩니다.<ul><li>도메인 변경으로 인해 Safari에서 Analytics를 로드할 때 쿠키 문제가 발생할 수 있습니다.  개인 정보 보호 기본 설정에서 _사이트 간 추적 방지_&#x200B;를 선택 해제하면 도메인(및 모든 사이트 간 경험)에서 쿠키가 활성화되고 Analytics가 이 새로운 Adobe Experience Cloud 도메인에서 작동할 수 있습니다. [!DNL Safari] 이 경우 [!DNL Safari] 사용자만 영향을 받기 때문에 다른 브라우저는 문제 없이 사용할 수 있습니다.</li><li>도메인 변경으로 인해 일부 고객은 [특정 경우](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/activity-map/activity-map.html)에 [!UICONTROL Activity Map]이 중단될 수 있습니다.</li></ul> |
-| 수명 종료 - Analytics 이전 API | 2020년 1월 9일 | 2020년 11월에 다음 Analytics 이전 API 서비스가 종료됩니다. 이러한 서비스를 사용하여 구축된 현재의 통합 기능은 작동하지 않습니다. <ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증(OAuth 및 JWT)</li></ul>질문에 대한 답변과 진행 방법에 대한 지침을 제공하는 데 도움이 되도록 [이전 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)를 제공했습니다. 이러한 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 이전 OAuth 계정은 [Adobe IO](https://console.adobe.io/home?mv=email) Analytics 통합 계정으로 마이그레이션할 수 있으며, 이 계정은 1.4 Analytics API 및 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다. |
-| 런던 및 싱가포르의 산호세 FTP Broker 종료 | 2020년 7월 | 런던 및 싱가포르의 고객을 위해 런던 또는 싱가포르와 산호세 데이터 센터 [ftp.omniture.com](ftp://ftp.omniture.com/) 간의 데이터 브로커링을 더 이상 지원하지 않습니다.<br/><ul><li>런던의 경우 [ftp3.omniture.com](ftp://ftp3.omniture.com/) 사용</li><li>싱가포르의 경우 [ftp4.omniture.com](ftp://ftp4.omniture.com/) 사용</li></ul> |
-| Ad Hoc Analysis 생산 중단 | 2018년 8월 6일 | Adobe는 Ad Hoc Analysis를 종료할 예정이라고 발표했습니다. 수명 종료 날짜는 확정된 후 공유될 예정입니다. 자세한 내용은 [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)를 참조하십시오. |
+| 통합 제품 도메인으로 마이그레이션 | 시행일: 2020년 5월 28일 | 2020년 1월에 시작된 Adobe Analytics용 통합 제품 도메인으로의 마이그레이션은 2020년 5월 28일에 완료되었습니다. While Adobe Analytics works to remove all `omniture.com` domain references from its architecture, it is important to allowlist `omniture.com` as a third-party cookie. 전체 아키텍처 마이그레이션이 (곧) 완료되면 릴리스 노트를 통해 알려 드릴 예정이며 이 화이트리스트 단계는 더 이상 필요하지 않습니다. [권장 IP 주소 및 도메인 전체 목록은 여기에서](https://helpx.adobe.com/kr/analytics/kb/adobe-ip-addresses.html) 허용해야 합니다.<br>조직에서 타사 쿠키를 차단하는 경우 고객 지원 센터에 문의하여 Adobe Analytics에 다시 액세스하십시오. |
+조직에서 타사 쿠키를 차단하는 경우 고객 지원 센터에 문의하여 Adobe Analytics에 다시 액세스하십시오.
+|새 Adobe Analytics 기본 랜딩 페이지|유효 날짜: 2020년 6월 18일|2020년 6월 18일에 Adobe Analytics의 기본 랜딩 페이지가 보고서에서 작업 영역으로 변경됩니다. 이 변경 사항은 이전에 사용자 지정 랜딩 페이지를 설정하지 않은 모든 사용자에게 발생합니다.|
+|타사 기술 allowlist|2020년 3월 12일(유효 날짜)|Adobe Analytics는 기능 롤아웃 관리 및 제품 내 지원을 위한 타사 기술을 활용하기 시작했습니다. 다음 URL을 필요한 네트워크 방화벽 허용 목록에 추가하여 전체 기능 액세스를 보장해야 합니다.<ul><li>Gainsight: https://esp.aptrinsic.com</li><li>LaunchDarkly: https://app.launchdarkly.com</li></ul>|
+|분석 작업 공간 가용성을 위한 향상된 중복성|2020년 5월 21일|분석 작업 공간의 가용성을 보장하기 위해 향상된 중복을 위해 보조 CDN(Content Delivery Network)을 추가하고 있습니다. 필요한 네트워크 방화벽 허용 목록에 다음 URL을 추가해야 합니다.<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul>|
+| [!UICONTROL 작업 공간] 에서 시작/종료 [!UICONTROL 계산]방식을 변경합니다.|2020년 4월 7일 [!UICONTROL |분석 작업 공간]공간 _에서_ March 202와 같이 분석 작업 공간 [!UICONTROL 의]Folio는 3월 20일 이후, None이 Spends/Exits를 사용하여 상호 작용하는 방법을 변경했습니다. 이제 _Analysis Workspace_&#x200B;에서 [!UICONTROL 없음]을 켜거나 끌 수 있으므로 시작 또는 종료 후에 _없음_&#x200B;을 적용하지만 기존에는(eVars의 경우) 시작 또는 종료 이전에 적용되었습니다. 예를 들어, 방문의 첫 번째 히트에는 eVar에 대한 값이 없다고 가정하지만 두 번째 히트에는 값이 있다고 가정합니다. [!UICONTROL Reports &amp; Analytics]에서는 첫 번째 히트가 시작에 대해 _지정되지 않음_&#x200B;으로 표시되지만 [!UICONTROL Analysis Workspace]에서는 두 번째 히트에 대한 값으로 표시됩니다.|
+|EOL of **[!UICONTROL Dashboard Archive]**|March 27, 2020|The **[!UICONTROL View Archive]** setting under **[!UICONTROL Manage Dashboards]** in [!UICONTROL Reports &amp; Analytics] will no longer be available as of October, 2020.|
+|End of Life - Analytics Legacy API|2020년 1월 9일|다음 Analytics Legacy API 서비스가 수명이 다되어 종료됩니다. 이러한 서비스를 사용하여 구축된 현재의 통합 기능은 작동하지 않습니다. <ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증(OAuth 및 JWT)</li></ul>질문에 대한 답변과 진행 방법에 대한 지침을 제공하는 데 도움이 되도록 [이전 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)를 제공했습니다. 이러한 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 이전 OAuth 계정은 [Adobe IO](https://console.adobe.io/home?mv=email) Analytics 통합 계정으로 마이그레이션할 수 있으며, 이 계정은 1.4 Analytics API 및 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다.|
+|San Jose FTP Broker Ending for London and Singapore|7월 2020일|London과 Singapore의 고객을 위해, Adobe는 더 이상 London 또는 Singapore와 San Jose 데이터 센터 [ftp.omniture.com](ftp://ftp.omniture.com/)사이의 데이터 중재를 지원하지 않습니다.<br/><ul><li>런던의 경우 [ftp3.omniture.com](ftp://ftp3.omniture.com/) 사용</li><li>싱가포르의 경우 [ftp4.omniture.com](ftp://ftp4.omniture.com/) 사용</li></ul>|
+|애드혹 분석의 EOL|2018년 8월 6일|Adobe가 수명 만료 애드혹 분석의 의도를 발표했습니다. 수명 종료 날짜는 확정된 후 공유될 예정입니다. 자세한 내용은 [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)를 참조하십시오.|
 
 ### [!DNL AppMeasurement] {#appm}
 
