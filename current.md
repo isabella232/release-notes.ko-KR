@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e239cc0afb9ebde272f37fa0181b1454412ac2ae
+source-git-commit: dd357da4e362c01ab350891b1082020c90eb77fe
 workflow-type: tm+mt
-source-wordcount: '6520'
+source-wordcount: '6522'
 ht-degree: 38%
 
 ---
@@ -346,10 +346,12 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
       * Cloud Manager의 향상된 셀프 서비스 샌드박스 지원을 통해 자격이 부여된 사용자는 샌드박스 내의 모든 환경을 삭제하고 크레딧을 받을 수 있습니다.
       * 자동 동면 샌드박스 환경을 사용하면 비활성 기간 후 자동으로 &quot;최대 절전 모드 해제&quot; 샌드박스가 자동으로 적용됩니다. 고객은 적극적으로 &quot;동면 해제&quot;를 트리거할 수 있습니다.
    * 클라우드 가속 지원을 위한 전환 툴
+
    온-프레미스 서비스에서 클라우드 서비스로 전환하는 데 소요되는 시간과 비용을 줄이겠다는 목표로, 이번 달에 두 개의 전환 도구가 출시되었습니다. 이러한 툴은 전환 프로세스 동안 일부 주요 작업을 자동화하여 전반적인 노력을 줄일 수 있도록 고안되었습니다. .
 
    1. [SD로 제공되는 컨텐츠 전송 툴](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) (Content Transfer Tool)을 사용하면 컨텐츠 전송 활동을 간소화하고 확장 가능한 컨텐츠를 만들 수 있습니다. 사용자에게 친숙한 UI를 사용하는 이 도구는 AEM을 클라우드 서비스로 전환하는 기존 고객 및 파트너(온-프레미스/AMS)를 위한 셀프 서비스입니다.
    1. [AMS Dispatcher Converter](https://github.com/adobe/aem-cloud-service-dispatcher-converter) (오픈 소스) 도구를 사용하여 AMS Dispatcher 구성을 Cloud Service Dispatcher 구성으로 자동 변환합니다.
+
    [클라우드 서비스로 AEM에 대한 릴리스 노트 2020.6.0](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    전환 도구:
@@ -404,7 +406,7 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 | [AEM 웹 콘솔 구성 요소](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/osgi-web-consoles.html#components) | 비디오 자습서 | 구성 요소 웹 콘솔을 사용하여 AEM을 클라우드 서비스 SDK의 로컬 빠른 시작으로 디버깅에 대해 학습합니다. |
 | [로그를 사용하여 AEM SDK의 로컬 빠른 시작 디버깅](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/logs.html) | 비디오 자습서 | 번들 웹 콘솔을 사용하여 AEM을 클라우드 서비스 SDK의 로컬 빠른 시작으로서 디버깅하는 방법에 대해 학습합니다. |
 | [클라우드 서비스 SDK의 로컬 빠른 시작을 위한 AEM의 원격 디버깅](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/remote-debugging.html) | 비디오 자습서 | IDE에서 원격 Java 디버깅에 대해 알아보고 AEM에서 라이브 코드 실행을 단계별로 진행하여 정확한 실행 흐름을 파악할 수 있습니다. |
-| [스마트 태그 설정](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/metadata/smart-tags-technical-video-setup.html) | Adobe I/O를 사용하여 Adobe Experience Manager(AEM)를 스마트 콘텐츠 서비스와 통합하기 위한 단계별 지침 |
+| [스마트 태그 설정](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/metadata/smart-tags-technical-video-setup.html) | 비디오 자습서 | Adobe I/O를 사용하여 Adobe Experience Manager(AEM)를 스마트 콘텐츠 서비스와 통합하기 위한 단계별 지침 |
 | [문서 일괄 생성](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/interactive-communications/batch-generation-interactive-communications.html) | 문서 | Batch API를 사용하여 템플릿에서 인터랙티브한 여러 커뮤니케이션을 제작하는 방법에 대해 학습합니다. |
 | [AEM Forms에서 인쇄 채널 문서 만들기](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/ic-print-channel-tutorial/introduction.html) | 문서 | 인쇄 채널용 대화형 통신을 만드는 데 필요한 단계를 알아봅니다. |
 | [Adobe Asset Link 액세스](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/launch-adobe-asset-link.html) | 비디오 자습서 | 가장 익숙한 Creative Cloud 데스크탑 앱을 종료하지 않고도 Adobe Experience Manager Assets(AEM Assets)에 저장된 컨텐츠에 액세스하는 방법에 대해 학습합니다. |
