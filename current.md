@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 7f127b38a8c27f5e7a439d7130dd2577d987bf0d
+source-git-commit: d5f592e1e804a94619ccf3ce34a4a310867f9f70
 workflow-type: tm+mt
-source-wordcount: '6484'
+source-wordcount: '6487'
 ht-degree: 45%
 
 ---
@@ -140,7 +140,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 ### 최신 릴리스
 
-2분기 릴리스가 게시되었습니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/journeys/using/release-notes/release-notes.html)
+최신 릴리스 업데이트는 [Journey Orchestration 릴리스 노트를 참조하십시오.](https://docs.adobe.com/content/help/ko-KR/journeys/using/release-notes/release-notes.html)
 
 ### 새로운 Journey Orchestration 교육 과정 및 자습서 {#jo-tutorials}
 
