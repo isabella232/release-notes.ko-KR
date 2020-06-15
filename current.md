@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: dd357da4e362c01ab350891b1082020c90eb77fe
 workflow-type: tm+mt
 source-wordcount: '6522'
-ht-degree: 38%
+ht-degree: 43%
 
 ---
 
@@ -169,13 +169,13 @@ Updated **June 10, 2020**
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | -----------| ---------- |-------|
-| 기여도 IQ: [!UICONTROL 알고리즘 속성] | 2020년 6월 18일 | 분석 작업 공간의 [!UICONTROL 알고리즘] 속성 [!UICONTROL 모델은] 통계 기법을 사용하여 선택한 지표에 대한 최적 크레딧의 할당을 동적으로 결정합니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
-| 기여도 IQ: 사용자 지정 검색 창 | 2020년 6월 18일 | 이제 보고 기간 전 최대 90일 [!UICONTROL 의 터치포인트를 포함하도록 Attribution IQ의] 모든 속성 모델을 구성할 수 있습니다. 이렇게 하면 일반적으로 이전 달에 발생한 상호 작용에 대한 회계로 보고 기간 초에 발생하는 이벤트의 속성 정확도가 높아집니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
-| 공유 작업 공간 [!UICONTROL 프로젝트에 대한] 프로젝트 역할 | 2020년 6월 18일 | 이제 [!UICONTROL 작업 공간] 프로젝트를 공유할 때 수신자가 원하는 프로젝트 경험에 따라 3개의 프로젝트 역할 중 하나에 수신자를 배치할 수 있습니다. 편집, 복제 및 보기를 참조하십시오. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| 보기 전용 [!UICONTROL 작업 공간] 프로젝트 | 2020년 6월 18일 | [!UICONTROL 보기 전용이므로 작업 공간] 프로젝트를 _[!UICONTROL 사용자에게 공유할 수]_있습니다. 뷰 수신자가 공유 프로젝트를 열면 왼쪽 레일과 제한된 상호 작용이 없는 보다 제한적인 프로젝트 경험을 받게 됩니다.[추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
-| Workspace [!UICONTROL 프로젝트 공동 편집] 기능 | 2020년 6월 18일 | 편집 _[!UICONTROL 가능]_역할에 추가된 수신자는 공유된 프로젝트를 통해 저장할 수 있습니다. 이 범위는 관리자와 관리자가 아닌 사용자 모두에게 적용됩니다.[추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| 업데이트된 작업 영역의 빈 [!UICONTROL 패널] | 2020년 6월 18일 | 이제 [!UICONTROL 작업 공간의] 빈 패널에는 패널과 시각화가 포함되어 있으므로 자신에게 가장 적합한 분석 워크플로우를 선택하는 보다 매끄러운 방법을 제공합니다. |
-| 중국 RDC에서 사용 가능한 자사 도메인 | 2020년 6월 18일 | 중국 본토에서 사용할 자사 도메인을 요청할 `.cn` 수 있습니다. (중국 성능 최적화 SKU 구입 시 사용 가능한 설명서) |
+| Attribution IQ: [!UICONTROL Algorithmic Attribution] | 2020년 6월 18일 | Analysis Workspace의 [!UICONTROL 알고리즘 속성] 모델은 통계 기술을 사용하여 선택한 지표에 대한 크레딧의 최적 할당을 동적으로 결정합니다.  [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
+| 속성 IQ: 사용자 지정 전환 확인 창 | 2020년 6월 18일 | You can now configure any attribution model in [!UICONTROL Attribution IQ] to include touch-points from up to 90 days before the reporting time period. 이렇게 하면 일반적으로 이전 달에 발생한 상호 작용을 처리하여 보고 기간 초에 발생하는 이벤트의 속성 정확도가 높아집니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
+| Project roles for shared [!UICONTROL Workspace] projects | 2020년 6월 18일 | When sharing a [!UICONTROL Workspace] project, you can now place recipients in one of three project roles, depending on the project experience you want them to have: Edit, Duplicate and View. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| View-only [!UICONTROL Workspace] projects | 2020년 6월 18일 | [!UICONTROL 보기 전용이므로 작업 공간] 프로젝트를 _[!UICONTROL 사용자에게 공유할 수]_있습니다. 뷰 수신자가 공유 프로젝트를 열면 왼쪽 레일과 제한된 상호 작용이 없는 보다 제한적인 프로젝트 경험을 받게 됩니다.[추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
+| Ability to co-edit [!UICONTROL Workspace] projects | 2020년 6월 18일 | Recipients added to the _[!UICONTROL Can Edit]_role can save over a project that has been shared to them. 이 범위는 관리자와 관리자가 아닌 사용자 모두에게 적용됩니다.[추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| Updated Blank panel in [!UICONTROL Workspace] | 2020년 6월 18일 | The Blank panel in [!UICONTROL Workspace] now includes panels and visualizations, giving you a more seamless way to pick the analysis workflow that works best for you. |
+| 중국 RDC에서 사용 가능한 자사 도메인 | 2020년 6월 18일 | 중국 본토에서 사용할 자사 도메인을 요청하도록 `.cn` 도메인으로 고객을 활성화합니다. (중국 성능 최적화 SKU 구입 시 사용 가능한 설명서) |
 | 작업 공간의 [!UICONTROL Quick Insights] 패널 | 2020년 6월 25일 | Quick Insights는 [!UICONTROL Analysis Workspace]의 비분석가 및 새 사용자에게 비즈니스 관련 질문에 빠르고 쉽게 답변할 수 있는 방법을 배울 수 있도록 지침을 제공합니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
 | [!UICONTROL 작업 공간]의 [!UICONTROL Analytics for Target] 패널 | 2020년 6월 25일 | [!UICONTROL Analytics for Target] (A4T) 패널을 사용하면 [!UICONTROL Analysis Workspace에서 Adobe Target 활동 및 경험을 분석할 수 있습니다]. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/a4t-panel.html) |
 
@@ -183,12 +183,12 @@ Updated **June 10, 2020**
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | -----------| ---------- |-----|
-| 기여도 IQ: [!UICONTROL 알고리즘 속성] | 2020년 6월 18일 | 분석 작업 공간의 [!UICONTROL 알고리즘] 속성 [!UICONTROL 모델은] 통계 기법을 사용하여 선택한 지표에 대한 최적 크레딧의 할당을 동적으로 결정합니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
-| 기여도 IQ: 사용자 지정 검색 창 | 2020년 6월 18일 | 이제 보고 기간 전 최대 90일 [!UICONTROL 의 터치포인트를 포함하도록 Attribution IQ의] 모든 속성 모델을 구성할 수 있습니다. 이렇게 하면 일반적으로 이전 달에 발생한 상호 작용에 대한 회계로 보고 기간 초에 발생하는 이벤트의 속성 정확도가 높아집니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
-| 예외 항목 [!UICONTROL 탐지 지원] | 2020년 6월 18일 | [!UICONTROL 예외 항목 탐지는 이전 데이터에 관해 주어진 지표가 변경되는 방법을 결정하는 통계적 방법을 제공합니다. ] [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
-| 공유 작업 공간 [!UICONTROL 프로젝트에 대한] 프로젝트 역할 | 2020년 6월 18일 | 이제 [!UICONTROL 작업 공간] 프로젝트를 공유할 때 수신자가 원하는 프로젝트 경험에 따라 3개의 프로젝트 역할 중 하나에 수신자를 배치할 수 있습니다. 편집, 복제 및 보기를 참조하십시오. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| 보기 전용 [!UICONTROL 작업 공간] 프로젝트 | 2020년 6월 18일 | [!UICONTROL 보기 전용이므로 작업 공간] 프로젝트를 _[!UICONTROL 사용자에게 공유할 수]_있습니다. 뷰 수신자가 공유 프로젝트를 열면 왼쪽 레일과 제한된 상호 작용이 없는 보다 제한적인 프로젝트 경험을 받게 됩니다.[추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
-| Workspace [!UICONTROL 프로젝트 공동 편집] 기능 | 2020년 6월 18일 | 편집 _[!UICONTROL 가능]_역할에 추가된 수신자는 공유된 프로젝트를 통해 저장할 수 있습니다.[추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| Attribution IQ: [!UICONTROL Algorithmic Attribution] | 2020년 6월 18일 | Analysis Workspace의 [!UICONTROL 알고리즘 속성] 모델은 통계 기술을 사용하여 선택한 지표에 대한 크레딧의 최적 할당을 동적으로 결정합니다.  [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
+| 속성 IQ: 사용자 지정 전환 확인 창 | 2020년 6월 18일 | You can now configure any attribution model in [!UICONTROL Attribution IQ] to include touch-points from up to 90 days before the reporting time period. 이렇게 하면 일반적으로 이전 달에 발생한 상호 작용을 처리하여 보고 기간 초에 발생하는 이벤트의 속성 정확도가 높아집니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
+| Support for [!UICONTROL Anomaly Detection] | 2020년 6월 18일 | [!UICONTROL 예외 항목 탐지는 이전 데이터에 관해 주어진 지표가 변경되는 방법을 결정하는 통계적 방법을 제공합니다. ] [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
+| Project roles for shared [!UICONTROL Workspace] projects | 2020년 6월 18일 | When sharing a [!UICONTROL Workspace] project, you can now place recipients in one of three project roles, depending on the project experience you want them to have: Edit, Duplicate and View. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| View-only [!UICONTROL Workspace] projects | 2020년 6월 18일 | [!UICONTROL 보기 전용이므로 작업 공간] 프로젝트를 _[!UICONTROL 사용자에게 공유할 수]_있습니다. 뷰 수신자가 공유 프로젝트를 열면 왼쪽 레일과 제한된 상호 작용이 없는 보다 제한적인 프로젝트 경험을 받게 됩니다.[추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
+| Ability to co-edit [!UICONTROL Workspace] projects | 2020년 6월 18일 | Recipients added to the _[!UICONTROL Can Edit]_role can save over a project that has been shared to them.[추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 작업 공간의 [!UICONTROL Quick Insights] 패널 | 2020년 6월 25일 | Quick Insights는 [!UICONTROL Analysis Workspace]의 비분석가 및 새 사용자에게 비즈니스 관련 질문에 빠르고 쉽게 답변할 수 있는 방법을 배울 수 있도록 지침을 제공합니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
 
 ### [!UICONTROL Media Analytics]의 새로운 기능 {#media-aa}
@@ -207,20 +207,20 @@ Updated **June 10, 2020**
 
 ### Adobe Analytics의 수정 사항 {#aa-fixes}
 
-* 멀티바이트 검색이 있는 세그먼트가 특정 보고서 세트와 일치하지 않는 문제를 해결했습니다. 이제 올바른 문자열과 일치합니다. (AN-220043)
-* 보고 및 분석에서 [!UICONTROL 항목 필터] 가 [!UICONTROL 작동하지] 않던 문제를 수정했습니다. (AN-206132)
-* 예약된 프로젝트 [!UICONTROL 인터페이스의 느린 응답 시간을] 수정했습니다. (AN-214837)
+* 멀티바이트 검색이 있는 세그먼트가 특정 보고서 세트와 일치하지 않는 문제를 수정했습니다. 이제 올바른 문자열과 일치합니다. (AN-220043)
+* Fixed an issue with the [!UICONTROL Item Filter] in [!UICONTROL Reports &amp; Analytics] not working. (AN-206132)
+* Fixed slow response time in [!UICONTROL Scheduled Projects] interface. (AN-214837)
 * Analytics 보고 API 2.0에서 날짜 범위 오류가 발생하는 문제를 수정했습니다. (AN-215087)
-* Fixed a case in which the instance/visit/visitor wasn&#39;t being counted in the denominator for the [!UICONTROL Time Spent] metrics. 이 문제는 차원에 대한 값이 없는 히트(예: 페이지 이름)가 같은 초 뒤에 올 때 발생합니다. (AN-211074)
-* 사용자가 공유된 [!UICONTROL 작업 공간] 프로젝트에 액세스할 수 없는 문제가 해결되었습니다. (AN-217561)
-* 키가 분류 규칙 빌더로 분류되지 않는 [!UICONTROL 문제가 해결되었습니다]. (AN-221538)
-* 서버 호출 [!UICONTROL 사용량] 데이터가 보고되지 않던 문제를 수정했습니다. (AN-210452)
+* Fixed a case in which the instance/visit/visitor wasn&#39;t being counted in the denominator for the [!UICONTROL Time Spent] metrics. 이 문제는 차원에 대한 값이 없는 히트(예: Pagename)가 같은 초 뒤에 올 때 발생합니다. (AN-211074)
+* Fixed an issue with users unable to access [!UICONTROL Workspace] projects shared with them. (AN-217561)
+* Fixed issue with keys not being classified by [!UICONTROL Classification Rule Builder]. (AN-221538)
+* Fixed an issue with the [!UICONTROL Server Call Usage] not reporting any usage data. (AN-210452)
 * 게시된 Adobe Analytics 세그먼트에 Audience Manager의 데이터가 누락되는 문제가 해결되었습니다. (AN-220208, AN-220659)
-* 데이터가 표시되지만 [!UICONTROL 데이터 피드] 로그에는 &quot;데이터 웨어하우스 데이터 없음&quot;이 표시되는 문제가 해결되었습니다. (AN-220784, AN-220858)
-* 도메인에서 애드혹 분석 [!UICONTROL 을] 실행할 수 없는 문제가 `experiencecloud.com` 수정되었습니다. (AN-219680, AN-221629)
-* &quot;Ctrl(또는 Command) + C&quot; 핫키 사용 시 발생하는 문제가 해결되었습니다. (AN-221101, AN-221537)
-* Activity Map [!UICONTROL 활성] 페이지의 문제를 수정했습니다. (AN-222029, AN-221242)
-* 폴아웃 시각화 중간에 터치 포인트를 추가할 수 없는 [!UICONTROL 문제가] 해결되었습니다. (AN-221648)
+* Fixed an issue with reports showing data but [!UICONTROL Data Feeds] logs saying &quot;No Data Warehouse data&quot;. (AN-220784, AN-220858)
+* Fixed issues that prevented the launch of [!UICONTROL Ad Hoc Analysis] from the `experiencecloud.com` domain. (AN-219680, AN-221629)
+* Ctrl(또는 Command) + C 핫키 사용과 관련된 문제를 수정했습니다. (AN-221101, AN-221537)
+* Fixed an issue with the [!UICONTROL Activity Map] enablement page. (AN-222029, AN-221242)
+* Fixed an issue with not being able to add a touch-point in the middle of a [!UICONTROL Fallout] visualization. (AN-221648)
 
 #### 추가 Adobe Analytics 수정 사항
 
@@ -230,9 +230,9 @@ AN-218269; AN-218455; AN-218492; AN-219888; AN-220447; AN-220546; AN-220788; AN-
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | -----------| ---------- | ---------- |
-| 통합 제품 도메인으로 마이그레이션 | 시행일: 2020년 5월 28일 | 2020년 1월에 시작된 Adobe Analytics용 통합 제품 도메인으로의 마이그레이션은 2020년 5월 28일에 완료되었습니다. While Adobe Analytics works to remove all `omniture.com` domain references from its architecture, it is important to allowlist (formerly, allowlist) `omniture.com` as a third-party cookie. 전체 아키텍처 마이그레이션이 곧 완료되면 릴리스 노트를 통해 통지할 것이며 이 허용 목록 단계는 더 이상 필요하지 않습니다. [권장 IP 주소 및 도메인 전체 목록은 여기에서](https://helpx.adobe.com/kr/analytics/kb/adobe-ip-addresses.html) 허용해야 합니다.<br>조직에서 타사 쿠키를 차단하는 경우 고객 지원 센터에 문의하여 Adobe Analytics에 다시 액세스하십시오. |
+| 통합 제품 도메인으로 마이그레이션 | 시행일: 2020년 5월 28일 | 2020년 1월에 시작된 Adobe Analytics용 통합 제품 도메인으로의 마이그레이션은 2020년 5월 28일에 완료되었습니다. While Adobe Analytics works to remove all `omniture.com` domain references from its architecture, it is important to allowlist (formerly, allowlist) `omniture.com` as a third-party cookie. 전체 아키텍처 마이그레이션이 곧 완료되면 릴리스 노트를 통해 통지할 것이며 이 허용 목록 단계는 더 이상 필요하지 않습니다. 허용리스트 설정해야 할 권장 IP 주소 및 도메인 전체 목록은 [다음](https://helpx.adobe.com/kr/analytics/kb/adobe-ip-addresses.html)과 같습니다.<br>조직에서 타사 쿠키를 차단하는 경우 고객 지원 센터에 문의하여 Adobe Analytics에 다시 액세스하십시오. |
 | 새 Adobe Analytics 기본 랜딩 페이지 | 시행일: 2020년 6월 18일 | 2020년 6월 18일에 Adobe Analytics의 기본 랜딩 페이지가 [!UICONTROL 보고서]에서 [!UICONTROL 작업 공간]으로 변경됩니다. 이 변경 사항은 이전에 사용자 지정 랜딩 페이지를 설정하지 않은 모든 사용자에게 발생합니다. |
-| 타사 기술 허용 목록 | 2020년 3월 12일(유효 날짜) | Adobe Analytics는 기능 롤아웃 관리 및 제품 내 지원을 위한 타사 기술을 활용하기 시작했습니다. 다음 URL을 필요한 네트워크 방화벽 허용 목록에 추가하여 전체 기능 액세스를 보장해야 합니다.<ul><li>Gainsight: https://esp.aptrinsic.com</li><li>LaunchDarkly: https://app.launchdarkly.com</li></ul> |
+| 타사 기술 허용 목록 | 2020년 3월 12일(유효 날짜) | Adobe Analytics는 기능 롤아웃 관리 및 제품 내 지원을 위한 타사 기술을 활용하기 시작했습니다. 모든 기능에 액세스하려면 필수 네트워크 방화벽 허용리스트에 다음 URL을 추가해야 합니다.<ul><li>Gainsight: https://esp.aptrinsic.com</li><li>LaunchDarkly: https://app.launchdarkly.com</li></ul> |
 | Improved redundancy for [!UICONTROL Analysis Workspace] availability | 2020년 5월 21일 | In order to ensure availability of [!UICONTROL Analysis Workspace], we are adding a secondary CDN (Content Delivery Network) for improved redundancy. 필요한 네트워크 방화벽 허용 목록에 다음 URL을 추가해야 합니다.<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul> |
 | [!UICONTROL Workspace]에서 [!UICONTROL 시작/종료 수]를 계산하는 방법 변경 | 2020년 4월 7일 | 2020년 3월 현재 [!UICONTROL Analysis Workspace]에서 _없음_ 값이 [!UICONTROL 시작/종료]와 상호 작용하는 방식을 변경했습니다. 이제 _Analysis Workspace_&#x200B;에서 [!UICONTROL 없음]을 켜거나 끌 수 있으므로 시작 또는 종료 후에 _없음_&#x200B;을 적용하지만 기존에는(eVars의 경우) 시작 또는 종료 이전에 적용되었습니다. 예를 들어, 방문의 첫 번째 히트에는 eVar에 대한 값이 없다고 가정하지만 두 번째 히트에는 값이 있다고 가정합니다. [!UICONTROL Reports &amp; Analytics]에서는 첫 번째 히트가 시작에 대해 _지정되지 않음_&#x200B;으로 표시되지만 [!UICONTROL Analysis Workspace]에서는 두 번째 히트에 대한 값으로 표시됩니다. |
 | **[!UICONTROL 대시보드 아카이브]**&#x200B;의 EOL | 2020년 3월 27일 | [!UICONTROL Reports &amp; Analytics]의 **[!UICONTROL 대시보드 관리]** 아래에 있는 **[!UICONTROL 아카이브 보기]** 설정은 2020년 10월부터 더 이상 사용할 수 없습니다. |
