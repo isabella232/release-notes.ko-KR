@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: acbbe734e4d1e6881b32a6ef33439eeac6e92715
+source-git-commit: c794742334033a11c712fd6cabfcc1b382fbefce
 workflow-type: tm+mt
-source-wordcount: '6531'
+source-wordcount: '6530'
 ht-degree: 45%
 
 ---
@@ -67,7 +67,7 @@ This page describes new features, fixes, and important notices in [!DNL Adobe Ex
 | 이벤트 구독 확인 | <ul><li>이제 진행 중인 단일 이벤트 업데이트를 구독하면 전자 메일 확인이 제공됩니다.</li></ul> |
 | 전역 탐색 유용성 개선 사항 | <ul><li>`Adobe.com`의 최상위 탐색 메뉴에서 일관적인 사용자 경험 제공.</li></ul> |
 
-## ![아이콘](/assets/ec_appicon_24.png) Adobe Experience Cloud 인터페이스 {#ecloud}
+## ![아이콘](/assets/ec_appicon_24.png) Experience Cloud 인터페이스 {#ecloud}
 
 Experience Cloud 인터페이스에 대한 일반 업데이트.
 
