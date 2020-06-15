@@ -4,17 +4,17 @@ product: Experience Cloud
 user-guide-title: Adobe Experience Cloud 릴리스 노트
 user-guide-url: https://www.adobe.com
 translation-type: tm+mt
-source-git-commit: 3dd0f7e9f8712786acc31a01dc0fdece9f4004b9
+source-git-commit: 515812727fbc95bb787ec092eed719ad2b2d9171
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 92%
+source-wordcount: '92'
+ht-degree: 95%
 
 ---
 
 
 # Experience Cloud 릴리스 노트 {#experience-cloud}
 
-+ Adobe Experience Cloud 릴리스 노트{#exl-rns}
++ Adobe Experience Cloud 릴리스 노트 {#exl-rns}
    + [최신 릴리스 노트](current.md)
 + 이전 릴리스 노트 {#previous}
    + 2020 {#2020}
@@ -35,7 +35,7 @@ ht-degree: 92%
       + [2019년 3월](c-legacy-releases/2019/03072019.md)
       + [2019년 2월](c-legacy-releases/2019/02072019.md)
       + [2019년 1월](c-legacy-releases/2019/01172019.md)
-   + [2018 및 이전]버전{#legacy-rns)
+   + 2018년 및 이전 {#legacy-rns}
       + 2018 {#2018}
          + [2018년 11월](c-legacy-releases/2018/11012018.md)
          + [2018년 10월](c-legacy-releases/2018/10112018.md)
@@ -84,4 +84,5 @@ ht-degree: 92%
          + [2015년 3월](c-legacy-releases/2015/03192015.md)
          + [2015년 2월](c-legacy-releases/2015/02192015.md)
          + [2015년 1월](c-legacy-releases/2015/01152015.md)
-      + [2014년 및 이전](c-legacy-releases/2014-earlier.md)
+      + 2014년 및 이전 {#2014-earlier}
+         + [2014년 및 이전](c-legacy-releases/2014-earlier.md)
