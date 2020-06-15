@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c794742334033a11c712fd6cabfcc1b382fbefce
+source-git-commit: 3dd0f7e9f8712786acc31a01dc0fdece9f4004b9
 workflow-type: tm+mt
-source-wordcount: '6530'
+source-wordcount: '6484'
 ht-degree: 45%
 
 ---
@@ -437,34 +437,21 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 
 Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적이고, 자동화된 방식으로 일대일 메시지를 제공합니다. 이제 고객이 습관 및 선호도에 따라 결정된 작업 환경을 통해 원하는 사항을 예측할 수 있습니다.
 
-### Campaign Standard
+### 새 제품 릴리스
 
-#### 새로운 Campaign Standard 교육 과정 및 자습서
+[Adobe Campaign Classic 20.2 릴리스에는 다음이](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/release-notes/latest-release.html) 포함됩니다.
+
+* _이모티콘 지원_ - _Azure Synapse FDA Connector_ - _새로운 개인 정보 보호 규정_
+* 캠페인 제어판: [활성 프로필 모니터링](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html)
+
+### 새 캠페인 교육 과정 및 자습서
 
 | 컨텐츠 | 컨텐츠 유형 | 설명 |
 | -----------| ---------- | ---------- |  
 | [비즈니스 사용자를 위한 Adobe Campaign Standard 시작](https://experienceleague.adobe.com/?recommended=Campaign-U-1-2020.1.standard) | 강좌 | 인터페이스 탐색, 전달 작업, 수신자 데이터 만들기 및 관리 방법을 알아봅니다. |
+| [Adobe Campaign 클라이언트 설치 및 설정](https://experienceleague.adobe.com/?recommended=Campaign-U-1-2020.1.standard) | 비디오 | Adobe Campaign 클라이언트 콘솔을 다운로드 및 설치하고, 여러 환경에 대한 연결을 생성 및 관리하고, Adobe Campaign 클라이언트 콘솔에 대한 액세스를 확인하는 방법에 대해 알아보십시오 |
 
-### Campaign Classic
-
-#### 최신 릴리스
-
-[Adobe Campaign Classic 20.2 릴리스](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/release-notes/latest-release.html)
-
-#### Campaign Classic 자습서
-
-| 컨텐츠 | 컨텐츠 유형 | 설명 |
-| -----------| ---------- | ---------- |  
-| [Adobe Campaign 클라이언트 설치 및 설정](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/install-and-setup-the-adobe-campaign-client.html) | 비디오 자습서 | Adobe Campaign 클라이언트 콘솔을 다운로드 및 설치하고, 여러 환경에 대한 연결을 생성 및 관리하고, Adobe Campaign 클라이언트 콘솔에 대한 액세스를 확인하는 방법에 대해 알아보십시오. |
-
-### Campaign 컨트롤 패널
-
-| 기능 | 설명 |
-| -----------| ---------- |  
-| 활성 프로파일 모니터링 | 제어판을 사용하면 각 캠페인 인스턴스에 대해 활성 프로필 사용을 모니터링할 수 있습니다. 이 기능은 베타 버전이며 Campaign Standard 10368 빌드 및 Campaign Classic 8931 빌드에서 AWS를 통해 호스팅되는 고객이 사용할 수 있습니다. [추가 정보](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html) |
-
-### 캠페인 도움말 리소스
-
+### 도움말 리소스
 * Adobe Campaign Standard: [도움말 센터](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/campaign-standard-home.html) - [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/release-notes/release-notes.html) - [사용 방법 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [릴리스 계획](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/release-notes/release-planning.html) [- 최신 설명서 업데이트](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/documentation-updates.html)
 * Adobe Campaign Classic: [도움말 센터](https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html) - [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/release-notes/latest-release.html) - [사용 방법 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)- [최신 설명서 업데이트](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/documentation-updates.html)
 * Adobe Campaign 제어판: [설명서](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html) - [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html) - [Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html) / [Campaign Classic을 위한 방법 비디오](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html)
