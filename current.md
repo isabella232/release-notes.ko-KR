@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: dd357da4e362c01ab350891b1082020c90eb77fe
+source-git-commit: 233093d41875b9fba88afefa0ecbfc9ace21a900
 workflow-type: tm+mt
-source-wordcount: '6522'
-ht-degree: 43%
+source-wordcount: '6530'
+ht-degree: 45%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 43%
 
 ![배너](/assets/experience-cloud-banner-3.png)
 
-This page describes new features, fixes, and important notices in [!DNL Adobe Experience Cloud]. 또한 Adobe Experience Cloud를 최대한 활용할 수 있는 새로운 설명서, 트레이닝 과정 및 비디오 튜토리얼을 소개합니다.
+This page describes new features, fixes, and important notices in [!DNL Adobe Experience Cloud]. 또한 Experience Cloud을 최대한 활용할 수 있는 새로운 설명서, 트레이닝 과정 및 비디오 자습서를 소개합니다.
 
 >[!IMPORTANT]
 >
@@ -31,13 +31,13 @@ This page describes new features, fixes, and important notices in [!DNL Adobe Ex
 
 제품 릴리스 날짜는 다를 수 있습니다. 업데이트를 자주 확인하십시오.
 
-최신 업데이트: **2020년 6월 12일**
+최신 업데이트: **2020년 6월 15일**
 
 * [Adobe 시스템 상태](#status)
 * [Experience Cloud 인터페이스](#ecloud)
 * [Experience Platform](#platform)
 * [여정 편성](#journey-orch)
-* [Analytics](#analytics)
+* [Analytics](#analytics) (및 [Customer Journey Analytics](#cust-journey))
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [캠페인](#ac)
@@ -125,14 +125,14 @@ Release notes for the [!DNL Experience Platform] and application services, inclu
 * [Experience Platform Launch 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/launch/using/intro/release-notes/current.html)
 * [보안 게시판 및 권고](https://helpx.adobe.com/kr/security.html) (모든 Adobe 제품)
 
-### 새로운 경험 플랫폼 교육 과정 및 자습서 {#tutorials-plat}
+### 새로운 Experience Platform 교육 과정 및 자습서 {#tutorials-plat}
 
 | 컨텐츠 | 컨텐츠 유형 | 설명 |
 | -----------| ---------- | ---------- |
-| [Adobe Experience Platform 소개](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-U-1-2020.1) | 강좌 | Adobe Experience Platform을 사용하면 모든 채널에서 실행할 수 있는 강력한 실시간 고객 프로파일과 AI 기반의 인사이트로 데이터를 변환하여 최적의 경험을 제공할 수 있습니다. 이 소개 수준 교육 과정은 경험 플랫폼의 기능, 활용 사례, Adobe Experience Cloud와의 관계, 기본 아키텍처, 인터페이스 및 프로젝트 역할에 대한 개요를 제공합니다. |
-| [웹 SDK 및 Edge Network 소개](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-web-sdk-and-edge-network.html) | 비디오 자습서 | Adobe Experience Platform SDK 및 Edge Network에 대한 개요입니다. Experience Platform Web SDK는 고객이 하나의 JavaScript 라이브러리, 하나의 비콘 유형, 하나의 데이터 스트림, 하나의 서버측 대상 및 모든 Adobe 애플리케이션 및 타사 대상으로 데이터를 전송할 수 있도록 하는 클라이언트측 JavaScript 라이브러리입니다. |
-| [웹 SDK 및 Edge Network 데모](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/demo-of-web-sdk-and-edge-network.html) | 비디오 자습서 | Adobe에 한 번의 클릭으로 Experience Platform, Analytics, Audience Manager 및 Target에 데이터를 전송하여 Adobe Experience Platform 웹 SDK 및 Edge Network의 활용 사례를 살펴보십시오. |
-| [실시간 고객 데이터 플랫폼 데모](https://docs.adobe.com/content/help/en/platform-learn/tutorials/rtcdp/demo.html) | 비디오 자습서 | 실시간 CDP를 사용하여 여러 소스에서 데이터를 수집하는 방법을 살펴볼 수 있습니다. 이러한 데이터를 하나의 실시간 고객 프로파일에 통합하여 해당 데이터를 활성화함으로써 개인화된 고객 경험을 제작할 수 있습니다. |
+| [Adobe Experience Platform 소개](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-U-1-2020.1) | 강좌 | 모든 채널에서 활성화할 수 있는 강력한 실시간 고객 프로파일과 AI 기반의 인사이트로 데이터를 변환함으로써 Adobe Experience Platform을 통해 최적의 경험을 제공하는 방법을 살펴볼 수 있습니다. 이 소개 수준 과정은 Experience Platform의 기능, 활용 사례, Adobe Experience Cloud와의 관계, 기본 아키텍처, 인터페이스 및 프로젝트 역할에 대한 개요를 제공합니다. |
+| [웹 SDK 및 Edge Network 소개](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-web-sdk-and-edge-network.html) | 비디오 자습서 | Adobe Experience Platform SDK 및 Edge Network에 대한 개요입니다. Experience Platform 웹 SDK는 고객이 하나의 JavaScript 라이브러리, 하나의 비콘 유형, 하나의 데이터 스트림, 하나의 서버측 대상 등을 사용하여 모든 Adobe 애플리케이션 및 타사 대상으로 데이터를 보낼 수 있는 클라이언트측 JavaScript 라이브러리입니다. |
+| [웹 SDK 및 Edge Network 데모](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/demo-of-web-sdk-and-edge-network.html) | 비디오 자습서 | Experience Platform, Analytics, Audience Manager, 및 Target으로 데이터를 전송하는 Adobe에 단일 호출을 통해 Adobe Experience Platform 웹 SDK 및 Edge Network의 활용 사례를 살펴보십시오. |
+| [실시간 고객 데이터 Platform 데모](https://docs.adobe.com/content/help/en/platform-learn/tutorials/rtcdp/demo.html) | 비디오 자습서 | 실시간 CDP를 사용하여 여러 소스에서 데이터를 수집하는 방법을 살펴볼 수 있습니다. 이러한 데이터를 하나의 실시간 고객 프로파일에 통합하여 해당 데이터를 활성화함으로써 개인화된 고객 경험을 제작할 수 있습니다. |
 
 ## ![아이콘](/assets/experience_platform_appicon_24.png) Journey Orchestration {#journey-orch}
 
@@ -142,12 +142,12 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 2분기 릴리스가 게시되었습니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/journeys/using/release-notes/release-notes.html)
 
-### 새로운 여정 운영 과정 및 튜토리얼 {#jo-tutorials}
+### 새로운 Journey Orchestration 교육 과정 및 자습서 {#jo-tutorials}
 
 | 컨텐츠 | 컨텐츠 유형 | 설명 |
 | -----------| ---------- | ---------- |
-| [관리자를 위한 여정 운영 시작](https://experienceleague.adobe.com/?recommended=JourneyOrchestration-A-1-2020.2) | 강좌 | 고객 여정 오케스트레이션을 구성 및 사용하는 방법을 살펴볼 수 있습니다. 이 과정에서는 주요 개념과 여정의 오케스트레이션을 활성화하는 데 필요한 구성 단계를 다룹니다. 이러한 학습 과정을 제작, 게시 및 분석하는 방법을 알아봅니다. |
-| [비즈니스 사용자를 위한 고객 여정 운영 시작](https://experienceleague.corp.adobe.com/?recommended=JourneyOrchestration-U-1-2020.1) | 강좌 | 고객 여정 오케스트레이션을 구성 및 사용하는 방법을 살펴볼 수 있습니다. 이 과정에서는 주요 개념을 다룹니다. 귀하는 계획된 여행을 만들고, 게시하고, 보고하고, 분석하는 방법을 배웁니다. |
+| [관리자용 Journey Orchestration 시작하기](https://experienceleague.adobe.com/?recommended=JourneyOrchestration-A-1-2020.2) | 강좌 | Journey Orchestration 구성 및 사용 방법을 알아봅니다. 이 과정에서는 주요 개념과 여정의 오케스트레이션을 활성화하는 데 필요한 구성 단계를 다룹니다. 이러한 학습 과정을 제작, 게시 및 분석하는 방법을 알아봅니다. |
+| [비즈니스 사용자를 위한 Journey Orchestration 시작](https://experienceleague.corp.adobe.com/?recommended=JourneyOrchestration-U-1-2020.1) | 강좌 | Journey Orchestration 구성 및 사용 방법을 알아봅니다. 이 과정에서는 주요 개념을 다룹니다. 귀하는 계획된 여행을 만들고, 게시하고, 보고하고, 분석하는 방법을 배웁니다. |
 
 ### Journey Orchestration을 위한 추가 리소스
 
@@ -160,7 +160,7 @@ Updated **June 10, 2020**
 * [Adobe Analytics의 새로운 기능](#aa-features)
 * [Customer Journey Analytics의 새로운 기능](#cust-journey)
 * [Media Analytics](#media-aa)의 새로운 기능
-* [Adobe Analytics의 수정 사항](#aa-fixes)
+* [Adobe Analytics 수정 사항](#aa-fixes)
 * [Analytics 관리자에 대한 중요 공지](#aa-notices)
 * [새로운 Adobe Analytics 교육 과정 및 자습서](#tutorials-analytics)
 * [AppMeasurement](#appm)
@@ -169,15 +169,15 @@ Updated **June 10, 2020**
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | -----------| ---------- |-------|
-| Attribution IQ: [!UICONTROL Algorithmic Attribution] | 2020년 6월 18일 | Analysis Workspace의 [!UICONTROL 알고리즘 속성] 모델은 통계 기술을 사용하여 선택한 지표에 대한 크레딧의 최적 할당을 동적으로 결정합니다.  [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
-| 속성 IQ: 사용자 지정 전환 확인 창 | 2020년 6월 18일 | You can now configure any attribution model in [!UICONTROL Attribution IQ] to include touch-points from up to 90 days before the reporting time period. 이렇게 하면 일반적으로 이전 달에 발생한 상호 작용을 처리하여 보고 기간 초에 발생하는 이벤트의 속성 정확도가 높아집니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
-| Project roles for shared [!UICONTROL Workspace] projects | 2020년 6월 18일 | When sharing a [!UICONTROL Workspace] project, you can now place recipients in one of three project roles, depending on the project experience you want them to have: Edit, Duplicate and View. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| View-only [!UICONTROL Workspace] projects | 2020년 6월 18일 | [!UICONTROL 보기 전용이므로 작업 공간] 프로젝트를 _[!UICONTROL 사용자에게 공유할 수]_있습니다. 뷰 수신자가 공유 프로젝트를 열면 왼쪽 레일과 제한된 상호 작용이 없는 보다 제한적인 프로젝트 경험을 받게 됩니다.[추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
-| Ability to co-edit [!UICONTROL Workspace] projects | 2020년 6월 18일 | Recipients added to the _[!UICONTROL Can Edit]_role can save over a project that has been shared to them. 이 범위는 관리자와 관리자가 아닌 사용자 모두에게 적용됩니다.[추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| Updated Blank panel in [!UICONTROL Workspace] | 2020년 6월 18일 | The Blank panel in [!UICONTROL Workspace] now includes panels and visualizations, giving you a more seamless way to pick the analysis workflow that works best for you. |
+| 속성 IQ: 알고리즘 속성 | 2020년 6월 18일 | Analysis Workspace의 [!UICONTROL 알고리즘 속성] 모델은 통계 기술을 사용하여 선택한 지표에 대한 크레딧의 최적 할당을 동적으로 결정합니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
+| 속성 IQ: 사용자 지정 전환 확인 창 | 2020년 6월 18일 | 이제 보고 기간 전 최대 90일로부터 터치포인트를 포함하도록 [!UICONTROL 속성 IQ]에서 모든 속성 모델을 구성할 수 있습니다. 이렇게 하면 일반적으로 이전 달에 발생한 상호 작용을 처리하여 보고 기간 초에 발생하는 이벤트의 속성 정확도가 높아집니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
+| 공유 작업 공간 프로젝트에 대한 프로젝트 역할 | 2020년 6월 18일 | 이제 작업 공간 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자를 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다(편집, 복제 및 보기). [자세히 알아보기...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 보기 전용 작업 공간 프로젝트 | 2020년 6월 18일 | 작업 공간 프로젝트는 &quot;볼 수 있음&quot;으로만 사용자에게 공유할 수 있습니다. 보기 수신자가 공유 프로젝트를 열면 왼쪽 레일과 제한된 상호 작용 없이 더 제한적인 프로젝트 경험을 받게 됩니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
+| 작업 공간 프로젝트 공동 편집 기능 | 2020년 6월 18일 | 편집 가능 역할에 추가된 수신자는 공유된 프로젝트에 대해 저장할 수 있습니다. 이 범위는 관리자와 관리자가 아닌 사용자 모두에게 적용됩니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 작업 공간에서 업데이트된 빈 패널 | 2020년 6월 18일 | 이제 작업 공간의 빈 패널에는 패널과 시각화가 포함되어 있으므로 자신에게 가장 적합한 분석 워크플로우를 선택하는 더 원활한 방법을 제공합니다. |
 | 중국 RDC에서 사용 가능한 자사 도메인 | 2020년 6월 18일 | 중국 본토에서 사용할 자사 도메인을 요청하도록 `.cn` 도메인으로 고객을 활성화합니다. (중국 성능 최적화 SKU 구입 시 사용 가능한 설명서) |
-| 작업 공간의 [!UICONTROL Quick Insights] 패널 | 2020년 6월 25일 | Quick Insights는 [!UICONTROL Analysis Workspace]의 비분석가 및 새 사용자에게 비즈니스 관련 질문에 빠르고 쉽게 답변할 수 있는 방법을 배울 수 있도록 지침을 제공합니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
-| [!UICONTROL 작업 공간]의 [!UICONTROL Analytics for Target] 패널 | 2020년 6월 25일 | [!UICONTROL Analytics for Target] (A4T) 패널을 사용하면 [!UICONTROL Analysis Workspace에서 Adobe Target 활동 및 경험을 분석할 수 있습니다]. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/a4t-panel.html) |
+| 작업 공간의 Quick Insights 패널 | 2020년 6월 25일 | Quick Insights는 Analysis Workspace의 비분석가 및 새 사용자에게 비즈니스 관련 질문에 빠르고 쉽게 답변할 수 있는 방법을 배울 수 있도록 지침을 제공합니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
+| 작업 공간의 Analytics for Target 패널 | 2020년 6월 25일 | Target(A4T)용 Analytics 패널을 사용하면 Analysis Workspace에서 향상도 및 신뢰도를 활용하여 Adobe Target 활동과 경험을 분석할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/a4t-panel.html) |
 
 ### Customer Journey Analytics의 새로운 기능 {#cust-journey}
 
@@ -205,7 +205,7 @@ Updated **June 10, 2020**
 
 [플레이어 상태 추적](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/player-state-tracking/player-state-overview.html)에 대해 참조하십시오.
 
-### Adobe Analytics의 수정 사항 {#aa-fixes}
+### Adobe Analytics 수정 사항 {#aa-fixes}
 
 * 멀티바이트 검색이 있는 세그먼트가 특정 보고서 세트와 일치하지 않는 문제를 수정했습니다. 이제 올바른 문자열과 일치합니다. (AN-220043)
 * Fixed an issue with the [!UICONTROL Item Filter] in [!UICONTROL Reports &amp; Analytics] not working. (AN-206132)
@@ -242,19 +242,19 @@ AN-218269; AN-218455; AN-218492; AN-219888; AN-220447; AN-220546; AN-220788; AN-
 
 #### 새로운 Analytics 교육 과정 및 자습서 {#tutorials-analytics}
 
-Analytics 및 고객 경로 분석의 새 강좌, 자습서 비디오 및 아티클입니다.
+새 강좌, 자습서 비디오 및 Analytics 및 Customer Journey Analytics의 아티클이 있습니다.
 
 | 컨텐츠 | 컨텐츠 유형 | 설명 |
 | -----------| ---------- | ---------- | 
-| [사용자를 위한 고객 경로 분석 시작](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-U-1-2020.1) | 강좌 | 이 과정에서는 CJA(Customer Journey Analytics)를 사용하여 다양한 데이터 소스의 데이터를 분석하는 방법을 알아봅니다. Adobe Analytics와 고객 경로 분석 간의 차이점과 CJA에서 데이터를 처리하는 방법에 대해 학습합니다. 이 교육 과정을 이수하면 크로스채널 시각화를 만들고 사용자 정의하여 고객을 더욱 깊이 있게 이해할 수 있습니다. |
-| [관리자를 위한 고객 경로 분석 시작](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-A-1-2020.1) | 강좌 | 고객 여정 운영 구성 및 사용 방법을 [!UICONTROL 살펴보십시오]. 이 과정에서는 경로 지정을 활성화하는 데 필요한 주요 개념 및 구성 단계를 다룹니다. 이러한 학습 과정을 제작, 게시 및 분석하는 방법을 배웁니다. |
-| [데이터 엔지니어를 위한 고객 경로 분석 시작](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-D-1-2020.1) | 강좌 | 이 과정에서는 고객 경로 분석으로 들어오는 데이터와 분석가의 보고서에 미치는 영향에 대해 알아봅니다. 이 교육 과정은 Adobe Experience Platform에 대한 일반적인 지식을 바탕으로 합니다. |
-| [관리자를 위한 고객 경로 분석 시작](https://video.tv.adobe.com/v/34349?captions=kor) | 비디오 자습서 | 관리자를 위한 고객 경로 분석 소개 비디오입니다. |
-| [Guided Analytics 구현](https://experienceleague.adobe.com/?recommended=Analytics-D-1-2019.1) | 강좌 | 이 과정에서는 Adobe Analytics 구현을 시작하고, Analytics 개념을 이해하고, 계획을 만들고, Experience Platform Launch를 사용하여 Adobe Analytics를 구현하는 방법을 알아봅니다. |
-| [선도업체를 위한 Adobe Analytics 기본 사항](https://experienceleague.adobe.com/?recommended=Analytics-L-1-2020.1) | 강좌 | 이 과정에서는 Analytics 기본 사항과 분석 작업 공간이 비즈니스를 변경하는 방법에 대해 학습합니다. Adobe Sensei를 통해 인사이트를 확보하고 고객 단평을 듣고 2019년 Summit에서 업계 전문가들로부터 주요 내용을 살펴볼 수 있는 방법을 살펴볼 수 있습니다. |
-| [분석 작업 공간 시작하기](https://experienceleague.adobe.com/?recommended=Analytics-U-1-2020.1.workspace) | 강좌 | 분석 작업 공간을 사용하는 방법을 알아봅니다. 간단한 프로젝트를 제작하고 날짜 범위를 정의하고 세그먼트를 적용하며 프로젝트에서 공유 및 공동 작업하는 방법을 살펴봅니다. |
-| [Adobe Analytics 대시보드 Scorecard Builder](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html) | 비디오 자습서 | 이 비디오에서는 Adobe Analytics 대시보드(모바일 앱)에서 볼 [!UICONTROL 분석 작업] 공간에서 [!UICONTROL 스코어카드를 만들고 공유하는] 방법을 알아봅니다. |
-| [Adobe Analytics 대시보드 인앱 경험](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html) | 비디오 자습서 | 이 비디오에서 Adobe Analytics 대시보드(모바일 앱)를 사용하여 사용자가 만들었거나 사용자와 공유한 [!UICONTROL 스코어카드에] 액세스하고 보는 방법을 알아봅니다. |
+| [사용자를 위한 Customer Journey Analytics 시작하기](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-U-1-2020.1) | 강좌 | 이 과정에서는 Customer Journey Analytics(CJA)를 사용하여 다양한 데이터 소스의 데이터를 분석하는 방법을 알아봅니다. Adobe Analytics과 Customer Journey Analytics의 차이점과 CJA에서 데이터를 처리하는 방법을 알아봅니다. 이 교육 과정을 이수하면 크로스채널 시각화를 만들고 사용자 정의하여 고객을 더욱 깊이 있게 이해할 수 있습니다. |
+| [관리자용 Customer Journey Analytics 시작하기](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-A-1-2020.1) | 강좌 | Journey Orchestration을 구성 및 사용하는 방법을 [!UICONTROL 알아봅니다]. 이 과정에서는 경로 지정을 활성화하는 데 필요한 주요 개념 및 구성 단계를 다룹니다. 이러한 학습 과정을 제작, 게시 및 분석하는 방법을 배웁니다. |
+| [데이터 엔지니어를 위한 Customer Journey Analytics 시작](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-D-1-2020.1) | 강좌 | 이 과정에서는 Customer Journey Analytics으로 들어오는 데이터와 분석가의 보고서에 미치는 영향에 대해 알아봅니다. 이 강좌는 Adobe Experience Platform에 대한 일반적인 지식을 바탕으로 합니다. |
+| [관리자용 Customer Journey Analytics 시작하기](https://video.tv.adobe.com/v/34349?captions=kor) | 비디오 자습서 | 관리자를 위한 Customer Journey Analytics 소개 비디오입니다. |
+| [안내 Analytics 구현](https://experienceleague.adobe.com/?recommended=Analytics-D-1-2019.1) | 강좌 | 이 과정에서는 Adobe Analytics 구현을 시작하고 Analytics 개념을 이해하며 계획을 만들고 Experience Platform Launch을 사용하여 Adobe Analytics을 구현하는 방법을 알아봅니다. |
+| [리더를 위한 Adobe Analytics 기본 사항](https://experienceleague.adobe.com/?recommended=Analytics-L-1-2020.1) | 강좌 | 이 교육 과정에서는 Analytics의 기본 사항과 Analysis Workspace이 비즈니스를 어떻게 변화시킬 수 있는지 알아보십시오. Adobe Sensei를 통해 인사이트를 확보하고 고객 단평을 듣고 2019년 Summit에서 업계 전문가들로부터 주요 내용을 살펴볼 수 있는 방법을 살펴볼 수 있습니다. |
+| [Analysis Workspace 시작하기](https://experienceleague.adobe.com/?recommended=Analytics-U-1-2020.1.workspace) | 강좌 | Analysis Workspace을 사용하는 방법을 알아봅니다. 간단한 프로젝트를 제작하고 날짜 범위를 정의하고 세그먼트를 적용하며 프로젝트에서 공유 및 공동 작업하는 방법을 살펴봅니다. |
+| [Adobe Analytics 대시보드 Scorecard Builder](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html) | 비디오 자습서 | 이 비디오에서는 Adobe Analytics 대시보드(모바일 앱)에서 볼 [!UICONTROL Analysis Workspace] 에서 스코어카드를 만들고 공유하는 방법을  알아봅니다. |
+| [Adobe Analytics 대시보드 인앱 경험](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html) | 비디오 자습서 | 이 비디오에서 Adobe Analytics 대시보드(모바일 앱)를 사용하여 사용자가 만들었거나 사용자와 공유한 [!UICONTROL 스코어카드를] 액세스하고 보는 방법을 알아봅니다. |
 
 #### Analytics 도움말 리소스
 
@@ -273,7 +273,7 @@ Audience Manager는 경험을 향상하고 다른 Experience Cloud 애플리케�
 
 * 조직 간 또는 다른 애플리케이션으로 쉽게 전환할 수 있습니다.
 * 도움말 메뉴의 주요 문서 및 컨텍스트 관련 비디오를 비롯한 사용자 도움말이 개선되었습니다.
-* 경험 플랫폼 및 파일 지원 티켓에 대한 피드백을 제공하는 기능
+* Experience Platform 및 파일 지원 티켓에 대한 피드백 제공
 * 새롭고 간편해진 URL 패턴. 책갈피를 새 URL(`experience.adobe.com/audience-manager`)로 업데이트했습니다.
 
 이 업데이트는 Adobe ID를 사용하여 로그인하는 사용자만 사용할 수 있습니다. Adobe ID 로그인으로 전환하려면 [Experience Cloud 사용자 및 제품 관리](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/admin-getting-started.html)를 참조하십시오.
@@ -282,11 +282,11 @@ Audience Manager는 경험을 향상하고 다른 Experience Cloud 애플리케�
 
 | 기능 | 설명 |
 | -----------| ---------- |  
-| [IAB TCF v2.0용 Audience Manager 플러그인 ](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/overview/data-privacy/consent-management/aam-iab-plugin.html) | Adobe가 Privacy by Design에 주력하고 있는 동안 Adobe는 IAB TCF용 Audience Manager 플러그인을 2020년 6월 10일부터 IAB Transparency &amp; Consent Framework(TCF) 버전 2.0으로 업그레이드했습니다. IAB TCF용 Audience Manager 플러그인을 구현한 고객은 이 기능을 계속 사용하려면 2020년 8월 15일까지 버전 2.0으로 업그레이드해야 합니다. 2020년 8월 15일 이후에는 버전 1.1이 더 이상 지원되지 않습니다. |
+| [IAB TCF v2.0용 Audience Manager 플러그인 ](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/overview/data-privacy/consent-management/aam-iab-plugin.html) | Adobe가 Privacy by Design에 주력하고 있는 동안 Adobe는 IAB TCF용 Audience Manager 플러그인을 2020년 6월 10일부터 IAB Transparency &amp; Consent Framework(TCF) 버전 2.0으로 업그레이드할 예정입니다. IAB TCF용 Audience Manager 플러그인을 구현한 고객은 이 기능을 계속 사용하려면 2020년 8월 15일까지 버전 2.0으로 업그레이드해야 합니다. 2020년 8월 15일 이후에는 버전 1.1이 더 이상 지원되지 않습니다. |
 
 **수정 사항**
 
-* 특정 지역의 법적 요구 사항을 반영하도록 [!UICONTROL Audience Marketplace 약관] 을 업데이트했습니다. (AAM-54518)
+* 특정 지역의 법적 요구 사항을 반영하도록 [!UICONTROL Audience Marketplace 약관을] 업데이트했습니다. (AAM-54518)
 * 책갈피에서 [!UICONTROL 트레이트] 페이지에 액세스하면 404 오류가 발생하는 문제를 수정했습니다. (AAM-54768)
 * 알고리즘 모델을 검색하는 동안 대상 업데이트 API가 시간 초과되는 문제를 [!UICONTROL 해결했습니다]. (AAM-54342)
 * 이제 사용자는 [!UICONTROL 스마트 페르소나를 위한 모델 분류 정확도 지표를 볼 수 있습니다]. (AAM-54847)
@@ -303,12 +303,12 @@ Audience Manager는 경험을 향상하고 다른 Experience Cloud 애플리케�
 
 | 컨텐츠 | 컨텐츠 유형 | 설명 |
 | -----------| ---------- | ---------- |  
-| [Audience Manager 소개](https://experienceleague.adobe.com/?recommended=AudienceManager-U-1-2020.1) | 강좌 | 이 과정에서는 Audience Manager의 기본 사항과 이를 사용하여 해결할 수 있는 문제를 소개합니다. 일반적인 사용 사례와 주요 Audience Manager 용어 및 개념에 대해 알아봅니다. |
-| [Audience Manager의 ID 소개](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/intro-to-audience-manager/introduction-to-identity-in-audience-manager.html) | 비디오 자습서 | 내부 프로필 및 프로필 병합과 ID 동기화 등 Adobe Audience Manager가 ID를 관리하는 방법을 알아봅니다. |
+| [Audience Manager 소개](https://experienceleague.adobe.com/?recommended=AudienceManager-U-1-2020.1) | 강좌 | 이 과정은 Audience Manager의 기본과 이를 사용하여 해결할 수 있는 문제를 알려준다. 일반적인 사용 사례와 주요 Audience Manager 용어 및 개념에 대해 알아봅니다. |
+| [Audience Manager의 ID 소개](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/intro-to-audience-manager/introduction-to-identity-in-audience-manager.html) | 비디오 자습서 | Adobe Audience Manager이 내부 프로필, 프로필 병합 및 ID 동기화 등 ID를 관리하는 방법을 알아봅니다. |
 | [LinkedIn 사람 기반 대상 이해 및 구성](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) | 강좌 | 이 비디오에서는 LinkedIn에 대한 사람 기반 대상을 만드는 개념과 단계를 안내합니다. 사용자 기반 대상에 대한 추가 비디오 및 설명서를 기반으로 합니다. |
-| [규칙 기반 특성 만들기](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-rule-based-traits.html) | 비디오 자습서 | Audience Manager 인터페이스에서 [!UICONTROL 특성 빌더를] 사용하여 규칙 기반 특성을 만들어 Audience Manager 프로필로 실시간 활동을 캡처하는 방법을 알아봅니다. |
-| [IAB TCF 2.0용 Audience Manager 플러그인 활성화](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/setup-and-admin/data-governance-and-privacy/iab-tcf-support.html#enabling-iab-tcf) | 비디오 자습서 | IAB TCF용 Audience Manager 플러그인을 활성화하는 방법을 알아봅니다. Adobe Experience Platform Launch를 사용하면 이 플러그인을 쉽게 활성화할 수 있습니다. |
-| [IAB TCF 2.0용 Audience Manager 플러그인 데모](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/setup-and-admin/data-governance-and-privacy/iab-tcf-support.html#demo) | 비디오 자습서 | 이 비디오에서는 Experience Cloud ID 서비스 및 솔루션의 쿠키 및 비콘이 IAB 사용자 선택 사항의 영향을 받는 방식을 확인하십시오. |
+| [규칙 기반 특성 만들기](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-rule-based-traits.html) | 비디오 자습서 | Audience Manager 인터페이스에서 [!UICONTROL 트레이트 빌더를] 사용하여 규칙 기반 트레이트를 만들고 Audience Manager 프로필에 실시간 활동을 캡처하는 방법을 알아봅니다. |
+| [IAB TCF 2.0용 Audience Manager 플러그인 활성화](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/setup-and-admin/data-governance-and-privacy/iab-tcf-support.html#enabling-iab-tcf) | 비디오 자습서 | IAB TCF용 Audience Manager 플러그인을 활성화하는 방법을 알아봅니다. Adobe Experience Platform Launch를 사용하는 경우 이 플러그인을 활성화하는 것이 쉽습니다. |
+| [IAB TCF 2.0용 Audience Manager 플러그인 데모](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/setup-and-admin/data-governance-and-privacy/iab-tcf-support.html#demo) | 비디오 자습서 | 이 비디오에서 Experience Cloud ID 서비스 및 솔루션의 쿠키 및 비콘이 IAB 사용자 선택 사항의 영향을 받는 방식을 확인하십시오. |
 
 ## ![아이콘](/assets/aem.png) Adobe Experience Manager {#aem}
 
@@ -334,25 +334,25 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 
 * **AEM을 클라우드 서비스로 사용**
 
-   클라우드 서비스로서 AEM의 새로운 기능
+   Cloud Service의 AEM에 대한 새로운 기능
 
    주요 특징:
 
    * AEM Sites Commerce Integration Framework.
    * 향상된 스마트 태그 및 UI 안내 교육 경험의 새로운 기능
    * Adobe Xd에 대한 Adobe Asset Link 지원
-   * AEM Assets Dynamic Media 3D 지원.
+   * AEM Assets Dynamic Media 3D 지원
    * 새롭게 향상된 셀프 서비스 기능을 통해 Adobe에서 샌드박스 작업에 대한 의존도를 줄일 수 있습니다.
       * Cloud Manager의 향상된 셀프 서비스 샌드박스 지원을 통해 자격이 부여된 사용자는 샌드박스 내의 모든 환경을 삭제하고 크레딧을 받을 수 있습니다.
       * 자동 동면 샌드박스 환경을 사용하면 비활성 기간 후 자동으로 &quot;최대 절전 모드 해제&quot; 샌드박스가 자동으로 적용됩니다. 고객은 적극적으로 &quot;동면 해제&quot;를 트리거할 수 있습니다.
    * 클라우드 가속 지원을 위한 전환 툴
 
-   온-프레미스 서비스에서 클라우드 서비스로 전환하는 데 소요되는 시간과 비용을 줄이겠다는 목표로, 이번 달에 두 개의 전환 도구가 출시되었습니다. 이러한 툴은 전환 프로세스 동안 일부 주요 작업을 자동화하여 전반적인 노력을 줄일 수 있도록 고안되었습니다. .
+   온-프레미스 방식에서 Cloud Service으로 전환하는 데 걸리는 시간과 비용을 줄이겠다는 목표로, 이번 달에 두 개의 전환 도구가 출시되었습니다. 이러한 툴은 전환 프로세스 동안 일부 주요 작업을 자동화하여 전반적인 노력을 줄일 수 있도록 고안되었습니다. .
 
-   1. [SD로 제공되는 컨텐츠 전송 툴](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) (Content Transfer Tool)을 사용하면 컨텐츠 전송 활동을 간소화하고 확장 가능한 컨텐츠를 만들 수 있습니다. 사용자에게 친숙한 UI를 사용하는 이 도구는 AEM을 클라우드 서비스로 전환하는 기존 고객 및 파트너(온-프레미스/AMS)를 위한 셀프 서비스입니다.
-   1. [AMS Dispatcher Converter](https://github.com/adobe/aem-cloud-service-dispatcher-converter) (오픈 소스) 도구를 사용하여 AMS Dispatcher 구성을 Cloud Service Dispatcher 구성으로 자동 변환합니다.
+   1. [SD로 제공되는 컨텐츠 전송 툴](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) (Content Transfer Tool)을 사용하면 컨텐츠 전송 활동을 간소화하고 확장 가능한 컨텐츠를 만들 수 있습니다. 사용자에게 친숙한 UI를 사용하는 이 도구는 Cloud Service으로 AEM으로 전환하는 기존 고객 및 파트너(온-프레미스/AMS)를 위한 셀프 서비스입니다.
+   1. [AMS Dispatcher Converter](https://github.com/adobe/aem-cloud-service-dispatcher-converter) (오픈 소스) 툴을 사용하여 AMS Dispatcher 구성을 Cloud Service Dispatcher 구성으로 자동 변환할 수 있습니다.
 
-   [클라우드 서비스로 AEM에 대한 릴리스 노트 2020.6.0](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
+   [Cloud Service 2020.6.0으로서 AEM에 대한 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    전환 도구:
 
@@ -364,13 +364,13 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 
    핵심 구성 요소 릴리스 2.9.0은 [Adobe 클라이언트 데이터 레이어](https://github.com/adobe/adobe-client-data-layer) 및 새로운 진행률 표시줄 구성 요소와 [통합되어 있으며 이제](https://docs.adobe.com/content/help/ko-KR/experience-manager-core-components/using/introduction.html) 저작 설명서 [및](https://github.com/adobe/aem-core-wcm-components)개발자 세부 사항 및 프로젝트 다운로드와 함께 GitHub에서 사용할 수 있습니다.
 
-* **클라우드 서비스로 AEM으로 이동**
+* **Cloud Service으로 AEM으로 이동**
 
-   [클라우드 서비스로](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/home.html) AEM으로 이동하는 기존 AEM 고객이 클라우드 서비스로 이동하는 권장 전환 여정에 대해 설명합니다. 이 문서의 목적은 고객에게 정보, 지침 및 모범 사례를 제공하여 이러한 전환을 준비하고 체계적이고 예측 가능한 방식으로 이 여정을 만들 수 있도록 하는 것입니다.
+   [Cloud Service으로](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/home.html) AEM으로 이동하면 Cloud Service으로 이동하는 기존 AEM 고객에 대한 권장 전환 여정에 대해 설명합니다. 이 문서의 목적은 고객에게 정보, 지침 및 모범 사례를 제공하여 이러한 전환을 준비하고 체계적이고 예측 가능한 방식으로 이 여정을 만들 수 있도록 하는 것입니다.
 
-   클라우드 전환 도구 중 하나 - 콘텐츠 전송 도구가 출시되었습니다. [컨텐츠 전송 도구는](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/overview-content-transfer-tool.html) 기존 컨텐츠를 소스 AEM 인스턴스(온-프레미스 또는 AMS)에서 대상 AEM Cloud 서비스 인스턴스로 이동하는 데 사용할 수 있는 Adobe에서 개발되었습니다.
+   클라우드 전환 도구 중 하나 - 콘텐츠 전송 도구가 출시되었습니다. [컨텐츠 전송 도구는](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/overview-content-transfer-tool.html) 기존 컨텐츠를 소스 AEM 인스턴스(온-프레미스 또는 AMS)에서 대상 AEM Cloud Service 인스턴스로 이동하는 데 사용할 수 있는 Adobe에서 개발되었습니다.
 
-   코드 리팩토링 도구 중 하나 - AEM Dispatcher Converter가 릴리스되었습니다. [AEM Dispatcher Converter](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/refactoring-tools/dispatcher-transformation-utility-tools.html) 는 기존 AEM Dispatcher 구성을 클라우드 서비스 발송자 구성으로 AEM으로 변환하는 도구이며 사용할 수 있습니다.
+   코드 리팩토링 도구 중 하나 - AEM Dispatcher 변환기가 릴리스되었습니다. [AEM Dispatcher 변환기는](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/refactoring-tools/dispatcher-transformation-utility-tools.html) 기존 AEM Dispatcher 구성을 Cloud Service Dispatcher 구성으로 AEM으로 변환하기 위한 도구이며 사용할 수 있습니다.
 
 * **접근성 및 WCAG 2.1 지침**
 
@@ -398,26 +398,26 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 
 | 컨텐츠 | 컨텐츠 유형 | 설명 |
 | -----------| ---------- | ---------- |
-| [비즈니스 사용자를 위한 Adobe Asset Link 시작하기](https://experienceleague.adobe.com/?recommended=ExperienceManager-U-1-2020.1.asset.link) | 강좌 | 이 과정에서 Adobe Asset Link의 기능과 기능을 사용하여 Adobe Experience Manager Assets에 저장된 컨텐츠를 통해 크리에이티브 디자인을 가속화하는 방법을 살펴볼 수 있습니다. 이 과정에서는 adobe 에셋 링크 실행 방법, 기본 에셋 작업, 검색 및 검색 옵션, 다른 사용자와 효율적으로 공동 작업하는 방법 등 모든 것을 다룹니다. |
-| [비즈니스 사용자를 위한 AEM 자산 시작하기](https://experienceleague.adobe.com/?recommended=ExperienceManager-U-1-2020.1.assets) | 강좌 | 비즈니스 사용자를 위한 AEM Assets를 시작하는 방법을 알아봅니다. AEM 자산, 공동 작업 기능, 자산 검색, 구성, 자산 및 해당 표현물 다운로드의 기본 사항을 살펴보십시오. |
-| [비즈니스 사용자를 위한 AEM Sites 시작하기](https://experienceleague.adobe.com/?recommended=ExperienceManager-U-1-2020.1.sites) | 강좌 | AEM Sites의 핵심 기능 및 기능을 사용하여 조직의 웹 페이지를 관리하는 방법을 알아봅니다. 이 과정에서는 AEM Sites 소개, 작성에 대한 기본 개념, 고급 제작 기능 및 페이지 관리 기능에 대한 모든 내용을 다룹니다. |
-| [AEM 프로젝트 구조](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) | 문서 | AEM Cloud Service와 호환되도록 Adobe Experience Manager Maven 프로젝트에 필요한 변경 사항에 대해 설명합니다. |
-| [Sling Models](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/osgi-web-consoles.html#sling-models) | 비디오 자습서 | Sling Models 웹 콘솔을 사용하여 AEM을 클라우드 서비스 SDK의 로컬 빠른 시작으로서 디버깅하는 방법에 대해 학습합니다. |
-| [AEM 웹 콘솔 구성 요소](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/osgi-web-consoles.html#components) | 비디오 자습서 | 구성 요소 웹 콘솔을 사용하여 AEM을 클라우드 서비스 SDK의 로컬 빠른 시작으로 디버깅에 대해 학습합니다. |
-| [로그를 사용하여 AEM SDK의 로컬 빠른 시작 디버깅](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/logs.html) | 비디오 자습서 | 번들 웹 콘솔을 사용하여 AEM을 클라우드 서비스 SDK의 로컬 빠른 시작으로서 디버깅하는 방법에 대해 학습합니다. |
-| [클라우드 서비스 SDK의 로컬 빠른 시작을 위한 AEM의 원격 디버깅](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/remote-debugging.html) | 비디오 자습서 | IDE에서 원격 Java 디버깅에 대해 알아보고 AEM에서 라이브 코드 실행을 단계별로 진행하여 정확한 실행 흐름을 파악할 수 있습니다. |
+| [비즈니스 사용자를 위한 Adobe Asset Link 시작하기](https://experienceleague.adobe.com/?recommended=ExperienceManager-U-1-2020.1.asset.link) | 강좌 | 이 과정에서 Adobe Asset Link의 기능과 기능을 사용하여 Adobe Experience Manager 에셋에 저장된 컨텐츠를 통해 크리에이티브 디자인을 가속화하는 방법을 살펴볼 수 있습니다. 이 과정에서는 adobe 에셋 링크 실행 방법, 기본 에셋 작업, 검색 및 검색 옵션, 다른 사용자와 효율적으로 공동 작업하는 방법 등 모든 것을 다룹니다. |
+| [비즈니스 사용자를 위한 AEM Assets 시작](https://experienceleague.adobe.com/?recommended=ExperienceManager-U-1-2020.1.assets) | 강좌 | 비즈니스 사용자를 위한 AEM Assets을 시작하는 방법을 알아봅니다. AEM Assets, 공동 작업 기능, 자산 검색, 구성, 자산 및 해당 표현물 다운로드의 기본 사항을 살펴보십시오. |
+| [비즈니스 사용자를 위한 AEM Sites 시작하기](https://experienceleague.adobe.com/?recommended=ExperienceManager-U-1-2020.1.sites) | 강좌 | AEM Sites의 핵심 기능과 기능을 사용하여 조직의 웹 페이지를 관리하는 방법을 알아봅니다. 이 과정에서는 AEM Sites 소개, 저작 기본 개념, 고급 저작 기능 및 페이지 관리 기능에 대한 모든 것을 다룹니다. |
+| [AEM 프로젝트 구조](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) | 문서 | AEM Cloud Service과 호환되도록 Maven 프로젝트 Adobe Experience Manager에 필요한 변경 사항에 대해 설명합니다. |
+| [Sling Models](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/osgi-web-consoles.html#sling-models) | 비디오 자습서 | Sling Models 웹 콘솔을 사용하여 Cloud Service SDK의 로컬 빠른 시작으로서 AEM을 디버깅하는 방법에 대해 학습합니다. |
+| [AEM 웹 콘솔 구성 요소](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/osgi-web-consoles.html#components) | 비디오 자습서 | 구성 요소 웹 콘솔을 사용하여 Cloud Service SDK의 로컬 빠른 시작으로서 AEM을 디버깅하는 방법에 대해 학습합니다. |
+| [로그를 사용하여 AEM SDK의 로컬 빠른 시작 디버깅](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/logs.html) | 비디오 자습서 | 번들 웹 콘솔을 사용하여 Cloud Service SDK의 로컬 빠른 시작으로서 AEM을 디버깅하는 방법에 대해 학습합니다. |
+| [Cloud Service SDK의 로컬 빠른 시작으로서 AEM을 원격 디버깅](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/remote-debugging.html) | 비디오 자습서 | IDE에서 원격 Java 디버깅에 대해 알아보고 AEM에서 라이브 코드 실행을 단계별로 진행하여 정확한 실행 흐름을 파악할 수 있습니다. |
 | [스마트 태그 설정](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/metadata/smart-tags-technical-video-setup.html) | 비디오 자습서 | Adobe I/O를 사용하여 Adobe Experience Manager(AEM)를 스마트 콘텐츠 서비스와 통합하기 위한 단계별 지침 |
 | [문서 일괄 생성](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/interactive-communications/batch-generation-interactive-communications.html) | 문서 | Batch API를 사용하여 템플릿에서 인터랙티브한 여러 커뮤니케이션을 제작하는 방법에 대해 학습합니다. |
 | [AEM Forms에서 인쇄 채널 문서 만들기](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/ic-print-channel-tutorial/introduction.html) | 문서 | 인쇄 채널용 대화형 통신을 만드는 데 필요한 단계를 알아봅니다. |
-| [Adobe Asset Link 액세스](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/launch-adobe-asset-link.html) | 비디오 자습서 | 가장 익숙한 Creative Cloud 데스크탑 앱을 종료하지 않고도 Adobe Experience Manager Assets(AEM Assets)에 저장된 컨텐츠에 액세스하는 방법에 대해 학습합니다. |
-| [에셋 링크 패널 개요](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/panel-overview.html) | 비디오 자습서 | Adobe Asset Link는 크리에이티브 사용자가 InDesign, Photoshop 및 Illustrator의 인앱 패널을 사용하여 AEM Assets에 저장되어 있는 에셋을 검색, 체크 아웃 및 확인할 수 있는 기능을 제공합니다. Adobe Asset Link 패널의 UI 및 기능에 대해 소개합니다. |
-| [자산 검색](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/asset-search.html) | 비디오 자습서 | 크리에이티브 사용자는 키워드를 사용하여 AEM 자산에 저장된 자산을 검색하거나 특정 위치에서 검색을 수행할 수 있습니다. |
-| [파일 버전 관리 및 주석](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/file-versioning-and-comments.html) | 비디오 자습서 | Adobe Asset Link 패널을 사용하면 패널 내에서 축소판, 기본 메타데이터 및 버전과 같은 AEM 자산에 대한 파일 세부 정보에 액세스할 수 있습니다. |
-| [체크 인 체크 아웃](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/check-in-check-out.html) | 비디오 자습서 | Adobe Asset을 사용하면 작업 중인 크리에이티브 앱에서 바로 AEM Assets를 확인할 수 있으며 즉시 편집을 시작할 수 있습니다. |
-| [AEM 자산에 대한 배치만 변환의 경우](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/for-placement-only.html) | 비디오 자습서 | AEM 자산에 대한 FPO(For Placement Only) 변환을 만들고 사용하는 방법을 살펴봅니다. |
-| [복사 배치](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/place-copy.html) | 비디오 자습서 | 복사 배치 작업을 사용하여 AEM 자산에서 자산을 사용하는 방법을 알아봅니다. |
-| [다운로드 및 업로드](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/download-and-upload.html) | 비디오 자습서 | 자산 링크 패널을 사용하여 자산 파일을 AEM 자산에서 다운로드 및 업로드하는 방법을 알아봅니다. |
-| [파일 및 컬렉션](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/files-and-collections.html) | 비디오 자습서 | 자산 링크 패널에서 AEM 자산 파일 및 컬렉션에 빠르고 쉽게 액세스하는 방법을 알아봅니다. |
+| [Adobe Asset Link 액세스](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/launch-adobe-asset-link.html) | 비디오 자습서 | 익숙한 Creative Cloud 데스크탑 앱을 종료하지 않고도 Adobe Experience Manager 에셋(AEM Assets)에 저장된 컨텐츠에 액세스하는 방법을 살펴볼 수 있습니다. |
+| [에셋 링크 패널 개요](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/panel-overview.html) | 비디오 자습서 | Adobe Asset Link를 사용하면 크리에이티브 사용자는 InDesign, Photoshop 및 Illustrator의 인앱 패널을 통해 AEM Assets에 저장되어 있는 에셋을 검색, 체크 아웃 및 확인할 수 있습니다. Adobe Asset Link 패널의 UI 및 기능에 대해 소개합니다. |
+| [자산 검색](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/asset-search.html) | 비디오 자습서 | 크리에이티브 사용자는 키워드를 사용하여 AEM Assets에 저장된 자산을 검색하거나 특정 위치에서 검색을 수행할 수 있습니다. |
+| [파일 버전 관리 및 주석](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/file-versioning-and-comments.html) | 비디오 자습서 | Adobe Asset Link 패널을 사용하면 패널 내에서 축소판, 기본 메타데이터 및 버전과 같은 AEM Assets의 에셋에 대한 파일 세부 정보에 액세스할 수 있습니다. |
+| [체크 인 체크 아웃](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/check-in-check-out.html) | 비디오 자습서 | Adobe Asset을 사용하면 작업 중인 크리에이티브 앱에서 바로 AEM Assets을 체크 아웃할 수 있으며 즉시 편집을 시작할 수 있습니다. |
+| [AEM Assets에 대한 배치만 변환](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/for-placement-only.html) | 비디오 자습서 | AEM 자산에 대한 FPO(For Placement Only) 변환을 만들고 사용하는 방법을 살펴봅니다. |
+| [복사 배치](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/place-copy.html) | 비디오 자습서 | 복사 배치 작업을 사용하여 AEM Assets의 자산을 사용하는 방법을 알아봅니다. |
+| [다운로드 및 업로드](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/download-and-upload.html) | 비디오 자습서 | 에셋 링크 패널을 사용하여 AEM Assets에서 에셋 파일을 다운로드하고 업로드하는 방법을 알아봅니다. |
+| [파일 및 컬렉션](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/files-and-collections.html) | 비디오 자습서 | 에셋 링크 패널에서 AEM Assets 파일 및 컬렉션에 빠르고 손쉽게 액세스하는 방법을 살펴봅니다. |
 | [다운로드](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/sharing/download.html) | 비디오 자습서 | 사용 및 공유를 위해 에셋 및 해당 표현물을 로컬 시스템에 다운로드하는 방법을 학습합니다. |
 
 ### 추가 리소스
@@ -443,7 +443,7 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 | 컨텐츠 | 컨텐츠 유형 | 설명 |
 | -----------| ---------- | ---------- |  
-| [비즈니스 사용자를 위한 Adobe Campaign Standard 시작하기](https://experienceleague.adobe.com/?recommended=Campaign-U-1-2020.1.standard) | 강좌 | 인터페이스 탐색, 전달 작업, 수신자 데이터 만들기 및 관리 방법을 알아봅니다. |
+| [비즈니스 사용자를 위한 Adobe Campaign Standard 시작](https://experienceleague.adobe.com/?recommended=Campaign-U-1-2020.1.standard) | 강좌 | 인터페이스 탐색, 전달 작업, 수신자 데이터 만들기 및 관리 방법을 알아봅니다. |
 
 ### Campaign Classic
 
@@ -455,19 +455,19 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 | 컨텐츠 | 컨텐츠 유형 | 설명 |
 | -----------| ---------- | ---------- |  
-| [Adobe Campaign 클라이언트 설치 및 설정](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/install-and-setup-the-adobe-campaign-client.html) | 비디오 자습서 | Adobe Campaign 클라이언트 콘솔을 다운로드 및 설치하고, 여러 환경에 대한 연결을 만들고 관리하고, Adobe Campaign 클라이언트 콘솔에 대한 액세스를 확인하는 방법을 알아봅니다. |
+| [Adobe Campaign 클라이언트 설치 및 설정](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/install-and-setup-the-adobe-campaign-client.html) | 비디오 자습서 | Adobe Campaign 클라이언트 콘솔을 다운로드 및 설치하고, 여러 환경에 대한 연결을 생성 및 관리하고, Adobe Campaign 클라이언트 콘솔에 대한 액세스를 확인하는 방법에 대해 알아보십시오. |
 
 ### Campaign 컨트롤 패널
 
 | 기능 | 설명 |
 | -----------| ---------- |  
-| 활성 프로파일 모니터링 | 제어판을 사용하면 각 캠페인 인스턴스에 대해 활성 프로필 사용을 모니터링할 수 있습니다. 이 기능은 베타 버전이며 Campaign Standard 10368 빌드 및 Campaign Classic 8931 빌드에서 AWS에서 호스팅되는 고객이 사용할 수 있습니다. [추가 정보](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html) |
+| 활성 프로파일 모니터링 | 제어판을 사용하면 각 캠페인 인스턴스에 대해 활성 프로필 사용을 모니터링할 수 있습니다. 이 기능은 베타 버전이며 Campaign Standard 10368 빌드 및 Campaign Classic 8931 빌드에서 AWS를 통해 호스팅되는 고객이 사용할 수 있습니다. [추가 정보](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html) |
 
 ### 캠페인 도움말 리소스
 
 * Adobe Campaign Standard: [도움말 센터](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/campaign-standard-home.html) - [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/release-notes/release-notes.html) - [사용 방법 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [릴리스 계획](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/release-notes/release-planning.html) [- 최신 설명서 업데이트](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/documentation-updates.html)
 * Adobe Campaign Classic: [도움말 센터](https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html) - [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/release-notes/latest-release.html) - [사용 방법 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)- [최신 설명서 업데이트](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/documentation-updates.html)
-* Adobe Campaign 제어판: [설명서](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html) - [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html) - [Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html) / [Campaign Classic용 방법 비디오](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html)
+* Adobe Campaign 제어판: [설명서](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html) - [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html) - [Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html) / [Campaign Classic을 위한 방법 비디오](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html)
 
 ## ![아이콘](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
@@ -489,7 +489,7 @@ Updated **June 3, 2020**
 | 기능 | 설명 |
 | -----------| ---------- |
 | [!UICONTROL 캠페인] | Microsoft Advertising(이전 Bing Ads)은 2020년 9월 30일 이후 평균 위치 지표를 더 이상 사용하지 않습니다. 이에 대한 준비에서는 7월 11일부터 모든 제한 유형의 위치 기반 제약 조건이 무시되고 위치 기반 조건도 무시됩니다. |
-| [!UICONTROL 광고 인사이트] | (6월 13일 릴리스) 다음 인사이트가 제거되었습니다.<br/><br/><ul><li>대상 타겟 성능(최신 버전)</li><li>이전 성능(최신 버전)</li><li>일치 유형(최신 버전)</li><li>설정 감사(최신 버전)</li><li>포트폴리오 사전 게시(이전)</li></ul><br/>나머지 인사이트는 이전 버전이며 _기존_ 레이블이 이름에서 제거되었습니다. 또한 라이브/편집 모드가 제거되었습니다. |
+| [!UICONTROL 광고 인사이트] | (6월 13일 릴리스) 다음 인사이트가 제거되었습니다.<br/><br/><ul><li>대상 Target 성능(최신 버전)</li><li>이전 성능(최신 버전)</li><li>일치 유형(최신 버전)</li><li>설정 감사(최신 버전)</li><li>포트폴리오 사전 게시(이전)</li></ul><br/>나머지 인사이트는 이전 버전이며 _기존_ 레이블이 이름에서 제거되었습니다. 또한 라이브/편집 모드가 제거되었습니다. |
 
 ## ![아이콘](/assets/magento.png) [!DNL Magento] {#magento}
 
