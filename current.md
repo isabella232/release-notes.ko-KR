@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2a69ecde6ebbe9ffbb67d6a82daf7d026e28ed19
+source-git-commit: 0c5c9f6f0c03b68eb4c5695db71fca94afc9141b
 workflow-type: tm+mt
-source-wordcount: '6487'
+source-wordcount: '6486'
 ht-degree: 45%
 
 ---
@@ -362,7 +362,7 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 
 * **핵심 구성 요소**
 
-   핵심 구성 요소 릴리스 2.9.0은 [Adobe 클라이언트 데이터 레이어](https://github.com/adobe/adobe-client-data-layer) 및 새로운 진행률 표시줄 구성 요소와 [통합되어 있으며 이제](https://docs.adobe.com/content/help/ko-KR/experience-manager-core-components/using/introduction.html) 저작 설명서 [및](https://github.com/adobe/aem-core-wcm-components)개발자 세부 사항 및 프로젝트 다운로드와 함께 GitHub에서 사용할 수 있습니다.
+   핵심 구성 요소 2.9.0은 [Adobe 클라이언트 데이터 레이어](https://github.com/adobe/adobe-client-data-layer) 및 새로운 진행률 표시줄 구성 요소와 [통합되어 있으며 이제](https://docs.adobe.com/content/help/ko-KR/experience-manager-core-components/using/introduction.html) 저작 설명서 [및](https://github.com/adobe/aem-core-wcm-components)개발자 세부 사항 및 프로젝트 다운로드와 함께 GitHub에서 사용할 수 있습니다.
 
 * **Cloud Service으로 AEM으로 이동**
 
