@@ -5,23 +5,19 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 05310c3c03c09918aee45015bd6c9bc341dce724
+source-git-commit: 07935d47bd84291ede7cfd2dcfab422a95b7cf71
 workflow-type: tm+mt
-source-wordcount: '6509'
-ht-degree: 45%
+source-wordcount: '6580'
+ht-degree: 44%
 
 ---
 
 
-# 빠른 액세스 - Adobe Experience Cloud 릴리스 노트 - 2020년 6월
+# Adobe Experience Cloud 릴리스 노트 - 2020년 6월
 
 ![배너](/assets/experience-cloud-banner-3.png)
 
 This page describes new features, fixes, and important notices in [!DNL Adobe Experience Cloud]. 또한 Experience Cloud을 최대한 활용할 수 있는 새로운 설명서, 트레이닝 과정 및 비디오 자습서를 소개합니다.
-
->[!IMPORTANT]
->
->이 페이지에는 출시 전 컨텐츠가 포함되어 있으며 계획된 출시 전에 변경될 수 있습니다.
 
 >[!NOTE]
 >
@@ -31,7 +27,7 @@ This page describes new features, fixes, and important notices in [!DNL Adobe Ex
 
 제품 릴리스 날짜는 다를 수 있습니다. 업데이트를 자주 확인하십시오.
 
-최신 업데이트: **2020년 6월 15일**
+최신 업데이트: **2020년 6월 18일**
 
 * [Adobe 시스템 상태](#status)
 * [Experience Cloud 인터페이스](#ecloud)
@@ -178,19 +174,21 @@ Updated **June 10, 2020**
 | 중국 RDC에서 사용 가능한 자사 도메인 | 2020년 6월 18일 | 중국 본토에서 사용할 자사 도메인을 요청하도록 `.cn` 도메인으로 고객을 활성화합니다. (중국 성능 최적화 SKU 구입 시 사용 가능한 설명서) |
 | 작업 공간의 Quick Insights 패널 | 2020년 6월 25일 | Quick Insights는 Analysis Workspace의 비분석가 및 새 사용자에게 비즈니스 관련 질문에 빠르고 쉽게 답변할 수 있는 방법을 배울 수 있도록 지침을 제공합니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
 | 작업 공간의 Analytics for Target 패널 | 2020년 6월 25일 | Target(A4T)용 Analytics 패널을 사용하면 Analysis Workspace에서 향상도 및 신뢰도를 활용하여 Adobe Target 활동과 경험을 분석할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/a4t-panel.html) |
+| [!UICONTROL 작업 공간] 페이지 | 18,2020년 6월 | 작업 공간 [!UICONTROL 정보] 페이지에서는 Analysis Workspace 환경, Adobe Analytics 관리자에 대한 정보(지원이 필요한 경우) 및 제품 내 피드백을 제공하는 방법을 제공합니다. 작업 공간 > **[!UICONTROL 도움말]** > **[!UICONTROL 작업 영역]** 정보 **[!UICONTROL 에서 찾을 수 있습니다]**. |
 
 ### Customer Journey Analytics의 새로운 기능 {#cust-journey}
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | -----------| ---------- |-----|
-| 개체 배열 지원 | 2020년 6월 18일 | 이제 CJA 고객은 AEP 데이터 세트 스키마 내의 개체 배열 내에 나타나는 차원과 지표를 보고할 수 있습니다. 추가 정보... |
-| Attribution IQ: [!UICONTROL Algorithmic Attribution] | 2020년 6월 18일 | Analysis Workspace의 [!UICONTROL 알고리즘 속성] 모델은 통계 기술을 사용하여 선택한 지표에 대한 크레딧의 최적 할당을 동적으로 결정합니다.  [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
-| 속성 IQ: 사용자 지정 전환 확인 창 | 2020년 6월 18일 | You can now configure any attribution model in [!UICONTROL Attribution IQ] to include touch-points from up to 90 days before the reporting time period. 이렇게 하면 일반적으로 이전 달에 발생한 상호 작용을 처리하여 보고 기간 초에 발생하는 이벤트의 속성 정확도가 높아집니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
-| Support for [!UICONTROL Anomaly Detection] | 2020년 6월 18일 | [!UICONTROL 예외 항목 탐지는 이전 데이터에 관해 주어진 지표가 변경되는 방법을 결정하는 통계적 방법을 제공합니다. ] [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
-| Project roles for shared [!UICONTROL Workspace] projects | 2020년 6월 18일 | When sharing a [!UICONTROL Workspace] project, you can now place recipients in one of three project roles, depending on the project experience you want them to have: Edit, Duplicate and View. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| View-only [!UICONTROL Workspace] projects | 2020년 6월 18일 | [!UICONTROL 보기 전용이므로 작업 공간] 프로젝트를 _[!UICONTROL 사용자에게 공유할 수]_있습니다. 뷰 수신자가 공유 프로젝트를 열면 왼쪽 레일과 제한된 상호 작용이 없는 보다 제한적인 프로젝트 경험을 받게 됩니다.[추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
-| Ability to co-edit [!UICONTROL Workspace] projects | 2020년 6월 18일 | Recipients added to the _[!UICONTROL Can Edit]_role can save over a project that has been shared to them.[추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| 작업 공간의 [!UICONTROL Quick Insights] 패널 | 2020년 6월 25일 | Quick Insights는 [!UICONTROL Analysis Workspace]의 비분석가 및 새 사용자에게 비즈니스 관련 질문에 빠르고 쉽게 답변할 수 있는 방법을 배울 수 있도록 지침을 제공합니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
+| 개체 배열 지원 | 2020년 6월 18일 | 이제 CJA 고객은 Adobe Experience Platform 데이터 세트 스키마 내의 개체 배열에 표시되는 차원 및 지표를 보고할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-usecases/object-arrays.html) |
+| Attribution IQ: [!UICONTROL Algorithmic Attribution] | 2020년 6월 18일 | Analysis Workspace의 [!UICONTROL 알고리즘 속성] 모델은 통계 기술을 사용하여 선택한 지표에 대한 크레딧의 최적 할당을 동적으로 결정합니다.  [추가 정보...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/attribution/algorithmic.html) |
+| 속성 IQ: 사용자 지정 전환 확인 창 | 2020년 6월 18일 | You can now configure any attribution model in [!UICONTROL Attribution IQ] to include touch-points from up to 90 days before the reporting time period. 이렇게 하면 일반적으로 이전 달에 발생한 상호 작용을 처리하여 보고 기간 초에 발생하는 이벤트의 속성 정확도가 높아집니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/attribution/models.html) |
+| Support for [!UICONTROL Anomaly Detection] | 2020년 6월 18일 | [!UICONTROL 예외 항목 탐지는 이전 데이터에 관해 주어진 지표가 변경되는 방법을 결정하는 통계적 방법을 제공합니다. ] [추가 정보...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
+| Project roles for shared [!UICONTROL Workspace] projects | 2020년 6월 18일 | When sharing a [!UICONTROL Workspace] project, you can now place recipients in one of three project roles, depending on the project experience you want them to have: Edit, Duplicate and View. [추가 정보...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
+| View-only [!UICONTROL Workspace] projects | 2020년 6월 18일 | [!UICONTROL 보기 전용이므로 작업 공간] 프로젝트를 _[!UICONTROL 사용자에게 공유할 수]_있습니다. 뷰 수신자가 공유 프로젝트를 열면 왼쪽 레일과 제한된 상호 작용이 없는 보다 제한적인 프로젝트 경험을 받게 됩니다.[추가 정보...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/view-only-projects.html) |
+| Ability to co-edit [!UICONTROL Workspace] projects | 2020년 6월 18일 | Recipients added to the _[!UICONTROL Can Edit]_role can save over a project that has been shared to them.[추가 정보...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
+| 작업 공간의 [!UICONTROL Quick Insights] 패널 | 2020년 6월 25일 | Quick Insights는 [!UICONTROL Analysis Workspace]의 비분석가 및 새 사용자에게 비즈니스 관련 질문에 빠르고 쉽게 답변할 수 있는 방법을 배울 수 있도록 지침을 제공합니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/panels/quickinsight.html) |
+| [!UICONTROL 작업 공간] 페이지 | 18,2020년 6월 | 작업 공간 [!UICONTROL 정보] 페이지에서는 Analysis Workspace 환경, Adobe Analytics 관리자에 대한 정보(지원이 필요한 경우) 및 제품 내 피드백을 제공하는 방법을 제공합니다. 작업 공간 > **[!UICONTROL 도움말]** > **[!UICONTROL 작업 영역]** 정보 **[!UICONTROL 에서 찾을 수 있습니다]**. |
 
 ### [!UICONTROL Media Analytics]의 새로운 기능 {#media-aa}
 
