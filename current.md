@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 0c5c9f6f0c03b68eb4c5695db71fca94afc9141b
+source-git-commit: af0ded4b9a09349d811a998a002b0f1c0f72403f
 workflow-type: tm+mt
 source-wordcount: '6486'
 ht-degree: 45%
@@ -171,7 +171,7 @@ Updated **June 10, 2020**
 | -----------| ---------- |-------|
 | 속성 IQ: 알고리즘 속성 | 2020년 6월 18일 | Analysis Workspace의 [!UICONTROL 알고리즘 속성] 모델은 통계 기술을 사용하여 선택한 지표에 대한 크레딧의 최적 할당을 동적으로 결정합니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
 | 속성 IQ: 사용자 지정 전환 확인 창 | 2020년 6월 18일 | 이제 보고 기간 전 최대 90일로부터 터치포인트를 포함하도록 [!UICONTROL 속성 IQ]에서 모든 속성 모델을 구성할 수 있습니다. 이렇게 하면 일반적으로 이전 달에 발생한 상호 작용을 처리하여 보고 기간 초에 발생하는 이벤트의 속성 정확도가 높아집니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
-| 공유 작업 공간 프로젝트에 대한 프로젝트 역할 | 2020년 6월 18일 | 이제 작업 공간 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자를 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다(편집, 복제 및 보기). [자세히 알아보기...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 공유 작업 공간 프로젝트에 대한 프로젝트 역할 | 2020년 6월 18일 | 이제 작업 공간 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자를 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다(편집, 복제 및 보기). [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 보기 전용 작업 공간 프로젝트 | 2020년 6월 18일 | 작업 공간 프로젝트는 &quot;볼 수 있음&quot;으로만 사용자에게 공유할 수 있습니다. 보기 수신자가 공유 프로젝트를 열면 왼쪽 레일과 제한된 상호 작용 없이 더 제한적인 프로젝트 경험을 받게 됩니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
 | 작업 공간 프로젝트 공동 편집 기능 | 2020년 6월 18일 | 편집 가능 역할에 추가된 수신자는 공유된 프로젝트에 대해 저장할 수 있습니다. 이 범위는 관리자와 관리자가 아닌 사용자 모두에게 적용됩니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 작업 공간에서 업데이트된 빈 패널 | 2020년 6월 18일 | 이제 작업 공간의 빈 패널에는 패널과 시각화가 포함되어 있으므로 자신에게 가장 적합한 분석 워크플로우를 선택하는 더 원활한 방법을 제공합니다. |
@@ -346,12 +346,10 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
       * Cloud Manager의 향상된 셀프 서비스 샌드박스 지원을 통해 자격이 부여된 사용자는 샌드박스 내의 모든 환경을 삭제하고 크레딧을 받을 수 있습니다.
       * 자동 동면 샌드박스 환경을 사용하면 비활성 기간 후 자동으로 &quot;최대 절전 모드 해제&quot; 샌드박스가 자동으로 적용됩니다. 고객은 적극적으로 &quot;동면 해제&quot;를 트리거할 수 있습니다.
    * 클라우드 가속 지원을 위한 전환 툴
-
    온-프레미스 방식에서 Cloud Service으로 전환하는 데 걸리는 시간과 비용을 줄이겠다는 목표로, 이번 달에 두 개의 전환 도구가 출시되었습니다. 이러한 툴은 전환 프로세스 동안 일부 주요 작업을 자동화하여 전반적인 노력을 줄일 수 있도록 고안되었습니다. .
 
    1. [SD로 제공되는 컨텐츠 전송 툴](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) (Content Transfer Tool)을 사용하면 컨텐츠 전송 활동을 간소화하고 확장 가능한 컨텐츠를 만들 수 있습니다. 사용자에게 친숙한 UI를 사용하는 이 도구는 Cloud Service으로 AEM으로 전환하는 기존 고객 및 파트너(온-프레미스/AMS)를 위한 셀프 서비스입니다.
    1. [AMS Dispatcher Converter](https://github.com/adobe/aem-cloud-service-dispatcher-converter) (오픈 소스) 툴을 사용하여 AMS Dispatcher 구성을 Cloud Service Dispatcher 구성으로 자동 변환할 수 있습니다.
-
    [Cloud Service 2020.6.0으로서 AEM에 대한 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    전환 도구:
