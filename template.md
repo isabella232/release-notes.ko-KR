@@ -1,11 +1,14 @@
 ---
 title: Adobe Experience Cloud 릴리스 노트
-description: Experience Cloud 릴리스 노트 템플릿
+description: Experience Cloud 릴리스 노트
 doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8ae9a44aa90a578b681ec1449d65781d3e3b7b65
+source-git-commit: b99aa5d06316964f374b99547215643ad8208bbf
+workflow-type: tm+mt
+source-wordcount: '2537'
+ht-degree: 97%
 
 ---
 
@@ -33,7 +36,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [캠페인](#ac)
-* [Target](https://docs.adobe.com/content/help/ko-KR/target/using/release-notes/target-release-notes.html) (솔루션 도움말에 대한 링크)
+* [Target](https://docs.adobe.com/content/help/ko-KR/target/using/release-notes/target-release-notes.html) (솔루션 도움말 링크)
 * [Advertising Cloud](#adcloud)
 * [Magento](#magento)
 * [Marketo](#marketo)
@@ -71,7 +74,7 @@ For product documentation, see [Experience Cloud interface](https://docs.adobe.c
 
 ## ![아이콘](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
-Offers [!DNL Experience Platform,] , [!DNL Experience Platform Launch,] Journey Orchestration [!UICONTROL , PlacesPlacesPlaces, Mobile Services], Security 게시판을 비롯한 릴리스 노트입니다.
+[!DNL Experience Platform Launch,] [!UICONTROL Journey Orchestration], [!UICONTROL Offers], [!UICONTROL People], [!UICONTROL Places], [!UICONTROL Mobile Services], 및 보안 공지를 비롯한 [!DNL Experience Platform,]를 위한 릴리스 노트입니다.
 
 * [Experience Cloud ID 서비스](#ecid)
 * [Experience Platform 릴리스 노트](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
@@ -293,7 +296,7 @@ Magento 릴리스 노트에 대해서는 다음을 참조하십시오.
 
 ## Marketo {#marketo}
 
-Marketing To Engage는 리드 관리를 위한 완벽한 솔루션으로, 복잡한 구매 경로의 모든 단계에서 고객의 경험을 혁신하고자 하는 B2B 마케터는
+Marketing Engage는 리드 관리를 위한 완벽한 솔루션이며 복잡한 구매 경로의 모든 단계에서 고객 경험을 혁신함으로써 고객 경험을 혁신하고자 하는 B2B 마케터입니다.
 
 ### 핵심 Marketo Engage 업데이트
 
