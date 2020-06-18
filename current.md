@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1f0caf618aad2dd27a0642852a7a45c20b76bf07
+source-git-commit: fc51a317cdceb0cdf2ebf685c0a4480995dd4ef9
 workflow-type: tm+mt
-source-wordcount: '6484'
-ht-degree: 46%
+source-wordcount: '6510'
+ht-degree: 45%
 
 ---
 
@@ -183,6 +183,7 @@ Updated **June 10, 2020**
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | -----------| ---------- |-----|
+| 개체 배열 지원 | 2020년 6월 18일 | 이제 CJA 고객은 AEP 데이터 세트 스키마 내의 개체 배열 내에 나타나는 차원과 지표를 보고할 수 있습니다. 추가 정보... |
 | Attribution IQ: [!UICONTROL Algorithmic Attribution] | 2020년 6월 18일 | Analysis Workspace의 [!UICONTROL 알고리즘 속성] 모델은 통계 기술을 사용하여 선택한 지표에 대한 크레딧의 최적 할당을 동적으로 결정합니다.  [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
 | 속성 IQ: 사용자 지정 전환 확인 창 | 2020년 6월 18일 | You can now configure any attribution model in [!UICONTROL Attribution IQ] to include touch-points from up to 90 days before the reporting time period. 이렇게 하면 일반적으로 이전 달에 발생한 상호 작용을 처리하여 보고 기간 초에 발생하는 이벤트의 속성 정확도가 높아집니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
 | Support for [!UICONTROL Anomaly Detection] | 2020년 6월 18일 | [!UICONTROL 예외 항목 탐지는 이전 데이터에 관해 주어진 지표가 변경되는 방법을 결정하는 통계적 방법을 제공합니다. ] [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
@@ -346,12 +347,10 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
       * Cloud Manager의 향상된 셀프 서비스 샌드박스 지원을 통해 자격이 부여된 사용자는 샌드박스 내의 모든 환경을 삭제하고 크레딧을 받을 수 있습니다.
       * 자동 동면 샌드박스 환경을 사용하면 비활성 기간 후 자동으로 &quot;최대 절전 모드 해제&quot; 샌드박스가 자동으로 적용됩니다. 고객은 적극적으로 &quot;동면 해제&quot;를 트리거할 수 있습니다.
    * 클라우드 가속 지원을 위한 전환 툴
-
    온-프레미스 방식에서 Cloud Service으로 전환하는 데 걸리는 시간과 비용을 줄이겠다는 목표로, 이번 달에 두 개의 전환 도구가 출시되었습니다. 이러한 툴은 전환 프로세스 동안 일부 주요 작업을 자동화하여 전반적인 노력을 줄일 수 있도록 고안되었습니다. .
 
    1. [SD로 제공되는 컨텐츠 전송 툴](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) (Content Transfer Tool)을 사용하면 컨텐츠 전송 활동을 간소화하고 확장 가능한 컨텐츠를 만들 수 있습니다. 사용자에게 친숙한 UI를 사용하는 이 도구는 Cloud Service으로 AEM으로 전환하는 기존 고객 및 파트너(온-프레미스/AMS)를 위한 셀프 서비스입니다.
    1. [AMS Dispatcher Converter](https://github.com/adobe/aem-cloud-service-dispatcher-converter) (오픈 소스) 툴을 사용하여 AMS Dispatcher 구성을 Cloud Service Dispatcher 구성으로 자동 변환할 수 있습니다.
-
    [Cloud Service 2020.6.0으로서 AEM에 대한 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    전환 도구:
