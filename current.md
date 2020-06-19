@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: a9dfcbc1fdd459212ffb898e2a1c508d9aaf84f7
+source-git-commit: b909c99b4389be6ad67536e49224d33b3fb10af8
 workflow-type: tm+mt
-source-wordcount: '6687'
+source-wordcount: '6688'
 ht-degree: 43%
 
 ---
@@ -151,7 +151,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 ## ![아이콘](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
 
-Updated **June 10, 2020**
+릴리스 날짜: **2020년 6월 18일**
 
 * [Adobe Analytics의 새로운 기능](#aa-features)
 * [Customer Journey Analytics의 새로운 기능](#cust-journey)
