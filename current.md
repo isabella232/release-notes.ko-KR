@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 07935d47bd84291ede7cfd2dcfab422a95b7cf71
+source-git-commit: 7901dd8a4f8a701dca516e90b72ec9e4ae0f6ded
 workflow-type: tm+mt
-source-wordcount: '6580'
-ht-degree: 44%
+source-wordcount: '6660'
+ht-degree: 43%
 
 ---
 
@@ -192,17 +192,12 @@ Updated **June 10, 2020**
 
 ### [!UICONTROL Media Analytics]의 새로운 기능 {#media-aa}
 
-업데이트 날짜: **2020년 5월 29일**
+업데이트 날짜: **2020년 6월 18일**
 
-**플레이어 상태 추적:** [!UICONTROL Media Analytics] 고객은 전체 화면, 자막, 음소거, PIP(Picture-in-Picture) 및 인포커스에 대한 표준 솔루션 변수 세트를 사용하여 재생 중 뷰어 상호 작용을 캡처할 수 있습니다. 또한 사용자 정의 플레이어 상태를 생성할 수 있는 유연성을 가지게 됩니다. 이제 플레이어 상태 추적 변수를 [!UICONTROL Analysis Workspace] 보고에서 확인할 수 있습니다. 이 기능을 사용하려면 다음 중 하나가 필요합니다.
-
-* Media [!DNL JavaScript] SDK 3.0 이상
-* [!DNL Adobe Experience Platform] (AEP) SDK와 함께 사용하는 경우:
-   * [!UICONTROL Media Analytics 확장 프로그램] (웹용): 오디오 및 비디오 v1.0 이상용 [!UICONTROL Adobe Media Analytics](3.x SDK)
-   * [!UICONTROL Media Analytics 확장 프로그램] (모바일용): 오디오 및 비디오 v2.0 이상용 [!UICONTROL Adobe Media Analytics]
-* [!UICONTROL 미디어 컬렉션]
-
-[플레이어 상태 추적](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/player-state-tracking/player-state-overview.html)에 대해 참조하십시오.
+| 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
+| -----------| ---------- | ---------- |
+| [지원되는 장치 및 플랫폼](https://docs.adobe.com/content/help/en/media-analytics/using/supported-devices.html) | 2020년 6월 18일 | 이제 AEP SDK가 포함된 Media Launch Extension은 다음과 같은 OTT 장치를 지원합니다.<ul><li>Apple TV(tvOS)</li><li>Fire TV(Fire OS)</li><li>Android TV</li></ul> |  | [지원되는 장치 및 플랫폼](https://docs.adobe.com/content/help/en/media-analytics/using/supported-devices.html) | 2020년 6월 18일 | 이제 AEP SDK가 포함된 Media Launch Extension은 다음과 같은 OTT 장치를 지원합니다.<ul><li>Apple TV(tvOS)</li><li>Fire TV(Fire OS)</li><li>Android TV</li></ul> |
+| [플레이어 상태 추적](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/player-state-tracking/player-state-overview.html) | 2020년 5월 29일 | [!UICONTROL 미디어 Analytics] 고객은 전체 화면, 자막, 음소거, PIP(Picture-in-Picture) 및 초점이 맞춰진 표준 솔루션 변수를 사용하여 재생하는 동안 뷰어 상호 작용을 캡처할 수 있습니다. 또한 사용자 정의 플레이어 상태를 생성할 수 있는 유연성을 가지게 됩니다. 이제 플레이어 상태 추적 변수를 [!UICONTROL Analysis Workspace] 보고에서 확인할 수 있습니다. 이 기능을 사용하려면 다음 중 하나가 필요합니다. <ul><li>Media [!DNL JavaScript] SDK 3.0 이상</li><li>[!DNL Adobe Experience Platform] (AEP) SDK와 함께 사용하는 경우:</li><li>[!UICONTROL Media Analytics 확장 프로그램] (웹용): 오디오 및 비디오 v1.0 이상용 [!UICONTROL Adobe Media Analytics](3.x SDK)</li><li>[!UICONTROL Media Analytics 확장 프로그램] (모바일용): 오디오 및 비디오 v2.0 이상용 [!UICONTROL Adobe Media Analytics]</li><li>[!UICONTROL 미디어 컬렉션]</li></ul> |
 
 ### Adobe Analytics 수정 사항 {#aa-fixes}
 
@@ -244,7 +239,7 @@ AN-218269; AN-218455; AN-218492; AN-219888; AN-220447; AN-220546; AN-220788; AN-
 새 강좌, 자습서 비디오 및 Analytics 및 Customer Journey Analytics의 아티클이 있습니다.
 
 | 컨텐츠 | 컨텐츠 유형 | 설명 |
-| -----------| ---------- | ---------- | 
+| -----------| ---------- | ---------- |
 | [사용자를 위한 Customer Journey Analytics 시작하기](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-U-1-2020.1) | 강좌 | 이 과정에서는 Customer Journey Analytics(CJA)를 사용하여 다양한 데이터 소스의 데이터를 분석하는 방법을 알아봅니다. Adobe Analytics과 Customer Journey Analytics의 차이점과 CJA에서 데이터를 처리하는 방법을 알아봅니다. 이 교육 과정을 이수하면 크로스채널 시각화를 만들고 사용자 정의하여 고객을 더욱 깊이 있게 이해할 수 있습니다. |
 | [관리자용 Customer Journey Analytics 시작하기](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-A-1-2020.1) | 강좌 | Journey Orchestration을 구성 및 사용하는 방법을 [!UICONTROL 알아봅니다]. 이 과정에서는 경로 지정을 활성화하는 데 필요한 주요 개념 및 구성 단계를 다룹니다. 이러한 학습 과정을 제작, 게시 및 분석하는 방법을 배웁니다. |
 | [데이터 엔지니어를 위한 Customer Journey Analytics 시작](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-D-1-2020.1) | 강좌 | 이 과정에서는 Customer Journey Analytics으로 들어오는 데이터와 분석가의 보고서에 미치는 영향에 대해 알아봅니다. 이 강좌는 Adobe Experience Platform에 대한 일반적인 지식을 바탕으로 합니다. |
