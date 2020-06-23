@@ -4,9 +4,9 @@ product: Experience Cloud
 user-guide-title: Adobe Experience Cloud 릴리스 노트
 user-guide-url: https://www.adobe.com
 translation-type: tm+mt
-source-git-commit: e038294d1cfa28a2fa24acf104d9af887eb57237
+source-git-commit: 44bea0610bb4e4b5c86e8d7095cba6fe10cae833
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '86'
 ht-degree: 100%
 
 ---
@@ -15,8 +15,6 @@ ht-degree: 100%
 # Experience Cloud 릴리스 노트 {#experience-cloud}
 
 + [릴리스 노트](current.md)
-+ Adobe Experience Cloud 릴리스 노트{#exl-rns}
-   + [릴리스 노트](current.md)
 + 이전 릴리스 노트 {#previous}
    + 2020 {#2020}
       + [2020년 6월](c-legacy-releases/2020/05212020.md)
