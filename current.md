@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: a88748f592df569028641cd53d563e3b6c1d1201
+source-git-commit: 1fe0c0a5b892802837115df53c2f178e6e0ee81c
 workflow-type: tm+mt
-source-wordcount: '6688'
+source-wordcount: '7082'
 ht-degree: 94%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 94%
 * [Experience Cloud 인터페이스](#ecloud)
 * [Experience Platform](#platform)
 * [여정 편성](#journey-orch)
-* [Analytics](#analytics) (및 [Customer Journey Analytics](#cust-journey))
+* [Analytics](#analytics)(및 [Customer Journey Analytics](#cust-journey))
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [캠페인](#ac)
@@ -136,7 +136,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 ### 최신 릴리스
 
-최신 릴리스 업데이트는 [Journey Orchestration 릴리스 노트를 참조하십시오.](https://docs.adobe.com/content/help/ko-KR/journeys/using/release-notes/release-notes.html)
+최신 릴리스 업데이트는 [Journey Orchestration 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/journeys/using/release-notes/release-notes.html)를 참조하십시오.
 
 ### 새로운 Journey Orchestration 교육 과정 및 자습서 {#jo-tutorials}
 
@@ -165,7 +165,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | -----------| ---------- |-------|
-| 속성 IQ: 알고리즘 속성 | 2020년 6월 18일 | Analysis Workspace의 [!UICONTROL 알고리즘 속성] 모델은 통계 기술을 사용하여 선택한 지표에 대한 크레딧의 최적 할당을 동적으로 결정합니다. Adobe Analytics Ultimate 고객이 이용 가능 [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
+| 속성 IQ: 알고리즘 속성 | 2020년 6월 18일 | Analysis Workspace의 [!UICONTROL 알고리즘 속성] 모델은 통계 기술을 사용하여 선택한 지표에 대한 크레딧의 최적 할당을 동적으로 결정합니다. Adobe Analytics Ultimate 고객이 사용할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
 | 속성 IQ: 사용자 지정 전환 확인 창 | 2020년 6월 18일 | 이제 보고 기간 전 최대 90일로부터 터치포인트를 포함하도록 [!UICONTROL 속성 IQ]에서 모든 속성 모델을 구성할 수 있습니다. 이렇게 하면 일반적으로 이전 달에 발생한 상호 작용을 처리하여 보고 기간 초에 발생하는 이벤트의 속성 정확도가 높아집니다. Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete 및 Ultimate 고객이 사용할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
 | 공유 작업 공간 프로젝트에 대한 프로젝트 역할 | 2020년 6월 18일 | 이제 작업 공간 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자를 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다(편집, 복제 및 보기). [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 보기 전용 작업 공간 프로젝트 | 2020년 6월 18일 | 작업 공간 프로젝트는 &quot;볼 수 있음&quot;으로만 사용자에게 공유할 수 있습니다. 보기 수신자가 공유 프로젝트를 열면 왼쪽 레일과 제한된 상호 작용 없이 더 제한적인 프로젝트 경험을 받게 됩니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
@@ -173,22 +173,22 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 | 작업 공간에서 업데이트된 빈 패널 | 2020년 6월 18일 | 이제 작업 공간의 빈 패널에는 패널과 시각화가 포함되어 있으므로 자신에게 가장 적합한 분석 워크플로우를 선택하는 더 원활한 방법을 제공합니다. |
 | 중국 RDC에서 사용 가능한 자사 도메인 | 2020년 6월 18일 | 중국 본토에서 사용할 자사 도메인을 요청하도록 `.cn` 도메인으로 고객을 활성화합니다. (중국 성능 최적화 SKU 구입 시 사용 가능한 설명서) |
 | 작업 공간의 Quick Insights 패널 | 2020년 6월 25일 | Quick Insights는 Analysis Workspace의 비분석가 및 새 사용자에게 비즈니스 관련 질문에 빠르고 쉽게 답변할 수 있는 방법을 배울 수 있도록 지침을 제공합니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
-| 작업 공간의 Analytics for Target 패널 | 2020년 6월 25일 | Target(A4T)용 Analytics 패널을 사용하면 Analysis Workspace에서 향상도 및 신뢰도를 활용하여 Adobe Target 활동과 경험을 분석할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/a4t-panel.html) |
-| [!UICONTROL 작업 공간] 페이지 | 18,2020년 6월 | 작업 공간 [!UICONTROL 정보] 페이지에서는 Analysis Workspace 환경, Adobe Analytics 관리자에 대한 정보(지원이 필요한 경우) 및 제품 내 피드백을 제공하는 방법을 제공합니다. 작업 공간 > **[!UICONTROL 도움말]** > **[!UICONTROL 작업 영역]** 정보 **[!UICONTROL 에서 찾을 수 있습니다]**. |
+| 작업 공간의 Analytics for Target 패널 | 2020년 6월 25일 | Analytics for Target(A4T) 패널을 사용하면 Analysis Workspace에서 자신 있게 Adobe Target 활동 및 경험을 분석할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/a4t-panel.html) |
+| [!UICONTROL Workspace 정보] 페이지 | 2020년 6월 18일 | [!UICONTROL Workaspace 정보] 페이지에서는 Analysis Workspace 환경, Adobe Analytics 관리자에 대한 정보(지원이 필요한 경우) 및 제품 내 피드백을 제공하는 방법을 제공합니다. **[!UICONTROL Workspace]** > **[!UICONTROL 도움말]** > **[!UICONTROL Workspace 정보]**&#x200B;에서 찾아볼 수 있습니다. |
 
 ### Customer Journey Analytics의 새로운 기능 {#cust-journey}
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | -----------| ---------- |-----|
-| 개체 배열 지원 | 2020년 6월 18일 | 이제 CJA 고객은 Adobe Experience Platform 데이터 세트 스키마 내의 개체 배열에 표시되는 차원 및 지표를 보고할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-usecases/object-arrays.html) |
-| 속성 IQ: [!UICONTROL 알고리즘 속성] | 2020년 6월 18일 | [!UICONTROL Analysis Workspace]의 [!UICONTROL 알고리즘 속성] 모델은 통계 기술을 사용하여 선택한 지표에 대한 크레딧의 최적 할당을 동적으로 결정합니다. Adobe Analytics Ultimate 고객이 이용 가능 [추가 정보...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/attribution/algorithmic.html) |
-| 속성 IQ: 사용자 지정 전환 확인 창 | 2020년 6월 18일 | 이제 보고 기간 전 최대 90일로부터 터치포인트를 포함하도록 [!UICONTROL 속성 IQ]에서 모든 속성 모델을 구성할 수 있습니다. 이렇게 하면 일반적으로 이전 달에 발생한 상호 작용을 처리하여 보고 기간 초에 발생하는 이벤트의 속성 정확도가 높아집니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/attribution/models.html) |
-| [!UICONTROL 예외 항목 탐지 ]지원 | 2020년 6월 18일 | [!UICONTROL 예외 항목 탐지는] 이전 데이터에 관해 주어진 지표가 변경되는 방법을 결정하는 통계적 방법을 제공합니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
-| 공유 [!UICONTROL 작업 공간] 프로젝트를 위한 프로젝트 역할 | 2020년 6월 18일 | 이제 [!UICONTROL 작업 공간] 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자를 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다(편집, 복제 및 보기). [추가 정보...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
-| 보기 전용 [!UICONTROL 작업 공간] 프로젝트 | 2020년 6월 18일 | [!UICONTROL 작업 공간 ]프로젝트는 _[!UICONTROL 볼 수 있음]_으로만 사용자에게 공유할 수 있습니다. 보기 수신자가 공유 프로젝트를 열면 왼쪽 레일과 제한된 상호 작용 없이 더 제한적인 프로젝트 경험을 받게 됩니다.[추가 정보...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/view-only-projects.html) |
-| [!UICONTROL 작업 공간] 프로젝트 공동 편집 기능 | 2020년 6월 18일 | _[!UICONTROL 편집 가능]_역할에 추가된 수신자는 공유된 프로젝트에 대해 저장할 수 있습니다.[추가 정보...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
-| 작업 공간의 [!UICONTROL Quick Insights] 패널 | 2020년 6월 25일 | Quick Insights는 [!UICONTROL Analysis Workspace]의 비분석가 및 새 사용자에게 비즈니스 관련 질문에 빠르고 쉽게 답변할 수 있는 방법을 배울 수 있도록 지침을 제공합니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/panels/quickinsight.html) |
-| [!UICONTROL 작업 공간] 페이지 | 18,2020년 6월 | 작업 공간 [!UICONTROL 정보] 페이지에서는 Analysis Workspace 환경, Adobe Analytics 관리자에 대한 정보(지원이 필요한 경우) 및 제품 내 피드백을 제공하는 방법을 제공합니다. 작업 공간 > **[!UICONTROL 도움말]** > **[!UICONTROL 작업 영역]** 정보 **[!UICONTROL 에서 찾을 수 있습니다]**. |
+| 개체 배열 지원 | 2020년 6월 18일 | 이제 CJA 고객은 Adobe Experience Platform 데이터 세트 스키마 내의 개체 배열에 표시되는 차원 및 지표를 보고할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-usecases/object-arrays.html) |
+| 속성 IQ: [!UICONTROL 알고리즘 속성] | 2020년 6월 18일 | [!UICONTROL Analysis Workspace]의 [!UICONTROL 알고리즘 속성] 모델은 통계 기술을 사용하여 선택한 지표에 대한 크레딧의 최적 할당을 동적으로 결정합니다. Adobe Analytics Ultimate 고객이 사용할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-workspace/attribution/algorithmic.html) |
+| 속성 IQ: 사용자 지정 전환 확인 창 | 2020년 6월 18일 | 이제 보고 기간 전 최대 90일로부터 터치포인트를 포함하도록 [!UICONTROL 속성 IQ]에서 모든 속성 모델을 구성할 수 있습니다. 이렇게 하면 일반적으로 이전 달에 발생한 상호 작용을 처리하여 보고 기간 초에 발생하는 이벤트의 속성 정확도가 높아집니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-workspace/attribution/models.html) |
+| [!UICONTROL 예외 항목 탐지 ]지원 | 2020년 6월 18일 | [!UICONTROL 예외 항목 탐지는] 이전 데이터에 관해 주어진 지표가 변경되는 방법을 결정하는 통계적 방법을 제공합니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
+| 공유 [!UICONTROL 작업 공간] 프로젝트를 위한 프로젝트 역할 | 2020년 6월 18일 | 이제 [!UICONTROL 작업 공간] 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자를 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다(편집, 복제 및 보기). [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
+| 보기 전용 [!UICONTROL 작업 공간] 프로젝트 | 2020년 6월 18일 | [!UICONTROL 작업 공간 ]프로젝트는 _[!UICONTROL 볼 수 있음]_으로만 사용자에게 공유할 수 있습니다. 보기 수신자가 공유 프로젝트를 열면 왼쪽 레일과 제한된 상호 작용 없이 더 제한적인 프로젝트 경험을 받게 됩니다.[추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-workspace/curate-share/view-only-projects.html) |
+| [!UICONTROL 작업 공간] 프로젝트 공동 편집 기능 | 2020년 6월 18일 | _[!UICONTROL 편집 가능]_역할에 추가된 수신자는 공유된 프로젝트에 대해 저장할 수 있습니다.[추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
+| 작업 공간의 [!UICONTROL Quick Insights] 패널 | 2020년 6월 25일 | Quick Insights는 [!UICONTROL Analysis Workspace]의 비분석가 및 새 사용자에게 비즈니스 관련 질문에 빠르고 쉽게 답변할 수 있는 방법을 배울 수 있도록 지침을 제공합니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-workspace/panels/quickinsight.html) |
+| [!UICONTROL Workspace 정보] 페이지 | 2020년 6월 18일 | [!UICONTROL Workaspace 정보] 페이지에서는 Analysis Workspace 환경, Adobe Analytics 관리자에 대한 정보(지원이 필요한 경우) 및 제품 내 피드백을 제공하는 방법을 제공합니다. **[!UICONTROL Workspace]** > **[!UICONTROL 도움말]** > **[!UICONTROL Workspace 정보]**&#x200B;에서 찾아볼 수 있습니다. |
 
 ### [!UICONTROL Media Analytics]의 새로운 기능 {#media-aa}
 
@@ -196,8 +196,8 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | -----------| ---------- | ---------- |
-| [지원되는 장치 및 플랫폼](https://docs.adobe.com/content/help/en/media-analytics/using/supported-devices.html) | 2020년 6월 18일 | 이제 AEP SDK가 포함된 Media Launch Extension은 다음과 같은 OTT 장치를 지원합니다.<ul><li>Apple TV(tvOS)</li><li>Fire TV(Fire OS)</li><li>Android TV</li></ul> |  | [지원되는 장치 및 플랫폼](https://docs.adobe.com/content/help/en/media-analytics/using/supported-devices.html) | 2020년 6월 18일 | 이제 AEP SDK가 포함된 Media Launch Extension은 다음과 같은 OTT 장치를 지원합니다.<ul><li>Apple TV(tvOS)</li><li>Fire TV(Fire OS)</li><li>Android TV</li></ul> |
-| [플레이어 상태 추적](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/player-state-tracking/player-state-overview.html) | 2020년 5월 29일 | [!UICONTROL 미디어 Analytics] 고객은 전체 화면, 자막, 음소거, PIP(Picture-in-Picture) 및 초점이 맞춰진 표준 솔루션 변수를 사용하여 재생하는 동안 뷰어 상호 작용을 캡처할 수 있습니다. 또한 사용자 정의 플레이어 상태를 생성할 수 있는 유연성을 가지게 됩니다. 이제 플레이어 상태 추적 변수를 [!UICONTROL Analysis Workspace] 보고에서 확인할 수 있습니다. 이 기능을 사용하려면 다음 중 하나가 필요합니다. <ul><li>Media [!DNL JavaScript] SDK 3.0 이상</li><li>[!DNL Adobe Experience Platform] (AEP) SDK와 함께 사용하는 경우:</li><li>[!UICONTROL Media Analytics 확장 프로그램] (웹용): 오디오 및 비디오 v1.0 이상용 [!UICONTROL Adobe Media Analytics](3.x SDK)</li><li>[!UICONTROL Media Analytics 확장 프로그램] (모바일용): 오디오 및 비디오 v2.0 이상용 [!UICONTROL Adobe Media Analytics]</li><li>[!UICONTROL 미디어 컬렉션]</li></ul> |
+| [지원되는 장치 및 플랫폼](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/supported-devices.html) | 2020년 6월 18일 | 이제 AEP SDK가 포함된 미디어 실행 확장자는 다음과 같은 OTT 장치를 지원합니다.<ul><li>Apple TV(tvOS)</li><li>Fire TV(Fire OS)</li><li>Android TV</li></ul> |  | [지원되는 장치 및 플랫폼](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/supported-devices.html) | 2020년 6월 18일 | 이제 AEP SDK가 포함된 미디어 실행 확장자는 다음과 같은 OTT 장치를 지원합니다.<ul><li>Apple TV(tvOS)</li><li>Fire TV(Fire OS)</li><li>Android TV</li></ul> |
+| [플레이어 상태 추적](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/player-state-tracking/player-state-overview.html) | 2020년 5월 29일 | [!UICONTROL Media Analytics] 고객은 전체 화면, 자막, 음소거, PIP(Picture-in-Picture) 및 인포커스에 대한 표준 솔루션 변수 세트를 사용하여 재생 중 뷰어 상호 작용을 캡처할 수 있습니다. 또한 사용자 정의 플레이어 상태를 생성할 수 있는 유연성을 가지게 됩니다. 이제 플레이어 상태 추적 변수를 [!UICONTROL Analysis Workspace] 보고에서 확인할 수 있습니다. 이 기능을 사용하려면 다음 중 하나가 필요합니다. <ul><li>Media [!DNL JavaScript] SDK 3.0 이상</li><li>[!DNL Adobe Experience Platform] (AEP) SDK와 함께 사용하는 경우:</li><li>[!UICONTROL Media Analytics 확장 프로그램] (웹용): 오디오 및 비디오 v1.0 이상용 [!UICONTROL Adobe Media Analytics](3.x SDK)</li><li>[!UICONTROL Media Analytics 확장 프로그램] (모바일용): 오디오 및 비디오 v2.0 이상용 [!UICONTROL Adobe Media Analytics]</li><li>[!UICONTROL 미디어 컬렉션]</li></ul> |
 
 ### Adobe Analytics의 수정 사항 {#aa-fixes}
 
@@ -356,7 +356,7 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 
 * **핵심 구성 요소**
 
-   Core Components 2.9.0 introduces integration with the [Adobe Client Data Layer](https://github.com/adobe/adobe-client-data-layer) and a new Progress Bar Component and is now available along with [authoring documentation](https://docs.adobe.com/content/help/ko-KR/experience-manager-core-components/using/introduction.html) and [developer details and project download available on GitHub](https://github.com/adobe/aem-core-wcm-components).
+   핵심 구성 요소 2.9.0은 [Adobe 클라이언트 데이터 레이어](https://github.com/adobe/adobe-client-data-layer) 및 새로운 진행률 표시줄 구성 요소와 통합되었으며, 이제 [저작 설명서](https://docs.adobe.com/content/help/ko-KR/experience-manager-core-components/using/introduction.html) 및 [개발자 세부 사항 및 프로젝트 다운로드와 함께 GitHub에서 사용](https://github.com/adobe/aem-core-wcm-components)할 수 있습니다.
 
 * **클라우드 서비스로서의 AEM로 이동**
 
@@ -433,10 +433,10 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 ### 새 제품 릴리스
 
-[Adobe Campaign Classic 20.2 릴리스에는 다음이](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/release-notes/latest-release.html) 포함됩니다.
+[Adobe Campaign Classic 20.2 릴리스](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/release-notes/latest-release.html)에는 다음이 포함되어 있습니다.
 
 * _이모티콘 지원_ - _Azure Synapse FDA Connector_ - _새로운 개인 정보 보호 규정_
-* 캠페인 제어판: [활성 프로필 모니터링](https://docs.adobe.com/content/help/ko-KR/control-panel/using/performance-monitoring/active-profiles-monitoring.html)
+* Campaign 컨트롤 패널: [활성 프로필 모니터링](https://docs.adobe.com/content/help/ko-KR/control-panel/using/performance-monitoring/active-profiles-monitoring.html)
 
 ### 새로운 Campaign 교육 과정 및 자습서
 
@@ -460,11 +460,23 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 ### Advertising Cloud DSP의 새로운 기능 {#adcloud-dsp}
 
+업데이트 날짜: **2020년 6월 23일**
+
 | 기능 | 설명 |
 | -----------| ---------- |
+| 도메인 마이그레이션 | (6월 22일 릴리스) Advertising Cloud DSP가 https://www.tubemogul.com에서 https://advertising.adobe.com으로 [마이그레이션되었습니다](https://advertising.adobe.com). |
+| Adobe Analytics 통합 | (6월 18일 릴리스) 이제 DSP는 Analytics으로 보내는 데이터에서 AMO 비용 지표를 선택적으로 비활성화할 수 있습니다. 지표를 제외하려면 Adobe 계정 관리자에게 문의하십시오. |
+| 사람 기반 장치 그래프 | (6월 22일 릴리스) 이제 셀프 서비스 DSP 고객은 모든 새로운 캠페인에 걸쳐 사용자 기반의 타깃팅 및 빈도 관리를 위해 장치 그래프(Adobe Experience Cloud Device Co-op 또는 LiveRamp)를 활용할 수 있습니다. 이렇게 하면 자신이 소유한 디바이스를 통해 고객에게 도달하고 광고 노출을 제한할 수 있습니다. |
+| CPA 옵트아웃 판매 | (6월 22일 릴리스) 이제 대상 > 세그먼트에서 만들 수 있는 새로운 CPA 판매 거부 세그먼트를 사용하여 Advertising Cloud에 CPA 판매 거부 요청을 [!UICONTROL 전달할 수 있습니다]. 또한 Advertising Cloud 거래 API를 사용하여 대상 > 세그먼트  또는 b)에서 계정에 대한 판매 거부 요청을 위해 고객이 제출한 ID의 월별 보고서를 검색할 수 있습니다. a) 자세한 내용은 https://docs.adobe.com/content/help/en/advertising-cloud/all/privacy/ad-cloud-ccpa-opt-out-of-sale.html을 [참조하십시오.](https://docs.adobe.com/content/help/en/advertising-cloud/all/privacy/ad-cloud-ccpa-opt-out-of-sale.html) |
+| DoubleVerify 정품 브랜드 안전성 | (6월 22일 릴리스) 이제 광고주는 DoubleVerify를 사용하여 포괄적인 브랜드 안전 필터로 단일 DoubleVerify 세그먼트 ID 사전 입찰을 타깃팅할 수 있습니다. 이제 [설정] > [광고주]에서 광고주 설정의 미디어 품질 타깃팅 섹션에서 [!UICONTROL 설정할 수 있습니다]. 서비스에 대한 자세한 내용은 programmaticsales@doubleverify.com으로 문의하십시오. 이 기능에 대한 추가 비용이 적용됩니다. |
+| CPA/ROAS 최적화 | (5월 20일 릴리스) 더 이상 캠페인 관리자가 예산을 과다 할당하지 않도록 패키지 내에서 새 배치를 제한할 필요가 없습니다. 이제 배치는 CPM 또는 CPA/ROAS 성능에 따라 동적 예산 할당을 받습니다. |
 | [!UICONTROL Campaign] Home  | (6월 3일 릴리스) 제공된 캠페인 예산과 경과 시간을 기반으로 하는 새로운 캠페인 수준 간격 지표를 사용할 수 있습니다. |
+| [!UICONTROL 배치] | (6월 22일 릴리스) 배치 설정을 간소화하기 위해 사이트 다양성 및 플레이어 크기 필터가 제거되었습니다. |
 | 배치 예측 | (6월 3일 릴리스) 배치 수준 최적화를 사용하는 CTV 및 비디오 배치의 경우 배치 설정에는 여러 광고 길이(15초 및 30초)에 대한 예측이 포함됩니다. 또한, VAST 및 VPAID 인벤토리에 대한 예측도 포함됩니다. |
 | CPA/ROAS 최적화 | (5월 20일 릴리스) 더 이상 캠페인 관리자가 예산을 과다 할당하지 않도록 패키지 내에서 새 배치를 제한할 필요가 없습니다. 이제 배치는 CPM 또는 CPA/ROAS 성능에 따라 동적 예산 할당을 받습니다. |
+| [!UICONTROL 인벤토리] | (6월 22일 베타 릴리스) 새로운 거래 ID 양식을 사용하면 이미 협상한 개인 거래를 신속하게 설정할 수 있습니다. |
+|  | (6월 22일 베타 릴리스) 이제 VAST 인벤토리에서 대화형 프리롤을 사용할 수 있습니다. 하나의 인터랙티브한 프리롤 광고 및 배치를 설정하여 광고 및 배치 수를 줄일 수 있습니다. |
+| ACTV Audience Lens | (6월 18일 릴리스) 대상 렌즈를 사용하면 보조 대상 읽기를 만들고 계획, 주문 및 보고 워크플로우에 적용할 수 있습니다. 이를 통해 (1) 보조 대상에 대한 빠른 통찰력을 얻을 수 있고 (2) 기본 대상에서 유연한 거래를 할 수 있으며 (3) 여러 대상의 &quot;렌즈&quot;를 통해 캠페인 실행을 측정할 수 있습니다. |
 
 ### [!UICONTROL Advertising Cloud Search]{#adcloud-search}의 새로운 기능
 
