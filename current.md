@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1fe0c0a5b892802837115df53c2f178e6e0ee81c
+source-git-commit: 504a9a00daef04e57c5662d0a4e3e92920b40ccd
 workflow-type: tm+mt
-source-wordcount: '7082'
+source-wordcount: '7037'
 ht-degree: 94%
 
 ---
@@ -466,14 +466,14 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 | -----------| ---------- |
 | 도메인 마이그레이션 | (6월 22일 릴리스) Advertising Cloud DSP가 https://www.tubemogul.com에서 https://advertising.adobe.com으로 [마이그레이션되었습니다](https://advertising.adobe.com). |
 | Adobe Analytics 통합 | (6월 18일 릴리스) 이제 DSP는 Analytics으로 보내는 데이터에서 AMO 비용 지표를 선택적으로 비활성화할 수 있습니다. 지표를 제외하려면 Adobe 계정 관리자에게 문의하십시오. |
-| 사람 기반 장치 그래프 | (6월 22일 릴리스) 이제 셀프 서비스 DSP 고객은 모든 새로운 캠페인에 걸쳐 사용자 기반의 타깃팅 및 빈도 관리를 위해 장치 그래프(Adobe Experience Cloud Device Co-op 또는 LiveRamp)를 활용할 수 있습니다. 이렇게 하면 자신이 소유한 디바이스를 통해 고객에게 도달하고 광고 노출을 제한할 수 있습니다. |
-| CPA 옵트아웃 판매 | (6월 22일 릴리스) 이제 대상 > 세그먼트에서 만들 수 있는 새로운 CPA 판매 거부 세그먼트를 사용하여 Advertising Cloud에 CPA 판매 거부 요청을 [!UICONTROL 전달할 수 있습니다]. 또한 Advertising Cloud 거래 API를 사용하여 대상 > 세그먼트  또는 b)에서 계정에 대한 판매 거부 요청을 위해 고객이 제출한 ID의 월별 보고서를 검색할 수 있습니다. a) 자세한 내용은 https://docs.adobe.com/content/help/en/advertising-cloud/all/privacy/ad-cloud-ccpa-opt-out-of-sale.html을 [참조하십시오.](https://docs.adobe.com/content/help/en/advertising-cloud/all/privacy/ad-cloud-ccpa-opt-out-of-sale.html) |
+| 사람 기반 장치 그래프 | (6월 22일 릴리스) 셀프 서비스 DSP 고객은 이제 장치 그래프(Adobe Experience Cloud Device Co-op)를 활용할 수 있습니다 |
+| 또는 LiveRamp)를 통해 새로운 캠페인에 걸쳐 사용자 기반의 타깃팅 및 빈도 관리를 수행할 수 있습니다. 이렇게 하면 자신이 소유한 디바이스를 통해 고객에게 도달하고 광고 노출을 제한할 수 있습니다. |
+| CPA 옵트아웃 판매 | (6월 22일 릴리스) 이제 대상 > 세그먼트에서 만들 수 있는 새로운 CPA 판매 거부 세그먼트를 사용하여 Advertising Cloud에 CPA 판매 거부 요청을 [!UICONTROL 전달할 수 있습니다]. 또한 Advertising Cloud 거래 API를 사용하여 대상 > 세그먼트  또는 b)에서 계정에 대한 판매 거부 요청을 위해 고객이 제출한 ID의 월별 보고서를 검색할 수 있습니다. a) 자세한 내용은 https://docs.adobe.com/content/help/en/advertising-cloud/all/privacy/ad-cloud-ccpa-opt-out-of-sale.html을 참조하십시오. |
 | DoubleVerify 정품 브랜드 안전성 | (6월 22일 릴리스) 이제 광고주는 DoubleVerify를 사용하여 포괄적인 브랜드 안전 필터로 단일 DoubleVerify 세그먼트 ID 사전 입찰을 타깃팅할 수 있습니다. 이제 [설정] > [광고주]에서 광고주 설정의 미디어 품질 타깃팅 섹션에서 [!UICONTROL 설정할 수 있습니다]. 서비스에 대한 자세한 내용은 programmaticsales@doubleverify.com으로 문의하십시오. 이 기능에 대한 추가 비용이 적용됩니다. |
 | CPA/ROAS 최적화 | (5월 20일 릴리스) 더 이상 캠페인 관리자가 예산을 과다 할당하지 않도록 패키지 내에서 새 배치를 제한할 필요가 없습니다. 이제 배치는 CPM 또는 CPA/ROAS 성능에 따라 동적 예산 할당을 받습니다. |
 | [!UICONTROL Campaign] Home  | (6월 3일 릴리스) 제공된 캠페인 예산과 경과 시간을 기반으로 하는 새로운 캠페인 수준 간격 지표를 사용할 수 있습니다. |
 | [!UICONTROL 배치] | (6월 22일 릴리스) 배치 설정을 간소화하기 위해 사이트 다양성 및 플레이어 크기 필터가 제거되었습니다. |
 | 배치 예측 | (6월 3일 릴리스) 배치 수준 최적화를 사용하는 CTV 및 비디오 배치의 경우 배치 설정에는 여러 광고 길이(15초 및 30초)에 대한 예측이 포함됩니다. 또한, VAST 및 VPAID 인벤토리에 대한 예측도 포함됩니다. |
-| CPA/ROAS 최적화 | (5월 20일 릴리스) 더 이상 캠페인 관리자가 예산을 과다 할당하지 않도록 패키지 내에서 새 배치를 제한할 필요가 없습니다. 이제 배치는 CPM 또는 CPA/ROAS 성능에 따라 동적 예산 할당을 받습니다. |
 | [!UICONTROL 인벤토리] | (6월 22일 베타 릴리스) 새로운 거래 ID 양식을 사용하면 이미 협상한 개인 거래를 신속하게 설정할 수 있습니다. |
 |  | (6월 22일 베타 릴리스) 이제 VAST 인벤토리에서 대화형 프리롤을 사용할 수 있습니다. 하나의 인터랙티브한 프리롤 광고 및 배치를 설정하여 광고 및 배치 수를 줄일 수 있습니다. |
 | ACTV Audience Lens | (6월 18일 릴리스) 대상 렌즈를 사용하면 보조 대상 읽기를 만들고 계획, 주문 및 보고 워크플로우에 적용할 수 있습니다. 이를 통해 (1) 보조 대상에 대한 빠른 통찰력을 얻을 수 있고 (2) 기본 대상에서 유연한 거래를 할 수 있으며 (3) 여러 대상의 &quot;렌즈&quot;를 통해 캠페인 실행을 측정할 수 있습니다. |
