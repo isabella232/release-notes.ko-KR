@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: bcf089494e56dd5ece46bd7575bf661e352dc9f0
 workflow-type: tm+mt
 source-wordcount: '7035'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -340,12 +340,10 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
       * Cloud Manager의 향상된 셀프 서비스 샌드박스 지원을 통해 자격이 부여된 사용자는 샌드박스 내의 모든 환경을 삭제하고 크레딧을 받을 수 있습니다.
       * 자동 최대 절전 모드 샌드박스 환경을 사용하면 비활성 기간 후 자동으로 &quot;최대 절전 모드 해제&quot; 샌드박스가 자동으로 적용됩니다. 고객은 &quot;최대 절전 모드 해제&quot;를 트리거할 수 있습니다.
    * 클라우드 가속 지원을 위한 전환 툴
-
    온-프레미스 서비스에서 클라우드 서비스로 전환하는 데 소요되는 시간과 비용을 줄이기 위한 목표로, 이번 달에 두 개의 전환 툴이 출시되었습니다. 이러한 툴은 전환 프로세스 동안 일부 주요 작업을 자동화하여 전반적인 노력을 줄일 수 있도록 고안되었습니다. 
 
    1. [컨텐츠 전송 툴](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html)(SD에서 사용 가능)을 사용하면 컨텐츠 전송 활동을 간소화하고 확장 가능한 컨텐츠를 만들 수 있습니다. 사용자에게 친숙한 UI를 사용하는 이 툴은 AEM을 클라우드 서비스로 전환하는 기존 고객 및 파트너(온-프레미스/AMS)를 위한 셀프 서비스입니다.
    1. [AMS Dispatcher Converter](https://github.com/adobe/aem-cloud-service-dispatcher-converter)(오픈 소스) 도구를 사용하여 AMS Dispatcher 구성을 Cloud Service Dispatcher 구성으로 자동 변환합니다.
-
    [클라우드 서비스 2020.6.0으로서의 AEM 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    전환 툴:
@@ -462,18 +460,18 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 | 기능 | 설명 |
 | -----------| ---------- |
-| 도메인 마이그레이션 | (6월 22일 릴리스) Advertising Cloud DSP가 https://www.tubemogul.com에서 https://advertising.adobe.com으로 [마이그레이션되었습니다](https://advertising.adobe.com). |
-| Adobe Analytics 통합 | (6월 18일 릴리스) 이제 DSP는 Analytics으로 보내는 데이터에서 AMO 비용 지표를 선택적으로 비활성화할 수 있습니다. 지표를 제외하려면 Adobe 계정 관리자에게 문의하십시오. |
-| 사람 기반 장치 그래프 | (6월 22일 릴리스) 이제 셀프 서비스 DSP 고객은 모든 새로운 캠페인에 걸쳐 사용자 기반의 타깃팅 및 빈도 관리를 위해 장치 그래프(Adobe Experience Cloud Device Co-op 또는 LiveRamp)를 활용할 수 있습니다. 이렇게 하면 자신이 소유한 디바이스를 통해 고객에게 도달하고 광고 노출을 제한할 수 있습니다. |
-| CPA 옵트아웃 판매 | (6월 22일 릴리스) 이제 대상 > 세그먼트에서 만들 수 있는 새로운 CPA 판매 거부 세그먼트를 사용하여 Advertising Cloud에 CPA 판매 거부 요청을 [!UICONTROL 전달할 수 있습니다]. 또한 Advertising Cloud 거래 API를 사용하여 대상 > 세그먼트  또는 b)에서 계정에 대한 판매 거부 요청을 위해 고객이 제출한 ID의 월별 보고서를 검색할 수 있습니다. a) 자세한 내용은 https://docs.adobe.com/content/help/en/advertising-cloud/all/privacy/ad-cloud-ccpa-opt-out-of-sale.html을 참조하십시오. |
-| DoubleVerify 정품 브랜드 안전성 | (6월 22일 릴리스) 이제 광고주는 DoubleVerify를 사용하여 포괄적인 브랜드 안전 필터로 단일 DoubleVerify 세그먼트 ID 사전 입찰을 타깃팅할 수 있습니다. 이제 [설정] > [광고주]에서 광고주 설정의 미디어 품질 타깃팅 섹션에서 [!UICONTROL 설정할 수 있습니다]. 서비스에 대한 자세한 내용은 programmaticsales@doubleverify.com으로 문의하십시오. 이 기능에 대한 추가 비용이 적용됩니다. |
+| 도메인 마이그레이션 | (6월 22일 릴리스) Advertising Cloud DSP가 https://www.tubemogul.com 에서 [https://advertising.adobe.com](https://advertising.adobe.com)으로 마이그레이션되었습니다. |
+| Adobe Analytics 통합 | (6월 18일 릴리스) 이제 DSP는 Analytics으로 보내는 데이터에서 AMO 비용 지표를 선택적으로 표시하지 않을 수 있습니다. 지표를 표시하지 않으려면 Adobe 계정 관리자에게 문의하십시오. |
+| 사용자 기반 장치 그래프 | (6월 22일 릴리스) 이제 셀프 서비스 DSP 고객은 모든 새로운 캠페인에서 사용자 기반 타깃팅 및 빈도 관리를 위해 장치 그래프(Adobe Experience Cloud Device Co-op 또는 LiveRamp)를 활용할 수 있습니다. 이렇게 하면 자신이 소유한 장치를 통해 대상에 연결하고 광고 노출을 제한할 수 있습니다. |
+| CCPA 판매 중지 | (6월 22일 릴리스) 이제 [!UICONTROL 대상 > 세그먼트]에서 만들 수 있는 새로운 CCPA 판매 중지 세그먼트를 사용하여 CCPA 판매 중지 요청을 Advertising Cloud에 전달할 수 있습니다. 또한 a) [!UICONTROL 대상 > 세그먼트]에서 또는 b) Advertising Cloud Trafficking API를 사용하여 고객이 계정에 대해 판매 중지 요청을 제출한 월별 ID의 보고서를 검색할 수 있습니다. 자세한 내용은 https://docs.adobe.com/content/help/en/advertising-cloud/all/privacy/ad-cloud-ccpa-opt-out-of-sale.html을 참조하십시오. |
+| DoubleVerify 정품 브랜드 안전성 | (6월 22일 릴리스) 이제 광고주는 DoubleVerify로 입찰 후 차단 규칙을 모방하도록 포괄적인 브랜드 안전 필터를 사용하여 단일 DoubleVerify 세그먼트 ID 사전 입찰을 타깃팅할 수 있습니다. 이제 [!UICONTROL 설정 > 광고주]에서 광고주 설정의 미디어 품질 타깃팅 섹션에서 이렇게 할 수 있습니다. 서비스에 대해 자세히 알아보려면 programmaticsales@doubleverify.com으로 문의하십시오. 이 기능에 대한 추가 비용이 적용됩니다. |
 | CPA/ROAS 최적화 | (5월 20일 릴리스) 더 이상 캠페인 관리자가 예산을 과다 할당하지 않도록 패키지 내에서 새 배치를 제한할 필요가 없습니다. 이제 배치는 CPM 또는 CPA/ROAS 성능에 따라 동적 예산 할당을 받습니다. |
 | [!UICONTROL Campaign] Home  | (6월 3일 릴리스) 제공된 캠페인 예산과 경과 시간을 기반으로 하는 새로운 캠페인 수준 간격 지표를 사용할 수 있습니다. |
 | [!UICONTROL 배치] | (6월 22일 릴리스) 배치 설정을 간소화하기 위해 사이트 다양성 및 플레이어 크기 필터가 제거되었습니다. |
 | 배치 예측 | (6월 3일 릴리스) 배치 수준 최적화를 사용하는 CTV 및 비디오 배치의 경우 배치 설정에는 여러 광고 길이(15초 및 30초)에 대한 예측이 포함됩니다. 또한, VAST 및 VPAID 인벤토리에 대한 예측도 포함됩니다. |
-| [!UICONTROL 인벤토리] | (6월 22일 베타 릴리스) 새로운 거래 ID 양식을 사용하면 이미 협상한 개인 거래를 신속하게 설정할 수 있습니다. |
-|  | (6월 22일 베타 릴리스) 이제 VAST 인벤토리에서 대화형 프리롤을 사용할 수 있습니다. 하나의 인터랙티브한 프리롤 광고 및 배치를 설정하여 광고 및 배치 수를 줄일 수 있습니다. |
-| ACTV Audience Lens | (6월 18일 릴리스) 대상 렌즈를 사용하면 보조 대상 읽기를 만들고 계획, 주문 및 보고 워크플로우에 적용할 수 있습니다. 이를 통해 (1) 보조 대상에 대한 빠른 통찰력을 얻을 수 있고 (2) 기본 대상에서 유연한 거래를 할 수 있으며 (3) 여러 대상의 &quot;렌즈&quot;를 통해 캠페인 실행을 측정할 수 있습니다. |
+| [!UICONTROL 인벤토리] | (6월 22일 베타 릴리스) 새로운 거래 ID 양식을 사용하면 이미 협상한 비공개 거래를 신속하게 설정할 수 있습니다. |
+|  | (6월 22일 베타 릴리스) 이제 VAST 인벤토리에서 대화형 프리롤을 사용할 수 있습니다. 단일 대화형 프리롤 광고 및 배치를 설정하여 광고 및 배치 수를 줄일 수 있습니다. |
+| ACTV 대상 렌즈 | (6월 18일 릴리스) 대상 렌즈를 사용하면 보조 대상 읽기를 만들고 계획, 주문 및 보고 워크플로우에 적용할 수 있습니다. 이렇게 하면 (1) 보조 대상에 대한 빠른 인사이트를 얻을 수 있고 (2) 기본 대상에서 유연한 거래가 가능하며 (3) 여러 대상의 &quot;렌즈&quot;를 통해 캠페인 실행을 측정할 수 있습니다. |
 
 ### [!UICONTROL Advertising Cloud Search]{#adcloud-search}의 새로운 기능
 
