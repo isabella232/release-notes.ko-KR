@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: bcf089494e56dd5ece46bd7575bf661e352dc9f0
+source-git-commit: d081c9c185e4709eb758c1562466af2f92af593e
 workflow-type: tm+mt
-source-wordcount: '7035'
+source-wordcount: '6998'
 ht-degree: 100%
 
 ---
@@ -183,12 +183,13 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 | 개체 배열 지원 | 2020년 6월 18일 | 이제 CJA 고객은 Adobe Experience Platform 데이터 세트 스키마 내의 개체 배열에 표시되는 차원 및 지표를 보고할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-usecases/object-arrays.html) |
 | 속성 IQ: [!UICONTROL 알고리즘 속성] | 2020년 6월 18일 | [!UICONTROL Analysis Workspace]의 [!UICONTROL 알고리즘 속성] 모델은 통계 기술을 사용하여 선택한 지표에 대한 크레딧의 최적 할당을 동적으로 결정합니다. Adobe Analytics Ultimate 고객이 사용할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-workspace/attribution/algorithmic.html) |
 | 속성 IQ: 사용자 지정 전환 확인 창 | 2020년 6월 18일 | 이제 보고 기간 전 최대 90일로부터 터치포인트를 포함하도록 [!UICONTROL 속성 IQ]에서 모든 속성 모델을 구성할 수 있습니다. 이렇게 하면 일반적으로 이전 달에 발생한 상호 작용을 처리하여 보고 기간 초에 발생하는 이벤트의 속성 정확도가 높아집니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-workspace/attribution/models.html) |
-| [!UICONTROL 예외 항목 탐지 ]지원 | 2020년 6월 18일 | [!UICONTROL 예외 항목 탐지는] 이전 데이터에 관해 주어진 지표가 변경되는 방법을 결정하는 통계적 방법을 제공합니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
 | 공유 [!UICONTROL 작업 공간] 프로젝트를 위한 프로젝트 역할 | 2020년 6월 18일 | 이제 [!UICONTROL 작업 공간] 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자를 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다(편집, 복제 및 보기). [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
 | 보기 전용 [!UICONTROL 작업 공간] 프로젝트 | 2020년 6월 18일 | [!UICONTROL 작업 공간 ]프로젝트는 _[!UICONTROL 볼 수 있음]_으로만 사용자에게 공유할 수 있습니다. 보기 수신자가 공유 프로젝트를 열면 왼쪽 레일과 제한된 상호 작용 없이 더 제한적인 프로젝트 경험을 받게 됩니다.[추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-workspace/curate-share/view-only-projects.html) |
 | [!UICONTROL 작업 공간] 프로젝트 공동 편집 기능 | 2020년 6월 18일 | _[!UICONTROL 편집 가능]_역할에 추가된 수신자는 공유된 프로젝트에 대해 저장할 수 있습니다.[추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
 | 작업 공간의 [!UICONTROL Quick Insights] 패널 | 2020년 6월 25일 | Quick Insights는 [!UICONTROL Analysis Workspace]의 비분석가 및 새 사용자에게 비즈니스 관련 질문에 빠르고 쉽게 답변할 수 있는 방법을 배울 수 있도록 지침을 제공합니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-workspace/panels/quickinsight.html) |
 | [!UICONTROL Workspace 정보] 페이지 | 2020년 6월 18일 | [!UICONTROL Workaspace 정보] 페이지에서는 Analysis Workspace 환경, Adobe Analytics 관리자에 대한 정보(지원이 필요한 경우) 및 제품 내 피드백을 제공하는 방법을 제공합니다. **[!UICONTROL Workspace]** > **[!UICONTROL 도움말]** > **[!UICONTROL Workspace 정보]**&#x200B;에서 찾아볼 수 있습니다. |
+
+<!-->Support for [!UICONTROL Anomaly Detection] - July ??, 2020 - [!UICONTROL Anomaly Detection] provides a statistical method to determine how a given metric has changed in relation to previous data. [Learn more...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)<-->
 
 ### [!UICONTROL Media Analytics]의 새로운 기능 {#media-aa}
 
@@ -340,10 +341,12 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
       * Cloud Manager의 향상된 셀프 서비스 샌드박스 지원을 통해 자격이 부여된 사용자는 샌드박스 내의 모든 환경을 삭제하고 크레딧을 받을 수 있습니다.
       * 자동 최대 절전 모드 샌드박스 환경을 사용하면 비활성 기간 후 자동으로 &quot;최대 절전 모드 해제&quot; 샌드박스가 자동으로 적용됩니다. 고객은 &quot;최대 절전 모드 해제&quot;를 트리거할 수 있습니다.
    * 클라우드 가속 지원을 위한 전환 툴
+
    온-프레미스 서비스에서 클라우드 서비스로 전환하는 데 소요되는 시간과 비용을 줄이기 위한 목표로, 이번 달에 두 개의 전환 툴이 출시되었습니다. 이러한 툴은 전환 프로세스 동안 일부 주요 작업을 자동화하여 전반적인 노력을 줄일 수 있도록 고안되었습니다. 
 
    1. [컨텐츠 전송 툴](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html)(SD에서 사용 가능)을 사용하면 컨텐츠 전송 활동을 간소화하고 확장 가능한 컨텐츠를 만들 수 있습니다. 사용자에게 친숙한 UI를 사용하는 이 툴은 AEM을 클라우드 서비스로 전환하는 기존 고객 및 파트너(온-프레미스/AMS)를 위한 셀프 서비스입니다.
    1. [AMS Dispatcher Converter](https://github.com/adobe/aem-cloud-service-dispatcher-converter)(오픈 소스) 도구를 사용하여 AMS Dispatcher 구성을 Cloud Service Dispatcher 구성으로 자동 변환합니다.
+
    [클라우드 서비스 2020.6.0으로서의 AEM 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    전환 툴:
@@ -463,7 +466,7 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 | 도메인 마이그레이션 | (6월 22일 릴리스) Advertising Cloud DSP가 https://www.tubemogul.com 에서 [https://advertising.adobe.com](https://advertising.adobe.com)으로 마이그레이션되었습니다. |
 | Adobe Analytics 통합 | (6월 18일 릴리스) 이제 DSP는 Analytics으로 보내는 데이터에서 AMO 비용 지표를 선택적으로 표시하지 않을 수 있습니다. 지표를 표시하지 않으려면 Adobe 계정 관리자에게 문의하십시오. |
 | 사용자 기반 장치 그래프 | (6월 22일 릴리스) 이제 셀프 서비스 DSP 고객은 모든 새로운 캠페인에서 사용자 기반 타깃팅 및 빈도 관리를 위해 장치 그래프(Adobe Experience Cloud Device Co-op 또는 LiveRamp)를 활용할 수 있습니다. 이렇게 하면 자신이 소유한 장치를 통해 대상에 연결하고 광고 노출을 제한할 수 있습니다. |
-| CCPA 판매 중지 | (6월 22일 릴리스) 이제 [!UICONTROL 대상 > 세그먼트]에서 만들 수 있는 새로운 CCPA 판매 중지 세그먼트를 사용하여 CCPA 판매 중지 요청을 Advertising Cloud에 전달할 수 있습니다. 또한 a) [!UICONTROL 대상 > 세그먼트]에서 또는 b) Advertising Cloud Trafficking API를 사용하여 고객이 계정에 대해 판매 중지 요청을 제출한 월별 ID의 보고서를 검색할 수 있습니다. 자세한 내용은 https://docs.adobe.com/content/help/en/advertising-cloud/all/privacy/ad-cloud-ccpa-opt-out-of-sale.html을 참조하십시오. |
+| CCPA 판매 중지 | (6월 22일 릴리스) 이제 [!UICONTROL 대상 > 세그먼트]에서 만들 수 있는 새로운 CCPA 판매 중지 세그먼트를 사용하여 CCPA 판매 중지 요청을 Advertising Cloud에 전달할 수 있습니다. 또한 a) [!UICONTROL 대상 > 세그먼트]에서 또는 b) Advertising Cloud Trafficking API를 사용하여 고객이 계정에 대해 판매 중지 요청을 제출한 월별 ID의 보고서를 검색할 수 있습니다. 자세한 내용은 https://docs.adobe.com/content/help/en/advertising-cloud/all/privacy/ad-cloud-ccpa-opt-out-of-sale.html 을 참조하십시오. |
 | DoubleVerify 정품 브랜드 안전성 | (6월 22일 릴리스) 이제 광고주는 DoubleVerify로 입찰 후 차단 규칙을 모방하도록 포괄적인 브랜드 안전 필터를 사용하여 단일 DoubleVerify 세그먼트 ID 사전 입찰을 타깃팅할 수 있습니다. 이제 [!UICONTROL 설정 > 광고주]에서 광고주 설정의 미디어 품질 타깃팅 섹션에서 이렇게 할 수 있습니다. 서비스에 대해 자세히 알아보려면 programmaticsales@doubleverify.com으로 문의하십시오. 이 기능에 대한 추가 비용이 적용됩니다. |
 | CPA/ROAS 최적화 | (5월 20일 릴리스) 더 이상 캠페인 관리자가 예산을 과다 할당하지 않도록 패키지 내에서 새 배치를 제한할 필요가 없습니다. 이제 배치는 CPM 또는 CPA/ROAS 성능에 따라 동적 예산 할당을 받습니다. |
 | [!UICONTROL Campaign] Home  | (6월 3일 릴리스) 제공된 캠페인 예산과 경과 시간을 기반으로 하는 새로운 캠페인 수준 간격 지표를 사용할 수 있습니다. |
