@@ -4,11 +4,11 @@ description: Adobe Experience Cloud 릴리스 노트
 doc-type: release notes
 last-update: June 2020
 author: mfrei
-translation-type: ht
-source-git-commit: d081c9c185e4709eb758c1562466af2f92af593e
-workflow-type: ht
-source-wordcount: '6998'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: efd848cda1046613c889825fff57b868b67e1c80
+workflow-type: tm+mt
+source-wordcount: '7021'
+ht-degree: 99%
 
 ---
 
@@ -250,6 +250,10 @@ Analytics 및 Customer Journey Analytics의 새 강좌, 자습서 비디오 및 
 | [Analysis Workspace 시작하기](https://experienceleague.adobe.com/?recommended=Analytics-U-1-2020.1.workspace) | 교육 과정 | Analysis Workspace를 사용하는 방법을 알아봅니다. 간단한 프로젝트를 제작하고 날짜 범위를 정의하며 세그먼트를 적용하고 프로젝트에서 공유 및 공동 작업하는 방법을 살펴봅니다. |
 | [Adobe Analytics 대시보드 스코어카드 빌더](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html) | 비디오 자습서 | 이 비디오에서는 Adobe Analytics 대시보드(모바일 앱)에서 보기 위해 [!UICONTROL Analysis Workspace]에서 [!UICONTROL 스코어카드]를 만들고 공유하는 방법을 알아봅니다. |
 | [Adobe Analytics 대시보드 앱 내 경험](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html) | 비디오 자습서 | 이 비디오에서는 Adobe Analytics 대시보드(모바일 앱)를 사용하여 사용자가 만들었거나 사용자와 공유한 [!UICONTROL 스코어카드]에 액세스하고 보는 방법을 알아봅니다. |
+
+#### AppMeasurement {#appm}
+
+AppMeasurement 릴리스에 대한 최신 업데이트는 JavaScript용 [AppMeasurement 릴리스 노트를 참조하십시오](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/appmeasurement-updates.html).
 
 #### Analytics 도움말 리소스
 
