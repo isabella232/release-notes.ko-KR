@@ -4,11 +4,11 @@ description: Adobe Experience Cloud 릴리스 노트
 doc-type: release notes
 last-update: June 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: efd848cda1046613c889825fff57b868b67e1c80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7021'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -253,7 +253,7 @@ Analytics 및 Customer Journey Analytics의 새 강좌, 자습서 비디오 및 
 
 #### AppMeasurement {#appm}
 
-AppMeasurement 릴리스에 대한 최신 업데이트는 JavaScript용 [AppMeasurement 릴리스 노트를 참조하십시오](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/appmeasurement-updates.html).
+AppMeasurement 릴리스에 대한 최신 업데이트는 [JavaScript용 AppMeasurement 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/appmeasurement-updates.html)를 참조하십시오.
 
 #### Analytics 도움말 리소스
 
