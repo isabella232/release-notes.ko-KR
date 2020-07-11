@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c6a73c783440eeeedcb612a1ea898271766684b0
+source-git-commit: 65fea3351137d311bbda846058bea34284b0054e
 workflow-type: tm+mt
-source-wordcount: '4154'
+source-wordcount: '4205'
 ht-degree: 60%
 
 ---
@@ -35,7 +35,8 @@ ht-degree: 60%
 
 * [Adobe 시스템 상태](#status)
 * [Experience Cloud 인터페이스](#ecloud)
-* [Journey Orchestration](#journey-orch)
+* [Experience Platform](#platform)
+* [여정 편성](#journey-orch)
 * [Analytics](#analytics) 및 [Customer Journey Analytics](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
@@ -110,6 +111,14 @@ Adobe는 모든 Experience Cloud 애플리케이션에서 사용자 경험을 �
 >[!NOTE]
 >
 >[!UICONTROL Marketing Cloud Assets] 선택기의 기존 필터인 **[!UICONTROL 보드 및 컬렉션]**&#x200B;이 중단되었습니다.
+
+## ![아이콘](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
+
+[!DNL Experience Platform] 및 애플리케이션 서비스(예: [!DNL Experience Platform Launch,] [!UICONTROL Offers], [!UICONTROL People], [!UICONTROL Places], [!UICONTROL Mobile Services] 및 보안 공지)를 위한 릴리스 노트입니다.
+
+업데이트되지 않음 최신 릴리스 날짜: **2020년 6월 10일**
+
+Experience Platform에 대한 최신 정보는 [Experience Platform 릴리스 노트를](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md) 참조하십시오.
 
 ## ![아이콘](/assets/experience_platform_appicon_24.png) Journey Orchestration {#journey-orch}
 
