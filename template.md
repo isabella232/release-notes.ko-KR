@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b99aa5d06316964f374b99547215643ad8208bbf
+source-git-commit: bd027ba7bbbfd6c8e510b48e4e0fff9168403da8
 workflow-type: tm+mt
 source-wordcount: '2537'
 ht-degree: 97%
@@ -20,12 +20,12 @@ ht-degree: 97%
 Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 
 >[!IMPORTANT]
->>이 페이지에는 출시 전 컨텐츠가 포함되어 있으며 계획된 출시 전에 변경될 수 있습니다.
-
+>
+>이 페이지에는 출시 전 컨텐츠가 포함되어 있으며 계획된 출시 전에 변경될 수 있습니다.
 
 >[!NOTE]
->>예정된 릴리스에 대한 이메일 알림을 받으려면 [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html)에 가입하십시오. 릴리스 후 게시된 새 정보는 발행 날짜로 표시됩니다.
-
+>
+>예정된 릴리스에 대한 이메일 알림을 받으려면 [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html)에 가입하십시오. 릴리스 후 게시된 새 정보는 발행 날짜로 표시됩니다.
 
 **릴리스 날짜: 2020년**
 
