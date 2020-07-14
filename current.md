@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2de2c1053df1b2e243efc3e918c0cc27612d040b
+source-git-commit: 079138eeaeb4a61ab892abaff66b15d51b751bf4
 workflow-type: tm+mt
-source-wordcount: '4292'
-ht-degree: 59%
+source-wordcount: '4321'
+ht-degree: 58%
 
 ---
 
@@ -175,6 +175,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 * 이 일정 [!UICONTROL 이메일 링크] 에서 옵트아웃 _기능이 작동하지 않는 지능형 경고_ 문제를 해결했습니다. (AN-223875)
 * 가상 보고서 세트에 대해 잘못된 통화가 표시되던 문제를 수정했습니다. (AN-224781)
 * 가상 보고서 세트에 구성 요소 _오류가_ 누락되는 문제를 해결했습니다. (AN-224782)
+* 기여도 할당이 설정된 계산된 지표와 함께 사용할 때 다른 차원 분류를 분류하면 빈 결과가 반환되는 문제가 해결되었습니다. (AN-214089)
 
 #### 추가 Adobe Analytics 수정 사항
 
@@ -184,7 +185,7 @@ AN-222672, AN-222813; AN-222892; AN-223272, AN-223432; AN-224062; AN-224108; AN-
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | -----------| ---------- | ---------- |
-| 수명 종료: Adobe 데이터 커넥터 | 2020년 7월 13일 | Adobe 데이터 커넥터는 더 이상 실행 불가능하거나 지원되지 않는 레거시 기술을 기반으로 합니다. Adobe는 [Adobe Exchange 파트너 프로그램](https://partners.adobe.com/exchangeprogram/experiencecloud) 내에 계속 제공되고 지원되기를 원하는 모든 통합에 대해 새로운 표준을 채택하고 있습니다. 공식적인 수명 종료 날짜는 아직 결정되었지만, 우리는 그것이 향후 12개월에서 18개월 (2021년 중순에서 2021년 말)에 있을 것으로 예상하고 있습니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/data-connectors-eol.html) |
+| Adobe 데이터 커넥터 EOL | 2020년 7월 13일 | Adobe 데이터 커넥터는 더 이상 실행 불가능하거나 지원되지 않는 레거시 기술을 기반으로 합니다. Adobe는 [Adobe Exchange 파트너 프로그램](https://partners.adobe.com/exchangeprogram/experiencecloud) 내에 계속 제공되고 지원되기를 원하는 모든 통합에 대해 새로운 표준을 채택하고 있습니다. 공식적인 수명 종료 날짜는 아직 결정되었지만, 우리는 그것이 향후 12개월에서 18개월 (2021년 중순에서 2021년 말)에 있을 것으로 예상하고 있습니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/data-connectors-eol.html) |
 | IMS 조직에 보고서 세트 매핑 | 2020년 7월 | 보고서 세트 매핑 도구는 2020년 11월에 중단됩니다. 이 기능은 Adobe Analytics의 광고 Analytics 및 Experience Cloud 세그먼트 게시와 같은 통합을 지원합니다. 보고서 세트를 IMS 조직에 매핑하여 이러한 서비스와 기타 서비스를 활성화해야 합니다. 최신 보고서 세트는 생성 시 자동으로 매핑됩니다. 그러나 이전 보고서 세트는 IMS 조직에 수동으로 매핑해야 합니다. 모든 [보고서 세트가 IMS 조직에 속하는지 확인하려면 핵심 서비스 사용자 안내서의 조직에](https://docs.adobe.com/content/help/ko-KR/core-services/interface/about-core-services/report-suite-mapping.html) 보고서 세트 매핑을 참조하십시오. |
 | 통합 제품 도메인으로 마이그레이션 | 시행일: 2020년 5월 28일 | 2020년 1월에 시작된 Adobe Analytics용 통합 제품 도메인으로의 마이그레이션은 2020년 5월 28일에 완료되었습니다. Adobe Analytics에서는 아키텍처에서 모든 `omniture.com` 도메인 참조를 제거하지만 `omniture.com`을 타사 쿠키로 허용리스트 설정하는 것이 중요합니다. 전체 아키텍처 마이그레이션이 (곧) 완료되면 릴리스 노트를 통해 알려 드릴 예정이며 이 허용리스트 단계는 더 이상 필요하지 않습니다. 허용리스트 설정해야 할 권장 IP 주소 및 도메인 전체 목록은 [다음](https://helpx.adobe.com/kr/analytics/kb/adobe-ip-addresses.html)과 같습니다.<br>조직에서 타사 쿠키를 차단하는 경우 고객 지원 센터에 문의하여 Adobe Analytics에 다시 액세스하십시오. |
 | 새 Adobe Analytics 기본 랜딩 페이지 | 시행일: 2020년 6월 18일 | 2020년 6월 18일에 Adobe Analytics의 기본 랜딩 페이지가 [!UICONTROL 보고서]에서 [!UICONTROL 작업 공간]으로 변경됩니다. 이 변경 사항은 이전에 사용자 지정 랜딩 페이지를 설정하지 않은 모든 사용자에게 발생합니다. |
@@ -192,7 +193,7 @@ AN-222672, AN-222813; AN-222892; AN-223272, AN-223432; AN-224062; AN-224108; AN-
 | [!UICONTROL Analysis Workspace ]가용성을 위한 중복성 개선 | 2020년 5월 21일 | [!UICONTROL Analysis Workspace]의 가용성을 보장하기 위해 중복성을 향상시키기 위해 보조 CDN(Content Delivery Network)을 추가하고 있습니다. 필요한 네트워크 방화벽 허용리스트에 다음 URL을 추가해야 합니다.<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul> |
 | [!UICONTROL Workspace]에서 [!UICONTROL 시작/종료 수]를 계산하는 방법 변경 | 2020년 4월 7일 | 2020년 3월 현재 [!UICONTROL Analysis Workspace]에서 _없음_ 값이 [!UICONTROL 시작/종료]와 상호 작용하는 방식을 변경했습니다. 이제 _Analysis Workspace_&#x200B;에서 [!UICONTROL 없음]을 켜거나 끌 수 있으므로 시작 또는 종료 후에 _없음_&#x200B;을 적용하지만 기존에는(eVars의 경우) 시작 또는 종료 이전에 적용되었습니다. 예를 들어, 방문의 첫 번째 히트에는 eVar에 대한 값이 없다고 가정하지만 두 번째 히트에는 값이 있다고 가정합니다. [!UICONTROL Reports &amp; Analytics]에서는 첫 번째 히트가 시작에 대해 _지정되지 않음_&#x200B;으로 표시되지만 [!UICONTROL Analysis Workspace]에서는 두 번째 히트에 대한 값으로 표시됩니다. |
 | **[!UICONTROL 대시보드 아카이브]**&#x200B;의 EOL | 2020년 3월 27일 | [!UICONTROL Reports &amp; Analytics]의 **[!UICONTROL 대시보드 관리]** 아래에 있는 **[!UICONTROL 아카이브 보기]** 설정은 2020년 10월부터 더 이상 사용할 수 없습니다. |
-| 수명 종료 - Analytics 이전 API | 2020년 1월 9일 | 2020년 11월에 다음 Analytics 이전 API 서비스가 종료됩니다. 이러한 서비스를 사용하여 구축된 현재의 통합 기능은 작동하지 않습니다. <ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증(OAuth 및 JWT)</li></ul>질문에 대한 답변과 진행 방법에 대한 지침을 제공하는 데 도움이 되도록 [이전 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)를 제공했습니다. 이러한 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 이전 OAuth 계정은 [Adobe IO](https://console.adobe.io/home?mv=email) Analytics 통합 계정으로 마이그레이션할 수 있으며, 이 계정은 1.4 Analytics API 및 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다. |
+| Analytics 레거시 API의 EOL | 2020년 1월 9일 | 2020년 11월에 다음 Analytics 이전 API 서비스가 종료됩니다. 이러한 서비스를 사용하여 구축된 현재의 통합 기능은 작동하지 않습니다. <ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증(OAuth 및 JWT)</li></ul>질문에 대한 답변과 진행 방법에 대한 지침을 제공하는 데 도움이 되도록 [이전 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)를 제공했습니다. 이러한 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 이전 OAuth 계정은 [Adobe IO](https://console.adobe.io/home?mv=email) Analytics 통합 계정으로 마이그레이션할 수 있으며, 이 계정은 1.4 Analytics API 및 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다. |
 | 런던 및 싱가포르의 산호세 FTP Broker 종료 | 2020년 7월 | 런던 및 싱가포르의 고객을 위해 런던 또는 싱가포르와 산호세 데이터 센터 [ftp.omniture.com](ftp://ftp.omniture.com/) 간의 데이터 브로커링을 더 이상 지원하지 않습니다.<br/><ul><li>런던의 경우 [ftp3.omniture.com](ftp://ftp3.omniture.com/) 사용</li><li>싱가포르의 경우 [ftp4.omniture.com](ftp://ftp4.omniture.com/) 사용</li></ul> |
 | Ad Hoc Analysis 생산 중단 | 2018년 8월 6일 | Adobe는 Ad Hoc Analysis를 종료할 예정이라고 발표했습니다. 수명 종료 날짜는 확정된 후 공유될 예정입니다. 자세한 내용은 [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)를 참조하십시오. |
 
