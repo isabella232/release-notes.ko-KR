@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: fbe2b9ebb091c2898c97a205fcee480143f540e4
+source-git-commit: 2de2c1053df1b2e243efc3e918c0cc27612d040b
 workflow-type: tm+mt
 source-wordcount: '4292'
 ht-degree: 59%
@@ -184,7 +184,7 @@ AN-222672, AN-222813; AN-222892; AN-223272, AN-223432; AN-224062; AN-224108; AN-
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | -----------| ---------- | ---------- |
-| 수명 종료: Adobe 데이터 커넥터 | 2020년 7월 13일 | Adobe 데이터 커넥터는 더 이상 실행 불가능하거나 지원되지 않는 레거시 기술을 기반으로 합니다. Adobe는 [Adobe Exchange 파트너 프로그램](https://partners.adobe.com/exchangeprogram/experiencecloud) 내에 계속 제공되고 지원되기를 원하는 모든 통합에 대해 새로운 표준을 채택하고 있습니다. 공식적인 수명 종료 날짜는 아직 결정되었지만, 우리는 그것이 향후 12개월에서 18개월 (2021년 중순에서 2021년 말)에 있을 것으로 예상하고 있습니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/data-connectors-eol.md) |
+| 수명 종료: Adobe 데이터 커넥터 | 2020년 7월 13일 | Adobe 데이터 커넥터는 더 이상 실행 불가능하거나 지원되지 않는 레거시 기술을 기반으로 합니다. Adobe는 [Adobe Exchange 파트너 프로그램](https://partners.adobe.com/exchangeprogram/experiencecloud) 내에 계속 제공되고 지원되기를 원하는 모든 통합에 대해 새로운 표준을 채택하고 있습니다. 공식적인 수명 종료 날짜는 아직 결정되었지만, 우리는 그것이 향후 12개월에서 18개월 (2021년 중순에서 2021년 말)에 있을 것으로 예상하고 있습니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/data-connectors-eol.html) |
 | IMS 조직에 보고서 세트 매핑 | 2020년 7월 | 보고서 세트 매핑 도구는 2020년 11월에 중단됩니다. 이 기능은 Adobe Analytics의 광고 Analytics 및 Experience Cloud 세그먼트 게시와 같은 통합을 지원합니다. 보고서 세트를 IMS 조직에 매핑하여 이러한 서비스와 기타 서비스를 활성화해야 합니다. 최신 보고서 세트는 생성 시 자동으로 매핑됩니다. 그러나 이전 보고서 세트는 IMS 조직에 수동으로 매핑해야 합니다. 모든 [보고서 세트가 IMS 조직에 속하는지 확인하려면 핵심 서비스 사용자 안내서의 조직에](https://docs.adobe.com/content/help/ko-KR/core-services/interface/about-core-services/report-suite-mapping.html) 보고서 세트 매핑을 참조하십시오. |
 | 통합 제품 도메인으로 마이그레이션 | 시행일: 2020년 5월 28일 | 2020년 1월에 시작된 Adobe Analytics용 통합 제품 도메인으로의 마이그레이션은 2020년 5월 28일에 완료되었습니다. Adobe Analytics에서는 아키텍처에서 모든 `omniture.com` 도메인 참조를 제거하지만 `omniture.com`을 타사 쿠키로 허용리스트 설정하는 것이 중요합니다. 전체 아키텍처 마이그레이션이 (곧) 완료되면 릴리스 노트를 통해 알려 드릴 예정이며 이 허용리스트 단계는 더 이상 필요하지 않습니다. 허용리스트 설정해야 할 권장 IP 주소 및 도메인 전체 목록은 [다음](https://helpx.adobe.com/kr/analytics/kb/adobe-ip-addresses.html)과 같습니다.<br>조직에서 타사 쿠키를 차단하는 경우 고객 지원 센터에 문의하여 Adobe Analytics에 다시 액세스하십시오. |
 | 새 Adobe Analytics 기본 랜딩 페이지 | 시행일: 2020년 6월 18일 | 2020년 6월 18일에 Adobe Analytics의 기본 랜딩 페이지가 [!UICONTROL 보고서]에서 [!UICONTROL 작업 공간]으로 변경됩니다. 이 변경 사항은 이전에 사용자 지정 랜딩 페이지를 설정하지 않은 모든 사용자에게 발생합니다. |
@@ -238,7 +238,7 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
    이제 Cloud Service으로 AEM 6.5 및 AEM의 Dynamic Media을 사용하여 3D 자산을 매력적인 경험으로 업로드, 관리, 보고 전달할 수 있습니다.
 
    * Cloud Service으로 AEM에서 Dynamic Media [에서 3D 자산 작업을 참조하십시오.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/dynamicmedia/assets-3d.html)
-   * AEM 6.5에서 Dynamic Media [에서 3D 자산 작업을 참조하십시오.](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/assets-3d.html)
+   * In AEM 6.5, see [Working with 3D assets in Dynamic Media.](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/assets-3d.html)
 
 ### 사용자 도움말
 
