@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 985ec5f911f0cfa433e12abb5e55724dbecadb2e
+source-git-commit: 64307f885074b216956a8711384b60a4806a13a3
 workflow-type: tm+mt
 source-wordcount: '4373'
 ht-degree: 58%
@@ -144,8 +144,8 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | -----------| ---------- |-------|
-| 작업 영역: 새로운 날짜 범위 사전 설정 | 사용자가 오늘&#x200B;_의 일부 날짜 데이터를 포함하지 않는 날짜 범위에서 선택할 수 있도록 4개의 새 날짜 범위(이번 주/월/분기_ /년(오늘 제외)를 추가했습니다. |
-| 데이터 복구 API - 공개 베타(2020년 7 **월 업데이트**) | 데이터 복구 API는 특정 기존 Adobe Analytics 데이터를 삭제하거나 편집하는 메커니즘을 제공합니다. 데이터 복구 요청은 작업 정의를 데이터 복구 API에 제출함으로써 수행됩니다. 이 API에는 보고서 세트, 날짜 범위, 변수 및 데이터에 적용할 작업이 포함됩니다. 공개 베타 버전이 시작될 때 데이터 복구 API는 Activity Map 데이터의 삭제를 지원합니다. 추가 기능은 나중에 롤아웃됩니다. 데이터 복구 API 공개 베타에 참여하려면 고객 지원 센터에 문의하십시오. [추가 정보...](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) |
+| 작업 영역: 새로운 날짜 범위 사전 설정 | 2020년 7월 16일 | 사용자가 오늘&#x200B;_의 일부 날짜 데이터를 포함하지 않는 날짜 범위에서 선택할 수 있도록 4개의 새 날짜 범위(이번 주/월/분기_ /년(오늘 제외)를 추가했습니다. |
+| 데이터 복구 API 공개 베타 | 2020년 7월 14일 | 데이터 [!UICONTROL 복구 API는] 특정 기존 Adobe Analytics 데이터를 삭제하거나 편집하는 메커니즘을 제공합니다. [!UICONTROL 데이터 복구] 요청은 작업 정의를 [!UICONTROL 데이터 복구 API](보고서 세트, 날짜 범위, 변수 및 데이터에 적용할 작업 포함)에 제출함으로써 수행됩니다. 공개 베타 버전이 시작되면 [!UICONTROL 데이터 복구 API는] [!UICONTROL Activity Map] 데이터 삭제를 지원합니다. 추가 기능은 나중에 롤아웃됩니다. 데이터 복구 API 공개 베타에 참여하려면 고객 지원 센터에 문의하십시오. [추가 정보...](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) |
 
 ### Customer Journey Analytics의 새로운 기능 {#cust-journey}
 
@@ -155,7 +155,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 ### [!UICONTROL Media Analytics]의 새로운 기능 {#media-aa}
 
-업데이트 날짜: **2020년 7월 16일**
+릴리스 날짜: **2020년 7월 16일**
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | -----------| ---------- | ---------- |
