@@ -8,12 +8,12 @@ translation-type: tm+mt
 source-git-commit: 64307f885074b216956a8711384b60a4806a13a3
 workflow-type: tm+mt
 source-wordcount: '4373'
-ht-degree: 58%
+ht-degree: 94%
 
 ---
 
 
-# 빠른 액세스 - Adobe Experience Cloud 릴리스 노트 - 2020년 7월
+# 조기 액세스 - Adobe Experience Cloud 릴리스 노트 - 2020년 7월
 
 ![배너](/assets/experience-cloud-banner-3.png)
 
@@ -36,8 +36,8 @@ ht-degree: 58%
 * [Adobe 시스템 상태](#status)
 * [Experience Cloud 인터페이스](#ecloud)
 * [Experience Platform](#platform)
-* [여정 편성](#journey-orch)
-* [Analytics](#analytics) 및 [Customer Journey Analytics](#cust-journey) (2020년 7월 14일 업데이트됨)
+* [Journey Orchestration](#journey-orch)
+* [Analytics](#analytics) 및 [Customer Journey Analytics](#cust-journey) (업데이트 날짜: 2020년 7월 14일)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [캠페인](#ac)
@@ -73,9 +73,9 @@ Experience Cloud 인터페이스 관련 일반 업데이트.
 
 **업데이트된 인터페이스 메뉴**
 
-Experience Cloud에서 2020년 **7월 16일** 릴리스는 응용 프로그램 전환기 드롭다운 메뉴를 업데이트합니다. 솔루션 로고가 제거되고 메뉴에 액세스 권한이 있는 응용 프로그램 및 서비스만 표시됩니다.
+Experience Cloud에서 **2020년 7월 16일** 릴리스는 응용 프로그램 전환기 드롭다운 메뉴를 업데이트합니다. 솔루션 로고가 제거되고 액세스 권한이 있는 응용 프로그램 및 서비스만 메뉴에 표시되도록 간소화되었습니다.
 
-예를 보려면 Experience Cloud 인터페이스 [제품 설명서를](https://docs.adobe.com/content/help/ko-KR/core-services/interface/experience-cloud.html) 참조하십시오.
+예를 보려면 Experience Cloud 인터페이스 [제품 설명서](https://docs.adobe.com/content/help/ko-KR/core-services/interface/experience-cloud.html)를 참조하십시오.
 
 **통합 제품 도메인**
 
@@ -144,8 +144,8 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | -----------| ---------- |-------|
-| 작업 영역: 새로운 날짜 범위 사전 설정 | 2020년 7월 16일 | 사용자가 오늘&#x200B;_의 일부 날짜 데이터를 포함하지 않는 날짜 범위에서 선택할 수 있도록 4개의 새 날짜 범위(이번 주/월/분기_ /년(오늘 제외)를 추가했습니다. |
-| 데이터 복구 API 공개 베타 | 2020년 7월 14일 | 데이터 [!UICONTROL 복구 API는] 특정 기존 Adobe Analytics 데이터를 삭제하거나 편집하는 메커니즘을 제공합니다. [!UICONTROL 데이터 복구] 요청은 작업 정의를 [!UICONTROL 데이터 복구 API](보고서 세트, 날짜 범위, 변수 및 데이터에 적용할 작업 포함)에 제출함으로써 수행됩니다. 공개 베타 버전이 시작되면 [!UICONTROL 데이터 복구 API는] [!UICONTROL Activity Map] 데이터 삭제를 지원합니다. 추가 기능은 나중에 롤아웃됩니다. 데이터 복구 API 공개 베타에 참여하려면 고객 지원 센터에 문의하십시오. [추가 정보...](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) |
+| 작업 공간: 새로운 날짜 범위 사전 설정 | 2020년 7월 16일 | 4가지 날짜 범위(_이번 주/월/분기/년_(오늘 제외))가 추가되어 사용자는 오늘의 일부 데이터를 포함하지 않는 날짜 범위에서 선택할 수 있습니다. |
+| 데이터 복구 API 공개 베타 | 2020년 7월 14일 | 데이터 [!UICONTROL 복구 API는] 특정 기존 Adobe Analytics 데이터를 삭제하거나 편집하는 메커니즘을 제공합니다. [!UICONTROL 데이터 복구] 요청은 작업 정의를 [!UICONTROL 데이터 복구 API](보고서 세트, 날짜 범위, 변수 및 데이터에 적용할 작업 포함)에 제출함으로써 수행됩니다. Upon commencement of the public beta, the [!UICONTROL Data Repair API] will support deletion of [!UICONTROL Activity Map] data. 추가 기능은 나중에 롤아웃됩니다. 데이터 복구 API 공개 베타에 참여하려면 고객 지원 센터에 문의하십시오. [추가 정보...](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) |
 
 ### Customer Journey Analytics의 새로운 기능 {#cust-journey}
 
@@ -164,34 +164,34 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 ### Adobe Analytics의 수정 사항 {#aa-fixes}
 
-* 다른 통화로 보고서 세트로 전환한 후 발생하던 문제를 수정했습니다. 작업 [!UICONTROL 공간] 라인 차트가 올바른 통화를 반영하지 않았습니다. (AN-216655)
-* 다운로드한 PDF에서 시각화를 읽을 수 없는 문제가 해결되었습니다. (AN-217949)
+* 다른 통화를 사용하는 보고서 세트로 전환한 후 발생하던 문제를 수정했습니다. [!UICONTROL 작업 공간] 라인 차트가 올바른 통화를 반영하지 않았습니다. (AN-216655)
+* 다운로드한 PDF에서 시각화를 읽을 수 없는 문제를 수정했습니다. (AN-217949)
 * 보고서 세트에 계층 변수를 추가할 때 오류가 발생하던 문제를 수정했습니다. (AN-211974)
-* 보고서 세트와 연결된 데이터 피드를 편집할 때 현재 선택한 [!UICONTROL 보고서 및 Analytics 보고서 세트와 다른 시간대가 있었던] 문제를 수정했습니다. (AN-222474)
-* 분류 규칙 빌더가 [!UICONTROL 작동하지 않는 문제를] 수정했습니다. (AN-219662)
-* 분류 및 분류 규칙 관련 여러 문제를 수정했습니다. (AN-223492, AN-220654, AN-219662, AN-223260)
-* 동일한 세그먼트가 상위 보고서 세트와 비교하여 가상 보고서 세트의 다른 데이터를 반환하는 문제를 해결했습니다. (AN-201074)
+* 보고서 세트와 연결된 데이터 피드를 편집할 때 현재 선택한 [!UICONTROL Reports &amp; Analytics] 보고서 세트와 시간대가 다른 문제를 수정했습니다. (AN-222474)
+* [!UICONTROL 분류 규칙 빌더]가 작동하지 않는 문제를 수정했습니다. (AN-219662)
+* 분류 및 분류 규칙과 관련된 여러 문제를 수정했습니다. (AN-223492, AN-220654, AN-219662, AN-223260)
+* 가상 보고서 세트의 동일한 세그먼트가 상위 보고서 세트와 비교하여 다른 데이터를 반환하는 문제를 수정했습니다. (AN-201074)
 * 보고서 세트 설정을 다운로드할 수 없는 문제를 수정했습니다. (AN-223690)
-* 이 일정 [!UICONTROL 이메일 링크] 에서 옵트아웃 _기능이 작동하지 않는 지능형 경고_ 문제를 해결했습니다. (AN-223875)
-* 가상 보고서 세트에 대해 잘못된 통화가 표시되던 문제를 수정했습니다. (AN-224781)
-* 가상 보고서 세트에 구성 요소 _오류가_ 누락되는 문제를 해결했습니다. (AN-224782)
-* 기여도 할당이 설정된 계산된 지표와 함께 사용할 때 다른 차원 분류를 분류하면 빈 결과가 반환되는 문제가 해결되었습니다. (AN-214089)
+* [!UICONTROL 이 일정에서 옵트아웃] 이메일 링크가 작동하지 않도록 하는 _지능형 경고_ 문제를 수정했습니다. (AN-223875)
+* 가상 보고서 세트에 대해 잘못된 통화가 표시되는 문제를 수정했습니다. (AN-224781)
+* 가상 보고서 세트에 _구성 요소 누락_ 오류가 발생하는 문제를 수정했습니다. (AN-224782)
+* 기여도 할당이 설정된 계산된 지표와 함께 사용할 때 다른 차원 분류를 분류하면 빈 결과가 반환되는 문제를 수정했습니다. (AN-214089)
 
 #### 추가 Adobe Analytics 수정 사항
 
-AN-222672, AN-222813; AN-222892; AN-223272, AN-223432; AN-224062; AN-224108; AN-224163; AN-224339; AN-224456; AN-22449; AN-224552; AN-224553; AN-224786
+AN-222672, AN-222813; AN-222892; AN-223272, AN-223432; AN-224062; AN-224108; AN-224163; AN-224339; AN-224456; AN-224449; AN-224552; AN-224553; AN-224786
 
 ### [!DNL Analytics] 관리자에 대한 중요 공지 {#aa-notices}
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | -----------| ---------- | ---------- |
 | Adobe 데이터 커넥터 EOL | 2020년 7월 13일 | Adobe 데이터 커넥터는 더 이상 실행 불가능하거나 지원되지 않는 레거시 기술을 기반으로 합니다. Adobe는 [Adobe Exchange 파트너 프로그램](https://partners.adobe.com/exchangeprogram/experiencecloud) 내에 계속 제공되고 지원되기를 원하는 모든 통합에 대해 새로운 표준을 채택하고 있습니다. 공식적인 수명 종료 날짜는 아직 결정되었지만, 우리는 그것이 향후 12개월에서 18개월 (2021년 중순에서 2021년 말)에 있을 것으로 예상하고 있습니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/data-connectors-eol.html) |
-| IMS 조직에 보고서 세트 매핑 | 2020년 7월 | 보고서 세트 매핑 도구는 2020년 11월에 중단됩니다. 이 기능은 Adobe Analytics의 광고 Analytics 및 Experience Cloud 세그먼트 게시와 같은 통합을 지원합니다. 보고서 세트를 IMS 조직에 매핑하여 이러한 서비스와 기타 서비스를 활성화해야 합니다. 최신 보고서 세트는 생성 시 자동으로 매핑됩니다. 그러나 이전 보고서 세트는 IMS 조직에 수동으로 매핑해야 합니다. 모든 [보고서 세트가 IMS 조직에 속하는지 확인하려면 핵심 서비스 사용자 안내서의 조직에](https://docs.adobe.com/content/help/ko-KR/core-services/interface/about-core-services/report-suite-mapping.html) 보고서 세트 매핑을 참조하십시오. |
+| IMS 조직에 보고서 세트 매핑 | 2020년 7월 | 보고서 세트 매핑 도구는 2020년 11월에 중단됩니다. 이 기능은 Adobe Analytics의 Advertising Analytics 및 Experience Cloud 세그먼트 게시와 같은 통합을 지원합니다. 보고서 세트를 IMS 조직에 매핑하여 이러한 서비스와 기타 서비스를 활성화해야 합니다. 생성 시 더 최신 보고서 세트가 자동으로 매핑됩니다. 그러나 이전 보고서 세트는 IMS 조직에 수동으로 매핑해야 합니다. 모든 보고서 세트를 IMS 조직에 소속되게 하려면 핵심 서비스 사용 안내서의 [조직에 보고서 세트 매핑](https://docs.adobe.com/content/help/ko-KR/core-services/interface/about-core-services/report-suite-mapping.html)을 참조하십시오. |
 | 통합 제품 도메인으로 마이그레이션 | 시행일: 2020년 5월 28일 | 2020년 1월에 시작된 Adobe Analytics용 통합 제품 도메인으로의 마이그레이션은 2020년 5월 28일에 완료되었습니다. Adobe Analytics에서는 아키텍처에서 모든 `omniture.com` 도메인 참조를 제거하지만 `omniture.com`을 타사 쿠키로 허용리스트 설정하는 것이 중요합니다. 전체 아키텍처 마이그레이션이 (곧) 완료되면 릴리스 노트를 통해 알려 드릴 예정이며 이 허용리스트 단계는 더 이상 필요하지 않습니다. 허용리스트 설정해야 할 권장 IP 주소 및 도메인 전체 목록은 [다음](https://helpx.adobe.com/kr/analytics/kb/adobe-ip-addresses.html)과 같습니다.<br>조직에서 타사 쿠키를 차단하는 경우 고객 지원 센터에 문의하여 Adobe Analytics에 다시 액세스하십시오. |
 | 새 Adobe Analytics 기본 랜딩 페이지 | 시행일: 2020년 6월 18일 | 2020년 6월 18일에 Adobe Analytics의 기본 랜딩 페이지가 [!UICONTROL 보고서]에서 [!UICONTROL 작업 공간]으로 변경됩니다. 이 변경 사항은 이전에 사용자 지정 랜딩 페이지를 설정하지 않은 모든 사용자에게 발생합니다. |
 | 타사 기술 허용리스트 | 2020년 3월 12일(유효 날짜) | Adobe Analytics는 기능 롤아웃 관리 및 제품 내 지원을 위한 타사 기술을 활용하기 시작했습니다. 모든 기능에 액세스하려면 필수 네트워크 방화벽 허용리스트에 다음 URL을 추가해야 합니다.<ul><li>Gainsight: https://esp.aptrinsic.com</li><li>LaunchDarkly: https://app.launchdarkly.com</li></ul> |
 | [!UICONTROL Analysis Workspace ]가용성을 위한 중복성 개선 | 2020년 5월 21일 | [!UICONTROL Analysis Workspace]의 가용성을 보장하기 위해 중복성을 향상시키기 위해 보조 CDN(Content Delivery Network)을 추가하고 있습니다. 필요한 네트워크 방화벽 허용리스트에 다음 URL을 추가해야 합니다.<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul> |
-| [!UICONTROL Workspace]에서 [!UICONTROL 시작/종료 수]를 계산하는 방법 변경 | 2020년 4월 7일 | 2020년 3월 현재 [!UICONTROL Analysis Workspace]에서 _없음_ 값이 [!UICONTROL 시작/종료]와 상호 작용하는 방식을 변경했습니다. 이제 _Analysis Workspace_&#x200B;에서 [!UICONTROL 없음]을 켜거나 끌 수 있으므로 시작 또는 종료 후에 _없음_&#x200B;을 적용하지만 기존에는(eVars의 경우) 시작 또는 종료 이전에 적용되었습니다. 예를 들어, 방문의 첫 번째 히트에는 eVar에 대한 값이 없다고 가정하지만 두 번째 히트에는 값이 있다고 가정합니다. [!UICONTROL Reports &amp; Analytics]에서는 첫 번째 히트가 시작에 대해 _지정되지 않음_&#x200B;으로 표시되지만 [!UICONTROL Analysis Workspace]에서는 두 번째 히트에 대한 값으로 표시됩니다. |
+| [!UICONTROL 작업 공간]에서 [!UICONTROL 시작/종료 수]를 계산하는 방법 변경 | 2020년 4월 7일 | 2020년 3월 현재 [!UICONTROL Analysis Workspace]에서 _없음_ 값이 [!UICONTROL 시작/종료]와 상호 작용하는 방식을 변경했습니다. 이제 _Analysis Workspace_&#x200B;에서 [!UICONTROL 없음]을 켜거나 끌 수 있으므로 시작 또는 종료 후에 _없음_&#x200B;을 적용하지만 기존에는(eVars의 경우) 시작 또는 종료 이전에 적용되었습니다. 예를 들어, 방문의 첫 번째 히트에는 eVar에 대한 값이 없다고 가정하지만 두 번째 히트에는 값이 있다고 가정합니다. [!UICONTROL Reports &amp; Analytics]에서는 첫 번째 히트가 시작에 대해 _지정되지 않음_&#x200B;으로 표시되지만 [!UICONTROL Analysis Workspace]에서는 두 번째 히트에 대한 값으로 표시됩니다. |
 | **[!UICONTROL 대시보드 아카이브]**&#x200B;의 EOL | 2020년 3월 27일 | [!UICONTROL Reports &amp; Analytics]의 **[!UICONTROL 대시보드 관리]** 아래에 있는 **[!UICONTROL 아카이브 보기]** 설정은 2020년 10월부터 더 이상 사용할 수 없습니다. |
 | Analytics 레거시 API의 EOL | 2020년 1월 9일 | 2020년 11월에 다음 Analytics 이전 API 서비스가 종료됩니다. 이러한 서비스를 사용하여 구축된 현재의 통합 기능은 작동하지 않습니다. <ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증(OAuth 및 JWT)</li></ul>질문에 대한 답변과 진행 방법에 대한 지침을 제공하는 데 도움이 되도록 [이전 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)를 제공했습니다. 이러한 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 이전 OAuth 계정은 [Adobe IO](https://console.adobe.io/home?mv=email) Analytics 통합 계정으로 마이그레이션할 수 있으며, 이 계정은 1.4 Analytics API 및 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다. |
 | 런던 및 싱가포르의 산호세 FTP Broker 종료 | 2020년 7월 | 런던 및 싱가포르의 고객을 위해 런던 또는 싱가포르와 산호세 데이터 센터 [ftp.omniture.com](ftp://ftp.omniture.com/) 간의 데이터 브로커링을 더 이상 지원하지 않습니다.<br/><ul><li>런던의 경우 [ftp3.omniture.com](ftp://ftp3.omniture.com/) 사용</li><li>싱가포르의 경우 [ftp4.omniture.com](ftp://ftp4.omniture.com/) 사용</li></ul> |
@@ -214,13 +214,13 @@ Audience Manager의 새로운 기능, 수정 사항, 설명서 및 자습서.
 
 ### Adobe Audience Manager의 새로운 기능 및 수정 사항
 
-* 고객이 일부 세그먼트를 Amazon 대상에 매핑할 수 없는 문제를 해결했습니다. (AAM-54373)
-* 고객이 새 탭에서 세그먼트를 열 때 브라우저 화면이 정지되는 문제가 해결되었습니다. (AAM-55213)
-* 고객이 그래프에서 막대를 [클릭할 때 날짜와 표의 날짜](https://docs.adobe.com/help/en/audience-manager/user-guide/reporting/onboarding-status-report.html)사이에 날짜가 일치하지 않는 온보딩 상태 보고서의 문제를 수정했습니다. (AAM-55235)
-* 고객이 사용자를 삭제하려고 할 때 사용자 인터페이스에 확인 메시지 대신 오류 아이콘이 표시되는 관리 섹션의 버그가 수정되었습니다. (AAM-55186)
-* 말림 요청에 헤더가 추가되지 않았던 Swagger API 관련 `x-api-key` 문제를 수정했습니다. (AAM-55392)
-* 대상 보기의 대상에 매핑된 세그먼트에 대한 기본 정렬 순서를 개선했습니다. 이제 매핑된 세그먼트가 세그먼트 매핑의 시작 날짜별로 정렬된 다음 세그먼트 ID별로 정렬됩니다. (AAM-38494)
-* 인터페이스에서 여러 액세스 가능성이 개선되었습니다. (AAM-48956, AAM-49012, AAM-49364, AAM-49363, AAM-49374, AAM-49579, AAM-55037).
+* 고객이 일부 세그먼트를 Amazon 대상에 매핑할 수 없는 문제를 수정했습니다. (AAM-54373)
+* 고객이 새 탭에서 세그먼트를 열 때 브라우저 화면이 정지되는 문제를 수정했습니다. (AAM-55213)
+* 그래프의 막대를 클릭할 때의 날짜와 테이블의 날짜가 다르게 표시되는 [온보딩 상태 보고서](https://docs.adobe.com/help/ko-KR/audience-manager/user-guide/reporting/onboarding-status-report.html)의 문제를 수정했습니다. (AAM-55235)
+* 고객이 사용자를 삭제하려고 할 때 사용자 인터페이스에 확인 메시지 대신 오류 아이콘이 표시되는 관리 섹션의 버그를 수정했습니다. (AAM-55186)
+* curl 요청에 `x-api-key` 헤더가 추가되지 않는 Swagger API 관련 문제를 수정했습니다. (AAM-55392)
+* 대상 보기의 대상에 매핑된 세그먼트의 기본 정렬 순서를 개선했습니다. 이제 매핑된 세그먼트는 세그먼트 매핑의 시작 날짜별로 정렬된 다음 세그먼트 ID별로 정렬됩니다. (AAM-38494)
+* 인터페이스에서 여러 액세스 가능성 기능이 개선되었습니다. (AAM-48956, AAM-49012, AAM-49364, AAM-49363, AAM-49374, AAM-49579, AAM-55037).
 
 ## ![아이콘](/assets/aem.png) Adobe Experience Manager {#aem}
 
@@ -230,16 +230,16 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 
 * **Dynamic Media Classic**
 
-   이제 Dynamic Media Classic 사용자는 브라우저에서 Adobe Flash 기술에 의존하지 않는 새로운 데스크탑 앱 환경을 이용할 수 있습니다. 이제 Windows 및 macOS에서 새 앱을 사용할 수 있습니다.
+   이제 Dynamic Media Classic 사용자는 브라우저에서 Adobe Flash 기술에 의존하지 않는 새로운 데스크탑 앱 환경을 이용할 수 있습니다. 새 앱은 Windows 및 macOS에서 사용할 수 있습니다.
 
-   Adobe [Dynamic Media Classic 데스크탑 앱 - 지금 사용 가능](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/new-ui-2020.html)
+   [Adobe Dynamic Media Classic 데스크탑 앱 - 지금 사용 가능](https://docs.adobe.com/content/help/ko-KR/dynamic-media-classic/using/new-ui-2020.html)을 참조하십시오.
 
-* **Dynamic Media에 3D 자산 지원 추가**
+* **Dynamic Media에 추가된 3D 자산 지원**
 
-   이제 Cloud Service으로 AEM 6.5 및 AEM의 Dynamic Media을 사용하여 3D 자산을 매력적인 경험으로 업로드, 관리, 보고 전달할 수 있습니다.
+   이제 AEM 6.5의 Dynamic Media 및 Cloud Service로서의 AEM을 사용하여 3D 자산을 업로드, 관리 및 확인하고 몰입형 환경으로 제공할 수 있습니다.
 
-   * Cloud Service으로 AEM에서 Dynamic Media [에서 3D 자산 작업을 참조하십시오.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/dynamicmedia/assets-3d.html)
-   * In AEM 6.5, see [Working with 3D assets in Dynamic Media.](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/assets-3d.html)
+   * Cloud Service로서의 AEM에서 [Dynamic Media에서 3D 자산 작업](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/assets/dynamicmedia/assets-3d.html)을 참조하십시오.
+   * AEM 6.5에서 [Dynamic Media에서 3D 자산 작업](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/assets/dynamic/assets-3d.html)을 참조하십시오.
 
 ### 사용자 도움말
 
@@ -247,16 +247,16 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 
    * 6.5.5 릴리스의 새로운 기능 및 개선 사항:
 
-      * [Adobe Experience Manager 받은 편지함 열 사용자 지정](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/essentials/inbox.html#inbox-admin-control).
-      * [대화형 커뮤니케이션을 초안으로 저장.](https://docs.adobe.com/content/help/en/experience-manager-65/forms/interactive-communications/prepare-send-interactive-communication.html#save-as-draft)
-      * 단일 서버 [및](https://helpx.adobe.com/content/dam/help/en/experience-manager/6-5/forms/pdf/prepare-install-single-server.pdf) 클러스터 [설치에 대한 Oracle WebLogic 응용 프로그램](https://helpx.adobe.com/content/dam/help/en/experience-manager/6-5/forms/pdf/prepare-install-cluster.pdf) 서버 지원
-      * [접근성 향상.](https://docs.adobe.com/content/help/en/experience-manager-65/release-notes/service-pack/new-features-latest-service-pack.html#accessibility-improvements)
-      * [양식 데이터 모델에서 SOAP 기반 웹 서비스를 위한 X-509 인증서 기반 인증](https://docs.adobe.com/content/help/en/experience-manager-65/forms/form-data-model/configure-data-sources.html#configure-soap-web-services)
-      * [Oracle RAC 지원.](https://docs.adobe.com/content/help/en/experience-manager-65/release-notes/service-pack/new-features-latest-service-pack.html#other-improvements)
-      * [트랜잭션 보고에서 오류 로깅이 개선되었습니다.](https://docs.adobe.com/content/help/en/experience-manager-65/forms/transaction-reports/viewing-and-understanding-transaction-reports.html#view-transaction-reporting-logs)
+      * [Adobe Experience Manager 받은 편지함 열 사용자 지정](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/authoring/essentials/inbox.html#inbox-admin-control).
+      * [대화형 커뮤니케이션을 초안으로 저장.](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/forms/interactive-communications/prepare-send-interactive-communication.html#save-as-draft)
+      * [단일 서버](https://helpx.adobe.com/content/dam/help/ko-KR/experience-manager/6-5/forms/pdf/prepare-install-single-server.pdf) 및 [클러스터](https://helpx.adobe.com/content/dam/help/ko-KR/experience-manager/6-5/forms/pdf/prepare-install-cluster.pdf) 설치에 대한 Oracle WebLogic 응용 프로그램 서버 지원
+      * [액세스 가능성 향상.](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/release-notes/service-pack/new-features-latest-service-pack.html#accessibility-improvements)
+      * [양식 데이터 모델에서 SOAP 기반 웹 서비스를 위한 X-509 인증서 기반 인증.](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/forms/form-data-model/configure-data-sources.html#configure-soap-web-services)
+      * [Oracle RAC 지원.](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/release-notes/service-pack/new-features-latest-service-pack.html#other-improvements)
+      * [트랜잭션 보고에서 오류 로깅이 개선되었습니다.](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/forms/transaction-reports/viewing-and-understanding-transaction-reports.html#view-transaction-reporting-logs)
    * 6.4.8.1 릴리스의 새로운 기능 및 개선 사항:
-      * [양식 데이터 모델에서 SOAP 기반 웹 서비스를 위한 X-509 인증서 기반 인증](https://docs.adobe.com/content/help/en/experience-manager-64/forms/form-data-model/configure-data-sources.html#configure-soap-web-services)
-      * [트랜잭션 보고에서 오류 로깅이 개선되었습니다.](https://docs.adobe.com/content/help/en/experience-manager-64/forms/transaction-reports/viewing-and-understanding-transaction-reports.html#view-transaction-reporting-logs)
+      * [양식 데이터 모델에서 SOAP 기반 웹 서비스를 위한 X-509 인증서 기반 인증.](https://docs.adobe.com/content/help/ko-KR/experience-manager-64/forms/form-data-model/configure-data-sources.html#configure-soap-web-services)
+      * [트랜잭션 보고에서 오류 로깅이 개선되었습니다.](https://docs.adobe.com/content/help/ko-KR/experience-manager-64/forms/transaction-reports/viewing-and-understanding-transaction-reports.html#view-transaction-reporting-logs)
 
 ### **커뮤니티**
 
@@ -266,39 +266,39 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 
 ### 새로운 Experience Manager 교육 과정 및 자습서
 
-지난 달 동안 게시된 새로운 비디오, 자습서 또는 교육 과정
+지난 달에 게시된 새로운 비디오, 자습서 또는 교육 과정
 
 | 게시됨 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
-| 2020년 6월 25일 | [적응형 양식 시작하기](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 이 자습서에서는 다중 탭 형식의 응용 양식 만들기에 관련된 단계를 안내합니다. 표, 아코디언 레이아웃 및 규칙 편집기를 사용하여 비즈니스 규칙을 작성하는 방법을 학습합니다. |
-| 2020년 6월 25일 | [AEM Forms에서 검토 워크플로우 만들기](https://video.tv.adobe.com/v/35821/quality=9?captions=kor) | 비디오 | 활성 양식 제출에서 제출된 데이터를 검토할 수 있는 워크플로우를 만드는 방법을 알아봅니다. |
-| 2020년 6월 23일 | [처리 프로필](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/configuring/processing-profiles.html) | 비디오 | 처리 프로필은 AEM의 자산에 대해 Cloud Service으로 만들 변환을 정의합니다. |
-| 2020년 6월 23일 | [Dynamic Media 클래식 우수 사례](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html) | 문서 | 현재 사용자와 신규 사용자는 Dynamic Media Classic, 핵심 기능, _제작_, _작성_&#x200B;및 _워크플로우 전달에 대해_ 알아볼 수있습니다. |
-| 2020년 6월 23일 | [Cloud Service 빌드 및 배포로 AEM 디버깅](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/build-and-deployment.html) | 문서 | Cloud Service으로 AEM에 대한 빌드 및 배포를 디버깅하는 방법을 알아봅니다. |
-| 2020년 6월 16일 | [로그를 사용하여 AEM을 Cloud Service으로 디버깅](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/logs.html) | 문서 | 로그를 사용하여 AEM을 Cloud Service으로 디버깅하는 방법을 알아봅니다. 로그는 AEM 응용 프로그램을 디버깅하기 위해 최전방 역할을 하지만 배포된 AEM 응용 프로그램에서 적절한 로깅에 의존합니다. |
-| 2020년 6월 10일 | [AEM Assets에서 Dynamic Media 3D 사용](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-3d-feature-video.html) | 비디오 | Adobe Experience Manager 3D 지원을 통해 인터랙티브한 3D 기반의 경험을 규모에 맞게 손쉽게 맞춤화하고 전달할 수 있습니다. |
-| 2020년 6월 5일 | [SPA 편집기 프로젝트](https://docs.adobe.com/content/help/en/experience-manager-learn/spa-react-tutorial/create-project.html) | 문서 | AEM(Adobe Experience Manager) 프로젝트 원형형을 사용하여 AEM SPA 편집기와 통합된 반응형 응용 프로그램의 시작점으로 다중 모듈 Maven 프로젝트를 생성하는 방법을 알아보십시오. |
+| 2020년 6월 25일 | [반응형 양식 시작하기](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 이 자습서에서는 다중 탭 반응형 양식 만들기에 관련된 단계를 안내합니다. 표, 아코디언 레이아웃 및 규칙 편집기를 사용하여 비즈니스 규칙을 작성하는 방법을 알아봅니다. |
+| 2020년 6월 25일 | [AEM Forms에서 검토 작업 과정 만들기](https://video.tv.adobe.com/v/35821/quality=9?captions=kor) | 비디오 | 활성 양식 제출에서 제출된 데이터를 검토하는 작업 과정을 생성하는 방법을 알아봅니다. |
+| 2020년 6월 23일 | [처리 프로필](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/configuring/processing-profiles.html) | 비디오 | 처리 프로필은 Cloud Service로서의 AEM에서 자산에 대해 만들 변환을 정의합니다. |
+| 2020년 6월 23일 | [Dynamic Media Classic 모범 사례](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html) | 문서 | 현재 사용자와 신규 사용자는 Dynamic Media Classic과 핵심 기능에 대해 알아보고 작업 과정을 _제작_, _작성_ 및 _전달_&#x200B;합니다. |
+| 2020년 6월 23일 | [Cloud Service로서의 AEM 빌드 및 배포 디버깅](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/build-and-deployment.html) | 문서 | Cloud Service로서의 AEM에 대한 빌드 및 배포를 디버깅하는 방법을 알아봅니다. |
+| 2020년 6월 16일 | [로그를 사용하여 Cloud Service로서의 AEM 디버깅](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/logs.html) | 문서 | 로그를 사용하여 Cloud Service로서의 AEM을 디버깅하는 방법을 알아봅니다. 로그는 AEM 응용 프로그램을 디버깅하기 위해 최전방 역할을 하지만 배포된 AEM 응용 프로그램에서 적절한 로깅에 의존합니다. |
+| 2020년 6월 10일 | [AEM Assets에서 Dynamic Media 3D 사용](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-3d-feature-video.html) | 비디오 | Adobe Experience Manager의 Dynamic Media 3D 지원을 통해 인터랙티브한 3D 기반의 경험을 규모에 맞게 손쉽게 맞춤화하고 전달할 수 있습니다. |
+| 2020년 6월 5일 | [SPA 편집기 프로젝트](https://docs.adobe.com/content/help/en/experience-manager-learn/spa-react-tutorial/create-project.html) | 문서 | AEM(Adobe Experience Manager) 프로젝트 원형을 사용하여 AEM SPA 편집기와 통합된 반응형 응용 프로그램의 시작점으로 다중 모듈 Maven 프로젝트를 생성하는 방법을 알아봅니다. |
 | 2020년 6월 3일 | [HTML5 양식 제출-자습서 처리](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/html5-forms/handle-mobile-form-submission.html) | 문서 | 사용자 지정 제출 처리기에서 제출된 데이터에 액세스하는 방법을 알아봅니다. |
 
-### Experience Manager 릴리스 정보
+### Experience Manager 릴리스 노트
 
 모든 Experience Manager 릴리스 노트는 다음 페이지에서 유지 관리됩니다.
 
-* [Cloud Service 릴리스 정보로서 AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/home.html)
+* [Cloud Service로서의 AEM 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/release-notes/home.html)
 * [AEM Cloud Manager 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-manager/using/release-notes/release-notes-current.html)
-* [자동화된 양식 전환 서비스 릴리스 노트](https://docs.adobe.com/content/help/en/aem-forms-automated-conversion-service/using/release-notes.html)
+* [자동 양식 전환 서비스 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/aem-forms-automated-conversion-service/using/release-notes.html)
 * [AEM 6.5 서비스 팩 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/release-notes/service-pack/sp-release-notes.html)
 * [AEM 6.4 누적 수정 팩 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/experience-manager-64/release-notes/cfp-release-notes.html)
 * [AEM Assets Dynamic Media 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/dynamic-media-developer-resources/release-notes/s7rn2017.html)
-* [AEM 브랜드 포털 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html)
+* [AEM Brand Portal 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html)
 * [AEM 데스크탑 앱 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/experience-manager-desktop-app/using/release-notes.html)
-* [AEM Dispatcher 릴리스 노트](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/getting-started/release-notes.html)
-* [Adobe Primetime 릴리스 노트](https://docs.adobe.com/content/help/en/primetime/release-notes/home.html)
+* [AEM Dispatcher 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/experience-manager-dispatcher/using/getting-started/release-notes.html)
+* [Adobe Primetime 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/primetime/release-notes/home.html)
 * [Livefyre 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/livefyre/using/release-notes/c-rn.html)
 
 ### AEM에 대한 추가 도움말 리소스
 
-* [Cloud Service 사용자 안내서로서 AEM](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/landing/home.html)
+* [Cloud Service로서의 AEM 사용 안내서](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/landing/home.html)
 * [AEM 6.5 학습 및 지원 홈](https://helpx.adobe.com/kr/support/experience-manager/6-5.html)
 * [AEM 6.4 학습 및 지원 홈](https://helpx.adobe.com/kr/support/experience-manager/6-4.html)
 * [AEM 6.3 학습 및 지원 홈](https://helpx.adobe.com/kr/support/experience-manager/6-3.html)
@@ -313,33 +313,33 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 ### 새 제품 릴리스
 
-Campaign Classic, Campaign Standard 및 제어판에 대한 릴리스 정보.
+Campaign Classic, Campaign Standard 및 컨트롤 패널에 대한 릴리스 노트.
 
 #### Campaign Classic
 
-* 새로운 금 표준 안정된 빌드. [자세히 보기](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/release-notes/previous-releases/release--19-1.html#release-19-1-4-build-9032)
+* 새로운 골드 표준 안정 빌드. [자세히 보기](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/release-notes/previous-releases/release--19-1.html#release-19-1-4-build-9032)
 
 #### Campaign 컨트롤 패널
 
 * 하위 도메인 전달 기능 감사 - [자세한 내용](https://docs.adobe.com/content/help/ko-KR/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html)
 
-* GPG 키 관리 - [자세한 내용](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html)
+* GPG 키 관리 - [자세한 내용](https://docs.adobe.com/content/help/ko-KR/control-panel/using/instances-settings/gpg-keys-management.html)
 
 ### 새로운 Campaign 교육 과정 및 자습서
 
-지난 달 동안 게시된 새로운 비디오, 자습서 또는 교육 과정
+지난 달에 게시된 새로운 비디오, 자습서 또는 교육 과정
 
 | 게시됨 | 이름 | 솔루션 | 설명 |
 | ----------- | ----------- | ---------- | ---------- |  
-| 2020년 6월 26일 | [Adobe Campaign 클래식 UI 살펴보기](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html) | Campaign Classic | 이 비디오에서는 기본 Adobe Campaign Classic 사용자 인터페이스에 대해 설명하고 기본 기능을 탐색하는 방법을 보여 줍니다. |
-| 2020년 7월 8일 | [Adobe Campaign 클라이언트 설치 및 설정](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/install-and-setup-the-adobe-campaign-client.html) | Campaign Classic | Adobe Campaign 클라이언트 콘솔을 다운로드 및 설치하고, 여러 환경에 대한 연결을 만들고 관리하며, Adobe Campaign 클라이언트 콘솔에 대한 액세스를 확인하는 방법을 알아봅니다. |
-| 2020년 6월 19일 | [Adobe Campaign Classic 소개](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/introduction-to-adobe-campaign-classic.html) | Campaign Classic | Adobe Digital Experience Portfolio와 주요 기능 및 기능에 Adobe Digital Experience Classic이 어떻게 적합한지 살펴보십시오. |
-| 2020년 6월 12일 | [임시 이메일 배달 템플릿 배포](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/sending-messages/using-delivery-templates/deploying-ad-hoc-email-delivery-template.html) | Campaign Classic | 임시 이메일 템플릿을 배포하는 방법 학습 |
-| 2020년 6월 12일 | [배달 템플릿 구성](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/sending-messages/using-delivery-templates/configuring-a-delivery-template.html) | Campaign Classic | 이메일 템플릿 구성 방법 학습 |
-| 2020년 6월 12일 | [배달 템플릿 속성 설정](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/sending-messages/using-delivery-templates/setting-delivery-template-properties.html) | Campaign Classic | 이메일 템플릿 속성을 설정하는 방법 학습 |
-| 2020년 6월 12일 | [GPG 키 관리](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management-overview.html) | Campaign Classic/제어판 | 데이터 암호화에 대한 공개/비공개 GPG 키 쌍을 생성 및 설치하는 방법 및 데이터 암호 해독에 대한 공개 키를 가져오고 설치하는 방법을 알아봅니다. |
-| 2020년 6월 26일 | [Adobe Campaign Standard의 UI 시작하기](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/getting-started/getting-started-with-the-ui.html) | Campaign Standard | 이 비디오에서는 Adobe Campaign Standard 사용자 인터페이스에 대한 개요를 보고 주요 기능과 핵심 기능을 탐색하는 방법을 설명합니다. |
-| 2020년 6월 26일 | [GPG 키 관리](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html) | Campaign Standard/제어판 | 데이터 암호화에 대한 공개/비공개 GPG 키 쌍을 생성 및 설치하는 방법 및 데이터 암호 해독에 대한 공개 키를 가져오고 설치하는 방법을 알아봅니다. |
+| 2020년 6월 26일 | [Adobe Campaign Classic UI 살펴보기](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html) | Campaign Classic | 이 비디오에서는 Adobe Campaign Classic의 기본 사용자 인터페이스에 대해 설명하고 기본 기능을 탐색하는 방법을 보여 줍니다. |
+| 2020년 7월 8일 | [Adobe Campaign 클라이언트 설치 및 설정](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/getting-started/install-and-setup-the-adobe-campaign-client.html) | Campaign Classic | Adobe Campaign 클라이언트 콘솔을 다운로드 및 설치하고, 여러 환경에 대한 연결을 만들고 관리하며, Adobe Campaign 클라이언트 콘솔에 대한 액세스를 확인하는 방법을 알아봅니다. |
+| 2020년 6월 19일 | [Adobe Campaign Classic 소개](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/introduction-to-adobe-campaign-classic.html) | Campaign Classic | Adobe Digital Experience Classic이 Adobe Digital Experience 포트폴리오에 어떻게 적합한지 그리고 주요 기능 및 기능을 알아봅니다. |
+| 2020년 6월 12일 | [임시 이메일 전달 템플릿 배포](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/sending-messages/using-delivery-templates/deploying-ad-hoc-email-delivery-template.html) | Campaign Classic | 임시 이메일 템플릿을 배포하는 방법 알아보기 |
+| 2020년 6월 12일 | [전달 템플릿 구성](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/sending-messages/using-delivery-templates/configuring-a-delivery-template.html) | Campaign Classic | 이메일 템플릿 구성 방법 알아보기 |
+| 2020년 6월 12일 | [전달 템플릿 속성 설정](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/sending-messages/using-delivery-templates/setting-delivery-template-properties.html) | Campaign Classic | 이메일 템플릿 속성을 설정하는 방법 알아보기 |
+| 2020년 6월 12일 | [GPG 키 관리](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management-overview.html) | Campaign Classic/컨트롤 패널 | 데이터 암호화에 대한 공개/비공개 GPG 키 쌍을 생성 및 설치하는 방법 및 데이터 암호 해독용 공개 키를 가져오고 설치하는 방법을 알아봅니다. |
+| 2020년 6월 26일 | [Adobe Campaign Standard의 UI 시작하기](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/getting-started/getting-started-with-the-ui.html) | Campaign Standard | 이 비디오에서는 Adobe Campaign Standard 사용자 인터페이스에 대한 개요를 보고 주요 기능과 핵심 기능을 탐색하는 방법을 설명합니다. |
+| 2020년 6월 26일 | [GPG 키 관리](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html) | Campaign Standard/컨트롤 패널 | 데이터 암호화에 대한 공개/비공개 GPG 키 쌍을 생성 및 설치하는 방법 및 데이터 암호 해독용 공개 키를 가져오고 설치하는 방법을 알아봅니다. |
 
 ### 도움말 리소스
 
@@ -353,7 +353,7 @@ Adobe Advertising Cloud에 대한 릴리스 노트입니다.
 
 ### [!UICONTROL Advertising Cloud Search]{#adcloud-search}의 새로운 기능
 
-2020년 7 **월 8일** 7월 11일 릴리스를 업데이트했습니다.
+7월 11일 릴리스를 위한 **2020년 7월 8일** 업데이트.
 
 | 기능 | 설명 |
 | -----------| ---------- |
