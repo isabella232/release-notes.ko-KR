@@ -5,23 +5,19 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 64307f885074b216956a8711384b60a4806a13a3
+source-git-commit: 156d25a099ea7bf1a0f8b7fff148dbfdd615f69e
 workflow-type: tm+mt
-source-wordcount: '4373'
+source-wordcount: '4356'
 ht-degree: 94%
 
 ---
 
 
-# 조기 액세스 - Adobe Experience Cloud 릴리스 노트 - 2020년 7월
+# Adobe Experience Cloud 릴리스 노트 - 2020년 7월
 
 ![배너](/assets/experience-cloud-banner-3.png)
 
 이 페이지에서는 [!DNL Adobe Experience Cloud]에 대한 새로운 기능, 수정 사항 및 중요 정보를 설명합니다. 또한, Adobe Experience Cloud를 최대한 활용할 수 있는 새로운 설명서, 트레이닝 과정 및 비디오 자습서를 소개합니다.
-
->[!IMPORTANT]
->
->이 페이지에는 출시 전 컨텐츠가 포함되어 있으며 계획된 출시 전에 변경될 수 있습니다.
 
 >[!NOTE]
 >
@@ -175,7 +171,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 * [!UICONTROL 이 일정에서 옵트아웃] 이메일 링크가 작동하지 않도록 하는 _지능형 경고_ 문제를 수정했습니다. (AN-223875)
 * 가상 보고서 세트에 대해 잘못된 통화가 표시되는 문제를 수정했습니다. (AN-224781)
 * 가상 보고서 세트에 _구성 요소 누락_ 오류가 발생하는 문제를 수정했습니다. (AN-224782)
-* 기여도 할당이 설정된 계산된 지표와 함께 사용할 때 다른 차원 분류를 분류하면 빈 결과가 반환되는 문제를 수정했습니다. (AN-214089)
+* 기여도 할당이 설정된 계산된 지표와 함께 사용할 때 다른 차원 분류를 분류하면 빈 결과가 반환되는 문제가 해결되었습니다. (AN-214089)
 
 #### 추가 Adobe Analytics 수정 사항
 
