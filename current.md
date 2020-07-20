@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 156d25a099ea7bf1a0f8b7fff148dbfdd615f69e
 workflow-type: tm+mt
 source-wordcount: '4356'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -112,9 +112,9 @@ Adobe는 모든 Experience Cloud 애플리케이션에서 사용자 경험을 �
 
 [!DNL Experience Platform] 및 애플리케이션 서비스(예: [!DNL Experience Platform Launch,] [!UICONTROL Offers], [!UICONTROL People], [!UICONTROL Places], [!UICONTROL Mobile Services] 및 보안 공지)를 위한 릴리스 노트입니다.
 
-Latest release date: **June 10, 2020**
+최근 릴리스 날짜: **2020년 6월 10일**
 
-Experience Platform에 대한 최신 정보는 [Experience Platform 릴리스 노트를](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md) 참조하십시오.
+Experience Platform에 대한 최신 정보는 [Experience Platform 릴리스 노트](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)를 참조하십시오.
 
 ## ![아이콘](/assets/experience_platform_appicon_24.png) Journey Orchestration {#journey-orch}
 
@@ -141,7 +141,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | -----------| ---------- |-------|
 | 작업 공간: 새로운 날짜 범위 사전 설정 | 2020년 7월 16일 | 4가지 날짜 범위(_이번 주/월/분기/년_(오늘 제외))가 추가되어 사용자는 오늘의 일부 데이터를 포함하지 않는 날짜 범위에서 선택할 수 있습니다. |
-| 데이터 복구 API 공개 베타 | 2020년 7월 14일 | 데이터 [!UICONTROL 복구 API는] 특정 기존 Adobe Analytics 데이터를 삭제하거나 편집하는 메커니즘을 제공합니다. [!UICONTROL 데이터 복구] 요청은 작업 정의를 [!UICONTROL 데이터 복구 API](보고서 세트, 날짜 범위, 변수 및 데이터에 적용할 작업 포함)에 제출함으로써 수행됩니다. Upon commencement of the public beta, the [!UICONTROL Data Repair API] will support deletion of [!UICONTROL Activity Map] data. 추가 기능은 나중에 롤아웃됩니다. 데이터 복구 API 공개 베타에 참여하려면 고객 지원 센터에 문의하십시오. [추가 정보...](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) |
+| 데이터 복구 API 공개 베타 | 2020년 7월 14일 | [!UICONTROL 데이터 복구 API]는 특정 기존 Adobe Analytics 데이터를 삭제하거나 편집하는 메커니즘을 제공합니다. [!UICONTROL 데이터 복구] 요청은 작업 정의를 [!UICONTROL 데이터 복구 API](보고서 세트, 날짜 범위, 변수 및 데이터에 적용할 작업 포함)에 제출함으로써 수행됩니다. 공개 베타 버전이 출시되면 [!UICONTROL 데이터 복구 API]는 [!UICONTROL Activity Map] 데이터의 삭제를 지원합니다. 추가 기능은 나중에 롤아웃됩니다. 데이터 복구 API 공개 베타에 참여하려면 고객 지원 센터에 문의하십시오. [추가 정보...](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) |
 
 ### Customer Journey Analytics의 새로운 기능 {#cust-journey}
 
@@ -171,7 +171,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 * [!UICONTROL 이 일정에서 옵트아웃] 이메일 링크가 작동하지 않도록 하는 _지능형 경고_ 문제를 수정했습니다. (AN-223875)
 * 가상 보고서 세트에 대해 잘못된 통화가 표시되는 문제를 수정했습니다. (AN-224781)
 * 가상 보고서 세트에 _구성 요소 누락_ 오류가 발생하는 문제를 수정했습니다. (AN-224782)
-* 기여도 할당이 설정된 계산된 지표와 함께 사용할 때 다른 차원 분류를 분류하면 빈 결과가 반환되는 문제가 해결되었습니다. (AN-214089)
+* 기여도 할당이 설정된 계산된 지표와 함께 사용할 때 다른 차원 분류를 분류하면 빈 결과가 반환되는 문제를 수정했습니다. (AN-214089)
 
 #### 추가 Adobe Analytics 수정 사항
 
@@ -181,7 +181,7 @@ AN-222672, AN-222813; AN-222892; AN-223272, AN-223432; AN-224062; AN-224108; AN-
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | -----------| ---------- | ---------- |
-| Adobe 데이터 커넥터 EOL | 2020년 7월 13일 | Adobe 데이터 커넥터는 더 이상 실행 불가능하거나 지원되지 않는 레거시 기술을 기반으로 합니다. Adobe는 [Adobe Exchange 파트너 프로그램](https://partners.adobe.com/exchangeprogram/experiencecloud) 내에 계속 제공되고 지원되기를 원하는 모든 통합에 대해 새로운 표준을 채택하고 있습니다. 공식적인 수명 종료 날짜는 아직 결정되었지만, 우리는 그것이 향후 12개월에서 18개월 (2021년 중순에서 2021년 말)에 있을 것으로 예상하고 있습니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/data-connectors-eol.html) |
+| Adobe Data Connectors EOL | 2020년 7월 13일 | Adobe Data Connectors는 더 이상 실행 불가능하거나 지원되지 않는 레거시 기술을 기반으로 합니다. Adobe는 [Adobe Exchange 파트너 프로그램](https://partners.adobe.com/exchangeprogram/experiencecloud) 내에 계속 제공되고 지원되기를 원하는 모든 통합에 대해 새로운 표준을 채택하고 있습니다. 공식적인 수명 종료 날짜는 계속 결정 중이지만, 향후 12개월에서 18개월(2021년 중순에서 2021년 말) 사이가 될 것으로 예상하고 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/import/dataconnectors/data-connectors-eol.html) |
 | IMS 조직에 보고서 세트 매핑 | 2020년 7월 | 보고서 세트 매핑 도구는 2020년 11월에 중단됩니다. 이 기능은 Adobe Analytics의 Advertising Analytics 및 Experience Cloud 세그먼트 게시와 같은 통합을 지원합니다. 보고서 세트를 IMS 조직에 매핑하여 이러한 서비스와 기타 서비스를 활성화해야 합니다. 생성 시 더 최신 보고서 세트가 자동으로 매핑됩니다. 그러나 이전 보고서 세트는 IMS 조직에 수동으로 매핑해야 합니다. 모든 보고서 세트를 IMS 조직에 소속되게 하려면 핵심 서비스 사용 안내서의 [조직에 보고서 세트 매핑](https://docs.adobe.com/content/help/ko-KR/core-services/interface/about-core-services/report-suite-mapping.html)을 참조하십시오. |
 | 통합 제품 도메인으로 마이그레이션 | 시행일: 2020년 5월 28일 | 2020년 1월에 시작된 Adobe Analytics용 통합 제품 도메인으로의 마이그레이션은 2020년 5월 28일에 완료되었습니다. Adobe Analytics에서는 아키텍처에서 모든 `omniture.com` 도메인 참조를 제거하지만 `omniture.com`을 타사 쿠키로 허용리스트 설정하는 것이 중요합니다. 전체 아키텍처 마이그레이션이 (곧) 완료되면 릴리스 노트를 통해 알려 드릴 예정이며 이 허용리스트 단계는 더 이상 필요하지 않습니다. 허용리스트 설정해야 할 권장 IP 주소 및 도메인 전체 목록은 [다음](https://helpx.adobe.com/kr/analytics/kb/adobe-ip-addresses.html)과 같습니다.<br>조직에서 타사 쿠키를 차단하는 경우 고객 지원 센터에 문의하여 Adobe Analytics에 다시 액세스하십시오. |
 | 새 Adobe Analytics 기본 랜딩 페이지 | 시행일: 2020년 6월 18일 | 2020년 6월 18일에 Adobe Analytics의 기본 랜딩 페이지가 [!UICONTROL 보고서]에서 [!UICONTROL 작업 공간]으로 변경됩니다. 이 변경 사항은 이전에 사용자 지정 랜딩 페이지를 설정하지 않은 모든 사용자에게 발생합니다. |
