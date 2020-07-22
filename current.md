@@ -140,7 +140,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | -----------| ---------- |-------|
-| CDA: 현장 기반 연결 | 2020년 7월 27일 | 방문자를 식별하는 데 도움이 되는 사용자 지정 변수를 사용할 수 있는 장치 간 Analytics에 대한 새로운 방법입니다. |
+| CDA: 현장 기반 연결 | 2020년 7월 27일 | 용자 지정 변수를 사용하여 사용자 정의 변수를 식별할 수 있는 교차 장치 분석에 대한 새로운 방법입니다. |
 | 작업 공간: 새로운 날짜 범위 사전 설정 | 2020년 7월 16일 | 4가지 날짜 범위(_이번 주/월/분기/년_(오늘 제외))가 추가되어 사용자는 오늘의 일부 데이터를 포함하지 않는 날짜 범위에서 선택할 수 있습니다. |
 | 데이터 복구 API 공개 베타 | 2020년 7월 14일 | [!UICONTROL 데이터 복구 API]는 특정 기존 Adobe Analytics 데이터를 삭제하거나 편집하는 메커니즘을 제공합니다. [!UICONTROL 데이터 복구] 요청은 작업 정의를 [!UICONTROL 데이터 복구 API](보고서 세트, 날짜 범위, 변수 및 데이터에 적용할 작업 포함)에 제출함으로써 수행됩니다. 공개 베타 버전이 출시되면 [!UICONTROL 데이터 복구 API]는 [!UICONTROL Activity Map] 데이터의 삭제를 지원합니다. 추가 기능은 나중에 롤아웃됩니다. 데이터 복구 API 공개 베타에 참여하려면 고객 지원 센터에 문의하십시오. [추가 정보...](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) |
 
