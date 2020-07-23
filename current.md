@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 07dd75d1b05e0768cf41934eaf40b5460ca85696
 workflow-type: tm+mt
 source-wordcount: '4388'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -128,7 +128,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 릴리스 날짜: **2020년 7월 16일**
 
-* [Adobe Analytics](#aa-features) 의 새로운 기능(2020년 7월 21일 업데이트)
+* [Adobe Analytics의 새로운 기능](#aa-features)(2020년 7월 21일 업데이트됨)
 * [Customer Journey Analytics의 새로운 기능](#cust-journey)
 * [Media Analytics](#media-aa)의 새로운 기능
 * [Adobe Analytics의 수정 사항](#aa-fixes)
