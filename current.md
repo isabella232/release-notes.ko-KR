@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 07dd75d1b05e0768cf41934eaf40b5460ca85696
+source-git-commit: 9f46f208d31ffea1d637bcffb02d869eb0f29974
 workflow-type: tm+mt
-source-wordcount: '4388'
-ht-degree: 100%
+source-wordcount: '4563'
+ht-degree: 97%
 
 ---
 
@@ -30,12 +30,12 @@ ht-degree: 100%
 최신 업데이트: **2020년 7월 21일**
 
 * [Adobe 시스템 상태](#status)
-* [Experience Cloud 인터페이스](#ecloud)
+* [Experience Cloud 인터페이스](#ecloud) (업데이트 날짜: 2020년 7월 27일)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) 및 [Customer Journey Analytics](#cust-journey) (업데이트 날짜: 2020년 7월 21일)
 * [Audience Manager](#aam)
-* [Experience Manager](#aem)
+* [Experience Manager](#aem) (업데이트 날짜: 2020년 7월 27일)
 * [캠페인](#ac)
 * [Advertising Cloud](#adcloud)
 * [!DNL Target](https://docs.adobe.com/content/help/ko-KR/target/using/release-notes/target-release-notes.html)
@@ -66,6 +66,14 @@ ht-degree: 100%
 ## ![아이콘](/assets/ec_appicon_24.png) Experience Cloud 인터페이스 {#ecloud}
 
 Experience Cloud 인터페이스 관련 일반 업데이트.
+
+### Adobe Summit Lab의 새로운 설명서
+
+2020년 Adobe Summit labs에서 발표된 새로운 컨텐츠
+
+| 게시됨 | 이름 | 유형 | 설명 |
+| -----------| ---------- | ---------- | ---------- |
+| 2020년 7월 27일 | [Adobe Document Cloud를 통한 디지털 경험 활용](https://docs.adobe.com/content/help/en/document-cloud-learn/lab719/overview.html) | 문서 | 이 실습에서는 디지털 방식으로 PDF를 사용하여 더 많은 작업을 수행하고 고객 및 직원 경험을 혁신하는 방법을 배움으로써 생산성과 창의력을 한 차원 높일 수 있습니다. |
 
 **업데이트된 인터페이스 메뉴**
 
@@ -267,6 +275,8 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 
 | 게시됨 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020년 7월 27일 | [패턴 감지](https://docs.adobe.com/content/help/en/experience-manager-pattern-detection/table-of-contents/aso.html) | 참조 | Experience Manager 업그레이드 `upgrade.log` 동안에만 제공됩니다. |
+| 2020년 7월 27일 | [Software Distribution](https://docs.adobe.com/content/help/ko-KR/experience-cloud/software-distribution/home.html) | 문서 | As of June 2020, the Experience Cloud solution Software Distribution replaces the download platforms [!UICONTROL PackageShare] for AEM and [!DNL Neolane] for [!DNL Campaign] and provides a more efficient experience to find and download your software. 직관적인 사용자 인터페이스, 간소화된 검색 기능 및 대폭 향상된 다운로드 속도를 통해 Experience Cloud 제품에 대한 소프트웨어 패키지를 다운로드하여 탁월한 사용자 환경을 제공할 수 있습니다. |
 | 2020년 6월 25일 | [반응형 양식 시작하기](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 이 자습서에서는 다중 탭 반응형 양식 만들기에 관련된 단계를 안내합니다. 표, 아코디언 레이아웃 및 규칙 편집기를 사용하여 비즈니스 규칙을 작성하는 방법을 알아봅니다. |
 | 2020년 6월 25일 | [AEM Forms에서 검토 작업 과정 만들기](https://video.tv.adobe.com/v/35821/quality=9?captions=kor) | 비디오 | 활성 양식 제출에서 제출된 데이터를 검토하는 작업 과정을 생성하는 방법을 알아봅니다. |
 | 2020년 6월 23일 | [처리 프로필](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/configuring/processing-profiles.html) | 비디오 | 처리 프로필은 Cloud Service로서의 AEM에서 자산에 대해 만들 변환을 정의합니다. |
@@ -370,7 +380,9 @@ Magento 릴리스 노트에 대해서는 다음을 참조하십시오.
 
 ### 핵심 Marketo Engage 업데이트
 
-최신 릴리스 정보는 [!DNL Marketo][릴리스 노트](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+Feb+%2720)를 참조하십시오.
+Marketing [!UICONTROL To Sky] 설명서가 이제 여기에서 [사용할 수 있습니다](https://docs.adobe.com/content/help/en/marketo/sky/home.html).
+
+최신 릴리스 정보는 [!DNL Marketo][릴리스 노트](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+July+%2720)를 참조하십시오.
 
 ### 예정된 기능
 
