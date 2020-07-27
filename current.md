@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 9f46f208d31ffea1d637bcffb02d869eb0f29974
+source-git-commit: 6f1be637b529833baf987c4727ec2d7e4980b779
 workflow-type: tm+mt
-source-wordcount: '4563'
+source-wordcount: '4561'
 ht-degree: 97%
 
 ---
@@ -380,8 +380,6 @@ Magento 릴리스 노트에 대해서는 다음을 참조하십시오.
 
 ### 핵심 Marketo Engage 업데이트
 
-Marketing [!UICONTROL To Sky] 설명서가 이제 여기에서 [사용할 수 있습니다](https://docs.adobe.com/content/help/en/marketo/sky/home.html).
-
 최신 릴리스 정보는 [!DNL Marketo][릴리스 노트](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+July+%2720)를 참조하십시오.
 
 ### 예정된 기능
@@ -401,5 +399,9 @@ Marketing [!UICONTROL To Sky] 설명서가 이제 여기에서 [사용할 수 �
 
 * **자산 API &quot;_method&quot; 매개 변수:** 2020년 9월 이후, 자산 API 끝점은 `_method`를 사용하여 쿼리 매개 변수를 URI 길이 제한을 무시하도록 POST 본문에 전달하지 않습니다.
 * **Internet Explorer 지원 중단:** 2020년 7월 31일부터 Marketo Engage 사용자 인터페이스는 이제 Internet Explorer에서 지원되지 않습니다.
+
+>[!NOTE]
+>
+>Marketing [!UICONTROL To Sky] 인터페이스에 대한 설명서는 [여기에서 확인할 수 있습니다](https://docs.adobe.com/content/help/en/marketo/sky/home.html).
 
 누적 릴리스 노트와 내역 릴리스 노트는 [Marketo 릴리스 노트](https://docs.marketo.com/x/CgA6Ag)를 참조하십시오.
