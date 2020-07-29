@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 6f1be637b529833baf987c4727ec2d7e4980b779
+source-git-commit: b5109b2b7d98da696cbd397ab9358daf843c8e4b
 workflow-type: tm+mt
-source-wordcount: '4561'
-ht-degree: 99%
+source-wordcount: '4618'
+ht-degree: 98%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 99%
 
 제품 출시 날짜는 다를 수 있습니다. 업데이트를 자주 확인하십시오.
 
-최신 업데이트: **2020년 7월 21일**
+최신 업데이트: **2020년 7월 29일**
 
 * [Adobe 시스템 상태](#status)
 * [Experience Cloud 인터페이스](#ecloud) (업데이트 날짜: 2020년 7월 27일)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) 및 [Customer Journey Analytics](#cust-journey) (업데이트 날짜: 2020년 7월 21일)
+* [Analytics](#analytics) 및 [Customer Journey Analytics](#cust-journey) (업데이트 날짜: 2020년 7월 29일)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem) (2020년 7월 27일 업데이트됨)
 * [캠페인](#ac)
@@ -137,7 +137,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 릴리스 날짜: **2020년 7월 16일**
 
 * [Adobe Analytics의 새로운 기능](#aa-features)(2020년 7월 21일 업데이트됨)
-* [Customer Journey Analytics의 새로운 기능](#cust-journey)
+* [Customer Journey Analytics](#cust-journey) 의 새로운 기능(2020년 7월 29일 업데이트)
 * [Media Analytics](#media-aa)의 새로운 기능
 * [Adobe Analytics의 수정 사항](#aa-fixes)
 * [Analytics 관리자에 대한 중요 공지](#aa-notices)
@@ -148,7 +148,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | -----------| ---------- |-------|
-| CDA: 현장 기반 연결 | 2020년 7월 27일 | 용자 지정 변수를 사용하여 사용자 정의 변수를 식별할 수 있는 교차 장치 분석에 대한 새로운 방법입니다. &lt;!-->[추가 정보...](https://docs.adobe.com/content/help/en/analytics/components/cda/field-based-stitching.html)&lt;--> |
+| CDA: 현장 기반 연결 | 2020년 7월 27일 | 용자 지정 변수를 사용하여 사용자 정의 변수를 식별할 수 있는 교차 장치 분석에 대한 새로운 방법입니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/components/cda/field-based-stitching.html) |
 | 작업 공간: 새로운 날짜 범위 사전 설정 | 2020년 7월 16일 | 4가지 날짜 범위(_이번 주/월/분기/년_(오늘 제외))가 추가되어 사용자는 오늘의 일부 데이터를 포함하지 않는 날짜 범위에서 선택할 수 있습니다. |
 | 데이터 복구 API 공개 베타 | 2020년 7월 14일 | [!UICONTROL 데이터 복구 API]는 특정 기존 Adobe Analytics 데이터를 삭제하거나 편집하는 메커니즘을 제공합니다. [!UICONTROL 데이터 복구] 요청은 작업 정의를 [!UICONTROL 데이터 복구 API](보고서 세트, 날짜 범위, 변수 및 데이터에 적용할 작업 포함)에 제출함으로써 수행됩니다. 공개 베타 버전이 출시되면 [!UICONTROL 데이터 복구 API]는 [!UICONTROL Activity Map] 데이터의 삭제를 지원합니다. 추가 기능은 나중에 롤아웃됩니다. 데이터 복구 API 공개 베타에 참여하려면 고객 지원 센터에 문의하십시오. [추가 정보...](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) |
 
@@ -156,7 +156,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | -----------| ---------- |-----|
-| 이번 달에는 새로운 기능 없음 |  |  |
+| 개인 ID에 대한 ID 맵 옵션 | 2020년 6월 26일 | ID 맵은 Customer Journey Analytics에서 연결을 만드는 과정의 일부로 키 -> 값 쌍을 업로드할 수 있는 지도 데이터 구조입니다. 키는 ID 네임스페이스이며, 값은 ID 값을 가지는 구조입니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#use-identity-map-as-a-person-id) |
 
 ### [!UICONTROL Media Analytics]의 새로운 기능 {#media-aa}
 
