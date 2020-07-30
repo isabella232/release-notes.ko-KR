@@ -35,7 +35,7 @@ ht-degree: 98%
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) 및 [Customer Journey Analytics](#cust-journey) (업데이트 날짜: 2020년 7월 29일)
 * [Audience Manager](#aam)
-* [Experience Manager](#aem) (2020년 7월 27일 업데이트됨)
+* [Experience Manager](#aem)(2020년 7월 27일 업데이트됨)
 * [캠페인](#ac)
 * [Advertising Cloud](#adcloud)
 * [!DNL Target](https://docs.adobe.com/content/help/ko-KR/target/using/release-notes/target-release-notes.html)
@@ -397,10 +397,10 @@ Magento 릴리스 노트에 대해서는 다음을 참조하십시오.
 ### 사용 중단
 
 * **자산 API &quot;_method&quot; 매개 변수:** 2020년 9월 이후, 자산 API 끝점은 `_method`를 사용하여 쿼리 매개 변수를 URI 길이 제한을 무시하도록 POST 본문에 전달하지 않습니다.
-* **Internet Explorer 지원 중단:** 2020년 7월 31일부터 Marketo Engage 사용자 인터페이스는 이제 Internet Explorer에서 지원되지 않습니다.
+* **Internet Explorer 지원 중단:** 2020년 7월 31일 7월 릴리스부터 Marketo Engage 사용자 인터페이스는 이제 Internet Explorer에서 지원되지 않습니다.
 
 >[!NOTE]
 >
->Marketo Sky [!UICONTROL 인터페이스에 대한 설명서는] 여기에서 확인할 수 있습니다 [](https://docs.adobe.com/content/help/en/marketo/sky/home.html).
+>[!UICONTROL Marketo Sky] 인터페이스에 대한 설명서는 [여기](https://docs.adobe.com/content/help/en/marketo/sky/home.html)에서 확인할 수 있습니다.
 
 누적 릴리스 노트와 내역 릴리스 노트는 [Marketo 릴리스 노트](https://docs.marketo.com/x/CgA6Ag)를 참조하십시오.
