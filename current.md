@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b5109b2b7d98da696cbd397ab9358daf843c8e4b
+source-git-commit: 5bbdf099a039991d51b2f0735a3766d2f7525f3d
 workflow-type: tm+mt
-source-wordcount: '4618'
+source-wordcount: '4597'
 ht-degree: 98%
 
 ---
@@ -275,7 +275,6 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 
 | 게시됨 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
-| 2020년 7월 27일 | [패턴 감지](https://docs.adobe.com/content/help/en/experience-manager-pattern-detection/table-of-contents/aso.html) | 참조 | Experience Manager 업그레이드 `upgrade.log`동안에만 제공됩니다. |
 | 2020년 7월 27일 | [Software Distribution](https://docs.adobe.com/content/help/ko-KR/experience-cloud/software-distribution/home.html) | 문서 | 2020년 6월 현재, Experience Cloud 솔루션 소프트웨어 배포는 AEM 및 [!DNL Neolane]의 [!DNL Campaign] 다운로드 플랫폼 [!UICONTROL PackageShare]를 대체하며, 소프트웨어를 찾고 다운로드할 수 있는 더욱 효율적인 환경을 제공합니다. 직관적인 사용자 인터페이스, 간소화된 검색 기능 및 대폭 향상된 다운로드 속도를 통해 Experience Cloud 제품에 대한 소프트웨어 패키지를 다운로드하여 탁월한 사용자 환경을 제공할 수 있습니다. |
 | 2020년 6월 25일 | [반응형 양식 시작하기](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 이 자습서에서는 다중 탭 반응형 양식 만들기에 관련된 단계를 안내합니다. 표, 아코디언 레이아웃 및 규칙 편집기를 사용하여 비즈니스 규칙을 작성하는 방법을 알아봅니다. |
 | 2020년 6월 25일 | [AEM Forms에서 검토 작업 과정 만들기](https://video.tv.adobe.com/v/35821/quality=9?captions=kor) | 비디오 | 활성 양식 제출에서 제출된 데이터를 검토하는 작업 과정을 생성하는 방법을 알아봅니다. |
