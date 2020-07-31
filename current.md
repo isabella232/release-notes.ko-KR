@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 5bbdf099a039991d51b2f0735a3766d2f7525f3d
 workflow-type: tm+mt
 source-wordcount: '4597'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -137,8 +137,8 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 릴리스 날짜: **2020년 7월 16일**
 
 * [Adobe Analytics의 새로운 기능](#aa-features)(2020년 7월 21일 업데이트됨)
-* [Customer Journey Analytics](#cust-journey) 의 새로운 기능(2020년 7월 29일 업데이트)
-* [Media Analytics](#media-aa)의 새로운 기능
+* [Customer Journey Analytics의 새로운 기능](#cust-journey)(2020년 7월 29일 업데이트됨)
+* [Media Analytics의 새로운 기능](#media-aa)
 * [Adobe Analytics의 수정 사항](#aa-fixes)
 * [Analytics 관리자에 대한 중요 공지](#aa-notices)
 * [새로운 Adobe Analytics 교육 과정 및 자습서](#tutorials-analytics)
@@ -156,7 +156,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | -----------| ---------- |-----|
-| 개인 ID에 대한 ID 맵 옵션 | 2020년 6월 26일 | ID 맵은 Customer Journey Analytics에서 연결을 만드는 과정의 일부로 키 -> 값 쌍을 업로드할 수 있는 지도 데이터 구조입니다. 키는 ID 네임스페이스이며, 값은 ID 값을 가지는 구조입니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#use-identity-map-as-a-person-id) |
+| 개인 ID에 대한 ID 맵 옵션 | 2020년 6월 26일 | ID 맵은 Customer Journey Analytics에서 연결을 만드는 과정의 일부로 키 -> 값 쌍을 업로드할 수 있는 지도 데이터 구조입니다. 키는 ID 이름 공간이며, 값은 ID 값을 가지는 구조입니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-connections/create-connection.html#use-identity-map-as-a-person-id) |
 
 ### [!UICONTROL Media Analytics]의 새로운 기능 {#media-aa}
 
