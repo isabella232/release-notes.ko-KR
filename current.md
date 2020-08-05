@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 5bbdf099a039991d51b2f0735a3766d2f7525f3d
+source-git-commit: f7bd407c120932f7c51ccc77d5e72f72a2d38014
 workflow-type: tm+mt
-source-wordcount: '4597'
+source-wordcount: '4591'
 ht-degree: 100%
 
 ---
@@ -141,7 +141,6 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 * [Media Analytics의 새로운 기능](#media-aa)
 * [Adobe Analytics의 수정 사항](#aa-fixes)
 * [Analytics 관리자에 대한 중요 공지](#aa-notices)
-* [새로운 Adobe Analytics 교육 과정 및 자습서](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
 ### Adobe Analytics의 새로운 기능 {#aa-features}
