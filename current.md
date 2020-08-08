@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: dab2c3fb8b9920f079195693a584f7c48b813e23
+source-git-commit: 94f346f9c1f7f23630c731769e4457bc5e0b7222
 workflow-type: tm+mt
-source-wordcount: '6207'
+source-wordcount: '6209'
 ht-degree: 43%
 
 ---
@@ -75,9 +75,9 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 지난 달에 게시된 새로운 비디오, 자습서 또는 교육 과정
 
-| 게시됨 | 이름 | 설명 |
-| ----------- | ---------- | ---------- |  
-| 2020년 7월 10일 | [Adobe Experience Platform에 경로 단계 이벤트 보고](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html) | Experience Platform에서 자동으로 생성되는 고객 여정 단계 이벤트와 데이터 단계를 살펴보십시오. |
+| 게시됨 | 이름 | 유형 | 설명 |
+| ----------- | ---------- | ---------- |---------- |  
+| 2020년 7월 10일 | [Adobe Experience Platform에 경로 단계 이벤트 보고](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html) | 자습서 | Experience Platform에서 자동으로 생성되는 고객 여정 단계 이벤트와 데이터 단계를 살펴보십시오. |
 
 ### Journey Orchestration을 위한 추가 리소스
 
@@ -159,7 +159,7 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [JavaScript용 AppMeas
 
 Analytics 및 Customer Journey Analytics의 새 강좌, 자습서 비디오 및 문서입니다.
 
-| 게시됨 | 이름 | 솔루션 | 설명 |
+| 게시됨 | 이름 | 유형 | 설명 |
 | ----------- | ----------- | ---------- | ---------- |  
 | 2020년 7월 30일 | [Admin Console에서 보고서 세트 액세스 제한](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/administration/user-management/limit-report-suite-access-in-the-admin-console.html) | 자습서 | 사용자가 자신의 역할에 필요한 보고서 세트에만 액세스할 수 있도록 [!UICONTROL Admin Console] 를 사용하는 방법을 알아봅니다. |
 | 2020년 7월 24일 | [Adobe Analytics에 관리자 추가](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/administration/user-management/adding-an-administrator-to-adobe-analytics.html) | 자습서 | Adobe [!UICONTROL Admin Console에서 관리자로 사용자를 추가하는 방법을 알아봅니다]. |
@@ -203,7 +203,7 @@ Audience Manager의 새로운 기능, 수정 사항, 설명서 및 자습서.
 
 ### 새로운 Audience Manager 자습서 {#tutorials-aam}
 
-| 게시됨 | 이름 | 솔루션 | 설명 |
+| 게시됨 | 이름 | 유형 | 설명 |
 | ----------- | ----------- | ---------- | ---------- |
 | 2020년 8월 7일 | [광고를 변환기로 내보내 비용 절감 및 고객 경험 최적화](https://experienceleague.adobe.com/?recommended=AudienceManager-A-1-2020.1) | 자습서 | 이 교육 과정에서는 도달 범위에서 기존 고객을 제거하여 비용을 절감하고 고객 경험을 최적화하는 활용 사례를 통해 처음부터 끝까지 모든 개념을 살펴볼 수 있습니다. 여기에는 트레이트 및 세그먼트 작성, 올바른 프로필 병합 규칙 추가, 대상에 세그먼트 추가, 이 사용 사례를 사용할 때 ROI 계산 등이 포함됩니다. |
 | 2020년 8월 7일 | [올바른 프로필 병합 규칙 선택](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/choosing-the-right-profile-merge-rule.html) | 자습서 | 이 비디오에서는 프로필 병합 규칙에 대한 가장 일반적인 사용 사례 중 세 가지 [!UICONTROL 와]이러한 사례를 통해 마케팅 활동을 도울 수 있는 방법을 알아봅니다. |
@@ -341,7 +341,7 @@ Campaign Classic, Campaign Standard 및 컨트롤 패널에 대한 릴리스 노
 
 지난 달에 게시된 새로운 비디오, 자습서 또는 교육 과정
 
-| 게시됨 | 이름 | 솔루션 | 설명 |
+| 게시됨 | 이름 | 유형 | 설명 |
 | ----------- | ----------- | ---------- | ---------- |  
 | 2020년 7월 10일 | [Campaign 컨트롤 패널 - GPG 키 관리 - 데이터 해독](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/decrypting-data.html) | Campaign Classic | 공개 키를 만들고 인바운드 데이터의 암호 해독을 위해 Campaign 인스턴스로 가져와서 설치하는 방법을 배웁니다. |
 | 2020년 7월 10일 | [Campaign 컨트롤 패널 - GPG 키 관리 - GPG 키를 사용하여 데이터 암호화](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/using-a-gpg-key-to-encrypt-data.html) | Campaign Classic | Campaign 컨트롤 패널에 설치된 GPG 키를 사용하여 데이터를 내보내는 방법을 배웁니다. |
