@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 4692634440160952dc46ee85c9dbdb77b9778fbf
+source-git-commit: c3d6d35f2a56d003514549150db7b060440389f9
 workflow-type: tm+mt
-source-wordcount: '6174'
+source-wordcount: '6287'
 ht-degree: 42%
 
 ---
@@ -228,6 +228,7 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
    * 이제 Cloud Service에서 AEM Commerce를 사용할 수 있습니다. Cloud Service [로 AEM Commerce 시작을 참조하십시오.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/commerce/getting-started.html)
    * 향상된 Adobe Target 및 Adobe Analytics용 커넥터에는 사용자 인터페이스 개선, 클래식 UI 교체 및 Adobe 시작 통합이 포함되어 있습니다. Adobe Analytics [통합](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/integrations/integrating-adobe-analytics.html) 및 [Adobe Target 통합을 참조하십시오.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/integrations/integrating-adobe-target.html)
    * Asset Compute Service는 자산을 처리할 수 있는 확장 가능한 서비스입니다. 관리자는 자산 계산 서비스를 사용하여 만든 사용자 지정 작업자를 호출하도록 Experience Manager을 구성할 수 있습니다. 개발자는 이 서비스를 사용하여 복잡한 사용 사례에 맞는 전문 맞춤형 작업자를 만들 수 있습니다. 이 웹 서비스는 다양한 파일 유형에 대한 축소판, Adobe 파일 포맷의 고품질 이미지 렌더링, 비디오 인코딩(미래), 메타데이터 추출, 색인화를 위한 사전 설정으로 전체 텍스트 추출, 사용 가능한 모든 Sensei 서비스를 통해 자산 실행 등의 작업을 수행할 수 있습니다. 자산 [마이크로서비스 및 처리 프로필 사용을 참조하십시오.](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/assets/manage/asset-microservices-configure-and-use.html)
+   * [자산 계산 서비스를](https://docs.adobe.com/content/help/en/asset-compute/using/home.html) 확장하여 사용자 정의 응용 프로그램을 만들 수 있습니다. 디지털 에셋을 처리할 수 있는 확장 가능한 서비스 [!DNL Adobe Experience Cloud] 입니다. 이미지, 비디오, 문서 및 기타 파일 포맷을 축소판, 추출한 텍스트 및 메타데이터, 보관 파일 등 다양한 변환으로 변환할 수 있습니다. 개발자는 맞춤형 애플리케이션(사용자 정의 작업자라고도 함)을 만들어 사용자 정의 사용 사례를 처리할 수 있습니다. 그것은 [프로젝트 반딧불이를 사용하여](https://www.adobe.io/apis/experienceplatform/project-firefly/docs.html) 지어지고 서버리스 [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html)에서 일한다.
    * Cloud Service으로 AEM의 워크플로우 모델 및 다이내믹 미디어에 대한 다양한 향상된 기능
    * Release 2.11.0 of the [AEM Core Components](https://docs.adobe.com/content/help/ko-KR/experience-manager-core-components/using/introduction.html) is now available as part of AEM Sites including the following:
       * 새로운 [PDF 뷰어 구성 요소 소개](https://aemcomponents.dev/content/core-components-examples/library/page-authoring/pdf-viewer.html)
@@ -241,6 +242,10 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
    * AEM의 [전체 릴리스 노트를 Cloud Service으로 참조하십시오.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?mkt_tok=eyJpIjoiWm1SallqTmtOekF6WldZMCIsInQiOiJoTTZ3Qm9LNVRXc1lsbjExdlpNMGdQNFE2UGM5ejZob1EwZXlPZHp2MEZJa1BPTHhybHBYcUxFWTgwVjNFajlzYU1Fb1NoVXRwMTc3U2IrbHZKeTVSOG02MUErbWpIb1pjNU8zYkdTbW5MZHVIRUUyNk9vUU9SckdOeUJmbXlObSJ9)
 
 ### 사용자 도움말
+
+* **AEM Assets**
+
+   * Experience Manager 데스크탑 앱에 대한 [문제 해결 팁을](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/troubleshoot.html) 더 추가했습니다.
 
 * **AEM Forms**
 
