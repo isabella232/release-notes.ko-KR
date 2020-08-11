@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1a9860da58454f3e23650b8cf98e20f2819ac3be
+source-git-commit: 8eec282ba5b97526aecf904b58819b446be35db0
 workflow-type: tm+mt
-source-wordcount: '6333'
+source-wordcount: '6337'
 ht-degree: 43%
 
 ---
@@ -31,13 +31,13 @@ ht-degree: 43%
 
 제품 출시 날짜는 다를 수 있습니다. 업데이트를 자주 확인하십시오.
 
-최신 업데이트: **2020년 8월 7일**
+최신 업데이트: **2020년 8월 11일**
 
 * [Adobe 시스템 상태](#status)
 * [Experience Cloud 인터페이스](#ecloud)
 * [Experience Platform](#platform)
-* [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) 및 [Customer Journey Analytics](#cust-journey)
+* [여정 편성](#journey-orch)
+* [Analytics](#analytics) (2020년 8월 11일 업데이트됨) 및 [Customer Journey Analytics](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [캠페인](#ac)
@@ -93,6 +93,8 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 * [AppMeasurement](#appm)
 
 ### Adobe Analytics의 새로운 기능 {#aa-features}
+
+(2020년 8월 11일 업데이트)
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | -----------| ---------- |-------|
@@ -195,7 +197,7 @@ Audience Manager의 새로운 기능, 수정 사항, 설명서 및 자습서.
 * 이제 매개 변수를 검색할 수 없을 때 [!DNL Google] 대상에서 세그먼트 매핑 [!DNL Google UserList] 을 해제할 수 있습니다. (AAM-42655)
 * 대상에 여러 세그먼트를 추가하는 것이 항상 제대로 작동하지 않는 문제를 해결했습니다. (AAM-55651)
 * 제한이 [!DNL Profile Merge Rules] 증가한 사용자에게 새 규칙 [!UICONTROL 추가] 단추가 표시되지 않던 문제를 수정했습니다. (AAM-55700)
-* 데이터 피드 보고서 지표에서 [!UICONTROL 30일 겹친 고유 사용자] 제목이 누락되는 문제를 [!UICONTROL 수정했습니다]. (AAM-55801)
+* 데이터 피드 보고서 지표에서 [!UICONTROL 30일 겹친 고유 사용자] 제목이 누락되는 [!UICONTROL 문제를 수정했습니다]. (AAM-55801)
 * 이제 대상이 내보내도록 구성된 경우 [!UICONTROL 대상] 보기에서 라이프타임 지표가 [!DNL UUID]제외됩니다.(AAM-54196)
 * 사용자가 보고서를 볼 수 없는 문제가 [!DNL Tableau] 해결되었습니다. (AAM-55868)
 * 새 예측 대상 모델을 만들 때 사용자에게 오류가 [!UICONTROL 표시되는 문제를] 해결했습니다. (AAM-55921)
@@ -209,7 +211,7 @@ Audience Manager의 새로운 기능, 수정 사항, 설명서 및 자습서.
 | 2020년 8월 7일 | [올바른 프로필 병합 규칙 선택](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/choosing-the-right-profile-merge-rule.html) | 자습서 | 이 비디오에서는 프로필 병합 규칙에 대한 가장 일반적인 사용 사례 중 세 가지 [!UICONTROL 와]이러한 사례를 통해 마케팅 활동을 도울 수 있는 방법을 알아봅니다. |
 | 2020년 8월 5일 | [세그먼트 분류 만들기](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-a-segment-taxonomy.html) | 자습서 | Audience Manager에서 세그먼트를 만들면 폴더 기반 구조 또는 _분류법에 저장합니다_. 세그먼트 분류 생성 및 관리에 대한 몇 가지 팁을 알아봅니다. |
 | 2020년 8월 4일 | [Adobe I/O에서 API 자격 증명 검색](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/api/retrieve-api-credentials-in-adobe-io.html) | 자습서 | REST API를 사용하기 위한 자격 증명을 위해 Adobe 컨설팅 또는 고객 지원 센터에 연락하는 대신, 브라우저에서 자신의 자격 증명을 검색하거나 등록할 수 있습니다. `Adobe.io` |
-| 2020년 7월 31일 | [세그먼트에서 최근 및 빈도 사용](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/using-recency-and-frequency-in-segments.html) | 자습서 | 최근 [!UICONTROL 및] [!UICONTROL 빈도] 를 사용하여 방문자가 특정 기간 내에 트레이트를 자격을 갖추기 위해 몇 번을 세그먼트화할 수 있습니다. 컨텐트 친화성 및 빈도 매핑 사용 사례뿐만 아니라 기타 사례에 적합합니다. |
+| 2020년 7월 31일 | [세그먼트에서 최근 및 빈도 사용](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/using-recency-and-frequency-in-segments.html) | 자습서 | 최근 [!UICONTROL 및] [!UICONTROL 빈도] 를 사용하여 방문자가 특정 기간 내에 트레이트를 자격을 갖추기 위해 몇 번을 세그먼트 매개 변수에 제공합니다. 컨텐트 친화성 및 빈도 매핑 사용 사례뿐만 아니라 기타 사례에 적합합니다. |
 | 2020년 7월 22일 | [세그먼트 만들기의 기본 사항](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/the-basics-of-creating-segments.html) | 자습서 | Audience Manager에서 세그먼트를 만들려면 UI의 필드를 살펴보십시오. |
 | 2020년 7월 22일 | [실용적인 세그먼트 정의 및 만들기](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/practical-segment-definition-and-creation.html) | 자습서 | 이 비디오에서는 세그먼트를 정의하는 프로세스를 안내합니다. 그런 다음 세그먼트를 만들어야 하는 특성 및 신호로 분류합니다. |
 | 2020년 7월 17일 | [변환기로 광고 억제](https://video.tv.adobe.com/v/36658?captions=kor) | 자습서 | 광고를 변환기로 변환하여 비용을 절감하고 고객 경험을 최적화할 수 있습니다. |
