@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8eec282ba5b97526aecf904b58819b446be35db0
+source-git-commit: 287bdc8c8460e9700474bb0bf1e79631182945bb
 workflow-type: tm+mt
-source-wordcount: '6337'
-ht-degree: 97%
+source-wordcount: '6402'
+ht-degree: 96%
 
 ---
 
@@ -190,6 +190,7 @@ Audience Manager의 새로운 기능, 수정 사항, 설명서 및 자습서.
 
 ### Adobe Audience Manager의 새로운 기능 및 수정 사항
 
+* 이제 [사람 기반 대상을](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-prerequisites.html) 사용하여 사용자를 타깃팅할 수 있습니다 [!DNL Google Customer Match]. 사람 [!UICONTROL 기반 대상을] 사용하여 자사 대상 세그먼트를 [!DNL Google Customer Match] 대상으로 보내려면 먼저 해당 허용 목록에 사용자를 [!DNL Google] 추가해야 합니다. 자세한 내용은 [사람 기반 대상](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-prerequisites.html) 설명서를 참조하십시오. (PLAT-53962)
 * [예측 대상](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html)이 이제 모델을 생성하는 동안 모델별 [!UICONTROL 프로필 병합 규칙]의 선택을 지원합니다. (AAM-55178)
 * 이제 대상 매핑 시작 날짜와 종료 날짜가 각 세그먼트의 페이지에 표시됩니다. (AAM-40056)
 * 새 트레이트를 만들 때 트레이트의 [!UICONTROL 장치 유형]이 [!UICONTROL 교차 장치]로 자동 설정되던 문제를 수정했습니다. (AAM-55368)
