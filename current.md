@@ -5,23 +5,19 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 5fa62cfefa6118c72d3c997c198f9f5ad7123b6d
+source-git-commit: dc785dde4088570baa004f5296d134d16a503562
 workflow-type: tm+mt
-source-wordcount: '6371'
-ht-degree: 96%
+source-wordcount: '6378'
+ht-degree: 95%
 
 ---
 
 
-# 조기 액세스 - Adobe Experience Cloud 릴리스 노트 - 2020년 8월
+# Adobe Experience Cloud 릴리스 노트 - 2020년 8월
 
 ![배너](/assets/experience-cloud-banner-3.png)
 
 이 페이지에서는 [!DNL Adobe Experience Cloud]에 대한 새로운 기능, 수정 사항 및 중요 정보를 설명합니다. 또한, Adobe Experience Cloud를 최대한 활용할 수 있는 새로운 설명서, 트레이닝 과정 및 비디오 자습서를 소개합니다.
-
->[!IMPORTANT]
->
->이 페이지에는 출시 전 컨텐츠가 포함되어 있으며 계획된 출시 전에 변경될 수 있습니다.
 
 >[!NOTE]
 >
@@ -241,7 +237,7 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
    * 이제 Cloud Manager 파이프라인이 고객 설정 변수 및 기밀을 지원합니다. [파이프라인 변수](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/onboarding/getting-access/creating-aem-application-project.html#pipeline-variables)를 참조하십시오.
    * [로그를 Splunk 계정에 전달하여](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/implementing/developing/logging.html#splunk-logs) 조직에서 해당 [!DNL Splunk] 투자를 활용하게 할 수 있습니다.
    * [정적 전용 송신 IP 주소](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/implementing/developing/development-guidelines.html#dedicated-egress-ip-address)를 Java 코드로 프로그래밍된 아웃바운드 트래픽에 대해 할당할 수 있으며 이는 일부 통합에 유용할 수 있습니다.
-   * Cloud Readiness Analyzer v1.0.2가 출시되었습니다. [AEM 6.1에 CRA 설치하기](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/moving/cloud-migration/cloud-readiness-analyzer/using-cloud-readiness-analyzer.html#installing-on-aem61)를 참조하십시오.
+   * [!UICONTROL 클라우드 준비 분석기] v1.0.2가 출시되었습니다. See detailed [Release Notes](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/release-notes/release-notes-2020-7-0.html#cloud-readiness-analyzer) for more information. Cloud [!UICONTROL Ready Analyzer를]시작하려면 클라우드 준비 분석기 [사용을 참조하십시오](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/moving/cloud-migration/cloud-readiness-analyzer/using-cloud-readiness-analyzer.html).
    * [ Cloud Service로서의 AEM에 대한 전체 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?mkt_tok=eyJpIjoiWm1SallqTmtOekF6WldZMCIsInQiOiJoTTZ3Qm9LNVRXc1lsbjExdlpNMGdQNFE2UGM5ejZob1EwZXlPZHp2MEZJa1BPTHhybHBYcUxFWTgwVjNFajlzYU1Fb1NoVXRwMTc3U2IrbHZKeTVSOG02MUErbWpIb1pjNU8zYkdTbW5MZHVIRUUyNk9vUU9SckdOeUJmbXlObSJ9)를 참조하십시오.
 
 ### 사용자 도움말
