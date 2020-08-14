@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: bd027ba7bbbfd6c8e510b48e4e0fff9168403da8
+source-git-commit: 949872e465b54e68051c62f61530591117f54a6a
 workflow-type: tm+mt
-source-wordcount: '2537'
+source-wordcount: '2526'
 ht-degree: 97%
 
 ---
@@ -131,7 +131,7 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 ### Adobe Analytics의 새로운 기능 {#aa-features}
 
 | 기능 | 설명 |
-| -----------| ---------- |  
+| ------- | ------- |
 | 기능 A | 텍스트 |
 | 기능 B | 텍스트 |
 | 기능 C | 텍스트 |
@@ -139,7 +139,7 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 ### [!DNL iOS] 및 [!DNL Android]용 [!DNL Media Analytics] SDK (이전의 VHL SDK){#aa-va}
 
 | 기능 | 설명 |
-| -----------| ---------- |  
+| ------- | ------- |
 | 기능 A | 텍스트 |
 | 기능 B | 텍스트 |
 | 기능 C | 텍스트 |
@@ -151,7 +151,7 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 ### AppMeasurement {#appm}
 
 | 기능 | 설명 |
-| -----------| ---------- |
+| ------- | ------- |
 | 기능 A | 텍스트 |
 | 기능 B | 텍스트 |
 | 기능 C | 텍스트 |
@@ -179,7 +179,7 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 ## Audience Manager {#aam}
 
 | 기능 | 설명 |
-| -----------| ---------- |  
+| ------- | ------- |
 | 기능 A | 텍스트 |
 | 기능 B | 텍스트 |
 | 기능 C | 텍스트 |
@@ -229,13 +229,13 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 * [AEM 6.2 학습 및 지원 홈](https://helpx.adobe.com/kr/support/experience-manager/6-2.html)
 * [Cloud Manager 사용 안내서](https://helpx.adobe.com/kr/experience-manager/cloud-manager/user-guide.html)
 * [이전 버전의 AEM 설명서](https://helpx.adobe.com/kr/experience-manager/aem-previous-versions.html)
-* [Scene7 Publishing System 릴리스 노트](https://marketing.adobe.com/resources/help/ko_KR/s7/release_notes/index.html)
+* [Scene7 출판 시스템 릴리스 노트](https://marketing.adobe.com/resources/help/ko_KR/s7/release_notes/index.html)
 * [Livefyre 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
 
 ### [!DNL Livefyre] {#livefyre}
 
 | 기능 | 설명 |
-| -----------| ---------- |  
+| ------- | ------- |
 | 기능 A | 텍스트 |
 | 기능 B | 텍스트 |
 | 기능 C | 텍스트 |
@@ -250,7 +250,7 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 ## Social {#soc}
 
 | 기능 | 설명 |
-| -----------| ---------- |  
+| ------- | ------- |
 | 기능 A | 텍스트 |
 | 기능 B | 텍스트 |
 | 기능 C | 텍스트 |
@@ -275,7 +275,7 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 ## Advertising Cloud {#adcloud}
 
 | 기능 | 설명 |
-| -----------| ---------- |  
+| ------- | ------- |
 | 기능 A | 텍스트 |
 | 기능 B | 텍스트 |
 | 기능 C | 텍스트 |
@@ -296,7 +296,7 @@ Magento 릴리스 노트에 대해서는 다음을 참조하십시오.
 
 ## Marketo {#marketo}
 
-Marketing Engage는 리드 관리를 위한 완벽한 솔루션이며 복잡한 구매 경로의 모든 단계에서 고객 경험을 혁신함으로써 고객 경험을 혁신하고자 하는 B2B 마케터입니다.
+Marketo Engage은 리드 관리를 위한 완벽한 솔루션이며 복잡한 구매 경로의 모든 단계에서 고객 경험을 전환하여 고객 경험을 혁신하고자 하는 B2B 마케터입니다.
 
 ### 핵심 Marketo Engage 업데이트
 
@@ -316,9 +316,10 @@ See Marketo release notes for [February 2020](https://docs.marketo.com/display/p
 다음 기능은 분기 전체에 걸쳐 릴리스됩니다.
 
 | 기능 | 설명 |
-|------|---------|
-| [!DNL Bizible] | <ul><li>새로운 계정 기반 세분화</li><li>대시보드별 필터 저장</li><li>Bizible 대시보드를 PDF로 내보내기</li></ul> |
-| 영업 연결 | Compose Window 및 Command Center 업데이트/개선 사항 |
+| ------- | ------- |
+| 기능 A | 텍스트 |
+| 기능 B | 텍스트 |
+| 기능 C | 텍스트 |
 
 ### 공지
 
@@ -336,7 +337,7 @@ See Marketo release notes for [February 2020](https://docs.marketo.com/display/p
 최근 및 새로운 자가 진단 도움말 문서와 비디오입니다. <!--`https://jira.corp.adobe.com/secure/Dashboard.jspa?selectPageId=60327`-->
 
 | 솔루션 | 컨텐츠 | 설명 |
-|----------| -----------| ---------- |  
+| ---------- | ----------- | ---------- |
 | [!UICONTROL AEM Commerce] | 비디오 - [여러 범주 및 제품 페이지 만들기](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/tutorials.html#!AdobeDocs/commerce-cif-documentation/master/tutorials/04-style-cif-component.md) | CIF 코어 구성 요소를 사용하여 고객 프로젝트의 시작점으로 최소 AEM(Adobe Experience Manager) CIF 프로젝트를 만드는 방법을 알아봅니다. 테마 및 CSS 스타일링을 구성 요소에 적용하고 원형에서 생성된 새로운 AEM CIF 프로젝트를 검사합니다. 또한 CIF 코어 구성 요소에 사용되는 CSS 및 JavaScript를 구성하는 방법도 알아봅니다. |
 | [!UICONTROL AEM Forms] | 문서 - [OKTA를 사용하여 AEM 작성자 인증](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/single-sign-on-with-okta.html) | OKTA 포털에서 앱을 구성하는 방법과 새 애플리케이션 등록 시 일반적으로 사용하는 설정에 대해 알아봅니다. |
 | [!UICONTROL AEM Commerce] | 자습서 - [CIF 코어 구성 요소 사용자 지정](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/tutorials.html#!AdobeDocs/commerce-cif-documentation/master/tutorials/05-customize-cif-components.md) | 일반적으로 CIF 코어 구성 요소 및 AEM에서 제공하는 여러 가지 다른 확장 지점을 검토합니다. CIF 코어 구성 요소는 AEM(Adobe Experience Manager)과 Magento 솔루션을 통합하는 프로젝트를 가속화하는 데 사용할 수 있는 표준 Commerce 구성 요소 집합을 제공합니다. |
