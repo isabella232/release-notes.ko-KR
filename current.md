@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b570d8c8abaaea1d18fb4d09486adef522486572
+source-git-commit: 1fc011a1dbdc71052547679e69ac4f853f7fa4c2
 workflow-type: tm+mt
-source-wordcount: '6378'
+source-wordcount: '6445'
 ht-degree: 95%
 
 ---
@@ -369,6 +369,15 @@ Campaign Classic, Campaign Standard 및 컨트롤 패널에 대한 릴리스 노
 ## ![아이콘](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
 Adobe Advertising Cloud에 대한 릴리스 노트입니다.
+
+* [Advertising Cloud DSP의 새로운 기능](#adcloud-dsp)
+* [Advertising Cloud Search의 새로운 기능](#adcloud-search)
+
+### New features in [!UICONTROL Advertising Cloud DSP] {#adcloud-dsp}
+
+| 기능 | 설명 |
+| -----------| ---------- |
+| VAST 인벤토리를 포함하는 대화형 프리롤 확장 | 각 인터랙티브한 프리롤 배치 및 광고는 이제 VPAID와 VAST 인벤토리를 모두 지원할 수 있습니다. **참고:** 기본 KPI가 뷰가능 상태인 경우 VAST 광고에 볼 수 있는 노출 수가 없기 때문에 VPID와 VAST 배치 및 광고를 계속 만들 수 있습니다. |
 
 ### [!UICONTROL Advertising Cloud Search]{#adcloud-search}의 새로운 기능
 
