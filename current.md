@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 1fc011a1dbdc71052547679e69ac4f853f7fa4c2
 workflow-type: tm+mt
 source-wordcount: '6445'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 95%
 * [Experience Cloud 인터페이스](#ecloud)
 * [Experience Platform](#platform)
 * [여정 편성](#journey-orch)
-* [Analytics](#analytics) (2020년 8월 13일 업데이트됨) 및 [Customer Journey Analytics](#cust-journey)
+* [Analytics](#analytics)(2020년 8월 13일 업데이트됨) 및 [Customer Journey Analytics](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [캠페인](#ac)
@@ -227,7 +227,7 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
    * 이제 Cloud Service에서 AEM Commerce를 사용할 수 있습니다. [Cloud Service로 AEM Commerce 시작하기](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/commerce/getting-started.html)를 참조하십시오.
    * 향상된 Adobe Target 및 Adobe Analytics용 커넥터에는 사용자 인터페이스 개선 사항, 클래식 UI 대체 및 Adobe Launch 통합이 포함되어 있습니다. [Adobe Analytics 통합](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/sites/integrations/integrating-adobe-analytics.html) 및 [Adobe Target 통합](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/sites/integrations/integrating-adobe-target.html)을 참조하십시오.
    * Asset Compute Service는 자산을 처리하는 확장 가능한 서비스입니다. 관리자는 Asset Compute Service를 사용하여 만든 사용자 정의 작업자를 호출하도록  Experience Manager를 구성할 수 있습니다. 개발자는 이 서비스를 사용하여 복잡한 사용 사례에 맞는 전문 맞춤형 작업자를 만들 수 있습니다. 이 웹 서비스는 다양한 파일 유형에 대한 썸네일 생성, Adobe 파일 형식의 고품질 이미지 렌더링, 비디오 인코딩(미래), 메타데이터 추출, 색인을 생성하기 위한 사전 설정으로 전체 텍스트 추출, 사용 가능한 모든 Sensei 서비스를 통한 자산 실행 등의 작업을 수행할 수 있습니다. [자산 마이크로서비스 및 처리 프로필 사용](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/assets/manage/asset-microservices-configure-and-use.html)을 참조하십시오.
-   * [자산 계산 서비스를](https://docs.adobe.com/content/help/en/asset-compute/using/home.html) 확장하여 사용자 정의 응용 프로그램을 만들 수 있습니다. 디지털 에셋을 처리할 수 있는 확장 가능한 서비스 [!DNL Adobe Experience Cloud] 입니다. 이미지, 비디오, 문서 및 기타 파일 포맷을 축소판, 추출한 텍스트 및 메타데이터, 보관 파일 등 다양한 변환으로 변환할 수 있습니다. 개발자는 맞춤형 애플리케이션(사용자 정의 작업자라고도 함)을 만들어 사용자 정의 사용 사례를 처리할 수 있습니다. 그것은 [프로젝트 반딧불이를 사용하여](https://www.adobe.io/apis/experienceplatform/project-firefly/docs.html) 지어지고 서버리스 [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html)에서 일한다.
+   * [자산 계산 서비스](https://docs.adobe.com/content/help/en/asset-compute/using/home.html)를 확장하여 사용자 정의 응용 프로그램을 만들 수 있습니다. 디지털 자산을 처리할 수 있는 확장 가능한 서비스 [!DNL Adobe Experience Cloud]입니다. 이미지, 비디오, 문서 및 기타 파일 형식을 썸네일, 추출한 텍스트 및 메타데이터, 보관 파일 등의 다양한 변환으로 변환할 수 있습니다. 개발자는 맞춤형 응용 프로그램(사용자 정의 작업자라고도 함)을 만들어 사용자 정의 사용 사례를 처리할 수 있습니다. [Project Firefly](https://www.adobe.io/apis/experienceplatform/project-firefly/docs.html)를 사용하여 구축되고 서버리스 [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html)에서 작동합니다.
    * Cloud Service로서 AEM의 워크플로우 모델 및 Dynamic Media에 대한 여러 개선 사항
    * [AEM 핵심 구성 요소](https://docs.adobe.com/content/help/ko-KR/experience-manager-core-components/using/introduction.html)의 릴리스 2.11.0은 이제 다음을 포함하여 AEM Sites의 일부로 사용할 수 있습니다.
       * 새 [PDF 뷰어 구성 요소](https://aemcomponents.dev/content/core-components-examples/library/page-authoring/pdf-viewer.html) 소개
@@ -244,7 +244,7 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 
 * **AEM Assets**
 
-   * Experience Manager 데스크탑 앱에 대한 [문제 해결 팁을](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/troubleshoot.html) 더 추가했습니다.
+   * Experience Manager 데스크탑 앱에 대한 [문제 해결 팁](https://docs.adobe.com/content/help/ko-KR/experience-manager-desktop-app/using/troubleshoot.html)을 더 추가했습니다.
 
 * **AEM Forms**
 
