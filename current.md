@@ -4,16 +4,16 @@ description: Adobe Experience Cloud 릴리스 노트
 doc-type: release notes
 last-update: August 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1fc011a1dbdc71052547679e69ac4f853f7fa4c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6445'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Experience Cloud 릴리스 노트 - 2020년 8월
+# 2020년 8월 Adobe Experience Cloud 릴리스 노트 
 
 ![배너](/assets/experience-cloud-banner-3.png)
 
@@ -96,7 +96,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 | ----------- | ---------- | ------- |
 | [!UICONTROL 교차 장치 분석]: EMEA 및 APAC 지역에서 사용 가능 | 2020년 8월 31일 | EMEA 및 APAC 지역의 고객은 [교차 장치 분석](https://docs.adobe.com/content/help/ko-KR/analytics/components/cda/overview.html) 및 비공개 그래프를 사용할 수 있습니다. |
 | [!UICONTROL 교차 장치 분석]의 필드 기반 연결 개선 사항(아메리카 및 EMEA에서 사용 가능) | 2020년 8월 31일 | 새로운 [!UICONTROL 교차 장치 분석] 고객을 위한 간소화된 구현에서는 장치 그래프(공동 작업 또는 개인)를 사용하는 대신 Analytics 필드(prop 또는 eVar)에 저장된 사용자 ID를 기준으로 연결하는 옵션을 제공합니다. 개선 사항을 통해서 ECID 구현 요구사항과 CDA를 위한 ID 동기화 구현 요구사항이 제거됩니다. (ECID 및 ID 동기화는 다른 특정 기능에 계속 필요합니다.) |
-| (조기 발표) 작업 영역:단일 차원에 맞는 50K 항목 다운로드 | 2020년 9월 17일 | 세그먼트와 필터가 적용된 자유 형식 테이블의 단일 차원에 대한 50,000개의 항목을 다운로드할 수 있습니다. 이렇게 하면 Analysis Workspace 외부에 있는 400개 이상의 데이터 행에 액세스할 수 있습니다. |
+| (조기 공지) 작업 영역: 단일 차원에 맞는 5만개의 항목 다운로드 | 2020년 9월 17일 | 세그먼트와 필터가 적용된 자유 형식 테이블의 단일 차원에 대한 50,000개의 항목을 다운로드할 수 있습니다. 이렇게 하면 Analysis Workspace 외부에 있는 400개 이상의 데이터 행에 액세스할 수 있습니다. |
 
 ### Customer Journey Analytics의 새로운 기능 {#cust-journey}
 
@@ -185,7 +185,7 @@ Audience Manager의 새로운 기능, 수정 사항, 설명서 및 자습서.
 
 ### Adobe Audience Manager의 새로운 기능 및 수정 사항
 
-* 이제 [사람 기반 대상을](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-prerequisites.html) 사용하여 사용자를 타깃팅할 수 있습니다 [!DNL Google Customer Match]. 사람 [!UICONTROL 기반 대상을] 사용하여 자사 대상 세그먼트를 [!DNL Google Customer Match] 대상으로 보내려면 먼저 해당 허용 목록에 사용자를 [!DNL Google] 추가해야 합니다. 자세한 내용은 [사람 기반 대상](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-prerequisites.html) 설명서를 참조하십시오. (PLAT-53962)
+* 이제 [사람 기반 대상](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-prerequisites.html)을 사용하여 [!DNL Google Customer Match]를 통해 사용자를 타깃팅할 수 있습니다. [!UICONTROL 사람 기반 대상]을 사용하여 자사 대상 세그먼트를 [!DNL Google Customer Match] 대상으로 보내려면 먼저 해당 허용 목록에 [!DNL Google]이 사용자를 추가해야 합니다. 자세한 내용은 [사람 기반 대상](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-prerequisites.html) 설명서를 참조하십시오. (PLAT-53962)
 * [예측 대상](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html)이 이제 모델을 생성하는 동안 모델별 [!UICONTROL 프로필 병합 규칙]의 선택을 지원합니다. (AAM-55178)
 * 이제 대상 매핑 시작 날짜와 종료 날짜가 각 세그먼트의 페이지에 표시됩니다. (AAM-40056)
 * 새 트레이트를 만들 때 트레이트의 [!UICONTROL 장치 유형]이 [!UICONTROL 교차 장치]로 자동 설정되던 문제를 수정했습니다. (AAM-55368)
@@ -237,7 +237,7 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
    * 이제 Cloud Manager 파이프라인이 고객 설정 변수 및 기밀을 지원합니다. [파이프라인 변수](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/onboarding/getting-access/creating-aem-application-project.html#pipeline-variables)를 참조하십시오.
    * [로그를 Splunk 계정에 전달하여](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/implementing/developing/logging.html#splunk-logs) 조직에서 해당 [!DNL Splunk] 투자를 활용하게 할 수 있습니다.
    * [정적 전용 송신 IP 주소](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/implementing/developing/development-guidelines.html#dedicated-egress-ip-address)를 Java 코드로 프로그래밍된 아웃바운드 트래픽에 대해 할당할 수 있으며 이는 일부 통합에 유용할 수 있습니다.
-   * [!UICONTROL 클라우드 준비 분석기] v1.0.2가 출시되었습니다. See detailed [Release Notes](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/release-notes/release-notes-2020-7-0.html#cloud-readiness-analyzer) for more information. Cloud [!UICONTROL Ready Analyzer를]시작하려면 클라우드 준비 분석기 [사용을 참조하십시오](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/moving/cloud-migration/cloud-readiness-analyzer/using-cloud-readiness-analyzer.html).
+   * [!UICONTROL Cloud Readiness Analyzer v1.0.2]가 출시되었습니다. 자세한 내용은 [ 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/release-notes/release-notes/release-notes-2020-7-0.html#cloud-readiness-analyzer)를 참조하십시오. [!UICONTROL Cloud Ready Analyzer]를 시작하려면 [클라우드 준비 분석기 사용](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/moving/cloud-migration/cloud-readiness-analyzer/using-cloud-readiness-analyzer.html)을 참조하십시오.
    * [ Cloud Service로서의 AEM에 대한 전체 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?mkt_tok=eyJpIjoiWm1SallqTmtOekF6WldZMCIsInQiOiJoTTZ3Qm9LNVRXc1lsbjExdlpNMGdQNFE2UGM5ejZob1EwZXlPZHp2MEZJa1BPTHhybHBYcUxFWTgwVjNFajlzYU1Fb1NoVXRwMTc3U2IrbHZKeTVSOG02MUErbWpIb1pjNU8zYkdTbW5MZHVIRUUyNk9vUU9SckdOeUJmbXlObSJ9)를 참조하십시오.
 
 ### 사용자 도움말
@@ -373,11 +373,11 @@ Adobe Advertising Cloud에 대한 릴리스 노트입니다.
 * [Advertising Cloud DSP의 새로운 기능](#adcloud-dsp)
 * [Advertising Cloud Search의 새로운 기능](#adcloud-search)
 
-### New features in [!UICONTROL Advertising Cloud DSP] {#adcloud-dsp}
+### [!UICONTROL Advertising Cloud DSP의 새로운 기능] {#adcloud-dsp}
 
 | 기능 | 설명 |
 | -----------| ---------- |
-| VAST 인벤토리를 포함하는 대화형 프리롤 확장 | 각 인터랙티브한 프리롤 배치 및 광고는 이제 VPAID와 VAST 인벤토리를 모두 지원할 수 있습니다. **참고:** 기본 KPI가 뷰가능 상태인 경우 VAST 광고에 볼 수 있는 노출 수가 없기 때문에 VPID와 VAST 배치 및 광고를 계속 만들 수 있습니다. |
+| VAST 인벤토리를 포함하는 대화형 프리롤 확장 | 각 대화형 프리롤 배치 및 광고는 이제 VPAID와 VAST 인벤토리를 모두 지원할 수 있습니다. **참고:** 기본 KPI가 뷰가능 상태인 경우 VAST 광고에 볼 수 있는 노출 수가 없기 때문에 VPID와 VAST 배치 및 광고를 계속 만들 수 있습니다. |
 
 ### [!UICONTROL Advertising Cloud Search]{#adcloud-search}의 새로운 기능
 
