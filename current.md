@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d88e6054e3a1c93d7c867dd1ee6de0c67bc2eaf5
+source-git-commit: f62e9f844bf396cda7fc711808a0f532de75a52d
 workflow-type: tm+mt
-source-wordcount: '6454'
+source-wordcount: '6522'
 ht-degree: 99%
 
 ---
@@ -27,10 +27,10 @@ ht-degree: 99%
 
 제품 출시 날짜는 다를 수 있습니다. 업데이트를 자주 확인하십시오.
 
-최신 업데이트: **2020년 8월 13일**
+최신 업데이트: **2020년 8월 19일**
 
 * [Adobe 시스템 상태](#status)
-* [Experience Cloud 인터페이스](#ecloud)
+* [Experience Cloud 인터페이스](#ecloud) (updated **August 19, 2020**)
 * [Experience Platform](#platform)
 * [여정 편성](#journey-orch)
 * [Analytics](#analytics)(2020년 8월 13일 업데이트됨) 및 [Customer Journey Analytics](#cust-journey)
@@ -52,6 +52,12 @@ ht-degree: 99%
 최신 릴리스 정보는 [2020년 5월 21일](c-legacy-releases/2020/05212020.md#status)을 참조하십시오.
 
 ## ![아이콘](/assets/ec_appicon_24.png) Experience Cloud 인터페이스 {#ecloud}
+
+업데이트 날짜: **2020년 8월 19일**
+
+| 기능 | 설명 |
+| -----------| ---------- |
+| 관리 도구 - 향상된 기능 및 성능 | 시스템 관리자는 2020년 8월 [!UICONTROL Admin Tool] 릴리스를 통해 제품 프로필 목록을 보고 각 제품 프로필에 대한 세부 보기를 보거나 내보낼 수 있습니다. 마지막 로그인 데이터 로딩 성능 개선 사항이 추가되어 시간 초과 문제를 수정했습니다. 자세한 내용은 [Experience Cloud 관리 도구](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html) 도움말을 참조하십시오. |
 
 업데이트된 인터페이스 및 통합 제품 도메인에 대한 최신 릴리스 정보는 7월의 [이전 릴리스 노트](c-legacy-releases/2020/07162020.md#ecloud)를 참조하십시오.
 
