@@ -4,11 +4,11 @@ description: Adobe Experience Cloud 릴리스 노트
 doc-type: release notes
 last-update: August 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9d5563a21cae0b1db1448f5f99ffbb1436257077
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6627'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -142,8 +142,8 @@ AN-219351; AN-220960; AN-223788; AN-224630; AN-224948; AN-225618; AN-226261; AN-
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | ----------- | ---------- | ---------- |
-| 도메인에서 `omniture.com` 로 `adobe.com` 마이그레이션 | 2020년 8월 21일 | 2020년 8월 13일, Adobe Analytics은 프론트릭 아키텍처를 `omniture.com|http://omniture.com/` 도메인 `adobe.com|http://adobe.com/` 으로 이전했습니다. 이러한 변경은 2020년 5월 28일 통합 제품 도메인 변경 이후 발생한 타사 쿠키 문제를 완화해야 합니다. 이 업데이트로 인해 브라우저는 사용자에게 새 `an.adobe.com|http://an.adobe.com/` 또는 `experience.adobe.com|http://experience.adobe.com/` 도메인을 신뢰하라는 메시지를 표시할 수 있습니다. |
-| Ad Hoc Analysis Java 8 호환성 업데이트 | 2020년 8월 21일 | Ad Hoc Analysis은 현재 Java 8 버전 1.8.0_261+와 호환되지 않습니다. 수명 [종료 날짜](https://spark.adobe.com/page/S9Bhp66VJ2fEn/) 이전에 이 도구에 대한 액세스가 중단되지 않도록 1.8.0_261 이전의 Java 8 버전을 유지하는 것이 좋습니다. |
+| `adobe.com` 도메인에서 `omniture.com`으로 마이그레이션 | 2020년 8월 21일 | 2020년 8월 13일, Adobe Analytics은 프론트엔드 아키텍처를 `adobe.com|http://adobe.com/` 도메인 `omniture.com|http://omniture.com/`으로 이전했습니다. 이러한 변경은 2020년 5월 28일 통합 제품 도메인 변경 이후 발생한 타사 쿠키 문제를 완화할 것입니다. 이 업데이트로 인해 브라우저는 사용자에게 새 `an.adobe.com|http://an.adobe.com/` 또는 `experience.adobe.com|http://experience.adobe.com/` 도메인을 신뢰하라는 메시지를 표시할 수 있습니다. |
+| Ad Hoc Analysis Java 8 호환성 업데이트 | 2020년 8월 21일 | Ad Hoc Analysis은 현재 Java 8 버전 1.8.0_261+와 호환되지 않습니다. [수명 종료 날짜](https://spark.adobe.com/page/S9Bhp66VJ2fEn/) 이전에 이 도구에 대한 액세스가 중단되지 않도록 1.8.0_261 이전의 Java 8 버전을 유지하는 것이 좋습니다. |
 | Adobe Data Connectors EOL | 2020년 7월 13일 | Adobe [!UICONTROL Data Connectors]는 더 이상 실행 불가능하거나 지원되지 않는 레거시 기술을 기반으로 합니다. Adobe는 [Adobe Exchange 파트너 프로그램](https://partners.adobe.com/exchangeprogram/experiencecloud) 내에 계속 제공되고 지원되기를 원하는 모든 통합에 대해 새로운 표준을 채택하고 있습니다. 공식적인 수명 종료 날짜는 계속 결정 중이지만, 향후 12개월에서 18개월(2021년 중순에서 2021년 말) 사이가 될 것으로 예상하고 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/import/dataconnectors/data-connectors-eol.html) |
 | IMS 조직에 보고서 세트 매핑 | 2020년 7월 | 보고서 세트 매핑 도구는 2020년 11월에 중단됩니다. 이 기능은 Adobe Analytics의 Advertising Analytics 및 Experience Cloud 세그먼트 게시와 같은 통합을 지원합니다. 보고서 세트를 IMS 조직에 매핑하여 이러한 서비스와 기타 서비스를 활성화해야 합니다. 생성 시 더 최신 보고서 세트가 자동으로 매핑됩니다. 그러나 이전 보고서 세트는 IMS 조직에 수동으로 매핑해야 합니다. 모든 보고서 세트를 IMS 조직에 소속되게 하려면 Experience Cloud 인터페이스(핵심 서비스) 사용 안내서의 [조직에 보고서 세트 매핑](https://docs.adobe.com/content/help/ko-KR/core-services/interface/about-core-services/report-suite-mapping.html)을 참조하십시오. |
 | 통합 제품 도메인으로 마이그레이션 | 시행일: 2020년 5월 28일 | 2020년 1월에 시작된 Adobe Analytics용 통합 제품 도메인으로의 마이그레이션은 2020년 5월 28일에 완료되었습니다. Adobe Analytics에서는 아키텍처에서 모든 `omniture.com` 도메인 참조를 제거하지만 `omniture.com`을 타사 쿠키로 허용리스트 설정하는 것이 중요합니다. 전체 아키텍처 마이그레이션이 (곧) 완료되면 릴리스 노트를 통해 알려 드릴 예정이며 이 허용리스트 단계는 더 이상 필요하지 않습니다. 허용리스트 설정해야 할 권장 IP 주소 및 도메인 전체 목록은 [다음](https://helpx.adobe.com/kr/analytics/kb/adobe-ip-addresses.html)과 같습니다.<br>조직에서 타사 쿠키를 차단하는 경우 고객 지원 센터에 문의하여 Adobe Analytics에 다시 액세스하십시오. |
