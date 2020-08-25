@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d714bd852687c7121f44bc31e35fe1ccc0eef43a
+source-git-commit: 2a73b43fedf1c745f89640a11b7aa64244a78bc4
 workflow-type: tm+mt
 source-wordcount: '2526'
 ht-degree: 97%
@@ -369,4 +369,4 @@ See Marketo release notes for [February 2020](https://docs.marketo.com/display/p
 | Adobe Analytics | 비디오 - [CJA의 크로스 채널 속성](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/cross-channel-attribution-in-customer-journey-analytics.html) | 시각화를 사용하여 [!UICONTROL Customer Journey Analytics]의 채널에서 속성을 표시(크레딧 제공)하는 방법을 알아봅니다. |
 | Adobe Analytics | 문서 - [Adobe Analytics 학습 여정을 계속하기 위한 고객 팁](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/customer-tips-for-continuing-your-adobe-analytics-learning-journey.html) | Adobe Analytics를 최대한 활용할 수 있는 방법에 대한 유용한 팁을 보유한 세 명의 Adobe 고객을 만나보십시오. |
 | Adobe Analytics | 비디오 - [CJA에서 크로스 채널 시각화 만들기](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/creating-cross-channel-visualizations-in-customer-journey-analytics.html) | [!UICONTROL Customer Journey Analytics]을 통해 방문자별 데이터 병합을 포함하여 여러 채널 간에 여러 데이터 세트의 데이터를 포함하는 시각화를 만드는 방법을 살펴봅니다. |
-| Adobe Analytics | 비디오 - [계산된 지표를 Adobe Analytics에서 Customer Journey Analytics로 이동](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html) | [!UICONTROLCCustomer Journey Analytics]에서 Analytics [!UICONTROL 계산 지표]를 다시 만드는 팁을 찾습니다. |
+| Adobe Analytics | 비디오 - [계산된 지표를 Adobe Analytics에서 Customer Journey Analytics로 이동](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html) | Find tips for re-creating your Analytics [!UICONTROL Calculated Metrics] in [!UICONTROL Customer Journey Analytics]. |
