@@ -383,11 +383,11 @@ Adobe Advertising Cloud에 대한 릴리스 노트입니다.
 
 ### [!UICONTROL Advertising Cloud DSP의 새로운 기능] {#adcloud-dsp}
 
-**업데이트 날짜: 8월 20일**
+**8월 20일 업데이트됨**
 
 | 기능 | 설명 |
 | -----------| ---------- |
-| Roku 예측 | 이제 Roku 배치에 대해 예측을 사용할 수 있습니다. |
+| Roku 예측 | 이제 Roku 배치에 대해 예측할 수 있습니다. |
 | VAST 인벤토리를 포함하는 대화형 프리롤 확장 | 각 대화형 프리롤 배치 및 광고는 이제 VPAID와 VAST 인벤토리를 모두 지원할 수 있습니다. **참고:** 기본 KPI가 뷰가능 상태인 경우 VAST 광고에 볼 수 있는 노출 수가 없기 때문에 VPID와 VAST 배치 및 광고를 계속 만들 수 있습니다. |
 
 ### [!UICONTROL Advertising Cloud Search]{#adcloud-search}의 새로운 기능
