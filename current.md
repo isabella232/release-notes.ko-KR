@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 7349731bb72163473efc26069df9f1d77f0f7c23
 workflow-type: tm+mt
 source-wordcount: '6651'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -102,7 +102,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 | ----------- | ---------- | ------- |
 | [!UICONTROL 교차 장치 분석]: EMEA 및 APAC 지역에서 사용 가능 | 2020년 8월 31일 | EMEA 및 APAC 지역의 고객은 [교차 장치 분석](https://docs.adobe.com/content/help/ko-KR/analytics/components/cda/overview.html) 및 비공개 그래프를 사용할 수 있습니다. |
 | [!UICONTROL 교차 장치 분석]의 필드 기반 연결 개선 사항(아메리카 및 EMEA에서 사용 가능) | 2020년 8월 31일 | 새로운 [!UICONTROL 교차 장치 분석] 고객을 위한 간소화된 구현에서는 장치 그래프(공동 작업 또는 개인)를 사용하는 대신 Analytics 필드(prop 또는 eVar)에 저장된 사용자 ID를 기준으로 연결하는 옵션을 제공합니다. 개선 사항을 통해서 ECID 구현 요구사항과 CDA를 위한 ID 동기화 구현 요구사항이 제거됩니다. (ECID 및 ID 동기화는 다른 특정 기능에 계속 필요합니다.) |
-| (조기 공지) 작업 영역: 단일 차원에 맞는 5만개의 항목 다운로드 | 2020년 9월 17일 | 세그먼트와 필터가 적용된 자유 형식 테이블의 단일 차원에 대한 50,000개의 항목을 다운로드할 수 있습니다. 이렇게 하면 Analysis Workspace 외부에 있는 400개 이상의 데이터 행에 액세스할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html) |
+| (조기 공지) 작업 영역: 단일 차원에 맞는 5만개의 항목 다운로드 | 2020년 9월 17일 | 세그먼트와 필터가 적용된 자유 형식 테이블의 단일 차원에 대한 50,000개의 항목을 다운로드할 수 있습니다. 이렇게 하면 Analysis Workspace 외부에 있는 400개 이상의 데이터 행에 액세스할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/download-send.html) |
 
 ### Customer Journey Analytics의 새로운 기능 {#cust-journey}
 
