@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1ec71f66a34b17fb62831973cd46426ecc9f0d10
+source-git-commit: 8ac62e2402e3d41cbcea6670b8e482bc295b9a14
 workflow-type: tm+mt
-source-wordcount: '2527'
-ht-degree: 97%
+source-wordcount: '1352'
+ht-degree: 94%
 
 ---
 
@@ -146,7 +146,7 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 
 ### Data Workbench {#aa-dwb}
 
-[Data Workbench 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/insight/whatsnew/)에서 최신 정보를 확인하십시오.
+[Data Workbench 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/data-workbench/using/release-notes/release-notes.html)에서 최신 정보를 확인하십시오.
 
 ### AppMeasurement {#appm}
 
@@ -229,8 +229,8 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 * [AEM 6.2 학습 및 지원 홈](https://helpx.adobe.com/kr/support/experience-manager/6-2.html)
 * [Cloud Manager 사용 안내서](https://helpx.adobe.com/kr/experience-manager/cloud-manager/user-guide.html)
 * [이전 버전의 AEM 설명서](https://helpx.adobe.com/kr/experience-manager/aem-previous-versions.html)
-* [Scene7 출판 시스템 릴리스 노트](https://marketing.adobe.com/resources/help/ko_KR/s7/release_notes/index.html)
-* [Livefyre 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
+* [Scene7 출판 시스템 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/dynamic-media-developer-resources/release-notes/s7rn2017.html)
+* [Livefyre 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/livefyre/using/release-notes/c-rn.html)
 
 ### [!DNL Livefyre] {#livefyre}
 
@@ -332,41 +332,19 @@ See Marketo release notes for [February 2020](https://docs.marketo.com/display/p
 
 누적 릴리스 노트와 내역 릴리스 노트는 [Marketo 릴리스 노트](https://docs.marketo.com/x/CgA6Ag)를 참조하십시오.
 
-## 새로운 설명서 및 자습서 {#selfhelp}
+### 새로운 솔루션 이름 강좌 및 자습서
 
-최근 및 새로운 자가 진단 도움말 문서와 비디오입니다. <!--`https://jira.corp.adobe.com/secure/Dashboard.jspa?selectPageId=60327`-->
+지난 달에 게시된 새로운 비디오, 자습서 또는 교육 과정
 
-| 솔루션 | 컨텐츠 | 설명 |
-| ---------- | ----------- | ---------- |
-| [!UICONTROL AEM Commerce] | 비디오 - [여러 범주 및 제품 페이지 만들기](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/tutorials.html#!AdobeDocs/commerce-cif-documentation/master/tutorials/04-style-cif-component.md) | CIF 코어 구성 요소를 사용하여 고객 프로젝트의 시작점으로 최소 AEM(Adobe Experience Manager) CIF 프로젝트를 만드는 방법을 알아봅니다. 테마 및 CSS 스타일링을 구성 요소에 적용하고 원형에서 생성된 새로운 AEM CIF 프로젝트를 검사합니다. 또한 CIF 코어 구성 요소에 사용되는 CSS 및 JavaScript를 구성하는 방법도 알아봅니다. |
-| [!UICONTROL AEM Forms] | 문서 - [OKTA를 사용하여 AEM 작성자 인증](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/single-sign-on-with-okta.html) | OKTA 포털에서 앱을 구성하는 방법과 새 애플리케이션 등록 시 일반적으로 사용하는 설정에 대해 알아봅니다. |
-| [!UICONTROL AEM Commerce] | 자습서 - [CIF 코어 구성 요소 사용자 지정](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/tutorials.html#!AdobeDocs/commerce-cif-documentation/master/tutorials/05-customize-cif-components.md) | 일반적으로 CIF 코어 구성 요소 및 AEM에서 제공하는 여러 가지 다른 확장 지점을 검토합니다. CIF 코어 구성 요소는 AEM(Adobe Experience Manager)과 Magento 솔루션을 통합하는 프로젝트를 가속화하는 데 사용할 수 있는 표준 Commerce 구성 요소 집합을 제공합니다. |
-| [!DNL Adobe Campaign] - Audience 대상 | 비디오 - [대상 만들기...](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/creating-audiences-using-segment-builder.html) | Adobe [!UICONTROL Experience Platform 세그먼트 빌더]를 사용하여 Campaign Standard에서 대상을 만듭니다. [!UICONTROL Audiences] 모듈을 통해 Adobe Campaign Standard 내에서 직접 이 기능에 액세스할 수 있습니다. |
-| [!DNL Adobe Campaign] - Audience 대상 | 비디오 - [마케팅 워크플로우에서 Adobe Experience Platform 대상 활성화](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/activating-aep-audiences.html) | [!UICONTROL 대상 읽기] 활동을 사용하여 워크플로우 내에서 [!UICONTROL Data Services 쿼리 대상]을 활성화하는 방법을 알아봅니다. |
-| [!DNL Adobe Campaign] | 자습서 - [Android에서 푸시 알림](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/push/getting-started-push-notifications/getting-started-with-push-notifications-android.html) | iOS 및 Android 모바일 장치로 맞춤형 및 세그먼트화된 푸시 알림을 보냅니다. 이 자습서는 Adobe Campaign에서 푸시 알림을 보내고 Android 앱에서 이러한 알림을 받는 것과 관련된 단계를 안내합니다. |
-| [!DNL Adobe Campaign] | 비디오 - [푸시 알림 만들기](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/push/creating-a-push-notification.html) | Adobe Campaign Standard에서 푸시 알림을 만듭니다. iOS 및 Android 모바일 장치로 맞춤형 및 세그먼트화된 푸시 알림을 보낼 수 있습니다. |
-| [!DNL Adobe Campaign] - AEP Data Connector | 비디오 - [데이터 수집 작업의 상태 확인](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/checking-status-of-data-ingestion-jobs.html) | 데이터 통합 작업의 상태와 데이터가 Adobe Campaign Standard에서 Adobe Experience Platform으로 가져왔는지 확인하는 방법을 알아봅니다. |
-| [!DNL Adobe Campaign] - AEP Data Connector | 비디오 - [데이터 매핑 수정](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/modifying-data-mapping.html) | 상태를 확인하고 데이터 매핑을 수정하는 방법을 알아봅니다. |
-| [!DNL Adobe Campaign] - AEP Data Connector | 비디오 - [경험 이벤트 매핑](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/mapping-experience-events.html) | Adobe Experience Platform에서 경험 이벤트를 매핑하는 방법을 알아봅니다. |
-| [!DNL Adobe Campaign] - AEP Data Connector | 비디오 - [사용자 지정 리소스 매핑](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/mapping-custom-resources.html) | Adobe Campaign Standard와 Adobe Experience Platform 간에 서로 다른 데이터 유형을 매핑하는 방법을 알아봅니다. |
-| [!DNL Adobe Campaign] - AEP Data Connector | 비디오 - [Adobe Experience Platform Data Connector 이해](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html) | XTK 데이터(Campaign에서 수집된 데이터)를 XDM(Experience Data Model) 데이터에 매핑하여 Adobe Experience Platform에서 데이터를 사용할 수 있도록 설정하는 방법을 알아봅니다. |
-| [!DNL Adobe Campaign] - AEP Data Connector | 비디오 - [시드 테이블 데이터 매핑](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/mapping-seed-table-data.html) | 시드 데이터/테스트 프로필을 Adobe Experience Platform과 매핑하고 방법을 알아봅니다. |
-| [!DNL Adobe Campaign] - Audience 대상 | 비디오 - [Platform 대상에 대한 게재 타깃팅 차원 변경](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/changing-targeting-dimension.html) | Adobe Campaign Standard에서 기본 프로필 테이블 외부에 있는 Platform 대상에 대한 게재 타깃팅 차원을 변경하는 방법을 알아봅니다. |
-| [!DNL Adobe Campaign] | 비디오 - [Snowflake의 빅데이터 관리](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/fda/big-data-segmentation-on-snowflake.html) | Adobe Campaign Classic에서 Snowflake 커넥터를 활용합니다. |
-| [!DNL Adobe Campaign] - Audience 대상 | 문서 - [Audience 대상(베타) - 개요](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html) | Adobe Campaign Standard에서 마케팅 캠페인을 위해 Adobe Experience Platform의 중앙 집중식 및 통합 프로필 데이터를 활용하는 방법을 알아봅니다. |
-| [!DNL Adobe Target] - Mobile SDK | 자습서 - [Adobe Target을 사용하여 앱 경험 개인화](https://docs.adobe.com/content/help/en/target-learn/mobile-sdk-v4-android/overview.html) | 고유한 Android 앱에서 Adobe Target을 구현합니다. Mobile Services SDK 설정의 유효성을 확인하고 컨텐츠 사전 가져오기, 차단 요청 등과 같은 [!DNL Target] 요청을 구현합니다. |
-| Adobe Analytics | 비디오 - [Adobe Summit 2019 슈퍼 세션](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-high-tech.html) | Summit 2019에서 첨단 기술 &quot;슈퍼 세션&quot;을 통해 선별된 클립을 봅니다. |
-| Adobe Analytics | 비디오 - [Customer Journey Analytics에서 계산된 지표 소개](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/introduction-to-calculated-metrics-in-customer-journey-analytics.html) | [!UICONTROL Customer Journey Analytics]에서 [!UICONTROL 계산된 지표]를 작성하는 기본 사항을 안내합니다. |
-| Adobe Analytics | 비디오 - [Adobe Summit 2019 슈퍼 세션](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-travel.html) | Summit 2019에서 여행 및 숙박 세션을 통해 선별된 클립을 봅니다. |
-| Adobe Analytics | 비디오 - [Adobe Summit 2019 슈퍼 세션](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-retail.html) | Summit 2019에서 리테일 세션을 통해 선별된 클립을 확인합니다. |
-| Adobe Analytics | 비디오 - [고객 사용 사례: Accent Group이 판매 촉진을 위해 고객 경험에 투자](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/accent-group-invests-in-customer-experience-to-drive-sales.html) | Accent Group이 Adobe Experience Cloud를 사용하여 매끄러운 디지털 경험을 생성하는 방법을 살펴봅니다. |
-| Adobe Analytics | 비디오 - [고객 사용 사례: ServiceNow가 잠재 고객과 교류하기 위한 올바른 통찰력 얻기](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/servicenow-gets-the-right-insights-to-connect-with-prospects.html) | Adobe Advertising Cloud 및 Adobe Analytics를 사용하여 마케팅 채널에서 실행 가능한 데이터를 가져오고 [!DNL ServiceNow] 유료 검색 광고에서 ROI를 높이는 방법을 알아봅니다. |
-| Adobe Analytics | 비디오 - [Adobe Analytics - 데이터 그 이상이며, 고객 인텔리전스입니다.](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-analytics-customer-intelligence.html) | 데이터 기반의 마케팅에 대해 알아보고 데이터에서 통찰력을 얻을 수 있게 분석 능력을 향상시키는 방법을 알아봅니다. |
-| Adobe Analytics | 비디오 - [Adobe Sensei 및 Adobe Analytics - 확장 버전](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-sensei-and-adobe-analytics.html) | [!UICONTROL 예외 항목 탐지], [!UICONTROL 기여도 분석], [!UICONTROL 지능형 알림], [!UICONTROL 클러스터링], [!UICONTROL 세그먼트 IQ] 및 [!UICONTROL 성향 모델링]을 포함하여 Adobe [!DNL Sensei,]에서 제공하는 Adobe Analytics의 기능을 확인합니다. |
-| Adobe Analytics | 비디오 - [Adobe Analysis Workspace에서 비즈니스를 변경하는 방법](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business.html) | [!UICONTROL Analysis Workspace]를 사용하여 Ad Hoc Analysis, 유연한 분석, 집단 분석 및 폴아웃 분석을 수행하는 방법을 알아봅니다. 또한 분석 작업 환경을 회사의 모든 사람과 공유할 수 있고, 드래그 앤 드롭 기능을 통해 모든 사람이 데이터를 쉽게 분석하고 통찰력을 신속하게 얻을 수 있습니다. |
-| Adobe Analytics | 비디오 - [고객 사용 사례: 고객 경험 관리를 통해 혁신을 이룬 Home Depot](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/the-home-depot-innovates-with-customer-experience-management.html) | [!DNL Home Depot]Adobe 솔루션을 사용하여 개인화된 맞춤형 쇼핑 경험을 통해 브랜드 충성도 및 고객 만족도를 생성하는 방법을 알아봅니다. |
-| Adobe Analytics | 프레젠테이션 - [Customer Journey Analytics 이해](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/understanding-customer-journey-analytics.html) | [!DNL Adobe Experience Platform]에 구축된 애플리케이션 서비스인 Adobe의 [!UICONTROL Customer Journey Analytics]이 [!UICONTROL Analysis Workspace]를 Experience Platform으로 가져오는 방법을 알아봅니다. 이 기능을 사용하면 [!DNL Adobe Experience Platform] 데이터 세트에서 다중 채널 분석을 사용할 수 있습니다. |
-| Adobe Analytics | 비디오 - [CJA의 크로스 채널 속성](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/cross-channel-attribution-in-customer-journey-analytics.html) | 시각화를 사용하여 [!UICONTROL Customer Journey Analytics]의 채널에서 속성을 표시(크레딧 제공)하는 방법을 알아봅니다. |
-| Adobe Analytics | 문서 - [Adobe Analytics 학습 여정을 계속하기 위한 고객 팁](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/customer-tips-for-continuing-your-adobe-analytics-learning-journey.html) | Adobe Analytics를 최대한 활용할 수 있는 방법에 대한 유용한 팁을 보유한 세 명의 Adobe 고객을 만나보십시오. |
-| Adobe Analytics | 비디오 - [CJA에서 크로스 채널 시각화 만들기](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/creating-cross-channel-visualizations-in-customer-journey-analytics.html) | [!UICONTROL Customer Journey Analytics]을 통해 방문자별 데이터 병합을 포함하여 여러 채널 간에 여러 데이터 세트의 데이터를 포함하는 시각화를 만드는 방법을 살펴봅니다. |
-| Adobe Analytics | 비디오 - [계산된 지표를 Adobe Analytics에서 Customer Journey Analytics로 이동](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html) | Find tips for re-creating your Analytics [!UICONTROL Calculated Metrics] in [!UICONTROL Customer Journey Analytics]. |
+| 게시됨 | 이름 | 유형 | 설명 |
+| -----------| ---------- | ---------- | ---------- |
+| 날짜, 2020 | [링크 텍스트](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 설명. |
+| 날짜, 2020 | [링크 텍스트](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 설명. |
+| 날짜, 2020 | [링크 텍스트](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 설명. |
+| 날짜, 2020 | [링크 텍스트](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 설명. |
+| 날짜, 2020 | [링크 텍스트](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 설명. |
+| 날짜, 2020 | [링크 텍스트](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 설명. |
+| 날짜, 2020 | [링크 텍스트](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 설명. |
+| 날짜, 2020 | [링크 텍스트](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 설명. |
+| 날짜, 2020 | [링크 텍스트](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 설명. |
+| 날짜, 2020 | [링크 텍스트](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 설명. |
