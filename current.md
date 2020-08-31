@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b91db168aeb1b9f653061f0cd6e19ec8d36a8155
+source-git-commit: c6a071b2e8946d2b7fcfe20f835354ca6d552575
 workflow-type: tm+mt
-source-wordcount: '6673'
+source-wordcount: '6685'
 ht-degree: 96%
 
 ---
@@ -110,7 +110,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ----- |
-| 작업 영역:향상된 라인 시각화 | 2020년 9월 17일 | <ul><li>모든 선 시각화의 x축 및 y축을 표시하거나 숨길 수 있습니다. 이 기능은 선 시각화가 더 작으면 특히 유용합니다.</li><li>모든 선 시각화에 최소 및 최대 값 레이블을 오버레이하여 지표의 최고점과 최저점을 빠르게 강조 표시할 수 있습니다.</li><li>모든 라인 시각화에 서로 다른 회귀 트렌드를 오버레이하여 데이터의 트렌드를 보다 쉽게 볼 수 있습니다. 옵션에는 선형, 로그, 지수, 전원 및 이차 수가 포함됩니다.</li></ul> |
+| 작업 영역:향상된 라인 시각화 | 2020년 9월 17일 | <ul><li>모든 선 시각화의 x축 및 y축을 표시하거나 숨길 수 있습니다. 이 기능은 선 시각화가 더 작으면 특히 유용합니다.</li><li>모든 선 시각화에 최소 및 최대 값 레이블을 오버레이하여 지표의 최고점과 최저점을 빠르게 강조 표시할 수 있습니다.</li><li>모든 라인 시각화에 서로 다른 회귀 트렌드를 오버레이하여 데이터의 트렌드를 보다 쉽게 볼 수 있습니다. 옵션에는 선형, 로그, 지수, 전원 및 이차 수가 포함됩니다.</li></ul>[추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) |
 
 ### [!UICONTROL Media Analytics]의 새로운 기능 {#media-aa}
 
