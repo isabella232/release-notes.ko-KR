@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 7349731bb72163473efc26069df9f1d77f0f7c23
+source-git-commit: b91db168aeb1b9f653061f0cd6e19ec8d36a8155
 workflow-type: tm+mt
-source-wordcount: '6651'
-ht-degree: 100%
+source-wordcount: '6673'
+ht-degree: 96%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 100%
 
 제품 출시 날짜는 다를 수 있습니다. 업데이트를 자주 확인하십시오.
 
-최신 업데이트: **2020년 8월 21일**
+최신 업데이트: **2020년 8월 31일**
 
 * [Adobe 시스템 상태](#status)
 * [Experience Cloud 인터페이스](#ecloud) (**2020년 8월 19일** 업데이트됨)
 * [Experience Platform](#platform)
 * [여정 편성](#journey-orch)
-* [Analytics](#analytics)(2020년 8월 21일 업데이트됨) 및 [Customer Journey Analytics](#cust-journey)
+* [Analytics](#analytics)(2020년 8월 31일 업데이트됨) 및 [Customer Journey Analytics](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [캠페인](#ac)
@@ -96,28 +96,29 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 ### Adobe Analytics의 새로운 기능 {#aa-features}
 
-(2020년 8월 13일 업데이트)
+(2020년 8월 31일 업데이트)
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ------- |
 | [!UICONTROL 교차 장치 분석]: EMEA 및 APAC 지역에서 사용 가능 | 2020년 8월 31일 | EMEA 및 APAC 지역의 고객은 [교차 장치 분석](https://docs.adobe.com/content/help/ko-KR/analytics/components/cda/overview.html) 및 비공개 그래프를 사용할 수 있습니다. |
 | [!UICONTROL 교차 장치 분석]의 필드 기반 연결 개선 사항(아메리카 및 EMEA에서 사용 가능) | 2020년 8월 31일 | 새로운 [!UICONTROL 교차 장치 분석] 고객을 위한 간소화된 구현에서는 장치 그래프(공동 작업 또는 개인)를 사용하는 대신 Analytics 필드(prop 또는 eVar)에 저장된 사용자 ID를 기준으로 연결하는 옵션을 제공합니다. 개선 사항을 통해서 ECID 구현 요구사항과 CDA를 위한 ID 동기화 구현 요구사항이 제거됩니다. (ECID 및 ID 동기화는 다른 특정 기능에 계속 필요합니다.) |
-| (조기 공지) 작업 영역: 단일 차원에 맞는 5만개의 항목 다운로드 | 2020년 9월 17일 | 세그먼트와 필터가 적용된 자유 형식 테이블의 단일 차원에 대한 50,000개의 항목을 다운로드할 수 있습니다. 이렇게 하면 Analysis Workspace 외부에 있는 400개 이상의 데이터 행에 액세스할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/download-send.html) |
+| 작업 영역: 단일 차원에 맞는 5만개의 항목 다운로드 | 2020년 9월 17일 | 세그먼트와 필터가 적용된 자유 형식 테이블의 단일 차원에 대한 50,000개의 항목을 다운로드할 수 있습니다. 이렇게 하면 Analysis Workspace 외부에 있는 400개 이상의 데이터 행에 액세스할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/download-send.html) |
+| 작업 영역:향상된 라인 시각화 | 2020년 9월 17일 | <ul><li>모든 선 시각화의 x축 및 y축을 표시하거나 숨길 수 있습니다. 이 기능은 선 시각화가 더 작으면 특히 유용합니다.</li><li>모든 선 시각화에 최소 및 최대 값 레이블을 오버레이하여 지표의 최고점과 최저점을 빠르게 강조 표시할 수 있습니다.</li><li>모든 라인 시각화에 서로 다른 회귀 트렌드 라인을 오버레이하여 데이터의 트렌드를 보다 쉽게 볼 수 있습니다. 옵션에는 선형, 로그, 지수, 전원 및 이차 수가 포함됩니다.</li></ul> [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) |
+
 
 ### Customer Journey Analytics의 새로운 기능 {#cust-journey}
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ----- |
-| [!UICONTROL 개인 ID에 대한 ID 맵 옵션] | 2020년 6월 26일 | [!UICONTROL ID 맵]은 [!UICONTROL Customer Journey Analytics]에서 연결을 만드는 과정의 일부로 키-값 쌍을 업로드할 수 있는 맵 데이터 구조입니다.  키는 ID 이름 공간이며, 값은 ID 값을 가지는 구조입니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-connections/create-connection.html#use-identity-map-as-a-person-id) |
+| 작업 영역:향상된 라인 시각화 | 2020년 9월 17일 | <ul><li>모든 선 시각화의 x축 및 y축을 표시하거나 숨길 수 있습니다. 이 기능은 선 시각화가 더 작으면 특히 유용합니다.</li><li>모든 선 시각화에 최소 및 최대 값 레이블을 오버레이하여 지표의 최고점과 최저점을 빠르게 강조 표시할 수 있습니다.</li><li>모든 라인 시각화에 서로 다른 회귀 트렌드를 오버레이하여 데이터의 트렌드를 보다 쉽게 볼 수 있습니다. 옵션에는 선형, 로그, 지수, 전원 및 이차 수가 포함됩니다.</li></ul> |
 
 ### [!UICONTROL Media Analytics]의 새로운 기능 {#media-aa}
 
-릴리스 날짜: **2020년 7월 16일**
+(2020년 8월 31일 업데이트)
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ---------- |
-| [지원되는 장치 및 플랫폼](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/supported-devices.html) | 2020년 6월 18일 | 이제 AEP SDK가 포함된 [!UICONTROL 미디어 실행 확장자]는 다음과 같은 OTT 장치를 지원합니다.<ul><li>Apple TV(tvOS)</li><li>Fire TV(Fire OS)</li><li>Android TV</li></ul> |
-| [플레이어 상태 추적](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/player-state-tracking/player-state-overview.html) | 2020년 5월 29일 | [!UICONTROL Media Analytics] 고객은 전체 화면, 자막, 음소거, PIP(Picture-in-Picture) 및 인포커스에 대한 표준 솔루션 변수 세트를 사용하여 재생 중 뷰어 상호 작용을 캡처할 수 있습니다. 또한 사용자 정의 플레이어 상태를 생성할 수 있는 유연성을 가지게 됩니다. 이제 [!UICONTROL 플레이어 상태 추적 ] 변수를 [!UICONTROL Analysis Workspace] 보고에서 확인할 수 있습니다. 이 기능을 사용하려면 다음 중 하나가 필요합니다. <ul><li>Media [!DNL JavaScript] SDK 3.0 이상</li><li>[!DNL Adobe Experience Platform] (AEP) SDK와 함께 사용하는 경우:</li><li>[!UICONTROL Media Analytics 확장 프로그램] (웹용): 오디오 및 비디오 v1.0 이상용 [!UICONTROL Adobe Media Analytics](3.x SDK)</li><li>[!UICONTROL Media Analytics 확장 프로그램] (모바일용): 오디오 및 비디오 v2.0 이상용 [!UICONTROL Adobe Media Analytics]</li><li>[!UICONTROL 미디어 컬렉션]</li></ul> |
+| 작업 공간의 미디어 동시 뷰어 패널 | 2020년 9월 17일 | 미디어 동시 뷰어 패널을 사용하면 최대 동시 시청 횟수가 발생한 위치 또는 드롭오프가 발생한 위치를 파악할 수 있습니다.  컨텐츠 및 뷰어 참여의 품질에 대한 중요한 통찰력을 제공하고 볼륨/규모에 대한 문제 해결 또는 계획을 수립하는 데 도움이 됩니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers.html) |
 
 ### Adobe Analytics의 수정 사항 {#aa-fixes}
 
