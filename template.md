@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2a73b43fedf1c745f89640a11b7aa64244a78bc4
+source-git-commit: 1ec71f66a34b17fb62831973cd46426ecc9f0d10
 workflow-type: tm+mt
-source-wordcount: '2526'
+source-wordcount: '2527'
 ht-degree: 97%
 
 ---
@@ -87,7 +87,7 @@ For product documentation, see [Experience Cloud interface](https://docs.adobe.c
 
 기능 및 수정 사항
 
-제품 설명서의 경우 [Experience Cloud ID 서비스](https://marketing.adobe.com/resources/help/ko_KR/mcvid/)를 참조하십시오.
+제품 설명서의 경우 [Experience Cloud ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)를 참조하십시오.
 
 ### [!UICONTROL Experience Platform Launch] {#launch}
 
@@ -116,7 +116,7 @@ Adobe [!UICONTROL Experience Platform]으로 모든 개인의 요구 사항을 �
 
 제품 설명서는 [Mobile Services](https://docs.adobe.com/content/help/ko-KR/mobile-services/using/home.html)를 참조하십시오.
 
-Mobile SDK에 대한 자세한 내용은 [Experience 솔루션용 Android SDK 4.x](https://marketing.adobe.com/resources/help/ko_KR/mobile/android/) 및 [Experience Cloud 솔루션용 iOS SDK 4.x](https://docs.adobe.com/content/help/ko-KR/mobile-services/ios/overview.html)를 참조하십시오.
+Mobile SDK에 대한 자세한 내용은 [Experience 솔루션용 Android SDK 4.x](https://docs.adobe.com/content/help/ko-KR/mobile-services/android/overview.html) 및 [Experience Cloud 솔루션용 iOS SDK 4.x](https://docs.adobe.com/content/help/ko-KR/mobile-services/ios/overview.html)를 참조하십시오.
 
 ## Analytics {#analytics}
 
