@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c6a071b2e8946d2b7fcfe20f835354ca6d552575
+source-git-commit: bae18faf738a3750ceb63a3048750e77c1ebfa5c
 workflow-type: tm+mt
-source-wordcount: '6685'
-ht-degree: 100%
+source-wordcount: '6687'
+ht-degree: 99%
 
 ---
 
@@ -349,7 +349,7 @@ Campaign Classic, Campaign Standard 및 컨트롤 패널에 대한 릴리스 노
 
 * 20.2.1 릴리스 - [자세히 보기](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/release-notes/latest-release.html#release-20-2-2-build-9180)
 
-### 새로운 Campaign 교육 과정 및 자습서
+### 새로운 Campaign 교육 과정 및 자습서 업데이트
 
 지난 달에 게시된 새로운 비디오, 자습서 또는 교육 과정
 
