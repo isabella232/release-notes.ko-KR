@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: bae18faf738a3750ceb63a3048750e77c1ebfa5c
+source-git-commit: 9e8ab72d5c5ac0db9cde3ca99013a42e33251aa0
 workflow-type: tm+mt
-source-wordcount: '6687'
+source-wordcount: '6688'
 ht-degree: 99%
 
 ---
@@ -73,7 +73,7 @@ Experience Platform에 대한 최신 정보는 [Experience Platform 릴리스 �
 
 Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실시간으로 지능적으로 예측하여 경험 채널에서 규모에 맞게 개별 고객 여정을 편성합니다.
 
-### 새로운 Campaign 교육 과정 및 자습서
+### 새로운 Journey Orchestration 교육 과정 및 자습서
 
 지난 달에 게시된 새로운 비디오, 자습서 또는 교육 과정
 
