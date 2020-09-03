@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 9e8ab72d5c5ac0db9cde3ca99013a42e33251aa0
 workflow-type: tm+mt
 source-wordcount: '6688'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -349,7 +349,7 @@ Campaign Classic, Campaign Standard 및 컨트롤 패널에 대한 릴리스 노
 
 * 20.2.1 릴리스 - [자세히 보기](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/release-notes/latest-release.html#release-20-2-2-build-9180)
 
-### 새로운 Campaign 교육 과정 및 자습서 업데이트
+### 신규 및 업데이트된 Campaign 교육 과정 및 자습서
 
 지난 달에 게시된 새로운 비디오, 자습서 또는 교육 과정
 
