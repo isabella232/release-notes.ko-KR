@@ -4,9 +4,9 @@ description: Adobe Experience Cloud 릴리스 노트
 doc-type: release notes
 last-update: August 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e8ab72d5c5ac0db9cde3ca99013a42e33251aa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6688'
 ht-degree: 100%
 
