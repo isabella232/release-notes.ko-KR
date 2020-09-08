@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: September 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2bda04891fdfe3a57208f4f6accf7ac0d5c49432
+source-git-commit: 2670c9b311ff63f308ca380657be1bb399dcf2e6
 workflow-type: tm+mt
-source-wordcount: '6728'
+source-wordcount: '6737'
 ht-degree: 39%
 
 ---
@@ -42,10 +42,10 @@ ht-degree: 39%
 * [Experience Manager](#aem)
 * [Campaign](#ac)
 * [Advertising Cloud](#adcloud)
-* [!DNL Target](https://docs.adobe.com/content/help/ko-KR/target/using/release-notes/target-release-notes.html)
-* [!DNL Magento](#magento)
-* [!DNL Marketo Engage](#marketo)
-* [!DNL Primetime](https://docs.adobe.com/content/help/ko-KR/primetime/release-notes/home.html)
+* [[!DNL Target]](https://docs.adobe.com/content/help/ko-KR/target/using/release-notes/target-release-notes.html)
+* [[!DNL Magento]](#magento)
+* [[!DNL Marketo Engage]](#marketo)
+* [[!DNL Primetime]](https://docs.adobe.com/content/help/ko-KR/primetime/release-notes/home.html)
 
 도움이 필요하십니까? [Adobe Experience League](https://experienceleague.adobe.com/#home)에서 제품 및 기술 문서, Adobe에서 제공하는 교육 과정, 비디오 자습서, 빠른 답변, 커뮤니티 통찰력 및 강사 중심의 트레이닝을 확인할 수 있습니다.
 
@@ -418,7 +418,7 @@ Adobe Advertising Cloud에 대한 릴리스 노트입니다.
 | -----------| ---------- |
 | VAST 인벤토리를 포함하는 대화형 프리롤 확장 | 각 대화형 프리롤 배치 및 광고는 이제 VPAID와 VAST 인벤토리를 모두 지원할 수 있습니다. **참고:** 기본 KPI가 뷰 능력인 경우 VAST 광고에 볼 수 있는 노출 수가 없기 때문에 VPID와 VAST 배치 및 광고를 별도로 만들 수 있습니다. |
 
-### [!UICONTROL Advertising Cloud Search]{#adcloud-search}의 새로운 기능
+### [!UICONTROL Advertising Cloud Search]의 새로운 기능 {#adcloud-search}
 
 **8월 8일** 릴리스
 
