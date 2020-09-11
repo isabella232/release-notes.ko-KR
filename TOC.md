@@ -4,9 +4,9 @@ product: Experience Cloud
 user-guide-title: Adobe Experience Cloud 릴리스 정보
 user-guide-description: Learn about new features, fixes, and important notices in Adobe Experience Cloud.
 user-guide-url: https://www.adobe.com
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe8d77d0f66d63ede020bfdf8339981d702a76ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '89'
 ht-degree: 100%
 
