@@ -4,9 +4,9 @@ description: Adobe Experience Cloud 릴리스 정보
 doc-type: release notes
 last-update: September 2020
 author: mfrei
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3de788a32337c5917e54eb6c23234c20c2910d98
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '6745'
 ht-degree: 100%
 
@@ -103,7 +103,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 ### Journey Orchestration을 위한 추가 리소스
 
-[설명서](https://docs.adobe.com/content/help/ko-KR/journeys/using/journey-orchestration-home.html) - [릴리스 정보](https://docs.adobe.com/content/help/ko-KR/journeys/using/release-notes/release-notes.html) - [방법 비디오](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
+[설명서](https://docs.adobe.com/content/help/ko-KR/journeys/using/journey-orchestration-home.html) - [릴리스 정보](https://docs.adobe.com/content/help/ko-KR/journeys/using/release-notes/release-notes.html) - [방법 비디오](https://docs.adobe.com/content/help/ko-KR/platform-learn/tutorials/journey-orchestration/introduction.html)
 
 ## ![아이콘](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
 
@@ -139,7 +139,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ---------- |
-| 작업 공간의 미디어 동시 뷰어 패널 | 2020년 9월 17일 | [!UICONTROL 미디어 동시 뷰어] 패널을 사용하면 최대 동시 시청 횟수가 발생한 위치 또는 드롭오프가 발생한 위치를 파악할 수 있습니다. 컨텐츠 및 뷰어 참여의 품질에 대한 중요한 통찰력을 제공하고 볼륨/규모에 대한 문제 해결 또는 계획을 수립하는 데 도움이 됩니다. [추가 정보...](https://docs.adobe.com/content/help/en/media-analytics/using/media-reports/media-workspace-panels/media-concurrent-viewers.html) |
+| 작업 공간의 미디어 동시 뷰어 패널 | 2020년 9월 17일 | [!UICONTROL 미디어 동시 뷰어] 패널을 사용하면 최대 동시 시청 횟수가 발생한 위치 또는 드롭오프가 발생한 위치를 파악할 수 있습니다. 컨텐츠 및 뷰어 참여의 품질에 대한 중요한 통찰력을 제공하고 볼륨/규모에 대한 문제 해결 또는 계획을 수립하는 데 도움이 됩니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/media-reports/media-workspace-panels/media-concurrent-viewers.html) |
 
 ### Adobe Analytics의 수정 사항 {#aa-fixes}
 
