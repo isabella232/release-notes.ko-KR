@@ -1,22 +1,22 @@
 ---
 cloud: experience-cloud
 product: Experience Cloud
-user-guide-title: Adobe Experience Cloud 릴리스 노트
+user-guide-title: Adobe Experience Cloud 릴리스 정보
 user-guide-description: Learn about new features, fixes, and important notices in Adobe Experience Cloud.
 user-guide-url: https://www.adobe.com
 translation-type: tm+mt
 source-git-commit: fe8d77d0f66d63ede020bfdf8339981d702a76ed
 workflow-type: tm+mt
 source-wordcount: '89'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Experience Cloud 릴리스 노트 {#experience-cloud}
+# Experience Cloud 릴리스 정보 {#experience-cloud}
 
-+ [릴리스 노트](current.md)
-+ 이전 릴리스 노트 {#previous}
++ [릴리스 정보](current.md)
++ 이전 릴리스 정보 {#previous}
    + 2020 {#2020}
       + [2020년 8월](c-legacy-releases/2020/08132020.md)
       + [2020년 7월](c-legacy-releases/2020/07162020.md)
