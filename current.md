@@ -4,16 +4,16 @@ description: Adobe Experience Cloud 릴리스 정보
 doc-type: release notes
 last-update: September 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3de788a32337c5917e54eb6c23234c20c2910d98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6745'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Experience Cloud 릴리스 노트 - 2020년 9월
+# Adobe Experience Cloud 릴리스 정보 - 2020년 9월
 
 ![배너](/assets/experience-cloud-banner-3.png)
 
@@ -130,7 +130,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ----- |
-| Customer Journey Analytics 권한 변경 | 2020년 9월 9일 | CJA는 더 이상 모든 사용자를 관리자로 취급하지 않습니다. [Adobe Admin Console](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/admin-getting-started.html)에서 제품 관리자로 지정된 사용자만 다음 동작을 수행할 수 있습니다.<ul><li>[!UICONTROL 연결] 또는 [!UICONTROL 데이터 보기] 만들기/업데이트/ 삭제하기</li><li>다른 사용자가 만든 프로젝트, 필터 또는 계산 지표 업데이트/삭제하기</li><li>모든 사용자에게 작업 영역 프로젝트 공유</li></ul>[추가 정보...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-overview.html#admin-access-permissions) |
+| Customer Journey Analytics 권한 변경 | 2020년 9월 9일 | CJA는 더 이상 모든 사용자를 관리자로 취급하지 않습니다. [Adobe Admin Console](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/admin-getting-started.html)에서 제품 관리자로 지정된 사용자만 다음 동작을 수행할 수 있습니다.<ul><li>[!UICONTROL 연결] 또는 [!UICONTROL 데이터 보기] 만들기/업데이트/ 삭제하기</li><li>다른 사용자가 만든 프로젝트, 필터 또는 계산 지표 업데이트/삭제하기</li><li>모든 사용자에게 작업 영역 프로젝트 공유</li></ul>[추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-overview/cja-overview.html#admin-access-permissions) |
 | [!UICONTROL 예외 항목 탐지 ]지원 | 2020년 9월 10일 | [!UICONTROL 예외 항목 탐지]를 사용하면 어떤 통계적 변동이 중요한지 또는 중요하지 않은지 식별할 수 있습니다. 이제 이 기능이 [!UICONTROL Customer Journey Analytics]에서 지원됩니다.  |
 | 작업 영역의 새 날짜 범위 | 2020년 9월 10일 | 5개의 새 날짜 범위를 추가하고 있으므로 오늘의 일부 일 데이터를 포함하지 않는 날짜 범위에서 선택할 수 있습니다. [!UICONTROL 지난 7일 전일], [!UICONTROL 지난 14일 전일], [!UICONTROL 지난 30일 전일], [!UICONTROL 지난 60일 전일], [!UICONTROL 지난 90일 전일] |
 | 작업 영역: [!UICONTROL 선] 시각화 개선 사항 | 2020년 9월 17일 | <ul><li>모든 [!UICONTROL 선] 시각화의 x축 및 y축을 표시하거나 숨길 수 있습니다. 이 기능은 [!UICONTROL 선] 시각화가 더 작으면 특히 유용합니다.</li><li>모든 [!UICONTROL 선] 시각화에 최소 및 최대 값 레이블을 오버레이하여 지표의 최고점과 최저점을 빠르게 강조 표시할 수 있습니다.</li><li>모든 [!UICONTROL 선] 시각화에 서로 다른 회귀 트렌드 라인을 오버레이하여 데이터의 트렌드를 보다 쉽게 볼 수 있습니다. 옵션에는 [!UICONTROL 선형], [!UICONTROL 로그], [!UICONTROL 지수], [!UICONTROL 기능] 및 [!UICONTROL 이차]가 포함됩니다. </li></ul> [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-workspace/visualizations/line.html) |
