@@ -1,15 +1,18 @@
 ---
 description: 이 제품과 설명서의 사용에 관한 법적 문제를 이해하고 Adobe에 문의하는 데 도움이 되는 정보입니다.
-keywords: 다이내믹 태그 관리; 릴리스 노트
+keywords: dynamic tag management;release notes
 seo-description: 이 제품과 설명서의 사용에 관한 법적 문제를 이해하고 Adobe에 문의하는 데 도움이 되는 정보입니다.
 seo-title: 연락처 및 법적 정보
-solution: Experience Cloud 릴리스 노트
+solution: Experience Cloud
 title: 연락처 및 법적 정보
 uuid: be6810fd-8a50-4e88-af09-ab00187e4082
 internal: n
 translate: y
-translation-type: ht
-source-git-commit: 147b01562e6c8d579a2bec0e4fa2841d1791a671
+translation-type: tm+mt
+source-git-commit: 00226294d475d0c8f323692272bedf0d2705fd20
+workflow-type: tm+mt
+source-wordcount: '253'
+ht-degree: 95%
 
 ---
 
@@ -38,11 +41,11 @@ Adobe Systems welcome any suggestions or feedback regarding this solution. You c
 
 <ul class="simplelist"> 
  <li> © 2016 Adobe Systems Incorporated. All Rights Reserved. </li> 
- <li> Published by Adobe Systems Incorporated. </li> 
+ <li> 게시자: Adobe Systems Incorporated. </li> 
 </ul>
 
-[사용 약관](https://www.adobe.com/kr/go/marketingcloud_terms_of_use) | [개인 정보 보호 센터](https://www.adobe.com/kr/privacy/policy.html)
+[사용 약관](https://www.adobe.com/go/marketingcloud_terms_of_use) | [개인 정보 보호 센터](https://www.adobe.com/privacy/policy.html)
 
-Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. 상표 기호(®, ™ 등)는 Adobe 상표를 나타냅니다.
+Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
-모든 타사 상표는 해당 소유자의 자산입니다. 업데이트 정보/추가 타사 코드 정보는 [https://www.adobe.com/go/thirdparty](https://www.adobe.com/products/eula/third_party/)에서 사용할 수 있습니다.
+All third-party trademarks are the property of their respective owners. 업데이트된 정보/추가 타사 코드 정보는 [http://www.adobe.com/go/thirdparty_kr](https://www.adobe.com/kr/products/eula/third_party/)을 참조하십시오.
