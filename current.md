@@ -4,11 +4,11 @@ description: Adobe Experience Cloud 릴리스 정보
 doc-type: release notes
 last-update: September 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8077089a219abecb0c3522ae0768f25b9f249715
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6970'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -145,7 +145,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 * [!UICONTROL 작업 영역] 열을 &quot;지정되지 않음&quot; 차원으로 필터링할 수 없는 문제를 수정했습니다. (AN-222393)
 * [!UICONTROL 예약된 프로젝트]가 전달되지 않던 연결 제한 시간 초과 문제를 수정했습니다. (AN-223916)
-* [!UICONTROL 가상 보고서 세트]의 [!UICONTROL 방문] 세그먼트가  제대로 작동하지 않는 문제를 해결했습니다. (AN-225719)
+* [!UICONTROL 가상 보고서 세트]의 [!UICONTROL 방문] 세그먼트가 제대로 작동하지 않는 문제를 해결했습니다. (AN-225719)
 * Adobe Report Builder의 Chrome 브라우저 버전 문제를 수정했습니다. (AN-226718)
 * VRS의 모든 차원/지표로 분류할 수 있는 선별된 [!UICONTROL 가상 보고서 세트] 문제를 수정했습니다. (AN-228035)
 * [!UICONTROL 세그먼트 관리자]의 검색 기능이 제대로 작동하지 않는 문제를 해결했습니다. (AN-226954)
@@ -164,7 +164,7 @@ AN-215683; AN-216894; AN-226370; AN-227138; AN-227154; AN-227328; AN-227486; AN-
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | ----------- | ---------- | ---------- |
-| 들어오는 모든 HTTPS 요청에 HSTS 헤더 추가 | 2020년 9월 29일 | 2020년 9월 29일, HTTPS를 사용하는 모든 수신 요청에 HSTS 헤더를 추가하기 시작했습니다. 이를 통해 브라우저/클라이언트가 HTTPS에서 모든 향후 요청을 수행하도록 지시할 수 있으며 이는 보안 모범 사례입니다. 이 시점에서 HTTP를 사용하는 수신 요청에 대해서는 이 설정을 적용하지 않습니다. |
+| 모든 수신 HTTPS 요청에 HSTS 헤더 추가 | 2020년 9월 29일 | 2020년 9월 29일에 HTTPS를 사용하는 모든 수신 요청에 HSTS 헤더를 추가하기 시작했습니다. 이를 통해 브라우저/클라이언트가 HTTPS에서 모든 향후 요청을 수행하도록 지시할 수 있으며 이는 보안 모범 사례입니다. 이 시점에서는 HTTP를 사용하는 수신 요청에 이 설정을 적용하지 않습니다. |
 | ECID 쿠키 설정 변경 | 2020년 9월 22일 | Chrome 버전 80의 개인 정보 설정 업데이트는 Adobe Analytics에서 Google AMP 페이지를 보는 일부 사용자를 추적하는 기능에 영향을 주었습니다. 특히 Google에서 호스팅하는 AMP 페이지를 보는 사용자의 도메인 간 추적이 방지됩니다. 이로 인해 고유 방문자 수가 부풀려질 수 있습니다. 이 수정 사항으로 사용자는 ECID 쿠키의 설정을 변경하여 이 문제를 해결할 수 있습니다. 현재 Analytics는 버전 80 이전의 Chrome에서 도메인 간 추적이 허용되는 `SameSite = Lax` 설정으로 ECID 쿠키를 설정합니다. 더 이상은 해당되지 않습니다. 이 변경 사항으로 사용자는 ECID 쿠키에 대한 SameSite 설정을 `None`으로 업데이트할 수 있습니다. 이는 Analytics 쿠키를 더 많은 상황에서 공유할 수 있게 하지만 Analytics 쿠키에는 중요한 정보가 포함되어 있지 않습니다. 또한 이 설정을 선택할 때는 HTTPS 연결을 통해서만 데이터를 전달할 수 있도록 쿠키를 `Secure`으로 설정해야 합니다. 이 변경 사항을 적용하려면 지원되는 사용자가 고객 지원 센터에서 티켓을 열도록 하십시오. |
 | `adobe.com` 도메인에서 `omniture.com`으로 마이그레이션 | 2020년 8월 21일 | 2020년 8월 13일, Adobe Analytics은 프론트엔드 아키텍처를 `adobe.com|http://adobe.com/` 도메인 `omniture.com|http://omniture.com/`으로 이전했습니다. 이러한 변경은 2020년 5월 28일 통합 제품 도메인 변경 이후 발생한 타사 쿠키 문제를 완화할 것입니다. 이 업데이트로 인해 브라우저는 사용자에게 새 `.adobe.com|http://an.adobe.com/` 또는 `experience.adobe.com|http://experience.adobe.com/` 도메인을 신뢰하라는 메시지를 표시할 수 있습니다. |
 | Ad Hoc Analysis Java 8 호환성 업데이트 | 2020년 8월 21일 | Ad Hoc Analysis은 현재 Java 8 버전 1.8.0_261+와 호환되지 않습니다. [수명 종료 날짜](https://spark.adobe.com/page/S9Bhp66VJ2fEn/) 이전에 이 도구에 대한 액세스가 중단되지 않도록 1.8.0_261 이전의 Java 8 버전을 유지하는 것이 좋습니다. |
@@ -333,7 +333,7 @@ AEM 6.5, 서비스 팩 6(2020년 9월 3일 릴리스된 6.5.6.0)은 새로운 �
 | 2020년 8월 17일 | [변환된 적응형 양식 검토 및 구성하기](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/forms-and-sign/configure-converted-adaptive-form.html) | 비디오 | 자동화된 양식 서비스에서 만든 적응형 양식을 구성하여 Adobe Sign 통합을 사용합니다. 패널 제목을 변경하고 요구 사항에 따라 일부 필드를 다시 정렬할 수 있습니다.  |
 | 2020년 8월 25일 | [서명자 2명을 위한 적응형 양식 구성하기](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/forms-and-sign/configure-adaptive-form-for-two-signers.html) | 비디오 | 여러 서명자를 구성하고 적응형 양식 인터페이스를 사용하여 순서(순차 또는 병렬)를 지정합니다. |
 | 2020년 8월 17일 | [AEM 액세스 구성하기](https://video.tv.adobe.com/v/39230?captions=kor) | 비디오 | 사용자가 Adobe IMS를 사용하여 [!UICONTROL 클라우드 서비스로서의 AEM]에 인증하는 방법과 Adobe IMS 사용자, [!UICONTROL 사용자 그룹] 및 [!UICONTROL 제품 프로필]을 사용하여 AEM과 해당 기능에 대한 액세스를 제어하는 방법을 탐색합니다. |
-| 2020년 8월 17일 | [AEM 액세스 구성 둘러보기](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/accessing/walk-through.html) | 비디오 | Adobe [!UICONTROL Admin Console]에서 Adobe IMS 사용자, [!UICONTROL 사용자 그룹], [!UICONTROL 제품 프로필]을 구성하는 방법을 간략히 보여줍니다. 또한  [!UICONTROL AEM Author]에서 이러한 Adobe IMS 추상을 활용하여 특정 그룹 기반 권한을 정의하고 관리하는 방법을 알아봅니다. |
+| 2020년 8월 17일 | [AEM 액세스 구성 둘러보기](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/accessing/walk-through.html) | 비디오 | Adobe [!UICONTROL Admin Console]에서 Adobe IMS 사용자, [!UICONTROL 사용자 그룹], [!UICONTROL 제품 프로필]을 구성하는 방법을 간략히 보여줍니다. 또한 [!UICONTROL AEM Author]에서 이러한 Adobe IMS 추상을 활용하여 특정 그룹 기반 권한을 정의하고 관리하는 방법을 알아봅니다. |
 | 2020년 8월 17일 | [AEM 사용자, 그룹 및 권한](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html) | 비디오 | Adobe Experience Manager는 Adobe IMS 사용자, [!UICONTROL 사용자 그룹] 및 [!UICONTROL 제품 프로필]을 기반으로 AEM에 사용자 정의 가능한 액세스를 제공합니다. AEM 그룹 및 권한을 정의하는 방법과 Adobe IMS 추상화와 연동하여 AEM에 매끄럽고 사용자 정의 가능한 액세스를 제공하는 방법을 알아봅니다. |
 | 2020년 8월 17일 | [Launch 구현 디버깅](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/experience-platform-launch/debug-launch-implementation.html) | 비디오 | Launch 구현을 디버깅하는 몇 가지 일반적인 도구와 기술을 소개합니다. 브라우저의 개발자 콘솔 및 [!UICONTROL Experience Platform 디버거] 확장 기능을 사용하여 Experience Platform Launch 구현의 주요 측면을 식별하고 해결하는 방법을 알아봅니다.  |
 | 2020년 8월 17일 | [Launch Cloud Service 구성 만들기](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/experience-platform-launch/create-launch-cloud-service.html) | 비디오 | 새 Experience Platform Launch Cloud Services 구성을 만드는 방법을 알아봅니다. 그런 다음 Launch Cloud Service 구성을 기존 사이트에 적용할 수 있으며 Launch 라이브러리가 작성자와 게시 환경 모두에서 로드되는 것을 확인할 수 있습니다. |
