@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 5790dfcacc451a044bc7d2f8431d759598643a9f
+source-git-commit: 2ed7bd9c020cac5cf282aafd0c3146b8e0661dce
 workflow-type: tm+mt
-source-wordcount: '6533'
+source-wordcount: '6530'
 ht-degree: 44%
 
 ---
@@ -298,13 +298,13 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 
 * 사용자가 [Apache Jackrabbit Oak TokenConfiguration을 수정하여 에셋을 업로드하는 데 걸리는 시간보다 적게 설정한](https://helpx.adobe.com/experience-manager/kb/How-to-set-token-session-expiration-AEM.html) 경우 사용자는 세션 시간 제한 상황이 발생할 수 있습니다. 따라서 사용자는 세션 시간 제한 `chunkUploadMinFileSize` 을 변경해야 합니다.따라서 각 청크 요청이 세션을 새로 고치도록 `chunksize`해야 합니다. 자세한 내용은 자산 [업로드를 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#uploading-assets).
 
-* 자산 이동 [마법사를 여는 이동(m)](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#moving-or-renaming-assets) 작업 [!UICONTROL 과 별도로 드래그 작업을] 사용하여 자산을 동위 [!UICONTROL 폴더로] 이동할 수있습니다.
+* 자산 이동 [마법사를 여는](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#moving-or-renaming-assets) 이동(m) [!UICONTROL 작업 외에 드래그 작업을] 사용하여 자산을 동위 [!UICONTROL 의 폴더로 이동할] 수 있습니다.
 
 * 자산 인사이트의 경우 [Adobe 시작을 사용하십시오](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/advanced/asset-insights-launch-tutorial.html). [DTM 통합](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/touch-ui-using-dtm-for-asset-insights.html) 기능은 문서에서 더 이상 사용되지 않는 메서드로 호출됩니다.
 
 **[!DNL Adobe Experience Manager]데스크탑 앱**
 
-* 처음 로그아웃하거나 로그인한 후에 데스크톱 앱에 로그인하는 사용자는 서버 URL을 https:// [!DNL Experience Manager] aem-server-url[:]port[/ 형식으로 제공한 다음]Connect [!UICONTROL 옵션] 을 선택하여 &quot;응용 프로그램에서 알 수 없는 오류가 발생했습니다&quot;라는 오류를 방지해야 합니다. 자세한 내용은 Adobe Experience Manager 데스크탑 앱 [사용을 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/using.html).
+* 처음 로그아웃하거나 로그인한 후에 데스크톱 앱에 로그인하는 사용자는 [!DNL Experience Manager] 서버 URL을 형식으로 제공한 다음 `https://[aem-server-url]:[port]/` Connect  옵션을 선택하여 &quot;응용 프로그램에서 알 수 없는 오류가 발생했습니다&quot;라는 오류를 방지해야 합니다. 자세한 내용은 Adobe Experience Manager 데스크탑 앱 [사용을 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/using.html).
 
 ### 커뮤니티
 
