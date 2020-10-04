@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e6add243b6c74b59f138543c460d55817bddf761
+source-git-commit: 5790dfcacc451a044bc7d2f8431d759598643a9f
 workflow-type: tm+mt
-source-wordcount: '6448'
+source-wordcount: '6533'
 ht-degree: 44%
 
 ---
@@ -282,7 +282,13 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 
 ### 사용자 도움말
 
+**[!DNL Experience Manager]사이트**
+
+리치 텍스트 편집기 설명서가 RTE의 링크 [에 대해 지원되는 모든 프로토콜을 나열하도록 업데이트됩니다](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html#linkstyles).
+
 **[!DNL Experience Manager]자산**
+
+* 모든 사용자가 AEM Assets에 액세스할 수 [있는](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/accessibility.html) 방법에 대한 새로운 도움말 내용을 사용할 수 있습니다.
 
 * **[보기 모드 매개](https://docs.adobe.com/content/help/en/experience-manager-65/assets/using/search-assets.html#assetpicker)** 변수가 자산 선택기(자산 선택기)에 추가되어 검색 모드에서 자산 선택기를 엽니다. 검색 모드에서 자산 선택기를 열고 와 `assettype` 와 함께 사용하려면 `mimetype`사용자가 url의 `viewmode=search` 매개 변수를 접미사 `https://[aem-server]:[port]/aem/assetpicker.html`로 붙여야 합니다. 예, `https://[aem-server]:[port]/aem/assetpicker.html?viewmode=search&assettype=images`.
 
@@ -293,6 +299,8 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 * 사용자가 [Apache Jackrabbit Oak TokenConfiguration을 수정하여 에셋을 업로드하는 데 걸리는 시간보다 적게 설정한](https://helpx.adobe.com/experience-manager/kb/How-to-set-token-session-expiration-AEM.html) 경우 사용자는 세션 시간 제한 상황이 발생할 수 있습니다. 따라서 사용자는 세션 시간 제한 `chunkUploadMinFileSize` 을 변경해야 합니다.따라서 각 청크 요청이 세션을 새로 고치도록 `chunksize`해야 합니다. 자세한 내용은 자산 [업로드를 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#uploading-assets).
 
 * 자산 이동 [마법사를 여는 이동(m)](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#moving-or-renaming-assets) 작업 [!UICONTROL 과 별도로 드래그 작업을] 사용하여 자산을 동위 [!UICONTROL 폴더로] 이동할 수있습니다.
+
+* 자산 인사이트의 경우 [Adobe 시작을 사용하십시오](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/advanced/asset-insights-launch-tutorial.html). [DTM 통합](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/touch-ui-using-dtm-for-asset-insights.html) 기능은 문서에서 더 이상 사용되지 않는 메서드로 호출됩니다.
 
 **[!DNL Adobe Experience Manager]데스크탑 앱**
 
