@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2ed7bd9c020cac5cf282aafd0c3146b8e0661dce
+source-git-commit: 554b01dd2fd709420cb046e37cc45f2f1331eb54
 workflow-type: tm+mt
-source-wordcount: '6530'
+source-wordcount: '6537'
 ht-degree: 44%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 44%
 
 9월에 업데이트되지 않았습니다.
 
-See [Cumulative release notes](https://docs.adobe.com/content/help/ko-KR/core-services/interface/release-notes/release-notes.html) for the latest release information.
+최신 릴리스 정보는 [Experience Cloud 서비스에](https://docs.adobe.com/content/help/ko-KR/core-services/interface/release-notes/release-notes.html) 대한 누적 릴리스 노트를 참조하십시오.
 
 ## ![아이콘](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
@@ -105,6 +105,8 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 [설명서](https://docs.adobe.com/content/help/ko-KR/journeys/using/journey-orchestration-home.html) - [릴리스 정보](https://docs.adobe.com/content/help/ko-KR/journeys/using/release-notes/release-notes.html) - [방법 비디오](https://docs.adobe.com/content/help/ko-KR/platform-learn/tutorials/journey-orchestration/introduction.html)
 
 ## ![아이콘](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
+
+릴리스 날짜: **2020년 10월 8일**
 
 * [Adobe Analytics의 새로운 기능](#aa-features)
 * [Customer Journey Analytics의 새로운 기능](#cust-journey)
@@ -399,7 +401,7 @@ Campaign Classic, Campaign Standard 및 컨트롤 패널에 대한 릴리스 정
 | ----------- | ----------- | ---------- | ---------- |
 | 2020년 22월 9일 | [고객 여정 AI - 예측 전송 시간 최적화 - 비디오](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html) | Campaign Standard | Adobe Campaign과 여정 AI 모델 간의 데이터를 동기화하는 데 필요한 워크플로우를 파악할 수 있습니다. 개별 프로필 수준에서 전송 시간 점수를 보는 방법 및 전송 시간 수식을 사용하여 이메일 게재 실행 방법을 알아봅니다. |
 | 2020년 22월 9일 | [고객 여정 AI - 예측 참여 점수 - 비디오](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html) | Campaign Standard | 개별 프로필 수준에서 참여 점수를 보고, 참여 사용자 타겟팅 및 피로도가 높은 사용자를 알아보기 위해 점수를 사용하고 분류 규칙을 만들어 고객 피로도를 관리하는 방법을 알아봅니다. |
-| 2020년 22월 9일 | [배달에 그룹 제어 추가 - 비디오](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html) | Campaign Standard | 게재하기 위해 컨트롤 그룹 정의 방법 및 게재한 후 컨트롤 그룹에 지정된 프로필을 추출하는 방법을 알아봅니다. |
+| 2020년 22월 9일 | [게재에 제어 그룹 추가 - 비디오](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html) | Campaign Standard | 게재하기 위해 컨트롤 그룹 정의 방법 및 게재한 후 컨트롤 그룹에 지정된 프로필을 추출하는 방법을 알아봅니다. |
 | 2020년 9월 11일 | [하위 도메인 위임](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/subdomain-delegation.html) | Campaign Classic | Adobe Campaign 컨트롤 패널을 사용하면 하위 도메인을 Adobe Campaign에 완전히 위임할 수 있습니다. |
 | 2020년 9월 3일 | [허용 목록에 IP 주소 추가](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/ip-allow-listing.html) | Campaign Classic | Campaign 컨트롤 패널을 사용하면 IP 주소 범위를 허용 목록에 추가하여 인스턴스에 새 연결을 설정할 수 있습니다. 기본적으로는 여러 IP 주소에서 Adobe Campaign Classic 인스턴스에 액세스할 수 없습니다. |
 | 2020년 9월 3일 | [Campaign 컨트롤 패널 - URL 권한 추가](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/adding-url-permissions.html) | Campaign Classic | Campaign 컨트롤 패널을 사용하면 IP 주소 범위를 허용 목록에 추가하여 인스턴스에 새 연결을 설정할 수 있습니다. 기본적으로는 여러 IP 주소에서 Adobe Campaign Classic 인스턴스에 액세스할 수 없습니다. |
