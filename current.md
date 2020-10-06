@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 554b01dd2fd709420cb046e37cc45f2f1331eb54
+source-git-commit: 51da999834b44cdbd2a5ecc7c26da652327dd3cc
 workflow-type: tm+mt
-source-wordcount: '6537'
+source-wordcount: '6618'
 ht-degree: 44%
 
 ---
@@ -49,6 +49,10 @@ ht-degree: 44%
 * [Document Cloud](#doc-cloud)
 
 도움이 필요하십니까? [Adobe Experience League](https://experienceleague.adobe.com/#home)에서 제품 및 기술 문서, Adobe에서 제공하는 교육 과정, 비디오 자습서, 빠른 답변, 커뮤니티 통찰력 및 강사 중심의 트레이닝을 확인할 수 있습니다.
+
+>[!NOTE]
+>
+>문서가 Experience League으로 이동하고 있습니다. 10월 동안 모든 릴리스 노트, 기사, 비디오 및 자습서는 현재 위치에서 이동하며 Experience League의 일부로 `docs.adobe.com` 제공됩니다. 이렇게 하면 모든 학습, 자가 도움말, 역량 강화 및 커뮤니티 컨텐츠가 단일 위치에서 제공됩니다.Experience League. 이 변경 사항이 발생하면 모든 링크가 새 위치로 리디렉션되므로 아무 작업도 할 필요가 없습니다. 교정이 시작되면 릴리스 노트를 업데이트할 예정입니다.
 
 ## ![아이콘](/assets/adobe.png) Adobe 시스템 상태 {#status}
 
@@ -312,7 +316,7 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 
 * **Experience Manager 기능 요청을 제출하는 새로운 프로세스 발표**
 
-   Experience Manager 로드맵에 새로운 기능을 추가하시겠습니까? Adobe은 고객 및 파트너가 *Experience Manager* 제품 팀에 향상된 기능(RFE라고 알려져 있음)을 요청하는 방법을 개선하기 위한 프로젝트인 FeatureBit를 발표하게 되어 매우 기쁘게 생각합니다. Experience League AEM Community에서 [자세한 내용을 살펴보십시오.](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/announcing-the-new-process-to-submit-experience-manager-feature/td-p/380425)
+   Experience Manager 로드맵에 새로운 기능을 추가하시겠습니까? Adobe은 고객 및 파트너가 *Experience Manager* 제품 팀에 향상된 기능(RFE라고 알려져 있음)을 요청하는 방법을 개선하기 위한 프로젝트인 FeatureBit를 발표하게 되어 매우 기쁘게 생각합니다. 자세한 내용은 [Experience League AEM 커뮤니티를 참조하십시오.](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/announcing-the-new-process-to-submit-experience-manager-feature/td-p/380425)
 
 * **Experience League의 최신 AEM 컨텐츠**
 
@@ -399,9 +403,9 @@ Campaign Classic, Campaign Standard 및 컨트롤 패널에 대한 릴리스 정
 
 | 게시됨 | 이름 | 솔루션 | 설명 |
 | ----------- | ----------- | ---------- | ---------- |
-| 2020년 22월 9일 | [고객 여정 AI - 예측 전송 시간 최적화 - 비디오](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html) | Campaign Standard | Adobe Campaign과 여정 AI 모델 간의 데이터를 동기화하는 데 필요한 워크플로우를 파악할 수 있습니다. 개별 프로필 수준에서 전송 시간 점수를 보는 방법 및 전송 시간 수식을 사용하여 이메일 게재 실행 방법을 알아봅니다. |
-| 2020년 22월 9일 | [고객 여정 AI - 예측 참여 점수 - 비디오](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html) | Campaign Standard | 개별 프로필 수준에서 참여 점수를 보고, 참여 사용자 타겟팅 및 피로도가 높은 사용자를 알아보기 위해 점수를 사용하고 분류 규칙을 만들어 고객 피로도를 관리하는 방법을 알아봅니다. |
-| 2020년 22월 9일 | [게재에 제어 그룹 추가 - 비디오](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html) | Campaign Standard | 게재하기 위해 컨트롤 그룹 정의 방법 및 게재한 후 컨트롤 그룹에 지정된 프로필을 추출하는 방법을 알아봅니다. |
+| 2020년 22월 9일 | [고객 여정 AI - 예측 전송 시간 최적화 - 비디오](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html) | Campaign Standard | Adobe Campaign과 여정 AI 모델 간의 데이터를 동기화하는 데 필요한 워크플로우를 파악할 수 있습니다. 개별 프로필 수준에서 전송 시간 점수를 보는 방법 및 전송 시간 수식을 사용하여 이메일 게재 실행 방법을 알아봅니다. |
+| 2020년 22월 9일 | [고객 여정 AI - 예측 참여 점수 - 비디오](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html) | Campaign Standard | 개별 프로필 수준에서 참여 점수를 보고, 참여 사용자 타겟팅 및 피로도가 높은 사용자를 알아보기 위해 점수를 사용하고 분류 규칙을 만들어 고객 피로도를 관리하는 방법을 알아봅니다. |
+| 2020년 22월 9일 | [게재에 제어 그룹 추가 - 비디오](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html) | Campaign Standard | 게재하기 위해 컨트롤 그룹 정의 방법 및 게재한 후 컨트롤 그룹에 지정된 프로필을 추출하는 방법을 알아봅니다. |
 | 2020년 9월 11일 | [하위 도메인 위임](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/subdomain-delegation.html) | Campaign Classic | Adobe Campaign 컨트롤 패널을 사용하면 하위 도메인을 Adobe Campaign에 완전히 위임할 수 있습니다. |
 | 2020년 9월 3일 | [허용 목록에 IP 주소 추가](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/ip-allow-listing.html) | Campaign Classic | Campaign 컨트롤 패널을 사용하면 IP 주소 범위를 허용 목록에 추가하여 인스턴스에 새 연결을 설정할 수 있습니다. 기본적으로는 여러 IP 주소에서 Adobe Campaign Classic 인스턴스에 액세스할 수 없습니다. |
 | 2020년 9월 3일 | [Campaign 컨트롤 패널 - URL 권한 추가](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/adding-url-permissions.html) | Campaign Classic | Campaign 컨트롤 패널을 사용하면 IP 주소 범위를 허용 목록에 추가하여 인스턴스에 새 연결을 설정할 수 있습니다. 기본적으로는 여러 IP 주소에서 Adobe Campaign Classic 인스턴스에 액세스할 수 없습니다. |
