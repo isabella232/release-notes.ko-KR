@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8d32193d5e42d33f9ca087154da628fa83f607b4
+source-git-commit: 70f1d8589fe94f37a3f9edc375f9efbf2b6d1c26
 workflow-type: tm+mt
-source-wordcount: '6611'
-ht-degree: 44%
+source-wordcount: '6765'
+ht-degree: 43%
 
 ---
 
@@ -124,6 +124,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ------- |
+| Adobe Analytics 설명서 | 2020년 10월 일 | Adobe Analytics 설명서가 Experience League으로 이동합니다. 10월 동안 모든 아티클, 비디오, 릴리스 노트 및 자습서는 현재 위치에서 `docs.adobe.com` 로 이동합니다 `experienceleague.adobe.com`. 이렇게 하면 모든 학습, 자가 도움말, 역량 강화 및 커뮤니티 콘텐츠가 한 곳에서 제공됩니다. 이 변경 사항이 발생하면 모든 링크가 Experience League으로 리디렉션되므로 필요한 작업이 없습니다. 교정이 시작되면 릴리스 노트를 업데이트할 예정입니다. |
 | [!UICONTROL 작업 영역]:단일 차원에 맞는 50K 항목 다운로드 | 2020년 9월 17일 | 세그먼트와 필터가 적용된 자유 형식 테이블의 단일 차원에 대한 50,000개의 항목을 다운로드할 수 있습니다. 이렇게 하면 Analysis Workspace 외부에 있는 400개 이상의 데이터 행에 액세스할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) |
 | 작업 영역: [!UICONTROL 선] 시각화 개선 사항 | 2020년 9월 17일 | <ul><li>You can show or hide the X-axis and Y-axis of any [!UICONTROL Line] visualization. 이 기능은 [!UICONTROL 선] 시각화가 더 작으면 특히 유용합니다.</li><li>모든 [!UICONTROL 선] 시각화에 최소 및 최대 값 레이블을 오버레이하여 지표의 최고점과 최저점을 빠르게 강조 표시할 수 있습니다.</li><li>모든 [!UICONTROL 선] 시각화에 서로 다른 회귀 트렌드 라인을 오버레이하여 데이터의 트렌드를 보다 쉽게 볼 수 있습니다. 옵션에는 [!UICONTROL 선형], [!UICONTROL 로그], [!UICONTROL 지수], [!UICONTROL 기능] 및 [!UICONTROL 이차]가 포함됩니다. </li></ul> [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | [!UICONTROL 작업 영역]:성능 도움말 페이지 | 2020년 10월 22일 | Analysis Workspace 성능 도움말 페이지에는 프로젝트 성능에 영향을 주는 다양한 요인과 최적화를 위한 팁에 대한 링크가 표시됩니다. [추가 정보](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
@@ -135,6 +136,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ----- |
+| 고객 여정 분석 설명서 | 2020년 10월 일 | Customer Journey Analytics 설명서가 Experience League으로 이동합니다. 10월 동안 모든 아티클, 비디오, 릴리스 노트 및 자습서는 현재 위치에서 `docs.adobe.com` 로 이동합니다 `experienceleague.adobe.com`. 이렇게 하면 모든 학습, 자가 도움말, 역량 강화 및 커뮤니티 콘텐츠가 한 곳에서 제공됩니다. 이 변경 사항이 발생하면 모든 링크가 Experience League으로 리디렉션되므로 필요한 작업이 없습니다. 교정이 시작되면 릴리스 노트를 업데이트할 예정입니다. |
 | [!UICONTROL 작업 영역]:단일 차원에 맞는 50K 항목 다운로드 | 2020년 9월 17일 | 세그먼트와 필터가 적용된 자유 형식 테이블의 단일 차원에 대한 50,000개의 항목을 다운로드할 수 있습니다. 이렇게 하면 Analysis Workspace 외부에 있는 400개 이상의 데이터 행에 액세스할 수 있습니다. [추가 정보...] |
 | 작업 영역: [!UICONTROL 선] 시각화 개선 사항 | 2020년 9월 17일 | <ul><li>You can show or hide the X-axis and Y-axis of any [!UICONTROL Line] visualization. 이 기능은 [!UICONTROL 선] 시각화가 더 작으면 특히 유용합니다.</li><li>모든 [!UICONTROL 선] 시각화에 최소 및 최대 값 레이블을 오버레이하여 지표의 최고점과 최저점을 빠르게 강조 표시할 수 있습니다.</li><li>모든 [!UICONTROL 선] 시각화에 서로 다른 회귀 트렌드 라인을 오버레이하여 데이터의 트렌드를 보다 쉽게 볼 수 있습니다. 옵션에는 [!UICONTROL 선형], [!UICONTROL 로그], [!UICONTROL 지수], [!UICONTROL 기능] 및 [!UICONTROL 이차]가 포함됩니다. </li></ul> [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-workspace/visualizations/line.html) |
 | Analysis Workspace 성능 도움말 페이지 | 2020년 10월 22일 | Analysis Workspace 성능 도움말 페이지에는 프로젝트 성능에 영향을 주는 다양한 요인과 최적화를 위한 팁에 대한 링크가 표시됩니다. [추가 정보](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
