@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b3ba9bfac88074b9dd5838acd086bade5a43b734
+source-git-commit: 4f7fd84dcf6c1edcee352fd1c7592d1a0f36ed36
 workflow-type: tm+mt
-source-wordcount: '6617'
+source-wordcount: '6619'
 ht-degree: 44%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 44%
 
 >[!NOTE]
 >
->문서가 Experience League으로 이동하고 있습니다. 10월 동안 모든 릴리스 노트, 기사, 비디오 및 자습서는 현재 위치에서 이동하며 Experience League의 일부로 `docs.adobe.com` 제공됩니다. 이렇게 하면 모든 학습, 자가 도움말, 역량 강화 및 커뮤니티 컨텐츠가 단일 위치에서 제공됩니다.Experience League. 이 변경 사항이 발생하면 모든 링크가 새 위치로 리디렉션되므로 아무 작업도 할 필요가 없습니다. 교정이 시작되면 릴리스 노트를 업데이트할 예정입니다.
+>Experience Cloud 설명서가 Experience League으로 이동합니다. 10월 동안 모든 릴리스 노트, 기사, 비디오 및 자습서는 현재 위치에서 이동하며 Experience League의 일부로 `docs.adobe.com` 제공됩니다. 이렇게 하면 모든 학습, 자가 도움말, 역량 강화 및 커뮤니티 컨텐츠가 단일 위치에서 제공됩니다.Experience League. 이 변경 사항이 발생하면 모든 링크가 새 위치로 리디렉션되므로 아무 작업도 할 필요가 없습니다. 교정이 시작되면 릴리스 노트를 업데이트할 예정입니다.
 
 ## ![아이콘](/assets/adobe.png) Adobe 시스템 상태 {#status}
 
