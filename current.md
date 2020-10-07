@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1e425034bd7ac32833d74b826562f9761b2c05d5
+source-git-commit: 0eba5dbf803e9eefd45065b942fe49258c4c1d32
 workflow-type: tm+mt
-source-wordcount: '6775'
-ht-degree: 43%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,13 +31,13 @@ ht-degree: 43%
 
 제품 출시 날짜는 다를 수 있습니다. 업데이트를 자주 확인하십시오.
 
-최신 업데이트: **2020년 10월 2일**
+최신 업데이트: **2020년 10월 7일**
 
 * [Adobe 시스템 상태](#status)
 * [Experience Cloud 서비스 및 관리](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) 및 [Customer Journey Analytics](#cust-journey) (2020년 10월 2일 업데이트)
+* [Analytics](#analytics) 및 [Customer Journey Analytics](#cust-journey) (2020년 10월 7일 업데이트)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -113,7 +113,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 릴리스 날짜: **2020년 10월 8일**
 
 * [Adobe Analytics의 새로운 기능](#aa-features)
-* [Customer Journey Analytics의 새로운 기능](#cust-journey)
+* [Customer Journey Analytics의 새로운 기능](#cust-journey) (2020년 10월 7일 업데이트)
 * [Media Analytics의 새로운 기능](#media-aa)
 * [Adobe Analytics의 수정 사항](#aa-fixes)
 * [Analytics 관리자에 대한 중요 공지](#aa-notices)
@@ -142,6 +142,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 | Analysis Workspace 성능 도움말 페이지 | 2020년 10월 22일 | Analysis Workspace 성능 도움말 페이지에는 프로젝트 성능에 영향을 주는 다양한 요인과 최적화를 위한 팁에 대한 링크가 표시됩니다. [추가 정보](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
 | [!UICONTROL 선] 시각화:평균 트렌드 라인 옵션 이동 | 2020년 10월 8일 | 이동 평균이 라인 시각화 트렌드 라인 설정에 추가되었습니다. 이동 평균은 지정된 이전 기간에 대한 평균을 계산하고 트렌드 라인 데이터 포인트로 사용한 다음 다음 기간으로 이동합니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | 채우기 제한 제거 | 2020년 10월 19일 | 이전에는 연결을 만드는 동안 최대 25억개의 행을 채울 수 있었습니다. Adobe는 크기에 상관없이 최대 13개월의 데이터를 채울 수 있는 채우기 제한을 제거합니다. |
+| CJA 필드 기반 스티칭 | 2020년 10월 30일 | CJA 필드 기반 스티칭을 사용하면 고객이 Adobe Experience Platform 데이터 레이크에서 다른 ID 네임스페이스에서 Adobe Analytics(또는 기타) 이벤트 데이터세트를 다시 키잉할 수 있습니다. 일반적으로 이것은 이벤트 데이터 세트를 쿠키 기반 ID에서 개인 기반 ID로 다시 키잉하는 것을 의미합니다. 이렇게, 재키된 데이터 세트는 CJA 연결에서 다른 사람 기반 데이터와 결합될 수 있으므로 Analysis Workspace에서 크로스 디바이스/크로스 채널 분석을 수행할 수 있습니다. |
 
 ### [!UICONTROL Media Analytics]의 새로운 기능 {#media-aa}
 
