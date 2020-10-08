@@ -5,15 +5,15 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 390f9884c84130f67cb494b6e30b473e122840d9
+source-git-commit: 40d088f169d1b0849a65ccfb42f3af8749005684
 workflow-type: tm+mt
-source-wordcount: '6860'
+source-wordcount: '6879'
 ht-degree: 42%
 
 ---
 
 
-# 조기 액세스 - Adobe Experience Cloud 릴리스 노트 - 2020년 10월
+# Adobe Experience Cloud 릴리스 노트 - 2020년 10월
 
 ![배너](/assets/experience-cloud-banner-3.png)
 
@@ -21,23 +21,19 @@ ht-degree: 42%
 
 >[!IMPORTANT]
 >
->이 페이지에는 출시 전 컨텐츠가 포함되어 있으며 계획된 출시 전에 변경될 수 있습니다.
+>이 페이지에는 특정 제품에 대한 시험판 컨텐츠가 포함될 수 있으며 릴리스 날짜 전에 변경될 수 있습니다. 업데이트를 자주 확인하십시오.
 
 >[!NOTE]
 >
 >예정된 릴리스에 대한 이메일 알림을 받으려면 [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html)에 가입하십시오.
 
-**릴리스 날짜: 2020년 10월 8일**
-
-제품 출시 날짜는 다를 수 있습니다. 업데이트를 자주 확인하십시오.
-
-최신 업데이트: **2020년 10월 7일**
+최신 업데이트: **2020년 10월 8일**
 
 * [Adobe 시스템 상태](#status)
 * [Experience Cloud 서비스 및 관리](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) 및 [Customer Journey Analytics](#cust-journey) (2020년 10월 7일 업데이트)
+* [Analytics](#analytics) 및 [Customer Journey Analytics](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -74,7 +70,7 @@ ht-degree: 42%
 
 릴리스 노트를 참조하십시오 [!DNL Experience Platform].
 
-릴리스 날짜: **2020년 9월 9일**
+릴리스: **2020년 9월 9일**
 
 업데이트에 대한 자세한 내용은 [Experience Platform 릴리스 노트를](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md) 참조하십시오.
 
@@ -110,7 +106,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 ## ![아이콘](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
 
-릴리스 날짜: **2020년 10월 8일**
+릴리스 날짜:2020년 10 **월 8일 종료**
 
 * [Adobe Analytics의 새로운 기능](#aa-features)
 * [Customer Journey Analytics의 새로운 기능](#cust-journey) (2020년 10월 7일 업데이트)
@@ -208,7 +204,7 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [JavaScript용 AppMeas
 
 Audience Manager의 새로운 기능, 수정 사항, 설명서 및 자습서.
 
-릴리스 날짜: **2020년 10월 8일**
+릴리스 날짜:2020년 10 **월 8일 종료**
 
 ### Adobe Audience Manager의 새로운 기능 및 수정 사항
 
@@ -234,6 +230,10 @@ Audience Manager에 대해 게시된 새로운 비디오, 자습서 또는 교�
 ## ![아이콘](/assets/aem.png) Adobe Experience Manager {#aem}
 
 Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니다. 안정성, 보안 및 성능 향상을 위해 최신 패치를 배포하려는 경우 온-프레미스 배포를 사용하는 것이 좋습니다.
+
+>[!NOTE]
+>
+>Adobe은 릴리스 정보를 최신 상태로 유지하려면 [Experience Manager 릴리스 업데이트 및 로드맵을](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/home.html) 자주 방문할 것을 권장합니다.
 
 ### 제품 릴리스
 
@@ -435,7 +435,7 @@ Adobe Advertising Cloud에 대한 릴리스 정보입니다.
 
 ### [!UICONTROL Advertising Cloud Search]의 새로운 기능{#adcloud-search}
 
-**8월 8일** 릴리스
+릴리스 날짜: **2020년 8월 8일**
 
 | 기능 | 설명 |
 | ----------- | ---------- |
