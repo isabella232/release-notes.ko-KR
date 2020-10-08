@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 0eba5dbf803e9eefd45065b942fe49258c4c1d32
+source-git-commit: 390f9884c84130f67cb494b6e30b473e122840d9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '6860'
+ht-degree: 42%
 
 ---
 
@@ -360,6 +360,7 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 
 모든 Experience Manager 릴리스 정보는 다음 페이지에서 유지 관리됩니다.
 
+* [Experience Manager 릴리스 업데이트 및 로드맵](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/home.html)
 * [Cloud Service로서의 AEM 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/release-notes/home.html)
 * [AEM Cloud Manager 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-manager/using/release-notes/release-notes-current.html)
 * [자동 양식 전환 서비스 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/aem-forms-automated-conversion-service/using/release-notes.html)
