@@ -4,11 +4,11 @@ description: Adobe Experience Cloud 릴리스 정보
 doc-type: release notes
 last-update: October 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a2db056a8aebdd0db0a9526b667c29b52a806b41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6870'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 92%
 
 >[!IMPORTANT]
 >
->이 페이지에는 특정 제품에 대한 시험판 컨텐츠가 포함될 수 있으며 릴리스 날짜 전에 변경될 수 있습니다. 업데이트를 자주 확인하십시오.
+>이 페이지에는 특정 제품에 대한 출시 전 릴리스 컨텐츠가 포함될 수 있으며 릴리스 날짜 전에 변경될 수 있습니다. 업데이트를 자주 확인하십시오.
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->Experience Cloud 설명서가 Experience League으로 이동합니다. 10월 동안 모든 릴리스 노트, 기사, 비디오 및 자습서는 현재 위치에서 Experience League으로 이동합니다 `docs.adobe.com` . 이렇게 하면 모든 학습, 자가 도움말, 역량 강화 및 커뮤니티 콘텐츠가 한 곳에서 제공됩니다. 이 변경 사항이 발생하면 모든 링크가 Experience League으로 리디렉션되므로 필요한 작업이 없습니다. 교정이 시작되면 릴리스 노트를 업데이트할 예정입니다.
+>Experience Cloud 설명서가 Experience League로 이전 중입니다. 10월에는 모든 릴리스 노트, 기사, 비디오 및 자습서가 `docs.adobe.com`의 현재 위치에서 Experience League로 이전됩니다. 이렇게 하면 모든 학습, 사용자 도움말, 사용 여부 및 커뮤니티 컨텐츠가 한 곳에서 제공됩니다. 이 변경 사항이 발생하면 모든 링크가 Experience League로 리디렉션되므로 필요한 작업이 없습니다. 컷오버가 시작되면 릴리스 노트를 업데이트할 예정입니다.
 
 ## ![아이콘](/assets/adobe.png) Adobe 시스템 상태 {#status}
 
@@ -64,7 +64,7 @@ ht-degree: 92%
 
 9월에 업데이트되지 않았습니다.
 
-최신 릴리스 정보는 [Experience Cloud 서비스에](https://docs.adobe.com/content/help/ko-KR/core-services/interface/release-notes/release-notes.html) 대한 누적 릴리스 노트를 참조하십시오.
+최신 릴리스 정보는 [Experience Cloud 서비스의 누적 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/core-services/interface/release-notes/release-notes.html)를 참조하십시오.
 
 ## ![아이콘](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
@@ -106,7 +106,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 ## ![아이콘](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
 
-릴리스 날짜:2020년 10 **월 8일 종료**
+릴리스 날짜: **2020년 10월 8일** 끝
 
 * [Adobe Analytics의 새로운 기능](#aa-features)
 * [Customer Journey Analytics의 새로운 기능](#cust-journey) (2020년 10월 7일 업데이트)
@@ -120,7 +120,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ------- |
-| Adobe Analytics 설명서 | 2020년 10월 일 | Adobe Analytics 설명서가 Experience League으로 이동합니다. 10월 동안 모든 아티클, 비디오, 릴리스 노트 및 자습서는 현재 위치에서 `docs.adobe.com` 로 이동합니다 `experienceleague.adobe.com`. 이렇게 하면 모든 학습, 자가 도움말, 역량 강화 및 커뮤니티 콘텐츠가 한 곳에서 제공됩니다. 이 변경 사항이 발생하면 모든 링크가 Experience League으로 리디렉션되므로 필요한 작업이 없습니다. 교정이 시작되면 릴리스 노트를 업데이트할 예정입니다. |
+| Adobe Analytics 설명서 | 2020년 10월 | Adobe Analytics 설명서가 Experience League로 이전 중입니다. 10월에는 모든 기사, 비디오, 릴리스 노트 및 자습서가 `docs.adobe.com`의 현재 위치에서 `experienceleague.adobe.com`로 이전됩니다. 이렇게 하면 모든 학습, 사용자 도움말, 사용 여부 및 커뮤니티 컨텐츠가 한 곳에서 제공됩니다. 이 변경 사항이 발생하면 모든 링크가 Experience League로 리디렉션되므로 필요한 작업이 없습니다. 컷오버가 시작되면 릴리스 노트를 업데이트할 예정입니다. |
 | [!UICONTROL 작업 영역]: 단일 차원에 맞는 5만개의 항목 다운로드 | 2020년 9월 17일 | 세그먼트와 필터가 적용된 자유 형식 테이블의 단일 차원에 대한 50,000개의 항목을 다운로드할 수 있습니다. 이렇게 하면 Analysis Workspace 외부에 있는 400개 이상의 데이터 행에 액세스할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) |
 | 작업 영역: [!UICONTROL 선] 시각화 개선 사항 | 2020년 9월 17일 | <ul><li>모든 [!UICONTROL 선] 시각화의 X축 및 Y축을 표시하거나 숨길 수 있습니다. 이 기능은 [!UICONTROL 선] 시각화가 더 작으면 특히 유용합니다.</li><li>모든 [!UICONTROL 선] 시각화에 최소 및 최대 값 레이블을 오버레이하여 지표의 최고점과 최저점을 빠르게 강조 표시할 수 있습니다.</li><li>모든 [!UICONTROL 선] 시각화에 서로 다른 회귀 트렌드 라인을 오버레이하여 데이터의 트렌드를 보다 쉽게 볼 수 있습니다. 옵션에는 [!UICONTROL 선형], [!UICONTROL 로그], [!UICONTROL 지수], [!UICONTROL 기능] 및 [!UICONTROL 이차]가 포함됩니다. </li></ul> [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | [!UICONTROL 작업 영역]: 성능 도움말 페이지 | 2020년 10월 22일 | Analysis Workspace 성능 도움말 페이지에는 프로젝트 성능에 영향을 주는 다양한 요인과 최적화를 위한 팁의 링크가 표시됩니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
@@ -132,13 +132,13 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ----- |
-| 고객 여정 분석 설명서 | 2020년 10월 일 | Customer Journey Analytics 설명서가 Experience League으로 이동합니다. 10월 동안 모든 아티클, 비디오, 릴리스 노트 및 자습서는 현재 위치에서 `docs.adobe.com` 로 이동합니다 `experienceleague.adobe.com`. 이렇게 하면 모든 학습, 자가 도움말, 역량 강화 및 커뮤니티 콘텐츠가 한 곳에서 제공됩니다. 이 변경 사항이 발생하면 모든 링크가 Experience League으로 리디렉션되므로 필요한 작업이 없습니다. 교정이 시작되면 릴리스 노트를 업데이트할 예정입니다. |
-| [!UICONTROL 작업 영역]: 단일 차원에 맞는 5만개의 항목 다운로드 | 2020년 9월 17일 | 세그먼트와 필터가 적용된 자유 형식 테이블의 단일 차원에 대한 50,000개의 항목을 다운로드할 수 있습니다. 이렇게 하면 Analysis Workspace 외부에 있는 400개 이상의 데이터 행에 액세스할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/download-send.html) |
+| 고객 여정 분석 설명서 | 2020년 10월 | Customer Journey Analytics 설명서가 Experience League로 이전 중입니다. 10월에는 모든 기사, 비디오, 릴리스 노트 및 자습서가 `docs.adobe.com`의 현재 위치에서 `experienceleague.adobe.com`로 이전됩니다. 이렇게 하면 모든 학습, 사용자 도움말, 사용 여부 및 커뮤니티 컨텐츠가 한 곳에서 제공됩니다. 이 변경 사항이 발생하면 모든 링크가 Experience League로 리디렉션되므로 필요한 작업이 없습니다. 컷오버가 시작되면 릴리스 노트를 업데이트할 예정입니다. |
+| [!UICONTROL 작업 영역]: 단일 차원에 맞는 5만개의 항목 다운로드 | 2020년 9월 17일 | 세그먼트와 필터가 적용된 자유 형식 테이블의 단일 차원에 대한 50,000개의 항목을 다운로드할 수 있습니다. 이렇게 하면 Analysis Workspace 외부에 있는 400개 이상의 데이터 행에 액세스할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-workspace/curate-share/download-send.html) |
 | 작업 영역: [!UICONTROL 선] 시각화 개선 사항 | 2020년 9월 17일 | <ul><li>모든 [!UICONTROL 선] 시각화의 X축 및 Y축을 표시하거나 숨길 수 있습니다. 이 기능은 [!UICONTROL 선] 시각화가 더 작으면 특히 유용합니다.</li><li>모든 [!UICONTROL 선] 시각화에 최소 및 최대 값 레이블을 오버레이하여 지표의 최고점과 최저점을 빠르게 강조 표시할 수 있습니다.</li><li>모든 [!UICONTROL 선] 시각화에 서로 다른 회귀 트렌드 라인을 오버레이하여 데이터의 트렌드를 보다 쉽게 볼 수 있습니다. 옵션에는 [!UICONTROL 선형], [!UICONTROL 로그], [!UICONTROL 지수], [!UICONTROL 기능] 및 [!UICONTROL 이차]가 포함됩니다. </li></ul> [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-workspace/visualizations/line.html) |
 | Analysis Workspace 성능 도움말 페이지 | 2020년 10월 22일 | Analysis Workspace 성능 도움말 페이지에는 프로젝트 성능에 영향을 주는 다양한 요인과 최적화를 위한 팁의 링크가 표시됩니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
 | [!UICONTROL 선] 시각화: 이동 평균 트렌드 라인 옵션 | 2020년 10월 8일 | 이동 평균이 선 시각화 트렌드 라인 설정에 추가되었습니다. 이동 평균은 지정된 이전 기간에 대한 평균을 계산하고 트렌드 라인 데이터 포인트로 사용한 후 다음 기간으로 이동합니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | 채우기 제한 제거 | 2020년 10월 19일 | 이전에는 연결을 만드는 동안 최대 25억개의 행을 채울 수 있었습니다. Adobe는 채우기 제한을 제거하고 크기에 상관없이 최대 13개월의 데이터를 채울 수 있도록 합니다. |
-| CJA 필드 기반 스티칭 | 2020년 10월 30일 | CJA 필드 기반 스티칭을 사용하면 고객이 Adobe Experience Platform 데이터 레이크에서 다른 ID 네임스페이스에서 Adobe Analytics(또는 기타) 이벤트 데이터세트를 다시 키잉할 수 있습니다. 일반적으로 이것은 이벤트 데이터 세트를 쿠키 기반 ID에서 개인 기반 ID로 다시 키잉하는 것을 의미합니다. 이렇게, 재키된 데이터 세트는 CJA 연결에서 다른 사람 기반 데이터와 결합될 수 있으므로 Analysis Workspace에서 크로스 디바이스/크로스 채널 분석을 수행할 수 있습니다. |
+| CJA 필드 기반 스티칭 | 2020년 10월 30일 | CJA 필드 기반 스티칭을 사용하면 고객이 하나의 ID 네임스페이스에서 다른 ID 네임스페이스로 Adobe Experience Platform 데이터 레이크에서 Adobe Analytics(또는 기타) 이벤트 데이터 세트를 다시 키 대조할 수 있습니다. 일반적으로 이는 이벤트 데이터 세트를 쿠키 기반 ID에서 개인 기반 ID로 다시 키 대조하는 것을 의미합니다. 이 방법을 통해 다시 키 대조된 데이터 세트는 CJA 연결에서 다른 사람 기반 데이터와 결합될 수 있으므로 Analysis Workspace에서 교차 장치/교차 채널 분석을 수행할 수 있습니다. |
 
 ### [!UICONTROL Media Analytics]의 새로운 기능 {#media-aa}
 
@@ -204,7 +204,7 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [JavaScript용 AppMeas
 
 Audience Manager의 새로운 기능, 수정 사항, 설명서 및 자습서.
 
-릴리스 날짜:2020년 10 **월 8일 종료**
+릴리스 날짜: **2020년 10월 8일** 종료
 
 ### Adobe Audience Manager의 새로운 기능 및 수정 사항
 
@@ -233,7 +233,7 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 
 >[!NOTE]
 >
->Adobe은 릴리스 정보를 최신 상태로 유지하려면 [Experience Manager 릴리스 업데이트 및 로드맵을](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/home.html) 자주 방문할 것을 권장합니다.
+>Adobe는 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Manager 릴리스 업데이트 및 로드맵](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/home.html)을 자주 방문할 것을 권장합니다.
 
 ### 제품 릴리스
 
@@ -293,11 +293,11 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 
 **[!DNL Experience Manager]사이트**
 
-리치 텍스트 편집기 설명서가 RTE의 링크 [에 대해 지원되는 모든 프로토콜을 나열하도록 업데이트됩니다](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html#linkstyles).
+리치 텍스트 편집기 설명서가 [RTE의 링크에 대해 지원되는 모든 프로토콜](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html#linkstyles)을 나열하도록 업데이트됩니다.
 
 **[!DNL Experience Manager]자산**
 
-* 모든 사용자가 AEM Assets에 액세스할 수 [있는](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/accessibility.html) 방법에 대한 새로운 도움말 내용을 사용할 수 있습니다.
+* 모든 사용자가 [AEM Assets에 액세스할 수 있는 방법](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/assets/accessibility.html)에 대한 새로운 도움말 컨텐츠을 사용할 수 있습니다.
 
 * **[보기 모드 매개 변수](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/assets/using/search-assets.html#assetpicker)**&#x200B;가 자산 선택기(자산 피커)에 추가되어 검색 모드에서 자산 선택기를 엽니다. 검색 모드에서 자산 선택기를 열고 `assettype` 및 `mimetype`과 함께 사용하려면 사용자가 URL `https://[aem-server]:[port]/aem/assetpicker.html`의 `viewmode=search` 매개 변수를 접미사로 붙여야 합니다. 예, `https://[aem-server]:[port]/aem/assetpicker.html?viewmode=search&assettype=images`.
 
@@ -309,11 +309,11 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 
 * [자산 이동](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/assets/managing/managing-assets-touch-ui.html#moving-or-renaming-assets) 마법사를 여는 [!UICONTROL 이동(m)] 작업과 별도로 사용하여 [!UICONTROL 드래그 작업을 사용하여 자산을 동위 폴더로 이동]할 수 있습니다.
 
-* 자산 인사이트의 경우 [Adobe 시작을 사용하십시오](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/advanced/asset-insights-launch-tutorial.html). [DTM 통합](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/touch-ui-using-dtm-for-asset-insights.html) 기능은 문서에서 더 이상 사용되지 않는 메서드로 호출됩니다.
+* Assets Insights의 경우 [Adobe Launch](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/advanced/asset-insights-launch-tutorial.html)를 사용합니다. [DTM 통합](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/assets/managing/touch-ui-using-dtm-for-asset-insights.html)은 문서에서 더 이상 사용되지 않는 메서드로 호출됩니다.
 
 **[!DNL Adobe Experience Manager]데스크탑 앱**
 
-* Users logging in to desktop app after logging out or logging in for the first time should provide their [!DNL Experience Manager] server URL in the format `https://[aem-server-url]:[port]/` and then select [!UICONTROL Connect] option, to avoid the error &quot;The application encountered an unknown error&quot;. 자세한 내용은 [Adobe Experience Manager 데스크탑 앱 사용](https://docs.adobe.com/content/help/ko-KR/experience-manager-desktop-app/using/using.html)을 참조하십시오.
+* 처음 로그아웃하거나 로그인한 후에 데스크탑 앱에 로그인하는 사용자는 [!DNL Experience Manager] 서버 URL을 `https://[aem-server-url]:[port]/` 형식으로 제공한 다음 [!UICONTROL Connect] 옵션을 선택하여 &quot;응용 프로그램에서 알 수 없는 오류가 발생했습니다&quot;라는 오류를 방지해야 합니다. 자세한 내용은 [Adobe Experience Manager 데스크탑 앱 사용](https://docs.adobe.com/content/help/ko-KR/experience-manager-desktop-app/using/using.html)을 참조하십시오.
 
 ### 커뮤니티
 
@@ -409,7 +409,7 @@ Campaign Classic, Campaign Standard 및 컨트롤 패널에 대한 릴리스 정
 | ----------- | ----------- | ---------- | ---------- |
 | 2020년 9월 22일 | [Journey AI - 예측 전송 시간 최적화 - 비디오](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html) | Campaign Standard | Adobe Campaign과 여정 AI 모델 간의 데이터를 동기화하는 데 필요한 워크플로우를 파악할 수 있습니다. 개별 프로필 수준에서 전송 시간 점수를 보는 방법 및 전송 시간 수식을 사용하여 이메일 게재 실행 방법을 알아봅니다. |
 | 2020년 9월 22일 | [Journey AI - 예측 참여 점수 - 비디오](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html) | Campaign Standard | 개별 프로필 수준에서 참여 점수를 보고, 참여 사용자 타겟팅 및 피로도가 높은 사용자를 알아보기 위해 점수를 사용하고 분류 규칙을 만들어 고객 피로도를 관리하는 방법을 알아봅니다. |
-| 2020년 9월 22일 | [게재에 제어 그룹 추가 - 비디오](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html) | Campaign Standard | 게재하기 위해 컨트롤 그룹 정의 방법 및 게재한 후 컨트롤 그룹에 지정된 프로필을 추출하는 방법을 알아봅니다. |
+| 2020년 9월 22일 | [전송에 제어 그룹 추가 - 비디오](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html) | Campaign Standard | 게재하기 위해 컨트롤 그룹 정의 방법 및 게재한 후 컨트롤 그룹에 지정된 프로필을 추출하는 방법을 알아봅니다. |
 | 2020년 9월 11일 | [하위 도메인 위임](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/administrating/control-panel-acc/subdomain-delegation.html) | Campaign Classic | Adobe Campaign 컨트롤 패널을 사용하면 하위 도메인을 Adobe Campaign에 완전히 위임할 수 있습니다. |
 | 2020년 9월 3일 | [허용 목록에 IP 주소 추가](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/administrating/control-panel-acc/ip-allow-listing.html) | Campaign Classic | Campaign 컨트롤 패널을 사용하면 IP 주소 범위를 허용 목록에 추가하여 인스턴스에 새 연결을 설정할 수 있습니다. 기본적으로는 여러 IP 주소에서 Adobe Campaign Classic 인스턴스에 액세스할 수 없습니다. |
 | 2020년 9월 3일 | [컨트롤 패널 - URL 권한 추가](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/adding-url-permissions.html) | Campaign Classic | Campaign 컨트롤 패널을 사용하면 IP 주소 범위를 허용 목록에 추가하여 인스턴스에 새 연결을 설정할 수 있습니다. 기본적으로는 여러 IP 주소에서 Adobe Campaign Classic 인스턴스에 액세스할 수 없습니다. |
