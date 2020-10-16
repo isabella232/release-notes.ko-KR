@@ -2,13 +2,13 @@
 cloud: experience-cloud
 product: Experience Cloud
 user-guide-title: Adobe Experience Cloud 릴리스 정보
-breadcrumb-title: Release Notes Guide
-user-guide-description: Learn about new features, fixes, and important notices in Adobe Experience Cloud.
+breadcrumb-title: 릴리스 노트 안내서
+user-guide-description: Adobe Experience Cloud의 새로운 기능, 수정 사항 및 중요 공지 사항에 대해 알아봅니다.
 user-guide-url: https://www.adobe.com
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e6add243b6c74b59f138543c460d55817bddf761
-workflow-type: ht
-source-wordcount: '90'
+workflow-type: tm+mt
+source-wordcount: '105'
 ht-degree: 100%
 
 ---
