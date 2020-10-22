@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: a2db056a8aebdd0db0a9526b667c29b52a806b41
+source-git-commit: 15322b62554e6ef8b5100ee43a231f59b3dd20a7
 workflow-type: tm+mt
-source-wordcount: '6870'
-ht-degree: 100%
+source-wordcount: '6828'
+ht-degree: 97%
 
 ---
 
@@ -427,21 +427,25 @@ Adobe Advertising Cloud에 대한 릴리스 정보입니다.
 * [Advertising Cloud DSP의 새로운 기능](#adcloud-dsp)
 * [Advertising Cloud Search의 새로운 기능](#adcloud-search)
 
-### [!UICONTROL Advertising Cloud DSP]의 새로운 기능 {#adcloud-dsp}
+### [!DNL Advertising Cloud DSP] {#adcloud-dsp} 의 새로운 기능
+
+릴리스 날짜: 2020년 10월 15일
 
 | 기능 | 설명 |
 | -----------| ---------- |
-| VAST 인벤토리를 포함하는 대화형 프리롤 확장 | 각 대화형 프리롤 배치 및 광고는 이제 VPAID와 VAST 인벤토리를 모두 지원할 수 있습니다. **참고:** 기본 KPI가 보기 가능 상태인 경우 VAST 광고에 볼 수 있는 노출 수가 없기 때문에 VPAID와 VAST 배치 및 광고를 계속 만들 수 있습니다. |
+| 비공개 인벤토리 | 이제 모든 사용자는 기존 [!UICONTROL 스마트 광고 서비스 양식의 간소화된 버전인 새로운 거래 ID 양식을 사용하여 거래 ID 세부 사항을 설정하고 편집할 수] 있습니다. 새 거래 ID 세부 사항을 설정하려면 **[!UICONTROL 재고 > 거래로]**&#x200B;이동하여 **[!UICONTROL 만들기를]**&#x200B;클릭한 다음 **[!UICONTROL 거래 ID 베타]**&#x200B;를 클릭합니다. |
+| 배치 예측 | 배치 수준 서열이 있는 배치의 경우 배치 설정의 [!UICONTROL 예측] 섹션에는 현재 타깃팅 구성을 사용하여 사용할 수 있는 용량 [!UICONTROL 이 얼마나 더 많은지] 나타내는 새로운 예상 최대 수 섹션이 포함됩니다. |
 
-### [!UICONTROL Advertising Cloud Search]의 새로운 기능{#adcloud-search}
+### [!DNL Advertising Cloud Search] {#adcloud-search} 의 새로운 기능
 
-릴리스 날짜: **2020년 8월 8일**
+릴리스 날짜: 2020년 10월 17일
 
 | 기능 | 설명 |
-| ----------- | ---------- |
-| [!UICONTROL 포트폴리오] | 포트폴리오 설정에서 포트폴리오 수준 위치 제한을 더 이상 사용할 수 없습니다. 이전에 만든 모든 위치 제한이 제거되었습니다. |
-| [!UICONTROL 제한] | 위치 기반 제한 및 제한 조건은 더 이상 지원되지 않습니다.<br/> <ul><li>[!UICONTROL 최소 게시물] 및 [!UICONTROL 최대 게시물] 제한을 더 이상 사용할 수 없으며 이전에 만든 모든 [!UICONTROL 입찰 및 위치] 제한 및 [!UICONTROL 노출 공유] 제한에서 제거되었습니다. </li><li>위치 제한을 포함하지만 입찰 제한은 없는 기존 [!UICONTROL 입찰 및 위치] 제한이 중단되었습니다. UI와 보고서에서 계속 사용할 수 있습니다.</li><li>[!UICONTROL 입찰 및 위치 제한의 이름이 입찰 제한으로 변경되었습니다.]</li><li>제한 유형의 모든 위치 기반 조건([!UICONTROL 평균 위치], [!UICONTROL 가중 평균 위치] 또는 [!UICONTROL 마지막 알려진 게시물] 지표 사용)이 제거되었습니다.</li></ul> <br/> **참고:** 위치 데이터는 검색 엔진에서 사용할 수 있는 한 계속 작성됩니다. Microsoft Ads는 2020년 9월에 서비스 중단됩니다. |
-| [!UICONTROL 캠페인] | (Google 광고 캠페인) 이제 Advertising Cloud Search에서 반응형 검색 광고(RSA)를 통해 광고 고객을 지원합니다. 이전에는 RSA를 제외한 모든 광고 유형에서 지원되었습니다. |
+| -----------| ---------- |
+| 캠페인 검색 | 계정  보기에서  액세스 [!DNL Advertising Cloud Search] 열은 활성화된 검색 엔진 계정에 로그인할 수 없는 시기를 표시합니다. 오류 원인을 보려면 경고 아이콘 위에 커서를 놓습니다. |
+| [!UICONTROL 사용자 지정 경고] | 이전의 [!UICONTROL 경고 베타를 사용자 지정 경고라고] [!UICONTROL 합니다]. |
+|  | 사용자 지정 경고에서 지정된 날짜 범위의 지표가 이전 기간의 지표에서 증가하거나 감소된 시기를 식별하는 워크플로우가 간소화되고 필터 [!UICONTROL 탭으로] 이동했습니다. |
+
 
 ## ![아이콘](/assets/magento.png) [!DNL Magento] {#magento}
 
