@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 15322b62554e6ef8b5100ee43a231f59b3dd20a7
+source-git-commit: e2e01fa323e54614f8b5719252e672183dbb006d
 workflow-type: tm+mt
-source-wordcount: '6828'
-ht-degree: 97%
+source-wordcount: '6918'
+ht-degree: 96%
 
 ---
 
@@ -204,9 +204,15 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [JavaScript용 AppMeas
 
 Audience Manager의 새로운 기능, 수정 사항, 설명서 및 자습서.
 
-릴리스 날짜: **2020년 10월 8일** 종료
+업데이트 날짜:**2020년 10월 22일**
 
-### Adobe Audience Manager의 새로운 기능 및 수정 사항
+### Audience Manager의 새로운 기능, 개선 사항 및 수정 사항 {#aam-features}
+
+| 기능 | 추가 또는 업데이트 날짜 | 설명 |
+|----|----|----|
+| [Predictive Audiences](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html) | 2020년 10월 21일 | <ul><li>**예측 대상 모델 복제**:이제 기존 모델을 복제하고 필요에 따라 구성을 변경할 수 있습니다. 자세한 내용은 [예측 대상 모델](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences-start.html#clone-predictive-audiences) 복제 및 편집을 참조하십시오.</li><li>**예측 대상 일괄 분류**:예측 대상은 실시간으로 개별 성향으로 방문자를 분류하는 것 외에도 배치 분류를 지원하므로 온보드 사용자를 분류하고 배치 대상으로 활성화할 수 있습니다.</li></ul> |
+
+### 수정 사항 및 향상된 기능 {#aam-fixes-and-improvements}
 
 * 요청에서 특성을 필터링할 때 특성 종단점이 장치 간 지표를 반환하지 않는 Audience Manager REST API 관련 문제를 수정했습니다. (AAM-55878)
 * Facebook 통합 액세스 토큰 만료 알림 이메일이 올바른 수신자에게 전송되지 않는 사람 기반 대상의 문제를 수정했습니다. (AAM-56215)
@@ -445,7 +451,6 @@ Adobe Advertising Cloud에 대한 릴리스 정보입니다.
 | 캠페인 검색 | 계정  보기에서  액세스 [!DNL Advertising Cloud Search] 열은 활성화된 검색 엔진 계정에 로그인할 수 없는 시기를 표시합니다. 오류 원인을 보려면 경고 아이콘 위에 커서를 놓습니다. |
 | [!UICONTROL 사용자 지정 경고] | 이전의 [!UICONTROL 경고 베타를 사용자 지정 경고라고] [!UICONTROL 합니다]. |
 |  | 사용자 지정 경고에서 지정된 날짜 범위의 지표가 이전 기간의 지표에서 증가하거나 감소된 시기를 식별하는 워크플로우가 간소화되고 필터 [!UICONTROL 탭으로] 이동했습니다. |
-
 
 ## ![아이콘](/assets/magento.png) [!DNL Magento] {#magento}
 
