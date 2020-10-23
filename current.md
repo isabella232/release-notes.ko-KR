@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: e2e01fa323e54614f8b5719252e672183dbb006d
 workflow-type: tm+mt
 source-wordcount: '6918'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -433,24 +433,24 @@ Adobe Advertising Cloud에 대한 릴리스 정보입니다.
 * [Advertising Cloud DSP의 새로운 기능](#adcloud-dsp)
 * [Advertising Cloud Search의 새로운 기능](#adcloud-search)
 
-### [!DNL Advertising Cloud DSP] {#adcloud-dsp} 의 새로운 기능
+### [!DNL Advertising Cloud DSP] {#adcloud-dsp}의 새로운 기능
 
 릴리스 날짜: 2020년 10월 15일
 
 | 기능 | 설명 |
 | -----------| ---------- |
-| 비공개 인벤토리 | 이제 모든 사용자는 기존 [!UICONTROL 스마트 광고 서비스 양식의 간소화된 버전인 새로운 거래 ID 양식을 사용하여 거래 ID 세부 사항을 설정하고 편집할 수] 있습니다. 새 거래 ID 세부 사항을 설정하려면 **[!UICONTROL 재고 > 거래로]**&#x200B;이동하여 **[!UICONTROL 만들기를]**&#x200B;클릭한 다음 **[!UICONTROL 거래 ID 베타]**&#x200B;를 클릭합니다. |
-| 배치 예측 | 배치 수준 서열이 있는 배치의 경우 배치 설정의 [!UICONTROL 예측] 섹션에는 현재 타깃팅 구성을 사용하여 사용할 수 있는 용량 [!UICONTROL 이 얼마나 더 많은지] 나타내는 새로운 예상 최대 수 섹션이 포함됩니다. |
+| 비공개 인벤토리 | 이제 모든 사용자는 기존 [!UICONTROL 스마트 광고 서비스 제공] 양식의 간소화된 버전인 새로운 거래 ID 양식을 사용하여 거래 ID 세부 사항을 설정하고 편집할 수 있습니다. 새 거래 ID 세부 사항을 설정하려면 **[!UICONTROL 인벤토리 > 거래]**&#x200B;로 이동하여 **[!UICONTROL 만들기]**&#x200B;를 클릭한 다음 **[!UICONTROL 거래 ID 베타]**&#x200B;를 클릭합니다. |
+| 배치 예측 | 배치 수준 게재 간격이 있는 배치의 경우, 배치 설정의 [!UICONTROL 예측] 섹션에는 현재 타겟팅 구성으로 사용할 수 있는 용량이 얼마나 더 많은지를 나타내는 새 [!UICONTROL 예상 최대 수] 섹션이 포함됩니다. |
 
-### [!DNL Advertising Cloud Search] {#adcloud-search} 의 새로운 기능
+### [!DNL Advertising Cloud Search] {#adcloud-search}의 새로운 기능
 
 릴리스 날짜: 2020년 10월 17일
 
 | 기능 | 설명 |
 | -----------| ---------- |
-| 캠페인 검색 | 계정  보기에서  액세스 [!DNL Advertising Cloud Search] 열은 활성화된 검색 엔진 계정에 로그인할 수 없는 시기를 표시합니다. 오류 원인을 보려면 경고 아이콘 위에 커서를 놓습니다. |
-| [!UICONTROL 사용자 지정 경고] | 이전의 [!UICONTROL 경고 베타를 사용자 지정 경고라고] [!UICONTROL 합니다]. |
-|  | 사용자 지정 경고에서 지정된 날짜 범위의 지표가 이전 기간의 지표에서 증가하거나 감소된 시기를 식별하는 워크플로우가 간소화되고 필터 [!UICONTROL 탭으로] 이동했습니다. |
+| 캠페인 검색 | [!UICONTROL 계정] 보기에서 [!UICONTROL 액세스] 열은 이제 [!DNL Advertising Cloud Search]이(가) 활성화된 검색 엔진 계정에 로그인할 수 없는 시기를 표시합니다. 오류 원인을 보려면 경고 아이콘 위에 커서를 놓습니다. |
+| [!UICONTROL 사용자 지정 경고] | 이전의 [!UICONTROL 경고 베타]는 이제 [!UICONTROL 사용자 지정 경고]로 명칭이 바뀌었습니다. |
+|  | 사용자 지정 경고에서 지정된 날짜 범위의 지표가 이전 기간의 지표에서 증가하거나 감소된 시기를 식별하는 워크플로우가 간소화되었으며 [!UICONTROL 필터] 탭으로 위치가 변경되었습니다. |
 
 ## ![아이콘](/assets/magento.png) [!DNL Magento] {#magento}
 
