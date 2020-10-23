@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e2e01fa323e54614f8b5719252e672183dbb006d
+source-git-commit: c1750aa7321e0eb6b929119f5c22101772af5a68
 workflow-type: tm+mt
-source-wordcount: '6918'
-ht-degree: 98%
+source-wordcount: '7000'
+ht-degree: 97%
 
 ---
 
@@ -204,13 +204,14 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [JavaScript용 AppMeas
 
 Audience Manager의 새로운 기능, 수정 사항, 설명서 및 자습서.
 
-업데이트 날짜:**2020년 10월 22일**
+업데이트 날짜:**2020년 10월 23일**
 
 ### Audience Manager의 새로운 기능, 개선 사항 및 수정 사항 {#aam-features}
 
 | 기능 | 추가 또는 업데이트 날짜 | 설명 |
 |----|----|----|
 | [Predictive Audiences](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html) | 2020년 10월 21일 | <ul><li>**예측 대상 모델 복제**:이제 기존 모델을 복제하고 필요에 따라 구성을 변경할 수 있습니다. 자세한 내용은 [예측 대상 모델](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences-start.html#clone-predictive-audiences) 복제 및 편집을 참조하십시오.</li><li>**예측 대상 일괄 분류**:예측 대상은 실시간으로 개별 성향으로 방문자를 분류하는 것 외에도 배치 분류를 지원하므로 온보드 사용자를 분류하고 배치 대상으로 활성화할 수 있습니다.</li></ul> |
+| [보고서 겹치기](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/interactive-and-overlap-reports/dynamic-reports.html) | 2020년 10월 23일 | 겹치기 보고서(트레이트 대 트레이트[,](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/interactive-and-overlap-reports/trait-trait-overlap-report.html)세그먼트 대 트레이트 [,](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/interactive-and-overlap-reports/segment-trait-overlap-report.html)세그먼트 대 세그먼트 [)를 계산하는 데 사용하는 방법을 업데이트했습니다](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/interactive-and-overlap-reports/segment-segment-overlap-report.html). 겹치기 보고서 계산은 이제 보고 고유 및 MinHash 서명( [1/54 데이터 샘플링](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/report-sampling.html#data-sampling-ratio)대신)을 기반으로 합니다. |
 
 ### 수정 사항 및 향상된 기능 {#aam-fixes-and-improvements}
 
