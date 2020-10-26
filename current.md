@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 684a0b00a2f2bdb2f7c92ca0b0552bc18fc8c19f
+source-git-commit: dba5bf9afced03536adb857f879bd1df349ebbbc
 workflow-type: tm+mt
 source-wordcount: '6960'
 ht-degree: 71%
@@ -56,7 +56,7 @@ ht-degree: 71%
 
 업데이트되지 않았습니다.
 
-최신 릴리스 정보는 [Adobe 시스템 상태 - 2020년 5월 21일](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/previous/2020/05212020.html#status)을 참조하십시오.
+최신 릴리스 정보는 [Adobe 시스템 상태 - 2020년 5월 21일](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/previous/2020/05212020.html#status)을 참조하십시오.
 
 ## ![아이콘](/assets/ec_appicon_24.png) Experience Cloud 서비스 및 관리 {#ecloud}
 
