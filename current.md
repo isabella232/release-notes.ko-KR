@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: dba5bf9afced03536adb857f879bd1df349ebbbc
+source-git-commit: 3b533d52ae98c930c3e9af7470825d659ec9b0fe
 workflow-type: tm+mt
-source-wordcount: '6960'
+source-wordcount: '7024'
 ht-degree: 71%
 
 ---
@@ -188,7 +188,7 @@ Audience Manager의 새로운 기능, 수정 사항, 설명서 및 자습서.
 
 | 기능 | 추가 또는 업데이트 날짜 | 설명 |
 |----|----|----|
-| [Predictive Audiences](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html) | 2020년 10월 21일 | <ul><li>**예측 대상 모델 복제**:이제 기존 모델을 복제하고 필요에 따라 구성을 변경할 수 있습니다. 자세한 내용은 [예측 대상 모델](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences-start.html#clone-predictive-audiences) 복제 및 편집을 참조하십시오.</li><li>**예측 대상 일괄 분류**:예측 대상은 실시간으로 개별 성향으로 방문자를 분류하는 것 외에도 배치 분류를 지원하므로 온보드 사용자를 분류하고 배치 대상으로 활성화할 수 있습니다.</li></ul> |
+| [Predictive Audiences](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html) | 2020년 10월 21일 | <ul><li>**예측 대상 모델 복제**: 이제 기존 모델을 복제하고 필요에 따라 구성을 변경할 수 있습니다. 자세한 내용은 [예측 대상 모델 복제 및 편집](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences-start.html#clone-predictive-audiences)을 참조하십시오.</li><li>**예측 대상 일괄 분류**: 예측 대상은 실시간으로 개별 성향으로 방문자를 분류하는 것 외에도 배치 분류를 지원하므로 온보드 사용자를 분류하고 배치 대상으로 활성화할 수 있습니다.</li></ul> |
 | [보고서 겹치기](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/interactive-and-overlap-reports/dynamic-reports.html) | 2020년 10월 23일 | 겹치기 보고서(트레이트 대 트레이트[,](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/interactive-and-overlap-reports/trait-trait-overlap-report.html)세그먼트 대 트레이트 [,](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/interactive-and-overlap-reports/segment-trait-overlap-report.html)세그먼트 대 세그먼트 [)를 계산하는 데 사용하는 방법을 업데이트했습니다](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/interactive-and-overlap-reports/segment-segment-overlap-report.html). 겹치기 보고서 계산은 이제 보고 고유 및 MinHash 서명( [1/54 데이터 샘플링](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/report-sampling.html#data-sampling-ratio)대신)을 기반으로 합니다. |
 
 ### 수정 사항 및 향상된 기능 {#aam-fixes-and-improvements}
@@ -338,6 +338,7 @@ Updated: **October 21, 2020**
 
 | 게시됨 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020년 10월 27일 | [AEM Document Security Extension for Microsoft Office 소개](https://docs.adobe.com/content/help/en/experience-manager-document-security/using/document-security-extension-microsoft-office.html) | 문서 | Microsoft Office용 Adobe Experience Manager Document Security 익스텐션을 사용하면 권한이 부여된 사람만이 지적 재산이 포함된 Word, Excel 및 PowerPoint 파일을 사용할 수 있습니다. Document Security Extension for Microsoft Office를 사용하면 미리 정의된 기밀 설정을 파일에 적용할 수 있습니다. |
 | 2020년 10월 7일 | [Adobe Analytics에서 페이지 지표 보기](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/analytics/create-analytics-workspace.html) | 문서 | Adobe Experience Manager 사이트에서 캡처한 데이터를 Adobe Analytics 보고서 세트의 지표 및 차원에 매핑하는 방법을 알아봅니다. |
 | 2020년 10월 8일 | [전체 웹 페이지 경험의 개인화](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/personalization-web-page.html) | 비디오 | AEM에서 호스팅되는 사이트 페이지를 Adobe Target을 사용하여 새 페이지로 리디렉션하는 활동을 만드는 방법을 알아봅니다. |
 | 2020년 10월 8일 | [Visual Experience Composer를 사용한 개인화](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/personalization-using-vec.html) | 비디오 | VEC(Visual Experience Composer)를 사용하여 A/B 테스트 Target 활동을 만드는 방법을 알아봅니다. |
