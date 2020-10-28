@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2fc4753b488ce356018ad91b8933f49d101700fd
+source-git-commit: 244301cf84111e61d3566fff5e515ee0960904c0
 workflow-type: tm+mt
 source-wordcount: '7549'
 ht-degree: 65%
@@ -469,7 +469,7 @@ Adobe Advertising Cloud에 대한 릴리스 정보입니다.
 
 ### [!DNL Advertising Cloud Search]의 새로운 기능{#adcloud-search}
 
-릴리스 날짜: 2020년 10월 17일
+릴리스 날짜: **2020년 10월 17일**
 
 | 기능 | 설명 |
 | -----------| ---------- |
