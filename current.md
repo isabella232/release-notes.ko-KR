@@ -440,7 +440,7 @@ Adobe Advertising Cloud에 대한 릴리스 정보입니다.
 * [Advertising Cloud DSP의 새로운 기능](#adcloud-dsp)
 * [Advertising Cloud Search의 새로운 기능](#adcloud-search)
 
-### [!DNL Advertising Cloud DSP] {#adcloud-dsp}의 새로운 기능
+### [!DNL Advertising Cloud DSP]의 새로운 기능{#adcloud-dsp}
 
 릴리스 날짜: 2020년 10월 15일
 
@@ -449,7 +449,7 @@ Adobe Advertising Cloud에 대한 릴리스 정보입니다.
 | 비공개 인벤토리 | 이제 모든 사용자는 기존 [!UICONTROL 스마트 광고 서비스 제공] 양식의 간소화된 버전인 새로운 거래 ID 양식을 사용하여 거래 ID 세부 사항을 설정하고 편집할 수 있습니다. 새 거래 ID 세부 사항을 설정하려면 **[!UICONTROL 인벤토리 > 거래]**&#x200B;로 이동하여 **[!UICONTROL 만들기]**&#x200B;를 클릭한 다음 **[!UICONTROL 거래 ID 베타]**&#x200B;를 클릭합니다. |
 | 배치 예측 | 배치 수준 게재 간격이 있는 배치의 경우, 배치 설정의 [!UICONTROL 예측] 섹션에는 현재 타겟팅 구성으로 사용할 수 있는 용량이 얼마나 더 많은지를 나타내는 새 [!UICONTROL 예상 최대 수] 섹션이 포함됩니다. |
 
-### [!DNL Advertising Cloud Search] {#adcloud-search}의 새로운 기능
+### [!DNL Advertising Cloud Search]의 새로운 기능{#adcloud-search}
 
 릴리스 날짜: 2020년 10월 17일
 
