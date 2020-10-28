@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3b533d52ae98c930c3e9af7470825d659ec9b0fe
+source-git-commit: 08f91c514f5ab3cef7b7a1b862260090892e8144
 workflow-type: tm+mt
-source-wordcount: '7024'
-ht-degree: 71%
+source-wordcount: '7148'
+ht-degree: 70%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 71%
 >
 >예정된 릴리스에 대한 이메일 알림을 받으려면 [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html)에 가입하십시오.
 
-최신 업데이트: **2020년 10월 23일**
+최신 업데이트: **2020년 10월 28일**
 
 * [Adobe 시스템 상태](#status)
 * [Experience Cloud 서비스 및 관리](#ecloud)
@@ -35,7 +35,7 @@ ht-degree: 71%
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) 및 [Customer Journey Analytics](#cust-journey) (2020년 10월 22일 업데이트)
 * [Audience Manager](#aam)
-* [Experience Manager](#aem)
+* [Experience Manager](#aem) (업데이트됨: **2020년 10월 28일**)
 * [Campaign](#ac)
 * [Advertising Cloud](#adcloud)
 * [[!DNL Target]](https://docs.adobe.com/content/help/ko-KR/target/using/release-notes/target-release-notes.html)
@@ -290,6 +290,15 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 * [자산 이동](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/assets/managing/managing-assets-touch-ui.html#moving-or-renaming-assets) 마법사를 여는 [!UICONTROL 이동(m)] 작업과 별도로 사용하여 [!UICONTROL 드래그 작업을 사용하여 자산을 동위 폴더로 이동]할 수 있습니다.
 
 * Assets Insights의 경우 [Adobe Launch](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/advanced/asset-insights-launch-tutorial.html)를 사용합니다. [DTM 통합](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/assets/managing/touch-ui-using-dtm-for-asset-insights.html)은 문서에서 더 이상 사용되지 않는 메서드로 호출됩니다.
+
+Updated: **10/28/2020**
+
+* **향상된 브랜드 포털**:다음과 같은 새로운 기능 등을 사용할 수 있습니다 [!DNL Brand Portal].
+
+   * [간소화된 빠른 다운로드를 위한 향상된 다운로드 경험](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html) . 관리자는 추가 다운로드 구성을 구성하여 사용자와 기업의 요구 사항에 맞는 경험을 제공할 수 있습니다.
+   * 이제 모든 페이지에서 한 번의 클릭으로 [!UICONTROL 파일], [컬렉션](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/share/brand-portal-share-collection.html)및 [!UICONTROL 공유 링크] 를탐색할 수있습니다.
+   * 사용자는 이제 특정 변환을 [선택하고 다운로드할 수](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page) 있습니다. 새 변환 다운로드 옵션은 자산 세부 사항 페이지의 [!UICONTROL 표현물] 패널에서 사용할 수 있습니다.
+   * 게스트 사용자 세션의 제한 시간이 15분으로 모든 동시 사용자에게 더 나은 환경을 제공합니다.
 
 ### [!DNL Experience Manager] 양식
 
