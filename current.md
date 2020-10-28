@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 114222b4df9fd72691065a9a1cdf7bc1e7f95a5d
+source-git-commit: 57c246240dfafcb30b791a4bbc0ba3b05774dd0c
 workflow-type: tm+mt
-source-wordcount: '7353'
+source-wordcount: '7479'
 ht-degree: 67%
 
 ---
@@ -83,6 +83,7 @@ Experience Platform 및 서비스를 위해 게시된 새로운 비디오, 자�
 
 | 게시됨 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020년 10월 26일 | [Offer Decisioning 소개](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/introduction-to-offer-decisioning.html) | 비디오 | 이 비디오에서는 Adobe Experience Platform 위에 구축된 응용 프로그램 서비스인 Offer Decisioning에 대한 개요를 제공합니다. 이 비디오에서는 Offer Decisioning의 비즈니스 문제, 주요 기능, 기본 아키텍처 및 주요 활용 사례를 다룹니다. |
 | 2020년 9월 14일 | [Attribution AI의 비즈니스 가치](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intelligent-services/business-value-of-attribution-ai.html) | 비디오 | [!UICONTROL Attribution AI]는 [!UICONTROL 지능형 서비스]의 일부이며 멀티 채널, 알고리즘 기반의 어트리뷰션 서비스로, 지정된 결과에 대한 고객 상호 작용의 영향과 점진적 효과를 계산합니다. 마케터는 [!UICONTROL Attribution AI]를 통해 고객 여정의 각 단계에서 개별 고객과의 인터랙션이 미치는 영향을 파악하여 마케팅 및 광고 비용을 측정하고 최적화할 수 있습니다. |
 | 2020년 9월 14일 | [고객 AI의 비즈니스 가치](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intelligent-services/business-value-of-customer-ai.html) | 비디오 | 이 비디오에서는 [!UICONTROL 고객 AI]가 AI 기반 자산으로 고객 프로필을 강화하고 고객 세분화와 타겟팅 활동을 강화하는 방법을 보여줍니다. |
 | 2020년 9월 14일 | [플랫폼 및 Magento의 비즈니스 가치](https://docs.adobe.com/content/help/en/platform-learn/tutorials/experience-cloud/business-value-of-platform-and-magento.html) | 비디오 | 이 비디오에서는 Adobe Experience Platform을 [!DNL Magento] Commerce와 함께 사용하여 고객에 대한 단일 뷰를 제작하고 디지털 상점 및 여러 채널에서 경험을 지능적으로 개인화할 수 있습니다. |
@@ -437,6 +438,8 @@ Campaign Classic, Campaign Standard 및 컨트롤 패널에 대한 릴리스 정
 
 | 게시됨 | 이름 | 솔루션 | 설명 |
 | ----------- | ----------- | ---------- | ---------- |
+| 2020년 10월 19일 | [Campaign 컨트롤 패널 - 허용 목록에 IP 범위 추가](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Classic | Campaign 컨트롤 패널의 허용 목록에 IP 주소 범위를 추가하는 방법을 알아봅니다. |
+| 2020년 10월 19일 | [Campaign 컨트롤 패널 - 허용 목록에 IP 범위 추가](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Standard | Campaign 컨트롤 패널의 허용 목록에 IP 주소 범위를 추가하는 방법을 알아봅니다. |
 | 2020년 10월 16일 | [Campaign 컨트롤 패널 - CNAME(베타)을 사용하여 하위 도메인 위임 - 기능 비디오](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html) | Campaign Classic | 제어판에서 CNAME을 사용하여 하위 도메인을 설정하고 제출하는 방법을 알아봅니다. |
 | 2020년 10월 16일 | [Campaign 컨트롤 패널 - CNAME(베타)을 사용하여 하위 도메인 위임 - 기능 비디오](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html) | Campaign Standard | 제어판에서 CNAME을 사용하여 하위 도메인을 설정하고 제출하는 방법을 알아봅니다. |
 
