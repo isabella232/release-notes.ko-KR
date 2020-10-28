@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 08f91c514f5ab3cef7b7a1b862260090892e8144
+source-git-commit: f16817c423635f6996dd729fe9e07e7d7e63fd06
 workflow-type: tm+mt
-source-wordcount: '7148'
-ht-degree: 70%
+source-wordcount: '7324'
+ht-degree: 68%
 
 ---
 
@@ -203,6 +203,10 @@ Audience Manager에 대해 게시된 새로운 비디오, 자습서 또는 교�
 
 | 게시됨 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020년 10월 28일 | [트레이트 그래프의 숫자 이해](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/understanding-numbers-in-the-trait-graph.html?lang=en#build-and-manage-audiences) | 비디오 | 트레이트 정보 화면에서 트레이트에 대해 보고된 수치를 이해하는 데 대한 팁을 얻을 수 있습니다. |
+| 2020년 10월 23일 | [Analytics 데이터에서 특성 생성 계획](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/planning-trait-creation-from-analytics-data.html?lang=en#build-and-manage-audiences) | 비디오 | Audience Manager에서 Adobe Analytics 데이터를 사용할 계획을 세울 때 도움이 되는 팁과 기법을 알아봅니다. |
+| 2020년 10월 23일 | [트레이트를 생성할 때 데이터 소스 선택](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/choosing-a-data-source-when-creating-traits.html?lang=en#build-and-manage-audiences) | 비디오 | 트레이트를 만들 때 입력해야 할 중요한 필드 중 하나는 데이터 소스 필드입니다. 규칙 기반 트레이트와 온보딩 트레이트에 적합한 데이터 소스를 선택하는 방법에 대한 팁을 얻을 수 있습니다. |
+| 2020년 9월 14일 | [코드 보기를 사용하여 트레이트 생성 및 편집](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/using-code-view-to-create-and-edit-traits.html?lang=en#build-and-manage-audiences) | 비디오 | 새로운 트레이트를 만들거나 기존 트레이트를 편집할 때 코드 뷰를 사용하는 방법을 살펴볼 수 있습니다. 코드 보기는 특성 표현식을 설정할 때 표현식 빌더 대신 사용됩니다. |
 | 2020년 10월 10일 | [예측 대상 이해](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/algorithmic-models/understanding-predictive-audiences.html) | 비디오 | 이 비디오에서는 예측 대상의 Audience Manager에 대해 논의하며, 고객의 작동 방식에 대한 세부 사항을 제시하고 활용 사례를 소개합니다. |
 
 ## ![아이콘](/assets/aem.png) Adobe Experience Manager {#aem}
