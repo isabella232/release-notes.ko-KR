@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8ac62e2402e3d41cbcea6670b8e482bc295b9a14
+source-git-commit: 2626d0f793d4d7d59dc08527443bca66a3dbdd03
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1350'
 ht-degree: 94%
 
 ---
@@ -35,7 +35,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 * [Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
-* [캠페인](#ac)
+* [Campaign](#ac)
 * [Target](https://docs.adobe.com/content/help/ko-KR/target/using/release-notes/target-release-notes.html) (솔루션 도움말 링크)
 * [Advertising Cloud](#adcloud)
 * [Magento](#magento)
@@ -69,8 +69,6 @@ For product documentation, see [Experience Cloud interface](https://docs.adobe.c
 기능 및 수정 사항.
 
 제품 설명서는 [사용자 및 제품 관리](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/admin-getting-started.html)를 참조하십시오.
-
-## [!UICONTROL Experience Platform] {#platform}
 
 ## ![아이콘](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
@@ -330,7 +328,7 @@ See Marketo release notes for [February 2020](https://docs.marketo.com/display/p
 * **자산 API &quot;_method&quot; 매개 변수:** 2020년 9월 이후, 자산 API 끝점은 이제 &quot;_method&quot;를 사용하여 쿼리 매개 변수를 URI 길이 제한을 무시하도록 POST 본문에 전달하지 않습니다.
 * **Internet Explorer 지원 중단:** 2020년 7월 31일부터 Marketo Engage 사용자 인터페이스는 이제 Internet Explorer에서 지원되지 않습니다.
 
-누적 릴리스 노트와 내역 릴리스 노트는 [Marketo 릴리스 노트](https://docs.marketo.com/x/CgA6Ag)를 참조하십시오.
+누적 릴리스 정보와 내역 릴리스 정보는 [Marketo 릴리스 정보](https://docs.marketo.com/x/CgA6Ag)를 참조하십시오.
 
 ### 새로운 솔루션 이름 강좌 및 자습서
 
