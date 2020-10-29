@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b21c2213d13cf58dded026bce77abd58ee038f1f
+source-git-commit: 48d79544adc9225c086b7574d522622df084623b
 workflow-type: tm+mt
-source-wordcount: '7670'
+source-wordcount: '7634'
 ht-degree: 90%
 
 ---
@@ -127,7 +127,6 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 | [!UICONTROL 선] 시각화: 이동 평균 트렌드 라인 옵션 | 2020년 10월 8일 | 이동 평균이 선 시각화 트렌드 라인 설정에 추가되었습니다. 이동 평균은 지정된 이전 기간에 대한 평균을 계산하고 트렌드 라인 데이터 포인트로 사용한 후 다음 기간으로 이동합니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | 채우기 제한 제거 | 2020년 10월 19일 | 향상된 CJA 경험을 제공하기 위해 채우기(내역 데이터 가져오기) 제한을 제거했습니다. 이전에는, 귀하 스스로 최대 25억 개의 행을 채우거나 엔지니어링 관련 이외의 작업을 수행할 수 있었습니다. 이제 데이터 채우기를 원하는 대로 할 수 있습니다. [추가 정보](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#enable-connection) |
 | Analysis Workspace 성능 도움말 페이지 | 2020년 10월 22일 | Analysis Workspace 성능 도움말 페이지에는 프로젝트 성능에 영향을 주는 다양한 요인과 최적화를 위한 팁의 링크가 표시됩니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
-| 구성 요소 > CJA 작업 공간에 추가된 사용자 환경 | 2020년 10월 29일 | 구성 요소 > 사용자 환경 설정 페이지에서는 사용자의 Analysis Workspace 설정(및 관련 구성 요소)을 관리할 수 있습니다. 현재 여기에는 천 단위 구분 기호 및 CSV 구분 기호가 포함됩니다. |
 | 여정 IQ: 크로스채널 Analytics | 2020년 10월 30일 | 여정 IQ: 크로스채널 Analytics를 사용하면 고객이 하나의 ID 네임스페이스에서 다른 ID 네임스페이스로 Adobe Experience Platform 데이터 레이크에서 Adobe Analytics(또는 기타) 이벤트 데이터 세트를 다시 키 대조할 수 있습니다. 일반적으로 이는 이벤트 데이터 세트를 쿠키 기반 ID에서 개인 기반 ID로 다시 키 대조하는 것을 의미합니다. 이 방법을 통해 다시 키 대조된 데이터 세트는 CJA 연결에서 다른 사람 기반 데이터와 결합될 수 있으므로 Analysis Workspace에서 교차 장치/교차 채널 분석을 수행할 수 있습니다. |
 
 ### [!UICONTROL Media Analytics]의 새로운 기능 {#media-aa}
