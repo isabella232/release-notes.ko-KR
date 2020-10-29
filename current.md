@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: f3ee5a99df82abf91e09a74f3f808f8ab8cf177e
+source-git-commit: b21c2213d13cf58dded026bce77abd58ee038f1f
 workflow-type: tm+mt
-source-wordcount: '7550'
-ht-degree: 92%
+source-wordcount: '7670'
+ht-degree: 90%
 
 ---
 
@@ -83,7 +83,8 @@ Experience Platform 및 서비스를 위해 게시된 새로운 비디오, 자�
 
 | 게시됨 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
-| 2020년 10월 26일 | [Offer Decisioning 소개](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/introduction-to-offer-decisioning.html) | 비디오 | 이 비디오에서는 Adobe Experience Platform 위에 구축된 응용 프로그램 서비스인 Offer Decisioning에 대한 개요를 제공합니다. 이 비디오에서는 Offer Decisioning의 비즈니스 문제, 주요 기능, 기본 아키텍처 및 주요 활용 사례를 다룹니다. |
+| 2020년 10월 26일 | [Offer Decisioning 소개](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/introduction-to-offer-decisioning.html) | 비디오 | This video gives an overview of [!UICONTROL Offer Decisioning], an application service built on top of Adobe Experience Platform. 이 비디오에서는 비즈니스 문제, [!UICONTROL Offer Decisioning] 해결책, 주요 기능, 기본 아키텍처 및 주요 활용 사례를 다룹니다. |
+| 2020년 10월 29일 | [Offer Decisioning](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/demo-of-offer-decisioning.html?lang=en) | 비디오 | Learn how brands can use Adobe’s new [!UICONTROL Offer Decisioning] service to define and manage their offers,leverage real-time customer data, and deliver the right experiences their customers expect. |
 | 2020년 9월 14일 | [Attribution AI의 비즈니스 가치](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intelligent-services/business-value-of-attribution-ai.html) | 비디오 | [!UICONTROL Attribution AI]는 [!UICONTROL 지능형 서비스]의 일부이며 멀티 채널, 알고리즘 기반의 어트리뷰션 서비스로, 지정된 결과에 대한 고객 상호 작용의 영향과 점진적 효과를 계산합니다. 마케터는 [!UICONTROL Attribution AI]를 통해 고객 여정의 각 단계에서 개별 고객과의 인터랙션이 미치는 영향을 파악하여 마케팅 및 광고 비용을 측정하고 최적화할 수 있습니다. |
 | 2020년 9월 14일 | [고객 AI의 비즈니스 가치](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intelligent-services/business-value-of-customer-ai.html) | 비디오 | 이 비디오에서는 [!UICONTROL 고객 AI]가 AI 기반 자산으로 고객 프로필을 강화하고 고객 세분화와 타겟팅 활동을 강화하는 방법을 보여줍니다. |
 | 2020년 9월 14일 | [플랫폼 및 Magento의 비즈니스 가치](https://docs.adobe.com/content/help/en/platform-learn/tutorials/experience-cloud/business-value-of-platform-and-magento.html) | 비디오 | 이 비디오에서는 Adobe Experience Platform을 [!DNL Magento] Commerce와 함께 사용하여 고객에 대한 단일 뷰를 제작하고 디지털 상점 및 여러 채널에서 경험을 지능적으로 개인화할 수 있습니다. |
@@ -204,6 +205,7 @@ Audience Manager에 대해 게시된 새로운 비디오, 자습서 또는 교�
 
 | 게시됨 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020년 10월 29일 | [트레이트 그래프의 숫자 이해](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/understanding-numbers-in-the-trait-graph.html?lang=en#build-and-manage-audiences) | 비디오 | 트레이트 정보 화면에서 트레이트에 대해 보고된 수치를 이해하는 데 대한 팁을 얻을 수 있습니다. |
 | 2020년 10월 28일 | [트레이트 그래프의 숫자 이해](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/understanding-numbers-in-the-trait-graph.html?lang=en#build-and-manage-audiences) | 비디오 | 트레이트 정보 화면에서 트레이트에 대해 보고된 수치를 이해하는 데 대한 팁을 얻을 수 있습니다. |
 | 2020년 10월 23일 | [Analytics 데이터에서 특성 생성 계획](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/planning-trait-creation-from-analytics-data.html?lang=en#build-and-manage-audiences) | 비디오 | Audience Manager에서 Adobe Analytics 데이터를 사용할 계획을 세울 때 도움이 되는 팁과 기법을 알아봅니다. |
 | 2020년 10월 23일 | [트레이트를 생성할 때 데이터 소스 선택](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/choosing-a-data-source-when-creating-traits.html?lang=en#build-and-manage-audiences) | 비디오 | 트레이트를 만들 때 입력해야 할 중요한 필드 중 하나는 데이터 소스 필드입니다. 규칙 기반 트레이트와 온보딩 트레이트에 적합한 데이터 소스를 선택하는 방법에 대한 팁을 얻을 수 있습니다. |
@@ -352,6 +354,7 @@ Adobe Experience Manager 릴리스 로드맵, 릴리스 업데이트 및 추가 
 
 | 게시됨 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020년 10월 28일 | [비디오 스마트 태그](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/metadata/video-smart-tags.html) | 비디오 | Experience Manager 자산은 Adobe Sensei을 활용하여 비디오의 주요 요소를 설명하는 키워드로 비디오 자산에 지능적으로 태그를 지정하므로 AEM 사용자의 키워드 검색을 사용하여 쉽게 검색할 수 있습니다. |
 | 2020년 10월 27일 | [Microsoft Office용 AEM 문서 보안 확장 소개](https://docs.adobe.com/content/help/en/experience-manager-document-security/using/document-security-extension-microsoft-office.html) | 문서 | Microsoft Office용 Adobe Experience Manager 문서 보안을 사용하면 권한이 부여된 사용자만 지적 재산이 포함된 Word, Excel 및 PowerPoint 파일을 사용할 수 있습니다. Microsoft Office용 문서 보안 확장을 사용하면 미리 정의된 기밀 설정을 파일에 적용할 수 있습니다. |
 | 2020년 10월 7일 | [Adobe Analytics에서 페이지 지표 보기](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/analytics/create-analytics-workspace.html) | 문서 | Adobe Experience Manager 사이트에서 캡처한 데이터를 Adobe Analytics 보고서 세트의 지표 및 차원에 매핑하는 방법을 알아봅니다. |
 | 2020년 10월 8일 | [전체 웹 페이지 경험의 개인화](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/personalization-web-page.html) | 비디오 | AEM에서 호스팅되는 사이트 페이지를 Adobe Target을 사용하여 새 페이지로 리디렉션하는 활동을 만드는 방법을 알아봅니다. |
