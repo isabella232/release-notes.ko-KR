@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 48d79544adc9225c086b7574d522622df084623b
+source-git-commit: a30288a93dd262f9f9d770242a2bf4fda7812265
 workflow-type: tm+mt
-source-wordcount: '7634'
+source-wordcount: '7669'
 ht-degree: 90%
 
 ---
@@ -68,6 +68,8 @@ ht-degree: 90%
 
 ## ![아이콘](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
+Experience Platform 및 Experience Platform Launch에 대한 릴리스 업데이트 정보 포함,
+
 릴리스된 날짜: **2020년 10월 14일**
 
 업데이트에 대한 자세한 내용은 [Experience Platform 릴리스 노트](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)를 참조하십시오.
@@ -76,6 +78,10 @@ ht-degree: 90%
 * 실시간 고객 프로필
 * 세분화 서비스
 * 소스
+
+### Experience Platform Launch
+
+플랫폼 실행에 대한 자세한 내용은 [Experience Platform Launch 릴리스 노트를](https://docs.adobe.com/content/help/ko-KR/launch/using/intro/release-notes/current.html) 참조하십시오.
 
 ### Experience Platform 및 서비스 자습서와 교육 과정
 
