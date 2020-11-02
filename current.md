@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1dec5a72cc3a6c3592544ab198516f6253f5c50a
+source-git-commit: 7e679c9acd5002ab3b6dd232b678f44661ad935a
 workflow-type: tm+mt
-source-wordcount: '7635'
-ht-degree: 90%
+source-wordcount: '7894'
+ht-degree: 88%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 90%
 * [Experience Manager](#aem) (업데이트됨: **2020년 10월 28일**)
 * [Campaign](#ac)
 * [Advertising Cloud](#adcloud) (Updated: **10/28/2020**)
-* [[!DNL Target]](https://docs.adobe.com/content/help/ko-KR/target/using/release-notes/target-release-notes.html)
+* [[!DNL Target]](#target)
 * [[!DNL Magento]](#magento)
 * [[!DNL Marketo Engage]](#marketo)
 * [[!DNL Primetime]](https://docs.adobe.com/content/help/ko-KR/primetime/release-notes/home.html)
@@ -445,6 +445,10 @@ Campaign Classic, Campaign Standard 및 컨트롤 패널에 대한 릴리스 정
 
 | 게시됨 | 이름 | 솔루션 | 설명 |
 | ----------- | ----------- | ---------- | ---------- |
+| 2020년 10월 20일 | [Campaign 컨트롤 패널 - SSH 키 생성 - 기능 비디오](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html) | Campaign Classic | 터미널을 사용하여 SSH 키를 생성하는 방법과 Campaign 컨트롤 패널에 키의 공개 버전을 저장하는 방법을 알아봅니다. |
+| 2020년 10월 20일 | [Campaign 컨트롤 패널 - SFTP 서버에 연결 - 기능 비디오](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html) | Campaign Classic | Campaign 컨트롤 패널에 저장한 키를 사용하여 클라이언트 SFTP 애플리케이션을 통해 SFTP 서버에 연결하는 방법을 알아봅니다. |
+| 2020년 10월 20일 | [Campaign 컨트롤 패널 - Campaign 컨트롤 패널 시작하기 - 문서](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Classic | 이 문서에서는 Campaign 컨트롤 패널에 액세스하는 방법 및 제어판에서 사용할 수 있는 사전 요구 사항을 설명합니다. |
+| 2020년 10월 20일 | [Campaign 컨트롤 패널 - Campaign 컨트롤 패널 시작하기 - 문서](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Standard | 이 문서에서는 Campaign 컨트롤 패널에 액세스하는 방법 및 제어판에서 사용할 수 있는 사전 요구 사항을 설명합니다. |
 | 2020년 10월 19일 | [Campaign 컨트롤 패널 - 허용 목록에 IP 범위 추가](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Classic | Campaign 컨트롤 패널의 허용 목록에 IP 주소 범위를 추가하는 방법을 알아봅니다. |
 | 2020년 10월 19일 | [Campaign 컨트롤 패널 - 허용 목록에 IP 범위 추가](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Standard | Campaign 컨트롤 패널의 허용 목록에 IP 주소 범위를 추가하는 방법을 알아봅니다. |
 | 2020년 10월 16일 | [컨트롤 패널 - CNAME(베타)을 사용하여 하위 도메인 위임 - 기능 비디오](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html) | Campaign Classic | 컨트롤 패널에서 CNAME을 사용하여 하위 도메인을 설정하고 제출하는 방법을 알아봅니다. |
@@ -490,6 +494,16 @@ Magento 릴리스 정보에 대해서는 다음을 참조하십시오.
 
 * [Magento Commerce 2.3.5](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-open-source.html)
 * [Magento Open Source 2.3.5](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-open-source.html)
+
+## ![아이콘](/assets/target.png)[!DNL Target] {#target}
+
+최신 릴리스 정보는 [[!DNL Target] 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/target/using/release-notes/target-release-notes.html)를 참조하십시오.
+
+### 새로운 Adobe Target 교육 과정 및 자습서
+
+| 게시됨 | 이름 | 유형 | 설명 |
+| -----------| ---------- | ---------- | ---------- |
+| 2020년 10월 11일 | [하이브리드 개인화 배포 모델](https://docs.adobe.com/content/help/en/target-learn/tutorials/implementation/hybrid-deployment.html) | 비디오 | Adobe Target은 클라이언트측과 서버측 구현을 혼합하여 개인화를 위한 고유한 하이브리드 배포 모델을 제공합니다. 이 하이브리드 모델을 사용하면 기술적인 면을 잘 모르는 사용자도 WYSIWYG Visual Experience Composer를 사용하여 실험 또는 개인화 활동을 제작할 수 있고 서버측에서 실행하거나 전달하고 이러한 경험을 렌더링하여 높은 성능을 제공할 수 있습니다. |
 
 ## ![아이콘](/assets/marketo.png) [!DNL Marketo Engage] {#marketo}
 
