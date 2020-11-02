@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 7e679c9acd5002ab3b6dd232b678f44661ad935a
+source-git-commit: 5050a05473619e75107b0874d592322ee5a70d44
 workflow-type: tm+mt
-source-wordcount: '7894'
+source-wordcount: '7947'
 ht-degree: 88%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 88%
 >
 >예정된 릴리스에 대한 이메일 알림을 받으려면 [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html)에 가입하십시오.
 
-최신 업데이트: **2020년 10월 28일**
+최신 업데이트: **2020년 11월 2일**
 
 * [Adobe 시스템 상태](#status)
 * [Experience Cloud 서비스 및 관리](#ecloud)
@@ -37,8 +37,8 @@ ht-degree: 88%
 * [Audience Manager](#aam)
 * [Experience Manager](#aem) (업데이트됨: **2020년 10월 28일**)
 * [Campaign](#ac)
-* [Advertising Cloud](#adcloud) (Updated: **10/28/2020**)
-* [[!DNL Target]](#target)
+* [Advertising Cloud](#adcloud) (업데이트 날짜:**2020년 10월 28일**)
+* [[!DNL Target]](#target) (업데이트 날짜: **2020년 11월 2일**)
 * [[!DNL Magento]](#magento)
 * [[!DNL Marketo Engage]](#marketo)
 * [[!DNL Primetime]](https://docs.adobe.com/content/help/ko-KR/primetime/release-notes/home.html)
@@ -358,6 +358,7 @@ Adobe Experience Manager 릴리스 로드맵, 릴리스 업데이트 및 추가 
 
 | 게시됨 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020년 11월 2일 | [Target 호출 로드 및 실행](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/load-and-fire-target.html) | 비디오 | Launch 규칙을 사용하여 매개 변수를 로드하고 페이지 요청에 전달하며 사이트 페이지에서 Target 호출을 실행하는 방법을 알아봅니다. 페이지 정보는 검색 및 매개 변수로 전달됩니다. Adobe Client Data 레이어를 사용하면 웹 페이지에서 방문자의 경험에 대한 데이터를 수집 및 저장한 다음 이 데이터에 쉽게 액세스할 수 있습니다. |
 | 2020년 10월 28일 | [비디오 스마트 태그](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/metadata/video-smart-tags.html) | 비디오 | Experience Manager 자산은 Adobe Sensei을 활용하여 비디오의 주요 요소를 설명하는 키워드로 비디오 자산에 지능적으로 태그를 지정하므로 AEM 사용자의 키워드 검색을 사용하여 쉽게 검색할 수 있습니다. |
 | 2020년 10월 27일 | [Microsoft Office용 AEM 문서 보안 확장 소개](https://docs.adobe.com/content/help/en/experience-manager-document-security/using/document-security-extension-microsoft-office.html) | 문서 | Microsoft Office용 Adobe Experience Manager 문서 보안을 사용하면 권한이 부여된 사용자만 지적 재산이 포함된 Word, Excel 및 PowerPoint 파일을 사용할 수 있습니다. Microsoft Office용 문서 보안 확장을 사용하면 미리 정의된 기밀 설정을 파일에 적용할 수 있습니다. |
 | 2020년 10월 7일 | [Adobe Analytics에서 페이지 지표 보기](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/analytics/create-analytics-workspace.html) | 문서 | Adobe Experience Manager 사이트에서 캡처한 데이터를 Adobe Analytics 보고서 세트의 지표 및 차원에 매핑하는 방법을 알아봅니다. |
@@ -385,7 +386,6 @@ Adobe Experience Manager 릴리스 로드맵, 릴리스 업데이트 및 추가 
 | 2020년 9월 30일 | [Adobe Client Data 레이어 살펴보기](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html) | 문서 | 이벤트 기반의 Adobe Client Data 레이어의 기능 및 AEM Sites 핵심 구성 요소와의 통합을 살펴봅니다. 이벤트를 수신하고 현재 상태를 확인하고 데이터 레이어를 수정하는 방법을 알아봅니다. |
 | 2020년 9월 30일 | [Adobe Client Data 레이어 소개](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html) | 비디오 | 이벤트 기반 Adobe Client Data Layer가 AEM Sites 핵심 구성 요소의 데이터를 표시하는 방법을 알아봅니다. Adobe Client Data Layer를 사용하면 Experience Platform Launch와 같은 태그 관리 솔루션을 통해 웹 사이트 데이터를 분석 및 Target과 같은 응용 프로그램으로 전송할 수 있습니다. |
 | 2020년 10월 8일 | [Launch 속성에 Target 확장 프로그램 추가](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/add-target-launch-extension.html) | 비디오 | Launch 규칙을 사용하여 매개 변수를 로드하고 페이지 요청에 전달하며 사이트 페이지에서 Target 호출을 실행하는 방법을 알아봅니다. 페이지 정보는 검색 및 매개 변수로 전달됩니다. Adobe Client Data 레이어를 사용하면 웹 페이지에서 방문자의 경험에 대한 데이터를 수집 및 저장한 다음 이 데이터에 쉽게 액세스할 수 있습니다. |
-| 2020년 10월 8일 | [Launch 속성에 Target 확장 프로그램 추가](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/add-target-launch-extension.html) | 비디오 | Launch 속성에 Adobe Target 확장 프로그램을 추가하는 방법 알아보기 |
 | 2020년 10월 7일 | [Adobe Target Cloud Service 계정 생성](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/setup-aem-target-cloud-service.html) | 비디오 | Cloud Service 및 Adobe IMS 인증을 사용하여 Adobe Experience Manager를 Adobe Target과 Cloud Service으로 통합하는 방법을 알아봅니다. |
 | 2020년 10월 2일 | [AEM 및 Adobe Target 개요](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/overview.html) | 비디오 | AEM과 Target은 모두 기능이 중복되는 강력한 솔루션입니다. 고객은 이러한 제품을 어떻게 언제 사용하는지 파악하여 개인화된 경험을 전달할 수 있습니다. 모든 최종 사용자에게 최적화된 경험을 전달하려면 조직 내의 다양한 팀이 긴밀하게 작업하고 누가 어떤 작업을 수행하는지 정의해야 합니다. |
 | 2020년 10월 2일 | [AEM Forms 및 Adobe Sign 통합](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.2.forms) | 교육 과정 | Adobe Sign과 AEM Forms를 함께 사용하면 복잡한 트랜잭션을 자동화할 수 있고 안전한 합법적인 전자 서명을 완벽한 디지털 경험의 일부로 포함시킬 수 있습니다. |
@@ -445,8 +445,8 @@ Campaign Classic, Campaign Standard 및 컨트롤 패널에 대한 릴리스 정
 
 | 게시됨 | 이름 | 솔루션 | 설명 |
 | ----------- | ----------- | ---------- | ---------- |
-| 2020년 10월 20일 | [Campaign 컨트롤 패널 - SSH 키 생성 - 기능 비디오](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html) | Campaign Classic | 터미널을 사용하여 SSH 키를 생성하는 방법과 Campaign 컨트롤 패널에 키의 공개 버전을 저장하는 방법을 알아봅니다. |
-| 2020년 10월 20일 | [Campaign 컨트롤 패널 - SFTP 서버에 연결 - 기능 비디오](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html) | Campaign Classic | Campaign 컨트롤 패널에 저장한 키를 사용하여 클라이언트 SFTP 애플리케이션을 통해 SFTP 서버에 연결하는 방법을 알아봅니다. |
+| 2020년 11월 2일 | [Campaign 컨트롤 패널 - SSH 키 생성 - 기능 비디오](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html) | Campaign Classic | 터미널을 사용하여 SSH 키를 생성하는 방법과 Campaign 컨트롤 패널에 키의 공개 버전을 저장하는 방법을 알아봅니다. |
+| 2020년 11월 2일 | [Campaign 컨트롤 패널 - SFTP 서버에 연결 - 기능 비디오](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html) | Campaign Classic | Campaign 컨트롤 패널에 저장한 키를 사용하여 클라이언트 SFTP 애플리케이션을 통해 SFTP 서버에 연결하는 방법을 알아봅니다. |
 | 2020년 10월 20일 | [Campaign 컨트롤 패널 - Campaign 컨트롤 패널 시작하기 - 문서](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Classic | 이 문서에서는 Campaign 컨트롤 패널에 액세스하는 방법 및 제어판에서 사용할 수 있는 사전 요구 사항을 설명합니다. |
 | 2020년 10월 20일 | [Campaign 컨트롤 패널 - Campaign 컨트롤 패널 시작하기 - 문서](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Standard | 이 문서에서는 Campaign 컨트롤 패널에 액세스하는 방법 및 제어판에서 사용할 수 있는 사전 요구 사항을 설명합니다. |
 | 2020년 10월 19일 | [Campaign 컨트롤 패널 - 허용 목록에 IP 범위 추가](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Classic | Campaign 컨트롤 패널의 허용 목록에 IP 주소 범위를 추가하는 방법을 알아봅니다. |
@@ -500,6 +500,8 @@ Magento 릴리스 정보에 대해서는 다음을 참조하십시오.
 최신 릴리스 정보는 [[!DNL Target] 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/target/using/release-notes/target-release-notes.html)를 참조하십시오.
 
 ### 새로운 Adobe Target 교육 과정 및 자습서
+
+업데이트 날짜: **2020년 11월 2일**
 
 | 게시됨 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
