@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 27e6ef1fb123fd8a5d136f86c5df492ea6e79733
 workflow-type: tm+mt
 source-wordcount: '8040'
-ht-degree: 87%
+ht-degree: 95%
 
 ---
 
@@ -81,7 +81,7 @@ Experience Platform 및 Experience Platform Launch에 대한 릴리스 업데이
 
 ### Experience Platform Launch
 
-플랫폼 실행에 대한 자세한 내용은 [Experience Platform Launch 릴리스 노트를](https://docs.adobe.com/content/help/ko-KR/launch/using/intro/release-notes/current.html) 참조하십시오.
+Platform Launch에 대한 자세한 내용은 [Experience Platform Launch 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/launch/using/intro/release-notes/current.html)를 참조하십시오.
 
 ### Experience Platform 및 서비스 자습서와 교육 과정
 
@@ -89,8 +89,8 @@ Experience Platform 및 서비스를 위해 게시된 새로운 비디오, 자�
 
 | 게시됨 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
-| 2020년 10월 26일 | [Offer Decisioning 소개](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/introduction-to-offer-decisioning.html) | 비디오 | This video gives an overview of [!UICONTROL Offer Decisioning], an application service built on top of Adobe Experience Platform. 이 비디오에서는 비즈니스 문제, [!UICONTROL Offer Decisioning] 해결책, 주요 기능, 기본 아키텍처 및 주요 활용 사례를 다룹니다. |
-| 2020년 10월 29일 | [Offer Decisioning](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/demo-of-offer-decisioning.html?lang=en) | 비디오 | Learn how brands can use Adobe’s new [!UICONTROL Offer Decisioning] service to define and manage their offers,leverage real-time customer data, and deliver the right experiences their customers expect. |
+| 2020년 10월 26일 | [Offer Decisioning 소개](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/introduction-to-offer-decisioning.html) | 비디오 | 이 비디오에서는 Adobe Experience Platform 위에 구축된 응용 프로그램 서비스인 [!UICONTROL Offer Decisioning]에 대한 개요를 제공합니다. 이 비디오에서는 비즈니스 문제, [!UICONTROL Offer Decisioning] 해결책, 주요 기능, 기본 아키텍처 및 주요 활용 사례를 다룹니다. |
+| 2020년 10월 29일 | [Offer Decisioning](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/demo-of-offer-decisioning.html?lang=ko) | 비디오 | 브랜드가 Adobe의 새 [!UICONTROL Offer Decisioning] 서비스를 사용하여 오퍼를 정의 및 관리하고 실시간 고객 데이터를 활용하며 고객이 기대하는 최적의 경험을 전달하는 방법을 알아봅니다. |
 | 2020년 9월 14일 | [Attribution AI의 비즈니스 가치](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intelligent-services/business-value-of-attribution-ai.html) | 비디오 | [!UICONTROL Attribution AI]는 [!UICONTROL 지능형 서비스]의 일부이며 멀티 채널, 알고리즘 기반의 어트리뷰션 서비스로, 지정된 결과에 대한 고객 상호 작용의 영향과 점진적 효과를 계산합니다. 마케터는 [!UICONTROL Attribution AI]를 통해 고객 여정의 각 단계에서 개별 고객과의 인터랙션이 미치는 영향을 파악하여 마케팅 및 광고 비용을 측정하고 최적화할 수 있습니다. |
 | 2020년 9월 14일 | [고객 AI의 비즈니스 가치](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intelligent-services/business-value-of-customer-ai.html) | 비디오 | 이 비디오에서는 [!UICONTROL 고객 AI]가 AI 기반 자산으로 고객 프로필을 강화하고 고객 세분화와 타겟팅 활동을 강화하는 방법을 보여줍니다. |
 | 2020년 9월 14일 | [플랫폼 및 Magento의 비즈니스 가치](https://docs.adobe.com/content/help/en/platform-learn/tutorials/experience-cloud/business-value-of-platform-and-magento.html) | 비디오 | 이 비디오에서는 Adobe Experience Platform을 [!DNL Magento] Commerce와 함께 사용하여 고객에 대한 단일 뷰를 제작하고 디지털 상점 및 여러 채널에서 경험을 지능적으로 개인화할 수 있습니다. |
@@ -131,7 +131,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 | ----------- | ---------- | ----- |
 | 고객 여정 분석 설명서 | 2020년 11월 | Customer Journey Analytics 설명서가 Experience League로 이전 중입니다. 10월에는 모든 기사, 비디오, 릴리스 노트 및 자습서가 `docs.adobe.com`의 현재 위치에서 `experienceleague.adobe.com`로 이전됩니다. 이렇게 하면 모든 학습, 사용자 도움말, 사용 여부 및 커뮤니티 컨텐츠가 한 곳에서 제공됩니다. 이 변경 사항이 발생하면 모든 링크가 Experience League로 리디렉션되므로 필요한 작업이 없습니다. 컷오버가 시작되면 릴리스 노트를 업데이트할 예정입니다. |
 | [!UICONTROL 선] 시각화: 이동 평균 트렌드 라인 옵션 | 2020년 10월 8일 | 이동 평균이 선 시각화 트렌드 라인 설정에 추가되었습니다. 이동 평균은 지정된 이전 기간에 대한 평균을 계산하고 트렌드 라인 데이터 포인트로 사용한 후 다음 기간으로 이동합니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/line.html) |
-| 채우기 제한 제거 | 2020년 10월 19일 | 향상된 CJA 경험을 제공하기 위해 채우기(내역 데이터 가져오기) 제한을 제거했습니다. 이전에는, 귀하 스스로 최대 25억 개의 행을 채우거나 엔지니어링 관련 이외의 작업을 수행할 수 있었습니다. 이제 데이터 채우기를 원하는 대로 할 수 있습니다. [추가 정보](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#enable-connection) |
+| 채우기 제한 제거 | 2020년 10월 19일 | 향상된 CJA 경험을 제공하기 위해 채우기(내역 데이터 가져오기) 제한을 제거했습니다. 이전에는 스스로 최대 25억 개의 행을 채우거나 엔지니어링 관련 이외의 작업을 수행할 수 있었습니다. 이제 제한 없이 데이터 채우기를 원하는 대로 할 수 있습니다. [자세한 정보](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-connections/create-connection.html#enable-connection) |
 | Analysis Workspace 성능 도움말 페이지 | 2020년 10월 22일 | Analysis Workspace 성능 도움말 페이지에는 프로젝트 성능에 영향을 주는 다양한 요인과 최적화를 위한 팁의 링크가 표시됩니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
 | 여정 IQ: 크로스채널 Analytics | 2020년 10월 30일 | 여정 IQ: 크로스채널 Analytics를 사용하면 고객이 하나의 ID 네임스페이스에서 다른 ID 네임스페이스로 Adobe Experience Platform 데이터 레이크에서 Adobe Analytics(또는 기타) 이벤트 데이터 세트를 다시 키 대조할 수 있습니다. 일반적으로 이는 이벤트 데이터 세트를 쿠키 기반 ID에서 개인 기반 ID로 다시 키 대조하는 것을 의미합니다. 이 방법을 통해 다시 키 대조된 데이터 세트는 CJA 연결에서 다른 사람 기반 데이터와 결합될 수 있으므로 Analysis Workspace에서 교차 장치/교차 채널 분석을 수행할 수 있습니다. |
 | [!UICONTROL 체류] 시간 지표 및 차원 | 2020년 10월 30일 | [!UICONTROL 체류] 시간 지표와 차원을 통해 소비자가 고객 여정의 다양한 측면에서 보낸 시간을 파악할 수 있으므로 채널 전반에서 고객 참여와 병목 현상을 보다 완벽하게 파악할 수 있습니다. |
@@ -161,7 +161,7 @@ AN-224702; AN-232791; AN-233982; AN-234384; AN-235608; AN-236538; AN-236598; AN-
 | ----------- | ---------- | ---------- |
 | 모든 수신 HTTPS 요청에 HSTS 헤더 추가 | 2020년 9월 29일 | 2020년 9월 29일에 HTTPS를 사용하는 모든 수신 요청에 HSTS 헤더를 추가하기 시작했습니다. 이를 통해 브라우저/클라이언트가 HTTPS에서 모든 향후 요청을 수행하도록 지시할 수 있으며 이는 보안 모범 사례입니다. 이 시점에서는 HTTP를 사용하는 수신 요청에 이 설정을 적용하지 않습니다. |
 | Experience Cloud ID 서비스 쿠키 설정 변경 | 2020년 9월 22일 | Chrome 버전 80의 개인 정보 설정 업데이트는 Adobe Analytics에서 Google AMP 페이지를 보는 일부 사용자를 추적하는 기능에 영향을 주었습니다. 특히 Google에서 호스팅하는 AMP 페이지를 보는 사용자의 도메인 간 추적이 방지됩니다. 이로 인해 고유 방문자 수가 부풀려질 수 있습니다. 이 수정 사항으로 사용자는 ECID 쿠키의 설정을 변경하여 이 문제를 해결할 수 있습니다.<br>현재 Analytics는 버전 80 이전의 Chrome에서 도메인 간 추적이 허용되는 `SameSite = Lax` 설정으로 ECID(Experience Cloud ID Service) 쿠키를 설정합니다. 더 이상은 해당되지 않습니다. 이 변경 사항으로 사용자는 ECID 쿠키에 대한 SameSite 설정을 `None`으로 업데이트할 수 있습니다. <br>이는 Analytics 쿠키를 더 많은 상황에서 공유할 수 있게 하지만 Analytics 쿠키에는 중요한 정보가 포함되어 있지 않습니다. 또한 이 설정을 선택할 때는 HTTPS 연결을 통해서만 데이터를 전달할 수 있도록 쿠키를 `Secure`으로 설정해야 합니다. 이 변경 사항을 적용하려면 지원되는 사용자가 고객 지원 센터에서 티켓을 열도록 하십시오. |
-| `adobe.com` 도메인에서 `omniture.com`으로 마이그레이션 | 2020년 8월 21일 | 2020년 8월 13일, Adobe Analytics은 프론트엔드 아키텍처를 `adobe.com|http://adobe.com/` 도메인 `omniture.com|http://omniture.com/`으로 이전했습니다. 이러한 변경은 2020년 5월 28일 통합 제품 도메인 변경 이후 발생한 타사 쿠키 문제를 완화할 것입니다. 이 업데이트로 인해 브라우저는 사용자에게 새 `.adobe.com|http://an.adobe.com/` 또는 `experience.adobe.com|http://experience.adobe.com/` 도메인을 신뢰하라는 메시지를 표시할 수 있습니다. |
+| `omniture.com`에서 `adobe.com` 도메인으로 마이그레이션 | 2020년 8월 21일 | 2020년 8월 13일, Adobe Analytics은 프론트엔드 아키텍처를 `adobe.com|http://adobe.com/` 도메인 `omniture.com|http://omniture.com/`으로 이전했습니다. 이러한 변경은 2020년 5월 28일 통합 제품 도메인 변경 이후 발생한 타사 쿠키 문제를 완화할 것입니다. 이 업데이트로 인해 브라우저는 사용자에게 새 `.adobe.com|http://an.adobe.com/` 또는 `experience.adobe.com|http://experience.adobe.com/` 도메인을 신뢰하라는 메시지를 표시할 수 있습니다. |
 | Ad Hoc Analysis Java 8 호환성 업데이트 | 2020년 8월 21일 | Ad Hoc Analysis은 현재 Java 8 버전 1.8.0_261+와 호환되지 않습니다. [수명 종료 날짜](https://spark.adobe.com/page/S9Bhp66VJ2fEn/) 이전에 이 도구에 대한 액세스가 중단되지 않도록 1.8.0_261 이전의 Java 8 버전을 유지하는 것이 좋습니다. |
 | Adobe Data Connectors EOL | 2020년 7월 13일 | Adobe [!UICONTROL Data Connectors]는 더 이상 실행 불가능하거나 지원되지 않는 레거시 기술을 기반으로 합니다. Adobe는 [Adobe Exchange 파트너 프로그램](https://partners.adobe.com/exchangeprogram/experiencecloud) 내에 계속 제공되고 지원되기를 원하는 모든 통합에 대해 새로운 표준을 채택하고 있습니다. 공식적인 수명 종료 날짜는 계속 결정 중이지만, 향후 12개월에서 18개월(2021년 중순에서 2021년 말) 사이가 될 것으로 예상하고 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/import/dataconnectors/data-connectors-eol.html) |
 | Ad Hoc Analysis 생산 중단 | 2018년 8월 6일 | Adobe는 2021년 3월 1일 Ad Hoc Analysis를 종료할 예정이라고 발표했습니다. 자세한 내용은 [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)를 참조하십시오. |
@@ -212,10 +212,10 @@ Audience Manager에 대해 게시된 새로운 비디오, 자습서 또는 교�
 
 | 게시됨 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
-| 2020년 10월 28일 | [트레이트 그래프의 숫자 이해](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/understanding-numbers-in-the-trait-graph.html?lang=en#build-and-manage-audiences) | 비디오 | 트레이트 정보 화면에서 트레이트에 대해 보고된 수치를 이해하는 데 대한 팁을 얻을 수 있습니다. |
-| 2020년 10월 23일 | [Analytics 데이터에서 특성 생성 계획](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/planning-trait-creation-from-analytics-data.html?lang=en#build-and-manage-audiences) | 비디오 | Audience Manager에서 Adobe Analytics 데이터를 사용할 계획을 세울 때 도움이 되는 팁과 기법을 알아봅니다. |
-| 2020년 10월 23일 | [트레이트를 생성할 때 데이터 소스 선택](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/choosing-a-data-source-when-creating-traits.html?lang=en#build-and-manage-audiences) | 비디오 | 트레이트를 만들 때 입력해야 할 중요한 필드 중 하나는 데이터 소스 필드입니다. 규칙 기반 트레이트와 온보딩 트레이트에 적합한 데이터 소스를 선택하는 방법에 대한 팁을 얻을 수 있습니다. |
-| 2020년 9월 14일 | [코드 보기를 사용하여 트레이트 생성 및 편집](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/using-code-view-to-create-and-edit-traits.html?lang=en#build-and-manage-audiences) | 비디오 | 새로운 트레이트를 만들거나 기존 트레이트를 편집할 때 코드 뷰를 사용하는 방법을 살펴볼 수 있습니다. 코드 보기는 특성 표현식을 설정할 때 표현식 빌더 대신 사용됩니다. |
+| 2020년 10월 28일 | [특성 그래프의 수치 이해](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/understanding-numbers-in-the-trait-graph.html?lang=ko#build-and-manage-audiences) | 비디오 | 특성 정보 화면에서 특성에 대해 보고된 수치를 이해하는 데 대한 팁을 얻을 수 있습니다. |
+| 2020년 10월 23일 | [Analytics 데이터에서 특성 생성 계획](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/planning-trait-creation-from-analytics-data.html?lang=ko#build-and-manage-audiences) | 비디오 | Audience Manager에서 Adobe Analytics 데이터를 사용할 계획을 세울 때 도움이 되는 팁과 기법을 알아봅니다. |
+| 2020년 10월 23일 | [특성을 생성할 때 데이터 소스 선택](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/choosing-a-data-source-when-creating-traits.html?lang=ko#build-and-manage-audiences) | 비디오 | 특성을 만들 때 입력해야 할 중요한 필드 중 하나는 데이터 소스 필드입니다. 규칙 기반 특성과 온보딩 특성에 적합한 데이터 소스를 선택하는 방법에 대한 팁을 얻을 수 있습니다. |
+| 2020년 9월 14일 | [코드 보기를 사용하여 특성 생성 및 편집](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/using-code-view-to-create-and-edit-traits.html?lang=ko#build-and-manage-audiences) | 비디오 | 새로운 특성을 만들거나 기존 특성을 편집할 때 코드 보기를 사용하는 방법을 알아봅니다. 코드 보기는 특성 표현식을 설정할 때 표현식 빌더 대신 사용됩니다. |
 | 2020년 10월 10일 | [예측 대상 이해](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/algorithmic-models/understanding-predictive-audiences.html) | 비디오 | 이 비디오에서는 Adobe Audience Manager 예측 대상이 누구인지에 대해 논의하고, 고객 성공 방법에 대한 세부 정보를 제공하며, 활용 사례를 설명합니다. |
 
 ## ![아이콘](/assets/aem.png) Adobe Experience Manager {#aem}
@@ -234,7 +234,7 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 
    클라우드 서비스로서의 AEM에 대한 새로운 기능 
 
-   * **클라우드 서비스로서의 Adobe Experience Manager 사이트**
+   * **클라우드 서비스로서의 Adobe Experience Manager Sites**
       * 단일 페이지 애플리케이션(SPA) 편집기 Javascript SDK가 [이제 오픈 소스입니다.](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/implementing/headless/spa/reference-materials.html)
    * **클라우드 서비스로서의 Adobe Experience Manager Assets**
 
@@ -284,11 +284,11 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 
 ### 사용자 도움말
 
-**[!DNL Experience Manager]사이트**
+**[!DNL Experience Manager]Sites**
 
 리치 텍스트 편집기 설명서가 [RTE의 링크에 대해 지원되는 모든 프로토콜](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html#linkstyles)을 나열하도록 업데이트됩니다.
 
-**[!DNL Experience Manager]자산**
+**[!DNL Experience Manager]Assets**
 
 * 모든 사용자가 [AEM Assets에 액세스할 수 있는 방법](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/assets/accessibility.html)에 대한 새로운 도움말 컨텐츠을 사용할 수 있습니다.
 
@@ -304,14 +304,14 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 
 * Assets Insights의 경우 [Adobe Launch](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/advanced/asset-insights-launch-tutorial.html)를 사용합니다. [DTM 통합](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/assets/managing/touch-ui-using-dtm-for-asset-insights.html)은 문서에서 더 이상 사용되지 않는 메서드로 호출됩니다.
 
-Updated: **10/28/2020**
+업데이트됨: **2020년 10월 28일**
 
-* **향상된 브랜드 포털**:다음과 같은 새로운 기능 등을 사용할 수 있습니다 [!DNL Brand Portal].
+* **Brand Portal 개선 사항**: 다음과 같은 새로운 기능 등을 [!DNL Brand Portal]에서 사용할 수 있습니다.
 
-   * [간소화된 빠른 다운로드를 위한 향상된 다운로드 경험](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html) . 관리자는 추가 다운로드 구성을 구성하여 사용자와 기업의 요구 사항에 맞는 경험을 제공할 수 있습니다.
-   * 이제 모든 페이지에서 한 번의 클릭으로 [!UICONTROL 파일], [컬렉션](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/share/brand-portal-share-collection.html)및 [!UICONTROL 공유 링크] 를탐색할 수있습니다.
-   * 사용자는 이제 특정 변환을 [선택하고 다운로드할 수](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page) 있습니다. 새 변환 다운로드 옵션은 자산 세부 사항 페이지의 [!UICONTROL 표현물] 패널에서 사용할 수 있습니다.
-   * 게스트 사용자 세션의 제한 시간이 15분으로 모든 동시 사용자에게 더 나은 환경을 제공합니다.
+   * 간소화된 빠른 다운로드를 위해 [다운로드 경험을 개선했습니다](https://docs.adobe.com/content/help/ko-KR/experience-manager-brand-portal/using/download/brand-portal-download-assets.html). 관리자는 추가 다운로드 구성을 구성하여 사용자와 기업의 요구 사항에 맞는 경험을 제공할 수 있습니다.
+   * 이제 모든 페이지에서 한 번의 클릭으로 [!UICONTROL 파일], [컬렉션](https://docs.adobe.com/content/help/ko-KR/experience-manager-brand-portal/using/share/brand-portal-share-collection.html)및 [!UICONTROL 공유 링크]를 탐색할 수 있습니다.
+   * 사용자는 이제 [특정 변환을 선택하고 다운로드](https://docs.adobe.com/content/help/ko-KR/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)할 수 있습니다. 새 변환 다운로드 옵션은 자산 세부 사항 페이지의 [!UICONTROL 변환] 패널에서 사용할 수 있습니다.
+   * 게스트 사용자 세션의 제한 시간 15분으로 모든 동시 사용자에게 더 나은 환경을 제공합니다.
 
 ### [!DNL Experience Manager] 양식
 
@@ -361,7 +361,7 @@ Adobe Experience Manager 릴리스 로드맵, 릴리스 업데이트 및 추가 
 | 게시됨 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
 | 2020년 11월 2일 | [Target 호출 로드 및 실행](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/load-and-fire-target.html) | 비디오 | Launch 규칙을 사용하여 매개 변수를 로드하고 페이지 요청에 전달하며 사이트 페이지에서 Target 호출을 실행하는 방법을 알아봅니다. 페이지 정보는 검색 및 매개 변수로 전달됩니다. Adobe Client Data 레이어를 사용하면 웹 페이지에서 방문자의 경험에 대한 데이터를 수집 및 저장한 다음 이 데이터에 쉽게 액세스할 수 있습니다. |
-| 2020년 10월 28일 | [비디오 스마트 태그](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/metadata/video-smart-tags.html) | 비디오 | Experience Manager 자산은 Adobe Sensei을 활용하여 비디오의 주요 요소를 설명하는 키워드로 비디오 자산에 지능적으로 태그를 지정하므로 AEM 사용자의 키워드 검색을 사용하여 쉽게 검색할 수 있습니다. |
+| 2020년 10월 28일 | [비디오 고급 태그](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/metadata/video-smart-tags.html) | 비디오 | Experience Manager Assets은 Adobe Sensei를 활용하여 비디오의 주요 요소를 설명하는 키워드로 비디오 자산에 지능적으로 태그를 지정하므로 AEM 사용자의 키워드 검색을 사용하여 쉽게 검색할 수 있습니다. |
 | 2020년 10월 27일 | [Microsoft Office용 AEM 문서 보안 확장 소개](https://docs.adobe.com/content/help/en/experience-manager-document-security/using/document-security-extension-microsoft-office.html) | 문서 | Microsoft Office용 Adobe Experience Manager 문서 보안을 사용하면 권한이 부여된 사용자만 지적 재산이 포함된 Word, Excel 및 PowerPoint 파일을 사용할 수 있습니다. Microsoft Office용 문서 보안 확장을 사용하면 미리 정의된 기밀 설정을 파일에 적용할 수 있습니다. |
 | 2020년 10월 7일 | [Adobe Analytics에서 페이지 지표 보기](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/analytics/create-analytics-workspace.html) | 문서 | Adobe Experience Manager 사이트에서 캡처한 데이터를 Adobe Analytics 보고서 세트의 지표 및 차원에 매핑하는 방법을 알아봅니다. |
 | 2020년 10월 8일 | [전체 웹 페이지 경험의 개인화](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/personalization-web-page.html) | 비디오 | AEM에서 호스팅되는 사이트 페이지를 Adobe Target을 사용하여 새 페이지로 리디렉션하는 활동을 만드는 방법을 알아봅니다. |
@@ -451,8 +451,8 @@ Campaign Classic, Campaign Standard 및 컨트롤 패널에 대한 릴리스 정
 | 2020년 11월 2일 | [Campaign 컨트롤 패널 - SFTP 서버에 연결 - 기능 비디오](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html) | Campaign Classic | Campaign 컨트롤 패널에 저장한 키를 사용하여 클라이언트 SFTP 애플리케이션을 통해 SFTP 서버에 연결하는 방법을 알아봅니다. |
 | 2020년 10월 20일 | [Campaign 컨트롤 패널 - Campaign 컨트롤 패널 시작하기 - 문서](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Classic | 이 문서에서는 Campaign 컨트롤 패널에 액세스하는 방법 및 제어판에서 사용할 수 있는 사전 요구 사항을 설명합니다. |
 | 2020년 10월 20일 | [Campaign 컨트롤 패널 - Campaign 컨트롤 패널 시작하기 - 문서](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Standard | 이 문서에서는 Campaign 컨트롤 패널에 액세스하는 방법 및 제어판에서 사용할 수 있는 사전 요구 사항을 설명합니다. |
-| 2020년 10월 19일 | [Campaign 컨트롤 패널 - 허용 목록에 IP 범위 추가](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Classic | Campaign 컨트롤 패널의 허용 목록에 IP 주소 범위를 추가하는 방법을 알아봅니다. |
-| 2020년 10월 19일 | [Campaign 컨트롤 패널 - 허용 목록에 IP 범위 추가](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Standard | Campaign 컨트롤 패널의 허용 목록에 IP 주소 범위를 추가하는 방법을 알아봅니다. |
+| 2020년 10월 19일 | [컨트롤 패널 - 허용 목록에 IP 범위 추가](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Classic | 컨트롤 패널의 허용 목록에 IP 주소 범위를 추가하는 방법을 알아봅니다. |
+| 2020년 10월 19일 | [컨트롤 패널 - 허용 목록에 IP 범위 추가](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Standard | 컨트롤 패널의 허용 목록에 IP 주소 범위를 추가하는 방법을 알아봅니다. |
 | 2020년 10월 16일 | [컨트롤 패널 - CNAME(베타)을 사용하여 하위 도메인 위임 - 기능 비디오](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html) | Campaign Classic | 컨트롤 패널에서 CNAME을 사용하여 하위 도메인을 설정하고 제출하는 방법을 알아봅니다. |
 | 2020년 10월 16일 | [컨트롤 패널 - CNAME(베타)을 사용하여 하위 도메인 위임 - 기능 비디오](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html) | Campaign Standard | 컨트롤 패널에서 CNAME을 사용하여 하위 도메인을 설정하고 제출하는 방법을 알아봅니다. |
 
@@ -471,14 +471,14 @@ Adobe Advertising Cloud에 대한 릴리스 정보입니다.
 
 ### [!DNL Advertising Cloud DSP]의 새로운 기능{#adcloud-dsp}
 
-업데이트됨:2020년 10월 28일
+업데이트 날짜: 2020년 10월 28일
 
 | 기능 | 설명 |
 | -----------| ---------- |
-| 신규 도움말 | (10월 28일 릴리스) 기존 도움말은 업데이트된 페이지로 대체되었으며, 이 도움말은 DSP 기본 메뉴의 도움말 링크에서 사용할 수 있으며, https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html에서 항상 사용할 수 있습니다 [](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html) |
-| 캠페인 | (10월 28일 릴리스) 이제 더 빠른 통찰력, 간소화된 워크플로우 및 사용자 정의된 보기를 위한 이전 캠페인 베타 보기가 기본 캠페인 보기입니다. |
-| 비공개 인벤토리 | (October 15 release) All users can now set up and edit deal ID details using a new deal ID form, which is a simplified version of the legacy [!UICONTROL Smart Ad Serving] form. 새 거래 ID 세부 사항을 설정하려면 **[!UICONTROL 인벤토리 > 거래]**&#x200B;로 이동하여 **[!UICONTROL 만들기]**&#x200B;를 클릭한 다음 **[!UICONTROL 거래 ID 베타]**&#x200B;를 클릭합니다. |
-| 배치 예측 | (October 15 release) For placements with placement-level pacing, the [!UICONTROL Forecast] section of the placement settings includes a new [!UICONTROL Estimated Maximums] section, which indicates how much more capacity is available with the current targeting configuration. |
+| 신규 도움말 | (10월 28일 릴리스) 기존 도움말은 업데이트된 페이지로 대체되었으며, 이 도움말은 DSP 기본 메뉴의 도움말 링크에서 사용할 수 있고 [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html)에서도 항상 사용할 수 있습니다. |
+| Campaigns | (10월 28일 릴리스) 이제 더 빠른 통찰력, 간소화된 워크플로우 및 사용자 정의된 보기를 위한 이전 Campaigns 베타 보기가 기본 캠페인 보기입니다. |
+| 비공개 인벤토리 | (10월 15일 릴리스) 이제 모든 사용자는 기존 [!UICONTROL 스마트 광고 서비스 제공] 양식의 간소화된 버전인 새로운 거래 ID 양식을 사용하여 거래 ID 세부 사항을 설정하고 편집할 수 있습니다. 새 거래 ID 세부 사항을 설정하려면 **[!UICONTROL 인벤토리 > 거래]**&#x200B;로 이동하여 **[!UICONTROL 만들기]**&#x200B;를 클릭한 다음 **[!UICONTROL 거래 ID 베타]**&#x200B;를 클릭합니다. |
+| 배치 예측 | (10월 15일 릴리스) 배치 수준 게재 간격이 있는 배치의 경우, 배치 설정의 [!UICONTROL 예측] 섹션에는 현재 타겟팅 구성으로 사용할 수 있는 용량이 얼마나 더 많은지를 나타내는 새 [!UICONTROL 예상 최대 수] 섹션이 포함됩니다. |
 
 ### [!DNL Advertising Cloud Search]의 새로운 기능{#adcloud-search}
 
