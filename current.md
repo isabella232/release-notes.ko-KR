@@ -4,11 +4,11 @@ description: Adobe Experience Cloud 릴리스 정보
 doc-type: release notes
 last-update: November 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 27e6ef1fb123fd8a5d136f86c5df492ea6e79733
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8040'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -33,9 +33,9 @@ ht-degree: 95%
 * [Experience Cloud 서비스 및 관리](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) 및 [Customer Journey Analytics](#cust-journey) (Updated **November 2, 2020**)
+* [Analytics](#analytics) 및 [Customer Journey Analytics](#cust-journey) (업데이트 날짜: **2020년 11월 2일**)
 * [Audience Manager](#aam)
-* [Experience Manager](#aem) (업데이트됨: **2020년 10월 28일**)
+* [Experience Manager](#aem)(업데이트됨: **2020년 10월 28일**)
 * [Campaign](#ac)
 * [Advertising Cloud](#adcloud) (업데이트 날짜:**2020년 10월 28일**)
 * [[!DNL Target]](#target) (업데이트 날짜: **2020년 11월 2일**)
@@ -108,7 +108,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 릴리스 날짜: **2020년 10월 29일**
 
 * [Adobe Analytics의 새로운 기능](#aa-features)
-* [Customer Journey Analytics의 새로운 기능](#cust-journey) (2020년 11월 2일 업데이트)
+* [Customer Journey Analytics의 새로운 기능](#cust-journey) (업데이트 날짜: 2020년 11월 2일)
 * [Media Analytics의 새로운 기능](#media-aa)
 * [Adobe Analytics의 수정 사항](#aa-fixes)
 * [Analytics 관리자에 대한 중요 공지](#aa-notices)
@@ -134,8 +134,8 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 | 채우기 제한 제거 | 2020년 10월 19일 | 향상된 CJA 경험을 제공하기 위해 채우기(내역 데이터 가져오기) 제한을 제거했습니다. 이전에는 스스로 최대 25억 개의 행을 채우거나 엔지니어링 관련 이외의 작업을 수행할 수 있었습니다. 이제 제한 없이 데이터 채우기를 원하는 대로 할 수 있습니다. [자세한 정보](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-connections/create-connection.html#enable-connection) |
 | Analysis Workspace 성능 도움말 페이지 | 2020년 10월 22일 | Analysis Workspace 성능 도움말 페이지에는 프로젝트 성능에 영향을 주는 다양한 요인과 최적화를 위한 팁의 링크가 표시됩니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
 | 여정 IQ: 크로스채널 Analytics | 2020년 10월 30일 | 여정 IQ: 크로스채널 Analytics를 사용하면 고객이 하나의 ID 네임스페이스에서 다른 ID 네임스페이스로 Adobe Experience Platform 데이터 레이크에서 Adobe Analytics(또는 기타) 이벤트 데이터 세트를 다시 키 대조할 수 있습니다. 일반적으로 이는 이벤트 데이터 세트를 쿠키 기반 ID에서 개인 기반 ID로 다시 키 대조하는 것을 의미합니다. 이 방법을 통해 다시 키 대조된 데이터 세트는 CJA 연결에서 다른 사람 기반 데이터와 결합될 수 있으므로 Analysis Workspace에서 교차 장치/교차 채널 분석을 수행할 수 있습니다. |
-| [!UICONTROL 체류] 시간 지표 및 차원 | 2020년 10월 30일 | [!UICONTROL 체류] 시간 지표와 차원을 통해 소비자가 고객 여정의 다양한 측면에서 보낸 시간을 파악할 수 있으므로 채널 전반에서 고객 참여와 병목 현상을 보다 완벽하게 파악할 수 있습니다. |
-| [!UICONTROL 디바이스] 및 [!UICONTROL 지리] 차원 | 2020년 10월 30일 | [!UICONTROL 장치] 및 [!UICONTROL 지역] 차원은 이제 [Adobe Analytics 소스 커넥터의 &quot;전역 조회 지원&quot; 프로젝트의 일부로 기본적으로 사용할 수 있습니다](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html). 이렇게 많이 요청되는 추가는 Adobe Analytics과 CJA 간의 [균등성을 증가시킵니다](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-aa.html). |
+| [!UICONTROL 사용한 시간] 지표 및 차원 | 2020년 10월 30일 | [!UICONTROL 사용한 시간] 지표와 차원을 통해 소비자가 고객 여정의 다양한 측면에서 사용한 시간을 파악할 수 있으므로 채널 전반에서 고객 참여와 병목 현상을 보다 완벽하게 파악할 수 있습니다. |
+| [!UICONTROL 장치] 및 [!UICONTROL 지역] 차원 | 2020년 10월 30일 | [!UICONTROL 장치] 및 [!UICONTROL 지역] 차원은 이제 [Adobe Analytics Source 커넥터](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html)의 “전역 조회 지원” 프로젝트의 일부로 기본적으로 사용할 수 있습니다. 이렇게 많이 요청되는 추가는 [Adobe Analytics와 CJA 간의 패리티](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-overview/cja-aa.html)를 증가시킵니다. |
 
 ### [!UICONTROL Media Analytics]의 새로운 기능 {#media-aa}
 
@@ -230,13 +230,13 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 
 ### 제품 릴리스
 
-* **AEM을 클라우드 서비스로 사용**
+* **AEM as a Cloud Service**
 
-   클라우드 서비스로서의 AEM에 대한 새로운 기능 
+   AEM as a Cloud Service에 대한 새로운 기능 
 
-   * **클라우드 서비스로서의 Adobe Experience Manager Sites**
+   * **Adobe Experience Manager Sites as a Cloud Service**
       * 단일 페이지 애플리케이션(SPA) 편집기 Javascript SDK가 [이제 오픈 소스입니다.](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/implementing/headless/spa/reference-materials.html)
-   * **클라우드 서비스로서의 Adobe Experience Manager Assets**
+   * **Adobe Experience Manager Assets as a Cloud Service**
 
       * 워터마크 이미지 파일은 Asset Microservices에서 생성된 변환에 대해 지원됩니다. 처리 프로필로 구성할 수 있으며 PNG 파일을 워터마크로 사용합니다. [자산을 워터마크 지정](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/assets/manage/watermark-assets.html)을 참조하십시오.
       * Dynamic Media의 개선 사항:
@@ -246,7 +246,7 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
          * Adobe Document Cloud 뷰 SDK 통합을 통해 향상된 PDF 미리 보기
          * 한 번의 클릭으로 다운로드 기능을 사용할 수 있습니다.
          * 다운로드 경험에 대한 새 관리 구성입니다.
-   * **클라우드 서비스로서의 Adobe Experience Manager Commerce**
+   * **Adobe Experience Manager Commerce as a Cloud Service**
 
       * CIF 코어 구성 요소 v1.3.0이 출시되었습니다. 자세한 내용은 [CIF 핵심 구성 요소](https://github.com/adobe/aem-core-cif-components/releases/tag/core-cif-components-reactor-1.3.0)를 참조하십시오.
       * 제품 및 카테고리 템플릿을 위한 제품/카테고리가 포함된 미리 보기 기능을 이제 사용할 수 있습니다. 이를 통해 AEM의 비즈니스 사용자/마케터는 실제 데이터로 제품/카테고리 템플릿을 볼 수 있습니다.
@@ -272,7 +272,7 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
    * **코드 리팩터링 도구**
 
       * AIO-CLI 플러그인은 Repository Modernizer를 지원하며 사용자는 플러그인을 사용하여 도구를 실행할 수 있습니다. 자세한 내용은 [Git 리소스: aio-cli-plugin-aem-cloud-service-migration](https://github.com/adobe/aio-cli-plugin-aem-cloud-service-migration)을 참조하십시오.
-      * Repository Modernizer 유틸리티를 사용하여 기존 프로젝트 패키지를 AEM에 대해 정의된 프로젝트 구조와 호환되는 패키지로 재구성할 수 있습니다. 자세한 내용은 [Git 리소스: Repository Modernizer](https://github.com/adobe/aem-cloud-service-source-migration/tree/master/packages/repository-modernizer)를 참조하십시오.
+      * Repository Modernizer 유틸리티를 사용하여 기존 프로젝트 패키지를 AEM as a Cloud Service에 대해 정의된 프로젝트 구조와 호환되는 패키지로 재구성할 수 있습니다. 자세한 내용은 [Git 리소스: Repository Modernizer](https://github.com/adobe/aem-cloud-service-source-migration/tree/master/packages/repository-modernizer)를 참조하십시오.
 
 
 
@@ -280,7 +280,7 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 
 
 
-[AEM을 클라우드 서비스 릴리스 정보로 사용](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)을 참조하십시오.
+[AEM as a Cloud Service 릴리스 정보로 사용](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)을 참조하십시오.
 
 ### 사용자 도움말
 
@@ -332,8 +332,8 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 
 Adobe Experience Manager 릴리스 로드맵, 릴리스 업데이트 및 추가 정보에 대한 원스톱 설명서 솔루션을 게시했습니다. 다양한 AEM 공간에서 사용 가능한 많은 관련 아티클을 단일 위치에 가져와 손쉽게 액세스할 수 있습니다. 여기에는 다음과 같은 중요한 문서가 포함됩니다.
 
-* [AEM 릴리스 로드맵](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/update-releases-roadmap.html): AEM에 대해 예정된 릴리스를 Cloud Service로 나열하고 온-프레미스 및 관리 서비스 AEM 버전으로 지원합니다.
-* [AEM 릴리스 업데이트](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/aem-releases-updates.html): AEM의 최신 릴리스 버전을 Cloud Service로 나열하고 지원되는 온-프레미스 및 관리 서비스 AEM 버전을 나열하고 이러한 릴리스 버전에 대한 설명서로 보냅니다.
+* [AEM 릴리스 로드맵](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/update-releases-roadmap.html): AEM as a Cloud Service에 대해 예정된 릴리스를 나열하고 온-프레미스 및 관리 서비스 AEM 버전으로 지원합니다.
+* [AEM 릴리스 업데이트](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/aem-releases-updates.html): AEM as a Cloud Service의 최신 릴리스 버전을 나열하고 지원되는 온-프레미스 및 관리 서비스 AEM 버전을 나열하고 이러한 릴리스 버전에 대한 설명서로 보냅니다.
 * [AEM Forms 릴리스](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html): 릴리스된 모든 Forms 추가 기능 패키지의 소프트웨어 배포 패키지 링크를 나열합니다.
 
 또한 저장소에는 [AEM 업데이트 릴리스 차량 정의](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/update-release-vehicle-definitions.html) 및 [최근 AEM 설명서 업데이트](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/doc-updates/documentation-updates.html) 등의 다른 중요한 문서가 포함되어 있습니다.
@@ -370,41 +370,41 @@ Adobe Experience Manager 릴리스 로드맵, 릴리스 업데이트 및 추가 
 | 2020년 10월 8일 | [Adobe Target으로 경험 조각 내보내기](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/export-experience-fragment-target.html) | 비디오 | AEM 경험 조각을 Adobe Target 오퍼로 내보내는 방법을 알아봅니다. |
 | 2020년 10월 5일 | [양식 데이터 모델 변수를 사용하여 데이터베이스에 행 삽입](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/variables-aem-workflow/form-data-model.html) | 비디오 | 유형 양식 데이터 모델의 변수는 일반적으로 양식 데이터 모델의 기본 데이터 소스에 행을 삽입하는 데 사용됩니다. 이 비디오에서는 AEM 작업 과정을 사용하여 데이터베이스에 행을 삽입하는 데 필요한 단계를 설명합니다. |
 | 2020년 9월 28일 | [SMS를 사용하는 2단계 인증](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/some-useful-integrations/two-factor-authentication.html) | 문서 | 적응형 양식에서 SMS를 사용하여 OTP 검증을 수행합니다. |
-| 2020년 9월 28일 | [에셋 계산 과정](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.1.asset.compute) | 교육 과정 | 이 과정에서는 AEM을 Cloud Service Asset Computing 마이크로 서비스로 확장하는 방법을 설명합니다! 이제 AEM에서 Cloud Service 작성자 서비스로 사용할 사용자 정의 Asset Computing 작업자를 설정, 개발, 테스트, 디버그 및 배포할 수 있습니다. |
+| 2020년 9월 28일 | [에셋 계산 과정](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.1.asset.compute) | 교육 과정 | 이 과정에서는 AEM as a Cloud Servicee Asset Computing 마이크로 서비스로 확장하는 방법을 설명합니다! 이제 AEM as a Cloud Service 작성자 서비스로 사용할 사용자 정의 Asset Computing 작업자를 설정, 개발, 테스트, 디버그 및 배포할 수 있습니다. |
 | 2020년 9월 23일 | [클릭한 구성 요소를 Adobe Analytics에서 추적](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html) | 문서 | 이벤트 기반 Adobe Client Data 레이어를 사용하여 Adobe Experience Manager의 사이트에서 페이지 및 사용자 상호 작용에 대한 데이터를 수집합니다. Experience Platform Launch에서 규칙을 사용하여 이러한 이벤트를 수신하고 데이터를 Adobe Analytics 보고서 세트로 보내는 방법을 알아봅니다. |
-| 2020년 9월 25일 | [AEM 처리 프로필과 에셋 계산 작업자 통합](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/deploy/processing-profiles.html) | 비디오 | AEM은 AEM Assets 처리 프로필을 통해 Adobe I/O Runtime에 배포된 Asset Compute 작업자와 Cloud Service으로 통합됩니다. 처리 프로필은 사용자 정의 작업자를 사용하여 특정 자산을 처리하고 작업자가 생성한 파일을 자산 변환으로 저장하도록 작성자 서비스에 구성됩니다. |
-| 2020년 9월 25일 | [Adobe I/O Runtime에 배포 - 자습서](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/deploy/runtime.html) | 비디오 | Asset Compute 프로젝트와 여기에 포함된 작업자는 AEM에서 Cloud Service로 사용하려면 Adobe I/O Runtime에 배포되어야 합니다. |
-| 2020년 9월 25일 | [Asset Compute 작업자 디버깅](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/asset-compute/test-debug/debug.html) | 문서 | Asset Compute 작업자는 간단한 디버그 로그 명령문에서 원격 디버거로 연결된 VS 코드에 이르기까지 여러 가지 방법으로 디버깅할 수 있으며 AEM에서 Cloud Service로 시작한 Adobe I/O Runtime에서 활성화 로그를 가져올 수도 있습니다. |
+| 2020년 9월 25일 | [AEM 처리 프로필과 에셋 계산 작업자 통합](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/deploy/processing-profiles.html) | 비디오 | AEM as a Cloud Service는 AEM Assets 처리 프로필을 통해 Adobe I/O Runtime에 배포된 Asset Compute 작업자와 통합됩니다. 처리 프로필은 사용자 정의 작업자를 사용하여 특정 자산을 처리하고 작업자가 생성한 파일을 자산 변환으로 저장하도록 작성자 서비스에 구성됩니다. |
+| 2020년 9월 25일 | [Adobe I/O Runtime에 배포 - 자습서](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/deploy/runtime.html) | 비디오 | Asset Compute 프로젝트와 여기에 포함된 작업자는 AEM as a Cloud Service로 사용하려면 Adobe I/O Runtime에 배포되어야 합니다. |
+| 2020년 9월 25일 | [Asset Compute 작업자 디버깅](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/asset-compute/test-debug/debug.html) | 문서 | Asset Compute 작업자는 간단한 디버그 로그 명령문에서 원격 디버거로 연결된 VS 코드에 이르기까지 여러 가지 방법으로 디버깅할 수 있으며 AEM as a Cloud Service로 시작한 Adobe I/O Runtime에서 활성화 로그를 가져올 수도 있습니다. |
 | 2020년 9월 25일 | [Asset Compute 개발 도구 사용](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/develop/development-tool.html) | 문서 | Asset Compute Dev Tool은 개발자가 Adobe I/O Runtime의 Asset Compute 리소스에 대해 AEM SDK의 컨텍스트 외부에 있는 Asset Computer 작업자를 로컬로 구성 및 실행할 수 있도록 하는 로컬 웹 도구입니다. |
 | 2020년 9월 27일 | [Asset Compute 작업자 개발](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/develop/worker.html) | 문서 | Asset Compute 작업자는 자산에서 새 변환을 만들기 위해 수행한 작업을 수행하거나 조정하는 사용자 정의 기능을 제공하는 Asset Compute 애플리케이션의 핵심입니다. |
 | 2020년 9월 25일 | [manifest.html 구성](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/develop/manifest.html) | 문서 | Asset Compute 프로젝트의 manifest.yml은 이 응용 프로그램의 배포 대상 모든 작업자에 대해 설명합니다. |
 | 2020년 9월 14일 | [환경 변수 구성](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/develop/environment-variables.html) | 비디오 | 환경 변수는 로컬 개발을 위해 &#39;.env&#39; 파일에서 유지되며 로컬 개발에 필요한 Adobe I/O 자격 증명 및 클라우드 스토리지 자격 증명을 제공하는 데 사용됩니다. |
-| 2020년 9월 14일 | [Asset Compute 프로젝트 만들기](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/develop/project.html) | 문서 | Asset Compute 응용 프로그램은 Adobe I/O CLI를 사용하여 생성된 Node.js 프로젝트로서, 특정 구조를 준수하여 Adobe I/O Runtime에 배포하고 AEM과 Cloud Service로 통합할 수 있습니다. |
+| 2020년 9월 14일 | [Asset Compute 프로젝트 만들기](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/develop/project.html) | 문서 | Asset Compute 응용 프로그램은 Adobe I/O CLI를 사용하여 생성된 Node.js 프로젝트로서, 특정 구조를 준수하여 Adobe I/O Runtime에 배포하고 AEM as a Cloud Service로 통합할 수 있습니다. |
 | 2020년 9월 14일 | [환경 변수 구성](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/develop/environment-variables.html) | 문서 | 환경 변수는 로컬 개발을 위해 &#39;.env&#39; 파일에서 유지되며 로컬 개발에 필요한 Adobe I/O 자격 증명 및 클라우드 스토리지 자격 증명을 제공하는 데 사용됩니다 |
-| 2020년 9월 14일 | [Asset Compute 프로젝트 만들기](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/develop/project.html) | 비디오 | Asset Compute 응용 프로그램은 Adobe I/O CLI를 사용하여 생성된 Node.js 프로젝트로서, 특정 구조를 준수하여 Adobe I/O Runtime에 배포하고 AEM과 Cloud Service로 통합할 수 있습니다. |
+| 2020년 9월 14일 | [Asset Compute 프로젝트 만들기](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/develop/project.html) | 비디오 | Asset Compute 응용 프로그램은 Adobe I/O CLI를 사용하여 생성된 Node.js 프로젝트로서, 특정 구조를 준수하여 Adobe I/O Runtime에 배포하고 AEM as a Cloud Service로 통합할 수 있습니다. |
 | 2020년 9월 14일 | [Adobe I/O Project Firefly 설정](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/set-up/firefly.html) | 자습서 | Asset Compute 응용 프로그램은 특별히 정의된 Adobe Project Firefly 응용 프로그램으로서, 설정 및 배포하려면 Adobe 개발자 콘솔에서 Adobe Project Firefly에 액세스해야 합니다. |
 | 2020년 9월 25일 | [로컬 개발 환경 설정](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/set-up/development-environment.html) | 문서 | Node.js JavaScript 응용 프로그램인 Asset Compute 작업자를 개발하려면 Node.js 및 다양한 npm 모듈부터 Docker Desktop 및 Microsoft Visual Studio 코드에 이르기까지 기존의 AEM 개발과는 다른 특정 개발 도구가 필요합니다. |
-| 2020년 9월 25일 | [계정 및 서비스 설정](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/set-up/accounts-and-services.html) | 문서 | Asset Compute 개발 작업자는 클라우드 서비스로서의 AEM, Adobe Project Firefly, Microsoft 또는 Amazon에서 제공하는 클라우드 스토리지 등의 서비스 및 계정에 액세스해야 합니다. |
+| 2020년 9월 25일 | [계정 및 서비스 설정](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/set-up/accounts-and-services.html) | 문서 | Asset Compute 개발 작업자는 AEM as a Cloud Service, Adobe Project Firefly, Microsoft 또는 Amazon에서 제공하는 클라우드 스토리지 등의 서비스 및 계정에 액세스해야 합니다. |
 | 2020년 9월 30일 | [Adobe Client Data 레이어 살펴보기](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html) | 문서 | 이벤트 기반의 Adobe Client Data 레이어의 기능 및 AEM Sites 핵심 구성 요소와의 통합을 살펴봅니다. 이벤트를 수신하고 현재 상태를 확인하고 데이터 레이어를 수정하는 방법을 알아봅니다. |
 | 2020년 9월 30일 | [Adobe Client Data 레이어 소개](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html) | 비디오 | 이벤트 기반 Adobe Client Data Layer가 AEM Sites 핵심 구성 요소의 데이터를 표시하는 방법을 알아봅니다. Adobe Client Data Layer를 사용하면 Experience Platform Launch와 같은 태그 관리 솔루션을 통해 웹 사이트 데이터를 분석 및 Target과 같은 응용 프로그램으로 전송할 수 있습니다. |
 | 2020년 10월 8일 | [Launch 속성에 Target 확장 프로그램 추가](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/add-target-launch-extension.html) | 비디오 | Launch 규칙을 사용하여 매개 변수를 로드하고 페이지 요청에 전달하며 사이트 페이지에서 Target 호출을 실행하는 방법을 알아봅니다. 페이지 정보는 검색 및 매개 변수로 전달됩니다. Adobe Client Data 레이어를 사용하면 웹 페이지에서 방문자의 경험에 대한 데이터를 수집 및 저장한 다음 이 데이터에 쉽게 액세스할 수 있습니다. |
-| 2020년 10월 7일 | [Adobe Target Cloud Service 계정 생성](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/setup-aem-target-cloud-service.html) | 비디오 | Cloud Service 및 Adobe IMS 인증을 사용하여 Adobe Experience Manager를 Adobe Target과 Cloud Service으로 통합하는 방법을 알아봅니다. |
+| 2020년 10월 7일 | [Adobe Target Cloud Service 계정 생성](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/setup-aem-target-cloud-service.html) | 비디오 | Cloud Service 및 Adobe IMS 인증을 사용하여 Adobe Experience Manager as a Cloud Service와 Adobe Target을 통합하는 방법을 알아봅니다. |
 | 2020년 10월 2일 | [AEM 및 Adobe Target 개요](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/overview.html) | 비디오 | AEM과 Target은 모두 기능이 중복되는 강력한 솔루션입니다. 고객은 이러한 제품을 어떻게 언제 사용하는지 파악하여 개인화된 경험을 전달할 수 있습니다. 모든 최종 사용자에게 최적화된 경험을 전달하려면 조직 내의 다양한 팀이 긴밀하게 작업하고 누가 어떤 작업을 수행하는지 정의해야 합니다. |
 | 2020년 10월 2일 | [AEM Forms 및 Adobe Sign 통합](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.2.forms) | 교육 과정 | Adobe Sign과 AEM Forms를 함께 사용하면 복잡한 트랜잭션을 자동화할 수 있고 안전한 합법적인 전자 서명을 완벽한 디지털 경험의 일부로 포함시킬 수 있습니다. |
 | 2020년 10월 6일 | [인쇄 채널용 대화형 문서 만들기](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.5.forms) | 교육 과정 | Interactive Communications는 비즈니스 서신, 문서, 명세서, 혜택 공지, 마케팅 이메일, 청구서 및 환영 키트와 같은 안전하고 개인화된 인터랙티브한 통신의 작성, 수집 및 전달을 중앙 집중화하여 관리합니다. 이 과정에서는 대화형 통신 문서를 구성하는 다양한 구성 요소 작성을 강조 표시합니다. |
 | 2020년 10월 10일 | [개발자용 AEM SPA 편집기 시작하기](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.1.spaeditor) | 교육 과정 | AEM SPA 편집기로 AEM에서 작성할 수 있는 뛰어난 성능의 SPA(단일 페이지 응용 프로그램)를 구축하는 방법을 알아봅니다 이 과정에서는 사용자 정의 구성 요소를 만드는 과정을 거쳐 새로운 SPA 편집기 프로젝트를 생성하는 데 이르기까지 주요 개발 작업을 다룹니다. Angular 및 React 프레임워크에 대한 동등한 학습 자료가 제공됩니다. 대부분의 개발자는 사용할 단일 프레임워크를 선택할 것으로 예상됩니다. |
-| 2020년 10월 7일 | [Asset Compute 확장성](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/overview.html) | 문서 | 클라우드 서비스로서의 AEM용 사용자 정의 에셋 마이크로 서비스 작업자를 만드는 과정을 단계별로 설명하는 자습서입니다. |
+| 2020년 10월 7일 | [Asset Compute 확장성](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/overview.html) | 문서 | AEM as a Cloud Service용 사용자 정의 에셋 마이크로 서비스 작업자를 만드는 과정을 단계별로 설명하는 자습서입니다. |
 | 2020년 10월 6일 | [첫 번째 적응형 양식 만들기](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.4.forms) | 교육 과정 | AEM Forms를 사용하면 매력적인 반응형, 동적 및 적응형 양식을 만들 수 있습니다. 교육 과정은 사용자 정의 적응형 양식 템플릿을 만드는 것으로 시작하고 다양한 양식 구성 요소를 사용하여 적응형 양식을 만드는 과정을 안내합니다. |
 | 2020년 10월 21일 | [로컬 Dispatcher 도구](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/dispatcher-tools.html) | 문서 | AEM Dispatcher는 CDN과 AEM Publish 계층 간에 보안 및 성능 레이어를 제공하는 Apache HTTP 웹 서버 모듈입니다. 로컬 개발 환경의 일부로 Dispatcher를 설정하는 방법을 알아봅니다. |
 | 2020년 10월 14일 | [개발자용 AEM Sites 시작하기](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.2.guided) | 교육 과정 | 이 교육 과정은 Experience League의 [기존 교육 과정](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2019.2.guided)을 업데이트합니다. |
-| 2020년 10월 7일 | [AEM 프로젝트 구조](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) | 비디오 | 이 문서에서는 변경 가능한 컨텐츠와 변경할 수 없는 컨텐츠 분리를 사용하여 Adobe Experience Manager Maven 프로젝트에 필요한 변경 사항을 설명하고, 상충되는 배포가 없도록 종속성을 설정하고, 배포 가능한 구조로 패키지되어 있다는 점을 확인하여 호환되는 클라우드 서비스로서의 AEM 변경 사항을 설명합니다. |
+| 2020년 10월 7일 | [AEM 프로젝트 구조](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) | 비디오 | 이 문서에서는 변경 가능한 컨텐츠와 변경할 수 없는 컨텐츠 분리를 사용하여 Adobe Experience Manager Maven 프로젝트에 필요한 변경 사항을 설명하고, 상충되는 배포가 없도록 종속성을 설정하고, 배포 가능한 구조로 패키지되어 있다는 점을 확인하여 호환되는 AEM as a Cloud Service 변경 사항을 설명합니다. |
 
 ### Experience Manager 릴리스 정보
 
 모든 Experience Manager 릴리스 정보는 다음 페이지에서 유지 관리됩니다.
 
 * [Experience Manager 릴리스 업데이트 및 로드맵](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/home.html)
-* [Cloud Service로서의 AEM 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/release-notes/home.html)
+* [AEM as a Cloud Service 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/release-notes/home.html)
 * [AEM Cloud Manager 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-manager/using/release-notes/release-notes-current.html)
 * [자동 양식 전환 서비스 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/aem-forms-automated-conversion-service/using/release-notes.html)
 * [AEM 6.5 서비스 팩 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/release-notes/service-pack/sp-release-notes.html)
@@ -418,7 +418,7 @@ Adobe Experience Manager 릴리스 로드맵, 릴리스 업데이트 및 추가 
 
 ### AEM에 대한 추가 도움말 리소스
 
-* [Cloud Service로서의 AEM 안내서](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/landing/home.html)
+* [AEM as a Cloud Service 안내서](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/landing/home.html)
 * [AEM 6.5 학습 및 지원 홈](https://helpx.adobe.com/kr/support/experience-manager/6-5.html)
 * [AEM 6.4 학습 및 지원 홈](https://helpx.adobe.com/kr/support/experience-manager/6-4.html)
 * [AEM 6.3 학습 및 지원 홈](https://helpx.adobe.com/kr/support/experience-manager/6-3.html)
@@ -447,10 +447,10 @@ Campaign Classic, Campaign Standard 및 컨트롤 패널에 대한 릴리스 정
 
 | 게시됨 | 이름 | 솔루션 | 설명 |
 | ----------- | ----------- | ---------- | ---------- |
-| 2020년 11월 2일 | [Campaign 컨트롤 패널 - SSH 키 생성 - 기능 비디오](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html) | Campaign Classic | 터미널을 사용하여 SSH 키를 생성하는 방법과 Campaign 컨트롤 패널에 키의 공개 버전을 저장하는 방법을 알아봅니다. |
-| 2020년 11월 2일 | [Campaign 컨트롤 패널 - SFTP 서버에 연결 - 기능 비디오](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html) | Campaign Classic | Campaign 컨트롤 패널에 저장한 키를 사용하여 클라이언트 SFTP 애플리케이션을 통해 SFTP 서버에 연결하는 방법을 알아봅니다. |
-| 2020년 10월 20일 | [Campaign 컨트롤 패널 - Campaign 컨트롤 패널 시작하기 - 문서](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Classic | 이 문서에서는 Campaign 컨트롤 패널에 액세스하는 방법 및 제어판에서 사용할 수 있는 사전 요구 사항을 설명합니다. |
-| 2020년 10월 20일 | [Campaign 컨트롤 패널 - Campaign 컨트롤 패널 시작하기 - 문서](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Standard | 이 문서에서는 Campaign 컨트롤 패널에 액세스하는 방법 및 제어판에서 사용할 수 있는 사전 요구 사항을 설명합니다. |
+| 2020년 11월 2일 | [컨트롤 패널 - SSH 키 생성 - 기능 비디오](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html) | Campaign Classic | 터미널을 사용하여 SSH 키를 생성하는 방법과 컨트롤 패널에 키의 공개 버전을 저장하는 방법을 알아봅니다. |
+| 2020년 11월 2일 | [컨트롤 패널 - SFTP 서버에 연결 - 기능 비디오](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html) | Campaign Classic | Campaign 컨트롤 패널에 저장한 키를 사용하여 클라이언트 SFTP 애플리케이션을 통해 SFTP 서버에 연결하는 방법을 알아봅니다. |
+| 2020년 10월 20일 | [컨트롤 패널 - 컨트롤 패널 시작하기 - 문서](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Classic | 이 문서에서는 컨트롤 패널에 액세스하는 방법 및 제어판에서 사용할 수 있는 사전 요구 사항을 설명합니다. |
+| 2020년 10월 20일 | [컨트롤 패널 - 컨트롤 패널 시작하기 - 문서](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Standard | 이 문서에서는 컨트롤 패널에 액세스하는 방법 및 제어판에서 사용할 수 있는 사전 요구 사항을 설명합니다. |
 | 2020년 10월 19일 | [컨트롤 패널 - 허용 목록에 IP 범위 추가](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Classic | 컨트롤 패널의 허용 목록에 IP 주소 범위를 추가하는 방법을 알아봅니다. |
 | 2020년 10월 19일 | [컨트롤 패널 - 허용 목록에 IP 범위 추가](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Standard | 컨트롤 패널의 허용 목록에 IP 주소 범위를 추가하는 방법을 알아봅니다. |
 | 2020년 10월 16일 | [컨트롤 패널 - CNAME(베타)을 사용하여 하위 도메인 위임 - 기능 비디오](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html) | Campaign Classic | 컨트롤 패널에서 CNAME을 사용하여 하위 도메인을 설정하고 제출하는 방법을 알아봅니다. |
@@ -507,7 +507,7 @@ Magento 릴리스 정보에 대해서는 다음을 참조하십시오.
 
 | 게시됨 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
-| 2020년 10월 11일 | [하이브리드 개인화 배포 모델](https://docs.adobe.com/content/help/en/target-learn/tutorials/implementation/hybrid-deployment.html) | 비디오 | Adobe Target은 클라이언트측과 서버측 구현을 혼합하여 개인화를 위한 고유한 하이브리드 배포 모델을 제공합니다. 이 하이브리드 모델을 사용하면 기술적인 면을 잘 모르는 사용자도 WYSIWYG Visual Experience Composer를 사용하여 실험 또는 개인화 활동을 제작할 수 있고 서버측에서 실행하거나 전달하고 이러한 경험을 렌더링하여 높은 성능을 제공할 수 있습니다. |
+| 2020년 10월 11일 | [하이브리드 개인화 배포 모델](https://docs.adobe.com/content/help/en/target-learn/tutorials/implementation/hybrid-deployment.html) | 비디오 | Adobe Target은 클라이언트측과 서버측 구현을 혼합하여 개인화를 위한 고유한 하이브리드 배포 모델을 제공합니다. 이 하이브리드 모델을 사용하면 기술 전문가가 아닌 사용자도 WYSIWYG Visual Experience Composer를 사용하여 실험 또는 개인화 활동을 제작할 수 있고 서버측에서 실행하거나 전달하고 이러한 경험을 렌더링하여 높은 성능을 제공할 수 있습니다. |
 
 ## ![아이콘](/assets/marketo.png) [!DNL Marketo Engage] {#marketo}
 
