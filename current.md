@@ -4,9 +4,9 @@ description: Adobe Experience Cloud 릴리스 정보
 doc-type: release notes
 last-update: November 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46d20e153aaa57df2387c2d084b6c20b914bc8e1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8040'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 * [Experience Manager](#aem)(업데이트됨: **2020년 10월 28일**)
 * [Campaign](#ac)
 * [Advertising Cloud](#adcloud) (업데이트 날짜:**2020년 10월 28일**)
-* [[!DNL Target]](#target) (업데이트 날짜: **2020년 11월 2일**)
+* [[!DNL Target]](#target)(업데이트 날짜: **2020년 11월 2일**)
 * [[!DNL Magento]](#magento)
 * [[!DNL Marketo Engage]](#marketo)
 * [[!DNL Primetime]](https://docs.adobe.com/content/help/ko-KR/primetime/release-notes/home.html)
