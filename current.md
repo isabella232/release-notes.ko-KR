@@ -4,11 +4,11 @@ description: Adobe Experience Cloud 릴리스 정보
 doc-type: release notes
 last-update: November 2020
 author: mfrei
-translation-type: ht
-source-git-commit: 46d20e153aaa57df2387c2d084b6c20b914bc8e1
-workflow-type: ht
-source-wordcount: '8040'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: cc49396194cb768b6d4d3fc7f3967afb65636188
+workflow-type: tm+mt
+source-wordcount: '8005'
+ht-degree: 99%
 
 ---
 
@@ -119,7 +119,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ------- |
-| Adobe Analytics 설명서 | 2020년 11월 | Adobe Analytics 설명서가 Experience League로 이전 중입니다. 10월에는 모든 기사, 비디오, 릴리스 노트 및 자습서가 `docs.adobe.com`의 현재 위치에서 `experienceleague.adobe.com`로 이전됩니다. 이렇게 하면 모든 학습, 사용자 도움말, 사용 여부 및 커뮤니티 컨텐츠가 한 곳에서 제공됩니다. 이 변경 사항이 발생하면 모든 링크가 Experience League로 리디렉션되므로 필요한 작업이 없습니다. 컷오버가 시작되면 릴리스 노트를 업데이트할 예정입니다. |
+| Adobe Analytics 설명서 | 2020년 11월 11일 | Adobe Analytics 문서가 Experience League으로 이동되었습니다. During November, all articles, videos, release notes, and tutorials moved from their current location at `docs.adobe.com` to `experienceleague.adobe.com`. 이렇게 하면 모든 학습, 사용자 도움말, 사용 여부 및 커뮤니티 컨텐츠가 한 곳에서 제공됩니다. 모든 링크는 Experience League으로 리디렉션되었다. |
 | [!UICONTROL 작업 영역] [!UICONTROL 선] 시각화: 평균 트렌드 라인 옵션 이동 | 2020년 10월 8일 | 이동 평균이 [!UICONTROL 선] 시각화 트렌드 라인 설정에 추가되었습니다. 롤링 평균이라고도 하는 이동 평균은 특정 수의 데이터 포인트([!UICONTROL 기간] 선택에 의해 결정됨)를 사용하고 평균을 계산하여 선의 한 지점으로 사용합니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | [!UICONTROL 데이터 복구 API] | 2020년 10월 8일 | [!UICONTROL 데이터 복구] API는 Analytics 보고서 세트에서 데이터를 삭제하는 도구입니다. 10월 릴리스에는 지정된 날짜 범위에서 지정된 eVar, prop 및 [!UICONTROL Activity Map] 변수를 삭제하는 기능이 포함됩니다. 향후 추가 기능이 출시됩니다. [!UICONTROL 데이터 복구] API를 사용하면 기존 Adobe Analytics 데이터가 영구적으로 삭제됩니다. 실수로 삭제 작업을 최소화하려면 복구를 수행하는 신중한 방법을 권장합니다. [!UICONTROL 데이터 복구] API에 액세스하려면 계약이 필요합니다. 자세한 내용은 계정 팀에 문의하십시오. [추가 정보](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md) |
 | [!UICONTROL 작업 영역]: 성능 도움말 페이지 | 2020년 10월 22일 | [!UICONTROL Analysis Workspace] 성능 도움말 페이지에는 프로젝트 성능에 영향을 주는 다양한 요인과 최적화를 위한 팁의 링크가 표시됩니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
@@ -129,13 +129,13 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ----- |
-| 고객 여정 분석 설명서 | 2020년 11월 | Customer Journey Analytics 설명서가 Experience League로 이전 중입니다. 10월에는 모든 기사, 비디오, 릴리스 노트 및 자습서가 `docs.adobe.com`의 현재 위치에서 `experienceleague.adobe.com`로 이전됩니다. 이렇게 하면 모든 학습, 사용자 도움말, 사용 여부 및 커뮤니티 컨텐츠가 한 곳에서 제공됩니다. 이 변경 사항이 발생하면 모든 링크가 Experience League로 리디렉션되므로 필요한 작업이 없습니다. 컷오버가 시작되면 릴리스 노트를 업데이트할 예정입니다. |
+| 고객 여정 분석 설명서 | 2020년 11월 11일 | Customer Journey Analytics 문서가 Experience League으로 이동되었습니다. During November, all articles, videos, release notes, and tutorials moved from their current location at `docs.adobe.com` to `experienceleague.adobe.com`. 이렇게 하면 모든 학습, 사용자 도움말, 사용 여부 및 커뮤니티 컨텐츠가 한 곳에서 제공됩니다. 모든 링크는 Experience League으로 리디렉션되었다. |
 | [!UICONTROL 선] 시각화: 이동 평균 트렌드 라인 옵션 | 2020년 10월 8일 | 이동 평균이 선 시각화 트렌드 라인 설정에 추가되었습니다. 이동 평균은 지정된 이전 기간에 대한 평균을 계산하고 트렌드 라인 데이터 포인트로 사용한 후 다음 기간으로 이동합니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | 채우기 제한 제거 | 2020년 10월 19일 | 향상된 CJA 경험을 제공하기 위해 채우기(내역 데이터 가져오기) 제한을 제거했습니다. 이전에는 스스로 최대 25억 개의 행을 채우거나 엔지니어링 관련 이외의 작업을 수행할 수 있었습니다. 이제 제한 없이 데이터 채우기를 원하는 대로 할 수 있습니다. [자세한 정보](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-connections/create-connection.html#enable-connection) |
 | Analysis Workspace 성능 도움말 페이지 | 2020년 10월 22일 | Analysis Workspace 성능 도움말 페이지에는 프로젝트 성능에 영향을 주는 다양한 요인과 최적화를 위한 팁의 링크가 표시됩니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
 | [!UICONTROL 사용한 시간] 지표 및 차원 | 2020년 10월 30일 | [!UICONTROL 사용한 시간] 지표와 차원을 통해 소비자가 고객 여정의 다양한 측면에서 사용한 시간을 파악할 수 있으므로 채널 전반에서 고객 참여와 병목 현상을 보다 완벽하게 파악할 수 있습니다. |
 | [!UICONTROL 장치] 및 [!UICONTROL 지역] 차원 | 2020년 10월 30일 | [!UICONTROL 장치] 및 [!UICONTROL 지역] 차원은 이제 [Adobe Analytics Source 커넥터](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html)의 “전역 조회 지원” 프로젝트의 일부로 기본적으로 사용할 수 있습니다. 이렇게 많이 요청되는 추가는 [Adobe Analytics와 CJA 간의 패리티](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-overview/cja-aa.html)를 증가시킵니다. |
-| 여정 IQ: 크로스채널 Analytics | 2020년 11월 22일 | 여정 IQ: 크로스채널 Analytics를 사용하면 고객이 하나의 ID 네임스페이스에서 다른 ID 네임스페이스로 Adobe Experience Platform 데이터 레이크에서 Adobe Analytics(또는 기타) 이벤트 데이터 세트를 다시 키 대조할 수 있습니다. 일반적으로 이는 이벤트 데이터 세트를 쿠키 기반 ID에서 개인 기반 ID로 다시 키 대조하는 것을 의미합니다. 이 방법을 통해 다시 키 대조된 데이터 세트는 CJA 연결에서 다른 사람 기반 데이터와 결합될 수 있으므로 Analysis Workspace에서 교차 장치/교차 채널 분석을 수행할 수 있습니다. |
+| 여정 IQ: 크로스채널 Analytics | 2020년 11월 22일 | 여정 IQ: 크로스채널 Analytics를 사용하면 고객이 하나의 ID 네임스페이스에서 다른 ID 네임스페이스로 Adobe Experience Platform 데이터 레이크에서 Adobe Analytics(또는 기타) 이벤트 데이터 세트를 다시 키 대조할 수 있습니다. 일반적으로 이는 이벤트 데이터 세트를 쿠키 기반 ID에서 개인 기반 ID로 다시 키 대조하는 것을 의미합니다. 이 방법을 통해 다시 키 대조된 데이터 세트는 CJA 연결에서 다른 사람 기반 데이터와 결합될 수 있으므로 Analysis Workspace에서 교차 장치/교차 채널 분석을 수행할 수 있습니다. [자세한 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=en#cja-connections) |
 
 ### [!UICONTROL Media Analytics]의 새로운 기능 {#media-aa}
 
