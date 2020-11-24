@@ -4,11 +4,11 @@ description: Adobe Experience Cloud 릴리스 정보
 doc-type: release notes
 last-update: November 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cc49396194cb768b6d4d3fc7f3967afb65636188
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8005'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -119,17 +119,17 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ------- |
-| Adobe Analytics 설명서 | 2020년 11월 11일 | Adobe Analytics 문서가 Experience League으로 이동되었습니다. During November, all articles, videos, release notes, and tutorials moved from their current location at `docs.adobe.com` to `experienceleague.adobe.com`. 이렇게 하면 모든 학습, 사용자 도움말, 사용 여부 및 커뮤니티 컨텐츠가 한 곳에서 제공됩니다. 모든 링크는 Experience League으로 리디렉션되었다. |
+| Adobe Analytics 설명서 | 2020년 11월 11일 | Adobe Analytics 설명서가 Experience League로 이전되었습니다. 12월에는 모든 기사, 비디오, 릴리스 노트 및 자습서가 `docs.adobe.com`의 현재 위치에서 `experienceleague.adobe.com`로 이전했습니다. 이렇게 하면 모든 학습, 사용자 도움말, 사용 여부 및 커뮤니티 컨텐츠가 한 곳에서 제공됩니다. 모든 링크는 Experience League으로 리디렉션되었습니다. |
 | [!UICONTROL 작업 영역] [!UICONTROL 선] 시각화: 평균 트렌드 라인 옵션 이동 | 2020년 10월 8일 | 이동 평균이 [!UICONTROL 선] 시각화 트렌드 라인 설정에 추가되었습니다. 롤링 평균이라고도 하는 이동 평균은 특정 수의 데이터 포인트([!UICONTROL 기간] 선택에 의해 결정됨)를 사용하고 평균을 계산하여 선의 한 지점으로 사용합니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | [!UICONTROL 데이터 복구 API] | 2020년 10월 8일 | [!UICONTROL 데이터 복구] API는 Analytics 보고서 세트에서 데이터를 삭제하는 도구입니다. 10월 릴리스에는 지정된 날짜 범위에서 지정된 eVar, prop 및 [!UICONTROL Activity Map] 변수를 삭제하는 기능이 포함됩니다. 향후 추가 기능이 출시됩니다. [!UICONTROL 데이터 복구] API를 사용하면 기존 Adobe Analytics 데이터가 영구적으로 삭제됩니다. 실수로 삭제 작업을 최소화하려면 복구를 수행하는 신중한 방법을 권장합니다. [!UICONTROL 데이터 복구] API에 액세스하려면 계약이 필요합니다. 자세한 내용은 계정 팀에 문의하십시오. [추가 정보](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md) |
 | [!UICONTROL 작업 영역]: 성능 도움말 페이지 | 2020년 10월 22일 | [!UICONTROL Analysis Workspace] 성능 도움말 페이지에는 프로젝트 성능에 영향을 주는 다양한 요인과 최적화를 위한 팁의 링크가 표시됩니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
-| Analytics [!UICONTROL 대시보드] UI 개선 사항 | 2020년 10월 23일 | [!UICONTROL Workspace]에서 모바일 스코어카드를 작성하면 이제 스코어카드의 스타일이 앱과 일치합니다. |
+| Analytics [!UICONTROL 대시보드] UI 개선 사항 | 2020년 10월 23일 | [!UICONTROL Analysis Workspace]에서 모바일 스코어카드를 작성하면 이제 스코어카드의 스타일이 앱과 일치합니다. |
 
 ### Customer Journey Analytics의 새로운 기능 {#cust-journey}
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ----- |
-| 고객 여정 분석 설명서 | 2020년 11월 11일 | Customer Journey Analytics 문서가 Experience League으로 이동되었습니다. During November, all articles, videos, release notes, and tutorials moved from their current location at `docs.adobe.com` to `experienceleague.adobe.com`. 이렇게 하면 모든 학습, 사용자 도움말, 사용 여부 및 커뮤니티 컨텐츠가 한 곳에서 제공됩니다. 모든 링크는 Experience League으로 리디렉션되었다. |
+| 고객 여정 분석 설명서 | 2020년 11월 11일 | Customer Journey Analytics 설명서가 Experience League로 이전되었습니다. 12월에는 모든 기사, 비디오, 릴리스 노트 및 자습서가 `docs.adobe.com`의 현재 위치에서 `experienceleague.adobe.com`로 이전했습니다. 이렇게 하면 모든 학습, 사용자 도움말, 사용 여부 및 커뮤니티 컨텐츠가 한 곳에서 제공됩니다. 모든 링크는 Experience League으로 리디렉션되었습니다. |
 | [!UICONTROL 선] 시각화: 이동 평균 트렌드 라인 옵션 | 2020년 10월 8일 | 이동 평균이 선 시각화 트렌드 라인 설정에 추가되었습니다. 이동 평균은 지정된 이전 기간에 대한 평균을 계산하고 트렌드 라인 데이터 포인트로 사용한 후 다음 기간으로 이동합니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | 채우기 제한 제거 | 2020년 10월 19일 | 향상된 CJA 경험을 제공하기 위해 채우기(내역 데이터 가져오기) 제한을 제거했습니다. 이전에는 스스로 최대 25억 개의 행을 채우거나 엔지니어링 관련 이외의 작업을 수행할 수 있었습니다. 이제 제한 없이 데이터 채우기를 원하는 대로 할 수 있습니다. [자세한 정보](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-connections/create-connection.html#enable-connection) |
 | Analysis Workspace 성능 도움말 페이지 | 2020년 10월 22일 | Analysis Workspace 성능 도움말 페이지에는 프로젝트 성능에 영향을 주는 다양한 요인과 최적화를 위한 팁의 링크가 표시됩니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
