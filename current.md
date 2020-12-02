@@ -4,11 +4,11 @@ description: Adobe Experience Cloud 릴리스 정보
 doc-type: release notes
 last-update: November 2020
 author: mfrei
-translation-type: ht
-source-git-commit: cc49396194cb768b6d4d3fc7f3967afb65636188
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 73caf10aa872e7b98875bdd0b8050cc301e3d500
+workflow-type: tm+mt
 source-wordcount: '8005'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 100%
 >
 >예정된 릴리스에 대한 이메일 알림을 받으려면 [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html)에 가입하십시오.
 
-최신 업데이트: **2020년 11월 10일**
+최신 업데이트:**2020년 12월 2일**
 
 * [Adobe 시스템 상태](#status)
 * [Experience Cloud 서비스 및 관리](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) 및 [Customer Journey Analytics](#cust-journey) (업데이트 날짜: **2020년 11월 10일**)
+* [Analytics](#analytics) 및 [Customer Journey Analytics](#cust-journey) (2020년 **12월 2일 업데이트됨**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)(업데이트됨: **2020년 10월 28일**)
 * [Campaign](#ac)
@@ -108,7 +108,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 릴리스 날짜: **2020년 10월 29일**
 
 * [Adobe Analytics의 새로운 기능](#aa-features)
-* [Customer Journey Analytics의 새로운 기능](#cust-journey) (업데이트 날짜: 2020년 11월 10일)
+* [Customer Journey Analytics의 새로운 기능](#cust-journey) (2020년 12월 2일 업데이트)
 * [Media Analytics의 새로운 기능](#media-aa)
 * [Adobe Analytics의 수정 사항](#aa-fixes)
 * [Analytics 관리자에 대한 중요 공지](#aa-notices)
@@ -135,7 +135,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 | Analysis Workspace 성능 도움말 페이지 | 2020년 10월 22일 | Analysis Workspace 성능 도움말 페이지에는 프로젝트 성능에 영향을 주는 다양한 요인과 최적화를 위한 팁의 링크가 표시됩니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
 | [!UICONTROL 사용한 시간] 지표 및 차원 | 2020년 10월 30일 | [!UICONTROL 사용한 시간] 지표와 차원을 통해 소비자가 고객 여정의 다양한 측면에서 사용한 시간을 파악할 수 있으므로 채널 전반에서 고객 참여와 병목 현상을 보다 완벽하게 파악할 수 있습니다. |
 | [!UICONTROL 장치] 및 [!UICONTROL 지역] 차원 | 2020년 10월 30일 | [!UICONTROL 장치] 및 [!UICONTROL 지역] 차원은 이제 [Adobe Analytics Source 커넥터](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html)의 “전역 조회 지원” 프로젝트의 일부로 기본적으로 사용할 수 있습니다. 이렇게 많이 요청되는 추가는 [Adobe Analytics와 CJA 간의 패리티](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-overview/cja-aa.html)를 증가시킵니다. |
-| 여정 IQ: 크로스채널 Analytics | 2020년 11월 22일 | 여정 IQ: 크로스채널 Analytics를 사용하면 고객이 하나의 ID 네임스페이스에서 다른 ID 네임스페이스로 Adobe Experience Platform 데이터 레이크에서 Adobe Analytics(또는 기타) 이벤트 데이터 세트를 다시 키 대조할 수 있습니다. 일반적으로 이는 이벤트 데이터 세트를 쿠키 기반 ID에서 개인 기반 ID로 다시 키 대조하는 것을 의미합니다. 이 방법을 통해 다시 키 대조된 데이터 세트는 CJA 연결에서 다른 사람 기반 데이터와 결합될 수 있으므로 Analysis Workspace에서 교차 장치/교차 채널 분석을 수행할 수 있습니다. [자세한 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=en#cja-connections) |
+| 여정 IQ: 크로스채널 Analytics | 2020년 12월 11일 | 여정 IQ: 크로스채널 Analytics를 사용하면 고객이 하나의 ID 네임스페이스에서 다른 ID 네임스페이스로 Adobe Experience Platform 데이터 레이크에서 Adobe Analytics(또는 기타) 이벤트 데이터 세트를 다시 키 대조할 수 있습니다. 일반적으로 이는 이벤트 데이터 세트를 쿠키 기반 ID에서 개인 기반 ID로 다시 키 대조하는 것을 의미합니다. 이 방법을 통해 다시 키 대조된 데이터 세트는 CJA 연결에서 다른 사람 기반 데이터와 결합될 수 있으므로 Analysis Workspace에서 교차 장치/교차 채널 분석을 수행할 수 있습니다. [자세한 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=en#cja-connections) |
 
 ### [!UICONTROL Media Analytics]의 새로운 기능 {#media-aa}
 
