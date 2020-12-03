@@ -4,11 +4,11 @@ description: Adobe Experience Cloud 릴리스 정보
 doc-type: release notes
 last-update: November 2020
 author: mfrei
-translation-type: ht
-source-git-commit: 73caf10aa872e7b98875bdd0b8050cc301e3d500
-workflow-type: ht
-source-wordcount: '8005'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d52b26253abaf781eade05e8925943c6b605ae60
+workflow-type: tm+mt
+source-wordcount: '9838'
+ht-degree: 85%
 
 ---
 
@@ -66,6 +66,17 @@ ht-degree: 100%
 
 최신 릴리스 정보는 [Experience Cloud 서비스의 누적 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/core-services/interface/release-notes/release-notes.html)를 참조하십시오.
 
+### Experience Cloud 자습서
+
+Updated: **December 2, 2020**
+
+| 게시됨 | 이름 | 유형 | 설명 |
+| -----------| ---------- | ---------- | ---------- |
+| 2020년 11월 4일 | [DDOM에서 발견한 인사이트](https://experienceleague.adobe.com/docs/csuite/using/ddom-insights.html) | 비디오 | Adobe이 DDOM의 자체 버전 DDOM을 설정하는 데 필요한 몇 가지 고려 사항을 파악하고, DDOM에 대한 일부 통찰력을 살펴볼 수 있습니다. |
+| 2020년 11월 4일 | [DDOM의 세 기둥](https://experienceleague.adobe.com/docs/csuite/using/ddom-components.html) | 비디오 | Adobe이 데이터, KPI, 프로세스 및 조직을 활용하여 고객 여정에 맞게 어떻게 조정하는지 살펴볼 수 있습니다. |
+| 2020년 11월 4일 | [Adobe 디지털 혁신 사례 ](https://experienceleague.adobe.com/docs/csuite/using/transformation-story.html) | 비디오 | DDOM이 고객 중심의 옴니채널 경험을 제공하기 위해 디지털 혁신을 주도했던 역할에 대해 자세히 알아보십시오. |
+| 2020년 11월 4일 | [데이터 기반의 운영 모델 소개](https://experienceleague.adobe.com/docs/csuite/using/ddom-introduction.html) | 비디오 | 고객 여정을 보다 심층적으로 파악할 수 있는 Adobe의 데이터 기반 운영 모델에 대한 개요입니다. |
+
 ## ![아이콘](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
 Experience Platform 및 Experience Platform Launch에 대한 릴리스 업데이트 정보 포함,
@@ -87,8 +98,11 @@ Platform Launch에 대한 자세한 내용은 [Experience Platform Launch 릴리
 
 Experience Platform 및 서비스를 위해 게시된 새로운 비디오, 자습서 또는 교육 과정
 
+Updated: **December 2, 2020**
+
 | 게시됨 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020년 11월 23일 | [파일 기반 클라우드 스토리지 또는 이메일 마케팅 대상 구성](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/configuring-file-based-cloud-storage-or-email-marketing-destinations.html?lang=en#destinations) | 비디오 | Adobe의 실시간 CDP에서 파일 기반 대상을 구성하는 연습을 통해 팁을 얻을 수 있습니다. 클라우드 스토리지 대상(예: S3 또는 SFTP) 및 이메일 마케팅 대상에도 적용됩니다. |
 | 2020년 10월 26일 | [Offer Decisioning 소개](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/introduction-to-offer-decisioning.html) | 비디오 | 이 비디오에서는 Adobe Experience Platform 위에 구축된 응용 프로그램 서비스인 [!UICONTROL Offer Decisioning]에 대한 개요를 제공합니다. 이 비디오에서는 비즈니스 문제, [!UICONTROL Offer Decisioning] 해결책, 주요 기능, 기본 아키텍처 및 주요 활용 사례를 다룹니다. |
 | 2020년 10월 29일 | [Offer Decisioning](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/demo-of-offer-decisioning.html?lang=ko) | 비디오 | 브랜드가 Adobe의 새 [!UICONTROL Offer Decisioning] 서비스를 사용하여 오퍼를 정의 및 관리하고 실시간 고객 데이터를 활용하며 고객이 기대하는 최적의 경험을 전달하는 방법을 알아봅니다. |
 | 2020년 9월 14일 | [Attribution AI의 비즈니스 가치](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intelligent-services/business-value-of-attribution-ai.html) | 비디오 | [!UICONTROL Attribution AI]는 [!UICONTROL 지능형 서비스]의 일부이며 멀티 채널, 알고리즘 기반의 어트리뷰션 서비스로, 지정된 결과에 대한 고객 상호 작용의 영향과 점진적 효과를 계산합니다. 마케터는 [!UICONTROL Attribution AI]를 통해 고객 여정의 각 단계에서 개별 고객과의 인터랙션이 미치는 영향을 파악하여 마케팅 및 광고 비용을 측정하고 최적화할 수 있습니다. |
@@ -176,6 +190,7 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [JavaScript용 AppMeas
 
 | 게시됨 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020년 11월 10일 | [BAAAM(벌크 관리) 소개](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/introduction-to-bulk-management-baaam.html?lang=en#build-and-manage-audiences) | 비디오 | 사용할 준비가 되도록 설정하는 방법을 비롯하여 Audience Manager의 트레이트 및 세그먼트를 위한 벌크 관리 도구인 &quot;BAAAM&quot;에 대해 알아보십시오. |
 | 2020년 10월 8일 | [자유 형식 테이블, Analysis의 기초](https://video.tv.adobe.com/v/41766?captions=kor) | 비디오 | 이 교육 과정을 통해 알아야 할 내용과 학습할 내용을 알아봅니다. |
 | 2020년 10월 5일 | [Analysis Workspace에서 기여도 지표 사용](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-participation-metrics-in-analysis-workspace.html) | 비디오 | 이 간단한 트릭을 사용하여 [!UICONTROL Analysis Workspace]에서 언제든지 참가 지표를 얻을 수 있습니다. |
 | 2020년 10월 5일 | [Analysis Workspace에서 자유 형식 테이블 자동 빌드](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html) | 비디오 | 구성 요소를 빈 프로젝트, 패널 또는 자유 형식 테이블에 직접 놓으면 권장 형식으로 테이블이 자동 구축됩니다. |
@@ -210,8 +225,13 @@ Audience Manager의 새로운 기능, 수정 사항, 설명서 및 자습서.
 
 Audience Manager에 대해 게시된 새로운 비디오, 자습서 또는 교육 과정입니다.
 
+업데이트 날짜: **2020년12월 2일**
+
 | 게시됨 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020년 11월 25일 | [트레이트 및 세그먼트와 함께 트렌드 보고서 사용](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/reports/using-trended-reports-with-traits-and-segments.html?lang=en#reports) | 비디오 | Audience Manager에서 트렌드 보고서를 사용하여 트레이트와 세그먼트가 시간에 따라 어떻게 작동하는지 확인하는 방법을 알아봅니다. |
+| 2020년 11월 25일 | [트레이트 및 세그먼트와 함께 일반 보고서 사용](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/reports/using-general-reports-with-traits-and-segments.html?lang=en#reports) | 비디오 | 이 비디오에서 Audience Manager의 일반 보고서를 사용하여 트레이트 및 세그먼트에 대한 숫자를 얻는 방법을 참조하십시오. |
+| 2020년 11월 2일 | [예측 대상에 대한 구성 및 보고서](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/algorithmic-models/configure-and-report-on-predictive-audiences.html?lang=en#build-and-manage-audiences) | 비디오 | 이 비디오에서는 Audience Manager 인터페이스의 예측 대상 구성을 살펴봅니다. 모델의 결과를 보여주는 보고서도 볼 수 있습니다. |
 | 2020년 10월 28일 | [특성 그래프의 수치 이해](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/understanding-numbers-in-the-trait-graph.html?lang=ko#build-and-manage-audiences) | 비디오 | 특성 정보 화면에서 특성에 대해 보고된 수치를 이해하는 데 대한 팁을 얻을 수 있습니다. |
 | 2020년 10월 23일 | [Analytics 데이터에서 특성 생성 계획](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/planning-trait-creation-from-analytics-data.html?lang=ko#build-and-manage-audiences) | 비디오 | Audience Manager에서 Adobe Analytics 데이터를 사용할 계획을 세울 때 도움이 되는 팁과 기법을 알아봅니다. |
 | 2020년 10월 23일 | [특성을 생성할 때 데이터 소스 선택](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/choosing-a-data-source-when-creating-traits.html?lang=ko#build-and-manage-audiences) | 비디오 | 특성을 만들 때 입력해야 할 중요한 필드 중 하나는 데이터 소스 필드입니다. 규칙 기반 특성과 온보딩 특성에 적합한 데이터 소스를 선택하는 방법에 대한 팁을 얻을 수 있습니다. |
@@ -354,12 +374,32 @@ Adobe Experience Manager 릴리스 로드맵, 릴리스 업데이트 및 추가 
 
 ### 새로운 Experience Manager 교육 과정 및 자습서
 
-업데이트 날짜:**2020년 10월 21일**
+Updated: **December 2, 2020**
 
 지난 달에 게시된 새로운 비디오, 자습서 및 교육 과정입니다.
 
 | 게시됨 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020년 12월 2일 | [컨텐츠 조각 다운로드](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/content-fragments-feature-video-use.html) | 비디오 | 컨텐츠 조각 다운로드 기능에 대한 비디오 개요입니다. |
+| 2020년 12월 2일 | [컨텐츠 조각 편집 기능](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/content-fragments-feature-video-use.html) | 비디오 | 컨텐츠 조각 편집기의 고급 기능에 대한 비디오 개요입니다. 컨텐츠 조각과 주석 및 버전 비교를 사용하는 방법을 알아봅니다. |
+| 2020년 11월 9일 | [로컬 AEM 서버에 에셋 배포](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/store-and-retrieve-af-with-2fa/deploy-this-sample.html?lang=en#store-and-retrieve-af-with-2fa) | 비디오 | 데이터베이스를 만들고, 사용자 정의 OSGi 번들을 배포하고, 다양한 클라이언트측 객체를 가져와서 로컬 AEM 인스턴스에서 실행 중인 사용 사례를 가져옵니다. |
+| 2020년 11월 2일 | [MyApplication 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/store-and-retrieve-af-with-2fa/create-the-myaccount-form.html?lang=en#store-and-retrieve-af-with-2fa) | 문서 | MyApplication 양식을 만듭니다. 이 양식은 부분적으로 완료된 응용 양식을 검색하려는 사람의 고유한 응용 프로그램 ID와 전화 번호를 확인하는 데 사용됩니다. |
+| 2020년 11월 10일 | [관리자용 AEM 액세스 권한 구성](https://experienceleague.adobe.com/?recommended=ExperienceManager-A-1-2020.1.aem) | 교육 과정 | 사용자가 Adobe IMS를 사용하여 AEM as a Cloud Service에 인증하는 방법과 Adobe IMS 사용자, 사용자 그룹 및 제품 프로필을 사용하여 AEM과 해당 기능에 대한 액세스를 제어하는 방법을 탐색합니다. |
+| 2020년 11월 11일 | [양식과 연결할 클라이언트 라이브러리 만들기](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/store-and-retrieve-af-with-2fa/create-client-lib.html?lang=en#store-and-retrieve-af-with-2fa) | 문서 | 두 개의 라이브러리를 만드는 방법을 알아봅니다.하나는 대화 상자를 표시하는 `bootbox.js` 데 있는 것입니다. 또한 클라이언트 라이브러리로 저장 및 종료 단추에서 클릭 이벤트를 [!UICONTROL 처리할 수 있습니다]. |
+| 2020년 11월 11일 | [데이터 모델 통합을 사용하여 통신 서비스 제공업체와의 통합 만들기](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/store-and-retrieve-af-with-2fa/verify-users-with-otp.html?lang=en#store-and-retrieve-af-with-2fa) | 문서 | REST API를 설명하고 데이터 소스 및 양식 데이터 모델을 만드는 스웨거 파일을 정의하여 AEM Forms을 Nexmo REST API와 통합합니다. |
+| 2020년 11월 11일 | [저장된 데이터를 사용하여 양식을 렌더링할 서블릿 만들기](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/store-and-retrieve-af-with-2fa/retrieve-saved-form.html?lang=en#store-and-retrieve-af-with-2fa) | 비디오 | 전화 번호를 성공적으로 확인하면 이 서블릿이 호출됩니다. |
+| 2020년 11월 2일 | [StoreAFWwithAttachments 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/store-and-retrieve-af-with-2fa/create-the-main-adaptive-form.html?lang=en#store-and-retrieve-af-with-2fa) | 문서 | StoreAFWwithAttachments 양식을 만듭니다. 이 양식을 통해 첨부 파일을 추가할 수 있는 전화 번호를 비롯하여 사용자의 정보를 캡처할 수 있습니다. |
+| 2020년 11월 2일 | [Adobe Experience Manager과 Adobe Analytics을 통합하여 페이지 데이터 수집](https://video.tv.adobe.com/v/327293?captions=kor) | 비디오 | 이 과정에서는 클라이언트 데이터 레이어를 사용하여 페이지 데이터를 수집한 다음 Adobe Analytics 내에서 Analysis Workspace 프로젝트를 만들어 Adobe Analytics을 Adobe Experience Manager Sites과 통합하는 방법에 대한 단계별 자습서를 제공합니다. |
+| 2020년 11월 11일 | [MySQL 데이터베이스 테이블 및 AEM 데이터 소스 만들기](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/store-and-retrieve-af-with-2fa/configure-data-source.html?lang=en#store-and-retrieve-af-with-2fa) | 문서 | 해당 열이 있는 MySQL 데이터베이스 테이블을 만들고 이 데이터베이스를 가리키는 Apache Sling 연결 풀링된 데이터 소스를 만듭니다. |
+| 2020년 11월 11일 | [POST 호출을 처리할 서블릿 만들기](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/store-and-retrieve-af-with-2fa/create-servlet.html?lang=en#store-and-retrieve-af-with-2fa) | 문서 | POST 요청을 수락하기 위해 REST 종단점을 확장 `SlingAllMethodsServlet` 및 노출하여 AEM에 서블릿을 만듭니다. |
+| 2020년 11월 11일 | [새로운 첨부 파일 맵으로 양식 데이터 저장](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/store-and-retrieve-af-with-2fa/store-form-data.html?lang=en#store-and-retrieve-af-with-2fa) | 문서 | 고유 GUID로 식별된 데이터베이스에 새 행을 삽입합니다. |
+| 2020년 11월 11일 | [CRX에서 새로운 위치에 양식 첨부 파일 저장](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/store-and-retrieve-af-with-2fa/store-form-attachments.html?lang=en#store-and-retrieve-af-with-2fa) | 문서 | 양식 첨부 파일의 기본 위치는 일정 기간 후에 삭제되는 임시 폴더입니다. |
+| 2020년 11월 4일 | [Asset compute 메타데이터 변환](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/advanced/metadata.html) | 자습서 | 메타데이터 표현물 생성을 다루는 Asset compute 자습서에 고급 장을 추가합니다. |
+| 2020년 10월 21일 | [양식 첨부 파일 조합](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/document-services/assemble-form-attachments.html) | 비디오 | 특정 순서로 양식 첨부 파일을 하나의 PDF로 취합할 수 있습니다. |
+| 2020년 11월 9일 | [데모 유틸리티에 WKND 에셋 데모 추가](http://bit.ly/demoAEM) | 데모 | WKND 자산 데모를 실체/가용성/설치 지침을 홍보하는 데모 유틸리티에 카드로 추가합니다. |
+| 2020년 11월 2일 | [컨텐츠 조각 만들기](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/content-fragments-feature-video-use.html) | 비디오 | Adobe Experience Manager(AEM) 자산에서 컨텐츠 조각 만들기에 대한 비디오 개요입니다. |
+| 2020년 11월 2일 | [사이트 페이지에서 컨텐츠 조각 사용](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/content-fragments-delivery-feature-video-use.html) | 비디오 | AEM Sites 페이지에서 컨텐츠 조각을 사용하는 방법을 알아봅니다. 컨텐츠 조각 구성 요소는 필요에 따라 컨텐츠를 표시하는 AEM 스타일 시스템을 사용하여 스타일을 지정할 수 있습니다. |
+| 2020년 11월 2일 | [스타일 시스템](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html) | 비디오 | We.Retail 목록 구성 요소를 사용하여 AEM 6.4용 스타일 시스템 비디오를 만듭니다. |
 | 2020년 11월 2일 | [Target 호출 로드 및 실행](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/load-and-fire-target.html) | 비디오 | Launch 규칙을 사용하여 매개 변수를 로드하고 페이지 요청에 전달하며 사이트 페이지에서 Target 호출을 실행하는 방법을 알아봅니다. 페이지 정보는 검색 및 매개 변수로 전달됩니다. Adobe Client Data 레이어를 사용하면 웹 페이지에서 방문자의 경험에 대한 데이터를 수집 및 저장한 다음 이 데이터에 쉽게 액세스할 수 있습니다. |
 | 2020년 10월 28일 | [비디오 고급 태그](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/metadata/video-smart-tags.html) | 비디오 | Experience Manager Assets은 Adobe Sensei를 활용하여 비디오의 주요 요소를 설명하는 키워드로 비디오 자산에 지능적으로 태그를 지정하므로 AEM 사용자의 키워드 검색을 사용하여 쉽게 검색할 수 있습니다. |
 | 2020년 10월 27일 | [Microsoft Office용 AEM 문서 보안 확장 소개](https://docs.adobe.com/content/help/en/experience-manager-document-security/using/document-security-extension-microsoft-office.html) | 문서 | Microsoft Office용 Adobe Experience Manager 문서 보안을 사용하면 권한이 부여된 사용자만 지적 재산이 포함된 Word, Excel 및 PowerPoint 파일을 사용할 수 있습니다. Microsoft Office용 문서 보안 확장을 사용하면 미리 정의된 기밀 설정을 파일에 적용할 수 있습니다. |
@@ -397,7 +437,6 @@ Adobe Experience Manager 릴리스 로드맵, 릴리스 업데이트 및 추가 
 | 2020년 10월 6일 | [첫 번째 적응형 양식 만들기](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.4.forms) | 교육 과정 | AEM Forms를 사용하면 매력적인 반응형, 동적 및 적응형 양식을 만들 수 있습니다. 교육 과정은 사용자 정의 적응형 양식 템플릿을 만드는 것으로 시작하고 다양한 양식 구성 요소를 사용하여 적응형 양식을 만드는 과정을 안내합니다. |
 | 2020년 10월 21일 | [로컬 Dispatcher 도구](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/dispatcher-tools.html) | 문서 | AEM Dispatcher는 CDN과 AEM Publish 계층 간에 보안 및 성능 레이어를 제공하는 Apache HTTP 웹 서버 모듈입니다. 로컬 개발 환경의 일부로 Dispatcher를 설정하는 방법을 알아봅니다. |
 | 2020년 10월 14일 | [개발자용 AEM Sites 시작하기](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.2.guided) | 교육 과정 | 이 교육 과정은 Experience League의 [기존 교육 과정](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2019.2.guided)을 업데이트합니다. |
-| 2020년 10월 7일 | [AEM 프로젝트 구조](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) | 비디오 | 이 문서에서는 변경 가능한 컨텐츠와 변경할 수 없는 컨텐츠 분리를 사용하여 Adobe Experience Manager Maven 프로젝트에 필요한 변경 사항을 설명하고, 상충되는 배포가 없도록 종속성을 설정하고, 배포 가능한 구조로 패키지되어 있다는 점을 확인하여 호환되는 AEM as a Cloud Service 변경 사항을 설명합니다. |
 
 ### Experience Manager 릴리스 정보
 
@@ -445,10 +484,23 @@ Campaign Classic, Campaign Standard 및 컨트롤 패널에 대한 릴리스 정
 
 지난 달에 게시된 새로운 비디오, 자습서 또는 교육 과정
 
+업데이트 날짜: **2020년12월 2일**
+
 | 게시됨 | 이름 | 솔루션 | 설명 |
 | ----------- | ----------- | ---------- | ---------- |
-| 2020년 11월 2일 | [컨트롤 패널 - SSH 키 생성 - 기능 비디오](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html) | Campaign Classic | 터미널을 사용하여 SSH 키를 생성하는 방법과 컨트롤 패널에 키의 공개 버전을 저장하는 방법을 알아봅니다. |
-| 2020년 11월 2일 | [컨트롤 패널 - SFTP 서버에 연결 - 기능 비디오](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html) | Campaign Classic | Campaign 컨트롤 패널에 저장한 키를 사용하여 클라이언트 SFTP 애플리케이션을 통해 SFTP 서버에 연결하는 방법을 알아봅니다. |
+| 2020년 11월 23일 | [푸시 알림 구성 및 전송](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html) | Campaign Classic | 푸시 알림을 구성하고 Android 앱 사용자에게 전송하는 방법을 알아봅니다. |
+| 2020년 11월 19일 | [Android 서비스 구성 및 Campaign에서 Android 모바일 애플리케이션 만들기](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html) | Campaign Classic | Campaign에서 Android 서비스를 구성하고 Android 모바일 애플리케이션을 만드는 방법을 알아봅니다. |
+| 2020년 11월 2일 | [Campaign 컨트롤 패널 - SSH 키 생성](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html) | Campaign Classic | 터미널을 사용하여 SSH 키를 생성하는 방법과 컨트롤 패널에 키의 공개 버전을 저장하는 방법을 알아봅니다. |
+| 2020년 10월 28일 | [Campaign 컨트롤 패널 - 데이터베이스 사용 모니터링](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html) | Campaign Classic | Campaign 컨트롤 패널을 사용하여 인스턴스의 데이터베이스 사용을 모니터링하는 방법을 알아봅니다. |
+| 2020년 10월 28일 | [Campaign 컨트롤 패널 - 데이터베이스 모니터링](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html) | Campaign Standard | Campaign 컨트롤 패널을 사용하여 인스턴스의 데이터베이스 사용을 모니터링하는 방법을 알아봅니다. |
+| 2020년 10월 12일 | [컨트롤 패널 - 허용 목록에 IP 범위 추가](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Standard | 컨트롤 패널의 허용 목록에 IP 주소 범위를 추가하는 방법을 알아봅니다. |
+| 2020년 10월 7일 | [Campaign 컨트롤 패널 - SSH 키 생성](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html) | Campaign Classic | 터미널을 사용하여 SSH 키를 생성하는 방법과 컨트롤 패널에 키의 공개 버전을 저장하는 방법을 알아봅니다. |
+| 2020년 10월 2일 | [Campaign 컨트롤 패널 - SFTP 서버에 연결](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html) | Campaign Classic | Campaign 컨트롤 패널에 저장한 키를 사용하여 클라이언트 SFTP 애플리케이션을 통해 SFTP 서버에 연결하는 방법을 알아봅니다. |
+| 2020년 10월 2일 | [Campaign 컨트롤 패널 - SFTP 서버에 연결](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/sftp-management/connect-to-sftp-server.html) | Campaign Standard | Campaign 컨트롤 패널에 저장한 키를 사용하여 클라이언트 SFTP 애플리케이션을 통해 SFTP 서버에 연결하는 방법을 알아봅니다. |
+| 2020년 10월 2일 | [Campaign 컨트롤 패널 - SSH 키 생성](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html) | Campaign Standard | 터미널을 사용하여 SSH 키를 생성하는 방법과 컨트롤 패널에 키의 공개 버전을 저장하는 방법을 알아봅니다. |
+| 2020년 11월 2일 | [Campaign 컨트롤 패널 - SFTP 서버에 연결](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html) | Campaign Classic | Campaign 컨트롤 패널에 저장한 키를 사용하여 클라이언트 SFTP 애플리케이션을 통해 SFTP 서버에 연결하는 방법을 알아봅니다. |
+| 2020년 10월 6일 | [Campaign 컨트롤 패널 - Campaign 컨트롤 패널 시작하기](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Classic | 이 문서에서는 컨트롤 패널에 액세스하는 방법 및 제어판에서 사용할 수 있는 사전 요구 사항을 설명합니다. |
+| 2020년 10월 6일 | [Campaign 컨트롤 패널 - Campaign 컨트롤 패널 시작하기](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Standard | 이 문서에서는 컨트롤 패널에 액세스하는 방법 및 제어판에서 사용할 수 있는 사전 요구 사항을 설명합니다. |
 | 2020년 10월 20일 | [컨트롤 패널 - 컨트롤 패널 시작하기 - 문서](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Classic | 이 문서에서는 컨트롤 패널에 액세스하는 방법 및 제어판에서 사용할 수 있는 사전 요구 사항을 설명합니다. |
 | 2020년 10월 20일 | [컨트롤 패널 - 컨트롤 패널 시작하기 - 문서](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Standard | 이 문서에서는 컨트롤 패널에 액세스하는 방법 및 제어판에서 사용할 수 있는 사전 요구 사항을 설명합니다. |
 | 2020년 10월 19일 | [컨트롤 패널 - 허용 목록에 IP 범위 추가](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Classic | 컨트롤 패널의 허용 목록에 IP 주소 범위를 추가하는 방법을 알아봅니다. |
@@ -489,6 +541,21 @@ Adobe Advertising Cloud에 대한 릴리스 정보입니다.
 | 캠페인 검색 | [!UICONTROL 계정] 보기에서 [!UICONTROL 액세스] 열은 이제 [!DNL Advertising Cloud Search]이(가) 활성화된 검색 엔진 계정에 로그인할 수 없는 시기를 표시합니다. 오류 원인을 보려면 경고 아이콘 위에 커서를 놓습니다. |
 | [!UICONTROL 사용자 지정 경고] | 이전의 [!UICONTROL 경고 베타]는 이제 [!UICONTROL 사용자 지정 경고]로 명칭이 바뀌었습니다. |
 |  | 사용자 지정 경고에서 지정된 날짜 범위의 지표가 이전 기간의 지표에서 증가하거나 감소된 시기를 식별하는 워크플로우가 간소화되었으며 [!UICONTROL 필터] 탭으로 위치가 변경되었습니다. |
+
+### Ad Cloud 자습서 및 강좌
+
+Updated: **December 2, 2020**
+
+| 게시됨 | 이름 | 솔루션 | 설명 |
+| ----------- | ----------- | ---------- | ---------- |
+| 2020년 11월 14일 | [Adobe Analytics를 사용하여 Advertising Cloud 대시보드 만들기](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-dashboards-a4adc.html?lang=en) | 비디오 | 라이브 캠페인 모니터링을 위한 Advertising Cloud 대시보드를 만드는 기술 |
+| 2020년 11월 14일 | [Advertising Cloud 사이트 항목 보고서 만들기](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-site-entry-a4adc.html?lang=en#analytics) | 비디오 | 주별, 시간, 브라우저 및 지리적 영향을 모니터링하기 위한 Advertising Cloud 사이트 입력 보고서 만들기 |
+| 2020년 11월 14일 | [Advertising Cloud 데이터를 사용하여 Analytics 사용자 지정 지표 만들기](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-custom-metrics-a4adc.html?lang=en#analytics) | 비디오 | Adobe Analytics 내에서 Advertising Cloud 데이터를 사용할 때 만드는 유용한 사용자 지정 지표입니다. |
+| 2020년 11월 14일 | [활성화 및 보고를 위한 Analytics 세그먼트 만들기](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-segments-a4adc.html?lang=en#analytics) | 비디오 | Advertising Cloud 차원을 사용하여 세그먼트를 만들어 보고와 분석을 간소화할 수 있습니다. |
+| 2020년 11월 14일 | [예측 대상 이해](https://experienceleague.corp.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/algorithmic-models/understanding-predictive-audiences.html?lang=en#build-and-manage-audiences) | 비디오 | 이 비디오에서는 Adobe Audience Manager 예측 대상이 누구인지에 대해 논의하고, 고객 성공 방법에 대한 세부 정보를 제공하며, 활용 사례를 설명합니다. |
+| 2020년 11월 14일 | [Advertising Cloud 활성화 및 보고를 위한 분석 프로필 만들기](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-profiles-a4adc.html?lang=en#analytics) | 비디오 | Adobe Analytics를 사용하여 Advertising Cloud 리마케팅을 위한 강력한 사이트 리타겟팅 풀을 만드는 방법 |
+| 2020년 11월 14일 | [Advertising Cloud 마케팅 채널을 사용한 보고](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=en#analytics) | 비디오 | Advertising Cloud 뷰스루 및 클릭스루 입력 데이터가 Adobe Analytics 마케팅 채널과 작동하는 방식. |
+| 2020년 11월 14일 | [Adobe Analytics을 사용하여 사전 실행 캠페인 분석 만들기](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-pre-launch-a4adc.html?lang=en) | 비디오 | Adobe Analytics를 사용하여 Advertising Cloud 유료 미디어 캠페인을 시작하는 기반을 설정하는 방법 |
 
 ## ![아이콘](/assets/magento.png) [!DNL Magento] {#magento}
 
@@ -543,6 +610,7 @@ Adobe Document Cloud용으로 게시된 새로운 비디오, 자습서 또는 �
 
 | 게시됨 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020년 11월 2일 | [GigaSign을 사용하여 대용량 문서 수집](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/develop/custom/gigasign.html?lang=en#gather-high-volume-documents-using-gigasign) | 비디오 | Gigasign을 사용하면 수천 명의 서명자에게 동시에 문서를 전송, 수집 및 추적할 수 있습니다. 직원 및 고객과의 대량 커뮤니케이션을 위해 설계되었습니다. GigaSign은 Adobe Sign API를 활용하여 MegaSign과 동일한 기능을 제공하지만 여러 서명자, 수신자 그룹, 수신자 역할, 계약 이름, 카본 등을 추가로 지원합니다. |
 | 2020년 9월 29일 | [Adobe Sign 둘러보기](https://docs.adobe.com/content/help/en/document-cloud-learn/sign-learning-hub/getting-started/getting-started-sending/quick-tour.html) | 비디오 | 이 비디오에서는 홈 화면에서 시작되는 Adobe Sign의 빠른 둘러보기를 수행합니다. |
 
 Document Cloud 도움말은 다음을 참조하십시오.
