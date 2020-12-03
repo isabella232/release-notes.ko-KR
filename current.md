@@ -4,11 +4,11 @@ description: Adobe Experience Cloud 릴리스 정보
 doc-type: release notes
 last-update: November 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 73caf10aa872e7b98875bdd0b8050cc301e3d500
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8005'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 99%
 * [Experience Cloud 서비스 및 관리](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) 및 [Customer Journey Analytics](#cust-journey) (2020년 **12월 2일 업데이트됨**)
+* [Analytics](#analytics) 및 [Customer Journey Analytics](#cust-journey) (업데이트 날짜: **2020년12월 2일**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)(업데이트됨: **2020년 10월 28일**)
 * [Campaign](#ac)
@@ -108,7 +108,7 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 릴리스 날짜: **2020년 10월 29일**
 
 * [Adobe Analytics의 새로운 기능](#aa-features)
-* [Customer Journey Analytics의 새로운 기능](#cust-journey) (2020년 12월 2일 업데이트)
+* [Customer Journey Analytics의 새로운 기능](#cust-journey) (업데이트 날짜: 2020년 12월 2일)
 * [Media Analytics의 새로운 기능](#media-aa)
 * [Adobe Analytics의 수정 사항](#aa-fixes)
 * [Analytics 관리자에 대한 중요 공지](#aa-notices)
@@ -304,7 +304,7 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 
 * Assets Insights의 경우 [Adobe Launch](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/advanced/asset-insights-launch-tutorial.html)를 사용합니다. [DTM 통합](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/assets/managing/touch-ui-using-dtm-for-asset-insights.html)은 문서에서 더 이상 사용되지 않는 메서드로 호출됩니다.
 
-업데이트됨: **2020년 10월 28일**
+업데이트 날짜: **2020년 10월 28일**
 
 * **Brand Portal 개선 사항**: 다음과 같은 새로운 기능 등을 [!DNL Brand Portal]에서 사용할 수 있습니다.
 
