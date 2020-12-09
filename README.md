@@ -1,9 +1,9 @@
 ---
 source-git-commit: 13ad94d323a3ac655b93f10b11c5245fe00ee379
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '447'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 # 기여자 문서
@@ -13,7 +13,7 @@ Adobe는 설명서 팀 외부 직원뿐만 아니라 커뮤니티 기여를 환�
 ## Adobe 오픈소스 행동 수칙
 
 
-이 프로젝트에서는 [Adobe 오픈소스 행동 수칙](https://docs.adobe.com/content/help/en/contributor/contributor-guide/conduct-contributions/code-of-conduct.html) 또는 [.NET Foundation 행동 수칙](https://dotnetfoundation.org/code-of-conduct)을 채택했습니다. 자세한 내용은 [기여](https://docs.adobe.com/content/help/en/contributor/contributor-guide/conduct-contributions/contributing.html) 문서를 참조하십시오.
+이 프로젝트에서는 [Adobe 오픈소스 행동 수칙](https://docs.adobe.com/content/help/ko-KR/contributor/contributor-guide/conduct-contributions/code-of-conduct.html) 또는 [.NET Foundation 행동 수칙](https://dotnetfoundation.org/code-of-conduct)을 채택했습니다. 자세한 내용은 [기여](https://docs.adobe.com/content/help/ko-KR/contributor/contributor-guide/conduct-contributions/contributing.html) 문서를 참조하십시오.
 
 ## Adobe 내용에 대한 귀하의 기여 관련 정보
 
@@ -43,7 +43,7 @@ Adobe Experience Cloud 솔루션에 대한 제품 팀의 테크니컬 라이터,
 
 커뮤니티 기여자는 기본 편집에 GitHub UI를 사용하거나 리포지토리를 포크하여 큰 기여를 할 수 있습니다.
 
-자세한 내용은 [Adobe Docs 기여자 안내서](https://docs.adobe.com/content/help/en/contributor/contributor-guide-for-adobe-documentation/introduction.html)를 참조하십시오.
+자세한 내용은 [Adobe Docs 기여자 안내서](https://docs.adobe.com/content/help/ko-KR/contributor/contributor-guide-for-adobe-documentation/introduction.html)를 참조하십시오.
 
 ## Markdown을 사용하여 주제 서식을 지정하는 방법
 
