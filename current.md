@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3f1afc6a9c158b461be3ded3bac935bcfac11066
+source-git-commit: 2f04d1dd4487a4e169360c0b23cdbef257121794
 workflow-type: tm+mt
-source-wordcount: '9838'
-ht-degree: 99%
+source-wordcount: '9815'
+ht-degree: 100%
 
 ---
 
@@ -18,10 +18,6 @@ ht-degree: 99%
 ![배너](/assets/experience-cloud-banner-3.png)
 
 이 페이지에서는 [!DNL Adobe Experience Cloud]에 대한 새로운 기능, 수정 사항 및 중요 정보를 설명합니다. 또한, Adobe Experience Cloud를 최대한 활용할 수 있는 새로운 설명서, 트레이닝 과정 및 비디오 자습서를 소개합니다.
-
->[!IMPORTANT]
->
->이 페이지에는 특정 제품에 대한 출시 전 릴리스 컨텐츠가 포함될 수 있으며 릴리스 날짜 전에 변경될 수 있습니다. 업데이트를 자주 확인하십시오.
 
 >[!NOTE]
 >
@@ -141,19 +137,19 @@ Adobe Experience Platform을 사용하여 모든 개인의 요구 사항을 실�
 
 ### Customer Journey Analytics의 새로운 기능 {#cust-journey}
 
-| 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
+| 기능 | [일반 가용성](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ----- |
 | 고객 여정 분석 설명서 | 2020년 11월 11일 | Customer Journey Analytics 설명서가 Experience League로 이전되었습니다. 12월에는 모든 기사, 비디오, 릴리스 노트 및 자습서가 `docs.adobe.com`의 현재 위치에서 `experienceleague.adobe.com`로 이전했습니다. 이렇게 하면 모든 학습, 사용자 도움말, 사용 여부 및 커뮤니티 컨텐츠가 한 곳에서 제공됩니다. 모든 링크는 Experience League으로 리디렉션되었습니다. |
-| [!UICONTROL 선] 시각화: 이동 평균 트렌드 라인 옵션 | 2020년 10월 8일 | 이동 평균이 선 시각화 트렌드 라인 설정에 추가되었습니다. 이동 평균은 지정된 이전 기간에 대한 평균을 계산하고 트렌드 라인 데이터 포인트로 사용한 후 다음 기간으로 이동합니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/line.html) |
+| [!UICONTROL 선] 시각화: 이동 평균 트렌드 라인 옵션 | 2020년 10월 8일 | 이동 평균이 선 시각화 트렌드 라인 설정에 추가되었습니다. 이동 평균은 지정된 이전 기간에 대한 평균을 계산하고 트렌드 라인 데이터 포인트로 사용한 후 다음 기간으로 이동합니다. [추가 정보](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | 채우기 제한 제거 | 2020년 10월 19일 | 향상된 CJA 경험을 제공하기 위해 채우기(내역 데이터 가져오기) 제한을 제거했습니다. 이전에는 스스로 최대 25억 개의 행을 채우거나 엔지니어링 관련 이외의 작업을 수행할 수 있었습니다. 이제 제한 없이 데이터 채우기를 원하는 대로 할 수 있습니다. [자세한 정보](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-connections/create-connection.html#enable-connection) |
-| Analysis Workspace 성능 도움말 페이지 | 2020년 10월 22일 | Analysis Workspace 성능 도움말 페이지에는 프로젝트 성능에 영향을 주는 다양한 요인과 최적화를 위한 팁의 링크가 표시됩니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
+| Analysis Workspace 성능 도움말 페이지 | 2020년 10월 22일 | Analysis Workspace 성능 도움말 페이지에는 프로젝트 성능에 영향을 주는 다양한 요인과 최적화를 위한 팁의 링크가 표시됩니다. [추가 정보](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
 | [!UICONTROL 사용한 시간] 지표 및 차원 | 2020년 10월 30일 | [!UICONTROL 사용한 시간] 지표와 차원을 통해 소비자가 고객 여정의 다양한 측면에서 사용한 시간을 파악할 수 있으므로 채널 전반에서 고객 참여와 병목 현상을 보다 완벽하게 파악할 수 있습니다. |
 | [!UICONTROL 장치] 및 [!UICONTROL 지역] 차원 | 2020년 10월 30일 | [!UICONTROL 장치] 및 [!UICONTROL 지역] 차원은 이제 [Adobe Analytics Source 커넥터](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html)의 “전역 조회 지원” 프로젝트의 일부로 기본적으로 사용할 수 있습니다. 이렇게 많이 요청되는 추가는 [Adobe Analytics와 CJA 간의 패리티](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-overview/cja-aa.html)를 증가시킵니다. |
 | 여정 IQ: 크로스채널 Analytics | 2021년 1월 11일 | 여정 IQ: 크로스채널 Analytics를 사용하면 고객이 하나의 ID 네임스페이스에서 다른 ID 네임스페이스로 Adobe Experience Platform 데이터 레이크에서 Adobe Analytics(또는 기타) 이벤트 데이터 세트를 다시 키 대조할 수 있습니다. 일반적으로 이는 이벤트 데이터 세트를 쿠키 기반 ID에서 개인 기반 ID로 다시 키 대조하는 것을 의미합니다. 이 방법을 통해 다시 키 대조된 데이터 세트는 CJA 연결에서 다른 사람 기반 데이터와 결합될 수 있으므로 Analysis Workspace에서 교차 장치/교차 채널 분석을 수행할 수 있습니다. [자세한 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=ko-KR#cja-connections) |
 
 ### [!UICONTROL Media Analytics]의 새로운 기능 {#media-aa}
 
-| 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
+| 기능 | [일반 가용성](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ---------- |
 | 작업 공간의 미디어 동시 뷰어 패널 | 2020년 9월 17일 | [!UICONTROL 미디어 동시 뷰어] 패널을 사용하면 최대 동시 시청 횟수가 발생한 위치 또는 드롭오프가 발생한 위치를 파악할 수 있습니다. 컨텐츠 및 뷰어 참여의 품질에 대한 중요한 통찰력을 제공하고 볼륨/규모에 대한 문제 해결 또는 계획을 수립하는 데 도움이 됩니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/media-reports/media-workspace-panels/media-concurrent-viewers.html) |
 
@@ -445,14 +441,14 @@ Adobe Experience Manager 릴리스 로드맵, 릴리스 업데이트 및 추가 
 * [Experience Manager 릴리스 업데이트 및 로드맵](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/home.html)
 * [AEM as a Cloud Service 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/release-notes/home.html)
 * [AEM Cloud Manager 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-manager/using/release-notes/release-notes-current.html)
-* [자동 양식 전환 서비스 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/aem-forms-automated-conversion-service/using/release-notes.html)
+* [자동 양식 전환 서비스 릴리스 정보](https://docs.adobe.com/content/help/en/aem-forms-automated-conversion-service/using/release-notes.html)
 * [AEM 6.5 서비스 팩 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/release-notes/service-pack/sp-release-notes.html)
 * [AEM 6.4 누적 수정 팩 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/experience-manager-64/release-notes/cfp-release-notes.html)
 * [AEM Assets Dynamic Media 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/dynamic-media-developer-resources/release-notes/s7rn2017.html)
 * [AEM Brand Portal 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html)
 * [AEM 데스크탑 앱 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/experience-manager-desktop-app/using/release-notes.html)
 * [AEM Dispatcher 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/experience-manager-dispatcher/using/getting-started/release-notes.html)
-* [Adobe Primetime 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/primetime/release-notes/home.html)
+* [Adobe Primetime 릴리스 정보](https://docs.adobe.com/content/help/en/primetime/release-notes/home.html)
 * [Livefyre 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/livefyre/using/release-notes/c-rn.html)
 
 ### AEM에 대한 추가 도움말 리소스
@@ -502,9 +498,9 @@ Campaign Classic, Campaign Standard 및 컨트롤 패널에 대한 릴리스 정
 | 2020년 10월 6일 | [컨트롤 패널 - 컨트롤 패널 시작하기](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Classic | 이 문서에서는 컨트롤 패널에 액세스하는 방법 및 제어판에서 사용할 수 있는 사전 요구 사항을 설명합니다. |
 | 2020년 10월 6일 | [컨트롤 패널 - 컨트롤 패널 시작하기](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Standard | 이 문서에서는 컨트롤 패널에 액세스하는 방법 및 제어판에서 사용할 수 있는 사전 요구 사항을 설명합니다. |
 | 2020년 10월 20일 | [컨트롤 패널 - 컨트롤 패널 시작하기 - 문서](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Classic | 이 문서에서는 컨트롤 패널에 액세스하는 방법 및 제어판에서 사용할 수 있는 사전 요구 사항을 설명합니다. |
-| 2020년 10월 20일 | [컨트롤 패널 - 컨트롤 패널 시작하기 - 문서](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Standard | 이 문서에서는 컨트롤 패널에 액세스하는 방법 및 제어판에서 사용할 수 있는 사전 요구 사항을 설명합니다. |
+| 2020년 10월 20일 | [컨트롤 패널 - 컨트롤 패널 시작하기 - 문서](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Standard | 이 문서에서는 컨트롤 패널에 액세스하는 방법 및 제어판에서 사용할 수 있는 사전 요구 사항을 설명합니다. |
 | 2020년 10월 19일 | [컨트롤 패널 - 허용 목록에 IP 범위 추가](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Classic | 컨트롤 패널의 허용 목록에 IP 주소 범위를 추가하는 방법을 알아봅니다. |
-| 2020년 10월 19일 | [컨트롤 패널 - 허용 목록에 IP 범위 추가](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Standard | 컨트롤 패널의 허용 목록에 IP 주소 범위를 추가하는 방법을 알아봅니다. |
+| 2020년 10월 19일 | [컨트롤 패널 - 허용 목록에 IP 범위 추가](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Standard | 컨트롤 패널의 허용 목록에 IP 주소 범위를 추가하는 방법을 알아봅니다. |
 | 2020년 10월 16일 | [컨트롤 패널 - CNAME(베타)을 사용하여 하위 도메인 위임 - 기능 비디오](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html) | Campaign Classic | 컨트롤 패널에서 CNAME을 사용하여 하위 도메인을 설정하고 제출하는 방법을 알아봅니다. |
 | 2020년 10월 16일 | [컨트롤 패널 - CNAME(베타)을 사용하여 하위 도메인 위임 - 기능 비디오](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html) | Campaign Standard | 컨트롤 패널에서 CNAME을 사용하여 하위 도메인을 설정하고 제출하는 방법을 알아봅니다. |
 
