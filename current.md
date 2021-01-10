@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1beba26ad3096758512a7efbf5454012b686f007
+source-git-commit: 4f4eac5843bd39369950c543749455580b1cb964
 workflow-type: tm+mt
 source-wordcount: '6184'
 ht-degree: 44%
@@ -132,10 +132,8 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 
 * [Adobe Analytics의 새로운 기능](#aa-features)
 * [Customer Journey Analytics의 새로운 기능](#cust-journey)
-<!-- * [New features in Media Analytics](#media-aa) -->
 * [Adobe Analytics의 수정 사항](#aa-fixes)
 * [Analytics 관리자에 대한 중요 공지](#aa-notices)
-<!-- * [Analytics courses and tutorials](#tutorials-analytics) -->
 * [AppMeasurement](#appm)
 
 ### Adobe Analytics의 새로운 기능 {#aa-features}
@@ -312,7 +310,7 @@ AEM 6.4, 서비스 팩 8, 누적 수정 팩 3(2020년 11월 26일 6.4.8.3 릴리
 
 ### 새로운 Experience Manager 교육 과정 및 자습서
 
-업데이트 날짜: **2020년12월 2일**
+업데이트됨:**2021년 1월 10일**
 
 지난 달에 게시된 새로운 비디오, 자습서 및 교육 과정입니다.
 
