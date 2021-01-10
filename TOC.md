@@ -6,9 +6,9 @@ breadcrumb-title: 릴리스 노트
 user-guide-description: Adobe Experience Cloud의 새로운 기능, 수정 사항 및 중요 공지 사항에 대해 알아봅니다.
 user-guide-url: https://www.adobe.com
 translation-type: tm+mt
-source-git-commit: b8a7c0da3f98d1f7d37713c85ba31dade69c08b7
+source-git-commit: 1beba26ad3096758512a7efbf5454012b686f007
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '58'
 ht-degree: 100%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 100%
 + [릴리스 정보](current.md)
 + 이전 릴리스 정보 {#previous}
    + 2020 {#2020}
+      + [2020년 11월](c-legacy-releases/2020/10292020.md)
       + [2020년 10월](c-legacy-releases/2020/10082020.md)
       + [2020년 9월](c-legacy-releases/2020/09102020.md)
       + [2020년 8월](c-legacy-releases/2020/08132020.md)
