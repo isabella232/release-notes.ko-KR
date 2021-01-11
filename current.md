@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 4f4eac5843bd39369950c543749455580b1cb964
+source-git-commit: 23d521bb24f13ed6ad843b605f72f362262790c2
 workflow-type: tm+mt
-source-wordcount: '6184'
+source-wordcount: '6183'
 ht-degree: 44%
 
 ---
@@ -453,7 +453,7 @@ Magento 릴리스 정보에 대해서는 다음을 참조하십시오.
 
 ### 핵심 Marketo Engage 업데이트
 
-최신 릴리스 정보는 [!DNL Marketo][릴리스 정보](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+July+%2720)를 참조하십시오.
+최신 릴리스 정보는 [!DNL Marketo][릴리스 정보](https://docs.marketo.com/display/public/DOCS/Jan+%2721)를 참조하십시오.
 
 ### 예정된 기능
 
@@ -469,7 +469,7 @@ Magento 릴리스 정보에 대해서는 다음을 참조하십시오.
 * **자산 API &quot;_method&quot; 매개 변수:** 2020년 9월 이후, 자산 API 끝점은 `_method`를 사용하여 쿼리 매개 변수를 URI 길이 제한을 무시하도록 POST 본문에 전달하지 않습니다.
 * **Internet Explorer 지원 중단:** 2020년 7월 31일 7월 릴리스부터 Marketo Engage 사용자 인터페이스는 이제 Internet Explorer에서 지원되지 않습니다.
 
-누적 릴리스 정보와 내역 릴리스 정보는 [Marketo 릴리스 정보](https://docs.marketo.com/x/CgA6Ag)를 참조하십시오.
+누적 릴리스 정보와 내역 릴리스 정보는 [Marketo 릴리스 정보](https://docs.marketo.com/display/public/DOCS/Release+Notes)를 참조하십시오.
 
 ## ![아이콘](/assets/document-cloud-24.png) Document Cloud {#doc-cloud}
 
