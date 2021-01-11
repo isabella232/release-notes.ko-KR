@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3d0946fe6fc0bf74ec45a19931c106afb8a8208d
+source-git-commit: 5175e3e92bd445254532c614bda3f7a048f31a86
 workflow-type: tm+mt
-source-wordcount: '6185'
-ht-degree: 44%
+source-wordcount: '6419'
+ht-degree: 43%
 
 ---
 
@@ -135,6 +135,7 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 * [Adobe Analytics의 수정 사항](#aa-fixes)
 * [Analytics 관리자에 대한 중요 공지](#aa-notices)
 * [AppMeasurement](#appm)
+* [Report Builder](#arb)
 
 ### Adobe Analytics의 새로운 기능 {#aa-features}
 
@@ -181,6 +182,7 @@ AN-204659;AN-221726;AN-230949;AN-231984;AN-232835; AN-233989;AN-235593;AN-235989
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | ----------- | ---------- | ---------- |
+| 필수 [!UICONTROL Report Builder] 업데이트 | 2021년 1월 8일 | 2021년 4월 30일까지 모든 [!UICONTROL Report Builder] 사용자는 버전 5.6.47 이상 버전에 [!UICONTROL Report Builder] 추가 기능을 업데이트해야 합니다. 이 버전에는 로그인 프로세스에 대한 중요한 업데이트가 포함되어 있습니다. 버전 5.6.47 이상으로 업데이트하지 않는 사용자는 2021년 4월 30일 이후에 로그인할 수 없습니다. [!UICONTROL Report ] Builder 버전 5.6.47 이상 버전은 Experience Cloud 로그인만 지원하며 SiteCatalyst Single Sign-On 또는 표준 로그인과 같은 레거시 로그인을 지원하지 않습니다. 자세한 내용은 [Report Builder 로그인](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/login.html?lang=en#section_6D54B8ADAE7F416BB83F5082B3771CFA)을 참조하십시오. |
 | 3개의 Analytics API 서비스에 대한 사용 종료 | 2021년 1월 6일 | 2021년 4월 30일에 다음 Analytics 이전 API 서비스가 종료 날짜에 도달하고 종료됩니다. 이러한 서비스를 사용하여 구축한 현재 모든 통합은 그 날에 더 이상 작동하지 않습니다.<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증(OAuth 및 JWT)</li></ul>귀하의 질문에 답변하고 진행하는 방법에 대한 지침을 제공하기 위해 [레거시 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)를 제공했습니다. 이러한 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 및/또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 이전 OAuth 계정은 [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics 통합 계정으로 마이그레이션할 수 있으며, 이 계정은 1.4 Analytics API 및 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다. |
 | 모든 수신 HTTPS 요청에 HSTS 헤더 추가 | 2020년 9월 29일 | 2020년 9월 29일에 HTTPS를 사용하는 모든 수신 요청에 HSTS 헤더를 추가하기 시작했습니다. 이를 통해 브라우저/클라이언트가 HTTPS에서 모든 향후 요청을 수행하도록 지시할 수 있으며 이는 보안 모범 사례입니다. 이 시점에서는 HTTP를 사용하는 수신 요청에 이 설정을 적용하지 않습니다. |
 | [!UICONTROL Experience Cloud ID 서비스] 쿠키 설정으로 변경 | 2020년 9월 22일 | Chrome 버전 80의 개인 정보 설정 업데이트는 Adobe Analytics에서 Google AMP 페이지를 보는 일부 사용자를 추적하는 기능에 영향을 주었습니다. 특히 Google에서 호스팅하는 AMP 페이지를 보는 사용자의 도메인 간 추적이 방지됩니다. 이로 인해 고유 방문자 수가 부풀려질 수 있습니다. 이 수정 사항으로 사용자는 ECID 쿠키의 설정을 변경하여 이 문제를 해결할 수 있습니다.<br>현재 Analytics는 버전 80 이전의 Chrome에서 도메인 간 추적이 허용되는 `SameSite = Lax` 설정으로 ECID(Experience Cloud ID Service) 쿠키를 설정합니다. 더 이상은 해당되지 않습니다. 이 변경 사항으로 사용자는 ECID 쿠키에 대한 SameSite 설정을 `None`으로 업데이트할 수 있습니다. <br>이는 Analytics 쿠키를 더 많은 상황에서 공유할 수 있게 하지만 Analytics 쿠키에는 중요한 정보가 포함되어 있지 않습니다. 또한 이 설정을 선택할 때는 HTTPS 연결을 통해서만 데이터를 전달할 수 있도록 쿠키를 `Secure`으로 설정해야 합니다. 이 변경 사항을 적용하려면 지원되는 사용자가 고객 지원 센터에서 티켓을 열도록 하십시오. |
@@ -191,7 +193,13 @@ AN-204659;AN-221726;AN-230949;AN-231984;AN-232835; AN-233989;AN-235593;AN-235989
 
 ### AppMeasurement {#appm}
 
-AppMeasurement 릴리스에 대한 최신 업데이트는 [JavaScript용 AppMeasurement 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/appmeasurement-updates.html)를 참조하십시오.
+AppMeasurement 릴리스에 대한 최신 업데이트는 [JavaScript용 AppMeasurement 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/appmeasurement-updates.html)를 참조하십시오.
+
+### Report Builder {#arb}
+
+| 기능 | [일반 가용성](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
+| ----------- | ---------- | ----- |
+| 분석 [!UICONTROL Report Builder]에 로그인 업데이트 | 2021년 1월 14일 | [!UICONTROL Report Builder] 로그인 프로세스 개선 사항은 기존 기술에 대한 종속성을 제거하고 로그인 프로세스를 Adobe Experience Cloud에 맞춥니다. Experience Cloud 로그인을 사용하면 Adobe ID 또는 Enterprise ID(Single Sign-On)를 사용하여 Adobe Experience Cloud에 로그인할 수 있습니다. 2021년 4월 30일까지 모든 [!UICONTROL Report Builder] 사용자는 버전 5.6.47 이상 버전에 [!UICONTROL Report Builder] 추가 기능을 업데이트해야 합니다. [!UICONTROL Report ] Builder 버전 5.6.47 이상 버전은 Experience Cloud 로그인 전용을 지원하며 SiteCatalyst Single Sign-On 또는 표준 로그인과 같은 기존 로그인을 지원하지 않습니다. 자세한 내용은 [Report Builder 로그인](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/login.html?lang=en#section_6D54B8ADAE7F416BB83F5082B3771CFA)을 참조하십시오. |
 
 ### Analytics 도움말 리소스
 
