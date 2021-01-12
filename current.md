@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 5175e3e92bd445254532c614bda3f7a048f31a86
+source-git-commit: d5d885d83774f8160e77ec34ddc4cfa92b7f10f4
 workflow-type: tm+mt
-source-wordcount: '6419'
-ht-degree: 43%
+source-wordcount: '6414'
+ht-degree: 42%
 
 ---
 
@@ -67,7 +67,7 @@ Experience Platform 및 Experience Platform Launch에 대한 릴리스 업데이
 
 최신 업데이트:**2020년 12월 9일**
 
-다음에 적용되는 최신 업데이트를 보려면 [Experience Platform 릴리스 노트](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)를 참조하십시오.
+다음에 적용되는 최신 업데이트를 보려면 [Experience Platform 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en)를 참조하십시오.
 
 * [!UICONTROL 데이터 흐름]
 * [!UICONTROL 데이터 과학 작업 공간]
@@ -81,7 +81,7 @@ Platform Launch에 대한 자세한 내용은 [Experience Platform Launch 릴리
 
 iOS 버전 4.21.0
 
-일반 - 이제 기존 Intel 아키텍처에 대한 지원을 유지하면서 새로운 Apple M1 아키텍처로 하드웨어를 지원하기 위해 SDK가 [!DNL XCFrameworks]을(를) 사용하여 배포됩니다.
+일반 - 이제 기존 Intel 아키텍처에 대한 지원을 유지하면서 새로운 Apple M1 아키텍처로 하드웨어를 지원하기 위해 [!DNL XCFrameworks]을 사용하여 SDK가 배포됩니다.
 
 * 중요:AdobeMobile [!DNL XCFrameworks]으로 업그레이드하려면 Xcode 12.0 이상이 필요합니다.
 * 중요:[!DNL Cocoapods]을(를) 사용하는 경우 AdobeMobile [!DNL XCFrameworks]로 업그레이드하려면 [!DNL Cocoapods] 1.10.0 이상이 필요합니다.
