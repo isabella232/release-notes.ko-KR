@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 783d8abc85c468f18d599d5ff5782dd01cb07e78
+source-git-commit: 40f7861366595738d6ba7b7ebcbbba514b2c98c7
 workflow-type: tm+mt
-source-wordcount: '6428'
+source-wordcount: '6518'
 ht-degree: 42%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 42%
 * [Experience Cloud 서비스 및 관리](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) 및 [Customer Journey Analytics](#cust-journey) (릴리스 날짜: **2021년 1월 14일**)
+* [Analytics](#analytics) 및 [Customer Journey Analytics](#cust-journey) (업데이트됨:**2021년 1월 12일**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac) (업데이트 날짜: **2021년 1월 12일**)
@@ -141,8 +141,9 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ------- |
+| Analysis Workspace - 이미지 URL | 2021년 1월 14일 | 공개 이미지 URL을 참조하여 [!UICONTROL Workspace] 프로젝트에 이미지를 추가할 수 있습니다. [자세한 정보](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/text.html?lang=en#analysis-workspace) |
+| Analysis Workspace - 소스 및 설정 관리자 결합 | 2021년 1월 14일 | 시각화에 대한 데이터 소스 관리자(도트) 및 설정 관리자(톱니바퀴)가 하나의 대화 상자로 통합되었으므로 동일한 위치에서 소스와 설정을 쉽게 관리할 수 있습니다. |
 | Analysis Workspace - 구성 요소 선택 | 2021년 2월 4일 | [!UICONTROL 빠른 인사이트]에 있는 드롭다운/드롭 영역 구성 요소가 [!UICONTROL 작업 공간]의 모든 드롭 영역에 추가되었습니다. 이 개선 사항을 통해 호환되는 구성 요소의 드롭다운 목록에서 선택하거나 공간을 드롭 영역으로 계속 사용할 수 있습니다. |
-| Analysis Workspace - 이미지 URL | 2021년 1월 14일 | 공개 이미지 URL을 참조하여 [!UICONTROL Workspace] 프로젝트에 이미지를 추가할 수 있습니다. |
 
 ### Customer Journey Analytics의 새로운 기능 {#cust-journey}
 
@@ -150,8 +151,9 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 | ----------- | ---------- | ----- |
 | [!UICONTROL 장치] 및 [!UICONTROL 지역] 차원 | 2020년 10월 30일 | 이제 이러한 차원은 Adobe Analytics [!UICONTROL 소스 커넥터]에서 [전역 조회](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/global-lookups.html?lang=en#use-global-lookups-with-adobe-data-connector-datasets) 지원 프로젝트의 일부로 기본적으로 사용할 수 있습니다. 이렇게 많이 요청되는 추가는 [Adobe Analytics와 CJA 간의 패리티](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-aa.html?lang=en#cja-overview)를 증가시킵니다. |
 | 여정 IQ:[!UICONTROL 크로스 채널 분석] | 2021년 1월 11일 | 여정 IQ:[!UICONTROL 크로스 채널 분석]을 사용하면 Experience Platform 데이터 레이크의 Adobe Analytics(또는 기타) 이벤트 데이터 세트를 한 ID 네임스페이스에서 다른 ID 네임스페이스로 다시 키 지정할 수 있습니다. 일반적으로 이는 이벤트 데이터 세트를 쿠키 기반 ID에서 개인 기반 ID로 다시 키 대조하는 것을 의미합니다. 이렇게, 다시 키 지정된 데이터 세트는 CJA 연결에서 다른 사람 기반 데이터와 결합될 수 있으므로 Analysis Workspace에서 크로스 디바이스 및 크로스 채널 분석을 수행할 수 있습니다. [자세한 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=ko-KR#cja-connections) |
-| Analysis Workspace - 구성 요소 선택 | 2021년 2월 4일 | [!UICONTROL 빠른 인사이트]에 있는 드롭다운/드롭 영역 구성 요소가 [!UICONTROL 작업 공간]의 모든 드롭 영역에 추가되었습니다. 이 개선 사항을 통해 호환되는 구성 요소의 드롭다운 목록에서 선택하거나 공간을 드롭 영역으로 계속 사용할 수 있습니다. |
 | Analysis Workspace - 이미지 URL | 2021년 1월 14일 | 공개 이미지 URL을 참조하여 Workspace 프로젝트에 이미지를 추가할 수 있습니다. |
+| Analysis Workspace - 소스 및 설정 관리자 결합 | 2021년 1월 14일 | 시각화에 대한 데이터 소스 관리자(도트) 및 설정 관리자(톱니바퀴)가 하나의 대화 상자로 통합되었으므로 동일한 위치에서 소스와 설정을 쉽게 관리할 수 있습니다. |
+| Analysis Workspace - 구성 요소 선택 | 2021년 2월 4일 | [!UICONTROL 빠른 인사이트]에 있는 드롭다운/드롭 영역 구성 요소가 [!UICONTROL 작업 공간]의 모든 드롭 영역에 추가되었습니다. 이 개선 사항을 통해 호환되는 구성 요소의 드롭다운 목록에서 선택하거나 공간을 드롭 영역으로 계속 사용할 수 있습니다. |
 
 ### Adobe Analytics의 수정 사항 {#aa-fixes}
 
