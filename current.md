@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d5d885d83774f8160e77ec34ddc4cfa92b7f10f4
+source-git-commit: 783d8abc85c468f18d599d5ff5782dd01cb07e78
 workflow-type: tm+mt
-source-wordcount: '6414'
+source-wordcount: '6428'
 ht-degree: 42%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 42%
 >
 >월별 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/subscription/priority-product-update.html)에 가입하면 이 페이지의 업데이트에 대한 이메일 알림을 받을 수 있습니다. 이 페이지는 한 달 동안 유지되므로 Adobe 엔터프라이즈 제품 및 Experience League 설명서 업데이트를 정기적으로 확인하십시오.
 
-최신 업데이트:**2020년 1월 11일**
+최신 업데이트:**2021년 1월 12일**
 
 * [Adobe 시스템 상태](#status) (업데이트되지 않음)
 * [Experience Cloud 서비스 및 관리](#ecloud)
@@ -32,7 +32,7 @@ ht-degree: 42%
 * [Analytics](#analytics) 및 [Customer Journey Analytics](#cust-journey) (릴리스 날짜: **2021년 1월 14일**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
-* [Campaign](#ac)
+* [Campaign](#ac) (업데이트 날짜: **2021년 1월 12일**)
 * [Advertising Cloud](#adcloud)
 * [[!DNL Target]](#target)
 * [[!DNL Magento]](#magento)
@@ -109,13 +109,13 @@ Experience Platform 및 서비스를 위해 게시된 새로운 비디오, 자�
 | 2020년 10월 26일 (업데이트일) | [Offer Decisioning 소개](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/introduction-to-offer-decisioning.html) | 비디오 | 이 비디오에서는 Adobe Experience Platform 위에 구축된 응용 프로그램 서비스인 [!UICONTROL Offer Decisioning]에 대한 개요를 제공합니다. 이 비디오에서는 비즈니스 문제, [!UICONTROL Offer Decisioning] 해결책, 주요 기능, 기본 아키텍처 및 주요 활용 사례를 다룹니다. |
 | 2020년 10월 26일 (업데이트일) | [Salesforce CRM 소스 커넥터를 사용하여 데이터 인제스트](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/ingest-data-from-salesforce-crm.html) | 비디오 | Salesforce CRM 소스 커넥터를 사용하면 Salesforce CRM의 데이터를 Adobe Experience Platform의 실시간 고객 프로필 및 경험 데이터 레이크에 매끄럽고 확장 가능한 방식으로 간편하게 일괄적으로 인제스트할 수 있습니다. |
 | 2020년 10월 13일 (업데이트일) | [Salesforce CRM 소스 커넥터를 사용하여 데이터 인제스트](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html) | 비디오 | Salesforce CRM 소스 커넥터를 사용하면 Salesforce CRM의 데이터를 Adobe Experience Platform의 실시간 고객 프로필 및 경험 데이터 레이크에 매끄럽고 확장 가능한 방식으로 간편하게 일괄적으로 인제스트할 수 있습니다. |
-| 2020년 10월 23일 (업데이트일) | [실시간 고객 프로필로 데이터 가져오기](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html) | 비디오 | 실시간 고객 프로필을 통해 고객 경로의 각 단계에서 크로스채널 개인화를 규모에 맞게 확장할 수 있습니다. |
+| 2020년 10월 23일 (업데이트일) | [실시간 고객 프로필로 데이터 가져오기](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html) | 비디오 | 실시간 고객 프로필을 통해 고객 여정의 각 단계에서 크로스채널 개인화를 규모에 맞게 확장할 수 있습니다. |
 | 2020년 10월 13일 (업데이트일) | [Attribution AI 구성](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intelligent-services/configure-attribution-ai.html) | 비디오 | 마케팅 채널 및 캠페인의 영향력을 파악하기 위해 Attribution AI 인스턴스를 만드는 방법을 알아봅니다. |
 | 2020년 10월 13일 (업데이트일) | [Customer AI 구성](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intelligent-services/configure-customer-ai.html) | 비디오 | 고객 AI 인스턴스를 만들어 고객 행동을 예측하는 방법을 알아봅니다. |
 
 ## ![아이콘](/assets/experience_platform_appicon_24.png) Journey Orchestration {#journey-orch}
 
-Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실시간으로 지능적으로 예측하여 경험 채널에서 규모에 맞게 고객 여정을 조정할 수 있습니다.
+Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실시간으로 지능적으로 예측하여 경험 채널에서 규모에 맞게 고객의 여정을 조정할 수 있습니다.
 
 ### 새 제품 릴리스
 
@@ -373,7 +373,7 @@ Campaign Classic, Campaign Standard 및 컨트롤 패널에 대한 릴리스 정
 
 #### Campaign Classic
 
-<!-- [Incident Response Bulletin](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) (January 12) -->
+[장애 응답 게시판](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) (업데이트됨: **2021년** 1월 12일)
 
 * 20.3.3 릴리스 - [자세히 보기](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes)
 * 20.3.1 릴리스 - [자세히 보기](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes)
