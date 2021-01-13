@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 40f7861366595738d6ba7b7ebcbbba514b2c98c7
+source-git-commit: 173c6f89606fb3a5fde4db91f66900476293f6b5
 workflow-type: tm+mt
-source-wordcount: '6518'
-ht-degree: 42%
+source-wordcount: '6601'
+ht-degree: 41%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 42%
 >
 >월별 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/subscription/priority-product-update.html)에 가입하면 이 페이지의 업데이트에 대한 이메일 알림을 받을 수 있습니다. 이 페이지는 한 달 동안 유지되므로 Adobe 엔터프라이즈 제품 및 Experience League 설명서 업데이트를 정기적으로 확인하십시오.
 
-최신 업데이트:**2021년 1월 12일**
+최신 업데이트:**2021년 1월 13일**
 
 * [Adobe 시스템 상태](#status) (업데이트되지 않음)
 * [Experience Cloud 서비스 및 관리](#ecloud)
-* [Experience Platform](#platform)
+* [Experience Platform](#platform) (2021년  **1월 13일 업데이트됨**)
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) 및 [Customer Journey Analytics](#cust-journey) (업데이트됨:**2021년 1월 12일**)
 * [Audience Manager](#aam)
@@ -55,7 +55,10 @@ ht-degree: 42%
 
 이번 달에는 업데이트하지 않았습니다.
 
-최신 릴리스 정보는 [Experience Cloud 서비스의 누적 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/core-services/interface/release-notes/release-notes.html)를 참조하십시오.
+**참조 -**
+
+* [Experience Cloud 서비스에 대한 누적 릴리스 ](https://docs.adobe.com/content/help/ko-KR/core-services/interface/release-notes/release-notes.html) 노트최신 릴리스 정보에 대한 내용입니다.
+* [Experience Cloud ID ](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) 서비스 릴리스 노트
 
 ## ![아이콘](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
@@ -75,7 +78,14 @@ Experience Platform 및 Experience Platform Launch에 대한 릴리스 업데이
 
 ### Experience Platform Launch
 
-Platform Launch에 대한 자세한 내용은 [Experience Platform Launch 릴리스 노트](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html)를 참조하십시오.
+릴리스 날짜: **2021년 1월 13일**
+
+**[!UICONTROL 실행 서버측]:** 이벤트 수준 데이터를 AEP Edge Network에 전송한 다음, Launch Server Side를 사용하여 클라이언트가 아닌 Adobe 서버를 사용하여 Adobe이 아닌 다른 종단점으로 해당 데이터를 변환하고 강화 및 전송합니다. 대기 시간이 짧습니다. [자세히...](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=en#server-side-info)
+
+**참조 -**
+
+* [Experience Platform Launch 릴리스 ](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html) 노트를 참조하십시오.
+* [Experience Cloud ID 서비스 ](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/experience-cloud-id-release-notes.html) 확장 릴리스 노트
 
 ### Adobe Mobile
 
