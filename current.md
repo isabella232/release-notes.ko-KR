@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d6693c587c6622105b13410dad58ad28232388cc
+source-git-commit: 026ae3842b9683ac8c55658964969d5deca75340
 workflow-type: tm+mt
 source-wordcount: '6618'
 ht-degree: 92%
@@ -93,7 +93,7 @@ Experience Platform 및 Experience Platform Launch에 대한 릴리스 업데이
 
 iOS 버전 4.21.1
 
-* 일반 - 앱 종료 중 sqlite 예외가 발생할 수 있는 문제를 수정했습니다.
+* 일반 - 앱을 종료하는 동안 SQLite 예외가 발생할 수 있는 문제를 수정했습니다.
 
 iOS 버전 4.21.0
 
