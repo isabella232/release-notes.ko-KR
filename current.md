@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 026ae3842b9683ac8c55658964969d5deca75340
+source-git-commit: 579b634c53f1a04a5c75f66e31de0dde5e5d1352
 workflow-type: tm+mt
-source-wordcount: '6618'
-ht-degree: 92%
+source-wordcount: '6788'
+ht-degree: 90%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 92%
 * [Analytics](#analytics) 및 [Customer Journey Analytics](#cust-journey) (업데이트 날짜: **2021년 1월 12일**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
-* [Campaign](#ac) (업데이트 날짜: **2021년 1월 12일**)
+* [Campaign](#ac) (업데이트 날짜: **2021년 1월 14일**)
 * [Advertising Cloud](#adcloud)
 * [[!DNL Target]](#target)
 * [[!DNL Magento]](#magento)
@@ -417,7 +417,13 @@ Campaign Classic, Campaign Standard 및 컨트롤 패널에 대한 릴리스 정
 | 게시됨 | 이름 | 솔루션 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
 | 2020년 12월 23일 | [다이내믹 컨텐츠 구성](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/email-channel/configuring-dynamic-content.html#sending-messages) | Campaign Classic | (비디오) 다양한 유형의 다이내믹 컨텐츠를 파악하고 개인화 블록 및 조건문을 만들어 전달하는 방법을 알아봅니다. |
-| 2020년 12월 9일 | [제어판 - Google TXT 레코드 관리](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html#subdomains-and-certificates) | Campaign Standard | (비디오) [!UICONTROL Campaign 컨트롤 패널]을 통해 Gmail 주소로 이메일을 보내는 데 사용되는 모든 하위 도메인에 Google TXT 사이트 확인 레코드를 추가하는 방법을 알아봅니다. |
+| 2020년 12월 23일 | [구독 서비스 구성 및 관리](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/configuring-and-managing-subscription-services.html) | Campaign Classic | (비디오) 구독 및 대상 가입자를 설정 및 관리하는 방법을 알아봅니다. |
+| 2020년 12월 22일 | [기본 제공 보고서 액세스](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/reporting/accessing-built-in-reports.html) | Campaign Classic | (비디오)  이해  campaign classic에서 내장된 보고 및 분석과 전달 보고서를 생성하는 방법을 알아봅니다. |
+| 2020년 12월 22일 | [이메일 배달 문제 해결](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/email-channel/troubleshooting-email-delivery-issues.html) | Campaign Classic | (비디오)배달 문제를 해결하는 방법을 알아봅니다. |
+| 2020년 12월 18일 | [직접 메일 배달 만들기](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/sending-messages/direct-mail/creating-direct-mail-deliveries.html) | Campaign Classic | (비디오) 직접 메일 배달을 만들고 캠페인에서 시드 주소를 사용하는 방법을 알아봅니다. |
+| 2020년 12월 18일 | [캠페인에서 승인 관리  ](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/automating-with-workflows/managing-approvals.html) | Campaign Classic | (비디오) 승인 및 캠페인을 설정하는 방법과 전달 및 워크플로우 승인을 구분하는 방법을 알아봅니다. |
+| 2020년 12월 18일 | [캠페인 실행](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/orchestration/executing-a-campaign.html) | Campaign Classic | (비디오)캠페인을 실행하고, 이메일 배달을 검토하고, 배달 속성을 확인하는 방법을 알아봅니다. |
+| 2020년 12월 15일 | [푸시 알림을 개인화하기 위해 앱 구독 스키마 확장](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/extending-the-app-subscription-schema.html) | Campaign Classic | (비디오) Campaign이 모바일 앱으로부터 받은 개인화 값을 저장할 수 있도록 앱 구독 스키마를 확장하는 방법을 알아보십시오. |
 
 ## ![아이콘](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
