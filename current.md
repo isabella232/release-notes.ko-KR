@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 579b634c53f1a04a5c75f66e31de0dde5e5d1352
 workflow-type: tm+mt
 source-wordcount: '6788'
-ht-degree: 90%
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 90%
 >
 >월별 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/subscription/priority-product-update.html)에 가입하면 이 페이지의 업데이트에 대한 이메일 알림을 받을 수 있습니다. 이 페이지는 한 달 동안 유지되므로 Adobe 엔터프라이즈 제품 및 Experience League 설명서 업데이트를 정기적으로 확인하십시오.
 
-최신 업데이트:**2021년 1월 14일**
+최신 업데이트: **2021년 1월 14일**
 
 * [Adobe 시스템 상태](#status)(업데이트되지 않음)
 * [Experience Cloud 서비스 및 관리](#ecloud)
@@ -57,8 +57,8 @@ ht-degree: 90%
 
 **참조 -**
 
-* [Experience Cloud 서비스에 대한 누적 릴리스 ](https://docs.adobe.com/content/help/ko-KR/core-services/interface/release-notes/release-notes.html) 노트최신 릴리스 정보에 대한 내용입니다.
-* [Experience Cloud ID ](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) 서비스 릴리스 노트
+* 최신 릴리스 정보는 [Experience Cloud 서비스의 누적 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/core-services/interface/release-notes/release-notes.html)를 참조하십시오.
+* [Experience Cloud ID Service](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) 릴리스 노트
 
 ## ![아이콘](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
@@ -80,12 +80,12 @@ Experience Platform 및 Experience Platform Launch에 대한 릴리스 업데이
 
 릴리스 날짜: **2021년 1월 13일**
 
-**[!UICONTROL 실행 서버측]:** 이벤트 수준 데이터를 AEP Edge Network에 전송한 다음, Launch Server Side를 사용하여 클라이언트가 아닌 Adobe 서버를 사용하여 Adobe이 아닌 다른 종단점으로 해당 데이터를 변환하고 강화 및 전송합니다. 대기 시간이 짧습니다. [자세히...](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=en#server-side-info)
+**[!UICONTROL Launch Server Side]:** 이벤트 수준 데이터를 AEP Edge Network에 전송한 다음, Launch Server Side를 사용하여 클라이언트가 아닌 대기 시간이 짧은 Adobe 서버를 사용하여 비Adobe 종단점으로 해당 데이터를 변환, 강화 및 전송합니다. [자세히...](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=en#server-side-info)
 
 **참조 -**
 
-* [Experience Platform Launch 릴리스 ](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html) 노트를 참조하십시오.
-* [Experience Cloud ID 서비스 ](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/experience-cloud-id-release-notes.html) 확장 릴리스 노트
+* Experience Platform Launch에 대한 자세한 내용은 [Experience Platform Launch 릴리스 노트](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html)를 참조하십시오.
+* [Experience Cloud ID Service Extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/experience-cloud-id-release-notes.html) 릴리스 노트
 
 ### Adobe Mobile
 
@@ -97,7 +97,7 @@ iOS 버전 4.21.1
 
 iOS 버전 4.21.0
 
-* 일반 - 이제 기존 Intel 아키텍처에 대한 지원을 유지하면서 새로운 Apple M1 아키텍처로 하드웨어를 지원하기 위해 [!DNL XCFrameworks]을 사용하여 SDK가 배포됩니다.
+* 일반 - SDK는 기존 Intel 아키텍처에 대한 지원을 유지하면서 새로운 Apple M1 아키텍처로 하드웨어를 지원하기 위해 [!DNL XCFrameworks]를 사용하여 배포됩니다.
 
 * 중요: AdobeMobile [!DNL XCFrameworks]로 업그레이드하려면 Xcode 12.0 이상이 필요합니다.
 * 중요: [!DNL Cocoapods]를 사용하는 경우 AdobeMobile [!DNL XCFrameworks]로 업그레이드하려면 [!DNL Cocoapods] 1.10.0 이상이 필요합니다.
@@ -158,7 +158,7 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ------- |
 | Analysis Workspace - 이미지 URL | 2021년 1월 14일 | 공개 이미지 URL을 참조하여 [!UICONTROL 작업 공간] 프로젝트에 이미지를 추가할 수 있습니다. [자세한 정보](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/text.html?lang=en#analysis-workspace) |
-| Analysis Workspace - 소스 및 설정 관리자 결합 | 2021년 1월 14일 | 시각화에 대한 데이터 소스 관리자(도트) 및 설정 관리자(톱니바퀴)가 하나의 대화 상자로 통합되었으므로 동일한 위치에서 소스와 설정을 쉽게 관리할 수 있습니다. |
+| Analysis Workspace - 통합 소스 및 설정 관리자 | 2021년 1월 14일 | 시각화를 위한 데이터 소스 관리자(도트) 및 설정 관리자(톱니바퀴)가 하나의 대화 상자로 통합되어 동일한 위치에서 소스와 설정을 쉽게 관리할 수 있습니다. |
 | Analysis Workspace - 구성 요소 선택 | 2021년 2월 4일 | [!UICONTROL 빠른 인사이트]에 있는 드롭다운/놓기 영역 구성 요소를 [!UICONTROL 작업 공간]의 모든 놓기 영역에 추가했습니다. 이 개선 사항을 통해 호환되는 구성 요소의 드롭다운 목록에서 선택하거나 공간을 놓기 영역으로 계속 사용할 수 있습니다. |
 
 ### Customer Journey Analytics의 새로운 기능 {#cust-journey}
@@ -168,7 +168,7 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 | [!UICONTROL 장치] 및 [!UICONTROL 지역] 차원 | 2020년 10월 30일 | 이러한 차원은 이제 Adobe Analytics [!UICONTROL 원본 커넥터]의 [전역 조회](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/global-lookups.html?lang=ko-kr#use-global-lookups-with-adobe-data-connector-datasets) 지원 프로젝트의 일부로 기본적으로 사용할 수 있습니다. 이렇게 많이 요청되는 추가는 [Adobe Analytics와 CJA 간의 패리티](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-aa.html?lang=ko-kr#cja-overview)를 증가시킵니다. |
 | 여정 IQ: [!UICONTROL 크로스채널 Analytics] | 2021년 1월 11일 | 여정 IQ: [!UICONTROL 크로스채널 Analytics]를 사용하면 고객이 하나의 ID 네임스페이스에서 다른 ID 네임스페이스로 Experience Platform 데이터 레이크에서 Adobe Analytics(또는 기타) 이벤트 데이터 세트를 다시 키 대조할 수 있습니다. 일반적으로 이는 이벤트 데이터 세트를 쿠키 기반 ID에서 개인 기반 ID로 다시 키 대조하는 것을 의미합니다. 이 방법을 통해 다시 키 대조된 데이터 세트는 CJA 연결에서 다른 사람 기반 데이터와 결합될 수 있으므로 Analysis Workspace에서 교차 장치 및 교차 채널 분석을 수행할 수 있습니다. [자세한 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=ko-KR#cja-connections) |
 | Analysis Workspace - 이미지 URL | 2021년 1월 14일 | 공개 이미지 URL을 참조하여 작업 공간 프로젝트에 이미지를 추가할 수 있습니다. |
-| Analysis Workspace - 소스 및 설정 관리자 결합 | 2021년 1월 14일 | 시각화에 대한 데이터 소스 관리자(도트) 및 설정 관리자(톱니바퀴)가 하나의 대화 상자로 통합되었으므로 동일한 위치에서 소스와 설정을 쉽게 관리할 수 있습니다. |
+| Analysis Workspace - 통합 소스 및 설정 관리자 | 2021년 1월 14일 | 시각화를 위한 데이터 소스 관리자(도트) 및 설정 관리자(톱니바퀴)가 하나의 대화 상자로 통합되어 동일한 위치에서 소스와 설정을 쉽게 관리할 수 있습니다. |
 | Analysis Workspace - 구성 요소 선택 | 2021년 2월 4일 | [!UICONTROL 빠른 인사이트]에 있는 드롭다운/놓기 영역 구성 요소를 [!UICONTROL 작업 공간]의 모든 놓기 영역에 추가했습니다. 이 개선 사항을 통해 호환되는 구성 요소의 드롭다운 목록에서 선택하거나 공간을 놓기 영역으로 계속 사용할 수 있습니다. |
 
 ### Adobe Analytics의 수정 사항 {#aa-fixes}
@@ -200,7 +200,7 @@ AN-204659; AN-221726; AN-230949; AN-231984; AN-232835; AN-233989; AN-235593; AN-
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | ----------- | ---------- | ---------- |
-| 필수 [!UICONTROL Report Builder] 업데이트 | 2021년 1월 8일 | 2021년 4월 30일까지 모든 [!UICONTROL Report Builder] 사용자는 버전 5.6.47 이상 버전에 [!UICONTROL Report Builder] 추가 기능을 업데이트해야 합니다. 이 버전에는 로그인 프로세스에 대한 중요한 업데이트가 포함되어 있습니다. 버전 5.6.47 이상으로 업데이트하지 않는 사용자는 2021년 4월 30일 이후에 로그인할 수 없습니다. [!UICONTROL Report ] Builder 버전 5.6.47 이상 버전은 Experience Cloud 로그인만 지원하며 SiteCatalyst Single Sign-On 또는 표준 로그인과 같은 레거시 로그인을 지원하지 않습니다. 자세한 내용은 [Report Builder 로그인](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/login.html?lang=en#section_6D54B8ADAE7F416BB83F5082B3771CFA)을 참조하십시오. |
+| 필수 [!UICONTROL Report Builder] 업데이트 | 2021년 1월 8일 | 2021년 4월 30일까지 모든 [!UICONTROL Report Builder] 사용자는 [!UICONTROL Report Builder] 추가 기능을 버전 5.6.47 이상 버전으로 업데이트해야 합니다. 이 버전에는 로그인 프로세스에 대한 중요한 업데이트가 포함되어 있습니다. 버전 5.6.47 이상으로 업데이트하지 않는 사용자는 2021년 4월 30일 이후에 로그인할 수 없습니다. [!UICONTROL Report Builder] 버전 5.6.47 이상 버전은 Experience Cloud 로그인만 지원하며 SiteCatalyst Single Sign-On 또는 표준 로그인과 같은 레거시 로그인을 지원하지 않습니다. 자세한 내용은 [Report Builder 로그인](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/login.html?lang=en#section_6D54B8ADAE7F416BB83F5082B3771CFA)을 참조하십시오. |
 | 3개의 Analytics API 서비스에 대한 사용 종료 | 2021년 1월 6일 | 2021년 4월 30일에 다음 Analytics 기존 API 서비스의 사용 수명이 종료되어 서비스가 중단됩니다. 이러한 서비스를 사용하여 구축한 현재 모든 통합은 해당 날짜부터 더 이상 작동하지 않습니다.<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증(OAuth 및 JWT)</li></ul>질문에 대한 답변과 진행 방법에 대한 지침을 제공하는 데 도움이 되도록 [이전 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)를 제공했습니다. 이러한 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 및/또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 이전 OAuth 계정은 [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics 통합 계정으로 마이그레이션할 수 있으며, 이 계정은 1.4 Analytics API 및 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다. |
 | 모든 수신 HTTPS 요청에 HSTS 헤더 추가 | 2020년 9월 29일 | 2020년 9월 29일에 HTTPS를 사용하는 모든 수신 요청에 HSTS 헤더를 추가하기 시작했습니다. 이를 통해 브라우저/클라이언트가 HTTPS에서 모든 향후 요청을 수행하도록 지시할 수 있으며 이는 보안 모범 사례입니다. 이 시점에서는 HTTP를 사용하는 수신 요청에 이 설정을 적용하지 않습니다. |
 | [!UICONTROL Experience Cloud ID 서비스] 쿠키 설정 변경 | 2020년 9월 22일 | Chrome 버전 80의 개인 정보 설정 업데이트는 Adobe Analytics에서 Google AMP 페이지를 보는 일부 사용자를 추적하는 기능에 영향을 주었습니다. 특히 Google에서 호스팅하는 AMP 페이지를 보는 사용자의 도메인 간 추적이 방지됩니다. 이로 인해 고유 방문자 수가 부풀려질 수 있습니다. 이 수정 사항으로 사용자는 ECID 쿠키의 설정을 변경하여 이 문제를 해결할 수 있습니다.<br>현재 Analytics는 버전 80 이전의 Chrome에서 도메인 간 추적이 허용되는 `SameSite = Lax` 설정으로 ECID[!UICONTROL (Experience Cloud ID Service)] 쿠키를 설정합니다. 더 이상은 해당되지 않습니다. 이 변경 사항으로 사용자는 ECID 쿠키에 대한 SameSite 설정을 `None`으로 업데이트할 수 있습니다. <br>이는 Analytics 쿠키를 더 많은 상황에서 공유할 수 있게 하지만 Analytics 쿠키에는 중요한 정보가 포함되어 있지 않습니다. 또한 이 설정을 선택할 때는 HTTPS 연결을 통해서만 데이터를 전달할 수 있도록 쿠키를 `Secure`으로 설정해야 합니다. 이 변경 사항을 적용하려면 지원되는 사용자가 고객 지원 센터에서 티켓을 열도록 하십시오. |
@@ -217,7 +217,7 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [JavaScript용 AppMeas
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ----- |
-| 분석 [!UICONTROL Report Builder]에 로그인 업데이트 | 2021년 1월 14일 | [!UICONTROL Report Builder] 로그인 프로세스 개선 사항은 기존 기술에 대한 종속성을 제거하고 로그인 프로세스를 Adobe Experience Cloud에 맞춥니다. Experience Cloud 로그인을 사용하면 Adobe ID 또는 Enterprise ID(Single Sign-On)를 사용하여 Adobe Experience Cloud에 로그인할 수 있습니다. 2021년 4월 30일까지 모든 [!UICONTROL Report Builder] 사용자는 버전 5.6.47 이상 버전에 [!UICONTROL Report Builder] 추가 기능을 업데이트해야 합니다. [!UICONTROL Report ] Builder 버전 5.6.47 이상 버전은 Experience Cloud 로그인 전용을 지원하며 SiteCatalyst Single Sign-On 또는 표준 로그인과 같은 기존 로그인을 지원하지 않습니다. 자세한 내용은 [Report Builder 로그인](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/login.html?lang=en#section_6D54B8ADAE7F416BB83F5082B3771CFA)을 참조하십시오. |
+| Analytics [!UICONTROL Report Builder]로 로그인 업데이트 | 2021년 1월 14일 | [!UICONTROL Report Builder] 로그인 프로세스 개선 사항은 기존 기술에 대한 종속성을 제거하고 로그인 프로세스를 Adobe Experience Cloud에 맞춥니다. Experience Cloud 로그인을 사용하면 Adobe ID 또는 Enterprise ID(Single Sign-On)를 사용하여 Adobe Experience Cloud에 로그인할 수 있습니다. 2021년 4월 30일까지 모든 [!UICONTROL Report Builder] 사용자는 [!UICONTROL Report Builder] 추가 기능을 버전 5.6.47 이상 버전으로 업데이트해야 합니다. [!UICONTROL Report Builder] 버전 5.6.47 이상 버전은 Experience Cloud 로그인만 지원하며 SiteCatalyst Single Sign-On 또는 표준 로그인과 같은 레거시 로그인을 지원하지 않습니다. 자세한 내용은 [Report Builder 로그인](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/login.html?lang=en#section_6D54B8ADAE7F416BB83F5082B3771CFA)을 참조하십시오. |
 
 ### Analytics 도움말 리소스
 
@@ -391,7 +391,7 @@ Campaign Classic, Campaign Standard 및 컨트롤 패널에 대한 릴리스 정
 
 #### Campaign Classic
 
-[장애 응답 게시판](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) (업데이트됨: **2021년** 1월 12일)
+[사고 대응 게시판](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)(업데이트 날짜: **2021년 1월 12일**)
 
 * 20.3.3 릴리스 - [자세히 보기](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes)
 * 20.3.1 릴리스 - [자세히 보기](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes)
@@ -485,7 +485,7 @@ Magento 릴리스 정보에 대해서는 다음을 참조하십시오.
 
 ### 핵심 Marketo Engage 업데이트
 
-최신 릴리스 정보는 [!DNL Marketo][릴리스 정보](https://docs.marketo.com/display/public/DOCS/Jan+%2721)를 참조하십시오.
+최신 릴리스 정보는 [!DNL Marketo][릴리스 정보](https://docs.marketo.com/kr/display/public/DOCS/Jan+%2721)를 참조하십시오.
 
 ### 예정된 기능
 
