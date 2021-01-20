@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 579b634c53f1a04a5c75f66e31de0dde5e5d1352
+source-git-commit: 6d3d54f4926936ced5c9025e563cdfeec59f4a1f
 workflow-type: tm+mt
-source-wordcount: '6788'
-ht-degree: 100%
+source-wordcount: '6796'
+ht-degree: 99%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 * [Experience Cloud 서비스 및 관리](#ecloud)
 * [Experience Platform](#platform) (업데이트 날짜: **2021년 1월 14일**)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) 및 [Customer Journey Analytics](#cust-journey) (업데이트 날짜: **2021년 1월 12일**)
+* [Analytics](#analytics) 및 [Customer Journey Analytics](#cust-journey) (업데이트 날짜: **2021년 1월 20일**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac) (업데이트 날짜: **2021년 1월 14일**)
@@ -149,7 +149,7 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 * [Adobe Analytics의 새로운 기능](#aa-features)
 * [Customer Journey Analytics의 새로운 기능](#cust-journey)
 * [Adobe Analytics의 수정 사항](#aa-fixes)
-* [Analytics 관리자에 대한 중요 공지](#aa-notices)
+* [Analytics 관리자에 대한 중요 공지](#aa-notices)(업데이트 날짜: 2021년 1월 20일)
 * [AppMeasurement](#appm)
 * [Report Builder](#arb)
 
@@ -200,6 +200,7 @@ AN-204659; AN-221726; AN-230949; AN-231984; AN-232835; AN-233989; AN-235593; AN-
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | ----------- | ---------- | ---------- |
+| Ad Hoc Analysis 생산 중단 | 2021년 1월 21일 | 2021년 3월 1일에 Ad Hoc Analysis은 수명이 종료됩니다. 이때 이 제품을 활용하는 모든 프로젝트 및 일정이 중단됩니다. 자세한 내용은 [Discover Workspace](https://adobe.ly/discoverworkspace)를 참조하십시오. |
 | 필수 [!UICONTROL Report Builder] 업데이트 | 2021년 1월 8일 | 2021년 4월 30일까지 모든 [!UICONTROL Report Builder] 사용자는 [!UICONTROL Report Builder] 추가 기능을 버전 5.6.47 이상 버전으로 업데이트해야 합니다. 이 버전에는 로그인 프로세스에 대한 중요한 업데이트가 포함되어 있습니다. 버전 5.6.47 이상으로 업데이트하지 않는 사용자는 2021년 4월 30일 이후에 로그인할 수 없습니다. [!UICONTROL Report Builder] 버전 5.6.47 이상 버전은 Experience Cloud 로그인만 지원하며 SiteCatalyst Single Sign-On 또는 표준 로그인과 같은 레거시 로그인을 지원하지 않습니다. 자세한 내용은 [Report Builder 로그인](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/login.html?lang=en#section_6D54B8ADAE7F416BB83F5082B3771CFA)을 참조하십시오. |
 | 3개의 Analytics API 서비스에 대한 사용 종료 | 2021년 1월 6일 | 2021년 4월 30일에 다음 Analytics 기존 API 서비스의 사용 수명이 종료되어 서비스가 중단됩니다. 이러한 서비스를 사용하여 구축한 현재 모든 통합은 해당 날짜부터 더 이상 작동하지 않습니다.<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증(OAuth 및 JWT)</li></ul>질문에 대한 답변과 진행 방법에 대한 지침을 제공하는 데 도움이 되도록 [이전 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)를 제공했습니다. 이러한 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 및/또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 이전 OAuth 계정은 [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics 통합 계정으로 마이그레이션할 수 있으며, 이 계정은 1.4 Analytics API 및 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다. |
 | 모든 수신 HTTPS 요청에 HSTS 헤더 추가 | 2020년 9월 29일 | 2020년 9월 29일에 HTTPS를 사용하는 모든 수신 요청에 HSTS 헤더를 추가하기 시작했습니다. 이를 통해 브라우저/클라이언트가 HTTPS에서 모든 향후 요청을 수행하도록 지시할 수 있으며 이는 보안 모범 사례입니다. 이 시점에서는 HTTP를 사용하는 수신 요청에 이 설정을 적용하지 않습니다. |
@@ -207,7 +208,6 @@ AN-204659; AN-221726; AN-230949; AN-231984; AN-232835; AN-233989; AN-235593; AN-
 | `omniture.com`에서 `adobe.com` 도메인으로 마이그레이션 | 2020년 8월 21일 | 2020년 8월 13일, Adobe Analytics은 프론트엔드 아키텍처를 `adobe.com|http://adobe.com/` 도메인 `omniture.com|http://omniture.com/`으로 이전했습니다. 이러한 변경은 2020년 5월 28일 통합 제품 도메인 변경 이후 발생한 타사 쿠키 문제를 완화할 것입니다. 이 업데이트로 인해 브라우저는 사용자에게 새 `.adobe.com|http://an.adobe.com/` 또는 `experience.adobe.com|http://experience.adobe.com/` 도메인을 신뢰하라는 메시지를 표시할 수 있습니다. |
 | Ad Hoc Analysis Java 8 호환성 업데이트 | 2020년 8월 21일 | Ad Hoc Analysis은 현재 Java 8 버전 1.8.0_261+와 호환되지 않습니다. [수명 종료 날짜](https://spark.adobe.com/page/S9Bhp66VJ2fEn/) 이전에 이 도구에 대한 액세스가 중단되지 않도록 1.8.0_261 이전의 Java 8 버전을 유지하는 것이 좋습니다. |
 | Adobe Data Connectors EOL | 2020년 7월 13일 | Adobe [!UICONTROL Data Connectors]는 더 이상 실행 불가능하거나 지원되지 않는 레거시 기술을 기반으로 합니다. Adobe는 [Adobe Exchange 파트너 프로그램](https://partners.adobe.com/exchangeprogram/experiencecloud) 내에 계속 제공되고 지원되기를 원하는 모든 통합에 대해 새로운 표준을 채택하고 있습니다. 공식적인 수명 종료 날짜는 계속 결정 중이지만, 향후 12개월에서 18개월(2021년 중순에서 2021년 말) 사이가 될 것으로 예상하고 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/import/dataconnectors/data-connectors-eol.html) |
-| Ad Hoc Analysis 생산 중단 | 2018년 8월 6일 | Adobe는 2021년 3월 1일 Ad Hoc Analysis를 종료할 예정이라고 발표했습니다. 자세한 내용은 [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)를 참조하십시오. |
 
 ### AppMeasurement {#appm}
 
