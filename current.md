@@ -4,11 +4,11 @@ description: Adobe Experience Cloud 릴리스 정보
 doc-type: release notes
 last-update: January 2021
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6d3d54f4926936ced5c9025e563cdfeec59f4a1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6796'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -163,7 +163,7 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 
 ### Customer Journey Analytics의 새로운 기능 {#cust-journey}
 
-| 기능 | [일반 가용성](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
+| 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ----- |
 | [!UICONTROL 장치] 및 [!UICONTROL 지역] 차원 | 2020년 10월 30일 | 이러한 차원은 이제 Adobe Analytics [!UICONTROL 원본 커넥터]의 [전역 조회](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/global-lookups.html?lang=ko-kr#use-global-lookups-with-adobe-data-connector-datasets) 지원 프로젝트의 일부로 기본적으로 사용할 수 있습니다. 이렇게 많이 요청되는 추가는 [Adobe Analytics와 CJA 간의 패리티](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-aa.html?lang=ko-kr#cja-overview)를 증가시킵니다. |
 | 여정 IQ: [!UICONTROL 크로스채널 Analytics] | 2021년 1월 11일 | 여정 IQ: [!UICONTROL 크로스채널 Analytics]를 사용하면 고객이 하나의 ID 네임스페이스에서 다른 ID 네임스페이스로 Experience Platform 데이터 레이크에서 Adobe Analytics(또는 기타) 이벤트 데이터 세트를 다시 키 대조할 수 있습니다. 일반적으로 이는 이벤트 데이터 세트를 쿠키 기반 ID에서 개인 기반 ID로 다시 키 대조하는 것을 의미합니다. 이 방법을 통해 다시 키 대조된 데이터 세트는 CJA 연결에서 다른 사람 기반 데이터와 결합될 수 있으므로 Analysis Workspace에서 교차 장치 및 교차 채널 분석을 수행할 수 있습니다. [자세한 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=ko-KR#cja-connections) |
@@ -215,7 +215,7 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [JavaScript용 AppMeas
 
 ### Report Builder {#arb}
 
-| 기능 | [일반 가용성](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
+| 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ----- |
 | Analytics [!UICONTROL Report Builder]로 로그인 업데이트 | 2021년 1월 14일 | [!UICONTROL Report Builder] 로그인 프로세스 개선 사항은 기존 기술에 대한 종속성을 제거하고 로그인 프로세스를 Adobe Experience Cloud에 맞춥니다. Experience Cloud 로그인을 사용하면 Adobe ID 또는 Enterprise ID(Single Sign-On)를 사용하여 Adobe Experience Cloud에 로그인할 수 있습니다. 2021년 4월 30일까지 모든 [!UICONTROL Report Builder] 사용자는 [!UICONTROL Report Builder] 추가 기능을 버전 5.6.47 이상 버전으로 업데이트해야 합니다. [!UICONTROL Report Builder] 버전 5.6.47 이상 버전은 Experience Cloud 로그인만 지원하며 SiteCatalyst Single Sign-On 또는 표준 로그인과 같은 레거시 로그인을 지원하지 않습니다. 자세한 내용은 [Report Builder 로그인](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/login.html?lang=en#section_6D54B8ADAE7F416BB83F5082B3771CFA)을 참조하십시오. |
 
