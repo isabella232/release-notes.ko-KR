@@ -4,11 +4,11 @@ description: Adobe Experience Cloud 릴리스 정보
 doc-type: release notes
 last-update: January 2021
 author: mfrei
-translation-type: ht
-source-git-commit: 6d3d54f4926936ced5c9025e563cdfeec59f4a1f
-workflow-type: ht
-source-wordcount: '6796'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 05cf9f34a835a5d51013789909508c353827315e
+workflow-type: tm+mt
+source-wordcount: '6770'
+ht-degree: 98%
 
 ---
 
@@ -163,7 +163,7 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 
 ### Customer Journey Analytics의 새로운 기능 {#cust-journey}
 
-| 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
+| 기능 | [일반 가용성](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ----- |
 | [!UICONTROL 장치] 및 [!UICONTROL 지역] 차원 | 2020년 10월 30일 | 이러한 차원은 이제 Adobe Analytics [!UICONTROL 원본 커넥터]의 [전역 조회](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/global-lookups.html?lang=ko-kr#use-global-lookups-with-adobe-data-connector-datasets) 지원 프로젝트의 일부로 기본적으로 사용할 수 있습니다. 이렇게 많이 요청되는 추가는 [Adobe Analytics와 CJA 간의 패리티](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-aa.html?lang=ko-kr#cja-overview)를 증가시킵니다. |
 | 여정 IQ: [!UICONTROL 크로스채널 Analytics] | 2021년 1월 11일 | 여정 IQ: [!UICONTROL 크로스채널 Analytics]를 사용하면 고객이 하나의 ID 네임스페이스에서 다른 ID 네임스페이스로 Experience Platform 데이터 레이크에서 Adobe Analytics(또는 기타) 이벤트 데이터 세트를 다시 키 대조할 수 있습니다. 일반적으로 이는 이벤트 데이터 세트를 쿠키 기반 ID에서 개인 기반 ID로 다시 키 대조하는 것을 의미합니다. 이 방법을 통해 다시 키 대조된 데이터 세트는 CJA 연결에서 다른 사람 기반 데이터와 결합될 수 있으므로 Analysis Workspace에서 교차 장치 및 교차 채널 분석을 수행할 수 있습니다. [자세한 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=ko-KR#cja-connections) |
@@ -215,7 +215,7 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [JavaScript용 AppMeas
 
 ### Report Builder {#arb}
 
-| 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
+| 기능 | [일반 가용성](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ----- |
 | Analytics [!UICONTROL Report Builder]로 로그인 업데이트 | 2021년 1월 14일 | [!UICONTROL Report Builder] 로그인 프로세스 개선 사항은 기존 기술에 대한 종속성을 제거하고 로그인 프로세스를 Adobe Experience Cloud에 맞춥니다. Experience Cloud 로그인을 사용하면 Adobe ID 또는 Enterprise ID(Single Sign-On)를 사용하여 Adobe Experience Cloud에 로그인할 수 있습니다. 2021년 4월 30일까지 모든 [!UICONTROL Report Builder] 사용자는 [!UICONTROL Report Builder] 추가 기능을 버전 5.6.47 이상 버전으로 업데이트해야 합니다. [!UICONTROL Report Builder] 버전 5.6.47 이상 버전은 Experience Cloud 로그인만 지원하며 SiteCatalyst Single Sign-On 또는 표준 로그인과 같은 레거시 로그인을 지원하지 않습니다. 자세한 내용은 [Report Builder 로그인](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/login.html?lang=en#section_6D54B8ADAE7F416BB83F5082B3771CFA)을 참조하십시오. |
 
@@ -438,22 +438,20 @@ Adobe Advertising Cloud에 대한 릴리스 정보입니다.
 
 | 기능 | 설명 |
 | -----------| ---------- |
-| 신규 도움말 | (10월 28일 릴리스) 기존 도움말은 업데이트된 페이지로 대체되었으며, 이 도움말은 DSP 기본 메뉴의 도움말 링크에서 사용할 수 있고 [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html)에서도 항상 사용할 수 있습니다. |
-| Campaigns | (10월 28일 릴리스) 이제 더 빠른 통찰력, 간소화된 워크플로우 및 사용자 정의된 보기를 위한 이전 Campaigns 베타 보기가 기본 캠페인 보기입니다. |
+| 신규 도움말 | (10월 28일 릴리스) 기존 도움말은 DSP 주 메뉴의 도움말 링크에서 사용할 수 있는 업데이트된 페이지로 대체되었으며, 항상 [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html)에서 사용할 수 있습니다. |
+| Campaigns | (10월 28일 릴리스) 이제 더 빠른 통찰력, 간소화된 워크플로우 및 사용자 지정된 보기를 위해 이전 캠페인 베타 보기가 기본 캠페인 보기입니다. |
 | 비공개 인벤토리 | (10월 15일 릴리스) 이제 모든 사용자는 기존 [!UICONTROL 스마트 광고 서비스 제공] 양식의 간소화된 버전인 새로운 거래 ID 양식을 사용하여 거래 ID 세부 사항을 설정하고 편집할 수 있습니다. 새 거래 ID 세부 사항을 설정하려면 **[!UICONTROL 인벤토리 > 거래]**&#x200B;로 이동하여 **[!UICONTROL 만들기]**&#x200B;를 클릭한 다음 **[!UICONTROL 거래 ID 베타]**&#x200B;를 클릭합니다. |
 | 배치 예측 | (10월 15일 릴리스) 배치 수준 게재 간격이 있는 배치의 경우, 배치 설정의 [!UICONTROL 예측] 섹션에는 현재 타겟팅 구성으로 사용할 수 있는 용량이 얼마나 더 많은지를 나타내는 새 [!UICONTROL 예상 최대 수] 섹션이 포함됩니다. |
 
 ### [!DNL Advertising Cloud Search]의 새로운 기능{#adcloud-search}
 
-마지막 업데이트: **2020년 10월 17일**
+마지막 업데이트:**2021년 1월 22일, 1월 23일 릴리스**
 
 | 기능 | 설명 |
 | -----------| ---------- |
-| [!UICONTROL 캠페인 검색] | [!UICONTROL 계정] 보기에서 [!UICONTROL 액세스] 열은 이제 [!DNL Advertising Cloud Search]이(가) 활성화된 검색 엔진 계정에 로그인할 수 없는 시기를 표시합니다. 오류 원인을 보려면 경고 아이콘 위에 커서를 놓습니다. |
-| [!UICONTROL 사용자 지정 경고] | 이전의 [!UICONTROL 경고 베타]는 이제 [!UICONTROL 사용자 지정 경고]로 명칭이 바뀌었습니다. |
-| [!UICONTROL 사용자 지정 경고] | 사용자 지정 경고에서 지정된 날짜 범위의 지표가 이전 기간의 지표에서 증가하거나 감소된 시기를 식별하는 워크플로우가 간소화되었으며 [!UICONTROL 필터] 탭으로 위치가 변경되었습니다. |
+| [!UICONTROL 캠페인 검색]<br> 보고서 | Advertising Cloud Search은 더 이상 Microsoft 광고 캠페인에 대한 새로운 평균 위치 데이터를 보고하지 않습니다. [평균 위치] 열은 1월 23일 시작 날짜에 대한 0(0) 값을 표시합니다. 이는 2021년 1월에 Microsoft가 평균 위치 데이터를 사용하지 않는 경우에 대비한 것입니다.<br>1월 22일까지 수집된 평균 위치 데이터는 여전히 보고서에서 사용할 수 있습니다. |
 
-### Ad Cloud 자습서 및 강좌
+### Advertising Cloud 튜토리얼 및 강좌
 
 업데이트 날짜: **2020년12월 2일**
 
