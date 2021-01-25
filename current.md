@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: b974424e1aa557063f54a12aed537a62c283779b
 workflow-type: tm+mt
 source-wordcount: '6772'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -438,20 +438,20 @@ Adobe Advertising Cloud에 대한 릴리스 정보입니다.
 
 | 기능 | 설명 |
 | -----------| ---------- |
-| 신규 도움말 | (10월 28일 릴리스) 기존 도움말은 DSP 주 메뉴의 도움말 링크에서 사용할 수 있는 업데이트된 페이지로 대체되었으며, 항상 [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html)에서 사용할 수 있습니다. |
-| Campaigns | (10월 28일 릴리스) 이제 더 빠른 통찰력, 간소화된 워크플로우 및 사용자 지정된 보기를 위해 이전 캠페인 베타 보기가 기본 캠페인 보기입니다. |
+| 신규 도움말 | (10월 28일 릴리스) 기존 도움말은 업데이트된 페이지로 대체되었으며, 이 도움말은 DSP 기본 메뉴의 도움말 링크에서 사용할 수 있고 [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html)에서도 항상 사용할 수 있습니다. |
+| Campaigns | (10월 28일 릴리스) 이제 더 빠른 통찰력, 간소화된 워크플로우 및 사용자 정의된 보기를 위한 이전 Campaigns 베타 보기가 기본 캠페인 보기입니다. |
 | 비공개 인벤토리 | (10월 15일 릴리스) 이제 모든 사용자는 기존 [!UICONTROL 스마트 광고 서비스 제공] 양식의 간소화된 버전인 새로운 거래 ID 양식을 사용하여 거래 ID 세부 사항을 설정하고 편집할 수 있습니다. 새 거래 ID 세부 사항을 설정하려면 **[!UICONTROL 인벤토리 > 거래]**&#x200B;로 이동하여 **[!UICONTROL 만들기]**&#x200B;를 클릭한 다음 **[!UICONTROL 거래 ID 베타]**&#x200B;를 클릭합니다. |
 | 배치 예측 | (10월 15일 릴리스) 배치 수준 게재 간격이 있는 배치의 경우, 배치 설정의 [!UICONTROL 예측] 섹션에는 현재 타겟팅 구성으로 사용할 수 있는 용량이 얼마나 더 많은지를 나타내는 새 [!UICONTROL 예상 최대 수] 섹션이 포함됩니다. |
 
 ### [!DNL Advertising Cloud Search]의 새로운 기능{#adcloud-search}
 
-마지막 업데이트:**2021년 1월 22일, 1월 23일 릴리스**
+**최신 업데이트: 2021년 1월 22일, 1월 23일 릴리스 정보**
 
 | 기능 | 설명 |
 | -----------| ---------- |
-| [!UICONTROL 캠페인 검색]<br> 보고서 | Advertising Cloud Search은 더 이상 Microsoft 광고 캠페인에 대한 새로운 평균 위치 데이터를 보고하지 않습니다. [평균 위치] 열은 1월 23일 시작 날짜에 대한 0(0) 값을 표시합니다. 이는 2021년 1월에 Microsoft가 평균 위치 데이터를 사용하지 않는 경우에 대비한 것입니다.<br>1월 22일까지 수집된 평균 위치 데이터는 여전히 보고서에서 사용할 수 있습니다. |
+| [!UICONTROL 캠페인 검색]<br> 보고서 | Advertising Cloud Search는 더 이상 Microsoft 광고 캠페인에 대한 새로운 평균 위치 데이터를 보고하지 않습니다. 평균 위치 열에는 1월 23일 시작 날짜에 대한 0값을 표시됩니다. 이는 2021년 1월에 Microsoft가 평균 위치 데이터를 사용하지 않는 경우에 대비한 것입니다.<br>1월 22일까지 수집된 평균 위치 데이터는 여전히 보고서에서 사용할 수 있습니다. |
 
-### Advertising Cloud 튜토리얼 및 강좌
+### Advertising Cloud 자습서 및 강좌
 
 업데이트 날짜: **2020년12월 2일**
 
