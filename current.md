@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 9f09b05b1764f65ec18f108b1e45942e58ce89fb
+source-git-commit: 0c154b63cee0bd27b900101f535fc0224b82438c
 workflow-type: tm+mt
-source-wordcount: '6772'
-ht-degree: 100%
+source-wordcount: '6776'
+ht-degree: 99%
 
 ---
 
@@ -146,10 +146,10 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 
 릴리스 날짜: **2021년 1월 14일**
 
-* [Adobe Analytics의 새로운 기능](#aa-features)
-* [Customer Journey Analytics의 새로운 기능](#cust-journey)
+* [Adobe Analytics의 새로운 기능](#aa-features) (업데이트 날짜: 2021년 1월 25일)
+* [Customer Journey Analytics의 새로운 기능](#cust-journey) (2021년 1월 25일 업데이트)
 * [Adobe Analytics의 수정 사항](#aa-fixes)
-* [Analytics 관리자에 대한 중요 공지](#aa-notices)(업데이트 날짜: 2021년 1월 20일)
+* [Analytics 관리자에 대한 중요 공지](#aa-notices) (업데이트 날짜: 2021년 1월 20일)
 * [AppMeasurement](#appm)
 * [Report Builder](#arb)
 
