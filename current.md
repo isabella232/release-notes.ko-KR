@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 7f58dcf4014b96f0aa651b16b90427a2a81ba374
 workflow-type: tm+mt
 source-wordcount: '6802'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ Experience Platform 및 Experience Platform Launch에 대한 릴리스 업데이
 
 업데이트 날짜: **2021년 1월 25일**:
 
-Experience Cloud ID 서비스 확장 **5.1.1**&#x200B;이(가) 릴리스되었습니다. 자세한 내용은 [Experience Cloud ID 서비스 확장](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/experience-cloud-id-release-notes.html) 릴리스 노트를 참조하십시오.
+Experience Cloud ID Service Extension **5.1.1**&#x200B;이 릴리스되었습니다. 자세한 내용은 [Experience Cloud ID Service Extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/experience-cloud-id-release-notes.html) 릴리스 노트를 참조하십시오.
 
 **참조 -**
 
@@ -149,7 +149,7 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 릴리스 날짜: **2021년 1월 14일**
 
 * [Adobe Analytics의 새로운 기능](#aa-features) (업데이트 날짜: 2021년 1월 25일)
-* [Customer Journey Analytics의 새로운 기능](#cust-journey) (2021년 1월 25일 업데이트)
+* [Customer Journey Analytics의 새로운 기능](#cust-journey)(2021년 1월 25일 업데이트됨)
 * [Adobe Analytics의 수정 사항](#aa-fixes)
 * [Analytics 관리자에 대한 중요 공지](#aa-notices) (업데이트 날짜: 2021년 1월 20일)
 * [AppMeasurement](#appm)
@@ -485,7 +485,7 @@ Magento 릴리스 정보에 대해서는 다음을 참조하십시오.
 
 ### 핵심 Marketo Engage 업데이트
 
-최신 릴리스 정보는 [!DNL Marketo][릴리스 정보](https://docs.marketo.com/kr/display/public/DOCS/Jan+%2721)를 참조하십시오.
+최신 릴리스 정보는 [!DNL Marketo][릴리스 정보](https://docs.marketo.com/display/public/DOCS/Jan+%2721)를 참조하십시오.
 
 ### 예정된 기능
 
