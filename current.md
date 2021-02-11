@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 7f58dcf4014b96f0aa651b16b90427a2a81ba374
+source-git-commit: e396ac53948a2ea163b09f0545de994c0d7ef001
 workflow-type: tm+mt
-source-wordcount: '6802'
-ht-degree: 100%
+source-wordcount: '6831'
+ht-degree: 99%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 100%
 최신 업데이트: **2021년 1월 25일**
 
 * [Adobe 시스템 상태](#status)(업데이트되지 않음)
-* [Experience Cloud 서비스 및 관리](#ecloud)
-* [Experience Platform](#platform) (업데이트 날짜: **2021년 1월 25일**)
+* [Experience Cloud 서비스 및 관리](#ecloud) (업데이트 날짜: **2021년 2월 10일**)
+* [Experience Platform](#platform) (2021년  **1월 25일 업데이트됨**)
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) 및 [Customer Journey Analytics](#cust-journey) (업데이트 날짜: **2021년 1월 25일**)
 * [Audience Manager](#aam)
@@ -53,7 +53,11 @@ ht-degree: 100%
 
 [Experience Cloud 서비스 및 관리](https://docs.adobe.com/content/help/ko-KR/core-services/interface/experience-cloud.html) 설명서에는 고객 속성, 대상 라이브러리([!UICONTROL 사용자] 서비스), 활성화, 사용자 및 제품 관리, Experience Cloud 쿠키가 포함되어 있습니다.
 
-**참조 -**
+**2021년 2월 4일**
+
+* Experience Cloud 업데이트는 초기 Experience Cloud 로그인 소개 화면을 제거합니다. 2월 4일부터 Adobe 로그인 화면으로 바로 `https://experience.adobe.com/login`에 전송됩니다.
+
+**추가 리소스**
 
 * 최신 릴리스 정보는 [Experience Cloud 서비스의 누적 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/core-services/interface/release-notes/release-notes.html)를 참조하십시오.
 * [Experience Cloud ID Service](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) 릴리스 노트
