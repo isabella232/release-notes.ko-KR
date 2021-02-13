@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2626d0f793d4d7d59dc08527443bca66a3dbdd03
+source-git-commit: 336fa0b2b5b27060bcdb6590ba8e5795c2dbbf8f
 workflow-type: tm+mt
-source-wordcount: '1350'
-ht-degree: 94%
+source-wordcount: '1349'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 
 >[!IMPORTANT]
 >
->이 페이지에는 출시 전 컨텐츠가 포함되어 있으며 계획된 출시 전에 변경될 수 있습니다.
+>이 페이지에는 시험판 내용이 포함되어 있으며 릴리스 날짜 전에 변경될 수 있습니다.
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 
 기능 및 수정 사항
 
-For product documentation, see [Experience Cloud interface](https://docs.adobe.com/content/help/ko-KR/core-services/interface/experience-cloud.html)
+제품 설명서는 [Experience Cloud 인터페이스](https://docs.adobe.com/content/help/ko-KR/core-services/interface/experience-cloud.html)를 참조하십시오.
 
 ### 관리 및 개발자 {#admin}
 
@@ -227,7 +227,7 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 * [AEM 6.2 학습 및 지원 홈](https://helpx.adobe.com/kr/support/experience-manager/6-2.html)
 * [Cloud Manager 사용 안내서](https://helpx.adobe.com/kr/experience-manager/cloud-manager/user-guide.html)
 * [이전 버전의 AEM 설명서](https://helpx.adobe.com/kr/experience-manager/aem-previous-versions.html)
-* [Scene7 출판 시스템 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/dynamic-media-developer-resources/release-notes/s7rn2017.html)
+* [Scene7 Publishing System 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/dynamic-media-developer-resources/release-notes/s7rn2017.html)
 * [Livefyre 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/livefyre/using/release-notes/c-rn.html)
 
 ### [!DNL Livefyre] {#livefyre}
@@ -294,7 +294,7 @@ Magento 릴리스 노트에 대해서는 다음을 참조하십시오.
 
 ## Marketo {#marketo}
 
-Marketo Engage은 리드 관리를 위한 완벽한 솔루션이며 복잡한 구매 경로의 모든 단계에서 고객 경험을 전환하여 고객 경험을 혁신하고자 하는 B2B 마케터입니다.
+Marketo Engage은 리드 관리를 위한 완벽한 솔루션이며 복잡한 구매 여정의 모든 단계에서 참여하여 고객 경험을 혁신하고자 하는 B2B 마케터에게 적합합니다.
 
 ### 핵심 Marketo Engage 업데이트
 
@@ -307,7 +307,7 @@ Marketo Engage은 리드 관리를 위한 완벽한 솔루션이며 복잡한 �
    * 랜딩 페이지 리디렉션 규칙 API
 * **양식 설명자 캐싱:** 랜딩 페이지 및 양식 개선 사항.
 
-See Marketo release notes for [February 2020](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+Feb+%2720) for more information.
+자세한 내용은 [2020년 2월](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+Feb+%2720)에 대한 마케팅 릴리스 노트를 참조하십시오.
 
 ### 예정된 기능
 
@@ -336,13 +336,13 @@ See Marketo release notes for [February 2020](https://docs.marketo.com/display/p
 
 | 게시됨 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
-| 날짜, 2020 | [링크 텍스트](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 설명. |
-| 날짜, 2020 | [링크 텍스트](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 설명. |
-| 날짜, 2020 | [링크 텍스트](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 설명. |
-| 날짜, 2020 | [링크 텍스트](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 설명. |
-| 날짜, 2020 | [링크 텍스트](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 설명. |
-| 날짜, 2020 | [링크 텍스트](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 설명. |
-| 날짜, 2020 | [링크 텍스트](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 설명. |
-| 날짜, 2020 | [링크 텍스트](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 설명. |
-| 날짜, 2020 | [링크 텍스트](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 설명. |
-| 날짜, 2020 | [링크 텍스트](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 설명. |
+| 2020년 7월 | [Linktext](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 설명. |
+| 2020년 7월 | [Linktext](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 설명. |
+| 2020년 7월 | [Linktext](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 설명. |
+| 2020년 7월 | [Linktext](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 설명. |
+| 2020년 7월 | [Linktext](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 설명. |
+| 2020년 7월 | [Linktext](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 설명. |
+| 2020년 7월 | [Linktext](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 설명. |
+| 2020년 7월 | [Linktext](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 설명. |
+| 2020년 7월 | [Linktext](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 설명. |
+| 2020년 7월 | [Linktext](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 비디오 | 설명. |
