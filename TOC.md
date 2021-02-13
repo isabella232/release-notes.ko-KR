@@ -1,20 +1,20 @@
 ---
 cloud: experience-cloud
 product: Experience Cloud
-user-guide-title: Adobe Experience Cloud 릴리스 정보
+user-guide-title: Experience Cloud 릴리스 노트
 breadcrumb-title: 릴리스 노트
 user-guide-description: Adobe Experience Cloud 및 Experience Platform의 새로운 기능, 수정 사항 및 중요 공지 사항에 대해 알아봅니다.
 user-guide-url: https://www.adobe.com
 translation-type: tm+mt
-source-git-commit: 948a979db842dfb8b7f328d7ad3e34017b5a360d
+source-git-commit: a501b2f3cba2797c8ad4e8be8e862bef62075b9d
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 62%
+source-wordcount: '64'
+ht-degree: 70%
 
 ---
 
 
-# Adobe Experience Cloud {#experience-cloud}의 새로운 기능
+# Adobe Experience Cloud 릴리스 노트 {#experience-cloud}
 
 + [최신 릴리스 노트](current.md)
 + 이전 릴리스 노트 {#previous}
