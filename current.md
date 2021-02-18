@@ -60,7 +60,7 @@ Experience Cloud 솔루션 및 서비스는 매월 업데이트됩니다. 이 �
 
 **2021년 2월 4일**
 
-* **로그인 업데이트: Experience Cloud** 에 대한 업데이트는 초기 Experience Cloud 로그인 소개 화면을 제거합니다. 2월 4일부터 Adobe 로그인 화면으로 바로 `https://experience.adobe.com/login`에 전송됩니다.
+* **로그인 업데이트: Experience Cloud** 에 대한 업데이트는 초기 Experience Cloud 로그인 소개 화면을 제거합니다. 2월 4일부터 `https://experience.adobe.com/login` 페이지에서 바로 Adobe 로그인 화면으로 이동합니다.
 
 ## ![아이콘](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
