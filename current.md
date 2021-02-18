@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d24a0044604b068dd1a8b4a19084d982ed9f22ac
+source-git-commit: 6c462c5b447ac45ff9507a6242fec2aef478344a
 workflow-type: tm+mt
 source-wordcount: '6309'
 ht-degree: 33%
@@ -182,7 +182,7 @@ Audience Manager의 새로운 기능, 수정 사항, 설명서 및 자습서
 
 | 기능 | 추가 또는 업데이트 날짜 | 설명 |
 |----|----|----|
-| [Admin Console으로 Audience Manager 사용자 마이그레이션](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/admin-console-migration.html) | 2020년 2월 1일 | Audience Manager 사용자 계정 관리 기능이 Adobe Admin Console으로 전환되어 Adobe 솔루션에서 더욱 간소화된 경험을 제공하고 있습니다. <br>사용자 마이그레이션을 용이하게 하려면 이 문서에 설명된 절차를 따르십시오. 모든 Audience Manager 관리자는 가능한 한 빨리 사용자 계정을 Adobe Admin Console으로 마이그레이션해야 합니다. |
+| [Admin Console으로 Audience Manager 사용자 마이그레이션](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/admin-console-migration.html) | 2021년 2월 1일 | Audience Manager 사용자 계정 관리 기능이 Adobe Admin Console으로 전환되어 Adobe 솔루션에서 더욱 간소화된 경험을 제공하고 있습니다. <br>사용자 마이그레이션을 용이하게 하려면 이 문서에 설명된 절차를 따르십시오. 모든 Audience Manager 관리자는 가능한 한 빨리 사용자 계정을 Adobe Admin Console으로 마이그레이션해야 합니다. |
 
 ### 수정 사항 및 향상된 기능 {#aam-fixes-and-improvements}
 
