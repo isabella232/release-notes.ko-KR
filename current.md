@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 6c462c5b447ac45ff9507a6242fec2aef478344a
+source-git-commit: 1ed740f01fa639793c4694d206c07728f523a4a5
 workflow-type: tm+mt
-source-wordcount: '6309'
+source-wordcount: '6310'
 ht-degree: 33%
 
 ---
@@ -128,7 +128,7 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ----- |
 | Analysis Workspace - 구성 요소 선택 | 2021년 2월 4일 | [!UICONTROL 빠른 인사이트]에 있는 드롭다운/놓기 영역 구성 요소를 [!UICONTROL 작업 공간]의 모든 놓기 영역에 추가했습니다. 이 개선 사항을 통해 호환되는 구성 요소의 드롭다운 목록에서 선택하거나 공간을 놓기 영역으로 계속 사용할 수 있습니다. |
-| CJA API | 2021년 2월 18일 | 이제 CJA API를 사용할 수 있습니다. 이러한 API를 사용하여 프로그래밍 방식으로 구성 요소를 편집하고 보고서를 검색할 수 있습니다. 자세한 내용은 CJA API 설명서(팔로우할 링크)를 참조하십시오. |
+| CJA API | 2021년 2월 18일 | 이제 CJA API를 사용할 수 있습니다. 이러한 API를 사용하여 프로그래밍 방식으로 구성 요소를 편집하고 보고서를 검색할 수 있습니다. 자세한 내용은 [CJA API 설명서](https://adobe.io/cja-apis/docs)를 참조하십시오. |
 
 ### Adobe Analytics의 수정 사항 {#aa-fixes}
 
