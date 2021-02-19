@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1ed740f01fa639793c4694d206c07728f523a4a5
+source-git-commit: b785653a7f35f188c17f2ed05ec7a8b143c192b4
 workflow-type: tm+mt
-source-wordcount: '6310'
-ht-degree: 33%
+source-wordcount: '6381'
+ht-degree: 32%
 
 ---
 
@@ -33,7 +33,8 @@ Experience Cloud 솔루션 및 서비스는 매월 업데이트됩니다. 이 �
 * [Experience Cloud 서비스 및 관리](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) 및 [Customer Journey Analytics](#cust-journey)&#39;
+* [Analytics ](#analytics) **업데이트 날짜: 2021년 2월 19일**
+* [Customer Journey Analytics](#cust-journey)`
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -112,7 +113,7 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 * [Adobe Analytics의 새로운 기능](#aa-features)
 * [Customer Journey Analytics의 새로운 기능](#cust-journey)
 * [Adobe Analytics의 수정 사항](#aa-fixes)
-* [Analytics 관리자에 대한 중요 공지](#aa-notices)
+* [Analytics 관리자에 대한 중요 공지](#aa-notices) **업데이트 날짜: 2021년 2월 19일**
 * [Analytics 교육 과정 및 자습서](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -152,6 +153,7 @@ AN-224987;AN-229009;AN-239750;AN-239765;AN-241620;AN-242996;AN-243577;AN-243774;
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | ----------- | ---------- | ---------- |
+| 보고 및 분석 랜딩 페이지 옵션 | 2021년 2월 19일 | 2021년 3월 25일에 Adobe Analytics 랜딩 페이지로 새로운 보고 및 분석 대시보드 또는 기타 컨텐츠를 설정하는 옵션이 제거됩니다. 이전에 보고 및 분석 페이지를 사용자 지정 랜딩 페이지로 설정한 경우 랜딩 페이지가 [!UICONTROL 사용자 환경 설정]에서 수정될 때까지 계속 작동합니다. 2021년 3월 25일부터 새 보고 및 분석 사용자 지정 랜딩 페이지를 더 이상 정의할 수 없습니다. |
 | Ad Hoc Analysis 생산 중단 | 2021년 1월 | [!UICONTROL 애드혹 ] 분석은 2021년 3월 1일에 사용 종료 날짜에 도달합니다. 자세한 내용은 [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)를 참조하십시오. |
 | 3개의 Analytics API 서비스에 대한 사용 종료 | 2021년 1월 6일 | 2021년 4월 30일에 다음 Analytics 기존 API 서비스의 사용 수명이 종료되어 서비스가 중단됩니다. 이러한 서비스를 사용하여 구축한 현재 모든 통합은 해당 날짜부터 더 이상 작동하지 않습니다.<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증(OAuth 및 JWT)</li></ul>질문에 대한 답변과 진행 방법에 대한 지침을 제공하는 데 도움이 되도록 [이전 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)를 제공했습니다. 이러한 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 이전 OAuth 계정은 [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics 통합 계정으로 마이그레이션할 수 있으며, 이 계정은 1.4 Analytics API 및 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다. |
 | Adobe Data Connectors EOL | 2020년 7월 13일 | Adobe [!UICONTROL Data Connectors]는 더 이상 실행 불가능하거나 지원되지 않는 레거시 기술을 기반으로 합니다. 새 표준은 [Adobe Exchange 파트너 프로그램](https://partners.adobe.com/exchangeprogram/experiencecloud)에서 사용할 수 있습니다. 모든 통합에 대해 해당 표준을 사용하여 계속 제공 및 지원할 수 있습니다. 공식 종료 날짜는 2021년 8월 1일입니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/import/dataconnectors/data-connectors-eol.html) |
