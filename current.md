@@ -1,14 +1,14 @@
 ---
 title: Experience Cloud 및 Experience Platform 릴리스 노트
-description: 최신 릴리스 노트, 새로운 기능 및 Experience Cloud 및 Experience Platform에 대한 새로운 설명서에 대해 알아보십시오. 기업 및 Document Cloud용 Creative Cloud에 대한 새로운 도움말 및 자습서를 제공합니다.
+description: Experience Cloud 및 Experience Platform의 최신 릴리스 정보, 새로운 기능 및 새로운 문서에 대해 알아봅니다. Creative Cloud for enterprise 및 Document Cloud와 관련된 새로운 도움말과 튜토리얼을 찾아보십시오.
 doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b785653a7f35f188c17f2ed05ec7a8b143c192b4
+source-git-commit: 803595c63ab6db90fb17c9998c623c03e834aaa0
 workflow-type: tm+mt
-source-wordcount: '6381'
-ht-degree: 32%
+source-wordcount: '6384'
+ht-degree: 33%
 
 ---
 
@@ -81,7 +81,7 @@ Experience Platform 및 서비스를 위해 게시된 새로운 비디오, 자�
 | 2021년 2월 3일 | [일괄 데이터 통합 개요](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/batch-ingestion-overview.html) | 비디오 | Adobe Experience Platform의 일괄 데이터 처리에 대한 개요입니다. API를 사용하여 일괄 처리 데이터를 인제스트하는 방법을 알아봅니다. |
 | 2021년 2월 3일 | [Adobe이 아닌 응용 프로그램에 데이터 활성화](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/activate-data-to-non-adobe-applications.html) | 비디오 | Adobe의 실시간 CDP를 통해 고객과 진정한 개인화 전략을 구축하는 방법을 살펴볼 수 있습니다. 또한 Microsoft, Google 및 Facebook에서 기존 에코 시스템과 Adobe 이외 애플리케이션으로 어떻게 접히는지 살펴볼 수 있습니다. |
 | 2021년 1월 21일 | [마케터를 위한 지능형 서비스 시작을 위한 강좌 소개](https://video.tv.adobe.com/v/330805?quality=12&learn=on) | 비디오 | 마케터를 위한 지능형 서비스 시작하기 교육 과정 소개 |
-| 2021년 1월 13일 | [마케터를 위한 Offer Decisioning 시작하기 소개](https://video.tv.adobe.com/v/330520?quality=12&learn=on) | 비디오 | 마케터를 위한 Offer Decisioning 시작하기 교육 과정을 소개합니다. |
+| 2021년 1월 13일 | [마케터를 위한 Offer Decisioning 시작하기 소개](https://video.tv.adobe.com/v/330520?quality=12&learn=on) | 비디오 | 또한 마케터를 위한 Offer Decisioning 시작하기 교육 과정을 소개합니다. |
 | 2021년 1월 31일 | [레서피 빌더 템플릿을 사용하여 모델 트레이닝, 점수 및 제작](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/train-score-and-productize-models.html) | 비디오 | 업데이트된 레서피 빌더 템플릿을 사용하여 소매 판매 스키마 및 데이터 세트를 사용하여 레서피를 만드는 방법을 알아봅니다. |
 | 2021년 1월 31일 | [JupiterLab 노트북의 데이터 로드](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html) | 비디오 | 데이터 과학 작업 영역의 JupiterLab에 대해 알아봅니다. |
 | 2021년 1월 12일 | [병합 정책 만들기](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) | 비디오 | Adobe Experience Platform에서 병합 정책을 만드는 방법을 알아봅니다. |
@@ -122,7 +122,7 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ------- |
 | Analysis Workspace - 구성 요소 선택 | 2021년 2월 4일 | [!UICONTROL 빠른 인사이트]에 있는 드롭다운/놓기 영역 구성 요소를 [!UICONTROL 작업 공간]의 모든 놓기 영역에 추가했습니다. 이 개선 사항을 통해 호환되는 구성 요소의 드롭다운 목록에서 선택하거나 공간을 놓기 영역으로 계속 사용할 수 있습니다. |
-| 분석 대시보드 언어 선택 | 2021년 1월 14일 | 이제 Analytics 대시보드에서 언어를 선택할 수 있습니다. |
+| 분석 대시보드 언어 선택 | 2021년 1월 14일 | Analytics 대시보드에서 언어를 선택하려면 **[!UICONTROL 설정]** > **[!UICONTROL 환경 설정]** > **[!UICONTROL 언어]**&#x200B;로 이동합니다. |
 
 ### Customer Journey Analytics의 새로운 기능 {#cust-journey}
 
