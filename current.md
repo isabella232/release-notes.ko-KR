@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c7220fd5298c74ac555ba9d1799194d794b81271
+source-git-commit: d22f8bc718976f3aad6673473c4df66246f58022
 workflow-type: tm+mt
 source-wordcount: '6403'
 ht-degree: 97%
@@ -154,7 +154,7 @@ AN-224987; AN-229009; AN-239750; AN-239765; AN-241620; AN-242996; AN-243577; AN-
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | ----------- | ---------- | ---------- |
 | 보고 및 분석 랜딩 페이지 옵션 | 2021년 19월 2일 | 2021년 3월 25일에 Adobe Analytics 랜딩 페이지로 새로운 보고 및 분석 대시보드 또는 기타 컨텐츠를 설정하는 옵션이 제거됩니다. 이전에 보고 및 분석 페이지를 사용자 지정 랜딩 페이지로 설정한 경우 랜딩 페이지가 [!UICONTROL 사용자 환경 설정]에서 수정될 때까지 계속 작동합니다. 2021년 3월 25일부터 새 보고 및 분석 사용자 지정 랜딩 페이지를 더 이상 정의할 수 없습니다. |
-| Ad Hoc Analysis 생산 중단 | 2021년 1월 | [!UICONTROL Ad Hoc Analysis] 서비스는 2021년 3월 1일에 종료됩니다. 자세한 내용은 [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)를 참조하십시오. |
+| Ad Hoc Analysis 생산 중단 | 2021년 1월 | [!UICONTROL 애드혹 ] 분석은 2021년 3월 1일에 사용 종료일에 도달했습니다. 자세한 내용은 [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)를 참조하십시오. |
 | 3개의 Analytics API 서비스에 대한 사용 종료 | 2021년 1월 6일 | 2021년 4월 30일에 다음 Analytics 기존 API 서비스의 사용 수명이 종료되어 서비스가 중단됩니다. 이러한 서비스를 사용하여 구축한 현재 모든 통합은 해당 날짜부터 더 이상 작동하지 않습니다.<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증(OAuth 및 JWT)</li></ul>질문에 대한 답변과 진행 방법에 대한 지침을 제공하는 데 도움이 되도록 [이전 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)를 제공했습니다. 이러한 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 이전 OAuth 계정은 [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics 통합 계정으로 마이그레이션할 수 있으며, 이 계정은 1.4 Analytics API 및 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다. |
 | Adobe Data Connectors EOL | 2020년 7월 13일 | Adobe [!UICONTROL Data Connectors]는 더 이상 실행 불가능하거나 지원되지 않는 레거시 기술을 기반으로 합니다. [Adobe Exchange Partner Program](https://partners.adobe.com/exchangeprogram/experiencecloud)에서 새로운 표준을 사용할 수 있습니다. 이 표준을 사용하여 모든 통합이 지속적으로 제공되고 지원될 수 있습니다. 공식적인 서비스 종료 날짜는 2021년 8월 1일입니다. [자세히 알아보기...](https://docs.adobe.com/content/help/ko-KR/analytics/import/dataconnectors/data-connectors-eol.html) |
 | 모든 수신 HTTPS 요청에 HSTS 헤더 추가 | 2020년 9월 29일 | 2020년 9월 29일, Adobe는 HTTPS를 사용하는 모든 수신 요청에 HSTS 헤더를 추가하기 시작했습니다. 이 헤더를 통해 브라우저 또는 클라이언트가 HTTPS에서 모든 향후 요청을 수행하도록 지시할 수 있으며 이는 보안 모범 사례입니다. 이 시점에서는 Adobe가 HTTP를 사용하는 수신 요청에 이 설정을 적용하지 않습니다. |
