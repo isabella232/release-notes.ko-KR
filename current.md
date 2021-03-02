@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d22f8bc718976f3aad6673473c4df66246f58022
+source-git-commit: c665df945df9f183549c7ca3e3a2e3bf0b04a3af
 workflow-type: tm+mt
-source-wordcount: '6403'
-ht-degree: 97%
+source-wordcount: '6428'
+ht-degree: 96%
 
 ---
 
@@ -19,19 +19,15 @@ ht-degree: 97%
 
 Experience Cloud 솔루션과 서비스는 매달 업데이트됩니다. 이 페이지는 [!DNL Experience Cloud] 및 Experience Platform의 최신 릴리스 업데이트, 설명서 및 튜토리얼을 찾을 수 있는 중앙 위치입니다. [!DNL Creative Cloud for Enterprise] 및 [!DNL Document Cloud]에 대한 새로운 설명서도 찾을 수 있습니다.
 
->[!IMPORTANT]
->
->이 페이지에는 출시 전 콘텐츠가 포함되어 있으며 릴리스 날짜 이전에 변경될 수 있습니다.
-
 >[!NOTE]
 >
 >월별 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/subscription/priority-product-update.html)를 구독하면 이 페이지의 업데이트에 대한 이메일 알림을 받을 수 있습니다. 이 페이지는 한 달 동안 유지되므로 Adobe 엔터프라이즈 제품 및 Experience League 설명서에 대한 업데이트를 정기적으로 확인하십시오.
 
-최종 업데이트: **2021년 2월 12일**
+최종 업데이트: **2021년 2월 21일**
 
 * [Adobe 시스템 상태](#status)
 * [Experience Cloud 서비스 및 관리](#ecloud)
-* [Experience Platform](#platform)
+* [Experience Platform](#platform) **업데이트 날짜: 2021년 2월 21일**
 * [Journey Orchestration](#journey-orch)
 * [Analytics ](#analytics) **업데이트 날짜: 2021년 2월 19일**
 * [Customer Journey Analytics](#cust-journey)`
@@ -76,6 +72,7 @@ Experience Platform 및 서비스를 위해 게시된 새로운 비디오, 튜�
 
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
+| 2021년 26월 2일 | [Adobe Experience Platform에서 데이터 흐름 모니터링](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/data-monitoring.html?lang=en#data-ingestion) | Platform의 UI 및 API를 사용하여 Adobe Experience Platform으로 인제스트되는 데이터를 모니터링하고 추적하는 방법을 알아봅니다. |
 | 2021년 2월 10일 | [Azure Blob 대상 구성](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/configure-the-azure-blob-destination.html?lang=ko-kr#destinations) | 비디오 | Real-time Customer Data Platform(실시간 CDP)에서 Azure Blob 스토리지 대상을 설정하고 구성하는 데 필요한 단계를 안내하는 방법을 알아봅니다. |
 | 2021년 2월 4일 | [ID 그래프 보기](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/view-identity-graphs.html) | 비디오 | ID 그래프 뷰어 기능을 사용하여 유효성 검사 및 디버깅을 위해 ID 그래프를 검색, 탐색 및 필터링하는 방법. |
 | 2021년 2월 3일 | [일괄 데이터 수집 개요](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/batch-ingestion-overview.html) | 비디오 | Adobe Experience Platform의 일괄 데이터 수집 개요입니다. API를 사용하여 일괄 데이터를 수집하는 방법에 대해 알아봅니다. |
