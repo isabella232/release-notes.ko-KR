@@ -1,13 +1,13 @@
 ---
-title: Experience Cloud 및 Experience Platform의 릴리스 정보
-description: Experience Cloud 및 Experience Platform의 최신 릴리스 정보, 새로운 기능 및 새로운 문서에 대해 알아봅니다. Creative Cloud for enterprise 및 Document Cloud와 관련된 새로운 도움말과 튜토리얼을 찾아보십시오.
+title: 최신 릴리스 노트
+description: '"Experience Cloud 제품 및 서비스에 대한 최신 릴리스 노트, 새로운 기능 및 새로운 설명서에 대해 알아보십시오. Experience Cloud, 기업을 위한 Creative Cloud 및 Document Cloud에 대한 새로운 도움말 및 자습서를 제공합니다."'
 doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c665df945df9f183549c7ca3e3a2e3bf0b04a3af
+source-git-commit: 2f83677d5507bd917603ec8cfcbd08559a510a0f
 workflow-type: tm+mt
-source-wordcount: '6428'
+source-wordcount: '6425'
 ht-degree: 96%
 
 ---
