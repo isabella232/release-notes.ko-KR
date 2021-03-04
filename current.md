@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 2f83677d5507bd917603ec8cfcbd08559a510a0f
 workflow-type: tm+mt
 source-wordcount: '6425'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -21,16 +21,16 @@ Experience Cloud 솔루션과 서비스는 매달 업데이트됩니다. 이 페
 
 >[!NOTE]
 >
->월별 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/subscription/priority-product-update.html)를 구독하면 이 페이지의 업데이트에 대한 이메일 알림을 받을 수 있습니다. 이 페이지는 한 달 동안 유지되므로 Adobe 엔터프라이즈 제품 및 Experience League 설명서에 대한 업데이트를 정기적으로 확인하십시오.
+>월별 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/ko/subscription/priority-product-update.html)를 구독하면 이 페이지의 업데이트에 대한 이메일 알림을 받을 수 있습니다. 이 페이지는 한 달 동안 유지되므로 Adobe 엔터프라이즈 제품 및 Experience League 설명서에 대한 업데이트를 정기적으로 확인하십시오.
 
 최종 업데이트: **2021년 2월 21일**
 
 * [Adobe 시스템 상태](#status)
 * [Experience Cloud 서비스 및 관리](#ecloud)
-* [Experience Platform](#platform) **업데이트 날짜: 2021년 2월 21일**
+* [경험 ](#platform) **플랫폼 업데이트일: 2021년 2월 21일**
 * [Journey Orchestration](#journey-orch)
-* [Analytics ](#analytics) **업데이트 날짜: 2021년 2월 19일**
-* [Customer Journey Analytics](#cust-journey)`
+* [Analytics](#analytics) **2021년 2월 19일 업데이트됨**
+* [Customer Journey Analytics](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -72,7 +72,7 @@ Experience Platform 및 서비스를 위해 게시된 새로운 비디오, 튜�
 
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021년 26월 2일 | [Adobe Experience Platform에서 데이터 흐름 모니터링](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/data-monitoring.html?lang=en#data-ingestion) | Platform의 UI 및 API를 사용하여 Adobe Experience Platform으로 인제스트되는 데이터를 모니터링하고 추적하는 방법을 알아봅니다. |
+| 2021년 2월 26일 | [Adobe Experience Platform에서 데이터 흐름 모니터링](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/data-monitoring.html?lang=en#data-ingestion) | Platform의 UI 및 API를 사용하여 Adobe Experience Platform으로 인제스트되는 데이터를 모니터링하고 추적하는 방법을 알아봅니다. |
 | 2021년 2월 10일 | [Azure Blob 대상 구성](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/configure-the-azure-blob-destination.html?lang=ko-kr#destinations) | 비디오 | Real-time Customer Data Platform(실시간 CDP)에서 Azure Blob 스토리지 대상을 설정하고 구성하는 데 필요한 단계를 안내하는 방법을 알아봅니다. |
 | 2021년 2월 4일 | [ID 그래프 보기](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/view-identity-graphs.html) | 비디오 | ID 그래프 뷰어 기능을 사용하여 유효성 검사 및 디버깅을 위해 ID 그래프를 검색, 탐색 및 필터링하는 방법. |
 | 2021년 2월 3일 | [일괄 데이터 수집 개요](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/batch-ingestion-overview.html) | 비디오 | Adobe Experience Platform의 일괄 데이터 수집 개요입니다. API를 사용하여 일괄 데이터를 수집하는 방법에 대해 알아봅니다. |
@@ -89,7 +89,7 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 
 ### 최신 제품 릴리스
 
-[Journey Orchestration 릴리스 정보](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html)에서 최신 기능, 개선 사항 및 수정 사항에 대해 알아봅니다.
+[Journey Orchestration 릴리스 정보](https://docs.adobe.com/content/help/ko/journeys/using/release-notes/release-notes.html)에서 최신 기능, 개선 사항 및 수정 사항에 대해 알아봅니다.
 
 ### 새로운 Journey Orchestration 교육 과정 및 튜토리얼
 
@@ -101,7 +101,7 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 
 ### Journey Orchestration을 위한 추가 리소스
 
-[설명서](https://docs.adobe.com/content/help/ko-KR/journeys/using/journey-orchestration-home.html) - [릴리스 정보](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html) - [방법 비디오](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
+[설명서](https://docs.adobe.com/content/help/ko-KR/journeys/using/journey-orchestration-home.html) - [릴리스 정보](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html) - [방법 비디오](https://docs.adobe.com/content/help/ko/platform-learn/tutorials/journey-orchestration/introduction.html)
 
 ## ![아이콘](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
 
@@ -110,7 +110,7 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 * [Adobe Analytics의 새로운 기능](#aa-features)
 * [Customer Journey Analytics의 새로운 기능](#cust-journey)
 * [Adobe Analytics의 수정 사항](#aa-fixes)
-* [Analytics 관리자에 대한 중요 공지](#aa-notices) **업데이트 날짜: 2021년 2월 19일**
+* [Analytics 관리자에 대한 중요 공지](#aa-notices) **2021년 2월 19일 업데이트됨**
 * [Analytics 교육 과정 및 튜토리얼](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -119,7 +119,7 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ------- |
 | Analysis Workspace - 구성 요소 선택 | 2021년 2월 4일 | [!UICONTROL 빠른 인사이트]에 있는 드롭다운/놓기 영역 구성 요소를 [!UICONTROL 작업 공간]의 모든 놓기 영역에 추가했습니다. 이 개선 사항을 통해 호환되는 구성 요소의 드롭다운 목록에서 선택하거나 공간을 놓기 영역으로 계속 사용할 수 있습니다. |
-| Analytics 대시보드 언어 선택 | 2021년 1월 14일 | Analytics 대시보드에서 언어를 선택하려면 **[!UICONTROL 설정]** > **[!UICONTROL 환경 설정]** > **[!UICONTROL 언어]**&#x200B;로 이동합니다. |
+| Analytics 대시보드 언어 선택 | 2021년 1월 14일 | **[!UICONTROL 설정]** > **[!UICONTROL 환경 설정]** > **[!UICONTROL 언어]**&#x200B;로 이동하여 Analytics 대시보드의 언어를 선택합니다. |
 
 ### Customer Journey Analytics의 새로운 기능 {#cust-journey}
 
@@ -150,8 +150,8 @@ AN-224987; AN-229009; AN-239750; AN-239765; AN-241620; AN-242996; AN-243577; AN-
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | ----------- | ---------- | ---------- |
-| 보고 및 분석 랜딩 페이지 옵션 | 2021년 19월 2일 | 2021년 3월 25일에 Adobe Analytics 랜딩 페이지로 새로운 보고 및 분석 대시보드 또는 기타 컨텐츠를 설정하는 옵션이 제거됩니다. 이전에 보고 및 분석 페이지를 사용자 지정 랜딩 페이지로 설정한 경우 랜딩 페이지가 [!UICONTROL 사용자 환경 설정]에서 수정될 때까지 계속 작동합니다. 2021년 3월 25일부터 새 보고 및 분석 사용자 지정 랜딩 페이지를 더 이상 정의할 수 없습니다. |
-| Ad Hoc Analysis 생산 중단 | 2021년 1월 | [!UICONTROL 애드혹 ] 분석은 2021년 3월 1일에 사용 종료일에 도달했습니다. 자세한 내용은 [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)를 참조하십시오. |
+| Reports &amp; Analytics 랜딩 페이지 옵션 | 2021년 2월 19일 | 2021년 3월 25일에 새로운 Reports &amp; Analytics 대시보드 또는 기타 콘텐츠를 Adobe Analytics 랜딩 페이지로 설정하는 옵션이 제거됩니다. 이전에 Reports &amp; Analytics 페이지를 맞춤형 랜딩 페이지로 설정했다면 [!UICONTROL 사용자 환경 설정]에서 랜딩 페이지를 수정하기 전까지는 계속 작동합니다. 2021년 3월 25일부터는 더 이상 Reports &amp; Analytics 맞춤형 랜딩 페이지를 새로 정의할 수 없습니다. |
+| Ad Hoc Analysis 서비스 중단 | 2021년 1월 | [!UICONTROL 애드혹 ] 분석은 2021년 3월 1일에 사용 종료일에 도달했습니다. 자세한 내용은 [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)를 참조하십시오. |
 | 3개의 Analytics API 서비스에 대한 사용 종료 | 2021년 1월 6일 | 2021년 4월 30일에 다음 Analytics 기존 API 서비스의 사용 수명이 종료되어 서비스가 중단됩니다. 이러한 서비스를 사용하여 구축한 현재 모든 통합은 해당 날짜부터 더 이상 작동하지 않습니다.<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증(OAuth 및 JWT)</li></ul>질문에 대한 답변과 진행 방법에 대한 지침을 제공하는 데 도움이 되도록 [이전 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)를 제공했습니다. 이러한 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 이전 OAuth 계정은 [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics 통합 계정으로 마이그레이션할 수 있으며, 이 계정은 1.4 Analytics API 및 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다. |
 | Adobe Data Connectors EOL | 2020년 7월 13일 | Adobe [!UICONTROL Data Connectors]는 더 이상 실행 불가능하거나 지원되지 않는 레거시 기술을 기반으로 합니다. [Adobe Exchange Partner Program](https://partners.adobe.com/exchangeprogram/experiencecloud)에서 새로운 표준을 사용할 수 있습니다. 이 표준을 사용하여 모든 통합이 지속적으로 제공되고 지원될 수 있습니다. 공식적인 서비스 종료 날짜는 2021년 8월 1일입니다. [자세히 알아보기...](https://docs.adobe.com/content/help/ko-KR/analytics/import/dataconnectors/data-connectors-eol.html) |
 | 모든 수신 HTTPS 요청에 HSTS 헤더 추가 | 2020년 9월 29일 | 2020년 9월 29일, Adobe는 HTTPS를 사용하는 모든 수신 요청에 HSTS 헤더를 추가하기 시작했습니다. 이 헤더를 통해 브라우저 또는 클라이언트가 HTTPS에서 모든 향후 요청을 수행하도록 지시할 수 있으며 이는 보안 모범 사례입니다. 이 시점에서는 Adobe가 HTTP를 사용하는 수신 요청에 이 설정을 적용하지 않습니다. |
@@ -288,7 +288,7 @@ Experience Manager의 새로운 기능, 수정 내용 및 업데이트. 안정�
 
 모든 Experience Manager 릴리스 정보는 다음 페이지에서 유지 관리됩니다.
 
-* [Experience Manager 릴리스 업데이트 및 로드맵](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/home.html)
+* [Experience Manager 릴리스 업데이트 및 로드맵](https://docs.adobe.com/content/help/ko/experience-manager-release-information/aem-release-updates/home.html)
 * [Experience Manager as a Cloud Service 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/release-notes/home.html)
 * [Experience Manager Cloud Manager 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-manager/using/release-notes/release-notes-current.html)
 * [자동 양식 전환 서비스 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/aem-forms-automated-conversion-service/using/release-notes.html)
@@ -308,7 +308,7 @@ Experience Manager의 새로운 기능, 수정 내용 및 업데이트. 안정�
 | -----------| ---------- | ---------- | ---------- |
 | 2021년 2월 11일 | [외부 애플리케이션에서 클라우드 서비스로서의 AEM 인증](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.1.aemcs) | 교육 과정 | 외부 애플리케이션이 [!UICONTROL 로컬 개발 액세스 토큰] 및 [!UICONTROL 서비스 자격 증명]을 사용하여 HTTP를 통해 Experience Manager as a Cloud Service에 프로그래밍 방식으로 인증하는 방법을 알아봅니다. |
 | 2021년 2월 11일 | [에셋 연결 및 연결 해제](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/authoring/relate-unrelate.html) | 비디오 | Experience Manager에서 에셋 간의 관계를 설정하고 관리하는 방법에 대해 알아봅니다. |
-| 2021년 2월 8일 | [AEM Sites - WKND 튜토리얼](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) | 튜토리얼 | Experience Manager를 처음 사용하는 개발자를 위해 설계된 멀티 파트 튜토리얼에 오신 것을 환영합니다. 이 튜토리얼은 WKND의 가상 라이프스타일 브랜드를 위한 Experience Manager 사이트의 구현 과정을 안내합니다. |
+| 2021년 2월 8일 | [AEM Sites - WKND 튜토리얼](https://docs.adobe.com/content/help/ko/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) | 튜토리얼 | Experience Manager를 처음 사용하는 개발자를 위해 설계된 멀티 파트 튜토리얼에 오신 것을 환영합니다. 이 튜토리얼은 WKND의 가상 라이프스타일 브랜드를 위한 Experience Manager 사이트의 구현 과정을 안내합니다. |
 | 2021년 2월 1일 | [첫 번째 OSGi 번들 생성](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/create-your-first-osgi-bundle.html?lang=ko-kr) | 문서 | Maven 및 eclipse를 사용하여 첫 번째 OSGi 번들을 생성하는 방법에 대해 알아봅니다. |
 | 2021년 2월 1일 | [에셋 게시](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/sharing/publish.html) | 비디오 | Experience Manager Author에서 AEM Publish로 에셋 및 렌더링 정보를 게시하는 방법에 대해 알아봅니다. |
 | 2021년 2월 4일 | [로컬 개발](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/basics/local-development-environment.html) | 비디오 | Experience Manager as a Cloud Service SDK를 사용하여 로컬 개발 환경을 다운로드하고 설정하는 방법에 대해 알아봅니다. |
@@ -345,12 +345,12 @@ Experience Manager의 새로운 기능, 수정 내용 및 업데이트. 안정�
 ### Experience Manager용 기타 도움말 리소스
 
 * [Experience Manager as a Cloud Service 안내서](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/landing/home.html)
-* [Experience Manager 6.5 학습 및 지원 홈](https://helpx.adobe.com/support/experience-manager/6-5.html)
-* [Experience Manager 6.4 학습 및 지원 홈](https://helpx.adobe.com/support/experience-manager/6-4.html)
-* [Experience Manager 6.3 학습 및 지원 홈](https://helpx.adobe.com/support/experience-manager/6-3.html)
-* [Experience Manager 6.2 학습 및 지원 홈](https://helpx.adobe.com/support/experience-manager/6-2.html)
-* [Cloud Manager 사용 안내서](https://helpx.adobe.com/experience-manager/cloud-manager/user-guide.html)
-* [이전 버전의 Experience Manager 설명서](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
+* [Experience Manager 6.5 학습 및 지원 홈](https://helpx.adobe.com/kr/support/experience-manager/6-5.html)
+* [Experience Manager 6.4 학습 및 지원 홈](https://helpx.adobe.com/kr/support/experience-manager/6-4.html)
+* [Experience Manager 6.3 학습 및 지원 홈](https://helpx.adobe.com/kr/support/experience-manager/6-3.html)
+* [Experience Manager 6.2 학습 및 지원 홈](https://helpx.adobe.com/kr/support/experience-manager/6-2.html)
+* [Cloud Manager 사용 안내서](https://helpx.adobe.com/kr/experience-manager/cloud-manager/user-guide.html)
+* [이전 버전의 Experience Manager 설명서](https://helpx.adobe.com/kr/experience-manager/aem-previous-versions.html)
 * [Dynamic Media Classic 도움말 홈](https://docs.adobe.com/content/help/ko-KR/dynamic-media-classic/using/home.html)
 
 ## ![아이콘](/assets/campaign.png) [!DNL Adobe Campaign] {#ac}
@@ -361,8 +361,8 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 다음에서 릴리스된 최신 기능, 개선 사항 및 수정 사항에 대해 알아봅니다.
 
-* [Campaign Standard 릴리스 정보](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html)
-* [Campaign Classic 릴리스 정보](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html)
+* [Campaign Standard 릴리스 정보](https://docs.adobe.com/content/help/ko/campaign-standard/using/release-notes/release-notes.html)
+* [Campaign Classic 릴리스 정보](https://docs.adobe.com/content/help/ko/campaign-classic/using/release-notes/latest-release.html)
 
 ### 새로운 Campaign 교육 과정 및 튜토리얼
 
@@ -382,9 +382,9 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 ### 도움말 리소스
 
-* Adobe Campaign Standard: [도움말 센터](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/campaign-standard-home.html) - [릴리스 정보](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [사용 방법 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [릴리스 계획](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/release-notes/release-planning.html) [- 최신 설명서 업데이트](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/documentation-updates.html)
-* Adobe Campaign Classic: [도움말 센터](https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html) - [릴리스 정보](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html) - [사용 방법 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)- [최신 설명서 업데이트](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/documentation-updates.html)
-* Adobe Campaign 제어판: [설명서](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html) - [릴리스 정보](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html) - [Campaign Standard](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html)/[Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html) 방법 비디오
+* Adobe Campaign Standard: [도움말 센터](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/campaign-standard-home.html) - [릴리스 정보](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [사용 방법 비디오](https://docs.adobe.com/content/help/ko/campaign-learn/campaign-standard-tutorials/overview.html) - [릴리스 계획](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/release-notes/release-planning.html) [- 최신 설명서 업데이트](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/documentation-updates.html)
+* Adobe Campaign Classic: [도움말 센터](https://docs.adobe.com/content/help/ko/campaign-classic/using/campaign-classic-home.html) - [릴리스 정보](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html) - [사용 방법 비디오](https://docs.adobe.com/content/help/ko/campaign-learn/campaign-classic-tutorials/overview.html)- [최신 설명서 업데이트](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/documentation-updates.html)
+* Adobe Campaign 제어판: [설명서](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html) - [릴리스 정보](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html) - [Campaign Standard](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html)/[Campaign Classic](https://docs.adobe.com/content/help/ko/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html) 방법 비디오
 
 ## ![아이콘](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
@@ -406,20 +406,20 @@ Adobe Advertising Cloud에 대한 릴리스 정보입니다.
 
 ### [!DNL Advertising Cloud Search]의 새로운 기능{#adcloud-search}
 
-마지막 업데이트:**2021년 2월 23일, 2월 20일 릴리스**
+최종 업데이트: **2021년 2월 23일 (2월 20일 릴리스)**
 
 | 기능 | 설명 |
 | -----------| ---------- |
-| 모두 | 도구 > &quot;Adwords 전환 태그&quot;는 이제 &quot;Google 광고 전환 태그&quot;입니다.&quot; |
-| 모두 | 4월에는 <br> 기능 및 보기가 더 이상 사용되지 않습니다.<ul><li>최적화 > Portfolio 카드</li><li>최적화 > 입찰 규칙</li><li>인사이트 및 보고서 > 대시보드</li><li>캠페인: 벌크 편집에 대한 보류 중 및 예약된 지원</li></ul> |
+| 모두 | 도구 > “Adwords Conversion Tags”가 이제 &quot;Google Ads Conversion Tags”로 변경되었습니다. |
+| 모두 | 4월부터 다음 기능 및 보기 모드가 더 이상 사용되지 않습니다.<br><ul><li>최적화 > 포트폴리오 카드</li><li>최적화 > 입찰 규칙</li><li>Insights &amp; Reports > 대시보드</li><li>캠페인: 일괄 편집에 대해 보류 중 및 예약된 지원</li></ul> |
 
-### Advertising Cloud 자습서 및 강좌
+### Advertising Cloud 튜토리얼 및 과정
 
-업데이트됨:**2021년 2월 23일**
+업데이트: **2021년 2월 23일**
 
 | 자습서 | 설명 |
 | -----------| ---------- |
-| [작업 공간 및 보고 소개](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html) | Advertising Cloud 데이터를 사용하여 Adobe Analytics Analysis Workspace에서 시각적 보고서를 만드는 방법을 알아봅니다. |
+| [Workspace 및 Reporting 소개](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html) | Advertising Cloud 데이터를 사용하여 Adobe Analytics Workspace에서 시각적 보고서를 작성하는 방법에 대해 알아봅니다. |
 
 ## ![아이콘](/assets/magento.png) [!DNL Magento] {#magento}
 
@@ -427,7 +427,7 @@ Adobe Advertising Cloud에 대한 릴리스 정보입니다.
 
 ## ![아이콘](/assets/target.png)[!DNL Target] {#target}
 
-최신 릴리스 정보는 [[!DNL Target] 릴리스 정보](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html)를 참조하십시오.
+최신 릴리스 정보는 [[!DNL Target] 릴리스 정보](https://docs.adobe.com/content/help/ko/target/using/release-notes/target-release-notes.html)를 참조하십시오.
 
 ## ![아이콘](/assets/marketo.png) [!DNL Marketo Engage] {#marketo}
 
@@ -471,7 +471,7 @@ Document Cloud 도움말은 다음을 참조하십시오.
 
 * [Adobe Acrobat 학습 허브](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html?lang=ko-kr)
 * [Adobe Sign 학습 허브](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=ko-kr)
-* [Document Cloud 학습 및 지원](https://helpx.adobe.com/support/document-cloud.html)
+* [Document Cloud 학습 및 지원](https://helpx.adobe.com/kr/support/document-cloud.html)
 
 ## ![아이콘](/assets/creative-cloud-24.png) Creative Cloud Enterprise {#creative-cloud}
 
