@@ -4,9 +4,9 @@ description: “Experience Cloud 제품 및 서비스의 최신 릴리스 정보
 doc-type: release notes
 last-update: February 2021
 author: mfrei
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: fad566f4a78d7963f450b9998c009a50d081a212
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '6479'
 ht-degree: 100%
 
@@ -101,7 +101,7 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 
 ### Journey Orchestration을 위한 추가 리소스
 
-[설명서](https://docs.adobe.com/content/help/ko-KR/journeys/using/journey-orchestration-home.html) - [릴리스 정보](https://docs.adobe.com/content/help/ko-KR/journeys/using/release-notes/release-notes.html) - [방법 비디오](https://docs.adobe.com/content/help/ko-KR/platform-learn/tutorials/journey-orchestration/introduction.html)
+[설명서](https://docs.adobe.com/content/help/ko-KR/journeys/using/journey-orchestration-home.html) - [릴리스 정보](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html) - [방법 비디오](https://docs.adobe.com/content/help/ko-KR/platform-learn/tutorials/journey-orchestration/introduction.html)
 
 ## ![아이콘](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
 
@@ -123,7 +123,7 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 
 ### Customer Journey Analytics의 새로운 기능 {#cust-journey}
 
-| 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
+| 기능 | [일반 가용성](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ----- |
 | Analysis Workspace - 구성 요소 선택 | 2021년 2월 4일 | [!UICONTROL 빠른 인사이트]에 있는 드롭다운/놓기 영역 구성 요소를 [!UICONTROL 작업 공간]의 모든 놓기 영역에 추가했습니다. 이 개선 사항을 통해 호환되는 구성 요소의 드롭다운 목록에서 선택하거나 공간을 놓기 영역으로 계속 사용할 수 있습니다. |
 | CJA API | 2021년 2월 18일 | 이제 CJA API를 사용할 수 있습니다 이러한 API를 사용하면 구성 요소를 프로그래밍 방식으로 편집하고 보고서를 검색할 수 있습니다. 자세한 내용은 [CJA API 설명서](https://adobe.io/cja-apis/docs)를 참조하십시오. |
@@ -239,7 +239,7 @@ Experience Manager의 새로운 기능, 수정 내용 및 업데이트. 안정�
       * **점진적 웹 앱(PWA)**
 
          * [사이트의 점진적 웹 앱(PWA) 버전은](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=ko-KR) 이제 간단한 구성을 통해 프로젝트 수준에서 사용할 수 있습니다.
-   * **Experience Manager Assets as a Cloud Service**
+   * **Cloud Service으로 Experience Manager 자산**
 
       * Experience Manager as a Cloud Service는 스마트 태그 기능을 확장하여 텍스트 기반 에셋에서 키워드 및 엔티티를 식별할 수 있도록 지원합니다. 텍스트가 식별, 색인화되고 메타데이터로 제공되어 구성 없이도 검색 환경을 개선할 수 있습니다. [스마트 태그](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/smart-tags.html)를 참조하십시오.
       * 이제 MXF 파일 포맷이 지원됩니다. [지원되는 파일 포맷](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/file-format-support.html#video-formats)을 참조하십시오.
@@ -340,7 +340,7 @@ Experience Manager의 새로운 기능, 수정 내용 및 업데이트. 안정�
 | 2021년 1월 8일 | [Adobe Cloud Manager 환경](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/environments.html) | 비디오 | Cloud Manager 환경은 Experience Manager Author, Experience Manager Publish 및 Dispatcher 서비스로 구성됩니다. 서로 다른 환경이 역할을 지원하며 서로 다른 CI/CD 파이프라인을 사용하여 관여할 수 있습니다. Cloud Manager 환경에는 일반적으로 하나의 운영 환경, 하나의 준비 환경 및 하나의 개발 환경이 있습니다. |
 | 2021년 1월 8일 | [헤드리스 GraphQL 개요](https://internal.adobedemo.com/content/demo-hub/ko-KR/demos/internal/aem-headless-graphql.html) | 데모 | Experience Manager의 GraphQL API는 Experience Manager 콘텐츠 조각의 콘텐츠를 다운스트림 애플리케이션에 노출합니다. GraphQL API는 헤드리스 및 하이브리드 사용 사례에서 모두 사용할 수 있습니다. |
 | 2021년 1월 8일 | [Adobe Cloud Manager 프로그램](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/programs.html) | 비디오 | Cloud Manager 프로그램은 논리적 비즈니스 이니셔티브를 지원하는 일련의 Experience Manager 환경을 나타내며, 일반적으로 구매한 SLA(Service Level Agreement)에 해당합니다. |
-| 2021년 1월 8일 | [토큰 기반 인증](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/overview.html?lang=ko-KR#authentication) | 비디오 | Cloud Manager 프로그램은 논리적 비즈니스 이니셔티브를 지원하는 일련의 Experience Manager 환경을 나타내며, 일반적으로 구매한 SLA(Service Level Agreement)에 해당합니다. |
+| 2021년 1월 8일 | [토큰 기반 인증](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/overview.html?lang=en#authentication) | 비디오 | Cloud Manager 프로그램은 논리적 비즈니스 이니셔티브를 지원하는 일련의 Experience Manager 환경을 나타내며, 일반적으로 구매한 SLA(Service Level Agreement)에 해당합니다. |
 | 2021년 1월 8일 | [일괄 가져오기](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/bulk-import.html) | 비디오 | Experience Manager as a Cloud Service의 일괄 가져오기 도구를 사용하면 관리자가 클라우드 스토리지(Azure Blob Storage 또는 Amazon S3)에서 에셋을 안전하고 효율적으로 가져올 수 있습니다. |
 
 ### Experience Manager용 기타 도움말 리소스
@@ -383,8 +383,8 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 ### 도움말 리소스
 
-* Adobe Campaign Standard: [도움말 센터](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/campaign-standard-home.html) - [릴리스 정보](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/release-notes/release-notes.html) - [사용 방법 비디오](https://docs.adobe.com/content/help/ko-KR/campaign-learn/campaign-standard-tutorials/overview.html) - [릴리스 계획](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/release-notes/release-planning.html) [- 최신 설명서 업데이트](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/documentation-updates.html)
-* Adobe Campaign Classic: [도움말 센터](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/campaign-classic-home.html) - [릴리스 정보](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/release-notes/latest-release.html) - [사용 방법 비디오](https://docs.adobe.com/content/help/ko-KR/campaign-learn/campaign-classic-tutorials/overview.html)- [최신 설명서 업데이트](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/documentation-updates.html)
+* Adobe Campaign Standard: [도움말 센터](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/campaign-standard-home.html) - [릴리스 정보](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [사용 방법 비디오](https://docs.adobe.com/content/help/ko-KR/campaign-learn/campaign-standard-tutorials/overview.html) - [릴리스 계획](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/release-notes/release-planning.html) [- 최신 설명서 업데이트](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/documentation-updates.html)
+* Adobe Campaign Classic: [도움말 센터](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/campaign-classic-home.html) - [릴리스 정보](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html) - [사용 방법 비디오](https://docs.adobe.com/content/help/ko-KR/campaign-learn/campaign-classic-tutorials/overview.html)- [최신 설명서 업데이트](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/documentation-updates.html)
 * Adobe Campaign 제어판: [설명서](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html) - [릴리스 정보](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html) - [Campaign Standard](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html)/[Campaign Classic](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html) 방법 비디오
 
 ## ![아이콘](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
