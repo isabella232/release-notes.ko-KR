@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 336fa0b2b5b27060bcdb6590ba8e5795c2dbbf8f
+source-git-commit: f981d08b9a7200776706028b0408bd94a1e5e246
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 93%
+source-wordcount: '1346'
+ht-degree: 92%
 
 ---
 
@@ -97,7 +97,7 @@ Adobe [!UICONTROL Experience Platform]으로 모든 개인의 요구 사항을 �
 
 #### [!UICONTROL Journey Orchestration]을 위한 추가 리소스
 
-[설명서](https://docs.adobe.com/content/help/ko-KR/journeys/using/journey-orchestration-home.html) - [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/journeys/using/release-notes/release-notes.html) - [방법 비디오](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
+[설명서](https://docs.adobe.com/content/help/ko-KR/journeys/using/journey-orchestration-home.html) - [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/journeys/using/release-notes/release-notes.html) - [방법 비디오](https://docs.adobe.com/content/help/ko-KR/platform-learn/tutorials/journey-orchestration/introduction.html)
 
 ### [!UICONTROL Mobile Services] 및 [!UICONTROL Mobile SDK] {#mobile}
 
@@ -161,7 +161,7 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 * 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
 * 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
 
-다음 플랫폼에 대한 [AppMeasurement 릴리스 내역](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)이 필요하면 AppMeasurement 릴리스 내역을 참조하십시오.
+다음 플랫폼에 대한 [AppMeasurement 릴리스 내역](https://experienceleague.corp.adobe.com/docs/analytics/implementation/appmeasurement-updates.html)이 필요하면 AppMeasurement 릴리스 내역을 참조하십시오.
 
 * [!DNL JavaScript]
 * [!DNL iOS]
@@ -191,7 +191,7 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 
 ## Experience Manager {#aem}
 
-Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니다. 안정성, 보안 및 성능 향상을 위해 최신 패치를 배포하려는 경우 온-프레미스 배포를 사용하는 것이 좋습니다.
+Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니다. 안정성, 보안 및 성능 향상을 위해 최신 패치를 배포하려는 경우 온프레미스 배포를 사용하는 것이 좋습니다.
 
 ### 제품 릴리스
 
