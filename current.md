@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 9bf1dccf7e049c290e762410eb56a3f2c040c036
+source-git-commit: bce06efc7248df1f1929838681e3fcf5adb8ebbd
 workflow-type: tm+mt
-source-wordcount: '5917'
-ht-degree: 37%
+source-wordcount: '6109'
+ht-degree: 36%
 
 ---
 
@@ -229,7 +229,15 @@ AEM 6.4, 서비스 팩 8, 누적 수정 팩 4(2021년 2월 25일 6.4.8.4 릴리�
       * 이제 기업은 Brand Portal을 사용하여 에셋을 소스를 만들 수 있습니다. 자산 소싱 기능은 브랜드 포털을 사용하여 고객이 에이전시 사용자와 교류하여 새로운 마케팅 캠페인, 사진 촬영 및 프로젝트를 위한 자산을 찾을 수 있도록 도와줍니다. 브랜드 포털 안내서의 [자산 소싱 개요](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=en)를 참조하십시오.
       * 이제 브랜드 포털 사용량 보고서에 활성 사용자만 표시됩니다. 비활성 사용자는 지금 표시되지 않습니다. 활성 사용자는 Admin Console의 제품 프로필에 계정을 할당받은 사용자입니다. 브랜드 포털 안내서의 [보고서 작업](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/admin-tools/brand-portal-reports.html?lang=en)을 참조하십시오.
       * 브랜드 포털에서 폴더, 컬렉션 등을 다운로드할 때 각 자산에 대해 별도의 폴더를 만들 수 있는 새로운 다운로드 설정이 도입되었습니다. 브랜드 포털 안내서의 **브랜드 포털에서 자산 다운로드**&#x200B;의 [자산 다운로드](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=en)를 참조하십시오.
-   * **Experience Manager Commerce as a Cloud Service**
+   * **Cloud Service으로 Forms Experience Manager**
+
+      AEM Forms을 사용하면 여러 조직에서 수년간 탁월한 온보드 및 등록 경험을 제공할 수 있습니다. 이러한 경험을 통해 조직은 리드를 실제 매출로 전환하고 캡처한 고객 데이터를 처리하며 고객 프로파일을 기반으로 반응형 경험을 제공하는 등 다양한 이점을 얻을 수 있습니다. 이제 AEM Forms은 클라우드 서비스로 제공됩니다.
+
+      AEM Forms을 Cloud Service으로 사용하여 디지털 양식을 만들고, 양식을 기존 데이터 소스에 연결하고, 양식을 Adobe Sign과 통합하여 양식에 전자 서명을 추가하고, 기록 문서(DoR)를 생성하여 채워진 양식을 PDF 파일로 보관할 수 있습니다. 또한 이 서비스를 사용하여 기존 PDF forms을 디지털 양식으로 변환할 수도 있습니다. 표준 AEM Forms 기능 외에도 이 서비스는 로드를 기준으로 자동 크기 조정, 업그레이드에 대한 다운타임 없음, 클라우드 기본 개발 환경 등 클라우드 기본 기능과 같은 다양한 기능을 제공합니다. [이 블로그 게시물](https://blog.adobe.com/en/publish/2021/03/11/experience-manager-forms-as-a-cloud-service.html)에서 서비스의 추가 기능과 기능에 대해 알아볼 수 있습니다.
+
+      Cloud Service의 GA(General Availability) 날짜는 3월 25일입니다. 데모 또는 서비스 등록을 위해 Adobe 담당자에게 문의할 수 있습니다.
+
+   * **Cloud Service의 Experience Manager 상거래**
 
       * 제품 경험 관리:경험 조각으로 제품 카탈로그 페이지를 개별적으로 보완합니다.
       * 연결된 콘텐츠로 빠르게 이동하는 작업을 비롯한 연결된 자산 및 경험 조각을 보여주는 확장된 제품 콘솔 속성입니다.
