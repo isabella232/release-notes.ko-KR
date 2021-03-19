@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 35b3735f74ec51bcdb850bbb5b03df823c9e0f38
+source-git-commit: cbad4628dc16c773db0d9985b9ab5b5ac2cdd360
 workflow-type: tm+mt
-source-wordcount: '5843'
+source-wordcount: '5857'
 ht-degree: 38%
 
 ---
@@ -224,7 +224,7 @@ AEM 6.4, 서비스 팩 8, 누적 수정 팩 4(2021년 2월 25일 6.4.8.4 릴리�
       * [Experience Manager에서 외부 SPA 편집](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/hybrid/editing-external-spa.html?lang=en):독립 실행형 단일 페이지 애플리케이션을 Experience Manager 인스턴스에 업로드하고 편집 가능한 컨텐츠 섹션을 추가하고 작성을 활성화하는 기능을 추가했습니다.
    * **Experience Manager Assets as a Cloud Service**
 
-      * Experience Manager 자산은 Cloud Service으로 사전 구성된 브랜드 포털 인스턴스를 가질 수 있습니다. Cloud Manager 사용자는 Experience Manager 자산에 있는 브랜드 포털을 Cloud Service으로 활성화할 수 있습니다.
+      * Experience Manager 자산은 Cloud Service으로 사전 구성된 브랜드 포털 인스턴스를 가질 수 있습니다. Cloud Manager 사용자는 Experience Manager 자산에 있는 브랜드 포털을 Cloud Service으로 활성화할 수 있습니다. [브랜드 포털](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html)을 사용하여 브랜드 포털 활성화를 참조하십시오.
       * 이제 기업은 Brand Portal을 사용하여 에셋을 소스를 만들 수 있습니다. 자산 소싱 기능은 브랜드 포털을 사용하여 고객이 에이전시 사용자와 교류하여 새로운 마케팅 캠페인, 사진 촬영 및 프로젝트를 위한 자산을 찾을 수 있도록 도와줍니다. 브랜드 포털 안내서의 [자산 소싱 개요](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=en)를 참조하십시오.
       * 이제 브랜드 포털 사용량 보고서에 활성 사용자만 표시됩니다. 비활성 사용자는 지금 표시되지 않습니다. 활성 사용자는 Admin Console의 제품 프로필에 계정을 할당받은 사용자입니다. 브랜드 포털 안내서의 [보고서 작업](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/admin-tools/brand-portal-reports.html?lang=en)을 참조하십시오.
       * 브랜드 포털에서 폴더, 컬렉션 등을 다운로드할 때 각 자산에 대해 별도의 폴더를 만들 수 있는 새로운 다운로드 설정이 도입되었습니다. 브랜드 포털 안내서의 **브랜드 포털에서 자산 다운로드**&#x200B;의 [자산 다운로드](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=en)를 참조하십시오.
