@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 66a8238a7fc0a9b397bfab74b1b36d90be7ad842
+source-git-commit: da0cc40fb828e5f64d832c2e4e5dba931d2f2e99
 workflow-type: tm+mt
-source-wordcount: '6141'
+source-wordcount: '6120'
 ht-degree: 36%
 
 ---
@@ -231,11 +231,12 @@ AEM 6.4, 서비스 팩 8, 누적 수정 팩 4(2021년 2월 25일 6.4.8.4 릴리�
       * 브랜드 포털에서 폴더, 컬렉션 등을 다운로드할 때 각 자산에 대해 별도의 폴더를 만들 수 있는 새로운 다운로드 설정이 도입되었습니다. 브랜드 포털 안내서의 **브랜드 포털에서 자산 다운로드**&#x200B;의 [자산 다운로드](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=en)를 참조하십시오.
    * **Cloud Service으로 Forms Experience Manager**
 
-      AEM Forms을 사용하면 여러 조직에서 수년간 탁월한 온보드 및 등록 경험을 제공할 수 있습니다. 이러한 경험을 통해 조직은 리드를 실제 매출로 전환하고 캡처한 고객 데이터를 처리하며 고객 프로파일을 기반으로 반응형 경험을 제공하는 등 다양한 이점을 얻을 수 있습니다. 이제 AEM Forms은 클라우드 서비스로 제공됩니다.
+      AEM Forms은 많은 조직에서 수년간 탁월한 온보딩 및 등록 경험을 제공할 수 있도록 도움을 주었습니다. 이러한 경험을 통해 기업은 리드를 매출로 전환하고 캡처한 고객 데이터를 처리하며 고객 프로파일을 기반으로 반응형 경험을 제공하는 등 다양한 이점을 얻을 수 있습니다. 이제 AEM Forms은 클라우드 서비스로 제공됩니다.
 
-      AEM Forms을 Cloud Service으로 사용하여 디지털 양식을 만들고, 양식을 기존 데이터 소스에 연결하고, 양식을 Adobe Sign과 통합하여 양식에 전자 서명을 추가하고, 기록 문서(DoR)를 생성하여 채워진 양식을 PDF 파일로 보관할 수 있습니다. 또한 이 서비스를 사용하여 기존 PDF forms을 디지털 양식으로 변환할 수도 있습니다. 표준 AEM Forms 기능 외에도 이 서비스는 로드를 기준으로 자동 크기 조정, 업그레이드에 대한 다운타임 없음, 클라우드 기본 개발 환경 등 클라우드 기본 기능과 같은 다양한 기능을 제공합니다. [이 블로그 게시물](https://blog.adobe.com/en/publish/2021/03/11/experience-manager-forms-as-a-cloud-service.html)에서 서비스의 추가 기능과 기능에 대해 알아볼 수 있습니다.
+      AEM Forms을 Cloud Service으로 사용하여 디지털 양식을 만들고, 양식을 기존 데이터 소스에 연결하고, 양식을 Adobe Sign과 통합하여 양식에 전자 서명을 추가하고, 기록 문서(DoR)를 생성하여 제출한 양식을 PDF 파일로 보관할 수 있습니다. 또한 서비스는 기존 PDF forms을 디지털 양식으로 변환할 수 있습니다. 표준 AEM Forms 기능 외에도 자동 크기 조절, 업그레이드 중단 시간 제로, 클라우드 기본 개발 환경과 같은 클라우드 기본 기능을 제공합니다. Cloud Service의 AEM Forms 기능 및 기능에 대해 알아보려면 [이 블로그 게시물](https://blog.adobe.com/en/publish/2021/03/11/experience-manager-forms-as-a-cloud-service.html)을 읽어 보십시오.
 
-      Cloud Service의 GA(General Availability) 날짜는 3월 25일입니다. 데모 또는 서비스 등록을 위해 Adobe 담당자에게 문의할 수 있습니다.
+      데모 또는 서비스 등록을 위해 Adobe 담당자에게 문의할 수 있습니다.
+
 
    * **Cloud Service의 Experience Manager 상거래**
 
