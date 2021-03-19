@@ -1,24 +1,25 @@
 ---
 cloud: experience-cloud
 product: Experience Cloud
-user-guide-title: Experience Cloud 릴리스 정보
+user-guide-title: Adobe Experience Cloud 릴리스 정보
 breadcrumb-title: 릴리스 정보
 user-guide-description: Adobe Experience Cloud 및 Experience Platform의 새로운 기능, 수정 사항 및 중요 공지 사항에 대해 알아봅니다.
 user-guide-url: https://www.adobe.com
 translation-type: tm+mt
-source-git-commit: 8969be7e515af56d4cc1729377d1f6ebe33369f8
+source-git-commit: 80757abb3aea503ca34100807bc8542b15883c08
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 100%
+source-wordcount: '65'
+ht-degree: 90%
 
 ---
 
 
-# Adobe Experience Cloud 릴리스 정보{#experience-cloud}
+# Adobe Experience Cloud {#experience-cloud}의 새로운 기능
 
 + [최신 릴리스 정보](current.md)
 + 이전 릴리스 정보{#previous}
    + 2021 {#2021}
+      + [2021년 2월](c-legacy-releases/2021/02182021.md)
       + [2021년 1월](c-legacy-releases/2021/01142021.md)
    + 2020 {#2020}
       + [2020년 11월](c-legacy-releases/2020/10292020.md)
@@ -45,5 +46,4 @@ ht-degree: 100%
       + [2019년 2월](c-legacy-releases/2019/02072019.md)
       + [2019년 1월](c-legacy-releases/2019/01172019.md)
    + 2018년 및 이전 {#legacy-rns}
-      + 2018년 및 이전 {#2018-earlier}
-         + [2014년 및 이전](c-legacy-releases/2018-earlier.md)
+      + [2018년 및 이전](c-legacy-releases/2018-earlier.md)
