@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: bce06efc7248df1f1929838681e3fcf5adb8ebbd
+source-git-commit: 66a8238a7fc0a9b397bfab74b1b36d90be7ad842
 workflow-type: tm+mt
-source-wordcount: '6109'
+source-wordcount: '6141'
 ht-degree: 36%
 
 ---
@@ -55,7 +55,7 @@ Adobe 시스템 상태에 대한 최신 업데이트는 2020년 5월 21일(2020�
 
 ## ![아이콘](/assets/ec_appicon_24.png) Experience Cloud UI 구성 요소, 서비스 및 관리  {#ecloud}
 
-업데이트되지 않았습니다.
+**통합 검색:** 현재 Experience Platform에 사용할 수 있는 통합 검색이 이제 Experience Platform 사용자에 대한 소스 및 대상에 대한 검색을 지원합니다. 이 기능을 사용하여 세그먼트, 데이터 집합, 스키마, 소스 및 대상을 검색할 수 있습니다.
 
 ## ![아이콘](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
