@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: cbad4628dc16c773db0d9985b9ab5b5ac2cdd360
+source-git-commit: 9bf1dccf7e049c290e762410eb56a3f2c040c036
 workflow-type: tm+mt
-source-wordcount: '5857'
-ht-degree: 38%
+source-wordcount: '5917'
+ht-degree: 37%
 
 ---
 
@@ -117,26 +117,27 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 | ----------- | ---------- | ------- |
 | 데이터 복구 API 업데이트 | 2021년 3월 25일 | 데이터 복구 API는 이제 [!UICONTROL 페이지] 및 [!UICONTROL IP 주소], 모바일 및 비디오 변수, 사용자 지정 prop 및 eVar를 비롯한 표준 변수를 지원합니다.  변수 내의 값을 삭제하거나 새 값을 설정할 수 있습니다. 이제 API에서 URL, 쿼리 문자열, 기호 등에 대한 필터링을 제공합니다. |
 | Analysis Workspace:[!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] | 2021년 3월 25일 | [!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] 페이지에서는 사용자의 [!UICONTROL Analysis Workspace] 설정 및 관련 구성 요소를 관리할 수 있습니다. [!UICONTROL 사용자 ] 환경 설정은 모든 새 프로젝트 및 패널에 적용됩니다. **참고:** 다음 설정은  [!UICONTROL 사용자 환경 설정 페이지로 ] 이동되었습니다.<ul><li>보고서 설정:천 단위 구분 문자(이제 &quot;Number 형식&quot;이라고 함)</li><li>보고서 설정:CSV 구분 기호</li><li>작업 영역 프로젝트:도움말 > 팁 활성화</li><li>작업 영역 프로젝트:빈 패널 &quot;이 패널을 사용하여 새 프로젝트 시작&quot; 옵션</li></ul> |
-| Analysis Workspace:막대 그래프 스마트 버킷 예측 | 2021년 3월 25일 | 히스토그램 스마트 버킷 예측은 데이터 스프레드에 맞는 정확한 폭과 버킷 수를 자동으로 식별하여 높은 카디널리티 지표 히스토그램을 활용할 수 있도록 도와줍니다. 낮은 기수 지표의 경우 시각화는 예전과 동일하게 동작합니다. |
+| Analysis Workspace:[!UICONTROL 막대 그래프] 스마트 버킷 예측 | 2021년 3월 25일 | [!UICONTROL 막대 그래프] 스마트 버킷 예측은 데이터 스프레드에 맞는 정확한 폭과 버킷 수를 자동으로 식별하여 높은 카디널리티 지표 막대 그래프에 도움이 됩니다. 낮은 기수 지표의 경우 시각화는 예전과 동일하게 동작합니다. |
+| [!UICONTROL 사용 ] 로그 API | 2021년 3월 25일 | 이것은 [!UICONTROL 관리] > [!UICONTROL 로그] > [!UICONTROL 사용 및 액세스 로그]에서 사용할 수 있는 동일한 사용 로그 데이터에 프로그래밍 방식으로 액세스할 수 있는 새로운 v2.0 분석 API입니다. 인증, 스키마 및 샘플 응답에 대한 자세한 내용은 [여기](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md)에서 확인할 수 있습니다. |
 
 ### Customer Journey Analytics의 새로운 기능 {#cust-journey}
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ----- |
-| Analytics Dashboard 지원 | 2021년 3월 25일 | CJA는 이제 Mobile Scorecard Builder 및 모바일 앱을 지원합니다. 이를 통해 경영진과 비즈니스 사용자는 이미 Adobe Analytics에 사용하고 있는 것과 동일한 앱을 사용하여 CJA 데이터의 크로스 채널 KPI를 볼 수 있습니다. |
+| [!UICONTROL Adobe Analytics 대시보드 지원] | 2021년 3월 25일 | [!UICONTROL Customer Journey Analytics] (CJA)는 이제  [!UICONTROL Adobe Analytics 대시보드 Scorecard Builder ] 및 모바일 앱을 지원합니다. 이를 통해 경영진과 비즈니스 사용자는 Adobe Analytics에 이미 사용 중일 수 있는 동일한 앱을 사용하여 CJA 데이터를 기반으로 한 크로스채널 KPI를 볼 수 있습니다. |
 | Analysis Workspace:[!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] | 2021년 3월 25일 | [!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] 페이지에서는 사용자의 [!UICONTROL Analysis Workspace] 설정 및 관련 구성 요소를 관리할 수 있습니다. [!UICONTROL 사용자 ] 환경 설정은 모든 새 프로젝트 및 패널에 적용됩니다. **참고:** 다음 설정은  [!UICONTROL 사용자 환경 설정 페이지로 ] 이동되었습니다.<ul><li>작업 영역 프로젝트:도움말 > 팁 활성화</li><li>작업 영역 프로젝트:빈 패널 &quot;이 패널을 사용하여 새 프로젝트 시작&quot; 옵션</li></ul> |
-| Analysis Workspace:막대 그래프 스마트 버킷 예측 | 2021년 3월 25일 | 히스토그램 스마트 버킷 예측은 데이터 스프레드에 맞는 정확한 폭과 버킷 수를 자동으로 식별하여 높은 카디널리티 지표 히스토그램을 활용할 수 있도록 도와줍니다. 낮은 기수 지표의 경우 시각화는 예전과 동일하게 동작합니다. |
+| Analysis Workspace:[!UICONTROL 막대 그래프] 스마트 버킷 예측 | 2021년 3월 25일 | [!UICONTROL 막대 그래프] 스마트 버킷 예측은 데이터 스프레드에 맞는 정확한 폭과 버킷 수를 자동으로 식별하여 높은 카디널리티 지표 막대 그래프에 도움이 됩니다. 낮은 기수 지표의 경우 시각화는 예전과 동일하게 동작합니다. |
 
 ### Adobe Analytics의 수정 사항 {#aa-fixes}
 
 * 세그먼트의 새 소유자를 편집하고 저장한 후 이 새 소유자가 세그먼트 UI에 반영되지 않는 문제가 해결되었습니다. (AN-234502)AN-250970;AN-250286)
 * 앱 보고서 세트가 기본 서버 호출과 모바일 기본 서버 호출을 모두 소비하는 문제를 해결했습니다. (AN-244029)
-* 작업 공간 프로젝트를 열 때 UI 응답 시간이 느려지는 문제를 수정했습니다. (AN-242553)
-* 최신 버전으로 업그레이드한 후 Report Builder에 로그인할 수 없는 문제가 해결되었습니다. (AN-248825)
-* 관리자가 아닌 사용자에 대한 사용자 권한 문제를 수정했습니다.Admin Console에서 해당 프로필 중 적어도 하나에 추가되는 한 사용자는 권한이 있어야 합니다. 프로파일에 사용자를 추가하는 것은 자신이 소유한 권한에만 추가되어야 하며 다른 제품 프로필을 통해 이미 권한이 부여된 모든 것을 제거해서는 안됩니다. (AN-242723)
-* 데이터 피드의 언어 인코딩 문제를 수정했습니다. (AN-249862)
-* 사용자가 공유 작업 공간 프로젝트에 액세스할 수 없는 문제가 해결되었습니다. (AN-247814)
-* 경고 미리 보기가 트리거된 경고 수와 일치하지 않는 문제를 수정했습니다. (AN-249392)AN-250804)
+* [!UICONTROL 작업 공간] 프로젝트를 열 때 UI 응답 시간이 느려지는 문제를 수정했습니다. (AN-242553)
+* 최신 버전으로 업그레이드한 후 [!UICONTROL Report Builder]에 로그인할 수 없는 문제가 해결되었습니다. (AN-248825)
+* 관리자가 아닌 사용자에 대한 사용자 권한 문제를 수정했습니다.사용자는 [!UICONTROL Admin Console]에서 해당 프로필 중 적어도 하나에 추가되는 한 권한이 있어야 합니다. 프로파일에 사용자를 추가하는 것은 자신이 소유한 권한에만 추가되어야 하며 다른 제품 프로필을 통해 이미 권한이 부여된 모든 것을 제거해서는 안됩니다. (AN-242723)
+* [!UICONTROL 데이터 피드]의 언어 인코딩 문제를 수정했습니다. (AN-249862)
+* 사용자가 공유 [!UICONTROL 작업 공간] 프로젝트에 액세스할 수 없는 문제가 해결되었습니다. (AN-247814)
+* [!UICONTROL 경고 미리 보기]가 트리거된 [!UICONTROL 경고]의 수와 일치하지 않는 문제를 수정했습니다. (AN-249392)AN-250804)
 
 #### 추가 Adobe Analytics 수정 사항
 
@@ -146,8 +147,8 @@ AN-206099;AN-237460;AN-241803;AN-243735;AN-244081;AN-244615;AN-244687;AN-246832;
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | ----------- | ---------- | ---------- |
-| 동일한 SiteCatalyst VISTA 처리 켜기 | 2021년 3월 17일 | 2021년 6월 17일에 모든 보고서 세트가 [!UICONTROL SiteCatalyst과 동일 처리]을(를) 켜짐으로 설정하도록 업데이트됩니다.  이 변경 사항은 처리 규칙과 일치하도록 데이터를 처리하여 Data Warehouse 보고에 영향을 줍니다.  질문이나 설명은 고객 지원 센터에 문의하십시오. |
-| 전체 프로세싱 데이터 소스 서비스 중단 | 2021년 3월 10일 | Adobe는 향후 전체 프로세싱 데이터 소스에 대한 사용을 중단할 예정입니다. 2021년 3월 25일부터 이 유형의 새로운 가져오기는 더 이상 생성되지 않습니다. 이 유형의 데이터를 가져오려면 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)를 사용해 주십시오. |
+| [!UICONTROL SiteCatalyst VISTA 처리]  = 켜짐 | 2021년 3월 17일 | 2021년 6월 17일에 모든 보고서 세트가 [!UICONTROL SiteCatalyst과 동일 처리]을(를) 켜짐으로 설정하도록 업데이트됩니다.  이 변경 사항은 처리 규칙과 일치하도록 데이터를 처리하여 [!UICONTROL Data Warehouse] 보고에 영향을 줍니다.  질문이나 설명은 Adobe 고객 지원 센터에 문의하십시오. |
+| [!UICONTROL 전체 처리] [!UICONTROL 데이터 소스]의 EOL | 2021년 3월 10일 | Adobe은 앞으로 [!UICONTROL 전체 처리] [!UICONTROL Data Sources]를 사용하지 않을 계획입니다. 2021년 3월 25일부터 이 유형의 새로운 가져오기는 더 이상 생성되지 않습니다. 이 유형의 데이터를 가져오려면 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)를 사용해 주십시오. |
 | Reports &amp; Analytics 랜딩 페이지 옵션 | 2021년 2월 19일 | 2021년 3월 25일에 새로운 Reports &amp; Analytics 대시보드 또는 기타 콘텐츠를 Adobe Analytics 랜딩 페이지로 설정하는 옵션이 제거됩니다. 이전에 Reports &amp; Analytics 페이지를 맞춤형 랜딩 페이지로 설정했다면 [!UICONTROL 사용자 환경 설정]에서 랜딩 페이지를 수정하기 전까지는 계속 작동합니다. |
 | Ad Hoc Analysis 서비스 중단 | 2021년 1월 | [!UICONTROL Ad Hoc Analysis] 서비스는 2021년 3월 1일에 종료되었습니다. 자세한 내용은 [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)를 참조하십시오. |
 | 3개의 Analytics API 서비스에 대한 사용 종료 | 2021년 1월 6일 | 2021년 4월 30일에 다음 Analytics 기존 API 서비스의 사용 수명이 종료되어 서비스가 중단됩니다. 이러한 서비스를 사용하여 구축한 현재 모든 통합은 해당 날짜부터 더 이상 작동하지 않습니다.<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증(OAuth 및 JWT)</li></ul>질문에 대한 답변과 진행 방법에 대한 지침을 제공하는 데 도움이 되도록 [이전 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)를 제공했습니다. 이러한 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 이전 OAuth 계정은 [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics 통합 계정으로 마이그레이션할 수 있으며, 이 계정은 1.4 Analytics API 및 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다. |
