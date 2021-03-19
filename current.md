@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: da0cc40fb828e5f64d832c2e4e5dba931d2f2e99
+source-git-commit: 1cde3fd4f91f53c6f2281b95397257bbcf1f5672
 workflow-type: tm+mt
-source-wordcount: '6120'
+source-wordcount: '6130'
 ht-degree: 36%
 
 ---
@@ -148,7 +148,7 @@ AN-206099;AN-237460;AN-241803;AN-243735;AN-244081;AN-244615;AN-244687;AN-246832;
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | ----------- | ---------- | ---------- |
 | [!UICONTROL SiteCatalyst VISTA 처리]  = 켜짐 | 2021년 3월 17일 | 2021년 6월 17일에 모든 보고서 세트가 [!UICONTROL SiteCatalyst과 동일 처리]을(를) 켜짐으로 설정하도록 업데이트됩니다.  이 변경 사항은 처리 규칙과 일치하도록 데이터를 처리하여 [!UICONTROL Data Warehouse] 보고에 영향을 줍니다.  질문이나 설명은 Adobe 고객 지원 센터에 문의하십시오. |
-| [!UICONTROL 전체 처리] [!UICONTROL 데이터 소스]의 EOL | 2021년 3월 10일 | Adobe은 앞으로 [!UICONTROL 전체 처리] [!UICONTROL Data Sources]를 사용하지 않을 계획입니다. 2021년 3월 25일부터 이 유형의 새로운 가져오기는 더 이상 생성되지 않습니다. 이 유형의 데이터를 가져오려면 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)를 사용해 주십시오. |
+| [!UICONTROL 전체 처리] [!UICONTROL 데이터 소스]의 EOL | 2021년 3월 10일 | Adobe은 앞으로 [!UICONTROL 전체 처리] [!UICONTROL Data Sources]를 사용하지 않을 계획입니다. 2021년 3월 25일부터 이 유형의 새로운 가져오기는 더 이상 생성되지 않습니다. 이 유형의 데이터를 가져오려면 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)를 사용해 주십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html) |
 | Reports &amp; Analytics 랜딩 페이지 옵션 | 2021년 2월 19일 | 2021년 3월 25일에 새로운 Reports &amp; Analytics 대시보드 또는 기타 콘텐츠를 Adobe Analytics 랜딩 페이지로 설정하는 옵션이 제거됩니다. 이전에 Reports &amp; Analytics 페이지를 맞춤형 랜딩 페이지로 설정했다면 [!UICONTROL 사용자 환경 설정]에서 랜딩 페이지를 수정하기 전까지는 계속 작동합니다. |
 | Ad Hoc Analysis 서비스 중단 | 2021년 1월 | [!UICONTROL Ad Hoc Analysis] 서비스는 2021년 3월 1일에 종료되었습니다. 자세한 내용은 [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)를 참조하십시오. |
 | 3개의 Analytics API 서비스에 대한 사용 종료 | 2021년 1월 6일 | 2021년 4월 30일에 다음 Analytics 기존 API 서비스의 사용 수명이 종료되어 서비스가 중단됩니다. 이러한 서비스를 사용하여 구축한 현재 모든 통합은 해당 날짜부터 더 이상 작동하지 않습니다.<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증(OAuth 및 JWT)</li></ul>질문에 대한 답변과 진행 방법에 대한 지침을 제공하는 데 도움이 되도록 [이전 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)를 제공했습니다. 이러한 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 이전 OAuth 계정은 [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics 통합 계정으로 마이그레이션할 수 있으며, 이 계정은 1.4 Analytics API 및 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다. |
