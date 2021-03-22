@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1cde3fd4f91f53c6f2281b95397257bbcf1f5672
+source-git-commit: ebeebdb7c1a534934a0e70c6ab2588a96442192f
 workflow-type: tm+mt
-source-wordcount: '6130'
-ht-degree: 36%
+source-wordcount: '6141'
+ht-degree: 35%
 
 ---
 
@@ -17,17 +17,13 @@ ht-degree: 36%
 
 ![배너](/assets/experience-cloud-banner-3.png)
 
-Experience Cloud 솔루션과 서비스는 매달 업데이트됩니다. 이 페이지는 [!DNL Experience Cloud] 및 Experience Platform의 최신 릴리스 업데이트, 설명서 및 튜토리얼을 찾을 수 있는 중앙 위치입니다. [!DNL Creative Cloud for Enterprise] 및 [!DNL Document Cloud]에 대한 새로운 설명서도 찾을 수 있습니다.
-
->[!IMPORTANT]
->
->이 페이지에는 출시 전 콘텐츠가 포함되어 있으며 릴리스 날짜 이전에 변경될 수 있습니다.
+Experience Cloud 솔루션과 서비스는 매달 업데이트됩니다. 이 페이지는 [!DNL Experience Cloud] 제품 및 서비스에 대한 최신 릴리스 업데이트, 설명서 및 자습서를 찾기 위한 중앙 위치입니다. [!DNL Creative Cloud for Enterprise] 및 [!DNL Document Cloud]에 대한 새로운 설명서도 찾을 수 있습니다.
 
 >[!NOTE]
 >
->월별 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html)를 구독하면 이 페이지의 업데이트에 대한 이메일 알림을 받을 수 있습니다. 이 페이지는 한 달 동안 유지되므로 Adobe 엔터프라이즈 제품 및 Experience League 설명서에 대한 업데이트를 정기적으로 확인하십시오.
+>월별 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html)를 구독하면 이 페이지의 업데이트에 대한 이메일 알림을 받을 수 있습니다. 이 페이지는 한 달 동안 유지되며 릴리스 날짜 전에 변경될 수 있는 컨텐트를 포함할 수 있습니다. Adobe 엔터프라이즈 제품 및 Experience League 설명서에 대한 업데이트를 정기적으로 확인할 수 있습니다.
 
-최신 업데이트: **2021년 3월 19일**
+최신 업데이트: **2021년 3월 22일**
 
 * [Adobe 시스템 상태](#status) (업데이트되지 않음)
 * [Experience Cloud UI 구성 요소, 서비스 및 관리](#ecloud)
@@ -51,7 +47,7 @@ Experience Cloud 솔루션과 서비스는 매달 업데이트됩니다. 이 페
 
 [!UICONTROL Adobe 시스템 상태]는 Adobe 클라우드 제품 및 서비스 중단, 중단 및 유지 관리 이벤트에 대한 자세한 정보, 상태 업데이트 및 이메일 알림을 제공합니다. [status.adobe.com](https://status.adobe.com/)에서 관련 정보를 확인하십시오.
 
-Adobe 시스템 상태에 대한 최신 업데이트는 2020년 5월 21일(2020년 5월 21일)에 있습니다.[](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/previous/2020/05212020.html#status)
+Adobe 시스템 상태에 대한 최신 업데이트는 [Adobe 시스템 상태 - 2020년 5월 21일](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/previous/2020/05212020.html#status)에 있습니다.
 
 ## ![아이콘](/assets/ec_appicon_24.png) Experience Cloud UI 구성 요소, 서비스 및 관리  {#ecloud}
 
@@ -335,7 +331,11 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 최신 기능, 개선 사항 및 수정 사항에 대한 자세한 내용을 살펴보십시오.
 
 * [Campaign Standard 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/release-notes/release-notes.html)
-* [Campaign Classic 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/release-notes/latest-release.html)
+* [Campaign Classic 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/release-notes/latest-release.html).
+
+>[!IMPORTANT]
+>
+>Adobe Campaign Classic에 대한 [필수 구성 업데이트](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/acc-config-updates.html?lang=en)에 대해 알아봅니다.
 
 ### 새로운 Campaign 교육 과정 및 튜토리얼
 
@@ -343,25 +343,25 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 | 게시일 | 이름 | 솔루션 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021년 2월 23일 | [제공 가능성 - 전달을 위한 지표](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/metrics-overview.html) | Campaign Classic/표준 | 중요한 제공 정보 지표를 모니터링하여 평판 문제를 확인하는 방법을 살펴볼 수 있습니다. |
-| 2021년 2월 23일 | [제공 가능성 - 바운스 수](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html) | Campaign Classic/표준 | 다양한 유형의 바운스에 대해 알아보십시오. |
-| 2021년 2월 23일 | [배달 가능성 - 불만 사항](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html) | Campaign Classic/표준 | 사용자가 이메일이 원하지 않거나 예상치 않은 경우 등록되는 불만 사항에 대해 알아봅니다. |
-| 2021년 2월 23일 | [제공 가능성 - 스팸 트랩](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/spam-traps.html) | Campaign Classic/표준 | 다양한 유형의 바운스에 대해 알아보십시오. |
-| 2021년 2월 23일 | [배달 가능성 - 불링 및 차단](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bulking-and-blocking.html) | Campaign Classic/표준 | ISP가 이메일 메시지를 벌크 폴더에 배치하거나 차단하는 이유를 알아봅니다. |
-| 2021년 2월 23일 | [제공 - 전환 프로세스 - 인프라](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html) | Campaign Classic/표준 | 이메일 인프라를 적절하게 구축하는 데 필요한 사항을 알아봅니다. |
-| 2021년 2월 23일 | [전달 가능성 - 참여](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/engagement.html) | Campaign Classic/표준 | 다양한 유형의 참여 및 고객 참여가 전달에 중요한 이유를 살펴볼 수 있습니다. |
-| 2021년 2월 23일 | [제공 - 전환 프로세스:타깃팅 기준](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/targeting-criteria.html) | Campaign Classic/표준 | 참여도가 낮은 고객에게 다가가기 전에 효과적인 신뢰 구축을 위해 높은 신뢰도를 구축하는 방법을 살펴볼 수 있습니다. |
-| 2021년 2월 23일 | [전달 가능성 - 전환 프로세스 - IP 온난화 중 ISP별 고려 사항](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/isp-specific-considerations-during-ip-warming.html) | Campaign Classic/표준 | ISP 공급자가 트래픽을 조회하는 데 사용하는 다양한 규칙 및 방법에 대해 알아봅니다. |
-| 2021년 2월 24일 | [전달 가능성 - 첫 노출 횟수 - 소개](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/introduction.html) | Campaign Classic/표준 | 이러한 영역에서 좋은 첫인상을 심어줌으로써 성공적인 이메일 프로그램을 운영할 수 있는 방법을 살펴볼 수 있습니다. |
-| 2021년 2월 24일 | [제공 - 전환 프로세스:볼륨](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/volume.html) | Campaign Classic/표준 | 볼륨 전송이 이메일 캠페인 전달에 미치는 영향을 파악합니다. |
-| 2021년 2월 24일 | [제공 가능성 - 첫 번째 노출 횟수 - 주소 수집 및 목록 증가](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html) | Campaign Classic/표준 | 새로운 이메일 주소의 가장 적합한 소스를 무엇인지, 고품질의 데이터를 제공하는 방법, 그리고 법적 지침과 잘 부합하는지 알아보십시오. |
-| 2021년 2월 25일 | [제공 가능성 - 첫 노출 횟수 - 환영 이메일](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/welcome-emails.html) | Campaign Classic/표준 | 환영 전략의 핵심 요소를 살펴보십시오. |
-| 2021년 2월 25일 | [제공 - 전환 프로세스:이메일 플랫폼 전환](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html) | Campaign Classic/표준 | 이메일 플랫폼을 전환할 때 원활하게 전환하는 방법을 알아봅니다. |
-| 2021년 2월 26일 | [제공 가능성 - 최적의 전달을 위한 컨텐츠 모범 사례](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html) | Campaign Classic/표준 | 이메일 콘텐츠를 최적화하여 제공하기 위한 팁 |
-| 2021년 2월 26일 | [수신 가능성 - 보낸 사람 영구](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/sender-permanence.html) | Campaign Classic/표준 | 일관된 전송 볼륨을 설정하는 것이 중요한 이유를 알아봅니다. |
-| 2021년 2월 26일 | [제공 - 지속적인 모니터링](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/ongoing-monitoring.html) | Campaign Classic/표준 | 배송 모니터링 시 주의해야 할 문제를 파악합니다. |
-| 2021년 2월 26일 | [전달 가능성 - 실행](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/putting-it-in-practice.html) | Campaign Classic/표준 | 성공을 위한 4가지 핵심 요소. |
-| 2021년 3월 10일 | [리더, 비즈니스 사용자 및 관리자를 위한 제공 우수 사례](https://experienceleague.adobe.com/?recommended=Campaign-U-1-2020.1.deliverability) | Campaign Classic | 주요 전달성 용어, 개념 및 접근 방식을 학습하여 성공적인 마케팅 프로그램을 위한 역량을 확보하십시오. |
+| 2021년 2월 23일 | [제공 가능 - 제공 가능 측정 단위](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/metrics-overview.html) | Campaign Classic/표준 | 주요 전달 가능 메트릭을 모니터링하여 평판 문제를 확인하는 방법을 살펴봅니다. |
+| 2021년 2월 23일 | [제공 가능 - 바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html) | Campaign Classic/표준 | 다양한 유형의 바운스에 대해 알아보십시오. |
+| 2021년 2월 23일 | [택배 - 불만](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html) | Campaign Classic/표준 | 사용자가 전자 메일이 원치 않거나 예기치 않은 경우 등록되는 불만 사항에 대해 알아봅니다. |
+| 2021년 2월 23일 | [제공 - 스팸 트랩](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/spam-traps.html) | Campaign Classic/표준 | 다양한 유형의 바운스에 대해 알아보십시오. |
+| 2021년 2월 23일 | [택배 - 돌출 및 차단](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bulking-and-blocking.html) | Campaign Classic/표준 | ISP가 전자 메일 메시지를 대량 폴더에 배치하거나 차단해야 하는 이유를 알아보십시오. |
+| 2021년 2월 23일 | [제공 - 전환 프로세스 - 인프라](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html) | Campaign Classic/표준 | 전자 메일 인프라를 제대로 구축하는 데 필요한 내용을 알아봅니다. |
+| 2021년 2월 23일 | [제공 가능 - 참여](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/engagement.html) | Campaign Classic/표준 | 다양한 유형의 약혼과 택배가 중요한 이유를 살펴봅니다. |
+| 2021년 2월 23일 | [제공 - 전환 프로세스:대상 지정 조건](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/targeting-criteria.html) | Campaign Classic/표준 | 참여도가 낮은 시청 대상에게 서비스를 제공하기 전에 효과적인 신뢰 구축을 위해 어디에서나 긍정적인 평판을 얻는 방법을 살펴봅니다. |
+| 2021년 2월 23일 | [전달 가능 - 전환 프로세스 - IP 온난화 중 ISP 관련 고려 사항](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/isp-specific-considerations-during-ip-warming.html) | Campaign Classic/표준 | ISP 공급자가 트래픽을 확인하기 위한 다양한 규칙과 방법에 대해 알아보십시오. |
+| 2021년 2월 24일 | [제공 - 첫 노출 - 소개](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/introduction.html) | Campaign Classic/표준 | 이러한 영역에서 첫 인상을 효과적으로 부여하여 성공적인 이메일 프로그램을 실행하기 위해 자신을 설정하는 방법을 살펴봅니다. |
+| 2021년 2월 24일 | [제공 - 전환 프로세스:볼륨](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/volume.html) | Campaign Classic/표준 | 볼륨 전송이 전자 메일 캠페인 전달에 영향을 미치는 방식을 이해합니다. |
+| 2021년 2월 24일 | [제공 가능 - 첫 노출 - 주소 수집 및 목록 증가](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html) | Campaign Classic/표준 | 새로운 이메일 주소에 가장 적합한 소스가 무엇인지, 높은 데이터 품질을 보장하는 방법, 그리고 법적 지침과 부합하는지 알아봅니다. |
+| 2021년 2월 25일 | [배달 가능성 - 첫 노출 - 시작 이메일](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/welcome-emails.html) | Campaign Classic/표준 | 시작 전략의 주요 요소를 살펴봅니다. |
+| 2021년 2월 25일 | [제공 - 전환 프로세스:전자 메일 플랫폼 전환](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html) | Campaign Classic/표준 | 전자 메일 플랫폼을 전환할 때 원활하게 전환하는 방법을 살펴봅니다. |
+| 2021년 2월 26일 | [제공 가능 - 최적의 전달을 위한 컨텐츠 모범 사례](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html) | Campaign Classic/표준 | 배달이 가능하도록 전자 메일의 내용을 최적화하는 팁입니다. |
+| 2021년 2월 26일 | [제공 가능 - 전송자 영구](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/sender-permanence.html) | Campaign Classic/표준 | 일관된 전송 볼륨을 구축하는 것이 중요한 이유를 살펴봅니다. |
+| 2021년 2월 26일 | [제공 - 지속적인 모니터링](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/ongoing-monitoring.html) | Campaign Classic/표준 | 배송을 모니터링할 때 주의해야 할 문제를 파악합니다. |
+| 2021년 2월 26일 | [택배 - 실제 사용](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/putting-it-in-practice.html) | Campaign Classic/표준 | 성공을 위한 네 가지 핵심 요소. |
+| 2021년 3월 10일 | [리더, 비즈니스 사용자 및 관리자를 위한 제공 가능한 모범 사례](https://experienceleague.adobe.com/?recommended=Campaign-U-1-2020.1.deliverability) | Campaign Classic | 주요 전달성 용어, 개념 및 접근 방식을 학습하여 성공적인 마케팅 프로그램을 위한 역량을 확보하십시오. |
 
 ### 도움말 리소스
 
@@ -445,8 +445,8 @@ Creative Cloud Enterprise용의 새로운 튜토리얼.
 
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021년 3월 5일 | [Adobe Stock Vector 일러스트레이션에서 색상 사용자 정의](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/stockoverview/stocktutorials/customizecolors.html) | 비디오 | 멋진 일러스트레이션을 사용하여 프로젝트에 세련된 분위기를 가미할 수 있습니다. Adobe Stock에서 완벽한 벡터를 찾은 다음 Adobe Illustrator을 사용하여 프로젝트의 팔레트에 색상을 일치시킬 수 있습니다. |
-| 2021년 3월 5일 | [Adobe Stock 프레젠테이션 템플릿을 사용자 정의하여 전문가다운 인상을 남길 수 있습니다](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/stockoverview/stocktutorials/presentationtemplate.html) | 비디오 | Adobe Stock의 이미지와 템플릿과 간편해진 특수 효과를 사용하여 멋진 스타일이 적용된 프레젠테이션을 신속하게 만들 수 있습니다. |
+| 2021년 3월 5일 | [Adobe Stock 벡터 일러스트레이션에서 색상 사용자 정의](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/stockoverview/stocktutorials/customizecolors.html) | 비디오 | 멋진 일러스트레이션을 사용하여 모든 프로젝트에 광택을 추가할 수 있습니다. Adobe Stock에서 완벽한 벡터를 찾은 다음 Adobe Illustrator을 사용하여 프로젝트의 팔레트에 색상을 일치시킵니다. |
+| 2021년 3월 5일 | [Adobe Stock 프레젠테이션 템플릿을 사용자 정의하여 전문가적이면서도 시선을 사로잡는 모습을 만들어 보세요.](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/stockoverview/stocktutorials/presentationtemplate.html) | 비디오 | Adobe Stock의 이미지와 템플릿과 간편해진 특수 효과를 사용하여 멋진 스타일이 적용된 프레젠테이션을 신속하게 만들 수 있습니다. |
 | 2021년 3월 5일 | [Adobe Stock 및 XD를 사용하여 로딩 화면 애니메이션 사용자 정의](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/stockoverview/stocktutorials/loadingscreen.html) | 비디오 | Adobe Stock의 벡터 아트웍을 사용자 정의하여 모바일 앱에 사용할 멋진 로딩 화면 애니메이션을 만들 수 있습니다. |
 | 2021년 3월 5일 | [Adobe Stock 이미지를 사용하여 사실적인 합성 사진 만들기](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/stockoverview/stocktutorials/realisticcomposite.html) | 비디오 | 멋진 Adobe Stock 사진 2개를 가져와 소셜 게시물로 다른 사람의 시선을 사로잡을 수 있습니다. |
 | 2021년 3월 5일 | [Adobe Stock을 사용하여 신속하게 영감을 주는 무드 보드 제작](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/stockoverview/stocktutorials/moodboard.html) | 비디오 | 프로젝트 무드 보드를 만들어 팀/고객에게 정보, 아이디어, 시각 효과 및 색상 팔레트를 전달할 수 있습니다. |
