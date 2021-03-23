@@ -179,7 +179,7 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [JavaScript용 AppMeas
 
 ## ![아이콘](/assets/audience-manager.png) Adobe Audience Manager {#aam}
 
-Audience Manager의 수정 사항 및 개선 사항.
+Audience Manager 수정 사항 및 개선 사항.
 
 ### 수정 사항 및 향상된 기능 {#aam-fixes-and-improvements}
 
@@ -225,7 +225,7 @@ AEM 6.5, 서비스 팩 8(2021년 3월 11일 릴리스된 6.5.8.0)은 새로운 �
    * [릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=ko-KR#service-pack)
    * [AEM Forms 릴리스 결과물](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html#forms-updates)
 
-   * **AEM 6.4.8.4**
+* **AEM 6.4.8.4**
 AEM 6.4, 서비스 팩 8, 누적 수정 팩 4(2021년 2월 25일 6.4.8.4 릴리스)는 AEM 6.4, 서비스 팩 8(6.4.8.0), 2020년 3월 이후 여러 가지 내부 및 고객 수정 사항을 포함하는 중요한 업데이트입니다.
    * [릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/cfp-release-notes.html?lang=ko-KR)
    * [AEM Forms 릴리스 결과물](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html#forms-updates)
