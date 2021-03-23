@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c26e0c1775dfdeb00ca99ff2492f58519f55fc43
+source-git-commit: bb6a42b34458a8f1959d4206f546992f4c8e5747
 workflow-type: tm+mt
-source-wordcount: '7052'
-ht-degree: 32%
+source-wordcount: '7120'
+ht-degree: 31%
 
 ---
 
@@ -179,7 +179,7 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [JavaScript용 AppMeas
 
 ## ![아이콘](/assets/audience-manager.png) Adobe Audience Manager {#aam}
 
-AAM의 새로운 기능.
+Audience Manager의 수정 사항 및 개선 사항.
 
 ### 수정 사항 및 향상된 기능 {#aam-fixes-and-improvements}
 
@@ -453,6 +453,11 @@ Adobe Advertising Cloud에 대한 릴리스 정보입니다.
 ## ![아이콘](/assets/document-cloud-24.png) Document Cloud {#doc-cloud}
 
 Adobe Document Cloud용으로 게시된 새로운 비디오, 튜토리얼 또는 교육 과정
+
+| 게시일 | 이름 | 솔루션 | 설명 |
+| -----------| ---------- | ---------- | ---------- |
+| 2021년 2월 25일 | [첫 노출 횟수 - 환영 이메일](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/welcome-emails.html) | 비디오 | 환영 전략의 핵심 요소를 살펴보십시오. |
+| 2021년 2월 25일 | [첫 노출 횟수 - 주소 수집 및 목록 증가](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html) | 비디오 | 새로운 이메일 주소의 가장 적합한 소스를 무엇인지, 고품질의 데이터를 제공하는 방법, 그리고 법적 지침과 잘 부합하는지 알아보십시오. |
 
 Document Cloud 도움말은 다음을 참조하십시오.
 
