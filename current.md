@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: bb6a42b34458a8f1959d4206f546992f4c8e5747
+source-git-commit: b563bfd3582fbbf197dbe3b6590b1f681b7e38cc
 workflow-type: tm+mt
-source-wordcount: '7120'
-ht-degree: 31%
+source-wordcount: '7045'
+ht-degree: 32%
 
 ---
 
@@ -451,13 +451,6 @@ Adobe Advertising Cloud에 대한 릴리스 정보입니다.
 * **Internet Explorer 지원 중단:** 2020년 7월 31일 7월 릴리스부터 Marketo Engage 사용자 인터페이스는 이제 Internet Explorer에서 지원되지 않습니다.
 
 ## ![아이콘](/assets/document-cloud-24.png) Document Cloud {#doc-cloud}
-
-Adobe Document Cloud용으로 게시된 새로운 비디오, 튜토리얼 또는 교육 과정
-
-| 게시일 | 이름 | 솔루션 | 설명 |
-| -----------| ---------- | ---------- | ---------- |
-| 2021년 2월 25일 | [첫 노출 횟수 - 환영 이메일](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/welcome-emails.html) | 비디오 | 환영 전략의 핵심 요소를 살펴보십시오. |
-| 2021년 2월 25일 | [첫 노출 횟수 - 주소 수집 및 목록 증가](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html) | 비디오 | 새로운 이메일 주소의 가장 적합한 소스를 무엇인지, 고품질의 데이터를 제공하는 방법, 그리고 법적 지침과 잘 부합하는지 알아보십시오. |
 
 Document Cloud 도움말은 다음을 참조하십시오.
 
