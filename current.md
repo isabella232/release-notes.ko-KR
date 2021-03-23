@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: ffd0377c6309d206bbb98ddc9c7e74f938ad4081
+source-git-commit: c26e0c1775dfdeb00ca99ff2492f58519f55fc43
 workflow-type: tm+mt
-source-wordcount: '6263'
-ht-degree: 34%
+source-wordcount: '7052'
+ht-degree: 32%
 
 ---
 
@@ -64,6 +64,24 @@ Experience Platform 및 Experience Platform Launch에 대한 릴리스 업데이
 
 Experience Platform 및 서비스를 위해 게시된 새로운 비디오, 튜토리얼 또는 교육 과정
 
+| 게시일 | 이름 | 유형 | 설명 |
+| -----------| ---------- | ---------- | ---------- |
+| 2021년 3월 | [모니터링 대시보드](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/monitoring-dashboard.html) | 비디오 | 모니터링 대시보드를 사용하여 Adobe Experience Platform으로 인제스트되는 데이터를 모니터링하고 추적하는 방법을 알아봅니다. 이 모니터링 대시보드에서는 소스, 데이터 흐름 및 데이터 흐름 실행 수준에서 데이터 호수를 통해 소스 데이터 흐름 및 ID 서비스에 대한 소스 데이터 처리를 하향식으로 볼 수 있으며, 적절한 방식으로 작업 가능한 권고 사항을 제공합니다. |
+| 2021년 3월 | [서버 스트리밍 커넥터를 사용하여 데이터 인제스트](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/streaming-ingestion-source-connector.html) | 비디오 | 이 비디오에서는 클라우드 스토리지 소스에서 플랫폼으로 실시간으로 데이터를 스트리밍하고 고객 참여를 위해 실시간으로 데이터를 사용하는 방법을 보여줍니다. |
+| 2021년 3월 | [데이터 엔지니어를 위한 데이터 통합](https://video.tv.adobe.com/v/331971?quality=12&learn=on) | 비디오 | 데이터 통합 교육 과정 개요. |
+| 2021년 3월 5일 | [데이터 엔지니어를 위한 데이터 통합](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) | 교육 과정 | 여러 소스의 데이터를 Adobe Experience Platform으로 가져오는 방법 등. |
+| 2021년 3월 | [Azure Blob 대상 구성](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/configure-the-azure-blob-destination.html?lang=ko-KR#destinations) | 비디오 | [!UICONTROL 실시간 고객 데이터 플랫폼](실시간 CDP)에서 Azure Blob 저장소 대상을 설정 및 구성하고 구성하는 데 필요한 단계를 이동하는 방법을 알아봅니다. |
+| 2021년 3월 5일 | [마케터를 위한 Offer decisioning 시작하기](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-U-1-2020.1.offerdecisioning) | 교육 과정 | Adobe Experience Platform 위에 구축된 [!UICONTROL Offer decisioning] 응용 프로그램 서비스에 대해 알아보십시오. 이 교육 과정은 고객에게 최상의 제안을 제공하여 매출, 고객 경험 및 충성도를 향상시키고자 하는 마케터를 위해 마련되었습니다. |
+| 2021년 3월 5일 | [API를 통한 스트리밍 데이터 통합](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/streaming-ingestion-http-api.html) | 비디오 | 이 비디오는 HTTP API 끝점을 사용하여 실시간으로 데이터를 Adobe Experience Platform으로 스트리밍하는 방법을 보여줍니다. |
+| 2021년 3월 5일 | [API를 사용하여 데이터 통합 모니터링](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/data-monitoring.html?lang=ko-KR#data-ingestion) | 비디오 | 플랫폼의 UI 및 API를 사용하여 Adobe Experience Platform으로 수집되는 데이터를 모니터링하고 추적하는 방법에 대해 알아봅니다. |
+| 2021년 3월 5일 | [데이터베이스에서 데이터 인제스트](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-databases.html?lang=en#sources) | 비디오 | 이 비디오에서는 원활하고 확장 가능한 방식으로 데이터베이스 소스의 데이터를 일괄 인제스트하는 방법을 Adobe Experience Platform의 실시간 고객 프로필 및 경험 데이터 레이크로 안내합니다. |
+| 2021년 3월 5일 | [Amazon S3에서 데이터 인제스트](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/ingest-data-from-amazon-s3.html) | 비디오 | 이 비디오에서는 원활하고 확장 가능한 방식으로 클라우드 스토리지 서비스의 데이터를 Adobe Experience Platform 실시간 고객 프로필 및 데이터 레이크로 손쉽게 일괄적으로 인제스트하는 방법을 보여줍니다. |
+| 2021년 3월 5일 | [Salesforce CRM의 데이터 인제스트](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/ingest-data-from-salesforce-crm.html) | 비디오 | 이 비디오에서는 원활하고 확장 가능한 방식으로 CRM 소스의 데이터를 Adobe Experience Platform의 실시간 고객 프로필 및 데이터 레이크로 손쉽게 일괄처리하는 방법을 보여줍니다. |
+| 2021년 3월 5일 | [Adobe Analytics에서 데이터 인제스트](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html) | 비디오 | Adobe Analytics Source 커넥터를 사용하면 Adobe Analytics의 실시간 고객 프로필 및 경험 데이터 레이크로 데이터를 매끄럽고 확장 가능한 방식으로 손쉽게 스트리밍할 수 있습니다. |
+| 2021년 3월 5일 | [소스 커넥터 이해](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/overview.html?lang=en#sources) | 비디오 | 이 비디오는 Experience Platform의 소스 또는 소스 커넥터에 대한 개요를 제공합니다. |
+| 2021년 3월 5일 | [Adobe IO 콘솔 내보내기 Postman 세부 정보](https://experienceleague.adobe.com/docs/platform-learn/tutorials/apis/postman.html) | 비디오 | Experience Platform API를 인증하고 액세스하는 방법을 알아봅니다. |
+| 2021년 3월 5일 | [데이터 통합 이해](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html#data-ingestion) | 비디오 | 실시간 고객 프로파일을 관리할 수 있는 확장 가능한 개방형 플랫폼으로 데이터를 통합할 수 있는 Experience Platform의 데이터 통합 기능에 대해 알아보십시오. |
+
 ## ![아이콘](/assets/experience_platform_appicon_24.png) Journey Orchestration {#journey-orch}
 
 Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실시간 지능적으로 예측하여 경험 채널에서 규모에 맞게 고객 여정을 조정할 수 있습니다.
@@ -78,7 +96,7 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021년 3월 16일 | [프로필 작업 업데이트](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/update-profile-action.html?lang=en#building-a-journey) | 비디오 | 이벤트, 데이터 소스 또는 특정 값을 사용하여 기존 Adobe Experience Platform 프로필을 업데이트하는 방법을 알아봅니다. |
+| 2021년 3월 16일 | [프로필 작업 업데이트](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/update-profile-action.html?lang=en#building-a-journey) | 비디오 | 이벤트, 데이터 소스 또는 특정 값을 사용하여 기존 Experience Platform 프로필을 업데이트하는 방법을 알아봅니다. |
 
 ### Journey Orchestration을 위한 추가 리소스
 
@@ -104,7 +122,6 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 * [Customer Journey Analytics의 새로운 기능](#cust-journey)
 * [Adobe Analytics의 수정 사항](#aa-fixes)
 * [Analytics 관리자에 대한 중요 공지](#aa-notices)
-* [Analytics 교육 과정 및 튜토리얼](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
 ### Adobe Analytics의 새로운 기능 {#aa-features}
@@ -112,18 +129,18 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ------- |
 | 데이터 복구 API 업데이트 | 2021년 3월 25일 | 데이터 복구 API는 이제 [!UICONTROL 페이지] 및 [!UICONTROL IP 주소], 모바일 및 비디오 변수, 사용자 지정 prop 및 eVar를 비롯한 표준 변수를 지원합니다.  변수 내의 값을 삭제하거나 새 값을 설정할 수 있습니다. 이제 API에서 URL, 쿼리 문자열, 기호 등에 대한 필터링을 제공합니다. |
-| Analysis Workspace:[!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] | 2021년 3월 25일 | [!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] 페이지에서는 사용자의 [!UICONTROL Analysis Workspace] 설정 및 관련 구성 요소를 관리할 수 있습니다. [!UICONTROL 사용자 ] 환경 설정은 모든 새 프로젝트 및 패널에 적용됩니다. **참고:** 다음 설정은  [!UICONTROL 사용자 환경 설정 페이지로 ] 이동되었습니다.<ul><li>보고서 설정:천 단위 구분 문자(이제 &quot;Number 형식&quot;이라고 함)</li><li>보고서 설정:CSV 구분 기호</li><li>작업 영역 프로젝트:도움말 > 팁 활성화</li><li>작업 영역 프로젝트:빈 패널 &quot;이 패널을 사용하여 새 프로젝트 시작&quot; 옵션</li></ul> |
-| Analysis Workspace:[!UICONTROL 막대 그래프] 스마트 버킷 예측 | 2021년 3월 25일 | [!UICONTROL 막대 그래프] 스마트 버킷 예측은 데이터 스프레드에 맞는 정확한 폭과 버킷 수를 자동으로 식별하여 높은 카디널리티 지표 막대 그래프에 도움이 됩니다. 낮은 기수 지표의 경우 시각화는 예전과 동일하게 동작합니다. |
-| [!UICONTROL 사용 ] 로그 API | 2021년 3월 25일 | 이것은 [!UICONTROL 관리] > [!UICONTROL 로그] > [!UICONTROL 사용 및 액세스 로그]에서 사용할 수 있는 동일한 사용 로그 데이터에 프로그래밍 방식으로 액세스할 수 있는 새로운 v2.0 분석 API입니다. 인증, 스키마 및 샘플 응답에 대한 자세한 내용은 [여기](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md)에서 확인할 수 있습니다. |
-| 사용자 지정 날짜 범위에 대한 분석 대시보드 지원 | 2021년 3월 25일 | 스코어카드 작성자는 사용자 지정 날짜 범위를 만들고 모바일 스코어카드 프로젝트에 적용할 수 있습니다. 작성자는 익숙한 작업 공간과 모바일 날짜 범위 사전 설정 중에서 선택하거나 사용자 정의 날짜 범위를 만들 수 있습니다. 이 기능은 3월 25일부터 시작됩니다. |
+| Analysis Workspace:[!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] | 2021년 3월 25일 | [!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] 페이지에서는 사용자의 [!UICONTROL Analysis Workspace] 설정 및 관련 구성 요소를 관리할 수 있습니다. [!UICONTROL 사용자 ] 환경 설정은 모든 새 프로젝트 및 패널에 적용됩니다. <br>**참고:** 다음 설정은  [!UICONTROL 사용자 환경 설정 페이지로 ] 이동되었습니다.<ul><li>보고서 설정:천 단위 구분 문자(현재 _Number 형식_)</li><li>보고서 설정:CSV 구분 기호</li><li>작업 영역 프로젝트:도움말 > 팁 활성화</li><li>작업 영역 프로젝트:빈 패널 _이 패널로 새 프로젝트 시작_ 옵션</li></ul> |
+| Analysis Workspace:[!UICONTROL 막대 그래프 스마트 버킷 예측] | 2021년 3월 25일 | [!UICONTROL 히스토그램 스마트 버킷 ] 예측 기능은 데이터 스프레드에 맞는 버킷의 정확한 폭과 수를 자동으로 식별하여 높은 카디널리티 지표 막대 그래프에 도움이 됩니다. 낮은 기수 지표의 경우 시각화는 예전과 동일하게 동작합니다. |
+| [!UICONTROL 사용 ] 로그 API | 2021년 3월 25일 | 이것은 **[!UICONTROL 관리]** > **[!UICONTROL 로그]** > **[!UICONTROL 사용 및 액세스 로그]**&#x200B;에서 사용할 수 있는 동일한 사용 로그 데이터에 프로그래밍 방식으로 액세스할 수 있는 새로운 v2.0 분석 API입니다. 인증, 스키마 및 샘플 응답에 대한 자세한 내용은 [여기](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md)에서 확인할 수 있습니다. |
+| 사용자 지정 날짜 범위에 대한 분석 대시보드 지원 | 2021년 3월 25일 | 스코어카드 작성자는 사용자 지정 날짜 범위를 만들고 모바일 스코어카드 프로젝트에 적용할 수 있습니다. 작성자는 익숙한 작업 공간과 모바일 날짜 범위 사전 설정 중에서 선택하거나 사용자 정의 날짜 범위를 만들 수 있습니다. |
 
 ### Customer Journey Analytics의 새로운 기능 {#cust-journey}
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ----- |
 | [!UICONTROL Adobe Analytics 대시보드 지원] | 2021년 3월 25일 | [!UICONTROL Customer Journey Analytics] (CJA)는 이제  [!UICONTROL Adobe Analytics 대시보드 Scorecard Builder ] 및 모바일 앱을 지원합니다. 이를 통해 경영진과 비즈니스 사용자는 Adobe Analytics에 이미 사용 중일 수 있는 동일한 앱을 사용하여 CJA 데이터를 기반으로 한 크로스채널 KPI를 볼 수 있습니다. |
-| Analysis Workspace:[!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] | 2021년 3월 25일 | [!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] 페이지에서는 사용자의 [!UICONTROL Analysis Workspace] 설정 및 관련 구성 요소를 관리할 수 있습니다. [!UICONTROL 사용자 ] 환경 설정은 모든 새 프로젝트 및 패널에 적용됩니다. **참고:** 다음 설정은  [!UICONTROL 사용자 환경 설정 페이지로 ] 이동되었습니다.<ul><li>작업 영역 프로젝트:도움말 > 팁 활성화</li><li>작업 영역 프로젝트:빈 패널 &quot;이 패널을 사용하여 새 프로젝트 시작&quot; 옵션</li></ul> |
-| Analysis Workspace:[!UICONTROL 막대 그래프] 스마트 버킷 예측 | 2021년 3월 25일 | [!UICONTROL 막대 그래프] 스마트 버킷 예측은 데이터 스프레드에 맞는 정확한 폭과 버킷 수를 자동으로 식별하여 높은 카디널리티 지표 막대 그래프에 도움이 됩니다. 낮은 기수 지표의 경우 시각화는 예전과 동일하게 동작합니다. |
+| Analysis Workspace:**[!UICONTROL 구성 요소]** > **[!UICONTROL 사용자 환경 설정]** | 2021년 3월 25일 | [!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] 페이지에서는 사용자의 [!UICONTROL Analysis Workspace] 설정 및 관련 구성 요소를 관리할 수 있습니다. [!UICONTROL 사용자 ] 환경 설정은 모든 새 프로젝트 및 패널에 적용됩니다. <br>**참고:** 다음 설정은  [!UICONTROL 사용자 환경 설정 페이지로 ] 이동되었습니다.<ul><li>작업 영역 프로젝트:도움말 > 팁 활성화</li><li>작업 영역 프로젝트:빈 패널 _이 패널로 새 프로젝트 시작_ 옵션</li></ul> |
+| Analysis Workspace:[!UICONTROL 막대 그래프 스마트 버킷 예측] | 2021년 3월 25일 | [!UICONTROL 히스토그램 스마트 버킷 ] 예측 기능은 데이터 스프레드에 맞는 버킷의 정확한 폭과 수를 자동으로 식별하여 높은 카디널리티 지표 막대 그래프에 도움이 됩니다. 낮은 기수 지표의 경우 시각화는 예전과 동일하게 동작합니다. |
 | Customer Journey Analytics에 대한 분석 대시보드 지원 | 2021년 3월 25일 | 이제 Analytics 대시보드 앱이 Customer Journey Analytics을 지원합니다. Customer Journey Analytics 사용자는 Analytics 대시보드 앱에서 Adobe Experience Platform으로 인제스트한 모든 데이터의 KPI를 표시할 수 있습니다. Customer Journey Analytics을 사용하면 여러 데이터 소스를 결합하여 고객 경험을 진정한 멀티채널 방식으로 파악할 수 있습니다. 이제 Analytics 대시보드 앱을 사용하면 언제 어디서나 비즈니스를 전체적으로 확인할 수 있습니다. |
 
 ### Adobe Analytics의 수정 사항 {#aa-fixes}
@@ -145,8 +162,8 @@ AN-206099;AN-237460;AN-241803;AN-243735;AN-244081;AN-244615;AN-244687;AN-246832;
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | ----------- | ---------- | ---------- |
-| [!UICONTROL SiteCatalyst VISTA 처리]  = 켜짐 | 2021년 3월 17일 | 2021년 6월 17일에 모든 보고서 세트가 [!UICONTROL SiteCatalyst과 동일 처리]을(를) 켜짐으로 설정하도록 업데이트됩니다.  이 변경 사항은 처리 규칙과 일치하도록 데이터를 처리하여 [!UICONTROL Data Warehouse] 보고에 영향을 줍니다.  질문이나 설명은 Adobe 고객 지원 센터에 문의하십시오. |
-| [!UICONTROL 전체 처리] [!UICONTROL 데이터 소스]의 EOL | 2021년 3월 10일 | Adobe은 앞으로 [!UICONTROL 전체 처리] [!UICONTROL Data Sources]를 사용하지 않을 계획입니다. 2021년 3월 25일부터 이 유형의 새로운 가져오기는 더 이상 생성되지 않습니다. 이 유형의 데이터를 가져오려면 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)를 사용해 주십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html) |
+| [!UICONTROL SiteCatalyst VISTA 처리]  = 켜짐 | 2021년 3월 17일 | 2021년 6월 17일에 모든 보고서 세트가 [!UICONTROL SiteCatalyst과 동일 처리]을(를) 켜짐으로 설정하도록 업데이트됩니다. 이 변경 사항은 처리 규칙과 일치하도록 데이터를 처리하여 [!UICONTROL Data Warehouse] 보고에 영향을 줍니다. 질문이나 설명은 Adobe 고객 지원 센터에 문의하십시오. |
+| [!UICONTROL 전체 처리] [!UICONTROL 데이터 소스]의 EOL | 2021년 3월 10일 | Adobe은 앞으로 [!UICONTROL 전체 처리] [!UICONTROL Data Sources]를 사용하지 않을 계획입니다. 2021년 3월 25일부터 이 유형의 새로운 가져오기는 더 이상 생성되지 않습니다. 이 유형의 데이터를 가져오려면 [벌크 데이터 삽입 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)를 사용합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html) |
 | Reports &amp; Analytics 랜딩 페이지 옵션 | 2021년 2월 19일 | 2021년 3월 25일에 새로운 Reports &amp; Analytics 대시보드 또는 기타 콘텐츠를 Adobe Analytics 랜딩 페이지로 설정하는 옵션이 제거됩니다. 이전에 Reports &amp; Analytics 페이지를 맞춤형 랜딩 페이지로 설정했다면 [!UICONTROL 사용자 환경 설정]에서 랜딩 페이지를 수정하기 전까지는 계속 작동합니다. |
 | Ad Hoc Analysis 서비스 중단 | 2021년 1월 | [!UICONTROL Ad Hoc Analysis] 서비스는 2021년 3월 1일에 종료되었습니다. 자세한 내용은 [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)를 참조하십시오. |
 | 3개의 Analytics API 서비스에 대한 사용 종료 | 2021년 1월 6일 | 2021년 4월 30일에 다음 Analytics 기존 API 서비스의 사용 수명이 종료되어 서비스가 중단됩니다. 이러한 서비스를 사용하여 구축한 현재 모든 통합은 해당 날짜부터 더 이상 작동하지 않습니다.<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증(OAuth 및 JWT)</li></ul>질문에 대한 답변과 진행 방법에 대한 지침을 제공하는 데 도움이 되도록 [이전 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)를 제공했습니다. 이러한 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 이전 OAuth 계정은 [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics 통합 계정으로 마이그레이션할 수 있으며, 이 계정은 1.4 Analytics API 및 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다. |
@@ -155,10 +172,6 @@ AN-206099;AN-237460;AN-241803;AN-243735;AN-244081;AN-244615;AN-244687;AN-246832;
 ### AppMeasurement {#appm}
 
 AppMeasurement 릴리스에 대한 최신 업데이트는 [JavaScript용 AppMeasurement 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/appmeasurement-updates.html)를 참조하십시오.
-
-### Analytics 교육 과정 및 튜토리얼 {#tutorials-analytics}
-
-[!DNL Analytics] 및 [!UICONTROL Customer Journey Analytics]의 새 교육 과정, 튜토리얼 및 기사입니다.
 
 ### Analytics 도움말 리소스
 
@@ -173,7 +186,7 @@ AAM의 새로운 기능.
 * [온보딩 상태 보고서](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/onboarding-status-report.html?lang=ko-KR)의 문제를 해결했습니다. 이 문제에서는 보고서의 레코드와 온보딩 파트너가 업로드한 파일의 레코드가 일치하지 않았습니다. (AAM-57415)
 * **[!UICONTROL 사람 기반 대상]**&#x200B;에 대해 잘못된 세그먼트 매핑 유효성 검사를 하는 문제를 수정했습니다. (AAM-56631)
 * 일부 사용자가 **[!UICONTROL 대상 보고서]**&#x200B;에 액세스하지 못하게 하는 문제를 수정했습니다. (AAM-57412)
-* 공격자가 중요한 데이터에 액세스하는 데 사용할 수 있는 [!DNL Remote Code Execution] 취약점을 해결했습니다. (AAM-57495)
+* 공격자가 중요한 데이터에 액세스하는 데 사용할 수 있는 [!UICONTROL 원격 코드 실행] 취약점을 해결했습니다. (AAM-57495)
 
 ### Audience Manager 교육 과정 및 튜토리얼 {#tutorials-aam}
 
@@ -181,16 +194,20 @@ Audience Manager에 대해 게시된 새로운 비디오, 튜토리얼 또는 �
 
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
+| 2021년 3월 19일 | [Audience Manager 사용자를 위한 실시간 CDP의 데이터 거버넌스 이해](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-data-gov-for-aam-users.html) | 비디오 | [!UICONTROL 실시간 고객 데이터 플랫폼]의 데이터 거버넌스 기능에 대해 알아봅니다. |
+| 2021년 3월 19일 | [브랜드와 소비자 사이의 두 가지 인식 이야기](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/industry/brands-vs-consumers.html) | 비디오 | 이 웨비나에서는 Adobe을 통해 광고주와 출판업체의 이해 및 준비 수준, 안전한 미래, 사용 사례에 대한 영향 및 더 넓은 에코시스템에 대한 인식을 분류합니다. |
+| 2021년 3월 5일 | [고객 데이터 관리를 위한 10가지 고려 사항](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/industry/ten-considerations-for-responsible-customer-data-management.html) | 이벤트 | 책임 있는 데이터 관리에 대한 주요 고려 사항에 대해 Adobe 및 Scotiabank Digital에서 들어보십시오. |
+| 2021년 3월 19일 | [데이터 관리의 미래와 변화하는 환경](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/industry/the-future-of-data-management-and-the-changing-environment.html) | 이벤트 | 이 웨비나에서는 Adobe과 451 Research가 새로운 마케팅 환경을 해결하고 데이터 관리의 미래를 준비하기 위해 기술과 데이터의 미래에 대해 어떻게 생각하고 있는지 살펴봅니다. |
 | 2021년 3월 21일 | [Audience Manager 사용자를 위한 실시간 CDP의 스키마 및 XDM 이해](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-schemas-xdm-for-aam-users.html?lang=en#other-integrations) | 비디오 | Audience Manager에서 실시간 CDP(Customer Data Platform)(실시간 CDP)로 이동하면 몇 가지 새로운 개념과 관행이 제시됩니다. 스키마와 XDM은 해당 카테고리로 분류됩니다. 이 비디오에서는 이러한 개념을 설명합니다. |
 | 2021년 3월 17일 | [Audience Manager 사용자를 위한 실시간 CDP의 신호 이해](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-signals-for-aam-users.html) | 비디오 | 이 비디오는 실시간 고객 데이터 플랫폼(CDP)으로 이동하고 Audience Manager에서 트레이트를 구축하기 위해 사용하는 신호(키-값 쌍)가 플랫폼에서 사용되는 방법에 대해 설명하는 Audience Manager 사용자를 위한 것입니다. |
-| 2021년 3월 12일 | [Audience Manager 사용자를 위한 실시간 CDP의 스키마 및 XDM 이해](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-schemas-xdm-for-aam-users.html?lang=en#other-integrations) | 비디오 | Audience Manager에서 실시간 CDP(Customer Data Platform)(실시간 CDP)로 이동하면 몇 가지 새로운 개념과 관행이 제시됩니다. 스키마와 XDM은 해당 카테고리로 분류됩니다. 이 비디오에서는 이러한 개념을 설명합니다. |
-| 2021년 3월 12일 | [Experience Manager Cloud Service에 컨텐츠 전달](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/content/feb2021/content-delivery.html#content) | 이벤트 | Cloud Service의 Adobe Experience Manager에는 강력한 미리 구성된 컨텐츠 전달 아키텍처가 있습니다. 최적화된 콘텐츠 전달 구성을 최대한 활용하는 방법 시연 |
-| 2021년 3월 3일 | [Audience Manager 사용자를 위한 실시간 CDP의 세그먼트 이해](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-segments-for-aam-users.html?lang=en#other-integrations) | 비디오 | Audience Manager에서 실시간 고객 데이터 플랫폼으로 이동하면 개념 간의 차이점을 이해하는데 도움이 됩니다. 이 비디오에서는 Audience Manager과 실시간 CDP 간 세그먼트 생성 및 세그먼트 생성 간의 차이점을 살펴봅니다. |
-| 2021년 3월 3일 | [Audience Manager 사용자를 위한 실시간 CDP의 트레이트 이해](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-traits-for-aam-users.html?lang=en#other-integrations) | 비디오 | Audience Manager에서 실시간 고객 데이터 플랫폼으로 이동하면 개념 간의 차이점을 이해하는데 도움이 됩니다. 이 비디오에서는 Audience Manager의 특징과 실시간 CDP에 해당하는 요소를 다룹니다. |
-| 2021년 3월 3일 | [강좌 소개 - Audience Manager 고급 기술](https://video.tv.adobe.com/v/331788/?quality=12&learn=on) | 비디오 | 이 비디오를 통해 Audience Manager 고급 기술 교육 과정에서 여러분을 기다리고 있는 상황을 확인할 수 있습니다. |
-| 2021년 3월 3일 | [Audience Manager 사용자를 위한 실시간 CDP에서 제1자 데이터 통합 이해](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-1pd-ingestion-for-aam-users.html?lang=en#other-integrations) | 비디오 | 이 비디오에서는 Adobe Audience Manager을 사용하고 있는 사용자를 위해 실시간 고객 데이터 플랫폼(실시간 CDP)으로 자사 오프라인 데이터를 수집하는 방법에 대해 설명합니다. 데이터 수집과 관련하여 두 제품 간의 주요 차이점 중 일부를 살펴보고 프로세스가 실시간 CDP로 옮겨질 때까지 Audience Manager 데이터 커넥터를 중단 없는 데이터 연결로 사용하는 방법을 보여줍니다. |
-| 2021년 3월 1일 | [Audience Marketplace을 통해 자사 고객의 상업화](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/audience-marketplace/selling-data/commercialize-owned-audiences-on-marketplace.html?lang=en#audience-marketplace) | 비디오 | 이 비디오에서는 데이터를 Audience Marketplace의 개인 또는 공개 데이터 피드로 설정하여 2차 또는 3차 데이터의 데이터 공급자로 만드는 방법을 알아봅니다. |
-| 2021년 3월 | [Audience Manager에서 데이터 활성화 만들기 및 관리](https://experienceleague.adobe.com/?recommended=AudienceManager-U-1-2020.4) | 교육 과정 | 이 과정에서는 최종 사용자의 경험을 맞춤화하기 위해 대상 데이터를 대상 파트너에게 보내는 등 대상 고객을 &quot;활성화&quot;하는 모든 방법을 학습합니다. 대상에 대한 기본 사항, 요구 사항에 맞는 적합한 대상을 선택하는 방법 및 쿠키가 아닌 사용자를 기반으로 소셜 네트워크 대상으로 대상 데이터를 준비하고 전송하는 방법을 알아봅니다. |
+| 2021년 3월 12일 | [Audience Manager 사용자를 위한 실시간 CDP의 스키마 및 XDM 이해](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-schemas-xdm-for-aam-users.html) | 비디오 | Audience Manager에서 실시간 CDP(Customer Data Platform)(실시간 CDP)로 이동하면 몇 가지 새로운 개념과 관행이 제시됩니다. 스키마와 XDM은 해당 카테고리로 분류됩니다. 이 비디오에서는 이러한 개념을 설명합니다. |
+| 2021년 3월 12일 | [Audience Manager 사용자를 위한 실시간 CDP에서 웹 데이터 통합 이해](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-web-ingestion-for-aam-users.html) | 비디오 | 웹 사이트 데이터를 실시간 고객 데이터 플랫폼(CDP)으로 가져오는 것과 관련된 개념을 살펴보고, Audience Manager 데이터 커넥터가 맞는 위치에 대한 고급 접점과 웹 SDK를 통해 웹 사이트에서 실시간 CDP로 바로 데이터를 이동하는 방법을 포함합니다. |
+| 2021년 3월 3일 | [Audience Manager 사용자를 위한 실시간 CDP의 세그먼트 이해](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-segments-for-aam-users.html?lang=en#other-integrations) | 비디오 | Audience Manager과 실시간 CDP 간의 세그먼트와 세그먼트 생성 간의 차이점을 살펴볼 수 있습니다. |
+| 2021년 3월 3일 | [Audience Manager 사용자를 위한 실시간 CDP의 트레이트 이해](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-traits-for-aam-users.html?lang=en#other-integrations) | 비디오 | 실시간 CDP의 특징과 이에 상응하는 기능을 Audience Manager에서 살펴볼 수 있습니다. |
+| 2021년 3월 3일 | [강좌 소개 - Audience Manager 고급 기술](https://video.tv.adobe.com/v/331788/?quality=12&learn=on) | 비디오 | Audience Manager 고급 기술 교육 과정에서 무엇을 기다리고 있는지 살펴보십시오. |
+| 2021년 3월 3일 | [Audience Manager 사용자를 위한 실시간 CDP에서 제1자 데이터 통합 이해](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-1pd-ingestion-for-aam-users.html?lang=en#other-integrations) | 비디오 | 실시간 고객 데이터 플랫폼(실시간 CDP)으로 유입되는 제1자 오프라인 데이터 처리에 대해 알아봅니다. 데이터 수집과 관련된 두 제품 간의 주요 차이점에 대해 살펴보고 프로세스가 실시간 CDP로 옮겨질 때까지 Audience Manager 데이터 커넥터를 중단 없는 공간으로 사용하는 방법을 보여줍니다. |
+| 2021년 3월 1일 | [Audience Marketplace을 통해 자사 고객의 상업화](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/audience-marketplace/selling-data/commercialize-owned-audiences-on-marketplace.html?lang=en#audience-marketplace) | 비디오 | 데이터를 Audience Marketplace에서 개인 또는 공용 데이터 피드로 설정하여 2차 또는 3차 데이터의 데이터 공급자로 만드는 방법을 알아봅니다. |
+| 2021년 3월 | [Audience Manager에서 데이터 활성화 만들기 및 관리](https://experienceleague.adobe.com/?recommended=AudienceManager-U-1-2020.4) | 교육 과정 | 이 과정에서는 대상 데이터를 대상 파트너에게 보내는 등의 대상자 활성화에 대한 모든 것을 배워서 최종 사용자의 경험을 맞춤화할 수 있습니다. 대상에 대한 기본 사항, 올바른 대상을 선택하는 방법, 쿠키가 아닌 사용자를 기반으로 소셜 네트워크 대상으로 대상 데이터를 준비하고 전송하는 방법을 알아봅니다. |
 | 2021년 3월 | [Audience Manager 고급 기술](https://experienceleague.adobe.com/?recommended=AudienceManager-U-1-2020.5) | 교육 과정 | Audience Manager의 기본 사항을 익히면 이 교육 과정을 통해 고객 관리를 한 단계 업그레이드할 수 있는 방법을 배울 수 있습니다. 알고리즘 모델을 통해 AI를 사용하는 방법, 프로필 병합 규칙을 사용하여 장치가 아닌 사람으로 고객을 이해하는 방법, DMP의 사용 범위를 확장시키는 다양한 주제를 살펴봅니다. |
 
 ## ![아이콘](/assets/aem.png) Adobe Experience Manager {#aem}
@@ -293,25 +310,27 @@ AEM 6.4, 서비스 팩 8, 누적 수정 팩 4(2021년 2월 25일 6.4.8.4 릴리�
 
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021년 2월 | [AEM 게시 환경을 사용한 제작 배포](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/production-deployment.html#graphql) | 튜토리얼 | 이 자습서에서는 로컬 환경을 설정하여 작성자 인스턴스에서 게시 인스턴스로 배포되는 컨텐츠를 시뮬레이션합니다. 또한 GraphQL API를 사용하여 AEM 게시 환경에서 콘텐츠를 사용하도록 구성된 반응형 앱의 제작 빌드를 생성합니다. 이 과정에서 환경 변수를 효과적으로 사용하는 방법과 AEM CORS 구성을 업데이트하는 방법을 학습할 수 있습니다. |
-| 2021년 2월 | [GraphQL API를 사용한 헤드리스 컨텐츠 관리](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.1.headless) | 교육 과정 | 이 과정에서는 AEM GraphQL API 및 헤드리스 기능을 사용하여 외부 앱에서 표시되는 경험을 향상시키는 방법을 살펴봅니다. |
-| 2021년 2월 | [론치 - 기능 비디오](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/launches.html) | 비디오 | AEM Sites의 론치는 향후 릴리스에 사용할 웹 사이트 컨텐츠를 만들고, 작성하고, 검토할 수 있는 방법을 제공합니다. 론치를 만드는 동안 프로덕션 웹 사이트는 평소대로 계속 진화하고 매일 변경할 수 있습니다. |
-| 2021년 2월 | [연결 및 관련 없는 자산 - 기능 비디오텍스트](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/authoring/relate-unrelate.html?lang=ko-KR) | 비디오 | AEM에서 자산 간의 관계를 설정하고 관리하는 방법을 알아봅니다. |
-| 2021년 2월 | [외부 애플리케이션에서 클라우드 서비스로서의 AEM 인증](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.1.aemcs) | 교육 과정 | 이 과정에서는 외부 응용 프로그램이 로컬 개발 액세스 토큰 및 서비스 자격 증명을 사용하여 HTTP를 통한 Cloud Service으로 프로그래밍 방식으로 AEM에 인증할 수 있는 방법을 알아봅니다. |
-| 2021년 2월 | [대출 애플리케이션에서 여러 양식 채우기 및 서명](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.7.forms) | 교육 과정 | AEM Forms 및 Sign 통합을 사용하여 문서 패키지를 매끄럽게 서명할 수 있습니다. 양식에 입력한 데이터를 사용하여 패키지에서 후속 양식을 미리 채울 수 있습니다. |
-| 2021년 2월 | [AEM의 버전 지정/시간 변형](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/timewarp-feature-video-use.html) | 비디오 | 타임워프는 작성자가 과거의 특정 시간에 페이지 상태를 신속하게 검토할 수 있는 Adobe Experience Manager Sites의 기능입니다. |
-| 2021년 2월 | [기본 - 워크플로우 관리](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/workflow/use-workflow-management.html?lang=en#workflow) | 비디오 | 이 비디오에서는 워크플로우 모델을 사용하여 이러한 기능을 설명하지만 AEM Olutter에도 적용할 수 있습니다. |
-| 2021년 2월 | [경험 조각 블록](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/experience-fragments/building-blocks.html) | 비디오 | 구성 블록은 경험 조각의 하위 기능입니다. 콘텐츠 작성자는 블록 작성을 통해 다양한 경험 조각에 있는 구성 요소를 재사용할 수 있습니다. |
-| 2021년 2월 | [워크플로우 편집기](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/workflow/use-the-workflow-editor.html?lang=en#workflow) | 비디오 | 워크플로우는 Experience Manager에서 비즈니스 프로세스 관리를 가능하게 하며, 컨텐츠를 자동으로 처리하고 인간의 의사 결정을 필요로 하는 관리 및 프로세스를 촉진하는 데 사용됩니다. |
-| 2021년 2월 | [AEM Assets에서 닫힌 사용자 그룹](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/advanced/closed-user-groups.html) | 비디오 | 폐쇄된 사용자 그룹(CUG)은 게시된 사이트의 사용자 선택 그룹에 대한 컨텐츠 액세스를 제한하는 데 사용되는 기능입니다. 이 비디오는 닫힌 사용자 그룹을 Adobe Experience Manager 자산과 함께 사용하여 특정 자산 폴더에 대한 액세스를 제한하는 방법을 보여줍니다. |
-| 2021년 2월 | [보고서](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/advanced/asset-reports.html) | 비디오 | AEM Assets은 직관적인 사용자 경험을 통해 대규모 리포지토리에 맞게 확장되는 엔터프라이즈급 보고 프레임워크를 제공합니다. |
-| 2021년 2월 | [AEM Assets을 사용한 이미지 스마트 태그](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/metadata/image-smart-tags.html) | 비디오 | 이미지의 스마트 태그는 이미지 컨텐츠를 기반으로 이미지 자산에 메타데이터 태그를 자동으로 지능적으로 추가하여 AEM 검색 기능을 강화합니다. |
-| 2021년 2월 24일 | [메타데이터 캐스케이딩, 가시성](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/metadata/cascade-metadata-feature-video-use.html) | 비디오 | 고급 메타데이터 관리 기능을 사용하면 CSS(Cascading Field) 규칙을 만들어 AEM Assets에서 메타데이터 간의 상황에 맞는 관계를 만들 수 있습니다. 아래 비디오에서는 필드 요구 사항, 가시성 및 컨텍스트 선택에 대한 새로운 동적 규칙을 설명합니다. 또한 이 비디오는 관리자가 사용자 지정 메타데이터 스키마에 이러한 규칙을 적용하는 데 필요한 단계를 자세히 설명합니다. |
-| 2021년 2월 24일 | [프로젝트 마스터](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/projects/use-project-masters.html?lang=en#delete-project-masters) | 비디오 | 마스터 프로젝트를 삭제하면 파생된 프로젝트를 사용할 수 없게 됩니다. |
-| 2021년 2월 24일 | [페이지 속성 사용자 정의](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/developing/page-properties-technical-video-develop.html) | 비디오 | 페이지 속성을 최적화하고 확장하는 방법에 대한 기술 비디오를 만듭니다. |
-| 2021년 2월 24일 | [컨텐츠 조각 번역](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/content-fragments-translation-feature-video-use.html) | 비디오 | 컨텐츠 조각을 Adobe Experience Manager으로 현지화 및 변환하는 방법을 알아봅니다. 컨텐츠 조각과 연관된 혼합 미디어 자산도 추출하여 변환할 수 있습니다. |
-| 2021년 2월 24일 | [경험 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/experience-fragments/experience-fragments-feature-video-use.html) | 비디오 | 컨텐츠 작성자는 경험 조각을 사용하여 사이트 페이지 및 제3자 시스템을 비롯한 모든 채널에서 컨텐츠를 재사용할 수 있습니다. |
-| 2021년 2월 24일 | [향상된 검색 검색 강화](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/search-and-discovery/search-boost.html) | 비디오 | 검색 증대에 대해 알아봅니다. |
+| 2021년 3월 | [Experience Manager Cloud Service에 컨텐츠 전달](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/content/feb2021/content-delivery.html#content) | 이벤트 | Cloud Service의 Adobe Experience Manager에는 강력한 사전 구성된 컨텐츠 전달 아키텍처가 있습니다. 최적화된 콘텐츠 전달 구성을 최대한 활용하는 방법 시연 |
+| 2021년 3월 | [Forms 및 문서 유형에 대한 도움말 문서를 ExL로 마이그레이션](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/document-services/pdf-forms-and-documents.html?lang=en#document-services) | 문서 | 다양한 유형의 PDF forms 및 문서를 설명하는 문서입니다. |
+| 2021년 3월 | [AEM 게시 환경을 사용한 제작 배포](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/production-deployment.html#graphql) | 튜토리얼 | 로컬 환경을 설정하여 작성자 인스턴스에서 게시 인스턴스로 배포되는 컨텐츠를 시뮬레이션합니다. GraphQL API를 사용하여 AEM 게시 환경에서 콘텐츠를 사용하도록 구성된 반응형 앱의 제작 빌드를 생성합니다. 이 과정에서 환경 변수를 효과적으로 사용하는 방법과 AEM CORS 구성을 업데이트하는 방법을 학습할 수 있습니다. |
+| 2021년 3월 | [GraphQL API를 사용한 헤드리스 컨텐츠 관리](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.1.headless) | 교육 과정 | AEM GraphQL API 및 헤드리스 기능을 사용하여 외부 앱에서 나타나는 경험을 향상시키는 방법을 살펴봅니다. |
+| 2021년 3월 | [론치 - 기능 비디오](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/launches.html) | 비디오 | AEM Sites의 론치는 향후 릴리스에 사용할 웹 사이트 컨텐츠를 만들고, 작성하고, 검토할 수 있는 방법을 제공합니다. 론치를 만드는 동안 프로덕션 웹 사이트는 평소대로 계속 진화하고 매일 변경할 수 있습니다. |
+| 2021년 3월 | [연결 및 관련 없는 자산 - 기능 비디오텍스트](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/authoring/relate-unrelate.html?lang=ko-KR) | 비디오 | AEM에서 자산 간의 관계를 설정하고 관리하는 방법을 알아봅니다. |
+| 2021년 3월 | [외부 애플리케이션에서 클라우드 서비스로서의 AEM 인증](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.1.aemcs) | 교육 과정 | 외부 응용 프로그램에서 로컬 개발 액세스 토큰 및 서비스 자격 증명을 사용하여 HTTP를 통한 Cloud Service으로 AEM에 프로그래밍 방식으로 인증할 수 있는 방법을 알아봅니다. |
+| 2021년 3월 | [대출 애플리케이션에서 여러 양식 채우기 및 서명](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.7.forms) | 교육 과정 | AEM Forms 및 Sign 통합을 사용하여 문서 패키지를 매끄럽게 서명할 수 있습니다. 양식에 입력한 데이터를 사용하여 패키지에서 후속 양식을 미리 채울 수 있습니다. |
+| 2021년 3월 | [AEM의 버전 지정/시간 변형](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/timewarp-feature-video-use.html) | 비디오 | 타임워프는 작성자가 과거의 특정 시간에 페이지 상태를 신속하게 검토할 수 있는 Adobe Experience Manager Sites의 기능입니다. |
+| 2021년 3월 | [기본 - 워크플로우 관리](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/workflow/use-workflow-management.html?lang=en#workflow) | 비디오 | 이 비디오에서는 워크플로우 모델을 사용하여 이러한 기능을 설명하지만 AEM Olutter에도 적용할 수 있습니다. |
+| 2021년 3월 | [경험 조각 블록](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/experience-fragments/building-blocks.html) | 비디오 | 구성 블록은 경험 조각의 하위 기능입니다. 콘텐츠 작성자는 블록 작성을 통해 다양한 경험 조각에 있는 구성 요소를 재사용할 수 있습니다. |
+| 2021년 3월 | [워크플로우 편집기](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/workflow/use-the-workflow-editor.html?lang=en#workflow) | 비디오 | 워크플로우는 Experience Manager에서 비즈니스 프로세스 관리를 가능하게 하며, 컨텐츠를 자동으로 처리하고 인간의 의사 결정을 필요로 하는 관리 및 프로세스를 촉진하는 데 사용됩니다. |
+| 2021년 3월 | [AEM Assets에서 닫힌 사용자 그룹](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/advanced/closed-user-groups.html) | 비디오 | 폐쇄된 사용자 그룹(CUG)은 게시된 사이트의 사용자 선택 그룹에 대한 컨텐츠 액세스를 제한하는 데 사용되는 기능입니다. 이 비디오는 닫힌 사용자 그룹을 Adobe Experience Manager 자산과 함께 사용하여 특정 자산 폴더에 대한 액세스를 제한하는 방법을 보여줍니다. |
+| 2021년 3월 | [보고서](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/advanced/asset-reports.html) | 비디오 | AEM Assets이 직관적인 사용자 경험을 통해 대규모 리포지토리에 맞게 확장 가능한 엔터프라이즈급 보고 프레임워크를 제공하는 방법을 살펴볼 수 있습니다. |
+| 2021년 3월 | [AEM Assets을 사용한 이미지 스마트 태그](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/metadata/image-smart-tags.html) | 비디오 | 이미지의 스마트 태그는 이미지 컨텐츠를 기반으로 이미지 자산에 메타데이터 태그를 자동으로 지능적으로 추가하여 AEM 검색 기능을 강화합니다. |
+| 2021년 3월 | [메타데이터 캐스케이딩, 가시성](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/metadata/cascade-metadata-feature-video-use.html) | 비디오 | 필드 요구 사항, 가시성 및 상황에 맞는 선택을 위한 새로운 동적 규칙에 대해 알아보십시오. 또한 이 비디오는 관리자가 사용자 지정 메타데이터 스키마에 이러한 규칙을 적용하는 데 필요한 단계를 자세히 설명합니다. |
+| 2021년 3월 | [프로젝트 마스터](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/projects/use-project-masters.html?lang=en#delete-project-masters) | 비디오 | 마스터 프로젝트를 삭제하면 파생된 프로젝트를 사용할 수 없게 됩니다. |
+| 2021년 3월 | [페이지 속성 사용자 정의](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/developing/page-properties-technical-video-develop.html) | 비디오 | 페이지 속성을 최적화하고 확장하는 방법에 대한 기술 비디오를 만듭니다. |
+| 2021년 3월 | [컨텐츠 조각 번역](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/content-fragments-translation-feature-video-use.html) | 비디오 | 컨텐츠 조각을 Adobe Experience Manager으로 현지화 및 변환하는 방법을 알아봅니다. 컨텐츠 조각과 연관된 혼합 미디어 자산도 추출하여 변환할 수 있습니다. |
+| 2021년 3월 | [경험 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/experience-fragments/experience-fragments-feature-video-use.html) | 비디오 | 컨텐츠 작성자가 경험 조각을 사용하여 사이트 페이지 및 제3자 시스템을 비롯한 다양한 채널에서 컨텐츠를 재사용하는 방법을 살펴볼 수 있습니다. |
+| 2021년 3월 | [향상된 검색 검색 강화](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/search-and-discovery/search-boost.html) | 비디오 | 검색 증대에 대해 알아봅니다. |
 
 ### Experience Manager용 기타 도움말 리소스
 
@@ -447,6 +466,9 @@ Creative Cloud Enterprise용의 새로운 튜토리얼.
 
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
+| 2021년 3월 | [지정된 사용자 라이선스에 대한 이해](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/deploy/nameduserlicensing.html) | 문서 | 지정된 사용자 라이선스의 중요성에 대해 알아보십시오. |
+| 2021년 3월 5일 | [일련 번호 만료](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/deploy/cceserial.html) | 비디오 | 최종 사용자가 Adobe 앱 및 서비스를 계속 이용할 수 있도록 하는 데 필요한 단계를 알아봅니다. |
+| 2021년 3월 | [랜딩 배포 및 관리 - 지원 자산](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/deploy/overview-deploy.html) | 비디오 | Enterprise용 Creative Cloud에서 맞춤형 배포 및 유연한 라이선스 조정을 지원하고 다른 Adobe 엔터프라이즈 솔루션과 연동되는 방법을 살펴볼 수 있습니다. |
 | 2021년 3월 5일 | [Adobe Stock Vector 일러스트레이션에서 색상 사용자 정의](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/stockoverview/stocktutorials/customizecolors.html) | 비디오 | 멋진 일러스트레이션을 사용하여 프로젝트에 세련된 분위기를 가미할 수 있습니다. Adobe Stock에서 완벽한 벡터를 찾은 다음 Adobe Illustrator을 사용하여 프로젝트의 팔레트에 색상을 일치시킬 수 있습니다. |
 | 2021년 3월 5일 | [Adobe Stock 프레젠테이션 템플릿을 사용자 정의하여 전문가다운 인상을 남길 수 있습니다](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/stockoverview/stocktutorials/presentationtemplate.html) | 비디오 | Adobe Stock의 이미지와 템플릿과 간편해진 특수 효과를 사용하여 멋진 스타일이 적용된 프레젠테이션을 신속하게 만들 수 있습니다. |
 | 2021년 3월 5일 | [Adobe Stock 및 XD를 사용하여 로딩 화면 애니메이션 사용자 정의](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/stockoverview/stocktutorials/loadingscreen.html) | 비디오 | Adobe Stock의 벡터 아트웍을 사용자 정의하여 모바일 앱에 사용할 멋진 로딩 화면 애니메이션을 만들 수 있습니다. |
