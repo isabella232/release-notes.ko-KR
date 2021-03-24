@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8c48b768b004298dd4b80da04db7c6b5e536a0e0
+source-git-commit: 17179b1ec08435b065a940850b52bb36183276f7
 workflow-type: tm+mt
-source-wordcount: '7549'
+source-wordcount: '7534'
 ht-degree: 30%
 
 ---
@@ -87,8 +87,7 @@ Experience Platform 및 서비스를 위해 게시된 새로운 비디오, 튜�
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
 | 2021년 3월 | [모니터링 대시보드](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/monitoring-dashboard.html) | 비디오 | 모니터링 대시보드를 사용하여 Adobe Experience Platform으로 인제스트되는 데이터를 모니터링하고 추적하는 방법을 알아봅니다. 이 모니터링 대시보드에서는 소스, 데이터 흐름 및 데이터 흐름 실행 수준에서 데이터 호수를 통해 소스 데이터 흐름 및 ID 서비스에 대한 소스 데이터 처리를 하향식으로 볼 수 있으며, 적절한 방식으로 작업 가능한 권고 사항을 제공합니다. |
-| 2021년 3월 | [서버 스트리밍 커넥터를 사용하여 데이터 인제스트](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/streaming-ingestion-source-connector.html) | 비디오 | 이 비디오에서는 클라우드 스토리지 소스에서 플랫폼으로 실시간으로 데이터를 스트리밍하고 고객 참여를 위해 실시간으로 데이터를 사용하는 방법을 보여줍니다. |
-| 2021년 3월 | [데이터 엔지니어를 위한 데이터 통합](https://video.tv.adobe.com/v/331971?quality=12&learn=on) | 비디오 | 데이터 통합 교육 과정 개요. |
+| 2021년 3월 | [소스 커넥터를 사용하는 스트림 데이터](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/streaming-ingestion-source-connector.html) | 비디오 | 이 비디오에서는 클라우드 스토리지 소스에서 플랫폼으로 실시간으로 데이터를 스트리밍하고 고객 참여를 위해 실시간으로 데이터를 사용하는 방법을 보여줍니다. |
 | 2021년 3월 5일 | [데이터 엔지니어를 위한 데이터 통합](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) | 교육 과정 | 여러 소스의 데이터를 Adobe Experience Platform으로 가져오는 방법 등. |
 | 2021년 3월 | [Azure Blob 대상 구성](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/configure-the-azure-blob-destination.html?lang=ko-KR#destinations) | 비디오 | [!UICONTROL 실시간 고객 데이터 플랫폼](실시간 CDP)에서 Azure Blob 저장소 대상을 설정 및 구성하고 구성하는 데 필요한 단계를 이동하는 방법을 알아봅니다. |
 | 2021년 3월 5일 | [마케터를 위한 Offer decisioning 시작하기](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-U-1-2020.1.offerdecisioning) | 교육 과정 | Adobe Experience Platform 위에 구축된 [!UICONTROL Offer decisioning] 응용 프로그램 서비스에 대해 알아보십시오. 이 교육 과정은 고객에게 최상의 제안을 제공하여 매출, 고객 경험 및 충성도를 향상시키고자 하는 마케터를 위해 마련되었습니다. |
