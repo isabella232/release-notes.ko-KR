@@ -1,21 +1,21 @@
 ---
 cloud: experience-cloud
 solution-title: 학습 및 지원
-description: Experience Cloud 솔루션에 대한 릴리스 노트
-solution-hub-url: https://helpx.adobe.com/kr/support/experience-cloud.html
+description: Experience Cloud 솔루션 릴리스 노트
+solution-hub-url: https://helpx.adobe.com/support/experience-cloud.html
 solution-icon: assets/assets/experience-cloud-logo-24.png
 getting-started-title: 시작하기
 getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 자습서
-tutorials-url: https://helpx.adobe.com/kr/experience-cloud/tutorials.html
+tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 mini-toc-levels: 3
 git-repo: https://git.corp.adobe.com/AdobeDocs/release-notes.ko-KR
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 644ea51d605f87693109d6b0e96afbdf365aaa2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '175'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
