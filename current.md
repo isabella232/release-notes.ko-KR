@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d7c6508201971164b63a0d0d9490f66a2a87adf6
+source-git-commit: 3763705cd932a91c26d5c0e6166758241969126d
 workflow-type: tm+mt
-source-wordcount: '7026'
+source-wordcount: '7139'
 ht-degree: 32%
 
 ---
@@ -128,7 +128,7 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 
 | 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ------- |
-| 데이터 복구 API 업데이트 | 2021년 3월 25일 | 데이터 복구 API는 이제 [!UICONTROL 페이지] 및 [!UICONTROL IP 주소], 모바일 및 비디오 변수, 사용자 지정 prop 및 eVar를 비롯한 표준 변수를 지원합니다.  변수 내의 값을 삭제하거나 새 값을 설정할 수 있습니다. 이제 API에서 URL, 쿼리 문자열, 기호 등에 대한 필터링을 제공합니다. |
+| 데이터 복구 API 업데이트 | 2021년 3월 25일 | 데이터 복구 API는 이제 [!UICONTROL 페이지] 및 [!UICONTROL IP 주소], 모바일 및 비디오 변수, 사용자 지정 [!UICONTROL prop] 및 [!UICONTROL eVar]을 비롯한 표준 변수를 지원합니다.  변수 내의 값을 삭제하거나 새 값을 설정할 수 있습니다. 이제 API에서 URL, 쿼리 문자열, 기호 등에 대한 필터링을 제공합니다. |
 | Analysis Workspace:[!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] | 2021년 3월 25일 | [!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] 페이지에서는 사용자의 [!UICONTROL Analysis Workspace] 설정 및 관련 구성 요소를 관리할 수 있습니다. [!UICONTROL 사용자 ] 환경 설정은 모든 새 프로젝트 및 패널에 적용됩니다. <br>**참고:** 다음 설정은  [!UICONTROL 사용자 환경 설정 페이지로 ] 이동되었습니다.<ul><li>보고서 설정:천 단위 구분 문자(현재 _Number 형식_)</li><li>보고서 설정:CSV 구분 기호</li><li>작업 영역 프로젝트:도움말 > 팁 활성화</li><li>작업 영역 프로젝트:빈 패널 _이 패널로 새 프로젝트 시작_ 옵션</li></ul> |
 | Analysis Workspace:[!UICONTROL 막대 그래프 스마트 버킷 예측] | 2021년 3월 25일 | [!UICONTROL 히스토그램 스마트 버킷 ] 예측 기능은 데이터 스프레드에 맞는 버킷의 정확한 폭과 수를 자동으로 식별하여 높은 카디널리티 지표 막대 그래프에 도움이 됩니다. 낮은 기수 지표의 경우 시각화는 예전과 동일하게 동작합니다. |
 | [!UICONTROL 사용 ] 로그 API | 2021년 3월 25일 | 이것은 **[!UICONTROL 관리]** > **[!UICONTROL 로그]** > **[!UICONTROL 사용 및 액세스 로그]**&#x200B;에서 사용할 수 있는 동일한 사용 로그 데이터에 프로그래밍 방식으로 액세스할 수 있는 새로운 v2.0 분석 API입니다. 인증, 스키마 및 샘플 응답에 대한 자세한 내용은 [여기](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md)에서 확인할 수 있습니다. |
@@ -162,6 +162,7 @@ AN-206099;AN-237460;AN-241803;AN-243735;AN-244081;AN-244615;AN-244687;AN-246832;
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | ----------- | ---------- | ---------- |
+| 예정된 분석 메뉴 변경 사항 알림 | 2021년 3월 24일 | 2021년 4월 22일에 성능 향상을 위해 **[!UICONTROL 구성 요소]**, **[!UICONTROL 도구]** 및 **[!UICONTROL 관리]** 드롭다운 메뉴를 업데이트할 예정입니다. 이러한 모든 페이지는 여전히 **[!UICONTROL 모든 구성 요소]**, **[!UICONTROL 모든 도구]** 및 **[!UICONTROL 모든 관리자]** 링크 아래에서 사용할 수 있습니다. 이 페이지는 드롭다운 메뉴에서 제거됩니다. 드롭다운 메뉴에서 제거하고 각 링크 페이지에 배치할 메뉴 항목은 다음과 같습니다.<br><br> [!UICONTROL 구성 요소]<ul><li>[!UICONTROL 책갈피]</li><li>[!UICONTROL 대시보드]</li><li>[!UICONTROL 타겟]</li><li>[!UICONTROL 달력 이벤트]</li><li>[!UICONTROL 예약된 보고서]</li><li>[!UICONTROL 보고서 설정]</li></ul>[!UICONTROL 도구]<ul><li>[!UICONTROL Recommendations Classic]</li><li>[!UICONTROL Search&amp;Promote]</li></ul>[!UICONTROL 관리]<ul><li>[!UICONTROL 사용자 관리]</li><li>[!UICONTROL 분류 가져오기]</li><li>[!UICONTROL 분류 규칙 빌더]</li><li>[!UICONTROL 데이터 소스]</li><li>[!UICONTROL Data Connectors]</li><li>[!UICONTROL 회사 설정]</li><li>[!UICONTROL 로그]</li><li>[!UICONTROL Dynamic Tag Management]</li><li>[!UICONTROL 코드 관리자]</li><li>[!UICONTROL IP별로 제외]</li><li>[!UICONTROL 트래픽 관리]</li></ul> |
 | [!UICONTROL SiteCatalyst VISTA 처리]  = 켜짐 | 2021년 3월 17일 | 2021년 6월 17일에 모든 보고서 세트가 [!UICONTROL SiteCatalyst과 동일 처리]을(를) 켜짐으로 설정하도록 업데이트됩니다. 이 변경 사항은 처리 규칙과 일치하도록 데이터를 처리하여 [!UICONTROL Data Warehouse] 보고에 영향을 줍니다. 질문이나 설명은 Adobe 고객 지원 센터에 문의하십시오. |
 | [!UICONTROL 전체 처리] [!UICONTROL 데이터 소스]의 EOL | 2021년 3월 10일 | Adobe은 앞으로 [!UICONTROL 전체 처리] [!UICONTROL Data Sources]를 사용하지 않을 계획입니다. 2021년 3월 25일부터 이 유형의 새로운 가져오기는 더 이상 생성되지 않습니다. 이 유형의 데이터를 가져오려면 [벌크 데이터 삽입 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)를 사용합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html) |
 | Reports &amp; Analytics 랜딩 페이지 옵션 | 2021년 2월 19일 | 2021년 3월 25일에 새로운 Reports &amp; Analytics 대시보드 또는 기타 콘텐츠를 Adobe Analytics 랜딩 페이지로 설정하는 옵션이 제거됩니다. 이전에 Reports &amp; Analytics 페이지를 맞춤형 랜딩 페이지로 설정했다면 [!UICONTROL 사용자 환경 설정]에서 랜딩 페이지를 수정하기 전까지는 계속 작동합니다. |
