@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3763705cd932a91c26d5c0e6166758241969126d
+source-git-commit: 8c48b768b004298dd4b80da04db7c6b5e536a0e0
 workflow-type: tm+mt
-source-wordcount: '7139'
-ht-degree: 32%
+source-wordcount: '7549'
+ht-degree: 30%
 
 ---
 
@@ -23,9 +23,10 @@ Experience Cloud 솔루션과 서비스는 매달 업데이트됩니다. 이 페
 >
 >월별 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html)를 구독하면 이 페이지의 업데이트에 대한 이메일 알림을 받을 수 있습니다. 이 페이지는 한 달 동안 유지되며 릴리스 날짜 전에 변경될 수 있는 컨텐트를 포함할 수 있습니다. Adobe 엔터프라이즈 제품 및 Experience League 설명서에 대한 업데이트를 정기적으로 확인할 수 있습니다.
 
-최신 업데이트: **2021년 3월 22일**
+최신 업데이트: **2021년 3월 24일**
 
-* [Adobe 시스템 상태](#status) (업데이트되지 않음)
+* [Digital Experience Blueprint](#blueprints) (새로운 구현 설명서)
+* [Adobe 시스템 상태](#status)
 * [Experience Cloud UI 구성 요소, 서비스 및 관리](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
@@ -43,6 +44,23 @@ Experience Cloud 솔루션과 서비스는 매달 업데이트됩니다. 이 페
 
 도움이 필요하십니까? [Adobe Experience League](https://experienceleague.adobe.com/#home)에서 제품 및 기술 문서, Adobe에서 제공하는 교육 과정, 비디오 튜토리얼, 빠른 답변, 커뮤니티 통찰력 및 강사 중심의 트레이닝을 확인할 수 있습니다.
 
+## ![아이콘](/assets/adobe.png) 디지털 경험 청사진  {#blueprints}
+
+Digital Experience Blueprint는 전략을 해결하고 설정된 비즈니스 문제를 해결하기 위한 반복적인 구현입니다. Blueprint를 사용하면 단기간에 효과를 높일 수 있고 신속하게 성과를 달성할 수 있습니다.
+
+| 게시일 | 설명 |
+| -----------| ---------- |
+| [디지털 경험 청사진](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/overview.html) | [!UICONTROL 디지털 청사진]의 개요. 각 블루프린트는 높은 가치의 비즈니스 문제, 아키텍처, 구현 단계, 기술 고려 사항 및 관련 설명서에 대한 링크를 설명하는 일련의 가공물을 제공합니다. |
+| [Audience Activation 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/overview.html) | 고객 중심의 활성화를 통해 여러 채널에서 고객과의 상호 작용을 연결하여 모든 채널에서 활성화할 수 있는 중앙 집중화된 고객을 제공할 수 있습니다. |
+| [고객 활동 허브 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture//customer-activity-hub/overview.html) | 외부 애플리케이션이 Adobe Experience Platform의 [!UICONTROL 실시간 고객 프로필]에 액세스하는 방법을 알아봅니다. |
+| [Customer Journey Analytics 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/overview.html) | 다양한 상호 작용 채널 및 소스에서 고객 데이터와 행동을 통합하여 모든 고객 인터랙션에 대한 여정 기반의 보기를 만드는 방법을 살펴볼 수 있습니다. |
+| [프로파일 데이터 활용 청사진을 위한 맞춤형 데이터 과학](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-science/overview.html) | 머신 러닝 인사이트를 제공하기 위해 [!UICONTROL Data Science Workspace]에서 모델을 트레이닝, 배포 및 점수로 지정하는 데 Adobe Experience Platform의 데이터를 사용하는 방법을 살펴볼 수 있습니다. |
+| [데이터 준비 및 통합 청사진](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/overview.html) | 소스 데이터를 [!UICONTROL 경험 데이터 모델](XDM) 스키마에 매핑하는 방법을 알아봅니다. 이 청사진에는 날짜 서식, 필드 분할, 연결, 변환 등 데이터 변형은 물론이고 레코드 결합, 병합 및 재입력도 포함됩니다. |
+| [엔터프라이즈 데이터 탐색 및 보고 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-exploration/overview.html) | Experience Platform [!UICONTROL 쿼리 서비스]에서는 데이터에 대해 SQL 쿼리를 수행할 수 있습니다. [!UICONTROL 데이터 과학 작업 공간]을 사용하여 데이터에 대한 데이터 탐색, 데이터 과학 및 기계 학습 워크로드를 수행하는 방법을 알아봅니다. |
+| [멀티채널 메시지 통합 계획](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/overview.html) | 이메일, SMS, 모바일 경고와 같은 채널을 통해 고객이 적극적으로 참여하고 소통하는 방법을 알아봅니다. |
+| [서버측 엔터프라이즈 데이터 수집 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/server-side-enterprise-data-collection/overview.html) | Adobe Experience Platform 웹 및 모바일 SDK로 수집한 데이터를 Experience Platform [!UICONTROL Edge 네트워크]에서 원하는 대상으로 전송하는 방법을 알아봅니다. |
+| [웹 및 모바일 개인화 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/overview.html) | 여러 애플리케이션에서 고객 세분화를 사용하여 고객 경험을 개인화하고 최적화하는 방법을 살펴볼 수 있습니다. 고객 행동, 인구 통계, 충성도 수준 및 이전 거래를 통해 레이아웃, 클릭유도문안 및 컨텐츠를 개인화할 수 있습니다. |
+
 ## ![아이콘](/assets/adobe.png) Adobe 시스템 상태 {#status}
 
 [!UICONTROL Adobe 시스템 상태]는 Adobe 클라우드 제품 및 서비스 중단, 중단 및 유지 관리 이벤트에 대한 자세한 정보, 상태 업데이트 및 이메일 알림을 제공합니다. [status.adobe.com](https://status.adobe.com/)에서 관련 정보를 확인하십시오.
@@ -51,7 +69,9 @@ Adobe 시스템 상태에 대한 최신 업데이트는 [Adobe 시스템 상태 
 
 ## ![아이콘](/assets/ec_appicon_24.png) Experience Cloud UI 구성 요소, 서비스 및 관리  {#ecloud}
 
-**통합 검색:** 현재 Experience Platform에 사용할 수 있는 통합 검색이 이제 Experience Platform 사용자에 대한 소스 및 대상에 대한 검색을 지원합니다. 이 기능을 사용하여 세그먼트, 데이터 집합, 스키마, 소스 및 대상을 검색할 수 있습니다.
+| 기능 | 설명 |
+| -----------| ---------- |
+| 통합 검색 | 현재 Experience Platform에 사용할 수 있는 통합 검색은 Experience Platform 사용자에 대한 소스 및 대상에서 검색을 지원합니다. 이 기능을 사용하여 세그먼트, 데이터 집합, 스키마, 소스 및 대상을 검색할 수 있습니다. |
 
 ## ![아이콘](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
