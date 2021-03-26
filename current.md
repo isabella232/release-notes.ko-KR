@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 17179b1ec08435b065a940850b52bb36183276f7
+source-git-commit: 99f32ddc69aa869be32186b9b0746aae27a79113
 workflow-type: tm+mt
-source-wordcount: '7534'
+source-wordcount: '7556'
 ht-degree: 30%
 
 ---
@@ -151,7 +151,7 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 | Analysis Workspace:[!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] | 2021년 3월 25일 | [!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] 페이지에서는 사용자의 [!UICONTROL Analysis Workspace] 설정 및 관련 구성 요소를 관리할 수 있습니다. [!UICONTROL 사용자 ] 환경 설정은 모든 새 프로젝트 및 패널에 적용됩니다. <br>**참고:** 다음 설정은  [!UICONTROL 사용자 환경 설정 페이지로 ] 이동되었습니다.<ul><li>보고서 설정:천 단위 구분 문자(현재 _Number 형식_)</li><li>보고서 설정:CSV 구분 기호</li><li>작업 영역 프로젝트:도움말 > 팁 활성화</li><li>작업 영역 프로젝트:빈 패널 _이 패널로 새 프로젝트 시작_ 옵션</li></ul> |
 | Analysis Workspace:[!UICONTROL 막대 그래프 스마트 버킷 예측] | 2021년 3월 25일 | [!UICONTROL 히스토그램 스마트 버킷 ] 예측 기능은 데이터 스프레드에 맞는 버킷의 정확한 폭과 수를 자동으로 식별하여 높은 카디널리티 지표 막대 그래프에 도움이 됩니다. 낮은 기수 지표의 경우 시각화는 예전과 동일하게 동작합니다. |
 | [!UICONTROL 사용 ] 로그 API | 2021년 3월 25일 | 이것은 **[!UICONTROL 관리]** > **[!UICONTROL 로그]** > **[!UICONTROL 사용 및 액세스 로그]**&#x200B;에서 사용할 수 있는 동일한 사용 로그 데이터에 프로그래밍 방식으로 액세스할 수 있는 새로운 v2.0 분석 API입니다. 인증, 스키마 및 샘플 응답에 대한 자세한 내용은 [여기](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md)에서 확인할 수 있습니다. |
-| 사용자 지정 날짜 범위에 대한 분석 대시보드 지원 | 2021년 3월 25일 | 스코어카드 작성자는 사용자 지정 날짜 범위를 만들고 모바일 스코어카드 프로젝트에 적용할 수 있습니다. 작성자는 익숙한 작업 공간과 모바일 날짜 범위 사전 설정 중에서 선택하거나 사용자 정의 날짜 범위를 만들 수 있습니다. |
+| 사용자 지정 날짜 범위에 대한 분석 대시보드 지원 | 2021년 4월 22일 | 스코어카드 작성자는 사용자 지정 날짜 범위를 만들고 모바일 스코어카드 프로젝트에 적용할 수 있습니다. 작성자는 익숙한 작업 공간과 모바일 날짜 범위 사전 설정 중에서 선택하거나 사용자 정의 날짜 범위를 만들 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html#mobapp). |
 
 ### Customer Journey Analytics의 새로운 기능 {#cust-journey}
 
@@ -160,7 +160,7 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 | [!UICONTROL Adobe Analytics 대시보드 지원] | 2021년 3월 25일 | [!UICONTROL Customer Journey Analytics] (CJA)는 이제  [!UICONTROL Adobe Analytics 대시보드 Scorecard Builder ] 및 모바일 앱을 지원합니다. 이를 통해 경영진과 비즈니스 사용자는 Adobe Analytics에 이미 사용 중일 수 있는 동일한 앱을 사용하여 CJA 데이터를 기반으로 한 크로스채널 KPI를 볼 수 있습니다. |
 | Analysis Workspace:**[!UICONTROL 구성 요소]** > **[!UICONTROL 사용자 환경 설정]** | 2021년 3월 25일 | [!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] 페이지에서는 사용자의 [!UICONTROL Analysis Workspace] 설정 및 관련 구성 요소를 관리할 수 있습니다. [!UICONTROL 사용자 ] 환경 설정은 모든 새 프로젝트 및 패널에 적용됩니다. <br>**참고:** 다음 설정은  [!UICONTROL 사용자 환경 설정 페이지로 ] 이동되었습니다.<ul><li>작업 영역 프로젝트:도움말 > 팁 활성화</li><li>작업 영역 프로젝트:빈 패널 _이 패널로 새 프로젝트 시작_ 옵션</li></ul> |
 | Analysis Workspace:[!UICONTROL 막대 그래프 스마트 버킷 예측] | 2021년 3월 25일 | [!UICONTROL 히스토그램 스마트 버킷 ] 예측 기능은 데이터 스프레드에 맞는 버킷의 정확한 폭과 수를 자동으로 식별하여 높은 카디널리티 지표 막대 그래프에 도움이 됩니다. 낮은 기수 지표의 경우 시각화는 예전과 동일하게 동작합니다. |
-| Customer Journey Analytics에 대한 분석 대시보드 지원 | 2021년 3월 25일 | 이제 Analytics 대시보드 앱이 Customer Journey Analytics을 지원합니다. Customer Journey Analytics 사용자는 Analytics 대시보드 앱에서 Adobe Experience Platform으로 인제스트한 모든 데이터의 KPI를 표시할 수 있습니다. Customer Journey Analytics을 사용하면 여러 데이터 소스를 결합하여 고객 경험을 진정한 멀티채널 방식으로 파악할 수 있습니다. 이제 Analytics 대시보드 앱을 사용하면 언제 어디서나 비즈니스를 전체적으로 확인할 수 있습니다. |
+| Customer Journey Analytics에 대한 분석 대시보드 지원 | 2021년 3월 25일 | 이제 Analytics 대시보드 앱이 Customer Journey Analytics을 지원합니다. Customer Journey Analytics 사용자는 Analytics 대시보드 앱에서 Adobe Experience Platform으로 인제스트한 모든 데이터의 KPI를 표시할 수 있습니다. Customer Journey Analytics을 사용하면 여러 데이터 소스를 결합하여 고객 경험을 진정한 멀티채널 방식으로 파악할 수 있습니다. 이제 Analytics 대시보드 앱을 사용하면 언제 어디서나 비즈니스를 전체적으로 확인할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/curator.html?lang=en#cja-dashboards). |
 
 ### Adobe Analytics의 수정 사항 {#aa-fixes}
 
