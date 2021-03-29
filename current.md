@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 99f32ddc69aa869be32186b9b0746aae27a79113
+source-git-commit: 153ab33f4f0e709d606efd5121b7e65bb1b9caf2
 workflow-type: tm+mt
-source-wordcount: '7556'
+source-wordcount: '7773'
 ht-degree: 30%
 
 ---
@@ -429,15 +429,21 @@ Adobe Advertising Cloud에 대한 릴리스 정보입니다.
 
 ### [!DNL Advertising Cloud Search]의 새로운 기능{#adcloud-search}
 
-**최신 업데이트: 2021년 1월 22일, 1월 23일 릴리스 정보**
+마지막 업데이트:**2022년 3월 29일 릴리스**
 
 | 기능 | 설명 |
 | -----------| ---------- |
-| [!UICONTROL 캠페인 검색]<br> 보고서 | Advertising Cloud Search은 더 이상 Microsoft® 광고 캠페인에 대한 새로운 평균 위치 데이터를 보고하지 않습니다. 평균 위치 열에는 1월 23일 시작 날짜에 대한 0값을 표시됩니다. 이는 2021년 1월에 Microsoft가 평균 위치 데이터를 사용하지 않는 경우에 대비한 것입니다.<br>1월 22일까지 수집된 평균 위치 데이터는 여전히 보고서에서 사용할 수 있습니다. |
+| [!UICONTROL 캠페인 검색]<br> 보고서 | (Microsoft 광고 캠페인) 이제 Microsoft 광고 캠페인에 대한 기본 입찰 전략인 클릭당 비용(eCPC) 입찰 전략에 대해 입찰 지원을 사용할 수 있습니다. 이제 캠페인에 대해 캠페인 수준 [!UICONTROL 입찰 전략]을 지정할 수 있습니다. 옵션에는 [!UICONTROL 수동 CPC] 및 [!UICONTROL 향상된 CPC]이 있습니다. 검색, 기존 동적 검색 광고 및 쇼핑 캠페인과 함께 [!UICONTROL 향상된 CPC]를 사용할 수 있습니다.<br>eCPC가 포함된 캠페인을 최적화된 Advertising Cloud 포트폴리오에 추가하면 Advertising Cloud은 기본 입찰을 최적화하고 &quot;캠페인 예산 제한 자동 조정&quot; 옵션이 활성화되면 캠페인 예산을 최적화합니다. Microsoft는 모든 입찰 조정을 적용하고 독점 데이터 및 인사이트를 기반으로 사용자 쿼리 시 Advertising Cloud에서 생성한 입찰을 변경할 수 있습니다.<br>입찰  [!UICONTROL 전략사용자 ] 지정 열은 캠페인   보기 및 보고서에서 사용할 수 있습니다. |
+| [!UICONTROL 캠페인 검색]<br> [!UICONTROL 불크시트] | (Microsoft Advertising 캠페인) 확장된 텍스트 광고의 경우 이제 선택적 3차 헤드라인([!UICONTROL 광고 제목 3]) 및 선택적 두 번째 설명([!UICONTROL 설명 2])에 대한 지원을 사용할 수 있습니다. 지원은 [!UICONTROL 광고] 보기에서 그리고 [!UICONTROL Bulksheet]에서 사용할 수 있습니다. |
+| [!UICONTROL Advertising Insights] | 두 개의 새로운 [!UICONTROL 광고 인사이트]를 사용할 수 있습니다.<ul><li>[!UICONTROL 지연된 매출]:포트폴리오의 전환 지연(SEM 클릭과 후속 변환 간 경과 시간)을 측정하고 지연 때문에 가중 매출액, ROI 및 모델 정확도에 차이가 있음을 보여줍니다.</li><li>[!UICONTROL 쿼리 교차 일치]:Google이 두 개 이상의 키워드에 대응하고 트래픽을 유도할 위치에 대한 제안을 제공하는 검색 쿼리 인스턴스를 찾습니다.</li></ul> |
 
-### Ad Cloud 튜토리얼 및 강좌
+### Advertising Cloud 튜토리얼 및 과정
 
-업데이트 날짜: **2020년12월 2일**
+업데이트: **2021년 2월 23일**
+
+| 자습서 | 설명 |
+| -----------| ---------- |
+| [Workspace 및 Reporting 소개](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html?lang=ko-KR) | Advertising Cloud 데이터를 사용하여 Adobe Analytics Workspace에서 시각적 보고서를 작성하는 방법에 대해 알아봅니다. |
 
 ## ![아이콘](/assets/magento.png) [!DNL Magento] {#magento}
 
