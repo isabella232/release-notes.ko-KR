@@ -4,14 +4,14 @@ description: Experience Cloud 제품 및 서비스의 최신 릴리스 정보, �
 doc-type: release notes
 last-update: March 2021
 author: mfrei
+exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: 153ab33f4f0e709d606efd5121b7e65bb1b9caf2
+source-git-commit: 6146981c558499f22dbdc56bc12e2ebce2d00439
 workflow-type: tm+mt
-source-wordcount: '7773'
-ht-degree: 89%
+source-wordcount: '7872'
+ht-degree: 88%
 
 ---
-
 
 # Adobe Experience Cloud 릴리스 정보 - 2021년 3월
 
@@ -23,7 +23,7 @@ Experience Cloud 솔루션과 서비스는 매달 업데이트됩니다. 이 페
 >
 >월별 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html)를 구독하면 이 페이지의 업데이트에 대한 이메일 알림을 받을 수 있습니다. 이 페이지는 한 달 내내 유지되며 릴리스 날짜 이전에 변경될 수 있는 콘텐츠를 포함할 수 있습니다. Adobe 엔터프라이즈 제품 및 Experience League 설명서에 대한 업데이트를 정기적으로 확인하십시오.
 
-최신 업데이트: **2021년 3월 24일**
+최신 업데이트 날짜: **2021년 4월 6일**
 
 * [Digital Experience Blueprint](#blueprints) (새로운 구현 설명서)
 * [Adobe 시스템 상태](#status)
@@ -31,7 +31,7 @@ Experience Cloud 솔루션과 서비스는 매달 업데이트됩니다. 이 페
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
 * [Offer Decisioning](#offer-decisioning)
-* [Analytics](#analytics) 및 [Customer Journey Analytics](#cust-journey)
+* [Analytics](#analytics) **(2021년 4월 6일 업데이트)**  및  [Customer Journey Analytics](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -140,7 +140,7 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 * [Adobe Analytics의 새로운 기능](#aa-features)
 * [Customer Journey Analytics의 새로운 기능](#cust-journey)
 * [Adobe Analytics의 수정 사항](#aa-fixes)
-* [Analytics 관리자에 대한 중요 공지](#aa-notices)
+* [Analytics 관리자에 대한 중요 공지](#aa-notices)  **(2021년 4월 6일 업데이트)**
 * [AppMeasurement](#appm)
 
 ### Adobe Analytics의 새로운 기능 {#aa-features}
@@ -181,6 +181,7 @@ AN-206099; AN-237460; AN-241803; AN-243735; AN-244081; AN-244615; AN-244687; AN-
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | ----------- | ---------- | ---------- |
+| 데이터 피드 및 Data Warehouse IP 주소 변경 사항 | 2021년 4월 6일 | 6월 17일부터 데이터 피드 및 Data Warehouse 배달 시스템이 데이터 센터 내에서 재배치되므로 사용자가 볼 수 있는 외부 IP 주소가 변경될 수 있습니다.  보고서 및 피드를 소싱한 데이터 센터의 모든 IP CIDR 블록이 방화벽에 있는지, 제어하는 대상 시스템에 대해 확인합니다. [다음은 방화벽 허용 목록에 배치할 IP 주소 범위의 전체 목록입니다](https://https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html#data-collection-and-ftp-ip-address-blocks). |
 | 예정된 분석 메뉴 변경 사항 알림 | 2021년 3월 24일 | 2021년 4월 22일에 성능 향상을 위해 **[!UICONTROL 구성 요소]**, **[!UICONTROL 도구]** 및 **[!UICONTROL 관리]** 드롭다운 메뉴를 업데이트할 예정입니다. 이러한 모든 페이지는 여전히 **[!UICONTROL 모든 구성 요소]**, **[!UICONTROL 모든 도구]** 및 **[!UICONTROL 모든 관리자]** 링크 아래에서 사용할 수 있습니다. 이 페이지는 드롭다운 메뉴에서 제거됩니다. 드롭다운 메뉴에서 제거하고 각 링크 페이지에 배치할 메뉴 항목은 다음과 같습니다.<br><br> [!UICONTROL 구성 요소]<ul><li>[!UICONTROL 책갈피]</li><li>[!UICONTROL 대시보드]</li><li>[!UICONTROL 타겟]</li><li>[!UICONTROL 달력 이벤트]</li><li>[!UICONTROL 예약된 보고서]</li><li>[!UICONTROL 보고서 설정]</li></ul>[!UICONTROL 도구]<ul><li>[!UICONTROL Recommendations Classic]</li><li>[!UICONTROL Search&amp;Promote]</li></ul>[!UICONTROL 관리]<ul><li>[!UICONTROL 사용자 관리]</li><li>[!UICONTROL 분류 가져오기]</li><li>[!UICONTROL 분류 규칙 빌더]</li><li>[!UICONTROL 데이터 소스]</li><li>[!UICONTROL Data Connectors]</li><li>[!UICONTROL 회사 설정]</li><li>[!UICONTROL 로그]</li><li>[!UICONTROL Dynamic Tag Management]</li><li>[!UICONTROL 코드 관리자]</li><li>[!UICONTROL IP별로 제외]</li><li>[!UICONTROL 트래픽 관리]</li></ul> |
 | [!UICONTROL Same-as-SiteCatalyst VISTA Processing] = ON | 2021년 3월 17일 | 2021년 6월 17일에 모든 보고서 세트가 업데이트되어 [!UICONTROL Same-as-SiteCatalyst VISTA Processing]이 ON으로 설정될 것입니다. 이 변경 사항은 처리 규칙과 일치하도록 데이터를 처리함으로써 [!UICONTROL Data Warehouse] 보고에 영향을 줍니다. 질문이나 설명이 필요한 경우 Adobe 고객 지원 센터에 문의하십시오. |
 | [!UICONTROL 전체 프로세싱] [!UICONTROL 데이터 소스] 서비스 중단 | 2021년 3월 10일 | Adobe는 향후 [!UICONTROL 전체 프로세싱] [!UICONTROL 데이터 소스]에 대한 사용을 중단할 예정입니다. 2021년 3월 25일부터 이 유형의 새로운 가져오기는 더 이상 생성되지 않습니다. 이 유형의 데이터를 가져오려면 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)를 사용하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html) |
