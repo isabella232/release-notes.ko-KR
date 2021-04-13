@@ -90,7 +90,7 @@ Experience Platform 및 서비스를 위해 게시된 새로운 비디오, 튜�
 | 2021년 3월 | [소스 커넥터를 사용하여 데이터 스트리밍](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/streaming-ingestion-source-connector.html) | 비디오 | 이 비디오는 실시간으로 클라우드 스토리지 소스의 데이터를 플랫폼으로 스트리밍하고 고객 참여를 위해 데이터를 실시간으로 사용하는 방법을 보여줍니다. |
 | 2021년 3월 5일 | [데이터 엔지니어를 위한 데이터 수집](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) | 교육 과정 | 여러 소스의 데이터를 Adobe Experience Platform으로 가져오는 방법 등. |
 | 2021년 3월 | [Azure Blob 대상 구성](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/configure-the-azure-blob-destination.html?lang=ko#destinations) | 비디오 | [!UICONTROL Real-time Customer Data Platform] (실시간 CDP)에서 Azure Blob 스토리지 대상을 설정하고 구성하는 데 필요한 단계를 안내하는 방법을 알아봅니다. |
-| 2021년 3월 5일 | [마케팅 담당자를 위한 Offer Decisioning 시작](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-U-1-2020.1.offerdecisioning) | 교육 과정 | 이 비디오에서는 Adobe Experience Platform 위에 구축된 응용 프로그램 서비스인 [!UICONTROL Offer Decisioning]에 대한 개요를 제공합니다. 이 과정은 고객에게 최상의 혜택을 제공하여 매출, 고객 경험 및 충성도를 높이기를 원하는 마케터를 위해 설계되었습니다. |
+| 2021년 3월 5일 | [마케팅 담당자를 위한 Offer Decisioning 시작](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-U-1-2020.1.offerdecisioning) | 교육 과정 | 이 비디오에서는 Adobe Experience Platform 위에 구축된 애플리케이션 서비스인 [!UICONTROL Offer Decisioning]에 대한 개요를 제공합니다. 이 과정은 고객에게 최상의 혜택을 제공하여 매출, 고객 경험 및 충성도를 높이기를 원하는 마케터를 위해 설계되었습니다. |
 | 2021년 3월 5일 | [API를 통한 스트리밍 데이터 수집](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/streaming-ingestion-http-api.html) | 비디오 | 이 비디오는 HTTP API 끝점을 사용하여 실시간으로 Adobe Experience Platform에 데이터를 스트리밍하는 방법을 보여줍니다. |
 | 2021년 3월 5일 | [API를 사용한 데이터 수집 모니터링](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/data-monitoring.html?lang=ko#data-ingestion) | 비디오 | 플랫폼의 UI 및 API를 사용하여 Adobe Experience Platform으로 수집되는 데이터를 모니터링하고 추적하는 방법에 대해 알아봅니다. |
 | 2021년 3월 5일 | [데이터베이스로부터 데이터 수집](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-databases.html?lang=ko#sources) | 비디오 | 이 비디오는 원활하고 확장 가능한 방식으로 데이터베이스 소스의 데이트를 Adobe Experience Platform의 실시간 고객 프로필 및 경험 데이터 레이크로 일괄 수집하는 방법을 안내합니다. |
@@ -171,7 +171,7 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 * 관리자가 아닌 사용자의 사용자 권한 문제를 해결했습니다. [!UICONTROL Admin Console]의 프로필 중 하나 이상에 추가되는 한 사용자는 권한이 있어야 합니다. 프로필에 사용자를 추가하는 경우 가지고 있는 권한에만 추가해야 하며 다른 제품 프로필을 통해 이미 권한이 부여된 것을 제거해서는 안됩니다. (AN-242723)
 * [!UICONTROL 데이터 피드]의 언어 인코딩 문제를 해결했습니다. (AN-249862)
 * 사용자가 공유 [!UICONTROL Workspace] 프로젝트에 액세스할 수 없는 문제를 해결했습니다. (AN-247814)
-* [!UICONTROL 경고 미리 보기]가 트리거된 [!UICONTROL 경고]의 수와 일치하지 않는 문제를 해결했습니다. (AN-249392; AN-250804)
+* [!UICONTROL 경고 미리보기]가 트리거된 [!UICONTROL 경고]의 수와 일치하지 않는 문제를 해결했습니다. (AN-249392; AN-250804)
 
 #### 추가 Adobe Analytics 수정 사항
 
