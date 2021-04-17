@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: April 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e5c34b37703cc4aaf0c6711dc5da7857321375ae
+source-git-commit: 21fdbc0a354a87723097e294db15d88e9877061c
 workflow-type: tm+mt
-source-wordcount: '5431'
-ht-degree: 42%
+source-wordcount: '5430'
+ht-degree: 43%
 
 ---
 
@@ -343,7 +343,7 @@ Adobe Advertising Cloud에 대한 릴리스 정보입니다.
 | -----------| ---------- |
 | 신규 도움말 | (10월 28일 릴리스) 기존 도움말은 업데이트된 페이지로 대체되었으며, 이 도움말은 DSP 기본 메뉴의 도움말 링크에서 사용할 수 있고 [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=ko](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=ko)에서도 항상 사용할 수 있습니다. |
 | Campaigns | (10월 28일 릴리스) 이제 더 빠른 통찰력, 간소화된 워크플로 및 맞춤화된 보기를 위한 이전 Campaigns 베타 보기가 기본 캠페인 보기입니다. |
-| 비공개 인벤토리 | (10월 15일 릴리스) 이제 모든 사용자는 기존 [!UICONTROL 스마트 광고 서비스 제공] 양식의 간소화된 버전인 새로운 거래 ID 양식을 사용하여 거래 ID 세부 사항을 설정하고 편집할 수 있습니다. 새 거래 ID 세부 사항을 설정하려면 **[!UICONTROL 인벤토리]** > **!UICONTROL 거래]**&#x200B;로 이동하고 **[!UICONTROL 만들기]**&#x200B;를 클릭한 다음 **[!UICONTROL 거래 ID 베타]**&#x200B;를 클릭합니다. |
+| 비공개 인벤토리 | (10월 15일 릴리스) 이제 모든 사용자는 기존 스마트 광고 서비스 제공 양식의 간소화된 버전인 새로운 거래 ID 양식을 사용하여 거래 ID 세부 사항을 설정하고 편집할 수 있습니다. 새 거래 ID 세부 사항을 설정하려면 **[!UICONTROL 인벤토리]** > **[!UICONTROL 거래]** > **[!UICONTROL 만들기]**&#x200B;로 이동한 다음 **[!UICONTROL 거래 ID 베타]**&#x200B;를 클릭합니다. |
 | 배치 예측 | (10월 15일 릴리스) 배치 수준 게재 간격이 있는 배치의 경우, 배치 설정의 [!UICONTROL 예측] 섹션에는 현재 타기팅 구성으로 사용할 수 있는 용량이 얼마나 더 많은지를 나타내는 새 [!UICONTROL 예상 최대 수] 섹션이 포함됩니다. |
 
 ### [!DNL Advertising Cloud Search]의 새로운 기능{#adcloud-search}
