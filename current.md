@@ -5,15 +5,15 @@ doc-type: release notes
 last-update: April 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 21fdbc0a354a87723097e294db15d88e9877061c
+source-git-commit: 626651efb9a0ae76ac1b2681d178dcf6677e9d6b
 workflow-type: tm+mt
-source-wordcount: '5430'
+source-wordcount: '5428'
 ht-degree: 43%
 
 ---
 
 
-# 내부 검토 - Adobe Experience Cloud 릴리스 노트 - 2021년 4월
+# Adobe Experience Cloud 릴리스 노트 - 2021년 4월
 
 ![배너](assets/experience-cloud-banner-3.png)
 
@@ -27,7 +27,7 @@ Experience Cloud 솔루션과 서비스는 매달 업데이트됩니다. 이 페
 >
 >월별 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html)를 구독하면 이 페이지의 업데이트에 대한 이메일 알림을 받을 수 있습니다. 이 페이지는 한 달 동안 유지되므로 Adobe 엔터프라이즈 제품 및 Experience League 설명서에 대한 업데이트를 정기적으로 확인하십시오.
 
-최신 업데이트 날짜: **2021년 4월 15일**
+최신 업데이트 날짜: **2021년 4월 16일**
 
 * [Adobe 시스템 상태](#status) (업데이트되지 않음)
 * [Experience Cloud UI 구성 요소, 서비스 및 관리](#ecloud)
