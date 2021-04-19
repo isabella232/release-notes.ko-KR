@@ -4,14 +4,14 @@ description: Experience Cloud 제품 및 서비스의 최신 릴리스 정보, �
 doc-type: release notes
 last-update: April 2021
 author: mfrei
+exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: a030b00ce834306ccf5da00e0c8757e3a2b4fa02
+source-git-commit: 75fc19a753d94ad35337ad43f98aaa0aff52bdc1
 workflow-type: tm+mt
-source-wordcount: '5426'
+source-wordcount: '5384'
 ht-degree: 43%
 
 ---
-
 
 # Adobe Experience Cloud 릴리스 노트 - 2021년 4월
 
@@ -63,8 +63,8 @@ Adobe 시스템 상태에 대한 최신 업데이트는 2020년 5월 21일(2020�
 
 Experience Platform 및 Experience Platform Launch에 대한 릴리스 업데이트 정보 포함
 
-* [Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html). (릴리스:2021년 3월 31일)
-* [Experience Platform Launch 릴리스 정보](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html). (릴리스:2021년 2월 18일)
+* [Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR). (릴리스:2021년 3월 31일)
+* [Experience Platform Launch 릴리스 정보](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html?lang=ko-KR). (릴리스:2021년 2월 18일)
 
 ### Experience Platform 튜토리얼 및 교육 과정
 
@@ -93,11 +93,11 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 
 ### 최신 제품 릴리스
 
-2021년 2월 릴리스 - [Offer Decisioning 릴리스 정보](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/release-notes.html?lang=ko#new)에서 최신 기능에 대해 알아봅니다.
+2021년 2월 릴리스 - [Offer Decisioning 릴리스 정보](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/release-notes.html?lang=ko-KR#new)에서 최신 기능에 대해 알아봅니다.
 
 ### Offer Decisioning을 위한 추가 리소스
 
-[설명서](https://experienceleague.adobe.com/docs/offer-decisioning/using/offer-decisioning-home.html?lang=ko) - [방법 비디오](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/overview.html?lang=ko)
+[설명서](https://experienceleague.adobe.com/docs/offer-decisioning/using/offer-decisioning-home.html?lang=ko-KR) - [방법 비디오](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/overview.html?lang=ko-KR)
 
 ## ![아이콘](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
 
@@ -144,7 +144,7 @@ AN-248451;AN-250461;AN-251157; AN-251481;AN-251756;AN-252604;AN-252822;AN-252941
 | ----------- | ---------- | ---------- |
 | 전체 프로세싱 데이터 소스 서비스 중단 | 2021년 4월 12일 | Adobe은 2021년 7월 31일에 전체 처리 데이터 소스를 더 이상 사용하지 않을 계획이다. 2021년 3월 25일부터 이 유형의 새로운 가져오기는 더 이상 생성되지 않습니다. 이 유형의 데이터를 가져오려면 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)를 사용해 주십시오. |
 | [!UICONTROL Report Builder]로 로그인 업데이트 | 2021년 4월 9일 | 2021년 1월 14일, [!UICONTROL Report Builder] 로그인 업데이트는 기존 기술에 대한 종속성을 제거하고 로그인 프로세스를 Experience Cloud에 정렬했습니다. Experience Cloud는 Enterprise ID(이메일과 암호)를 사용합니다. [!UICONTROL Report Builder]에 중단 없이 액세스하려면 2021년 7월 22일까지 [!UICONTROL Report Builder] 추가 기능을 버전 5.6.47 이상으로 업데이트합니다. Report Builder 버전 5.6.47 이상 버전은 Experience Cloud 로그인만 지원하며 단일 사인온을 지원하지 않습니다. |
-| 데이터 피드 및 Data Warehouse IP 주소 변경 사항 | 2021년 4월 6일 | 6월 17일부터 데이터 피드 및 Data Warehouse 전달 시스템이 데이터 센터 내에 재배치되어 외부 IP 주소가 변경되어 표시될 수 있습니다. 보고 및 피드가 제공되는 데이터 센터의 IP CIDR 블록은 제어되는 모든 대상 시스템의 방호벽에 존재합니다. [다음은 방화벽 허용 목록](https://https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html#data-collection-and-ftp-ip-address-blocks)에 배치할 IP 주소 범위의 전체 목록입니다. |
+| 데이터 피드 및 Data Warehouse IP 주소 변경 사항 | 2021년 4월 6일 | 6월 17일부터 데이터 피드 및 Data Warehouse 전달 시스템이 데이터 센터 내에 재배치되어 외부 IP 주소가 변경되어 표시될 수 있습니다. 보고 및 피드가 제공되는 데이터 센터의 IP CIDR 블록은 제어되는 모든 대상 시스템의 방호벽에 존재합니다. [다음은 방화벽 허용 목록](https://https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=ko-KR#data-collection-and-ftp-ip-address-blocks)에 배치할 IP 주소 범위의 전체 목록입니다. |
 | 예정된 Analytics 메뉴 변경 알림 | 2021년 3월 24일 | 2021년 4월 22일, 성능 향상을 위해 **[!UICONTROL 구성 요소]**, **[!UICONTROL 도구]**, **[!UICONTROL 관리자]** 드롭다운 메뉴를 업데이트할 예정입니다. 이러한 모든 페이지는 여전히 **[!UICONTROL 모든 구성 요소]**, **[!UICONTROL 모든 도구]** 및 **[!UICONTROL 모든 관리자]** 링크 아래에서 사용할 수 있습니다. 이 페이지는 드롭다운 메뉴에서 제거됩니다. 드롭다운 메뉴에서 제거되고 각각의 링크 페이지에 배치되는 메뉴 항목은 다음과 같습니다.<br><br> [!UICONTROL 구성 요소]<ul><li>[!UICONTROL 책갈피]</li><li>[!UICONTROL 대시보드]</li><li>[!UICONTROL 타겟]</li><li>[!UICONTROL 달력 이벤트]</li><li>[!UICONTROL 예약된 보고서]</li><li>[!UICONTROL 보고서 설정]</li></ul>[!UICONTROL 도구]<ul><li>[!UICONTROL Recommendations Classic]</li><li>[!UICONTROL Search &amp; Promote]</li></ul>[!UICONTROL 관리]<ul><li>[!UICONTROL 사용자 관리]</li><li>[!UICONTROL 분류 가져오기]</li><li>[!UICONTROL 분류 규칙 빌더]</li><li>[!UICONTROL 데이터 소스]</li><li>[!UICONTROL Data Connectors]</li><li>[!UICONTROL 회사 설정]</li><li>[!UICONTROL 로그]</li><li>[!UICONTROL Dynamic Tag Management]</li><li>[!UICONTROL 코드 관리자]</li><li>[!UICONTROL IP 주소별 제외]</li><li>[!UICONTROL 트래픽 관리]</li></ul> |
 | 동일한 SiteCatalyst VISTA 처리 켜기 | 2021년 3월 17일 | 2021년 6월 17일에 모든 보고서 세트가 업데이트되어 [!UICONTROL Same-as-SiteCatalyst VISTA Processing]이 ON으로 설정될 것입니다. 이 변경 사항은 처리 규칙과 일치하도록 데이터를 처리함으로써 Data Warehouse 보고에 영향을 줍니다. 질문이나 설명이 필요한 경우 고객 지원 센터에 문의하십시오. |
 | Reports &amp; Analytics 랜딩 페이지 옵션 | 2021년 2월 19일 | 2021년 3월 25일에 Adobe Analytics 랜딩 페이지로 새로운 보고 및 분석 대시보드 또는 기타 컨텐츠를 설정하는 옵션이 제거되었습니다. 이전에 보고 및 분석 페이지를 사용자 지정 랜딩 페이지로 설정한 경우 랜딩 페이지가 [!UICONTROL 사용자 환경 설정]에서 수정될 때까지 계속 작동합니다. |
@@ -186,13 +186,12 @@ Audience Manager에 대해 게시된 새로운 비디오, 튜토리얼 또는 �
 
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021년 4월 | [교육 과정 소개 - Audience Manager 사용자를 위한 실시간 CDP 이해](https://video.tv.adobe.com/v/332230) | 비디오 | Audience Manager에서 [!UICONTROL 실시간 고객 데이터 플랫폼](실시간 CDP)으로 전환하는 것은 특정 영역의 패러다임의 변화를 가져옵니다. 이 비디오에서는 이러한 동작을 수행하는 과정을 소개합니다. |
+| 2021년 4월 | [Audience Manager 사용자를 위한 실시간 CDP 이해](https://experienceleague.adobe.com/?recommended=AudienceManager-U-1-2020.1.rtcdp) | 교육 과정 | Audience Manager 고객은 Adobe의 실시간 고객 데이터 플랫폼(실시간 CDP)으로 전환하여 컨텐츠 관리를 혁신하고 있습니다. 이 과정에서는 개념별 접근 방식을 사용하므로 Audience Manager 사용자는 개념 구상이 Real-time CDP에서 어떻게 처리되는지 이해할 수 있습니다. |
 | 2021년 4월 | [Audience Manager 사용자를 위한 실시간 CDP의 대상 이해](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-destinations-for-aam-users.html?lang=en) | 비디오 | Audience Manager에서 [!UICONTROL 실시간 고객 데이터 플랫폼](실시간 CDP)으로 이동하는 경우 대상 세그먼트를 대상 파트너로 활성화하는 방법을 알 수 있도록 대상을 파악해야 합니다. 이 비디오에서는 서로 다른 대상 유형과 실시간 CDP의 위치에 대해 설명합니다. |
 | 2021년 4월 | [Audience Manager 사용자를 위한 실시간 CDP의 데이터 거버넌스 이해](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-data-gov-for-aam-users.html?lang=en#other-integrations) | 비디오 | 이 비디오에서는 Audience Manager 사용자를 Audience Manager에서 사용할 수 있었던 기능과 비교하여 [!UICONTROL 실시간 고객 데이터 플랫폼]의 데이터 거버넌스 기능을 안내합니다. 이 문서에서는 [!UICONTROL 데이터 사용 및 레이블 지정 적용](DULE) 프레임워크와 플랫폼에서 적용할 수 있는 위치에 대해 설명합니다. |
 | 2021년 4월 | [브랜드 vs 소비자 - 이벤트 2가지 인식 이야기](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/industry/brands-vs-consumers.html?lang=en#industry) | 문서 | 오늘날 마케터는 ID 관행에 전념하는 수많은 정보에 노출되어 있습니다. Adobe과 어드밴스 사의 최근 조사에 따르면, 마케팅 전문가 중 37%만이 &quot;안전한 미래를 위해 준비가 되어 있다&quot;고 답했다. 이 웨비나에서 Adobe는 쿠키 없는 미래에 대한 광고주 및 게시자의 이해와 준비 수준, 그들의 사용 사례에 미치는 영향, 더 넓은 생태계에 대한 인식을 설명합니다. |
 | 2021년 4월 | [책임 있는 고객 데이터 관리를 위한 10가지 고려 사항 - 이벤트](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/industry/ten-considerations-for-responsible-customer-data-management.html?lang=en#industry) | 문서 | 불안정한 시장의 힘과 서로 다른 소비자 개인 정보 요구 사항은 디지털 마케터에게 힘겨운 시나리오를 초래할 수 있습니다. 캠페인을 규정 오른쪽에 두기 위해 마케팅 팀은 향후 데이터 거버넌스 프로세스를 위한 간소화된 프로세스를 필요로 합니다. 여기에는 소비자 데이터의 책임 있는 사용 규칙을 준수하고 실행할 수 있는 기능이 가장 적합합니다. 책임 있는 데이터 관리를 위한 주요 고려 사항에 대해 Adobe 및 [!DNL Scotiabank] [!DNL Digital]로부터 듣습니다. |
 | 2021년 4월 | [데이터 관리의 미래와 변화하는 환경 - 이벤트](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/industry/the-future-of-data-management-and-the-changing-environment.html?lang=en#industry) | 문서 | 시장의 영향력이 우리의 디지털 환경에 변화를 가져오므로 기업은 데이터 거버넌스, ID 해결 방법, 잠재 고객과 익명의 방문자를 유의미한 컨텐츠의 유도를 연결하는 방법 등과 관련된 새로운 현실에 적응해야 합니다. |
-| 2021년 4월 | [Audience Manager 사용자를 위한 실시간 CDP 이해](https://experienceleague.adobe.com/?recommended=AudienceManager-U-1-2020.1.rtcdp) | 교육 과정 | Audience Manager 고객은 Adobe의 실시간 고객 데이터 플랫폼(실시간 CDP)으로 전환하여 컨텐츠 관리를 혁신하고 있습니다. 이 과정에서는 개념별 접근 방식을 사용하므로 Audience Manager 사용자는 개념 구상이 Real-time CDP에서 어떻게 처리되는지 이해할 수 있습니다. |
 
 ## ![아이콘](/assets/aem.png) Adobe Experience Manager {#aem}
 
@@ -215,7 +214,7 @@ Experience Manager의 새로운 기능, 수정 내용 및 업데이트. 안정�
       * 컨텐츠 조각 편집기 UX 개선 사항 - 중첩된 하위 조각이 이제 브레드크럼에 표시되고 게시, 저장 및 저장 및 종료 작업의 향상된 보기
    * **Experience Manager Assets as a Cloud Service**
 
-      * Experience Manager은 지원되는 핵심 구성 요소에서 Dynamic Media 이미지를 사용할 수 있도록 연결된 에셋 기능을 확장합니다. Experience Manager 사이트에서 [연결된 에셋을 사용하여 DAM 에셋을 공유하십시오](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/admin/use-assets-across-connected-assets-instances.html)를 참조하십시오.
+      * Experience Manager은 지원되는 핵심 구성 요소에서 Dynamic Media 이미지를 사용할 수 있도록 연결된 에셋 기능을 확장합니다. Experience Manager 사이트에서 [연결된 에셋을 사용하여 DAM 에셋을 공유하십시오](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/admin/use-assets-across-connected-assets-instances.html?lang=ko-KR)를 참조하십시오.
       * Experience Manager 관리자는 특정 날짜 또는 시간에 일괄 자산 지정을 예약할 수 있습니다. 또한 관리자는 날짜 및 시간을 기반으로 반복되는 작업을 예약할 수 있습니다. [자산 벌크 인제스트 또는 도구](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor) 비디오를 참조하십시오.
    * **Experience Manager Forms as a Cloud Service**
 
@@ -265,7 +264,7 @@ Experience Manager의 새로운 기능, 수정 내용 및 업데이트. 안정�
 * [Experience Manager Cloud Manager 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/release-notes/release-notes-current.html?lang=en)
 * [자동 양식 전환 서비스 릴리스 정보](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/release-notes.html?lang=en)
 * [Experience Manager 6.5 서비스 팩 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=en)
-* [Experience Manager 6.4 Cumulative Fix Pack 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/cfp-release-notes.html?lang=ko)
+* [Experience Manager 6.4 Cumulative Fix Pack 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/cfp-release-notes.html?lang=ko-KR)
 * [Experience Manager 에셋 Dynamic Media 릴리스 노트](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/release-notes/s7rn2017.html?lang=en)
 * [Experience Manager Brand Portal 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html?lang=ko-KR)
 * [Experience Manager 데스크탑 앱 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/release-notes.html?lang=en)
@@ -291,7 +290,7 @@ Experience Manager의 새로운 기능, 수정 내용 및 업데이트. 안정�
 
 * [Experience Manager as a Cloud Service 안내서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=en)
 * [Experience Manager 6.5 학습 및 지원 홈](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/home.html?lang=en)
-* [Experience Manager 6.4 학습 및 지원 홈](https://experienceleague.adobe.com/docs/experience-manager-64.html)
+* [Experience Manager 6.4 학습 및 지원 홈](https://experienceleague.adobe.com/docs/experience-manager-64.html?lang=ko-KR)
 * [Experience Manager 6.3 학습 및 지원 홈](https://helpx.adobe.com/kr/support/experience-manager/6-3.html)
 * [Experience Manager 6.2 학습 및 지원 홈](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en#previous-updates)
 * [이전 버전의 Experience Manager 설명서](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en#previous-updates)
@@ -341,7 +340,7 @@ Adobe Advertising Cloud에 대한 릴리스 정보입니다.
 
 | 기능 | 설명 |
 | -----------| ---------- |
-| 신규 도움말 | (10월 28일 릴리스) 기존 도움말은 업데이트된 페이지로 대체되었으며, 이 도움말은 DSP 기본 메뉴의 도움말 링크에서 사용할 수 있고 [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=ko](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=ko)에서도 항상 사용할 수 있습니다. |
+| 신규 도움말 | (10월 28일 릴리스) 기존 도움말은 업데이트된 페이지로 대체되었으며, 이 도움말은 DSP 기본 메뉴의 도움말 링크에서 사용할 수 있고 [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=ko-KR](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=ko-KR)에서도 항상 사용할 수 있습니다. |
 | Campaigns | (10월 28일 릴리스) 이제 더 빠른 통찰력, 간소화된 워크플로 및 맞춤화된 보기를 위한 이전 Campaigns 베타 보기가 기본 캠페인 보기입니다. |
 | 비공개 인벤토리 | (10월 15일 릴리스) 이제 모든 사용자는 기존 스마트 광고 서비스 제공 양식의 간소화된 버전인 새로운 거래 ID 양식을 사용하여 거래 ID 세부 사항을 설정하고 편집할 수 있습니다. 새 거래 ID 세부 사항을 설정하려면 **[!UICONTROL 인벤토리]** > **[!UICONTROL 거래]** > **[!UICONTROL 만들기]**&#x200B;로 이동한 다음 **[!UICONTROL 거래 ID 베타]**&#x200B;를 클릭합니다. |
 | 배치 예측 | (10월 15일 릴리스) 배치 수준 게재 간격이 있는 배치의 경우, 배치 설정의 [!UICONTROL 예측] 섹션에는 현재 타기팅 구성으로 사용할 수 있는 용량이 얼마나 더 많은지를 나타내는 새 [!UICONTROL 예상 최대 수] 섹션이 포함됩니다. |
@@ -361,7 +360,7 @@ Adobe Advertising Cloud에 대한 릴리스 정보입니다.
 
 | 튜토리얼 | 설명 |
 | -----------| ---------- |
-| [Workspace 및 Reporting 소개](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html?lang=ko) | Advertising Cloud 데이터를 사용하여 Adobe Analytics Workspace에서 시각적 보고서를 작성하는 방법에 대해 알아봅니다. |
+| [Workspace 및 Reporting 소개](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html?lang=ko-KR) | Advertising Cloud 데이터를 사용하여 Adobe Analytics Workspace에서 시각적 보고서를 작성하는 방법에 대해 알아봅니다. |
 
 ## ![아이콘](/assets/magento.png) [!DNL Magento] {#magento}
 
@@ -420,8 +419,8 @@ Adobe Document Cloud용으로 게시된 새로운 비디오, 튜토리얼 또는
 
 Document Cloud 도움말은 다음을 참조하십시오.
 
-* [Adobe Acrobat 학습 허브](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html)
-* [Adobe Sign 학습 허브](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html)
+* [Adobe Acrobat 학습 허브](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html?lang=ko-KR)
+* [Adobe Sign 학습 허브](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=ko-KR)
 * [Document Cloud 학습 및 지원](https://helpx.adobe.com/kr/support/document-cloud.html)
 
 <!-- ## ![Icon](/assets/creative-cloud-24.png) Creative Cloud Enterprise {#creative-cloud}
