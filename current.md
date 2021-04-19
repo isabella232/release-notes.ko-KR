@@ -6,9 +6,9 @@ last-update: April 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: 75fc19a753d94ad35337ad43f98aaa0aff52bdc1
+source-git-commit: 7b542cb233b84542e0058ac2f4c39b0349e3fb73
 workflow-type: tm+mt
-source-wordcount: '5384'
+source-wordcount: '5381'
 ht-degree: 43%
 
 ---
@@ -402,7 +402,7 @@ Adobe Document Cloud용으로 게시된 새로운 비디오, 튜토리얼 또는
 | -----------| ---------- | ---------- | ---------- |
 | 2021년 4월 | [[Adobe Sign] Salesforce 및 Marketing용 Adobe Sign을 사용하여 알림 메시지 보내기 - 기능 비디오](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/integrations/marketo/marketo-salesforce-reminder-video.html) | 비디오 | 본 비디오 자습서에서는 일정 기간 후 계약에 서명되지 않은 상태로 남아 있는 경우 Marketing에서 이메일 미리 알림을 보내는 방법을 알아봅니다. 이 통합은 Salesforce, Marketing, Marketing 및 Salesforce용 Adobe Sign을 사용합니다. |
 
-### 새로운 Document Cloud 교육 과정 및 자습서
+### Document Cloud 자습서
 
 | 게시일 | 이름 | 솔루션 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
