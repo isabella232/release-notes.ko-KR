@@ -6,10 +6,10 @@ last-update: April 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: d5ac0d91d5d4aa4a7661c529b5a7d85e0cb65d14
+source-git-commit: 1f88b532306f86768a9981d6bba06a21050affe7
 workflow-type: tm+mt
-source-wordcount: '5370'
-ht-degree: 42%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -47,7 +47,7 @@ Experience Cloud 솔루션과 서비스는 매달 업데이트됩니다. 이 페
 
 [!UICONTROL Adobe 시스템 상태]는 Adobe 클라우드 제품 및 서비스 중단, 중단 및 유지 관리 이벤트에 대한 자세한 정보, 상태 업데이트 및 이메일 알림을 제공합니다. [status.adobe.com](https://status.adobe.com/)에서 관련 정보를 확인하십시오.
 
-Adobe 시스템 상태에 대한 최신 업데이트는 2020년 5월 21일(2020년 5월 21일)에 있습니다.[](https://docs.adobe.com/content/help/ko/release-notes/experience-cloud/previous/2020/05212020.html#status)
+Adobe 시스템 상태에 대한 최신 업데이트는 2020년 5월 21일(2020년 5월 21일)에 있습니다.[](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/previous/2020/05212020.html?lang=en)
 
 ## ![아이콘](/assets/ec_appicon_24.png) Experience Cloud UI 구성 요소, 서비스 및 관리 {#ecloud}
 
@@ -59,8 +59,8 @@ Adobe 시스템 상태에 대한 최신 업데이트는 2020년 5월 21일(2020�
 
 Experience Platform 및 Experience Platform Launch에 대한 릴리스 업데이트 정보 포함
 
-* [Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR). (릴리스:**2021년 4월 21일**)
-* [Experience Platform Launch 릴리스 정보](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html?lang=ko-KR). (릴리스:2021년 2월 18일)
+* [Experience Platform 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR) (릴리스: **2021년** 4월 21일)
+* [Experience Platform Launch 릴리스 노트](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html?lang=ko-KR) (릴리스:2021년 2월 18일)
 
 ### Experience Platform 튜토리얼 및 교육 과정
 
@@ -77,11 +77,11 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 
 ### 최신 제품 릴리스
 
-[Journey Orchestration 릴리스 정보](https://docs.adobe.com/content/help/ko/journeys/using/release-notes/release-notes.html)에서 최신 기능, 개선 사항 및 수정 사항에 대해 알아봅니다.
+[Journey Orchestration 릴리스 정보](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=en)에서 최신 기능, 개선 사항 및 수정 사항에 대해 알아봅니다.
 
 ### Journey Orchestration을 위한 추가 리소스
 
-[설명서](https://docs.adobe.com/content/help/ko/journeys/using/journey-orchestration-home.html) - [릴리스 정보](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html) - [방법 비디오](https://docs.adobe.com/content/help/ko/platform-learn/tutorials/journey-orchestration/introduction.html)
+[설명서](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=en) - [릴리스 정보](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=en) - [방법 비디오](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html?lang=en)
 
 ## ![아이콘](/assets/experience_platform_appicon_24.png) Offer Decisioning {#offer-decisioning}
 
@@ -108,14 +108,14 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 
 ### Adobe Analytics의 새로운 기능 {#aa-features}
 
-| 기능 | [일반 가용성](https://docs.adobe.com/content/help/ko/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
+| 기능 | [일반 가용성](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=en) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ------- |
 | 분석 대시보드:사용자 지정 날짜 범위 | 2021년 4월 22일 | Analytics Mobile 앱 사용자가 현재 사용 가능한 기본 날짜 범위 외에 사용자 지정 날짜 범위를 스코어카드에 적용할 수 있습니다. |
 | 작업 영역:이전 프로젝트 버전 | 2021년 5월 13일 | Workspace 프로젝트의 이전 버전을 로드하여 원하지 않는 변경 사항을 취소하거나 이전 버전으로 간단히 되돌릴 수 있습니다. |
 
 ### Customer Journey Analytics의 새로운 기능 {#cust-journey}
 
-| 기능 | [일반 가용성](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 대상 날짜 | 설명 |
+| 기능 | [일반 가용성](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=en) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ----- |
 | 향상된 CJA 데이터 보기 | 2021년 4월 22일 | 향상된 데이터 보기는 XDM 스키마 필드에서 측정 지표 및 차원을 생성할 때 유연성을 크게 확장합니다. 문자열 필드를 지표로 사용할 수 있습니다. 숫자 필드를 차원으로 사용하고 서로 다른 속성 모델 및 전환 창이 있는 동일한 필드에서 여러 지표를 만들 수 있습니다. 또한 데이터 보기 간에 호환되도록 지표와 차원을 만들 수 있고, 보고서에서 구성 요소를 숨길 수 있으며, 값을 포함/제외시키거나, 버킷을 사용하는 등의 작업을 수행할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html) |
 | 작업 영역:예약된 보고서 지원 | 2021년 4월 7일 | 이제 예약된 보고서가 CJA에서 지원됩니다. |
@@ -145,11 +145,11 @@ AN-248451;AN-250461;AN-251157; AN-251481;AN-251756;AN-252604;AN-252822;AN-252941
 | 동일한 SiteCatalyst VISTA 처리 켜기 | 2021년 3월 17일 | 2021년 6월 17일에 모든 보고서 세트가 업데이트되어 [!UICONTROL Same-as-SiteCatalyst VISTA Processing]이 ON으로 설정될 것입니다. 이 변경 사항은 처리 규칙과 일치하도록 데이터를 처리함으로써 Data Warehouse 보고에 영향을 줍니다. 질문이나 설명이 필요한 경우 고객 지원 센터에 문의하십시오. |
 | Reports &amp; Analytics 랜딩 페이지 옵션 | 2021년 2월 19일 | 2021년 3월 25일에 Adobe Analytics 랜딩 페이지로 새로운 보고 및 분석 대시보드 또는 기타 컨텐츠를 설정하는 옵션이 제거되었습니다. 이전에 보고 및 분석 페이지를 사용자 지정 랜딩 페이지로 설정한 경우 랜딩 페이지가 [!UICONTROL 사용자 환경 설정]에서 수정될 때까지 계속 작동합니다. |
 | 3개의 Analytics API 서비스에 대한 사용 종료 | 2021년 1월 6일 | 2021년 4월 30일에 다음 Analytics 기존 API 서비스의 사용 수명이 종료되어 서비스가 중단됩니다. 이러한 서비스를 사용하여 구축한 모든 현재 통합은 그 날로 작동하지 않습니다.<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증(OAuth 및 JWT)</li></ul>질문에 대한 답변과 진행 방법에 대한 지침을 제공하는 데 도움이 되도록 [이전 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)를 제공했습니다. 이러한 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 기존 OAuth 계정은 [Adobe I/O](https://console.adobe.io/home?mv=email#) Analytics 통합 계정으로 마이그레이션할 수 있습니다. 이 계정은 1.4 Analytics API와 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다. |
-| Adobe Data Connectors EOL | 2020년 7월 13일 | Adobe [!UICONTROL Data Connectors]는 더 이상 실행 불가능하거나 지원되지 않는 레거시 기술을 기반으로 합니다. [Adobe Exchange Partner Program](https://partners.adobe.com/exchangeprogram/experiencecloud)에서 새로운 표준을 사용할 수 있습니다. 이 표준을 사용하여 모든 통합이 지속적으로 제공되고 지원될 수 있습니다. 공식적인 서비스 종료 날짜는 2021년 8월 1일입니다. [자세히 알아보기...](https://docs.adobe.com/content/help/ko/analytics/import/dataconnectors/data-connectors-eol.html) |
+| Adobe Data Connectors EOL | 2020년 7월 13일 | Adobe [!UICONTROL Data Connectors]는 더 이상 실행 불가능하거나 지원되지 않는 레거시 기술을 기반으로 합니다. [Adobe Exchange Partner Program](https://partners.adobe.com/exchangeprogram/experiencecloud)에서 새로운 표준을 사용할 수 있습니다. 이 표준을 사용하여 모든 통합이 지속적으로 제공되고 지원될 수 있습니다. 공식적인 서비스 종료 날짜는 2021년 8월 1일입니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=en) |
 
 ### AppMeasurement {#appm}
 
-AppMeasurement 릴리스에 대한 최신 업데이트는 [JavaScript용 AppMeasurement 릴리스 정보](https://docs.adobe.com/content/help/ko/analytics/implementation/appmeasurement-updates.html)를 참조하십시오.
+AppMeasurement 릴리스에 대한 최신 업데이트는 [JavaScript용 AppMeasurement 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=en)를 참조하십시오.
 
 ### Analytics 교육 과정 및 튜토리얼 {#tutorials-analytics}
 
@@ -265,8 +265,8 @@ Experience Manager의 새로운 기능, 수정 내용 및 업데이트. 안정�
 * [Experience Manager Brand Portal 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html?lang=ko-KR)
 * [Experience Manager 데스크탑 앱 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/release-notes.html?lang=en)
 * [Experience Manager Dispatcher 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/getting-started/release-notes.html?lang=en)
-* [Adobe Primetime 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/primetime/release-notes/home.html)
-* [Livefyre 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/livefyre/using/release-notes/c-rn.html)
+* [Adobe Primetime 릴리스 정보](https://experienceleague.adobe.com/docs/primetime/release-notes/home.html?lang=en)
+* [Livefyre 릴리스 정보](https://experienceleague.adobe.com/docs/livefyre/using/release-notes/c-rn.html?lang=en)
 
 ### 새로운 Experience Manager 교육 과정 및 튜토리얼
 
@@ -302,8 +302,8 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 릴리스된 최신 기능, 개선 사항 및 수정 사항에 대해 자세히 알아보십시오.
 
-* [Campaign Standard 릴리스 정보](https://docs.adobe.com/content/help/ko/campaign-standard/using/release-notes/release-notes.html)
-* [Campaign Classic 릴리스 정보](https://docs.adobe.com/content/help/ko/campaign-classic/using/release-notes/latest-release.html)
+* [Campaign Standard 릴리스 정보](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en)
+* [Campaign Classic 릴리스 정보](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=en)
 
 ### 새로운 Campaign 교육 과정 및 튜토리얼
 
@@ -319,9 +319,9 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 ### 도움말 리소스
 
-* Adobe Campaign Standard: [도움말 센터](https://docs.adobe.com/content/help/ko/campaign-standard/using/campaign-standard-home.html) - [릴리스 정보](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [사용 방법 비디오](https://docs.adobe.com/content/help/ko/campaign-learn/campaign-standard-tutorials/overview.html) - [릴리스 계획](https://docs.adobe.com/content/help/ko/campaign-standard/using/release-notes/release-planning.html) [- 최신 설명서 업데이트](https://docs.adobe.com/content/help/ko/campaign-standard/using/documentation-updates.html)
-* Adobe Campaign Classic: [도움말 센터](https://docs.adobe.com/content/help/ko/campaign-classic/using/campaign-classic-home.html) - [릴리스 정보](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html) - [사용 방법 비디오](https://docs.adobe.com/content/help/ko/campaign-learn/campaign-classic-tutorials/overview.html)- [최신 설명서 업데이트](https://docs.adobe.com/content/help/ko/campaign-classic/using/documentation-updates.html)
-* Adobe Campaign 제어판: [설명서](https://docs.adobe.com/content/help/ko/control-panel/using/control-panel-home.html) - [릴리스 정보](https://docs.adobe.com/content/help/ko/control-panel/using/release-notes.html) - [Campaign Standard](https://docs.adobe.com/content/help/ko/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html)/[Campaign Classic](https://docs.adobe.com/content/help/ko/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html) 방법 비디오
+* Adobe Campaign Standard: [도움말 센터](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=en) - [릴리스 정보](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en) - [사용 방법 비디오](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html?lang=en) - [릴리스 계획](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-planning.html?lang=en) [- 최신 설명서 업데이트](https://experienceleague.adobe.com/docs/campaign-standard/using/documentation-updates.html?lang=en)
+* Adobe Campaign Classic: [도움말 센터](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=en) - [릴리스 정보](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=en) - [사용 방법 비디오](https://experienceleague.adobe.com/docs/campaign-learn/campaign-classic-tutorials/overview.html?lang=en)- [최신 설명서 업데이트](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=en)
+* Adobe Campaign 제어판: [설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=en) - [릴리스 정보](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=en) - [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html?lang=en)/[Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html?lang=en) 방법 비디오
 
 ## ![아이콘](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
@@ -336,7 +336,7 @@ Adobe Advertising Cloud에 대한 릴리스 정보입니다.
 
 | 기능 | 설명 |
 | -----------| ---------- |
-| 신규 도움말 | (10월 28일 릴리스) 기존 도움말은 업데이트된 페이지로 대체되었으며, 이 도움말은 DSP 기본 메뉴의 도움말 링크에서 사용할 수 있고 [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=ko-KR](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=ko-KR)에서도 항상 사용할 수 있습니다. |
+| 신규 도움말 | (10월 28일 릴리스) 기존 도움말은 업데이트된 페이지로 대체되었습니다. 도움말은 DSP 주 메뉴의 도움말 링크에서 사용할 수 있으며 항상 [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=ko-KR)에서 사용할 수 있습니다. |
 | Campaigns | (10월 28일 릴리스) 이제 더 빠른 통찰력, 간소화된 워크플로 및 맞춤화된 보기를 위한 이전 Campaigns 베타 보기가 기본 캠페인 보기입니다. |
 | 비공개 인벤토리 | (10월 15일 릴리스) 이제 모든 사용자는 기존 스마트 광고 서비스 제공 양식의 간소화된 버전인 새로운 거래 ID 양식을 사용하여 거래 ID 세부 사항을 설정하고 편집할 수 있습니다. 새 거래 ID 세부 사항을 설정하려면 **[!UICONTROL 인벤토리]** > **[!UICONTROL 거래]** > **[!UICONTROL 만들기]**&#x200B;로 이동한 다음 **[!UICONTROL 거래 ID 베타]**&#x200B;를 클릭합니다. |
 | 배치 예측 | (10월 15일 릴리스) 배치 수준 게재 간격이 있는 배치의 경우, 배치 설정의 [!UICONTROL 예측] 섹션에는 현재 타기팅 구성으로 사용할 수 있는 용량이 얼마나 더 많은지를 나타내는 새 [!UICONTROL 예상 최대 수] 섹션이 포함됩니다. |
@@ -364,7 +364,7 @@ Adobe Advertising Cloud에 대한 릴리스 정보입니다.
 
 ## ![아이콘](/assets/target.png)[!DNL Target] {#target}
 
-최신 릴리스 정보는 [[!DNL Target] 릴리스 정보](https://docs.adobe.com/content/help/ko/target/using/release-notes/target-release-notes.html)를 참조하십시오.
+최신 릴리스 정보는 [[!DNL Target] 릴리스 정보](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=en)를 참조하십시오.
 
 ## ![아이콘](/assets/marketo.png) [!DNL Marketo Engage] {#marketo}
 
@@ -396,27 +396,27 @@ Adobe Document Cloud용으로 게시된 새로운 비디오, 튜토리얼 또는
 
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021년 4월 | [[Adobe Sign] Salesforce용 Adobe Sign 및 Marketo을 사용하여 미리 알림 보내기 - 기능 비디오](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/integrations/marketo/marketo-salesforce-reminder-video.html) | 비디오 | 이 비디오 자습서에서는 일정 기간 후에 계약이 서명되지 않은 상태로 남아 있는 경우 Marketo로부터 이메일 미리 알림을 보내는 방법을 알아봅니다. 이 통합은 Adobe Sign for Salesforce, Marketo, Marketo 및 Salesforce 동기화를 사용합니다. |
+| 2021년 4월 | [[Adobe Sign] Salesforce용 Adobe Sign 및 Marketo을 사용하여 미리 알림 보내기 - 기능 비디오](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/integrations/marketo/marketo-salesforce-reminder-video.html) | 비디오 | 일정 기간 후에 계약이 서명되지 않은 상태로 남아 있는 경우 Marketo에서 미리 알림을 보내는 방법을 알아봅니다. 이 통합은 Adobe Sign for Salesforce, Marketo, Marketo 및 Salesforce 동기화를 사용합니다. |
 
 ### Document Cloud 자습서
 
 | 게시일 | 이름 | 솔루션 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
 | 2021년 4월 | [PDF 온라인 경험 제어 및 분석 수집](https://experienceleague.adobe.com/docs/document-services/tutorials/pdfembed/controlpdfexperience.html) | 문서 | 조직에서 웹 사이트에 PDF를 게시합니까? Adobe PDF Embed API를 사용하여 모양을 제어하고, 공동 작업을 가능하게 하며, 페이지 및 검색에 소요되는 시간 등 PDF와 사용자의 인터랙션 방식에 대한 분석 정보를 수집하는 방법을 살펴봅니다. |
-| 2021년 4월 | [Java의 Adobe 문서 서비스 API를 사용하여 재무 문서 워크플로우 관리](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/FinanceWorkflowsJava.html) | 문서 | Java Spring Boot 애플리케이션용 Adobe Document Services API를 사용하고 PDF 문서에서 컨텐츠를 추출하고 Excel과 같은 다른 데이터 포맷으로 변환하며 여러 PDF를 결합하고 암호를 사용하여 리소스를 보호하는 MVC(Model-View-Controller) 앱을 구축하는 방법에 대해 학습합니다. |
+| 2021년 4월 | [Java™에서 Adobe 문서 서비스 API를 사용하여 재무 문서 워크플로우 관리](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/FinanceWorkflowsJava.html) | 문서 | Java™ Spring Boot 애플리케이션에 Adobe Document Services API를 사용할 수 있는 방법을 알아봅니다. PDF 문서에서 컨텐츠를 추출하고 Excel과 같은 다른 데이터 포맷으로 변환하며 여러 PDF를 통합하고 암호를 통해 리소스를 보호하는 MVC(Model-View-Controller) 앱을 구축할 수 있습니다. |
 | 2021년 4월 | [Java™의 Adobe 문서 서비스 API를 사용하는 HR 문서 워크플로우](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/HRAgreementWorkflowsJava.html) | 튜토리얼 | 많은 기업에서 재택 근무자를 위한 직장 계약과 같은 새로운 고용에 대한 설명서를 요구하고 있다. 일반적으로 기업은 이러한 문서를 관리하기가 어려웠던 양식으로 물리적으로 관리했습니다. 전자 문서로 전환할 때 PDF 파일은 다른 파일 유형보다 안전하며 수정할 수 없는 편이므로 이상적인 옵션입니다. 디지털 서명도 지원합니다. |
 | 2021년 4월 | [Node.js의 Adobe 문서 서비스 API를 사용한 계약 워크플로우](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/AgreementWorkflowsNodejs.html) | 튜토리얼 | 많은 비즈니스 애플리케이션 및 프로세스에서는 제안서 및 동의와 같은 문서를 필요로 합니다. PDF 문서를 통해 파일의 보안이 향상되고 수정할 수 없습니다. 또한 디지털 서명 지원을 제공하므로 클라이언트는 문서를 빠르고 손쉽게 작성할 수 있습니다. Adobe Document Services API는 웹 애플리케이션에 PDF 기능을 손쉽게 통합할 수 있습니다. |
-| 2021년 4월 | [조건부 컨텐츠 설정](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggerconditional.html) | 비디오 | 이 비디오에서는 Adobe 문서 생성 API를 사용하여 데이터를 기반으로 한 문서의 섹션을 동적으로 포함하거나 제외하도록 Adobe 문서 생성 태그를 사용하여 Microsoft Word 템플릿의 섹션을 쉽게 설정하는 방법을 살펴봅니다. |
-| 2021년 4월 | [[문서 서비스] 숫자 계산 태그 설정 - 기능 비디오](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggercalculations.html) | 비디오 | 이 비디오에서는 Adobe 문서 생성 API를 사용하여 Adobe 문서 생성 태거를 사용하여 Microsoft Word 템플릿에서 숫자 계산 태그를 쉽게 설정하여 데이터 집필 또는 산술 값을 계산하는 방법을 알아봅니다. |
-| 2021년 4월 | [표 및 목록 태그 추가](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggertables.html) | 비디오 | 이 비디오에서는 Adobe 문서 생성 태그를 사용하여 Microsoft Word 템플릿에 표 및 목록 태그를 쉽게 추가하여 Adobe 문서 생성 API를 사용하여 데이터를 기반으로 하는 표 또는 목록 행을 동적으로 추가하는 방법을 알아봅니다. |
-| 2021년 4월 | [이미지 태그 추가](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggeraddimagetags.html) | 비디오 | 이 비디오에서는 Adobe 문서 생성 API를 사용하여 이미지를 동적으로 문서에 푸시하기 위해 Adobe Document Generation Tagger를 사용하여 Microsoft Word 템플릿에 이미지 태그를 손쉽게 추가하는 방법을 알아봅니다. |
-| 2021년 4월 | [텍스트 태그 추가](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggeraddtexttags.html) | 비디오 | 이 비디오에서는 Adobe 문서 생성 API와 함께 사용할 수 있는 Adobe 문서 생성 태그를 사용하여 Microsoft Word 템플릿에 태그를 쉽게 추가하는 방법을 알아봅니다. |
-| 2021년 4월 | [Adobe 문서 생성 태거 개요](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggeroverview.html) | 비디오 | 이 비디오에서는 Adobe 문서 생성 API와 함께 사용할 수 있도록 Adobe 문서 생성 태그를 사용하여 Word 템플릿에 태그를 지정하는 방법을 간략하게 살펴봅니다. |
+| 2021년 4월 | [조건부 컨텐츠 설정](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggerconditional.html) | 비디오 | 이 비디오에서는 Adobe 문서 생성 API를 사용하여 데이터를 기반으로 한 문서의 섹션을 동적으로 포함하거나 제외하도록 Adobe 문서 생성 태그를 사용하여 Microsoft® Word 템플릿의 섹션을 쉽게 설정하는 방법을 살펴봅니다. |
+| 2021년 4월 | [[문서 서비스] 숫자 계산 태그 설정 - 기능 비디오](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggercalculations.html) | 비디오 | Adobe 문서 생성 태그를 사용하여 Microsoft® Word 템플릿에서 숫자 계산 태그를 손쉽게 설정하여 Adobe 문서 생성 API를 사용하여 데이터 값의 집계 또는 산술 계산을 계산하는 방법을 살펴봅니다. |
+| 2021년 4월 | [표 및 목록 태그 추가](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggertables.html) | 비디오 | Adobe 문서 생성 태그를 사용하여 Microsoft® Word 템플릿에 표 및 목록 태그를 손쉽게 추가하여 Adobe 문서 생성 API를 사용하여 데이터를 기반으로 하는 표 또는 목록 행을 동적으로 추가하는 방법을 살펴봅니다. |
+| 2021년 4월 | [이미지 태그 추가](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggeraddimagetags.html) | 비디오 | Adobe Document Generation Tagger를 사용하여 Microsoft® Word 템플릿에 이미지 태그를 손쉽게 추가하여 Adobe Document Generation API를 사용하여 이미지를 동적으로 문서에 푸시하는 방법을 살펴봅니다. |
+| 2021년 4월 | [텍스트 태그 추가](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggeraddtexttags.html) | 비디오 | Adobe 문서 생성 API와 함께 사용할 수 있는 Adobe 문서 생성 태그를 사용하여 Microsoft® Word 템플릿에 태그를 손쉽게 추가하는 방법을 살펴봅니다. |
+| 2021년 4월 | [Adobe 문서 생성 태거 개요](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggeroverview.html) | 비디오 | Adobe 문서 생성 API와 함께 사용할 Adobe 문서 생성 태그를 사용하여 [!DNL Word] 템플릿에 태그를 지정하는 방법을 알아봅니다. |
 
 Document Cloud 도움말은 다음을 참조하십시오.
 
-* [Adobe Acrobat 학습 허브](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html?lang=ko-KR)
-* [Adobe Sign 학습 허브](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=ko-KR)
+* [Adobe Acrobat](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html?lang=ko-KR)
+* [Adobe Sign](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=ko-KR)
 * [Document Cloud 학습 및 지원](https://helpx.adobe.com/kr/support/document-cloud.html)
 
 <!-- ## ![Icon](/assets/creative-cloud-24.png) Creative Cloud Enterprise {#creative-cloud}
