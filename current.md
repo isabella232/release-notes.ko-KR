@@ -6,10 +6,10 @@ last-update: April 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: 1f88b532306f86768a9981d6bba06a21050affe7
+source-git-commit: 070e4ff0a9c3ab6f1d16680edc6a2aa787be8f69
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '5499'
+ht-degree: 36%
 
 ---
 
@@ -274,6 +274,10 @@ Experience Manager의 새로운 기능, 수정 내용 및 업데이트. 안정�
 
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
+| 2021년 4월 | [SPA 편집기 및 원격 SPA - 개요 - 자습서](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/spa-editor/remote-spa/overview.html) | 튜토리얼 | AEM 컨텍스트 외부에서 실행되는 SPA 또는 원격 SPA을 업데이트하여 AEM에서 제작한 컨텐츠를 사용하고 전달하는 방법을 살펴볼 수 있습니다. 이 자습서는 AEM GraphQL API를 통해 AEM 컨텐츠 조각 컨텐츠를 사용하는 반응형 앱인 WKND GraphQL 앱을 기반으로 합니다. |
+| 2021년 4월 | [GraphQL 모델링 기초](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/video-series/modeling-basics.html) | 비디오 | GraphQL과 함께 사용할 수 있도록 AEM(Adobe Experience Manager)에서 컨텐츠 조각을 정의하고 사용하는 방법을 알아봅니다. |
+| 2021년 4월 | [GraphQL에 대한 고급 모델링](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/video-series/advanced-modeling.html) | 비디오 | AEM(Adobe Experience Manager)에서 컨텐츠 조각 모델 간의 관계를 만드는 방법과 GraphQL 쿼리에서 이러한 관계를 활용하는 방법을 알아봅니다. |
+| 2021년 4월 | [GraphQL 쿼리 만들기](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/video-series/creating-graphql-queries.html) | 비디오 | AEM(Adobe Experience Manager)에서 콘텐츠를 반환하기 위해 GraphQL 쿼리를 만드는 방법과 GraphiQL 도구를 사용하여 쿼리를 신속하게 테스트, 수정 및 디버깅하는 방법을 알아봅니다. |
 | 2021년 4월 | [첫 번째  [!UICONTROL 적응형 양식 만들기]](https://video.tv.adobe.com/v/332571) | 비디오 | 첫 번째 적응형 양식을 만드는 방법을 알아봅니다. |
 | 2021년 4월 | [버튼의 클릭 이벤트에 대해 Salesforce에서 리드 만들기 테스트](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/integrate-with-salesforce/create-lead-click-event.html?lang=en#forms) | 비디오 | 단추의 클릭 이벤트에서 양식 데이터 모델의 POST 작업을 호출하여 리드 객체를 만듭니다. |
 | 2021년 4월 | [AEM  [!UICONTROL 양식 ] 통합 [!DNL Salesforce]](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/integrate-with-salesforce/introduction.html?lang=en#forms) | 비디오 | Forms + Salesforce 통합 교육 과정을 위한 소개 비디오 |
