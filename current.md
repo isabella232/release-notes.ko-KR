@@ -6,9 +6,9 @@ last-update: April 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: c4023721667178357047047573997bbdd67944ab
+source-git-commit: fe66c16cb5f021c1c3039c04a8498beef2eaeb9b
 workflow-type: tm+mt
-source-wordcount: '5690'
+source-wordcount: '5689'
 ht-degree: 80%
 
 ---
@@ -140,7 +140,7 @@ AN-248451, AN-250461, AN-251157, AN-251481, AN-251756, AN-252604, AN-252822, AN-
 | ----------- | ---------- | ---------- |
 | 전체 프로세싱 데이터 소스 서비스 중단 | 2021년 4월 12일 | Adobe는 2021년 7월 31일 전체 프로세싱 데이터 소스에 대한 사용을 중단할 예정입니다. 2021년 3월 25일부터 이 유형의 새로운 가져오기는 더 이상 생성되지 않습니다. 이 유형의 데이터를 가져오려면 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 를 사용해 주십시오. |
 | [!UICONTROL Report Builder]에 로그인 업데이트 | 2021년 4월 9일 | 2021년 1월 14일 [!UICONTROL Report Builder] 로그인 업데이트로 레거시 기술의 종속성이 제거되었고, 로그인 프로세스와 Experience Cloud가 연결되었습니다. Experience Cloud는 Enterprise ID(이메일과 암호)를 사용합니다. [!UICONTROL Report Builder]에 중단 없이 액세스하려면 2021년 7월 22일까지 [!UICONTROL Report Builder] 추가 기능을 버전 5.6.47 이상으로 업데이트합니다. Report Builder 버전 5.6.47 이상은 Experience Cloud 로그인을 지원하고, Single Sign-On을 지원하지 않습니다. |
-| 데이터 피드 및 Data Warehouse IP 주소 변경 사항 | 2021년 4월 6일 | 6월 17일부터 데이터 피드 및 Data Warehouse 배달 시스템이 Adobe 데이터 센터 내에서 재배치되므로 사용자가 볼 수 있는 외부 IP 주소가 변경될 수 있습니다. Adobe에서는 보고서 및 피드를 소싱한 데이터 센터의 모든 IP CIDR 블록이 제어하는 대상 시스템의 방화벽에 있는지 확인하는 것이 좋습니다. [다음은 방화벽 허용 목록](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html#data-collection-and-ftp-ip-address-blocks)에 배치할 IP 주소 범위의 전체 목록입니다. |
+| 데이터 피드 및 Data Warehouse IP 주소 변경 사항 | 2021년 4월 6일 | 6월 17일부터 데이터 피드 및 Data Warehouse 배달 시스템이 Adobe 데이터 센터 내에서 재배치되므로 사용자가 볼 수 있는 외부 IP 주소가 변경될 수 있습니다. Adobe에서는 보고서 및 피드를 소싱한 데이터 센터의 모든 IP CIDR 블록이 제어하는 대상 시스템의 방화벽에 있는지 확인하는 것이 좋습니다. [다음은 방화벽 허용 목록](://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html#data-collection-and-ftp-ip-address-blocks)에 배치할 IP 주소 범위의 전체 목록입니다. |
 | 예정된 Analytics 메뉴 변경 알림 | 2021년 3월 24일 | 2021년 4월 22일, Adobe은 성능 향상을 위해 **[!UICONTROL 구성 요소]**, **[!UICONTROL 도구]** 및 **[!UICONTROL 관리]** 드롭다운 메뉴를 업데이트했습니다. 이러한 모든 페이지는 **[!UICONTROL 모든 구성 요소]**, **[!UICONTROL 모든 도구]**, **[!UICONTROL 모든 관리자]** 링크에서 계속 사용할 수 있습니다. 드롭다운 메뉴에서 제거됩니다. 드롭다운 메뉴에서 제거되고 각각의 링크 페이지에 배치되는 메뉴 항목은 다음과 같습니다.<br><br> [!UICONTROL 구성 요소]<ul><li>[!UICONTROL 책갈피]</li><li>[!UICONTROL 대시보드]</li><li>[!UICONTROL 타겟]</li><li>[!UICONTROL 달력 이벤트]</li><li>[!UICONTROL 예약된 보고서]</li><li>[!UICONTROL 보고서 설정]</li></ul>[!UICONTROL 도구]<ul><li>[!UICONTROL Recommendations Classic]</li><li>[!UICONTROL Search &amp; Promote]</li></ul>[!UICONTROL 관리]<ul><li>[!UICONTROL 사용자 관리]</li><li>[!UICONTROL 분류 가져오기]</li><li>[!UICONTROL 분류 규칙 빌더]</li><li>[!UICONTROL 데이터 소스]</li><li>[!UICONTROL Data Connectors]</li><li>[!UICONTROL 회사 설정]</li><li>[!UICONTROL 로그]</li><li>[!UICONTROL Dynamic Tag Management]</li><li>[!UICONTROL 코드 관리자]</li><li>[!UICONTROL IP 주소별 제외]</li><li>[!UICONTROL 트래픽 관리]</li></ul> |
 | Same-as-SiteCatalyst VISTA Processing ON | 2021년 3월 17일 | 2021년 6월 17일에 모든 보고서 세트가 업데이트되어 [!UICONTROL Same-as-SiteCatalyst VISTA Processing] 이 ON으로 설정될 것입니다. 이 변경 사항은 처리 규칙과 일치하도록 데이터를 처리함으로써 Data Warehouse 보고에 영향을 줍니다. 질문이나 설명이 필요한 경우 고객 지원 센터에 문의하십시오. |
 | Reports &amp; Analytics 랜딩 페이지 옵션 | 2021년 2월 19일 | 2021년 3월 25일에 새로운 Reports &amp; Analytics 대시보드 또는 기타 콘텐츠를 Adobe Analytics 랜딩 페이지로 설정하는 옵션이 제거되었습니다. 이전에 Reports &amp; Analytics 페이지를 맞춤형 랜딩 페이지로 설정했다면 [!UICONTROL 사용자 환경 설정]에서 랜딩 페이지를 수정하기 전까지는 계속 작동합니다. |
