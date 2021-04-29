@@ -6,7 +6,7 @@ last-update: April 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: 88813a1c8a3510b84057dff39603fb30e252c64b
+source-git-commit: c4023721667178357047047573997bbdd67944ab
 workflow-type: tm+mt
 source-wordcount: '5690'
 ht-degree: 80%
@@ -23,7 +23,7 @@ Experience Cloud 솔루션과 서비스는 매달 업데이트됩니다. 이 페
 >
 >월별 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html) 를 구독하면 이 페이지의 업데이트에 대한 이메일 알림을 받을 수 있습니다. 이 페이지는 한 달 동안 유지되므로 Adobe 엔터프라이즈 제품 및 Experience League 설명서에 대한 업데이트를 정기적으로 확인하십시오.
 
-최신 업데이트 날짜: **2021년 4월 22일**
+최신 업데이트 날짜: **2021년 4월 29일**
 
 * [Adobe 시스템 상태](#status)
 * [Experience Cloud UI 구성 요소, 서비스 및 관리](#ecloud)
