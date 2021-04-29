@@ -6,10 +6,10 @@ last-update: April 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: 0bea009a45c2c507b900bb8aea93a02d59c11c98
+source-git-commit: 88813a1c8a3510b84057dff39603fb30e252c64b
 workflow-type: tm+mt
-source-wordcount: '5498'
-ht-degree: 82%
+source-wordcount: '5690'
+ht-degree: 80%
 
 ---
 
@@ -157,6 +157,7 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [JavaScript용 AppMeas
 
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
+| 2021년 4월 | [Customer Journey Analytics의 데이터 보기에 대한 기본 구성](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/basic-configuration-for-data-views.html) | 비디오 | Adobe Experience Platform의 데이터 세트에 대한 Customer Journey Analytics에 [!UICONTROL 연결]을 만들었으면 해당 [!UICONTROL 연결]에 대해 [!UICONTROL 데이터 보기]를 만들어야 플랫폼에 있는 Analysis Workspace의 데이터를 사용할 수 있습니다. 이 비디오는 [!UICONTROL 데이터 보기]의 기본 구성을 안내합니다. |
 | 2021년 4월 | [Adobe Analytics의 사용자 환경 설정](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences.html) | 비디오 | 구성 요소 - 사용자 환경 설정 페이지에서는 사용자 수준에서 Analysis Workspace의 설정 및 관련 구성 요소를 관리할 수 있습니다. 예를 들어 기본 보고서 세트와 색상 팔레트를 선택할 수 있습니다. 사용자 환경 설정은 모든 새 프로젝트와 새 패널에 적용됩니다. |
 | 2021년 4월 | [Workspace에서 구성 요소 드롭다운 사용](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/using-component-dropdowns-in-workspace.html) | 비디오 | 구성 요소 드롭다운을 통해 호환되는 구성 요소의 목록에서 선택하여 분석을 빌드할 수 있습니다. 필요한 항목을 찾을 수 없는 경우 드롭다운에서 직접 구성 요소를 만들 수도 있습니다. 고급 사용 사례가 있는 경우 이러한 공간은 드롭 영역으로도 계속 작동합니다. |
 | 2021년 4월 | [데이터를 시각화하기](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/getting-data-into-visualizations.html?lang=ko#analysis-workspace) | 비디오 | Analysis Workspace의 시각화를 추가하면 몇 가지 다른 방식으로 시각화 유형에 따라 데이터를 시각화에 추가할 수 있습니다. 이 비디오에서는 이러한 방식(옵션)을 보여 줍니다. |
@@ -274,6 +275,8 @@ Experience Manager의 새로운 기능, 수정 내용 및 업데이트. 안정�
 
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
+| 2021년 4월 | [AEM Forms Linux 설치를 위한 32개 그러나 라이브러리 설치](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/adaptive-forms/installing-aem-form-on-linux.html) | 문서 | Linux 설치 시 AEM Forms용 32비트 라이브러리를 설치하는 방법을 알아봅니다. |
+| 2021년 4월 | [Adobe Sign Cloud Services 구성 만들기](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/forms-and-sign/create-adobe-sign-cloud-configuration.html) | 문서 | Adobe Sign API 애플리케이션을 사용하여 Adobe Sign과 통합하기 위해 Adobe Sign 클라우드 서비스 구성을 만듭니다. |
 | 2021년 4월 | [SPA 편집기 및 원격 SPA - 개요 - 자습서](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/spa-editor/remote-spa/overview.html) | 튜토리얼 | AEM 컨텍스트 외부에서 실행되는 SPA 또는 원격 SPA을 업데이트하여 AEM에서 제작한 컨텐츠를 사용하고 전달하는 방법을 살펴볼 수 있습니다. 이 자습서는 AEM GraphQL API를 통해 AEM 컨텐츠 조각 컨텐츠를 사용하는 반응형 앱인 WKND GraphQL 앱을 기반으로 합니다. |
 | 2021년 4월 | [GraphQL 모델링 기초](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/video-series/modeling-basics.html) | 비디오 | GraphQL과 함께 사용할 수 있도록 AEM(Adobe Experience Manager)에서 컨텐츠 조각을 정의하고 사용하는 방법을 알아봅니다. |
 | 2021년 4월 | [GraphQL에 대한 고급 모델링](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/video-series/advanced-modeling.html) | 비디오 | AEM(Adobe Experience Manager)에서 컨텐츠 조각 모델 간의 관계를 만드는 방법과 GraphQL 쿼리에서 이러한 관계를 활용하는 방법을 알아봅니다. |
@@ -406,6 +409,7 @@ Adobe Document Cloud용으로 게시된 새로운 비디오, 튜토리얼 또는
 
 | 게시일 | 이름 | 솔루션 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
+| 2021년 4월 | [Java로 개발된 Adobe Document Services API를 통해 Financial Document 워크플로 관리](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/FinanceWorkflowsJava.html) | 튜토리얼 | [!DNL Java Spring Boot] 응용 프로그램에 Adobe Document Services API를 사용할 수 있고 PDF 문서에서 내용을 추출하고, Excel과 같은 다른 데이터 형식으로 변환하고, 여러 PDF를 결합하고, 리소스를 암호로 보호하는 MVC(Model-View-Controller) 응용 프로그램을 빌드하는 방법에 대해 알아보십시오. |
 | 2021년 4월 | [PDF 온라인 경험 제어 및 분석 수집](https://experienceleague.adobe.com/docs/document-services/tutorials/pdfembed/controlpdfexperience.html) | 문서 | 조직은 웹 사이트에 PDF를 게시합니까? Adobe PDF Embed API를 통해 시각적 모양을 제어하고, 공동 작업을 활성화하고, 페이지 및 검색 체류 시간 등 사용자의 PDF와 인터랙션하는 방법에 대해 분석을 수집할 수 있는 방법에 대해 알아봅니다. |
 | 2021년 4월 | [Java로 개발된 Adobe Document Services API를 통해 Financial Document 워크플로 관리™](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/FinanceWorkflowsJava.html) | 문서 | Java™ Spring Boot 애플리케이션에 Adobe Document Services API를 사용할 수 있는 방법을 알아봅니다.PDF 문서에서 컨텐츠를 추출하고 Excel과 같은 다른 데이터 포맷으로 변환하며 여러 PDF를 통합하고 암호를 통해 리소스를 보호하는 MVC(Model-View-Controller) 앱을 구축할 수 있습니다. |
 | 2021년 4월 | [Java™로 개발된 Adobe Document Services API가 포함된 HR Document 워크플로](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/HRAgreementWorkflowsJava.html) | 튜토리얼 | 기업은 재택근무 직원을 위한 고용 계약서 등 신규 채용에 관한 문서가 필요합니다. 일반적으로 기업은 실제 관리 및 보관이 어려운 양식을 통해 이러한 문서를 관리했습니다. 전자 문서로 전환되면서 다른 파일 유형에 비해 보다 안전하고 수정이 간편한 PDF 파일이 최고의 선택입니다. 또한 PDF 파일은 디지털 서명을 지원합니다. |
