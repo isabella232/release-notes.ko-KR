@@ -6,9 +6,9 @@ last-update: April 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: 2659558cae189222d57865d7027115f024dac44d
+source-git-commit: 7ba8d1728f066499f8b0cdb8fb5fad1abe83ec53
 workflow-type: tm+mt
-source-wordcount: '5689'
+source-wordcount: '5695'
 ht-degree: 99%
 
 ---
@@ -23,14 +23,14 @@ Experience Cloud 솔루션과 서비스는 매달 업데이트됩니다. 이 페
 >
 >월별 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html) 를 구독하면 이 페이지의 업데이트에 대한 이메일 알림을 받을 수 있습니다. 이 페이지는 한 달 동안 유지되므로 Adobe 엔터프라이즈 제품 및 Experience League 설명서에 대한 업데이트를 정기적으로 확인하십시오.
 
-최신 업데이트 날짜: **2021년 4월 29일**
+최근 업데이트: **2021년 5월 11일**
 
 * [Adobe 시스템 상태](#status)
 * [Experience Cloud UI 구성 요소, 서비스 및 관리](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
 * [Offer Decisioning](#offer-decisioning)
-* [Analytics](#analytics) 및 [Customer Journey Analytics](#cust-journey)
+* [분석 ](#analytics) 및  [Customer Journey Analytics](#cust-journey) (2021년 5월 11일 업데이트)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -99,8 +99,8 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 
 릴리스 날짜: **2021년 4월 22일**
 
-* [Adobe Analytics의 새로운 기능](#aa-features)
-* [Customer Journey Analytics의 새로운 기능](#cust-journey)
+* [Adobe Analytics](#aa-features) 의 새로운 기능(2021년 5월 11일 업데이트)
+* [Customer Journey Analytics의 새로운 기능](#cust-journey) (2021년 5월 11일 업데이트)
 * [Adobe Analytics의 수정 사항](#aa-fixes)
 * [Analytics 관리자에 대한 중요 공지](#aa-notices)
 * [Analytics 교육 과정 및 튜토리얼](#tutorials-analytics)
@@ -111,7 +111,7 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 | 기능 | [일반 가용성](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=ko-KR) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ------- |
 | Analytics 대시보드: 사용자 지정 날짜 범위 | 2021년 4월 22일 | Analytics Mobile App 사용자는 현재 제공되는 즉시 사용 가능한 날짜 범위가 포함된 스코어카드에 사용자 지정 날짜 범위를 적용할 수 있습니다. |
-| Workspace: 이전 프로젝트 버전 | 2021년 5월 13일 | 이전 버전의 Workspace 프로젝트를 로드하여 원하지 않는 변경 내용을 실행 취소하거나 간단히 이전 버전으로 되돌릴 수 있습니다. |
+| Workspace: 이전 프로젝트 버전 | 2021년 5월 20일 | 이전 버전의 Workspace 프로젝트를 로드하여 원하지 않는 변경 내용을 실행 취소하거나 간단히 이전 버전으로 되돌릴 수 있습니다. |
 
 ### Customer Journey Analytics의 새로운 기능 {#cust-journey}
 
@@ -120,7 +120,7 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 | 고급 CJA 데이터 보기 개요 | 2021년 4월 22일 | 고급 CJA 데이터 보기를 통해 XDM 스키마 필드에서 지표와 차원을 매우 유연하게 생성할 수 있습니다. 문자열 필드를 지표로 사용할 수 있습니다. 숫자 필드를 차원으로 사용하고, 속성 모델 및 전환 확인 기간이 다른 동일한 필드에서 여러 지표를 생성할 수 있습니다. 데이터 보기 간에 호환될 수 있는 지표와 차원을 사용하고, 보고와 포함/제외 값에서 구성 요소를 숨기고, 버킷팅 등을 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=ko-KR) |
 | Workspace: 예약된 보고서 지원 | 2021년 4월 7일 | 이제 예약된 보고서가 CJA에서 지원됩니다. |
 | Analytics 대시보드: 사용자 지정 날짜 범위 | 2021년 4월 22일 | Analytics Mobile App 사용자는 현재 제공되는 즉시 사용 가능한 날짜 범위가 포함된 스코어카드에 사용자 지정 날짜 범위를 적용할 수 있습니다. |
-| Workspace: 이전 프로젝트 버전 | 2021년 5월 13일 | 이전 버전의 Workspace 프로젝트를 로드하여 원하지 않는 변경 내용을 실행 취소하거나 간단히 이전 버전으로 되돌릴 수 있습니다. |
+| Workspace: 이전 프로젝트 버전 | 2021년 5월 20일 | 이전 버전의 Workspace 프로젝트를 로드하여 원하지 않는 변경 내용을 실행 취소하거나 간단히 이전 버전으로 되돌릴 수 있습니다. |
 
 ### Adobe Analytics의 수정 사항 {#aa-fixes}
 
