@@ -6,10 +6,10 @@ last-update: April 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: fe66c16cb5f021c1c3039c04a8498beef2eaeb9b
+source-git-commit: 2659558cae189222d57865d7027115f024dac44d
 workflow-type: tm+mt
 source-wordcount: '5689'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -166,7 +166,7 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [JavaScript용 AppMeas
 
 ### Analytics 도움말 리소스
 
-* [Adobe Analytics 제품 설명서 및 튜토리얼](https://experienceleague.corp.adobe.com/docs/analytics.html?lang=ko-KR)
+* [Adobe Analytics 제품 설명서 및 튜토리얼](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## ![아이콘](/assets/audience-manager.png) Adobe Audience Manager {#aam}
 
@@ -423,8 +423,8 @@ Adobe Document Cloud용으로 게시된 새로운 비디오, 튜토리얼 또는
 
 Document Cloud 도움말은 다음을 참조하십시오.
 
-* [Adobe Acrobat](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html?lang=ko-KR)
-* [Adobe Sign](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=ko-KR)
+* [Adobe Acrobat](https://experienceleague.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html?lang=ko-KR)
+* [Adobe Sign](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=ko-KR)
 * [Document Cloud 학습 및 지원](https://helpx.adobe.com/kr/support/document-cloud.html)
 
 <!-- ## ![Icon](/assets/creative-cloud-24.png) Creative Cloud Enterprise {#creative-cloud}
