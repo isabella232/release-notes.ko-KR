@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: f981d08b9a7200776706028b0408bd94a1e5e246
+source-git-commit: 4cad20ae0aa6d4a6e9776aa7861e2ba3b39f9e6b
 workflow-type: tm+mt
 source-wordcount: '1346'
 ht-degree: 92%
@@ -85,7 +85,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 
 기능 및 수정 사항
 
-제품 설명서의 경우 [Experience Cloud ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)를 참조하십시오.
+제품 설명서의 경우 [Experience Cloud ID 서비스](https://docs.adobe.com/content/help/ko/id-service/using/home.html)를 참조하십시오.
 
 ### [!UICONTROL Experience Platform Launch] {#launch}
 
@@ -97,7 +97,7 @@ Adobe [!UICONTROL Experience Platform]으로 모든 개인의 요구 사항을 �
 
 #### [!UICONTROL Journey Orchestration]을 위한 추가 리소스
 
-[설명서](https://docs.adobe.com/content/help/ko-KR/journeys/using/journey-orchestration-home.html) - [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/journeys/using/release-notes/release-notes.html) - [방법 비디오](https://docs.adobe.com/content/help/ko-KR/platform-learn/tutorials/journey-orchestration/introduction.html)
+[설명서](https://docs.adobe.com/content/help/ko-KR/journeys/using/journey-orchestration-home.html) - [릴리스 노트](https://docs.adobe.com/content/help/ko/journeys/using/release-notes/release-notes.html) - [방법 비디오](https://docs.adobe.com/content/help/ko/platform-learn/tutorials/journey-orchestration/introduction.html)
 
 ### [!UICONTROL Mobile Services] 및 [!UICONTROL Mobile SDK] {#mobile}
 
@@ -124,7 +124,7 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 * [iOS 및 Android용 Media Analytics SDK (이전의 VHL SDK)](#aa-va)
 * [Analytics 관리자에 대한 중요 공지](analytics-important-notices.md)
 
-제품 설명서는 [Adobe Analytics 도움말 홈](https://docs.adobe.com/content/help/ko-KR/analytics/landing/home.html)을 참조하십시오.
+제품 설명서는 [Adobe Analytics 도움말 홈](https://docs.adobe.com/content/help/ko/analytics/landing/home.html)을 참조하십시오.
 
 ### Adobe Analytics의 새로운 기능 {#aa-features}
 
@@ -161,7 +161,7 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 * 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
 * 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
 
-다음 플랫폼에 대한 [AppMeasurement 릴리스 내역](https://experienceleague.corp.adobe.com/docs/analytics/implementation/appmeasurement-updates.html)이 필요하면 AppMeasurement 릴리스 내역을 참조하십시오.
+다음 플랫폼에 대한 [AppMeasurement 릴리스 내역](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html)이 필요하면 AppMeasurement 릴리스 내역을 참조하십시오.
 
 * [!DNL JavaScript]
 * [!DNL iOS]
@@ -224,7 +224,7 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 
 * [AEM 6.4 학습 및 지원 홈](https://helpx.adobe.com/kr/support/experience-manager/6-4.html)
 * [AEM 6.3 학습 및 지원 홈](https://helpx.adobe.com/kr/support/experience-manager/6-3.html)
-* [AEM 6.2 학습 및 지원 홈](https://helpx.adobe.com/kr/support/experience-manager/6-2.html)
+* [AEM 6.2 학습 및 지원 홈](https://helpx.adobe.com/kr/support/experience-manager/6-2.html.html)
 * [Cloud Manager 사용 안내서](https://helpx.adobe.com/kr/experience-manager/cloud-manager/user-guide.html)
 * [이전 버전의 AEM 설명서](https://helpx.adobe.com/kr/experience-manager/aem-previous-versions.html)
 * [Scene7 Publishing System 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/dynamic-media-developer-resources/release-notes/s7rn2017.html)
@@ -268,7 +268,7 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 * Adobe Campaign Standard: [설명서](https://helpx.adobe.com/kr/support/campaign/standard.html) - [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/release-notes/release-notes.html) - [기능 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [릴리스 계획](https://helpx.adobe.com/kr/campaign/kb/acs-release-planning.html)
 * Adobe Campaign Classic: [설명서](https://helpx.adobe.com/kr/support/campaign/classic.html) - [릴리스 노트](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [기능 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
-* Adobe Campaign 제어판: [설명서](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html) - [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
+* Adobe Campaign 제어판: [설명서](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html) - [릴리스 노트](https://docs.adobe.com/content/help/ko/control-panel/using/release-notes.html)
 
 ## Advertising Cloud {#adcloud}
 
@@ -307,7 +307,7 @@ Marketo Engage은 리드 관리를 위한 완벽한 솔루션이며 복잡한 �
    * 랜딩 페이지 리디렉션 규칙 API
 * **양식 설명자 캐싱:** 랜딩 페이지 및 양식 개선 사항.
 
-자세한 내용은 [2020년 2월](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+Feb+%2720)에 대한 마케팅 릴리스 노트를 참조하십시오.
+자세한 내용은 [2020년 2월](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+Feb+%2720)에 대한 Marketo 릴리스 노트를 참조하십시오.
 
 ### 예정된 기능
 
