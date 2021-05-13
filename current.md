@@ -5,7 +5,6 @@ doc-type: release notes
 last-update: April 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-translation-type: tm+mt
 source-git-commit: 7ba8d1728f066499f8b0cdb8fb5fad1abe83ec53
 workflow-type: tm+mt
 source-wordcount: '5695'
@@ -41,7 +40,7 @@ Experience Cloud 솔루션과 서비스는 매달 업데이트됩니다. 이 페
 * [Document Cloud](#doc-cloud)
 * [Creative Cloud Enterprise](#creative-cloud)
 
-도움이 필요하십니까? [Adobe Experience League](https://experienceleague.adobe.com/#home) 에서 제품 및 기술 문서, Adobe에서 제공하는 교육 과정, 비디오 튜토리얼, 빠른 답변, 커뮤니티 통찰력 및 강사 중심의 트레이닝을 확인할 수 있습니다.
+도움이 필요하십니까? [Adobe Experience League](https://experienceleague.adobe.com/?lang=ko-KR/#home) 에서 제품 및 기술 문서, Adobe에서 제공하는 교육 과정, 비디오 튜토리얼, 빠른 답변, 커뮤니티 통찰력 및 강사 중심의 트레이닝을 확인할 수 있습니다.
 
 ## ![아이콘](/assets/adobe.png) Adobe 시스템 상태 {#status}
 
@@ -166,7 +165,7 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [JavaScript용 AppMeas
 
 ### Analytics 도움말 리소스
 
-* [Adobe Analytics 제품 설명서 및 튜토리얼](https://experienceleague.adobe.com/docs/analytics.html)
+* [Adobe Analytics 제품 설명서 및 튜토리얼](https://experienceleague.adobe.com/docs/analytics.html?lang=ko-KR)
 
 ## ![아이콘](/assets/audience-manager.png) Adobe Audience Manager {#aam}
 
@@ -183,7 +182,7 @@ Audience Manager에 대해 게시된 새로운 비디오, 튜토리얼 또는 �
 
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021년 4월 | [Audience Manager 사용자를 위한 실시간 CDP 이해](https://experienceleague.adobe.com/?recommended=AudienceManager-U-1-2020.1.rtcdp) | 교육 과정 | Audience Manager 고객들은 Adobe의 실시간 고객 데이터 플랫폼(실시간 CDP)으로 이전하면서 콘텐츠 관리를 재구상하고 있습니다. 개념별로 접근하는 이 교육 과정을 통해 Audience Manager 사용자는 실시간 CDP로 이러한 개념들을 처리하는 방법을 이해할 수 있습니다. |
+| 2021년 4월 | [Audience Manager 사용자를 위한 실시간 CDP 이해](https://experienceleague.adobe.com/?lang=ko-KR?recommended=AudienceManager-U-1-2020.1.rtcdp) | 교육 과정 | Audience Manager 고객들은 Adobe의 실시간 고객 데이터 플랫폼(실시간 CDP)으로 이전하면서 콘텐츠 관리를 재구상하고 있습니다. 개념별로 접근하는 이 교육 과정을 통해 Audience Manager 사용자는 실시간 CDP로 이러한 개념들을 처리하는 방법을 이해할 수 있습니다. |
 | 2021년 4월 | [Audience Manager 사용자를 위한 실시간 CDP의 대상 이해](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-destinations-for-aam-users.html?lang=ko-KR) | 비디오 | Audience Manager에서 [!UICONTROL 실시간 고객 데이터 플랫폼] (실시간 CDP)으로 이동하여 대상에 대해 알아야 한다면 대상 파트너에게 대상 세그먼트를 활성화하는 방법에 대해 알아보십시오. 이 비디오에서 다양한 대상 유형과 실시간 CDP 위치를 설명합니다. |
 | 2021년 4월 | [Audience Manager 사용자를 위한 실시간 CDP의 데이터 거버넌스 이해](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-data-gov-for-aam-users.html?lang=ko-KR#other-integrations) | 비디오 | Audience Manager 사용자는 이 비디오를 통해 Audience Manager의 기능과 비교하여 [!UICONTROL 실시간 고객 데이터 플랫폼]의 데이터 거버넌스 기능에 대해 알아볼 수 있습니다. 이 비디오에서는 [!UICONTROL 데이터 사용 및 레이블 적용] (DULE) 프레임워크와 적용 가능한 Platform 내 위치를 설명합니다. |
 | 2021년 4월 | [두 가지 인식에 대한 이야기 - 브랜드 대 소비자 - 이벤트](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/industry/brands-vs-consumers.html?lang=ko-KR#industry) | 문서 | 오늘날 마케터는 ID 사례 관련 정보의 홍수에 빠져 허우적거리고 있습니다. Adobe와 Advanis의 최근 연구에 따르면 마케팅 전문가 중 37%만이 쿠키 없는 미래를 준비하고 있다고 합니다. 이 웨비나에서 Adobe는 쿠키 없는 미래에 대한 광고주 및 게시자의 이해와 준비 수준, 그들의 사용 사례에 미치는 영향, 더 넓은 생태계에 대한 인식을 설명합니다. |
