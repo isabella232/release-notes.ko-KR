@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 008fc1b3d5d5b0558075bdb767f2c280c8e3ae79
+source-git-commit: b77d72d109886a82aaebfb5f8d4cf7d6c529ae5e
 workflow-type: tm+mt
-source-wordcount: '5388'
+source-wordcount: '5384'
 ht-degree: 44%
 
 ---
@@ -93,8 +93,8 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 
 릴리스 날짜: **2021년 5월 20일**
 
-* [Adobe Analytics의 새로운 기능](#aa-features) (2021년 5월 11일 업데이트됨)
-* [Customer Journey Analytics의 새로운 기능](#cust-journey) (2021년 5월 11일 업데이트됨)
+* [Adobe Analytics의 새로운 기능](#aa-features)
+* [Customer Journey Analytics의 새로운 기능](#cust-journey)
 * [Adobe Analytics의 수정 사항](#aa-fixes)
 * [Analytics 관리자에 대한 중요 공지](#aa-notices)
 * [Analytics 교육 과정 및 튜토리얼](#tutorials-analytics)
@@ -154,17 +154,17 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [JavaScript용 AppMeas
 
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
-| 5월 2021일 | [내부 URL 필터 설정](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/set-internal-url-filters.html) | 비디오 | [!UICONTROL 레퍼러] URL에 대한 설정을 내부 레퍼러(경로 지정 보고서를 전원 공급)나 외부 레퍼러(레퍼러/참조 도메인 보고서 제공)로 설정하는 방법에 대해 알아봅니다. |
-| 5월 2021일 | [검색 방법 구성](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-finding-methods.html) | 비디오 | 검색 엔진, 검색 키워드, 기타 검색 방법 보고서 및 구성 요소가 전환 이벤트의 속성을 처리하는 방법을 제어하는 설정을 구성하는 방법을 알아봅니다. |
-| 5월 2021일 | [Reports &amp; Analytics의 메뉴 맞춤화](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/customize-menus.html) | 비디오 | Reports &amp; Analytics를 사용하여 데이터에 액세스하는 방법에 대해 알아봅니다. 분석에 Analysis Workspace이 권장되지만, Reports &amp; Analytics를 사용하면 필요한 데이터에 빠르게 액세스하기 위해 메뉴를 사용자 지정하는 데 도움이 될 수 있습니다. |
-| 5월 2021일 | [Adobe Analytics에서 달력 설정 사용자 지정](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/customize-calendar-settings.html?lang=en#administration) | 비디오 | Adobe Analytics에서 사용자 지정 달력을 사용자 지정하는 역학 뿐만 아니라 몇 가지 팁과 기법을 알아봅니다. |
-| 5월 2021일 | [데이터 보기에서 &quot;값 없음&quot; 옵션 구성](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/configure-no-value-options-in-data-views.html) | 비디오 | Customer Journey Analytics에서 [!UICONTROL 데이터 보기]를 구성하는 동안 보고서에 _값_&#x200B;이 표시되지 않도록 선택하고 값 이름을 표시할 방법을 변경할 수 있습니다. |
-| 5월 2021일 | [데이터 보기에 지표 값 포함 또는 제외](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/include-or-exclude-metric-values-in-data-views.html) | 비디오 | 다른 지표의 하위 세트인 새 지표를 만들고 구성하는 방법과 이 지표를 [!UICONTROL 데이터 보기]에서 강력한 분석 도구로 만들 수 있는 사용 사례를 알아봅니다. |
-| 5월 2021일 | [데이터 보기에 차원 값 포함 또는 제외](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/include-or-exclude-dimension-values-in-data-views.html?lang=en) | 비디오 | 이 [!UICONTROL 데이터 보기] 구성 기능을 사용하면 Customer Journey Analytics에서 프로젝트를 만들 때 분석가가 더 쉽게 작업할 수 있도록 차원에서 값을 필터링할 수 있습니다. |
-| 5월 2021일 | [데이터 보기의 속성 설정](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/attribution-settings-in-data-views.html) | 비디오 | 전환 크레딧을 받는 값과 만료 설정(값이 지속되는 기간)을 결정하는 데 도움이 되는 차원 할당 설정에 대해 알아봅니다. 이 비디오에서는 이 모든 중요한 설정 등을 안내합니다. |
-| 5월 2021일 | [분석을 위해 데이터 보기에서 값 버킷 만들기](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/creating-value-buckets-in-data-views-for-analysis.html?lang=en) | 비디오 | Customer Journey Analytics에서 [!UICONTROL 데이터 보기]를 구성할 때 정의된 버킷으로 묶도록 숫자 차원을 설정할 수 있습니다. 이 설정을 사용하면 테이블에 사용할 수 있는 항목 수를 숫자 범위로 제한할 수 있습니다. |
-| 5월 2021일 | [데이터 보기의 구성 요소 설정 구성](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/configuring-component-settings-in-data-views.html?lang=en) | 비디오 | Customer Journey Analytics에서 [!UICONTROL 데이터 보기]를 설정할 때 각 구성 요소(지표 및 차원)에 대해 구성할 기본 구성 요소 설정을 알아봅니다. |
-| 5월 2021일 | [데이터 보기의 지표 형식 지정](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/formatting-metrics-in-data-views.html?lang=en) | 비디오 | [!UICONTROL 데이터 보기] 구성의 구성 요소 화면에서 지표 형식 지정 옵션에 대해 알아봅니다. 이 비디오에서는 구성 요소를 최대한 활용할 수 있는 몇 가지 팁에 대해서도 설명합니다. |
+| 2021년 5월 | [내부 URL 필터 설정](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/set-internal-url-filters.html) | 비디오 | [!UICONTROL 레퍼러] URL에 대한 설정을 내부 레퍼러(경로 지정 보고서를 전원 공급)나 외부 레퍼러(레퍼러/참조 도메인 보고서 제공)로 설정하는 방법에 대해 알아봅니다. |
+| 2021년 5월 | [검색 방법 구성](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-finding-methods.html) | 비디오 | 검색 엔진, 검색 키워드, 기타 검색 방법 보고서 및 구성 요소가 전환 이벤트의 속성을 처리하는 방법을 제어하는 설정을 구성하는 방법을 알아봅니다. |
+| 2021년 5월 | [Reports &amp; Analytics의 메뉴 맞춤화](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/customize-menus.html) | 비디오 | Reports &amp; Analytics를 사용하여 데이터에 액세스하는 방법에 대해 알아봅니다. 분석에 Analysis Workspace이 권장되지만, Reports &amp; Analytics를 사용하면 필요한 데이터에 빠르게 액세스하기 위해 메뉴를 사용자 지정하는 데 도움이 될 수 있습니다. |
+| 2021년 5월 | [Adobe Analytics에서 달력 설정 사용자 지정](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/customize-calendar-settings.html?lang=en#administration) | 비디오 | Adobe Analytics에서 사용자 지정 달력을 사용자 지정하는 역학 뿐만 아니라 몇 가지 팁과 기법을 알아봅니다. |
+| 2021년 5월 | [데이터 보기에서 &quot;값 없음&quot; 옵션 구성](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/configure-no-value-options-in-data-views.html) | 비디오 | Customer Journey Analytics에서 [!UICONTROL 데이터 보기]를 구성하는 동안 보고서에 _값_&#x200B;이 표시되지 않도록 선택하고 값 이름을 표시할 방법을 변경할 수 있습니다. |
+| 2021년 5월 | [데이터 보기에 지표 값 포함 또는 제외](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/include-or-exclude-metric-values-in-data-views.html) | 비디오 | 다른 지표의 하위 세트인 새 지표를 만들고 구성하는 방법과 이 지표를 [!UICONTROL 데이터 보기]에서 강력한 분석 도구로 만들 수 있는 사용 사례를 알아봅니다. |
+| 2021년 5월 | [데이터 보기에 차원 값 포함 또는 제외](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/include-or-exclude-dimension-values-in-data-views.html?lang=en) | 비디오 | 이 [!UICONTROL 데이터 보기] 구성 기능을 사용하면 Customer Journey Analytics에서 프로젝트를 만들 때 분석가가 더 쉽게 작업할 수 있도록 차원에서 값을 필터링할 수 있습니다. |
+| 2021년 5월 | [데이터 보기의 속성 설정](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/attribution-settings-in-data-views.html) | 비디오 | 전환 크레딧을 받는 값과 만료 설정(값이 지속되는 기간)을 결정하는 데 도움이 되는 차원 할당 설정에 대해 알아봅니다. 이 비디오에서는 이 모든 중요한 설정 등을 안내합니다. |
+| 2021년 5월 | [분석을 위해 데이터 보기에서 값 버킷 만들기](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/creating-value-buckets-in-data-views-for-analysis.html?lang=en) | 비디오 | Customer Journey Analytics에서 [!UICONTROL 데이터 보기]를 구성할 때 정의된 버킷으로 묶도록 숫자 차원을 설정할 수 있습니다. 이 설정을 사용하면 테이블에 사용할 수 있는 항목 수를 숫자 범위로 제한할 수 있습니다. |
+| 2021년 5월 | [데이터 보기의 구성 요소 설정 구성](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/configuring-component-settings-in-data-views.html?lang=en) | 비디오 | Customer Journey Analytics에서 [!UICONTROL 데이터 보기]를 설정할 때 각 구성 요소(지표 및 차원)에 대해 구성할 기본 구성 요소 설정을 알아봅니다. |
+| 2021년 5월 | [데이터 보기의 지표 형식 지정](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/formatting-metrics-in-data-views.html?lang=en) | 비디오 | [!UICONTROL 데이터 보기] 구성의 구성 요소 화면에서 지표 형식 지정 옵션에 대해 알아봅니다. 이 비디오에서는 구성 요소를 최대한 활용할 수 있는 몇 가지 팁에 대해서도 설명합니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -305,11 +305,11 @@ Experience Manager의 새로운 기능, 수정 내용 및 업데이트. 안정�
 
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
-| 5월 2021일 | [사이트 템플릿](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/site-template/create-site.html) | 문서 | 사이트 만들기 마법사를 사용하여 새 사이트를 생성하는 방법을 알아봅니다. 사이트 만들기, 업데이트 작성 및 게시, 페이지 템플릿, 생성된 AEM 사이트 탐색에 대해 알아봅니다. **참고:** 이 설명서는 미리 보기를 위해 사용할 수 있습니다. 빠른 사이트 작성 기능은 2021년 하반기에 출시될 예정입니다. |
-| 5월 2021일 | [SPA 편집기 및 원격 SPA 빠른 설정](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/spa-editor/remote-spa/quick-setup.html) | 문서 | 빠른 설정은 WKND 앱과 Remote SPA을 설치 및 실행하고 AEM SPA Editor를 사용하여 작성하는 방법을 소개하는 빠른 연습입니다. |
-| 5월 2021일 | [Adobe Sign을 사용한 적응형 양식](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/forms-and-sign/create-adaptive-form.html) | 비디오 | Adobe Sign 클라우드 구성을 사용하기 위해 적응형 양식을 만드는 방법을 알아봅니다. |
-| 5월 2021일 | [채우기 및 서명 시나리오에 대한 적응형 양식 구성](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/forms-and-sign/configure-form-fill-and-sign.html) | 비디오 | 양식 작성자와 서명자가 동일한 양식을 구성하는 방법을 알아봅니다. |
-| 5월 2021일 | [Adobe Sign API 애플리케이션 만들기](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/forms-and-sign/create-sign-api-application.html#forms) | 비디오 | Adobe Sign에서 API 애플리케이션을 만들어 Adobe Sign 플랫폼과 통합하는 방법을 알아봅니다. |
+| 2021년 5월 | [사이트 템플릿](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/site-template/create-site.html) | 문서 | 사이트 만들기 마법사를 사용하여 새 사이트를 생성하는 방법을 알아봅니다. 사이트 만들기, 업데이트 작성 및 게시, 페이지 템플릿, 생성된 AEM 사이트 탐색에 대해 알아봅니다. **참고:** 이 설명서는 미리 보기를 위해 사용할 수 있습니다. 빠른 사이트 작성 기능은 2021년 하반기에 출시될 예정입니다. |
+| 2021년 5월 | [SPA 편집기 및 원격 SPA 빠른 설정](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/spa-editor/remote-spa/quick-setup.html) | 문서 | 빠른 설정은 WKND 앱과 Remote SPA을 설치 및 실행하고 AEM SPA Editor를 사용하여 작성하는 방법을 소개하는 빠른 연습입니다. |
+| 2021년 5월 | [Adobe Sign을 사용한 적응형 양식](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/forms-and-sign/create-adaptive-form.html) | 비디오 | Adobe Sign 클라우드 구성을 사용하기 위해 적응형 양식을 만드는 방법을 알아봅니다. |
+| 2021년 5월 | [채우기 및 서명 시나리오에 대한 적응형 양식 구성](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/forms-and-sign/configure-form-fill-and-sign.html) | 비디오 | 양식 작성자와 서명자가 동일한 양식을 구성하는 방법을 알아봅니다. |
+| 2021년 5월 | [Adobe Sign API 애플리케이션 만들기](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/forms-and-sign/create-sign-api-application.html#forms) | 비디오 | Adobe Sign에서 API 애플리케이션을 만들어 Adobe Sign 플랫폼과 통합하는 방법을 알아봅니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -408,8 +408,8 @@ Adobe Document Cloud용으로 게시된 새로운 비디오, 튜토리얼 또는
 
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
-| 5월 2021일 | [포함된 전자 서명 및 문서 경험 만들기](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/develop/custom/embeddedesignature.html#develop) | 문서 | Adobe Sign API를 사용하여 전자 서명 및 문서 경험을 웹 플랫폼 및 콘텐츠 및 문서 관리 시스템에 포함하는 방법을 알아봅니다. (4개 부분) |
-| 5월 2021일 | [Adobe Sign for Microsoft Power Platform을 통한 문서 자동화](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/sign-learning-hub/integrations/microsoft/documentautomation.html#integrations) | 문서 | Microsoft Power Apps용 Adobe Sign 및 Adobe PDF Tools 커넥터를 활성화하고 사용하는 방법을 알아봅니다. 코드 없이 비즈니스 승인 및 서명 프로세스를 빠르고 안전하게 자동화하는 워크플로우를 구축할 수 있습니다. (4개 부분) |
+| 2021년 5월 | [포함된 전자 서명 및 문서 경험 만들기](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/develop/custom/embeddedesignature.html#develop) | 문서 | Adobe Sign API를 사용하여 전자 서명 및 문서 경험을 웹 플랫폼 및 콘텐츠 및 문서 관리 시스템에 포함하는 방법을 알아봅니다. (4개 부분) |
+| 2021년 5월 | [Adobe Sign for Microsoft Power Platform을 통한 문서 자동화](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/sign-learning-hub/integrations/microsoft/documentautomation.html#integrations) | 문서 | Microsoft Power Apps용 Adobe Sign 및 Adobe PDF Tools 커넥터를 활성화하고 사용하는 방법을 알아봅니다. 코드 없이 비즈니스 승인 및 서명 프로세스를 빠르고 안전하게 자동화하는 워크플로우를 구축할 수 있습니다. (4개 부분) |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -417,7 +417,7 @@ Adobe Document Cloud용으로 게시된 새로운 비디오, 튜토리얼 또는
 
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
-| 5월 2021일 | [PDF 온라인 경험 제어 및 분석 수집](https://experienceleague.adobe.com/docs/document-services/tutorials/pdfembed/controlpdfexperience.html#part1) | 문서 | Adobe PDF Embed API를 통해 시각적 모양을 제어하고, 공동 작업을 활성화하고, 페이지 및 검색 체류 시간 등 사용자의 PDF와 인터랙션하는 방법에 대해 분석을 수집할 수 있는 방법에 대해 알아봅니다. (4개 부분) |
+| 2021년 5월 | [PDF 온라인 경험 제어 및 분석 수집](https://experienceleague.adobe.com/docs/document-services/tutorials/pdfembed/controlpdfexperience.html#part1) | 문서 | Adobe PDF Embed API를 통해 시각적 모양을 제어하고, 공동 작업을 활성화하고, 페이지 및 검색 체류 시간 등 사용자의 PDF와 인터랙션하는 방법에 대해 분석을 수집할 수 있는 방법에 대해 알아봅니다. (4개 부분) |
 
 {style=&quot;table-layout:auto&quot;}
 
