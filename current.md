@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 9e29b645302ecff11108f8d265a1e4ec3e06a755
+source-git-commit: 9c51e3e514064371614c7379ae7f87ff194159e8
 workflow-type: tm+mt
-source-wordcount: '5365'
+source-wordcount: '5360'
 ht-degree: 42%
 
 ---
@@ -75,7 +75,7 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 
 ### Journey Orchestration을 위한 추가 리소스
 
-[설명서](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=ko-KR) - [릴리스 정보](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=en) - [방법 비디오](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html?lang=ko-KR)
+[설명서](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=ko-KR) - [릴리스 정보](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=en) - [방법 비디오](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=en)
 
 ## ![아이콘](/assets/experience_platform_appicon_24.png) Offer Decisioning {#offer-decisioning}
 
@@ -105,7 +105,7 @@ Adobe Experience Platform을 사용하면 모든 개인의 요구 사항을 실�
 | 기능 | [일반 가용성](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=ko-KR) - 대상 날짜 | 설명 |
 | ----------- | ---------- | ------- |
 | Workspace: 이전 프로젝트 버전 | 2021년 5월 20일 | 이전 버전의 Workspace 프로젝트를 로드하여 원하지 않는 변경 내용을 실행 취소하거나 간단히 이전 버전으로 되돌릴 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/save-projects.html?lang=en#previous-version) |
-| Data Warehouse API 요청은 이제 &quot;시간&quot;을 지원합니다 | 2021년 5월 20일 | Data Warehouse API는 요청 본문에 매개 변수 `"fuzzyDates”:false` 가 제공되면 `Y-m-d h:m:s` 형식의 지원 날짜를 요청합니다. 이렇게 하면 현재 날짜의 Data Warehouse 데이터를 요청할 수 있지만, 이전에는 데이터가 반환되기 전에 일을 완료해야 했습니다. [추가 정보](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md) |
+| Data Warehouse API 요청은 이제 &quot;시간&quot;을 지원합니다 | 2021년 5월 20일 | Data Warehouse API는 요청 본문에 매개 변수 `"fuzzyDates”:false` 가 제공되면 `Y-m-d h:m:s` 형식의 지원 날짜를 요청합니다. 이 업데이트를 사용하면 현재 날짜의 Data Warehouse 데이터를 요청할 수 있지만, 이전에는 데이터가 반환되기 전에 요일이 완료되어야 했습니다. [추가 정보](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md) |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -361,10 +361,10 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 [!DNL Adobe Advertising]에 대한 릴리스 노트입니다.
 
-* [Advertising Cloud DSP의 새로운 기능](#adcloud-dsp)
-* [Advertising Cloud Search의 새로운 기능](#adcloud-search)
+* [Advertising DSP의 새로운 기능](#adcloud-dsp)
+* [Advertising Search의 새로운 기능](#adcloud-search)
 
-### [!DNL Advertising Cloud DSP] 의 새로운 기능 {#adcloud-dsp}
+### [!DNL Advertising DSP] 의 새로운 기능 {#adcloud-dsp}
 
 마지막 업데이트:**2021년 5월 19일 - 5월 5일 릴리스**
 
@@ -374,7 +374,7 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 {style=&quot;table-layout:auto&quot;}
 
-### [!DNL Advertising Cloud Search] 의 새로운 기능 {#adcloud-search}
+### [!DNL Advertising Search] 의 새로운 기능 {#adcloud-search}
 
 마지막 업데이트:**2021년 5월 19일, 5월 18일 릴리스**
 
@@ -409,7 +409,7 @@ Adobe Document Cloud용으로 게시된 새로운 비디오, 튜토리얼 또는
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
 | 2021년 5월 | [포함된 전자 서명 및 문서 경험 만들기](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/develop/custom/embeddedesignature.html#develop) | 문서 | Adobe Sign API를 사용하여 전자 서명 및 문서 경험을 웹 플랫폼 및 콘텐츠 및 문서 관리 시스템에 포함하는 방법을 알아봅니다. (4개 부분) |
-| 2021년 5월 | [Adobe Sign for Microsoft Power Platform을 통한 문서 자동화](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/sign-learning-hub/integrations/microsoft/documentautomation.html#integrations) | 문서 | Microsoft Power Apps용 Adobe Sign 및 Adobe PDF Tools 커넥터를 활성화하고 사용하는 방법을 알아봅니다. 코드 없이 비즈니스 승인 및 서명 프로세스를 빠르고 안전하게 자동화하는 워크플로우를 구축할 수 있습니다. (4개 부분) |
+| 2021년 5월 | [Adobe Sign for Microsoft® Power Platform을 통한 문서 자동화](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/sign-learning-hub/integrations/microsoft/documentautomation.html) | 문서 | Microsoft® Power Apps용 Adobe Sign 및 Adobe PDF Tools 커넥터를 활성화하고 사용하는 방법을 알아봅니다. 코드 없이 비즈니스 승인 및 서명 프로세스를 빠르고 안전하게 자동화하는 워크플로우를 구축할 수 있습니다. (4개 부분) |
 
 {style=&quot;table-layout:auto&quot;}
 
