@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: May 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 9c51e3e514064371614c7379ae7f87ff194159e8
+source-git-commit: 710ca78745979b414c4299ff20561b07bc698478
 workflow-type: tm+mt
 source-wordcount: '5360'
 ht-degree: 42%
@@ -409,7 +409,7 @@ Adobe Document Cloud용으로 게시된 새로운 비디오, 튜토리얼 또는
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
 | 2021년 5월 | [포함된 전자 서명 및 문서 경험 만들기](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/develop/custom/embeddedesignature.html#develop) | 문서 | Adobe Sign API를 사용하여 전자 서명 및 문서 경험을 웹 플랫폼 및 콘텐츠 및 문서 관리 시스템에 포함하는 방법을 알아봅니다. (4개 부분) |
-| 2021년 5월 | [Adobe Sign for Microsoft® Power Platform을 통한 문서 자동화](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/sign-learning-hub/integrations/microsoft/documentautomation.html) | 문서 | Microsoft® Power Apps용 Adobe Sign 및 Adobe PDF Tools 커넥터를 활성화하고 사용하는 방법을 알아봅니다. 코드 없이 비즈니스 승인 및 서명 프로세스를 빠르고 안전하게 자동화하는 워크플로우를 구축할 수 있습니다. (4개 부분) |
+| 2021년 5월 | [Adobe Sign for Microsoft® Power Platform을 통한 문서 자동화](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/integrations/microsoft/documentautomation.html) | 문서 | Microsoft® Power Apps용 Adobe Sign 및 Adobe PDF Tools 커넥터를 활성화하고 사용하는 방법을 알아봅니다. 코드 없이 비즈니스 승인 및 서명 프로세스를 빠르고 안전하게 자동화하는 워크플로우를 구축할 수 있습니다. (4개 부분) |
 
 {style=&quot;table-layout:auto&quot;}
 
