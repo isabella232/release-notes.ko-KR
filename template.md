@@ -2,17 +2,17 @@
 title: Adobe Experience Cloud 릴리스 노트
 description: Experience Cloud 릴리스 노트
 doc-type: release notes
-last-update: March 2020
+last-update: June 2021
 author: mfrei
-source-git-commit: e01e0ceec2a3aec43f7a64b7c2f3fb9e24b76cc9
+source-git-commit: 918c6cb27c16972d16d4da7f283fa790d14ac51d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1344'
+ht-degree: 73%
 
 ---
 
 
-# 템플릿 - Adobe Experience Cloud 릴리스 정보 - 2020년 월
+# 템플릿 - Adobe Experience Cloud 릴리스 정보 - 2021년 월
 
 ![배너](/assets/experience-cloud-banner-3.png)
 
@@ -26,7 +26,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 >
 >예정된 릴리스에 대한 이메일 알림을 받으려면 [Adobe Priority Product Update](https://www.adobe.com/kr/subscription/priority-product-update.html)에 가입하십시오. 릴리스 후 게시된 새 정보는 발행 날짜로 표시됩니다.
 
-**릴리스 날짜: 2020년**
+**릴리스 날짜: 2021년**
 
 * [Adobe 시스템 상태](#status)
 * [Experience Cloud 인터페이스](#ecloud)
