@@ -8,7 +8,7 @@ exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 source-git-commit: 710ca78745979b414c4299ff20561b07bc698478
 workflow-type: tm+mt
 source-wordcount: '5360'
-ht-degree: 42%
+ht-degree: 45%
 
 ---
 
@@ -52,9 +52,9 @@ Adobe 시스템 상태에 대한 최신 업데이트 및 최신 릴리스 정보
 
 | 기능 | 날짜 | 설명 |
 | ------- | ------- | ------- |
-| Experience Cloud 헤더 및 탐색 | 2021년 5월 20일 | Adobe Experience Cloud 업데이트에는 헤더의 밝은 테마 변경 사항이 포함되어 있으며, Experience Cloud 프로필 메뉴에서 사용자 아바타에서 추가 환경 설정을 제어하기 위한 링크를 통해 어두운 테마로 쉽게 전환할 수 있습니다. Experience Cloud의 모든 응용 프로그램이 지원을 제공하는 것은 아니지만 이 기능은 향후 테마 지원을 잠금 해제합니다. |
-| Experience Cloud 전역 검색 | 2021년 5월 20일 | 이 릴리스에서는 Experience Cloud 전역 검색을 통해 [Experience League](https://experienceleague.adobe.com/#home) 설명서, 교육 과정 및 자습서 중 하나를 검색할 수 있습니다. (현재, 전역 검색은 Experience Platform 사용자만 사용할 수 있습니다. [!UICONTROL Platform]에 대한 전역 검색을 사용하면 세그먼트, 데이터 세트, 스키마 등과 같은 Experience Cloud의 비즈니스 개체를 검색할 수 있습니다.) |
-| Experience Cloud 언어 환경 설정 | 2021년 5월 20일 | 이 업데이트에는 Experience Cloud [환경 설정](https://experience.adobe.com/preferences)에서 기본 언어를 설정하는 기능이 포함되어 있습니다. |
+| Experience Cloud 헤더 및 탐색 | 2021년 5월 20일 | Adobe Experience Cloud 업데이트에는 헤더의 밝은 테마 변경 사항이 포함되어 있으며, Experience Cloud 프로필 메뉴에서 사용자 아바타에서 추가 환경 설정을 제어하기 위한 링크를 통해 어두운 테마로 쉽게 전환할 수 있습니다. Experience Cloud의 모든 애플리케이션이 테마를 지원하는 것은 아니지만, 이 기능은 향후에 테마를 지원할 수 있도록 합니다. |
+| Experience Cloud 글로벌 검색 | 2021년 5월 20일 | 이번 릴리스로 Experience Cloud 글로벌 검색을 통해 [Experience League](https://experienceleague.adobe.com/#home) 설명서, 과정 및 튜토리얼을 검색할 수 있게 되었습니다. (현재 글로벌 검색은 Experience Platform 사용자만 사용할 수 있습니다. [!UICONTROL Platform]용 글로벌 검색을 사용하면 세그먼트, 데이터 세트, 스키마 등과 같은 Experience Cloud의 모든 비즈니스 개체를 검색할 수 있습니다.) |
+| Experience Cloud 언어 환경 설정 | 2021년 5월 20일 | 이 업데이트에는 Experience Cloud [환경 설정](https://experience.adobe.com/preferences)에서 원하는 언어를 설정하는 기능이 포함되어 있습니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
