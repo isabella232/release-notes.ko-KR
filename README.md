@@ -1,9 +1,8 @@
 ---
-source-git-commit: 13ad94d323a3ac655b93f10b11c5245fe00ee379
-workflow-type: ht
-translation-type: ht
+source-git-commit: 0d8d7c330a0d74768a255e765721b88abcc86a5a
+workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 # 기여자 문서
@@ -13,17 +12,17 @@ Adobe는 설명서 팀 외부 직원뿐만 아니라 커뮤니티 기여를 환�
 ## Adobe 오픈소스 행동 수칙
 
 
-이 프로젝트에서는 [Adobe 오픈소스 행동 수칙](https://docs.adobe.com/content/help/ko-KR/contributor/contributor-guide/conduct-contributions/code-of-conduct.html) 또는 [.NET Foundation 행동 수칙](https://dotnetfoundation.org/code-of-conduct)을 채택했습니다. 자세한 내용은 [기여](https://docs.adobe.com/content/help/ko-KR/contributor/contributor-guide/conduct-contributions/contributing.html) 문서를 참조하십시오.
+이 프로젝트에서는 [Adobe 오픈소스 행동 수칙](https://experienceleague.adobe.com/content/help/en/contributor/contributor-guide/conduct-contributions/code-of-conduct.html) 또는 [.NET Foundation 행동 수칙](https://dotnetfoundation.org/code-of-conduct)을 채택했습니다. 자세한 내용은 [기여](https://experienceleague.adobe.com/content/help/en/contributor/contributor-guide/conduct-contributions/contributing.html) 문서를 참조하십시오.
 
 ## Adobe 내용에 대한 귀하의 기여 관련 정보
 
-[Adobe Docs 기여자 안내서](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)를 참조하십시오.
+[Adobe Docs 기여자 안내서](https://experienceleague.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)를 참조하십시오.
 
 기여하는 방식은 사용자의 신분과 사용자가 기여하고 싶은 변경 내용의 종류에 따라 다릅니다.
 
 ### 부분 변경 사항
 
-부분 업데이트에 선의로 기여하려는 경우 문서를 방문하여 문서 내의 **편집** 링크를 클릭하면 문서에 해당하는 GitHub 소스로 이동하게 됩니다. 그런 다음 Github UI를 사용하여 업데이트를 만듭니다. 자세한 내용은 일반 [Adobe Docs 기여자 안내서](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)를 참조하십시오.
+부분 업데이트에 선의로 기여하려는 경우 문서를 방문하여 문서 내의 **편집** 링크를 클릭하면 문서에 해당하는 GitHub 소스로 이동하게 됩니다. 그런 다음 Github UI를 사용하여 업데이트를 만듭니다. 자세한 내용은 일반 [Adobe Docs 기여자 안내서](https://experienceleague.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)를 참조하십시오.
 
 이 REPO의 설명서 및 코드 샘플에 대해 사용자가 제출하는 부분 수정 또는 설명은 Adobe 사용 약관의 적용을 받습니다.
 
@@ -43,7 +42,7 @@ Adobe Experience Cloud 솔루션에 대한 제품 팀의 테크니컬 라이터,
 
 커뮤니티 기여자는 기본 편집에 GitHub UI를 사용하거나 리포지토리를 포크하여 큰 기여를 할 수 있습니다.
 
-자세한 내용은 [Adobe Docs 기여자 안내서](https://docs.adobe.com/content/help/ko-KR/contributor/contributor-guide-for-adobe-documentation/introduction.html)를 참조하십시오.
+자세한 내용은 [Adobe Docs 기여자 안내서](https://experienceleague.adobe.com/content/help/en/contributor/contributor-guide-for-adobe-documentation/introduction.html)를 참조하십시오.
 
 ## Markdown을 사용하여 주제 서식을 지정하는 방법
 
