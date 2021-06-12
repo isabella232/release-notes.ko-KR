@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: June 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 22f12b5bc45f0ed2c191c395c55314e646a330f2
+source-git-commit: 8adc3fe8f3f4b174d1c41cc7c3162d38a984d661
 workflow-type: tm+mt
 source-wordcount: '5062'
 ht-degree: 40%
@@ -413,7 +413,7 @@ Document Cloud 도움말은 다음을 참조하십시오.
 ## ![아이콘](/assets/creative-cloud-24.png) Creative Cloud Enterprise {#creative-cloud}
 
 | 게시일 | 이름 | 유형 | 설명 |
-| -----------| ---------- | ---------- | ---------- |
+| ----------| --------- | --------- | --------- |
 | 2021년 6월 | [iPad(및 iPhone)에서 Fresco을 사용해 보십시오](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/ccetutorials/frescoworkshop.html) | 비디오 | 15분 간의 실습 워크숍에서 Adobe Fresco과 함께 디지털 드로잉과 페인팅의 새로운 세계를 경험해 보십시오. 레이어 및 클리핑 마스크를 사용하여 기본 모양에 페인트 및 텍스처를 적용하는 방법을 신속하게 학습합니다. |
 | 2021년 6월 | [그래픽 형식의 알파벳 수프 복호화](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/ccetutorials/alphabetsoup.html) | 비디오 | PG, PNG, SVG, GIF 및 EPS 파일은 모두 디자인에서 일반적으로 사용되며 일부는 웹 페이지용이고 일부는 프레젠테이션, 발행물 및 크리에이티브 프로젝트에 사용됩니다. 그런데... 그게 무슨 뜻인데 어떤 걸 골라야 하죠? 15분 분량의 실습 워크숍에서 확인해 보십시오. |
 
