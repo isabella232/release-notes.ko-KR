@@ -6,9 +6,9 @@ last-update: June 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: b0ad7a5c45760fba6a1a4e7e0f6dbbedbef93355
+source-git-commit: e198a57703d4be29e32e9b2919af157858651d74
 workflow-type: tm+mt
-source-wordcount: '4913'
+source-wordcount: '4926'
 ht-degree: 41%
 
 ---
@@ -40,7 +40,7 @@ Experience Cloud 애플리케이션 및 서비스는 매월 업데이트됩니�
 * [[!DNL Marketo Engage]](#marketo)
 * [[!DNL Workfront]](#workfront)
 * [Document Cloud](#doc-cloud)
-* [Creative Cloud Enterprise](#creative-cloud)
+* [Creative Cloud for enterprise](#creative-cloud)
 
 도움이 필요하십니까? [Adobe Experience League](https://experienceleague.adobe.com/?lang=ko-KR/#home) 에서 제품 및 기술 문서, Adobe에서 제공하는 교육 과정, 비디오 튜토리얼, 빠른 답변, 커뮤니티 통찰력 및 강사 중심의 트레이닝을 확인할 수 있습니다.
 
@@ -403,7 +403,9 @@ Document Cloud 도움말은 다음을 참조하십시오.
 * [Adobe Sign](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=ko-KR)
 * [Document Cloud 학습 및 지원](https://helpx.adobe.com/kr/support/document-cloud.html)
 
-## ![아이콘](/assets/creative-cloud-24.png) Creative Cloud Enterprise {#creative-cloud}
+## ![](/assets/creative-cloud-24.png) 아이콘Creative Cloud for enterprise  {#creative-cloud}
+
+기업용 Creative Cloud에 대해 게시된 새로운 비디오, 자습서 또는 교육 과정
 
 | 게시일 | 이름 | 유형 | 설명 |
 | ----------| --------- | --------- | --------- |
