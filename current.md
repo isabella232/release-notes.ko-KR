@@ -6,9 +6,9 @@ last-update: June 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 823476f3b4553a0bd9aae8670652bec1259cd84f
+source-git-commit: b0ad7a5c45760fba6a1a4e7e0f6dbbedbef93355
 workflow-type: tm+mt
-source-wordcount: '4914'
+source-wordcount: '4913'
 ht-degree: 41%
 
 ---
@@ -23,7 +23,7 @@ Experience Cloud 애플리케이션 및 서비스는 매월 업데이트됩니�
 >
 >월별 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html) 를 구독하면 이 페이지의 업데이트에 대한 이메일 알림을 받을 수 있습니다. 이 페이지는 한 달 동안 유지되므로 Adobe 엔터프라이즈 제품 및 Experience League 설명서에 대한 업데이트를 정기적으로 확인하십시오.
 
-최신 업데이트: **2021년 6월 11일**
+최신 업데이트: **2021년 6월 14일**
 
 * [Experience Cloud 중앙 인터페이스 구성 요소](#ecloud)
 * [Adobe 시스템 상태](#status)
@@ -311,11 +311,11 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 릴리스된 최신 기능, 개선 사항 및 수정 사항에 대해 자세히 알아보십시오.
 
-* **중요한 인프라, 보안, 게재 기능 및 모니터링 개선 사항이 포함된 새로운 Adobe Campaign v8** . Adobe Campaign은 클라우드 데이터베이스 기술인 [!DNL Snowflake]을 사용하여 크기와 속도를 크게 향상시켰으며, 더 많은 수의 고객 프로필을 관리하고 시간당 훨씬 더 높은 배달율과 트랜잭션을 관리할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html)에서 알아보십시오.
+* **새로운 Adobe Campaign v8** 에서는 중요한 인프라, 보안, 게재 기능 및 모니터링 개선 사항을 제공합니다. Adobe Campaign v8은 더 많은 수의 고객 프로필을 관리할 수 있을 뿐만 아니라 시간당 훨씬 더 높은 전송률 및 트랜잭션을 지원하므로 크기 및 속도를 크게 향상시킵니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html)에서 알아보십시오.
 
-* **Adobe Campaign Classic v7 21.1.3 릴리스**:자세한 내용은  [Campaign Classic v7 릴리스 노트](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html)를 참조하십시오.
+* **Adobe Campaign Classic v7 21.1.3 릴리스:**  [Campaign Classic v7 릴리스 노트](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ko-KR)에서 자세히 알아보십시오.
 
-* **Adobe Campaign Standard 21.2 릴리스**:자세한 내용은  [Campaign Standard 릴리스 노트](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html)를 참조하십시오.
+* **Adobe Campaign Standard 21.2 릴리스:**  [Campaign Standard 릴리스 노트](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=ko-KR)에서 자세히 알아보십시오.
 
 ### 새 [!UICONTROL Campaign] 교육 과정 및 자습서 {#tutorials-campaign}
 
