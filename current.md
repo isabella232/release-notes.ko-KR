@@ -6,9 +6,9 @@ last-update: June 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: e198a57703d4be29e32e9b2919af157858651d74
+source-git-commit: c6aea555356863f7674dcda54fad19ea31394775
 workflow-type: tm+mt
-source-wordcount: '4926'
+source-wordcount: '4930'
 ht-degree: 41%
 
 ---
@@ -51,7 +51,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에는 자체 도움말, �
 | 기능 | 날짜 | 설명 |
 | ------- | ------- | ------- |
 | Adobe Federated ID에 대한 단일 사인온 지원 | 2021년 6월 17일 | Federated ID를 사용하는 경우 이메일 주소나 암호를 입력하지 않고도 Experience Cloud에 로그인할 수 있습니다. 이 기능을 사용하려면 Experience Cloud URL에 **#/sso:@domain**&#x200B;를 추가하십시오. <br><br>예를 들어 도메인 adobecucustomer.com **을 보유하고 있다고 가정하고** Adobe Analytics에 로그인하려고 합니다. URL은 다음과 같습니다.**https://experience.adobe.com/#/sso:@adobecustomer.com/analytics** |
-| Experience League 검색 | 2021년 6월 1일 | Experience League 설명서 검색이 개선되었습니다. [Experience League](https://experienceleague.adobe.com/docs/?lang=en) 로 이동하고 **[!UICONTROL 검색]** 필드를 사용하여 자습서, 설명서, 강좌 등을 찾습니다. |
+| Experience League 검색 | 2021년 6월 1일 | Experience League 설명서 검색이 개선되었습니다. [Experience League](https://experienceleague.adobe.com/docs/?lang=en)로 이동하고 **[!UICONTROL 검색]** 필드를 사용하여 자습서, 설명서, 강좌 등을 찾습니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -89,7 +89,7 @@ Experience Platform 및 서비스를 위해 게시된 새로운 비디오, 튜�
 | 2021년 6월 | [데이터 유형 만들기](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-data-types.html) | 비디오 | Experience Data Model(XDM) 스키마에서 사용할 Adobe Experience Platform에서 고유한 데이터 유형을 만드는 방법을 알아봅니다. |
 | 2021년 6월 | [데이터 모델을 경험 데이터 모델로 변환](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/convert-your-data-model-to-xdm.html) | 비디오 | 데이터 설계자가 기존의 트랜잭션 데이터 모델을 가져와 경험 데이터 모델로 변환하는 방법을 알아봅니다. 이 비디오에서는 엔티티 관계 다이어그램을 사용하여 모델링 접근 방식의 차이점을 보여 줍니다. |
 | 2021년 6월 | [데이터 모델 계획](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/plan-your-data-model.html) | 비디오 | Adobe Experience Platform에서 스키마 작성을 시작하기 전에 수행할 작업을 알아봅니다. 데이터 모델을 완료하기 전에 비즈니스 사용 사례를 문서화하고, 플랫폼 라이센스를 이해하며, 제품 보호 기능을 알고, 수집할 데이터를 식별합니다. |
-| 2021년 6월 | [타블로](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/psql-client-tableau.html) | 비디오 | `PostgreSQL` 프로토콜을 지원하는 다양한 데스크톱 클라이언트 응용 프로그램에서 [!UICONTROL 쿼리 서비스]에 연결하는 방법과 `PostgreSQL` 도구 및 드라이버를 사용하여 쿼리를 연결하고 쓰는 방법을 알아봅니다. |
+| 2021년 6월 | [타블로와 쿼리 서비스 연결](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/psql-client-tableau.html) | 비디오 | `PostgreSQL` 프로토콜을 지원하는 다양한 데스크톱 클라이언트 응용 프로그램에서 [!UICONTROL 쿼리 서비스]에 연결하는 방법과 `PostgreSQL` 도구 및 드라이버를 사용하여 쿼리를 연결하고 쓰는 방법을 알아봅니다. |
 | 2021년 6월 | [Adobe 정의 함수](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/adobe-defined-functions.html) | 비디오 | Adobe Experience Platform [!UICONTROL 쿼리 서비스]에서 Adobe 정의 함수를 사용하여 경험 이벤트 데이터에 대한 일반적인 비즈니스 관련 작업을 수행하는 방법을 알아봅니다. |
 | 2021년 6월 | [데이터 탐색](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html) | 비디오 | SQL 함수를 사용하여 수집된 데이터의 유효성을 검사하고, 데이터를 미리 보고, 데이터의 통계 및 분석 속성을 탐색하는 방법을 알아봅니다. |
 | 2021년 6월 | [쿼리 서비스 개요](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html) | 비디오 | Adobe Experience Platform의 Query Service에 대해 알아보고 고객 행동을 이해하고 유용한 통찰력을 생성하는 방법을 알아봅니다. |
@@ -257,7 +257,7 @@ Audience Manager의 수정 및 개선 사항.
 
 * [새 Experience Manager 아이디어 제출 지침](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/guidelines-for-submitting-a-new-experience-manager-aem-idea/td-p/382376)
 
-* [Adobe Summit 2021 댄 레비](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/adobe-summit-2021-sneaks-with-dan-levy/td-p/405865) 씨를 소개합니다.매년 한 번, 엔지니어 및 데이터 과학자에서 UX 디자이너와 제품 관리자에 이르기까지 모든 Adobe 직원은 브랜드와 고객의 상호 작용을 발전시키는 혁신적인 아이디어를 공유할 수 있는 기회를 제공합니다. Adobe와 함께 상위 7개 프로젝트를 공유하고 AI 및 낮은 코드 앱과 같은 분야에서 최신 기술을 활용할 수 있는 Adobe Skinks를 이용해 보십시오.
+* [2021 Adobe Summit이 댄 레비를 몰래 데리고 온다](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/adobe-summit-2021-sneaks-with-dan-levy/td-p/405865).매년 한 번, 엔지니어 및 데이터 과학자에서 UX 디자이너와 제품 관리자에 이르기까지 모든 Adobe 직원은 브랜드와 고객의 상호 작용을 발전시키는 혁신적인 아이디어를 공유할 수 있는 기회를 제공합니다. Adobe와 함께 상위 7개 프로젝트를 공유하고 AI 및 낮은 코드 앱과 같은 분야에서 최신 기술을 활용할 수 있는 Adobe Skinks를 이용해 보십시오.
 
 ### Experience Manager 릴리스 정보
 
