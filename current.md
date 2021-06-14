@@ -6,10 +6,10 @@ last-update: June 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 26fb9b46a6cf48db7cd98a75439f35a98e342898
+source-git-commit: 42bcb928d8eb34cc13017dab09f8490a673368a5
 workflow-type: tm+mt
-source-wordcount: '5042'
-ht-degree: 40%
+source-wordcount: '4910'
+ht-degree: 41%
 
 ---
 
@@ -235,15 +235,9 @@ Audience Manager의 수정 및 개선 사항.
       * [Experience Manager as a Cloud Service SDK Build Analyzer Maven 플러그인](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/build-analyzer-maven-plugin.html?lang=en):더 이상 사용되지 않는 Java™ API 확인 및 기타 개선 사항이 포함된 전문 프로젝트를 최신 버전으로 업데이트합니다.
    * **Experience Manager Sites as a Cloud Service**
 
-      * **GraphQL 엔드포인트:**  이제 개별 Experience Manager 사이트 구성에 대해 GraphQL API Experience Manager을 활성화하고 새 GraphQL 콘솔 UI를 사용하여 해당 구성에 대한 사용자 지정 GraphQL 엔드포인트를 만들 수 있습니다. 사용자 인터페이스를 통해 GraphQL 엔드포인트를 관리할 수도 있습니다.
-      * **컨텐츠 모델, 향상된 날짜 및 시간 데이터 유형:**  이제 날짜 및 시간 날짜 유형을 구성하여 작성 전용 날짜, 시간 또는 날짜 및 시간 정보를 허용할 수 있습니다.
-      * **컨텐츠 모델, 향상된 태그 데이터 유형:**  이제 단일 또는 여러 태그를 작성할 수 있도록 태그 데이터 유형을 구성할 수 있습니다.
-      * **컨텐츠 모델, 새 탭 자리 표시자 데이터 유형:**  새 탭 자리 표시자 데이터 유형을 컨텐츠 조각 편집기에서 탭 아래에 렌더링되는 섹션으로 그룹화할 수 있습니다.
+      이제 새 [미리 보기 계층](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/previewing-content.html?lang=en)에서 콘텐츠를 확인하여 게시 계층에서 수행한 최종 경험 모양과 느낌을 시뮬레이션할 수 있습니다. 이 새 기능은 사이트 관리 게시 Experience Manager 마법사에서 활성화됩니다. 이 마법사를 사용하여 [!UICONTROL 게시] 또는 [!UICONTROL 미리 보기] 간에 게시 대상을 선택할 수 있습니다. 그런 다음 전용 URL을 사용하여 [!UICONTROL 미리 보기]에 있는 경험에 액세스할 수 있습니다. [!UICONTROL 미리 보기]에 대한 유효성 검사 후 평소대로 [!UICONTROL 작성자]에서 [!UICONTROL 게시]에 콘텐츠를 게시할 수 있습니다. Cloud Service 환경으로서 Experience Manager에서 [!UICONTROL 미리 보기] 서비스를 활성화하는 것이 몇 주 후에 점진적으로 진행되고 있습니다.
+
    * **Experience Manager Assets as a Cloud Service**
-
-      이제 새 [미리 보기 계층](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/previewing-content.html?lang=en)에서 콘텐츠를 확인하여 게시 계층에서 수행한 최종 경험 모양과 느낌을 시뮬레이션할 수 있습니다. 이 새 기능은 사이트 관리 게시 Experience Manager 마법사에서 활성화됩니다. 이 마법사를 사용하면 [!UICONTROL 게시] 또는 [!UICONTROL 미리 보기] 간에 게시 대상을 선택할 수 있습니다. 그런 다음 전용 URL을 통해 [!UICONTROL 미리 보기]에 있는 경험에 액세스할 수 있습니다. [!UICONTROL 미리 보기]에 대한 유효성 검사 후 컨텐츠는 [!UICONTROL 작성자]에서 [!UICONTROL 게시]로 평소대로 게시할 수 있습니다. Cloud Service 환경으로서 Experience Manager에서 [!UICONTROL Preview] 서비스를 활성화하는 것이 다음 몇 주 후에 점진적으로 수행됩니다.
-
-   * **자산을 Cloud Service으로 Experience Manager**
 
       사전 릴리스 채널의 새로운 기능:
 
@@ -254,7 +248,6 @@ Audience Manager의 수정 및 개선 사항.
       [!UICONTROL Dynamic Media]의 새로운 기능:
 
       * DPR(Smart Imaging Device Pixel Ratio) 및 네트워크 대역폭 최적화를 사용하면 고해상도 디스플레이와 제한된 네트워크 대역폭을 사용하는 장치에서 최상의 품질의 이미지를 효율적으로 제공할 수 있습니다. [스마트 이미징 FAQ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/imaging-faq.html?lang=en)를 참조하십시오.
-
 
 
 
