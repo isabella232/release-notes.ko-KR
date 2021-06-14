@@ -6,9 +6,9 @@ last-update: June 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 42bcb928d8eb34cc13017dab09f8490a673368a5
+source-git-commit: 823476f3b4553a0bd9aae8670652bec1259cd84f
 workflow-type: tm+mt
-source-wordcount: '4910'
+source-wordcount: '4914'
 ht-degree: 41%
 
 ---
@@ -213,16 +213,16 @@ Audience Manager의 수정 및 개선 사항.
 >
 >Adobe은 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Manager 릴리스 업데이트 및 roadmap](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=ko-KR) 페이지를 방문할 것을 권장합니다.
 
-### AEM 제품 업데이트
+### Experience Manager 제품 업데이트
 
 * **Experience Manager 6.5.9.0**
 
-   AEM 6.5, 서비스 팩 9.0(2021년 5월 27일 릴리스된 6.5.9.0)은 새로운 기능, 주요 고객 요청 개선 사항, 향상된 성능, 안정성 및 보안 기능을 포함한 중요한 업데이트로, 2019년 4월 AEM 6.5의 공식 출시 이후 릴리스되었습니다.
+   Experience Manager 6.5, 서비스 팩 9.0(2021년 5월 27일 릴리스된 6.5.9.0)은 새로운 기능, 주요 고객 요청 개선 사항, 향상된 성능, 안정성 및 보안 기능을 포함한 중요한 업데이트로, 2019년 4월 AEM 6.5의 공식 출시 이후 릴리스되었습니다.
 
    * [릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=ko-KR)
    * [AEM Forms 릴리스 결과물](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html?lang=en)
 
-### AEM 제품 릴리스
+### Experience Manager 제품 릴리스
 
 * **Experience Manager as a Cloud Service**
 
@@ -251,7 +251,7 @@ Audience Manager의 수정 및 개선 사항.
 
 
 
-### **AEM 커뮤니티**
+### **Experience Manager 커뮤니티**
 
 * [모든 Experience Manager 블로그에 대해 원스톱 스토어](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/bd-p/adobe-experience-manager-discussions)
 
