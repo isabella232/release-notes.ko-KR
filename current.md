@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 8adc3fe8f3f4b174d1c41cc7c3162d38a984d661
+source-git-commit: d45e7c6a5329d4e6a211edaeb607547bfb297e4e
 workflow-type: tm+mt
-source-wordcount: '5062'
+source-wordcount: '5042'
 ht-degree: 40%
 
 ---
@@ -58,8 +58,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에는 자체 도움말, �
 
 * [중앙 인터페이스 구성 요소](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=ko-kr) 및 사용자 관리에 대한 관리 도움말
 * [위치 - 위치 서비스](https://experienceleague.adobe.com/docs/places/using/release-notes.html?lang=en)에 대한 도움말 및 릴리스 노트
-* [사람 - 고객 속성 및 대상 라이브러리에 대한 도움말](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services-landing.html?lang=en)
-이러한 기능에 대한 제품 설명서는 [Experience Cloud 중앙 인터페이스 구성 요소](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=en)를 참조하십시오.
+* [사람 - 고객 속성 및 대상 라이브러리에 대한 도움말입니다](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services-landing.html?lang=en).
 
 ## ![아이콘](/assets/adobe.png) Adobe 시스템 상태 {#status}
 
