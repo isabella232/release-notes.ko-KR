@@ -6,9 +6,9 @@ last-update: June 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: c6aea555356863f7674dcda54fad19ea31394775
+source-git-commit: 4fc39c45e2b9eef506acbbaa04bf7302b53003fa
 workflow-type: tm+mt
-source-wordcount: '4930'
+source-wordcount: '4941'
 ht-degree: 41%
 
 ---
@@ -80,18 +80,18 @@ Experience Platform 및 서비스를 위해 게시된 새로운 비디오, 튜�
 
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021년 6월 | [데이터 준비](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/prepare-data.html) | 비디오 | CTAS(테이블 AS) 만들기 및 보고 및 대시보드에 대한 스파크 SQL 함수를 사용하여 여러 데이터 세트의 데이터를 정리, 준비 및 결합하여 데이터 세트를 만드는 방법을 알아봅니다. |
+| 2021년 6월 | [Query Service로 데이터 준비](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/prepare-data.html) | 비디오 | CTAS(테이블 AS) 만들기 및 보고 및 대시보드에 대한 스파크 SQL 함수를 사용하여 여러 데이터 세트의 데이터를 정리, 준비 및 결합하여 데이터 세트를 만드는 방법을 알아봅니다. |
 | 2021년 6월 | [샌드박스 간 스키마 복사](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/copy-schemas-between-sandboxes.html) | 비디오 | [!UICONTROL 스키마 내보내기/가져오기 API]를 사용하여 스키마를 Adobe Experience Platform의 한 샌드박스에서 다른 샌드박스로 복사하는 방법을 알아봅니다. 개발 샌드박스에서 스키마를 빌드 및 테스트한 다음 프로덕션에 복사합니다. |
 | 2021년 6월 | [스키마 업데이트](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/update-schemas.html) | 비디오 | Adobe Experience Platform에서 기존 스키마를 업데이트할 때 알아야 할 기본 사항을 알아봅니다. |
 | 2021년 6월 | [스키마 빌딩 블록](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schema-building-blocks.html) | 비디오 | 필드, 데이터 유형, 스키마 필드 그룹, 클래스 및 동작을 포함하여 XDM(Experience Data Model) 스키마의 주요 빌딩 블록 요소를 알아봅니다. |
-| 2021년 6월 | [클래스 만들기](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-classes.html) | 비디오 | XDM(Experience Data Model) 스키마에서 사용할 클래스를 Adobe Experience Platform에서 만드는 방법을 알아봅니다. |
+| 2021년 6월 | [스키마 클래스 만들기](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-classes.html) | 비디오 | XDM(Experience Data Model) 스키마에서 사용할 클래스를 Adobe Experience Platform에서 만드는 방법을 알아봅니다. |
 | 2021년 6월 | [스키마 간 관계 구성](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html) | 비디오 | Adobe Experience Platform에서 두 스키마 간의 관계를 구성하는 방법을 알아봅니다. 관계를 사용하면 한 데이터 세트를 다른 데이터 세트에 대한 조회 테이블로 사용할 수 있습니다. |
-| 2021년 6월 | [데이터 유형 만들기](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-data-types.html) | 비디오 | Experience Data Model(XDM) 스키마에서 사용할 Adobe Experience Platform에서 고유한 데이터 유형을 만드는 방법을 알아봅니다. |
+| 2021년 6월 | [스키마 데이터 유형 만들기](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-data-types.html) | 비디오 | Experience Data Model(XDM) 스키마에서 사용할 Adobe Experience Platform에서 고유한 데이터 유형을 만드는 방법을 알아봅니다. |
 | 2021년 6월 | [데이터 모델을 경험 데이터 모델로 변환](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/convert-your-data-model-to-xdm.html) | 비디오 | 데이터 설계자가 기존의 트랜잭션 데이터 모델을 가져와 경험 데이터 모델로 변환하는 방법을 알아봅니다. 이 비디오에서는 엔티티 관계 다이어그램을 사용하여 모델링 접근 방식의 차이점을 보여 줍니다. |
 | 2021년 6월 | [데이터 모델 계획](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/plan-your-data-model.html) | 비디오 | Adobe Experience Platform에서 스키마 작성을 시작하기 전에 수행할 작업을 알아봅니다. 데이터 모델을 완료하기 전에 비즈니스 사용 사례를 문서화하고, 플랫폼 라이센스를 이해하며, 제품 보호 기능을 알고, 수집할 데이터를 식별합니다. |
 | 2021년 6월 | [타블로와 쿼리 서비스 연결](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/psql-client-tableau.html) | 비디오 | `PostgreSQL` 프로토콜을 지원하는 다양한 데스크톱 클라이언트 응용 프로그램에서 [!UICONTROL 쿼리 서비스]에 연결하는 방법과 `PostgreSQL` 도구 및 드라이버를 사용하여 쿼리를 연결하고 쓰는 방법을 알아봅니다. |
-| 2021년 6월 | [Adobe 정의 함수](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/adobe-defined-functions.html) | 비디오 | Adobe Experience Platform [!UICONTROL 쿼리 서비스]에서 Adobe 정의 함수를 사용하여 경험 이벤트 데이터에 대한 일반적인 비즈니스 관련 작업을 수행하는 방법을 알아봅니다. |
-| 2021년 6월 | [데이터 탐색](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html) | 비디오 | SQL 함수를 사용하여 수집된 데이터의 유효성을 검사하고, 데이터를 미리 보고, 데이터의 통계 및 분석 속성을 탐색하는 방법을 알아봅니다. |
+| 2021년 6월 | [Query Service의 Adobe 정의 함수](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/adobe-defined-functions.html) | 비디오 | Adobe Experience Platform [!UICONTROL 쿼리 서비스]에서 Adobe 정의 함수를 사용하여 경험 이벤트 데이터에 대한 일반적인 비즈니스 관련 작업을 수행하는 방법을 알아봅니다. |
+| 2021년 6월 | [Query Service를 사용한 데이터 탐색](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html) | 비디오 | SQL 함수를 사용하여 수집된 데이터의 유효성을 검사하고, 데이터를 미리 보고, 데이터의 통계 및 분석 속성을 탐색하는 방법을 알아봅니다. |
 | 2021년 6월 | [쿼리 서비스 개요](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html) | 비디오 | Adobe Experience Platform의 Query Service에 대해 알아보고 고객 행동을 이해하고 유용한 통찰력을 생성하는 방법을 알아봅니다. |
 | 2021년 6월 | [Query Service UI 개요](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/query-service-ui.html) | 비디오 | Adobe Experience Platform Query Service에서 IMS 조직 내에서 쿼리를 작성 및 실행하고, 이전에 실행된 쿼리를 보고, 다른 사용자가 저장한 쿼리에 액세스하는 방법을 알아봅니다. |
 | 2021년 6월 | [쿼리 API](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/query-service-api.html) | 비디오 | Adobe Experience Platform [!UICONTROL Query Service API]를 사용하여 쿼리를 작성 및 실행하고, 쿼리 쿼리를 만들고, 쿼리 템플릿을 만드는 방법을 알아봅니다. |
