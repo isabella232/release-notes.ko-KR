@@ -4,10 +4,10 @@ description: Experience Cloud 릴리스 노트
 doc-type: release notes
 last-update: June 2021
 author: mfrei
-source-git-commit: 918c6cb27c16972d16d4da7f283fa790d14ac51d
+source-git-commit: 48c0f82523382da9a78a78d850432c0bafd7cee7
 workflow-type: tm+mt
-source-wordcount: '1344'
-ht-degree: 73%
+source-wordcount: '706'
+ht-degree: 86%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 
 >[!NOTE]
 >
->예정된 릴리스에 대한 이메일 알림을 받으려면 [Adobe Priority Product Update](https://www.adobe.com/kr/subscription/priority-product-update.html)에 가입하십시오. 릴리스 후 게시된 새 정보는 발행 날짜로 표시됩니다.
+>릴리스 후 게시된 새 정보는 발행 날짜로 표시됩니다.
 
 **릴리스 날짜: 2021년**
 
@@ -35,14 +35,11 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
-* [Target](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=ko-KR) (솔루션 도움말 링크)
 * [광고](#adcloud)
 * [Magento](#magento)
 * [Marketo](#marketo)
 * [Primetime](https://experienceleague.adobe.com/docs/primetime.html)(솔루션 도움말 링크)
 * [새로운 설명서 및 자습서](#selfhelp)
-
-도움말 홈을 찾고 계십니까? [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/home.html?lang=en)를 참조하십시오.
 
 ## Adobe 시스템 상태 {#status}
 
@@ -61,13 +58,9 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 
 기능 및 수정 사항
 
-제품 설명서는 [Experience Cloud 인터페이스](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=ko-kr)를 참조하십시오
-
 ### 관리 및 개발자 {#admin}
 
 기능 및 수정 사항
-
-제품 설명서는 [사용자 및 제품 관리](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=en)를 참조하십시오.
 
 ## ![아이콘](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
@@ -78,17 +71,14 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 * [Experience Platform Launch](#launch)
 * [Journey Orchestration](#journey)
 * [Mobile Services 및 Mobile SDK](#mobile)
-* [보안 게시판 및 권고](https://helpx.adobe.com/kr/security.html) (모든 Adobe 제품)
 
 ### [!UICONTROL Experience Cloud ID 서비스] {#ecid}
 
 기능 및 수정 사항
 
-제품 설명서의 경우 [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-kr)를 참조하십시오.
-
 ### [!UICONTROL Experience Platform Launch] {#launch}
 
-릴리스 노트 및 제품 설명서는 [Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html?lang=en)를 참조하십시오.
+See
 
 ### [!UICONTROL Journey Orchestration] {#journey}
 
@@ -96,7 +86,7 @@ Adobe [!UICONTROL Experience Platform]으로 모든 개인의 요구 사항을 �
 
 #### [!UICONTROL Journey Orchestration]을 위한 추가 리소스
 
-[설명서](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=ko-KR) - [릴리스 노트](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=ko-KR) - [방법 비디오](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=en)
+text
 
 ### [!UICONTROL Mobile Services] 및 [!UICONTROL Mobile SDK] {#mobile}
 
@@ -111,19 +101,9 @@ Adobe [!UICONTROL Experience Platform]으로 모든 개인의 요구 사항을 �
 * 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
 * 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
 
-제품 설명서는 [Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en)를 참조하십시오.
-
-Mobile SDK에 대한 자세한 내용은 다음을 참조하십시오.[Experience Solutions용 Android™ SDK 4.x](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=en) 및 Experience Cloud 솔루션용 [iOS SDK 4.x](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=en).
-
 ## Analytics {#analytics}
 
 Adobe Analytics의 새로운 기능 및 수정 내용:
-
-* [Adobe Analytics의 새로운 기능](#aa-features)
-* [iOS 및 Android™용 Media Analytics SDK (이전의 VHL SDK)](#aa-va)
-* [Analytics 관리자에 대한 중요 공지](analytics-important-notices.md)
-
-제품 설명서는 [Adobe Analytics 도움말 홈](https://experienceleague.adobe.com/docs/analytics/landing/home.html?lang=en)을 참조하십시오.
 
 ### Adobe Analytics의 새로운 기능 {#aa-features}
 
@@ -133,7 +113,7 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 | 기능 B | 텍스트 |
 | 기능 C | 텍스트 |
 
-### [!DNL iOS] 및 [!DNL Android™]용 [!DNL Media Analytics] SDK (이전의 VHL SDK){#aa-va}
+### [!DNL Media Analytics] 및 [!DNL iOS]용 [!DNL Android™] SDK (이전의 VHL SDK) {#aa-va}
 
 | 기능 | 설명 |
 | ------- | ------- |
@@ -143,7 +123,7 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 
 ### Data Workbench {#aa-dwb}
 
-[Data Workbench 릴리스 노트](https://experienceleague.adobe.com/docs/data-workbench/using/release-notes/release-notes.html?lang=en)에서 최신 정보를 확인하십시오.
+텍스트.
 
 ### AppMeasurement {#appm}
 
@@ -159,19 +139,6 @@ Adobe Analytics의 새로운 기능 및 수정 내용:
 * 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
 * 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
 * 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
-
-다음 플랫폼에 대한 [AppMeasurement 릴리스 내역](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html)이 필요하면 AppMeasurement 릴리스 내역을 참조하십시오.
-
-* [!DNL JavaScript]
-* [!DNL iOS]
-* [!DNL Android™]
-* [!DNL Flash-Flex]
-* [!DNL OS X]
-* [!DNL Windows Phone,] [!DNL XBOX,] [!DNL Silverlight,] 및 [!DNL .NET]
-* [!DNL BlackBerry®]
-* Java™
-* PHP
-* Symbian™
 
 ## Audience Manager {#aam}
 
@@ -221,13 +188,7 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 
 ### 추가 리소스
 
-* [AEM 6.4 학습 및 지원 홈](https://experienceleague.adobe.com/docs/experience-manager-64.html?lang=ko-KR)
-* [AEM 6.3 학습 및 지원 홈](https://helpx.adobe.com/kr/support/experience-manager/6-3.html)
-* [AEM 6.2 학습 및 지원 홈](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html)
-* [Cloud Manager 사용 안내서](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=ko-KR)
-* [이전 버전의 AEM 설명서](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en)
-* [Scene7 Publishing System 릴리스 노트](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/release-notes/s7rn2017.html?lang=ko-KR)
-* [Livefyre 릴리스 노트](https://experienceleague.adobe.com/docs/livefyre/using/release-notes/c-rn.html?lang=ko-KR)
+텍스트
 
 ### [!DNL Livefyre] {#livefyre}
 
@@ -265,9 +226,7 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 ### 추가 리소스
 
-* Adobe Campaign Standard: [설명서](https://experienceleague.adobe.com/docs/campaign-standard.html) - [릴리스 노트](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en) - [기능 비디오](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en) - [릴리스 계획](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-planning.html?lang=ko-KR)
-* Adobe Campaign Classic: [설명서](https://experienceleague.adobe.com/docs/campaign-classic.html) - [릴리스 노트](https://final-docs.campaign.adobe.com/doc/AC/en/RN.html) - [기능 비디오](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=en)
-* Adobe Campaign 제어판: [설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko-KR) - [릴리스 노트](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=en)
+텍스트
 
 ## 광고 {#adcloud}
 
@@ -286,10 +245,7 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 ## Magento {#magento}
 
-Magento 릴리스 노트에 대해서는 다음을 참조하십시오.
-
-* [Magento Commerce 2.3.4](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html)
-* [Magento Open Source 2.3.4](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-open-source.html)
+Magento 릴리스 정보에 대해서는 다음을 참조하십시오.
 
 ## Marketo {#marketo}
 
@@ -305,8 +261,6 @@ Marketo Engage은 리드 관리를 위한 완전한 솔루션이며, 복잡한 �
    * 사용자 지정 개체 스키마 API
    * 랜딩 페이지 리디렉션 규칙 API
 * **양식 설명자 캐싱:** 랜딩 페이지 및 양식 개선 사항.
-
-자세한 내용은 [2020년 2월](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+Feb+%2720)에 대한 Marketo 릴리스 노트 를 참조하십시오.
 
 ### 예정된 기능
 
@@ -327,21 +281,6 @@ Marketo Engage은 리드 관리를 위한 완전한 솔루션이며, 복잡한 �
 * **자산 API &quot;_method&quot; 매개 변수:** 2020년 9월 이후, 자산 API 끝점은 이제 &quot;_method&quot;를 사용하여 쿼리 매개 변수를 URI 길이 제한을 무시하도록 POST 본문에 전달하지 않습니다.
 * **Internet Explorer 지원 중단:** 2020년 7월 31일부터 Marketo Engage 사용자 인터페이스는 이제 Internet Explorer에서 지원되지 않습니다.
 
-누적 릴리스 정보와 내역 릴리스 정보는 [Marketo 릴리스 정보](https://experienceleague.adobe.com/docs/marketo/using/home.html)를 참조하십시오.
-
 ### 새로운 솔루션 이름 교육 과정 및 자습서
 
 지난 달에 게시된 새로운 비디오, 자습서 또는 교육 과정
-
-| 게시됨 | 이름 | 유형 | 설명 |
-| -----------| ---------- | ---------- | ---------- |
-| 날짜, 2020년 | [Linktext](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-adaptive-form/introduction-and-setup.html?lang=en) | 비디오 | 설명. |
-| 날짜, 2020년 | [Linktext](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-adaptive-form/introduction-and-setup.html?lang=en) | 비디오 | 설명. |
-| 날짜, 2020년 | [Linktext](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-adaptive-form/introduction-and-setup.html?lang=en) | 비디오 | 설명. |
-| 날짜, 2020년 | [Linktext](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-adaptive-form/introduction-and-setup.html?lang=en) | 비디오 | 설명. |
-| 날짜, 2020년 | [Linktext](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-adaptive-form/introduction-and-setup.html?lang=en) | 비디오 | 설명. |
-| 날짜, 2020년 | [Linktext](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-adaptive-form/introduction-and-setup.html?lang=en) | 비디오 | 설명. |
-| 날짜, 2020년 | [Linktext](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-adaptive-form/introduction-and-setup.html?lang=en) | 비디오 | 설명. |
-| 날짜, 2020년 | [Linktext](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-adaptive-form/introduction-and-setup.html?lang=en) | 비디오 | 설명. |
-| 날짜, 2020년 | [Linktext](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-adaptive-form/introduction-and-setup.html?lang=en) | 비디오 | 설명. |
-| 날짜, 2020년 | [Linktext](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-adaptive-form/introduction-and-setup.html?lang=en) | 비디오 | 설명. |
