@@ -6,9 +6,9 @@ last-update: June 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 6778e1f9e6d8059d0453eb0cc5e572d16a7a7e7c
+source-git-commit: 99885f10a13d7b51702ffac182362f1abd09f141
 workflow-type: tm+mt
-source-wordcount: '4958'
+source-wordcount: '4984'
 ht-degree: 51%
 
 ---
@@ -226,7 +226,11 @@ Audience Manager의 수정 및 개선 사항.
 
 * **Experience Manager as a Cloud Service**
 
-   Experience Manager as a Cloud Service의 새로운 기능:
+   Experience Manager as a Cloud Service의 새로운 기능.
+
+   >[!NOTE]
+   >
+   >이제 Cloud Service으로 Experience Manager 6월 기능 릴리스를 사용할 수 있습니다. 새 기능을 경험하려면 2021.6.5561 Experience Manager 이상을 사용 중인지 확인하십시오.
 
    * **Adobe Experience Manager as a Cloud Service 기반**
 
