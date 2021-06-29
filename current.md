@@ -6,10 +6,10 @@ last-update: June 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 4fc39c45e2b9eef506acbbaa04bf7302b53003fa
+source-git-commit: 6778e1f9e6d8059d0453eb0cc5e572d16a7a7e7c
 workflow-type: tm+mt
-source-wordcount: '4941'
-ht-degree: 41%
+source-wordcount: '4958'
+ht-degree: 51%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 41%
 
 ![배너](assets/experience-cloud-banner-3.png)
 
-Experience Cloud 애플리케이션 및 서비스는 매월 업데이트됩니다. 이 페이지는 [!DNL Experience Cloud] 및 [!DNL Experience Platform]에 대한 최신 릴리스 업데이트, 설명서 및 자습서를 찾는 중앙 위치입니다. [!DNL Creative Cloud for Enterprise] 및 [!DNL Document Cloud]에 대한 새로운 설명서도 찾을 수 있습니다.
+Experience Cloud 애플리케이션과 서비스는 매달 업데이트됩니다. 이 페이지는 [!DNL Experience Cloud] 및 [!DNL Experience Platform]의 최신 릴리스 업데이트, 설명서 및 튜토리얼을 찾을 수 있는 중앙 위치입니다. [!DNL Creative Cloud for Enterprise] 및 [!DNL Document Cloud]에 대한 새로운 설명서도 찾을 수 있습니다.
 
 >[!NOTE]
 >
@@ -106,7 +106,7 @@ Experience Platform을 사용하여 모든 개인의 요구 사항을 실시간 
 
 **Journey Orchestration을 위한 추가 리소스**
 
-[설명서](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=ko-KR) - [릴리스 정보](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=en) - [방법 비디오](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=en)
+[설명서](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=ko-KR) - [릴리스 정보](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=en) - [방법 비디오](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=ko-KR)
 
 ## ![아이콘](/assets/experience_platform_appicon_24.png) Offer Decisioning {#offer-decisioning}
 
@@ -160,13 +160,13 @@ AN-246344;AN-250035;AN-250354;AN-252482;AN-254661;AN-254965;AN-255424;AN-256515;
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | ----------- | ---------- | ---------- |
-| 브라우저 사용자 에이전트가 macOS의 잘못된 운영 체제 버전을 반영합니다 | 2021년 5월 19일 | 현재 모든 주요 브라우저는 브라우저의 사용자 에이전트 문자열에 기록된 대로 macOS X 11 이상의 사용자를 macOS 10을 사용하는 것으로 잘못 보고합니다. 이 문제는 사용자 에이전트를 사용하여 운영 체제와 같은 장치 정보를 확인하므로 Adobe Analytics 보고에 영향을 줍니다. 이러한 부정확성은 일부 웹 사이트의 호환성 문제를 방지하기 위해 일반적으로 적합한 것입니다. 참조하려면 이 [Bugzilla 티켓](https://bugs.webkit.org/show_bug.cgi?id=213622&amp;utm_source=convertkit&amp;utm_medium=email&amp;utm_campaign=User+Agent+strings%2C+new+BigQuery+features%2C+custom+Google+Tag+Manager+loader..+%E2%80%93+Ycle+Newsletter+%2311%20-%205873454)을 참조하십시오. 이 문제가 언제 또는 언제 수정될지 확실하지 않습니다.<br>일부 브라우저는 처음에 macOS 11을 올바르게 기록했으므로 이 값과 일치하는 트래픽이 있을 수 있습니다. 하지만 부정확한 보고로 인해 운영 체제 macOS 11에 대한 필터링은 유용하지 않습니다.<br>이 문제는 macOS 11의 Safari부터 Apple에서 CNAME 구현에 적용할 ITP 쿠키 만료 제한을 업데이트했으므로 발생합니다( [WebKit 블로그 게시물](https://webkit.org/blog/11338/cname-cloaking-and-bounce-tracking-defense/) 참조).<br>이 업데이트 전에 이러한 제한 사항은 JavaScript를 통해 설정된 클라이언트측 쿠키에만 적용됩니다. 이러한 부정확성으로 인해 OS 11을 사용하는 트래픽의 양을 평가하기 어려우며 따라서 ITP 변경의 영향을 받습니다. 쿠키 및 Adobe Analytics [에 대해 자세히 알 수 있습니다.](https://experienceleague.adobe.com/docs/analytics/technotes/cookies/cookies.html#cookies) |
-| 3개의 Analytics API 서비스에 대한 사용 종료 | 2021년 5월 19일 | 2021년 8월 18일에 다음 Analytics 이전 API 서비스가 종료됩니다. 이러한 서비스를 사용하여 구축한 현재 모든 통합은 해당 날짜부터 더 이상 작동하지 않습니다.<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증(OAuth 및 JWT)</li></ul>Adobe은 질문에 대한 답변과 진행 방법에 대한 지침을 제공하는 데 도움이 되도록 [이전 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)를 제공했습니다. 이들 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 이전 OAuth 계정은 [Adobe I/O](https://console.adobe.io/home?mv=email#) Analytics 통합 계정으로 마이그레이션할 수 있으며, 이 계정은 1.4 Analytics API 및 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다. |
-| 2021 ISO 지역 업데이트 | 2021년 5월 13일 | Adobe은 2021년 5월 21일에 2021 ISO 지역 업데이트를 수행합니다. 이 릴리스 이후 작은 업데이트가 표시됩니다. |
+| 브라우저 사용자 에이전트가 잘못된 macOS용 운영 체제 버전을 반영합니다 | 2021년 5월 19일 | 현재 모든 주요 브라우저는 브라우저의 사용자 에이전트 문자열에 기록된 대로 macOS X 11 이상의 사용자가 macOS 10을 사용하는 것으로 잘못 보고합니다. Adobe Analytics 보고가 사용자 에이전트를 사용하여 운영 체제와 같은 디바이스 정보를 확인하기 때문에 이 문제는 Adobe Analytics 보고에 영향을 줍니다. 이러한 부정확성은 일부 웹 사이트의 호환성 문제를 방지하기 위해 존재하는 것 같습니다. 이 [Bugzilla 티켓](https://bugs.webkit.org/show_bug.cgi?id=213622&amp;utm_source=convertkit&amp;utm_medium=email&amp;utm_campaign=User+Agent+strings%2C+new+BigQuery+features%2C+custom+Google+Tag+Manager+loader...+%E2%80%93+Simmer+Newsletter+%2311%20-%205873454)을 참조하십시오. 이 문제가 언제 또는 언제 수정될지 확실하지 않습니다.<br>일부 브라우저는 처음에 macOS 11을 올바르게 기록했으므로 이 값과 일치하는 트래픽이 있을 수 있습니다. 그러나 보고가 부정확하기 때문에 운영 체제 macOS 11에 대한 필터링은 유용하지 않습니다.<br>Apple이 CNAME 구현에 적용하기 위해 macOS 11의 Safari부터 ITP 쿠키 만료 제한을 업데이트했기 때문에 이 문제는 중요합니다([WebKit 블로그 게시물](https://webkit.org/blog/11338/cname-cloaking-and-bounce-tracking-defense/) 참조).<br>이 업데이트 이전에는 이러한 제한 사항이 JavaScript를 통해 설정된 클라이언트측 쿠키에만 적용되었습니다. 이러한 부정확성은 OS 11을 사용하는 트래픽의 양을 평가하기 어렵게 하며 따라서 ITP 변화에 의해 영향을 받습니다. 쿠키 및 Adobe Analytics에 대한 자세한 내용은 [여기](https://experienceleague.adobe.com/docs/analytics/technotes/cookies/cookies.html?lang=ko-KR#cookies)를 참조하십시오. |
+| 3개의 Analytics API 서비스에 대한 사용 종료 | 2021년 5월 19일 | 2021년 8월 18일에 다음 Analytics Legacy API 서비스가 사용 수명 종료 날짜에 도달하여 중단되었습니다. 이러한 서비스들을 사용하여 구축된 현재 모든 통합은 해당 날짜에 작동을 중단했습니다.<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증(OAuth 및 JWT)</li></ul>Adobe는 질문에 답변하고 진행 방법에 대한 지침을 제공하기 위해 [이전 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) 를 제공했습니다. 이들 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 이전 OAuth 계정은 [Adobe I/O](https://console.adobe.io/home?mv=email#) Analytics 통합 계정으로 마이그레이션할 수 있으며, 이 계정은 1.4 Analytics API 및 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다. |
+| 2021 ISO 지역 업데이트 | 2021년 5월 13일 | Adobe는 2021년 5월 21일에 2021 ISO 지역 업데이트를 수행합니다. 이 릴리스 이후에 소규모 업데이트가 있을 것으로 예상됩니다. |
 | 전체 프로세싱 데이터 소스 서비스 중단 | 2021년 4월 12일 | Adobe는 2021년 7월 31일 전체 프로세싱 데이터 소스에 대한 사용을 중단할 예정입니다. 2021년 3월 25일부터 이 유형의 새로운 가져오기는 더 이상 생성되지 않습니다. 이 유형의 데이터를 가져오려면 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 를 사용해 주십시오. |
 | [!UICONTROL Report Builder]로 로그인 업데이트 | 2021년 4월 21일 | 2021년 1월 14일 [!UICONTROL Report Builder] 로그인 업데이트로 레거시 기술의 종속성이 제거되었고, 로그인 프로세스와 Experience Cloud가 연결되었습니다. Experience Cloud는 Enterprise ID(이메일과 암호)를 사용합니다. [!UICONTROL Report Builder]에 중단 없이 액세스하려면 2021년 7월 22일까지 [!UICONTROL Report Builder] 추가 기능을 버전 5.6.47 이상으로 업데이트합니다. Report Builder 버전 5.6.47 이상은 Experience Cloud 로그인을 지원하고, Single Sign-On을 지원하지 않습니다. |
 | 데이터 피드 및 Data Warehouse IP 주소 변경 사항 | 2021년 4월 6일 | 6월 17일부터 데이터 피드 및 Data Warehouse 전달 시스템이 Adobe의 데이터 센터 내에 재배치되어 외부 IP 주소가 변경되어 표시될 수 있습니다. 보고서 및 피드가 제공되는 데이터 센터의 IP CIDR 블록이 제어되는 모든 대상 시스템의 방화벽에 존재하는지 확인해 봅니다. [다음은 방화벽 허용 목록에 배치할 IP 주소 범위의 전체 목록입니다](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=ko-KR#data-collection-and-ftp-ip-address-blocks). |
-| 예정된 Analytics 메뉴 변경 알림 | 2021년 3월 24일 | Adobe는 2021년 4월 22일에 성능 향상을 위해 **[!UICONTROL 구성 요소]**, **[!UICONTROL 도구]**, **[!UICONTROL 관리자]** 드롭다운 메뉴를 업데이트할 예정입니다. 이러한 모든 페이지는 여전히 **[!UICONTROL 모든 구성 요소]**, **[!UICONTROL 모든 도구]** 및 **[!UICONTROL 모든 관리]** 링크에서 사용할 수 있습니다. 드롭다운 메뉴에서 제거됩니다. 드롭다운 메뉴에서 제거되고 각각의 링크 페이지에 배치되는 메뉴 항목은 다음과 같습니다.<br><br> [!UICONTROL 구성 요소]<ul><li>[!UICONTROL 책갈피]</li><li>[!UICONTROL 대시보드]</li><li>[!UICONTROL 타겟]</li><li>[!UICONTROL 달력 이벤트]</li><li>[!UICONTROL 예약된 보고서]</li><li>[!UICONTROL 보고서 설정]</li></ul>[!UICONTROL 도구]<ul><li>[!UICONTROL Recommendations Classic]</li><li>[!UICONTROL Search &amp; Promote]</li></ul>[!UICONTROL 관리]<ul><li>[!UICONTROL 사용자 관리]</li><li>[!UICONTROL 분류 가져오기]</li><li>[!UICONTROL 분류 규칙 빌더]</li><li>[!UICONTROL 데이터 소스]</li><li>[!UICONTROL Data Connectors]</li><li>[!UICONTROL 회사 설정]</li><li>[!UICONTROL 로그]</li><li>[!UICONTROL Dynamic Tag Management]</li><li>[!UICONTROL 코드 관리자]</li><li>[!UICONTROL IP 주소별 제외]</li><li>[!UICONTROL 트래픽 관리]</li></ul> |
+| 예정된 Analytics 메뉴 변경 알림 | 2021년 3월 24일 | Adobe는 2021년 4월 22일에 성능 향상을 위해 **[!UICONTROL 구성 요소]**, **[!UICONTROL 도구]**, **[!UICONTROL 관리자]** 드롭다운 메뉴를 업데이트할 예정입니다. 이러한 모든 페이지는 **[!UICONTROL 모든 구성 요소]**, **[!UICONTROL 모든 도구]**, **[!UICONTROL 모든 관리자]** 링크에서 계속 사용할 수 있습니다. 드롭다운 메뉴에서 제거됩니다. 드롭다운 메뉴에서 제거되고 각각의 링크 페이지에 배치되는 메뉴 항목은 다음과 같습니다.<br><br> [!UICONTROL 구성 요소]<ul><li>[!UICONTROL 책갈피]</li><li>[!UICONTROL 대시보드]</li><li>[!UICONTROL 타겟]</li><li>[!UICONTROL 달력 이벤트]</li><li>[!UICONTROL 예약된 보고서]</li><li>[!UICONTROL 보고서 설정]</li></ul>[!UICONTROL 도구]<ul><li>[!UICONTROL Recommendations Classic]</li><li>[!UICONTROL Search &amp; Promote]</li></ul>[!UICONTROL 관리]<ul><li>[!UICONTROL 사용자 관리]</li><li>[!UICONTROL 분류 가져오기]</li><li>[!UICONTROL 분류 규칙 빌더]</li><li>[!UICONTROL 데이터 소스]</li><li>[!UICONTROL Data Connectors]</li><li>[!UICONTROL 회사 설정]</li><li>[!UICONTROL 로그]</li><li>[!UICONTROL Dynamic Tag Management]</li><li>[!UICONTROL 코드 관리자]</li><li>[!UICONTROL IP 주소별 제외]</li><li>[!UICONTROL 트래픽 관리]</li></ul> |
 | Same-as-SiteCatalyst VISTA Processing ON | 2021년 3월 17일 | 2021년 6월 17일에 모든 보고서 세트가 업데이트되어 [!UICONTROL Same-as-SiteCatalyst VISTA Processing] 이 ON으로 설정될 것입니다. 이 변경 사항은 처리 규칙과 일치하도록 데이터를 처리함으로써 Data Warehouse 보고에 영향을 줍니다. 질문이나 설명이 필요한 경우 고객 지원 센터에 문의하십시오. |
 | Reports &amp; Analytics 랜딩 페이지 옵션 | 2021년 2월 19일 | 2021년 3월 25일에 새로운 Reports &amp; Analytics 대시보드 또는 기타 콘텐츠를 Adobe Analytics 랜딩 페이지로 설정하는 옵션이 제거되었습니다. 이전에 Reports &amp; Analytics 페이지를 맞춤형 랜딩 페이지로 설정했다면 [!UICONTROL 사용자 환경 설정]에서 랜딩 페이지를 수정하기 전까지는 계속 작동합니다. |
 | Adobe Data Connectors EOL | 2020년 7월 13일 | Adobe [!UICONTROL Data Connectors] 는 더 이상 실행 불가능하거나 지원되지 않는 레거시 기술을 기반으로 합니다. [Adobe Exchange Partner Program](https://partners.adobe.com/exchangeprogram/experiencecloud)에서 새로운 표준을 사용할 수 있습니다. 이 표준을 사용하여 모든 통합이 지속적으로 제공되고 지원될 수 있습니다. 공식적인 서비스 종료 날짜는 2021년 8월 1일입니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=ko-KR) |
@@ -211,7 +211,7 @@ Audience Manager의 수정 및 개선 사항.
 
 >[!NOTE]
 >
->Adobe은 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Manager 릴리스 업데이트 및 roadmap](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=ko-KR) 페이지를 방문할 것을 권장합니다.
+>Adobe는 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Manager 릴리스 업데이트 및 로드맵](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=ko-KR) 페이지를 방문할 것을 권장합니다.
 
 ### Experience Manager 제품 업데이트
 
@@ -264,7 +264,8 @@ Audience Manager의 수정 및 개선 사항.
 모든 Experience Manager 릴리스 정보는 다음 페이지에서 유지 관리됩니다.
 
 * [Experience Manager as a Cloud Service 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=en)
-* [Experience Manager Cloud Manager 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/release-notes/release-notes-current.html?lang=ko-KR)
+* [Cloud Service 릴리스 노트로 Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=en)
+* [Experience Manager Cloud Manager 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/release-notes/release-notes-current.html?lang=en)
 * [자동 양식 전환 서비스 릴리스 정보](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/release-notes.html?lang=en)
 * [Experience Manager 6.5 서비스 팩 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=en)
 * [Experience Manager 6.4 Cumulative Fix Pack 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/cfp-release-notes.html?lang=ko-KR)
@@ -321,7 +322,7 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 | 게시일 | 이름 | 솔루션 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021년 6월 | [Campaign Standard을 Analytics와 통합하여 이메일 마케팅을 최적화합니다](https://experienceleague.adobe.com/?recommended=Campaign-U-1-2021.1.integration) | Campaign Standard | (교육 과정) Campaign Standard을 Adobe Analytics과 통합하고 실시간 데이터를 사용하여 이메일 마케팅 전략을 최적화하는 방법을 알아봅니다. 이 교육 과정에서는 Adobe Analytics에서 Campaign Standard 보고서를 작성하는 방법을 보여 줍니다. 그런 다음 Experience Cloud 트리거 및 Platform launch 를 사용하여 고객 활동을 기반으로 마케팅 및 트랜잭션 메시지를 구성하는 방법을 살펴봅니다. |
+| 2021년 6월 | [Campaign Standard를 Analytics와 통합하여 이메일 마케팅 최적화](https://experienceleague.adobe.com/?lang=ko-KR?recommended=Campaign-U-1-2021.1.integration) | Campaign Standard | (교육 과정) Campaign Standard을 Adobe Analytics과 통합하고 실시간 데이터를 사용하여 이메일 마케팅 전략을 최적화하는 방법을 알아봅니다. 이 과정에서는 Adobe Analytics에서 Campaign Standard 보고서를 작성하는 방법을 보여 줍니다. 그런 다음 Experience Cloud 트리거 및 Platform Launch를 사용하여 고객 활동을 기반으로 마케팅 및 트랜잭션 메시지를 구성하는 방법에 대해 알아봅니다. |
 | 2021년 6월 | [Adobe Campaign v8 튜토리얼](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html) | Campaign V8 | 이 사용 안내서에는 Adobe Campaign V8의 다양한 기능과 성능에 대한 비디오 및 튜토리얼이 포함되어 있습니다. |
 | 2021년 6월 | [이메일 전달성 작성 및 디자인](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/content-creation/email/create-and-design-email-deliveries.html) | Campaign V8 | (비디오) 이메일 게재를 만드는 프로세스를 이해하고 이메일 콘텐츠를 디자인하고 개인화하는 방법을 알아봅니다. |
 | 2021년 6월 | [이메일 전달성 디자인](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/sending-messages/email/design-emails-for-deliverability.html) | Campaign V8 | (비디오) 이메일 게재에 게재 기능 우수 사례를 적용하는 방법을 알아봅니다. |
@@ -332,18 +333,18 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 ### 캠페인 도움말 리소스
 
-* Adobe Campaign Standard: [도움말 센터](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=ko-KR) - [릴리스 노트](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en) - [사용 방법 비디오](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko) - [릴리스 계획](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-planning.html?lang=ko-KR) [- 최신 설명서 업데이트](https://experienceleague.adobe.com/docs/campaign-standard/using/documentation-updates.html?lang=ko-KR)
-* Adobe Campaign Classic: [도움말 센터](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=ko-KR) - [릴리스 정보](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=en) - [사용 방법 비디오](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)- [최신 설명서 업데이트](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=ko-KR)
-* Adobe Campaign 제어판: [설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko-KR) - [릴리스 정보](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=en) - [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=ko-KR) / [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=en) 방법 비디오
+* Adobe Campaign Standard: [도움말 센터](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=ko-KR) - [릴리스 노트](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en) - [사용 방법 비디오](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko-KR) - [릴리스 계획](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-planning.html?lang=ko-KR) [- 최신 설명서 업데이트](https://experienceleague.adobe.com/docs/campaign-standard/using/documentation-updates.html?lang=ko-KR)
+* Adobe Campaign Classic: [도움말 센터](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=ko-KR) - [릴리스 정보](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=en) - [사용 방법 비디오](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko-KR)- [최신 설명서 업데이트](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=ko-KR)
+* Adobe Campaign 제어판: [설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko-KR) - [릴리스 정보](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=en) - [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=ko-KR) / [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=ko-KR) 방법 비디오
 
-## ![](/assets/advertising-cloud.png) IconAdvertising {#adcloud}
+## ![아이콘](/assets/advertising-cloud.png) Advertising {#adcloud}
 
-[!DNL Adobe Advertising]에 대한 릴리스 노트입니다.
+[!DNL Adobe Advertising]의 릴리스 정보.
 
 * [Advertising DSP의 새로운 기능](#adcloud-dsp)
 * [Advertising Search의 새로운 기능](#adcloud-search)
 
-### [!DNL Advertising DSP] 의 새로운 기능 {#adcloud-dsp}
+### [!DNL Advertising DSP] 의 새로운 기능  {#adcloud-dsp}
 
 마지막 업데이트:**2021년 6월 10일(6월 16일 릴리스**)
 
@@ -353,13 +354,13 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 {style=&quot;table-layout:auto&quot;}
 
-### [!DNL Advertising Search] 의 새로운 기능 {#adcloud-search}
+### [!DNL Advertising Search] 의 새로운 기능  {#adcloud-search}
 
-마지막 업데이트:**2021년 5월 19일, 5월 18일 릴리스**
+마지막 업데이트: **2021년 5월 19일, 5월 18일 릴리스**
 
 | 기능 | 설명 |
 | -----------| ---------- |
-| [!UICONTROL 알림 센터 베타] | [!UICONTROL 알림 센터 베타]는 모든 사용자가 사용할 수 있습니다. 계정 인증 오류, 트리거된 사용자 지정 경고 및 생성한 [!UICONTROL Advertising Insights]의 완료에 대한 이메일 및 웹 알림에 구독합니다.<br>다음 중 하나에서 알림을 볼 수 있습니다.<ul><li>페이지의 오른쪽 상단에 있는 알림 링크에서 열리는 [!UICONTROL 알림] 패널입니다.</li><li>[!UICONTROL 인사이트 및 보고서 > 알림 센터 베타]에 있는 [!UICONTROL 알림 센터]</li></ul><br><b>참고:</b> 알림 저장 방법이 개선되어 기존 알림이 모두 지워졌습니다. |
+| [!UICONTROL 알림 센터 Beta] | [!UICONTROL 알림 센터 Beta]는 모든 사용자가 사용할 수 있습니다. 이를 사용하여 계정 인증 오류, 트리거된 사용자 지정 경고 및 생성한 [!UICONTROL Advertising Insights] 완료에 대한 이메일 및 웹 알림을 구독하십시오.<br>다음 중 하나에서 알림을 볼 수 있습니다.<ul><li>페이지의 오른쪽 상단에 있는 알림 링크에서 열리는 [!UICONTROL 알림]패널.</li><li>[!UICONTROL Insights &amp; Reports >알림 센터 Beta]의 [!UICONTROL 알림 센터].</li></ul><br><b>참고:</b> 알림 저장 방법이 개선되어 기존 알림이 모두 지워졌습니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -403,7 +404,7 @@ Document Cloud 도움말은 다음을 참조하십시오.
 * [Adobe Sign](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=ko-KR)
 * [Document Cloud 학습 및 지원](https://helpx.adobe.com/kr/support/document-cloud.html)
 
-## ![](/assets/creative-cloud-24.png) 아이콘Creative Cloud for enterprise  {#creative-cloud}
+## ![](/assets/creative-cloud-24.png) 아이콘Creative Cloud for enterprise {#creative-cloud}
 
 기업용 Creative Cloud에 대해 게시된 새로운 비디오, 자습서 또는 교육 과정
 
@@ -414,4 +415,4 @@ Document Cloud 도움말은 다음을 참조하십시오.
 
 {style=&quot;table-layout:auto&quot;}
 
-최신 자습서는 [Enterprise Tutorials Creative Cloud](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/overview.html?lang=en)을 참조하십시오.
+최신 튜토리얼은 [Creative Cloud for Enterprise Tutorials](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/overview.html?lang=ko-KR)를 참조하십시오.
