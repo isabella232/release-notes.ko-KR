@@ -1,18 +1,16 @@
 ---
 description: 이 제품과 설명서의 사용에 관한 법적 문제를 이해하고 Adobe에 문의하는 데 도움이 되는 정보입니다.
-keywords: dynamic tag management;release notes
+keywords: 다이내믹 태그 관리; 릴리스 노트
 seo-description: 이 제품과 설명서의 사용에 관한 법적 문제를 이해하고 Adobe에 문의하는 데 도움이 되는 정보입니다.
 seo-title: 연락처 및 법적 정보
-solution: Experience Cloud
 title: 연락처 및 법적 정보
 uuid: be6810fd-8a50-4e88-af09-ab00187e4082
 internal: n
 translate: y
-translation-type: tm+mt
-source-git-commit: 00226294d475d0c8f323692272bedf0d2705fd20
+source-git-commit: 759707638404f746de2e71ac27bd16926a8d1151
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 95%
+source-wordcount: '258'
+ht-degree: 100%
 
 ---
 
@@ -44,7 +42,7 @@ Adobe Systems welcome any suggestions or feedback regarding this solution. You c
  <li> 게시자: Adobe Systems Incorporated. </li> 
 </ul>
 
-[사용 약관](https://www.adobe.com/go/marketingcloud_terms_of_use) | [개인 정보 보호 센터](https://www.adobe.com/privacy/policy.html)
+[사용 약관](https://www.adobe.com/go/marketingcloud_terms_of_use) | [개인 정보 보호 센터](https://www.adobe.com/kr/privacy/policy.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
