@@ -2,18 +2,18 @@
 title: 최신 릴리스 정보
 description: Experience Cloud 제품 및 서비스의 최신 릴리스 정보, 새로운 기능 및 새로운 설명서에 대해 알아봅니다. Experience Cloud, Creative Cloud for enterprise 및 Document Cloud와 관련된 새로운 도움말과 튜토리얼을 찾아보십시오.
 doc-type: release notes
-last-update: June 2021
+last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 99885f10a13d7b51702ffac182362f1abd09f141
+source-git-commit: bd6b98b1decdcf563421c1f828d3fb068fb6ca33
 workflow-type: tm+mt
-source-wordcount: '4984'
-ht-degree: 51%
+source-wordcount: '4863'
+ht-degree: 41%
 
 ---
 
-# Adobe Experience Cloud 릴리스 노트 - 2021년 6월
+# Adobe Experience Cloud 릴리스 노트 - 2021년 7월
 
 ![배너](assets/experience-cloud-banner-3.png)
 
@@ -23,11 +23,12 @@ Experience Cloud 애플리케이션과 서비스는 매달 업데이트됩니다
 >
 >월별 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html) 를 구독하면 이 페이지의 업데이트에 대한 이메일 알림을 받을 수 있습니다. 이 페이지는 한 달 동안 유지되므로 Adobe 엔터프라이즈 제품 및 Experience League 설명서에 대한 업데이트를 정기적으로 확인하십시오.
 
-최신 업데이트: **2021년 6월 14일**
+최신 업데이트: **2021년 7월 16일**
 
 * [Experience Cloud 중앙 인터페이스 구성 요소](#ecloud)
 * [Adobe 시스템 상태](#status)
 * [Experience Platform](#platform)
+* [Journey Optimizer](#journey-opt)
 * [Journey Orchestration](#journey-orch)
 * [Offer Decisioning](#offer-decisioning)
 * [[!DNL Analytics]](#analytics) 및  [Customer Journey Analytics](#cust-journey)
@@ -50,8 +51,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에는 자체 도움말, �
 
 | 기능 | 날짜 | 설명 |
 | ------- | ------- | ------- |
-| Adobe Federated ID에 대한 단일 사인온 지원 | 2021년 6월 17일 | Federated ID를 사용하는 경우 이메일 주소나 암호를 입력하지 않고도 Experience Cloud에 로그인할 수 있습니다. 이 기능을 사용하려면 Experience Cloud URL에 **#/sso:@domain**&#x200B;를 추가하십시오. <br><br>예를 들어 도메인 adobecucustomer.com **을 보유하고 있다고 가정하고** Adobe Analytics에 로그인하려고 합니다. URL은 다음과 같습니다.**https://experience.adobe.com/#/sso:@adobecustomer.com/analytics** |
-| Experience League 검색 | 2021년 6월 1일 | Experience League 설명서 검색이 개선되었습니다. [Experience League](https://experienceleague.adobe.com/docs/?lang=en)로 이동하고 **[!UICONTROL 검색]** 필드를 사용하여 자습서, 설명서, 강좌 등을 찾습니다. |
+| Experience Cloud 글로벌 검색 | 2021년 7월 5일 | 이번 릴리스를 통해 Experience Cloud 전역 검색은 세그먼트, 데이터 세트, 스키마 등과 같은 Experience Cloud의 비즈니스 객체를 검색하는 Journey Orchestration을 추가합니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -71,8 +71,8 @@ Adobe 시스템 상태에 대한 최신 업데이트 및 최신 릴리스 정보
 
 릴리스 업데이트 정보와 Experience Platform 및 Experience Platform Launch에 대한 새 설명서를 포함합니다.
 
-* **2021년 5월 26일:** [Experience Platform 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR)
-* **2021년 5월 17일:** [Experience Platform 데이터 수집 릴리스 노트](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html?lang=ko-KR) (이전, Experience Platform Launch)
+* **2021년 6월 30일** [Experience Platform 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR)
+* **2021년 5월 17일** [Experience Platform 데이터 수집 릴리스 노트](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html?lang=ko-KR) (이전, Experience Platform Launch)
 
 ### Experience Platform 튜토리얼 및 교육 과정 {#tutorials-platform}
 
@@ -80,29 +80,32 @@ Experience Platform 및 서비스를 위해 게시된 새로운 비디오, 튜�
 
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021년 6월 | [Query Service로 데이터 준비](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/prepare-data.html) | 비디오 | CTAS(테이블 AS) 만들기 및 보고 및 대시보드에 대한 스파크 SQL 함수를 사용하여 여러 데이터 세트의 데이터를 정리, 준비 및 결합하여 데이터 세트를 만드는 방법을 알아봅니다. |
-| 2021년 6월 | [샌드박스 간 스키마 복사](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/copy-schemas-between-sandboxes.html) | 비디오 | [!UICONTROL 스키마 내보내기/가져오기 API]를 사용하여 스키마를 Adobe Experience Platform의 한 샌드박스에서 다른 샌드박스로 복사하는 방법을 알아봅니다. 개발 샌드박스에서 스키마를 빌드 및 테스트한 다음 프로덕션에 복사합니다. |
-| 2021년 6월 | [스키마 업데이트](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/update-schemas.html) | 비디오 | Adobe Experience Platform에서 기존 스키마를 업데이트할 때 알아야 할 기본 사항을 알아봅니다. |
-| 2021년 6월 | [스키마 빌딩 블록](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schema-building-blocks.html) | 비디오 | 필드, 데이터 유형, 스키마 필드 그룹, 클래스 및 동작을 포함하여 XDM(Experience Data Model) 스키마의 주요 빌딩 블록 요소를 알아봅니다. |
-| 2021년 6월 | [스키마 클래스 만들기](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-classes.html) | 비디오 | XDM(Experience Data Model) 스키마에서 사용할 클래스를 Adobe Experience Platform에서 만드는 방법을 알아봅니다. |
-| 2021년 6월 | [스키마 간 관계 구성](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html) | 비디오 | Adobe Experience Platform에서 두 스키마 간의 관계를 구성하는 방법을 알아봅니다. 관계를 사용하면 한 데이터 세트를 다른 데이터 세트에 대한 조회 테이블로 사용할 수 있습니다. |
-| 2021년 6월 | [스키마 데이터 유형 만들기](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-data-types.html) | 비디오 | Experience Data Model(XDM) 스키마에서 사용할 Adobe Experience Platform에서 고유한 데이터 유형을 만드는 방법을 알아봅니다. |
-| 2021년 6월 | [데이터 모델을 경험 데이터 모델로 변환](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/convert-your-data-model-to-xdm.html) | 비디오 | 데이터 설계자가 기존의 트랜잭션 데이터 모델을 가져와 경험 데이터 모델로 변환하는 방법을 알아봅니다. 이 비디오에서는 엔티티 관계 다이어그램을 사용하여 모델링 접근 방식의 차이점을 보여 줍니다. |
-| 2021년 6월 | [데이터 모델 계획](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/plan-your-data-model.html) | 비디오 | Adobe Experience Platform에서 스키마 작성을 시작하기 전에 수행할 작업을 알아봅니다. 데이터 모델을 완료하기 전에 비즈니스 사용 사례를 문서화하고, 플랫폼 라이센스를 이해하며, 제품 보호 기능을 알고, 수집할 데이터를 식별합니다. |
-| 2021년 6월 | [타블로와 쿼리 서비스 연결](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/psql-client-tableau.html) | 비디오 | `PostgreSQL` 프로토콜을 지원하는 다양한 데스크톱 클라이언트 응용 프로그램에서 [!UICONTROL 쿼리 서비스]에 연결하는 방법과 `PostgreSQL` 도구 및 드라이버를 사용하여 쿼리를 연결하고 쓰는 방법을 알아봅니다. |
-| 2021년 6월 | [Query Service의 Adobe 정의 함수](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/adobe-defined-functions.html) | 비디오 | Adobe Experience Platform [!UICONTROL 쿼리 서비스]에서 Adobe 정의 함수를 사용하여 경험 이벤트 데이터에 대한 일반적인 비즈니스 관련 작업을 수행하는 방법을 알아봅니다. |
-| 2021년 6월 | [Query Service를 사용한 데이터 탐색](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html) | 비디오 | SQL 함수를 사용하여 수집된 데이터의 유효성을 검사하고, 데이터를 미리 보고, 데이터의 통계 및 분석 속성을 탐색하는 방법을 알아봅니다. |
-| 2021년 6월 | [쿼리 서비스 개요](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html) | 비디오 | Adobe Experience Platform의 Query Service에 대해 알아보고 고객 행동을 이해하고 유용한 통찰력을 생성하는 방법을 알아봅니다. |
-| 2021년 6월 | [Query Service UI 개요](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/query-service-ui.html) | 비디오 | Adobe Experience Platform Query Service에서 IMS 조직 내에서 쿼리를 작성 및 실행하고, 이전에 실행된 쿼리를 보고, 다른 사용자가 저장한 쿼리에 액세스하는 방법을 알아봅니다. |
-| 2021년 6월 | [쿼리 API](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/query-service-api.html) | 비디오 | Adobe Experience Platform [!UICONTROL Query Service API]를 사용하여 쿼리를 작성 및 실행하고, 쿼리 쿼리를 만들고, 쿼리 템플릿을 만드는 방법을 알아봅니다. |
+| 2021년 7월 | [XDM을 사용하여 고객 경험 데이터 모델링](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) | 교육 과정 | Adobe Experience Platform에서 데이터 모델을 만드는 방법을 알아봅니다. 이 교육 과정에서는 XDM(Experience Data Model) 및 기존 데이터 모델을 XDM으로 변환하는 방법에 대해 설명합니다. 표준 클래스와 필드 그룹을 사용하여 스키마를 구축하고 사용자 지정 구성 요소를 만드는 방법을 알아봅니다. |
+| 2021년 7월 | [데이터 엔지니어를 위한 Query Service 시작하기](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.qsvc.gsde) | 교육 과정 | 수집된 데이터의 유효성을 확인하고, 데이터 레이크에 저장된 데이터를 통해 통찰력을 얻을 수 있으며, Query Service를 사용하여 비즈니스 크리티컬 의사 결정을 위해 데이터를 준비하는 방법을 알아봅니다. |
+| 2021년 7월 | [Query Service를 사용하여 대시보드 만들기](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.qsvc.dash) | 교육 과정 | Adobe Experience Platform에서 Query Service를 사용하여 수집된 데이터를 확인하고, Data Lake에 저장된 데이터를 통해 통찰력을 얻고, 대시보드를 만드는 방법을 알아봅니다. |
+| 2021년 7월 | [마케터를 위한 실시간 CDP 시작하기](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-U-1-2021.1.rtcdp) | 교육 과정 | 이 교육 과정에서는 실시간 고객 데이터 플랫폼(실시간 CDP)을 비즈니스 전문가의 자격으로 사용하여 시작하는 데 필요한 모든 것을 배울 수 있습니다. |
+| 2021년 7월 | [데이터 과학자를 위한 데이터 과학 작업 공간 시작하기](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-U-1-2021.1.dsw) | 교육 과정 | Adobe Experience Platform의 데이터 과학 작업 공간에 대해 알아봅니다. 이 교육 과정은 [!DNL JupyterLab] Notebook을 사용하여 인사이트와 데이터를 쿼리하고, 프로필을 사용할 수 있는 데이터 세트를 만들고, 자동화된 기계 학습 모델을 게시하고, Adobe 및 Adobe이 아닌 응용 프로그램 모두에 대해 기계 학습 인사이트를 활성화하는 방법을 배우고자 하는 데이터 과학자를 위해 설계되었습니다. |
+| 2021년 7월 | [Adobe Experience Platform 데이터 거버넌스 시작하기](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.dgov.gs) | 교육 과정 | 데이터 소스에서 수집한 지점에서 Adobe Experience Platform 외부의 대상으로 신디케이트되는 시간까지 데이터를 제어하는 방법을 알아봅니다. |
 
 {style=&quot;table-layout:auto&quot;}
+
+## ![](/assets/experience_platform_appicon_24.png) IconJourney Optimizer {#journey-opt}
+
+Adobe Journey Optimizer을 사용하면 하나의 애플리케이션에서 수백만 명의 고객을 위한 예약된 옴니채널 캠페인과 일대일 모멘트를 관리할 수 있으며, 전체 여정은 지능형 의사 결정 및 통찰력으로 최적화되어 있습니다.
+
+### 최신 제품 릴리스
+
+* 이제 Journey Optimizer을 사용할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=en).
+
+**Journey Optimizer을 위한 추가 리소스**
+
+[설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=en)  -  [최신 업데이트](https://experienceleague.adobe.com/docs/journey-optimizer/using/documentation-updates.html?lang=en)  -  [방법 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=en)
 
 ## ![아이콘](/assets/experience_platform_appicon_24.png) Journey Orchestration {#journey-orch}
 
 Experience Platform을 사용하여 모든 개인의 요구 사항을 실시간 지능적으로 예측하여 경험 채널에서 규모에 맞게 고객 여정을 오케스트레이션할 수 있습니다.
 
-* 업데이트 날짜: 2021년 6월 - [Journey Orchestration 릴리스 노트](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=ko-KR)
+[Journey Orchestration 릴리스 정보](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=ko-KR)에서 최신 기능, 개선 사항 및 수정 사항에 대해 알아봅니다.
 
 **Journey Orchestration을 위한 추가 리소스**
 
@@ -112,15 +115,17 @@ Experience Platform을 사용하여 모든 개인의 요구 사항을 실시간 
 
 [!UICONTROL Offer Decisioning] 은 Adobe Experience Platform과 통합된 애플리케이션 서비스입니다. [!UICONTROL Offer Decisioning] 를 사용하여 적절한 시기에 모든 접점에서 고객에게 최상의 혜택과 경험을 제공하십시오.
 
-* 업데이트 날짜: 2021년 4월 - [Offer decisioning 릴리스 노트](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/release-notes.html?lang=ko-KR#new)
+* **2021년 6월 릴리스:** AI 등급을 사용하면 지정된 프로필에 표시할 수 있는 적합한 오퍼의 등급을 지정하도록 숙련된 모델 시스템에서 사용할 다양한 등급 전략(비즈니스 목표를 기반으로)을 만들 수 있습니다.
+
+최신 상태를 유지하려면 [Offer decisioning 릴리스 노트](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/release-notes.html?lang=ko-KR#new)를 참조하십시오.
 
 **Offer Decisioning을 위한 추가 리소스**
 
-[설명서](https://experienceleague.adobe.com/docs/offer-decisioning/using/offer-decisioning-home.html?lang=ko-KR) - [릴리스 정보](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/release-notes.html?lang=en#new) - [방법 비디오](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/overview.html?lang=ko-KR)
+[설명서](https://experienceleague.adobe.com/docs/offer-decisioning/using/offer-decisioning-home.html?lang=ko-KR) - [릴리스 정보](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/release-notes.html?lang=en#new) - [방법 비디오](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/overview.html?lang=en)
 
 ## ![아이콘](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
 
-릴리스 날짜: **2021년 6월 17일**
+릴리스 날짜: **2021년 7월 22일**
 
 * [Adobe Analytics의 새로운 기능](#aa-features)
 * [Customer Journey Analytics의 새로운 기능](#cust-journey)
@@ -131,45 +136,39 @@ Experience Platform을 사용하여 모든 개인의 요구 사항을 실시간 
 
 ### Adobe Analytics의 새로운 기능 {#aa-features}
 
-| 기능 | [일반 가용성](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=ko-KR) - 대상 날짜 | 설명 |
+| 기능 | 설명 | [일반 가용성](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=ko-KR) - 대상 날짜 |
 | ----------- | ---------- | ------- |
-| N/A | 해당 없음 |
+| 새 Adobe Analytics 랜딩 페이지(베타 열기) | Adobe Analytics의 새 랜딩 페이지는 Analysis Workspace과 Reports &amp; Analytics를 모두 작업 공간 우산 아래 단일 인터페이스 및 액세스 포인트로 가져옵니다. 여기에는 새로운 프로젝트 관리자 홈 페이지, 업데이트된 보고서 메뉴 및 현대화된 보고서뿐 아니라 보다 효과적으로 시작하는 데 도움이 되는 새로운 학습 섹션도 포함되어 있습니다. 새 페이지는 검색 기능을 향상시키고 Reports &amp; Analytics 사용자를 Workspace에서 개선된 보고 환경을 제공합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html) | 2021년 7월 26일 |
 
 {style=&quot;table-layout:auto&quot;}
 
 ### Customer Journey Analytics의 새로운 기능 {#cust-journey}
 
-| 기능 | [일반 가용성](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=en) - 대상 날짜 | 설명 |
+| 기능 | 설명 | [일반 가용성](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=en) - 대상 날짜 |
 | ----------- | ---------- | ----- |
-| 해당 없음 | 해당 없음 |
+| 새 연결 정보 환경 | 이 연결 UI 개선 사항을 통해 데이터를 보고에 사용할 준비가 되었는지 여부와 시기를 알 수 있습니다. 또한 처리 데이터와 관련된 문제를 추적할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=en) | 2021년 8월 19일 |
 
 {style=&quot;table-layout:auto&quot;}
 
 ### Adobe Analytics의 수정 사항 {#aa-fixes}
 
-* 매출 실시간 보고서에 잘못된 통화가 표시되는 문제를 수정했습니다. (AN-254649)
-* 보고](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html)에서 [eVar 대/소문자 구분에 대한 설명서를 업데이트했습니다. (AN-246438)
-* [데이터 피드 구현](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html) 및 [여기](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html#BucketOwnerFullControl)에 대해 더 잘 설명하도록 설명서를 업데이트했습니다. (AN-219485)
-* Data Warehouse 보고서에서 일부 데이터가 전송되지 않는 문제를 해결했습니다(AN-259951;AN-259712;AN-260107;(AN-259953)
+* 새 경고를 만들 때 경고가 전송되지 않고 오류가 표시되는 문제를 해결했습니다. (AN-263962)
+* Analysis Workspace의 가상 보고서 세트 문제를 수정했습니다. 지정한 날짜 범위를 벗어나는 데이터가 추출되었습니다. (AN-263121)
+* 작업 공간 프로젝트가 열리지 않는 문제를 수정했습니다(시간 초과). (AN-247248)
+* 보고서 세트 사용량 데이터를 [!UICONTROL 서버 호출 사용량]에서 로드할 수 없는 문제가 해결되었습니다. (AN-264215)
 
 #### Adobe Analytics 또는 CJA의 추가 수정 사항
 
-AN-246344;AN-250035;AN-250354;AN-252482;AN-254661;AN-254965;AN-255424;AN-256515;AN-257232;AN-257572;AN-257893;AN-258393;AN-259203;AN-259513;AN-259614;AN-259665;AN-259931;AN-260074;AN-260085;AN-260147;AN-260190;AN-260198;AN-260290;AN-260306 (CJA);AN-260508;AN-260625;AN-260793;AN-260861;AN-260938;AN-260945;AN-261149;AN-261317
+AN-160022; AN-186365; AN-234768 (CJA); AN-253041; AN-255098; AN-256319; AN-256566; AN-256903; AN-257111; AN-259614; AN-259960; AN-260422; AN-260926; AN-260962; AN-261310; AN-261442; AN-261483 (CJA); AN-261589; AN-261949; AN-262025; AN-262295; AN-262330; AN-262348; AN-262356; AN-262461; AN-262462; AN-262465; AN-262888; AN-262944; AN-262952; AN-262974; AN-263027; AN-263105; AN-263175; AN-263183; AN-263244; AN-263888; AN-263930; AN-263953
 
 ### [!DNL Analytics] 관리자에 대한 중요 공지 {#aa-notices}
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | ----------- | ---------- | ---------- |
-| 브라우저 사용자 에이전트가 잘못된 macOS용 운영 체제 버전을 반영합니다 | 2021년 5월 19일 | 현재 모든 주요 브라우저는 브라우저의 사용자 에이전트 문자열에 기록된 대로 macOS X 11 이상의 사용자가 macOS 10을 사용하는 것으로 잘못 보고합니다. Adobe Analytics 보고가 사용자 에이전트를 사용하여 운영 체제와 같은 디바이스 정보를 확인하기 때문에 이 문제는 Adobe Analytics 보고에 영향을 줍니다. 이러한 부정확성은 일부 웹 사이트의 호환성 문제를 방지하기 위해 존재하는 것 같습니다. 이 [Bugzilla 티켓](https://bugs.webkit.org/show_bug.cgi?id=213622&amp;utm_source=convertkit&amp;utm_medium=email&amp;utm_campaign=User+Agent+strings%2C+new+BigQuery+features%2C+custom+Google+Tag+Manager+loader...+%E2%80%93+Simmer+Newsletter+%2311%20-%205873454)을 참조하십시오. 이 문제가 언제 또는 언제 수정될지 확실하지 않습니다.<br>일부 브라우저는 처음에 macOS 11을 올바르게 기록했으므로 이 값과 일치하는 트래픽이 있을 수 있습니다. 그러나 보고가 부정확하기 때문에 운영 체제 macOS 11에 대한 필터링은 유용하지 않습니다.<br>Apple이 CNAME 구현에 적용하기 위해 macOS 11의 Safari부터 ITP 쿠키 만료 제한을 업데이트했기 때문에 이 문제는 중요합니다([WebKit 블로그 게시물](https://webkit.org/blog/11338/cname-cloaking-and-bounce-tracking-defense/) 참조).<br>이 업데이트 이전에는 이러한 제한 사항이 JavaScript를 통해 설정된 클라이언트측 쿠키에만 적용되었습니다. 이러한 부정확성은 OS 11을 사용하는 트래픽의 양을 평가하기 어렵게 하며 따라서 ITP 변화에 의해 영향을 받습니다. 쿠키 및 Adobe Analytics에 대한 자세한 내용은 [여기](https://experienceleague.adobe.com/docs/analytics/technotes/cookies/cookies.html?lang=ko-KR#cookies)를 참조하십시오. |
-| 3개의 Analytics API 서비스에 대한 사용 종료 | 2021년 5월 19일 | 2021년 8월 18일에 다음 Analytics Legacy API 서비스가 사용 수명 종료 날짜에 도달하여 중단되었습니다. 이러한 서비스들을 사용하여 구축된 현재 모든 통합은 해당 날짜에 작동을 중단했습니다.<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증(OAuth 및 JWT)</li></ul>Adobe는 질문에 답변하고 진행 방법에 대한 지침을 제공하기 위해 [이전 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) 를 제공했습니다. 이들 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 이전 OAuth 계정은 [Adobe I/O](https://console.adobe.io/home?mv=email#) Analytics 통합 계정으로 마이그레이션할 수 있으며, 이 계정은 1.4 Analytics API 및 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다. |
-| 2021 ISO 지역 업데이트 | 2021년 5월 13일 | Adobe는 2021년 5월 21일에 2021 ISO 지역 업데이트를 수행합니다. 이 릴리스 이후에 소규모 업데이트가 있을 것으로 예상됩니다. |
-| 전체 프로세싱 데이터 소스 서비스 중단 | 2021년 4월 12일 | Adobe는 2021년 7월 31일 전체 프로세싱 데이터 소스에 대한 사용을 중단할 예정입니다. 2021년 3월 25일부터 이 유형의 새로운 가져오기는 더 이상 생성되지 않습니다. 이 유형의 데이터를 가져오려면 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 를 사용해 주십시오. |
-| [!UICONTROL Report Builder]로 로그인 업데이트 | 2021년 4월 21일 | 2021년 1월 14일 [!UICONTROL Report Builder] 로그인 업데이트로 레거시 기술의 종속성이 제거되었고, 로그인 프로세스와 Experience Cloud가 연결되었습니다. Experience Cloud는 Enterprise ID(이메일과 암호)를 사용합니다. [!UICONTROL Report Builder]에 중단 없이 액세스하려면 2021년 7월 22일까지 [!UICONTROL Report Builder] 추가 기능을 버전 5.6.47 이상으로 업데이트합니다. Report Builder 버전 5.6.47 이상은 Experience Cloud 로그인을 지원하고, Single Sign-On을 지원하지 않습니다. |
-| 데이터 피드 및 Data Warehouse IP 주소 변경 사항 | 2021년 4월 6일 | 6월 17일부터 데이터 피드 및 Data Warehouse 전달 시스템이 Adobe의 데이터 센터 내에 재배치되어 외부 IP 주소가 변경되어 표시될 수 있습니다. 보고서 및 피드가 제공되는 데이터 센터의 IP CIDR 블록이 제어되는 모든 대상 시스템의 방화벽에 존재하는지 확인해 봅니다. [다음은 방화벽 허용 목록에 배치할 IP 주소 범위의 전체 목록입니다](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=ko-KR#data-collection-and-ftp-ip-address-blocks). |
-| 예정된 Analytics 메뉴 변경 알림 | 2021년 3월 24일 | Adobe는 2021년 4월 22일에 성능 향상을 위해 **[!UICONTROL 구성 요소]**, **[!UICONTROL 도구]**, **[!UICONTROL 관리자]** 드롭다운 메뉴를 업데이트할 예정입니다. 이러한 모든 페이지는 **[!UICONTROL 모든 구성 요소]**, **[!UICONTROL 모든 도구]**, **[!UICONTROL 모든 관리자]** 링크에서 계속 사용할 수 있습니다. 드롭다운 메뉴에서 제거됩니다. 드롭다운 메뉴에서 제거되고 각각의 링크 페이지에 배치되는 메뉴 항목은 다음과 같습니다.<br><br> [!UICONTROL 구성 요소]<ul><li>[!UICONTROL 책갈피]</li><li>[!UICONTROL 대시보드]</li><li>[!UICONTROL 타겟]</li><li>[!UICONTROL 달력 이벤트]</li><li>[!UICONTROL 예약된 보고서]</li><li>[!UICONTROL 보고서 설정]</li></ul>[!UICONTROL 도구]<ul><li>[!UICONTROL Recommendations Classic]</li><li>[!UICONTROL Search &amp; Promote]</li></ul>[!UICONTROL 관리]<ul><li>[!UICONTROL 사용자 관리]</li><li>[!UICONTROL 분류 가져오기]</li><li>[!UICONTROL 분류 규칙 빌더]</li><li>[!UICONTROL 데이터 소스]</li><li>[!UICONTROL Data Connectors]</li><li>[!UICONTROL 회사 설정]</li><li>[!UICONTROL 로그]</li><li>[!UICONTROL Dynamic Tag Management]</li><li>[!UICONTROL 코드 관리자]</li><li>[!UICONTROL IP 주소별 제외]</li><li>[!UICONTROL 트래픽 관리]</li></ul> |
-| Same-as-SiteCatalyst VISTA Processing ON | 2021년 3월 17일 | 2021년 6월 17일에 모든 보고서 세트가 업데이트되어 [!UICONTROL Same-as-SiteCatalyst VISTA Processing] 이 ON으로 설정될 것입니다. 이 변경 사항은 처리 규칙과 일치하도록 데이터를 처리함으로써 Data Warehouse 보고에 영향을 줍니다. 질문이나 설명이 필요한 경우 고객 지원 센터에 문의하십시오. |
-| Reports &amp; Analytics 랜딩 페이지 옵션 | 2021년 2월 19일 | 2021년 3월 25일에 새로운 Reports &amp; Analytics 대시보드 또는 기타 콘텐츠를 Adobe Analytics 랜딩 페이지로 설정하는 옵션이 제거되었습니다. 이전에 Reports &amp; Analytics 페이지를 맞춤형 랜딩 페이지로 설정했다면 [!UICONTROL 사용자 환경 설정]에서 랜딩 페이지를 수정하기 전까지는 계속 작동합니다. |
-| Adobe Data Connectors EOL | 2020년 7월 13일 | Adobe [!UICONTROL Data Connectors] 는 더 이상 실행 불가능하거나 지원되지 않는 레거시 기술을 기반으로 합니다. [Adobe Exchange Partner Program](https://partners.adobe.com/exchangeprogram/experiencecloud)에서 새로운 표준을 사용할 수 있습니다. 이 표준을 사용하여 모든 통합이 지속적으로 제공되고 지원될 수 있습니다. 공식적인 서비스 종료 날짜는 2021년 8월 1일입니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=ko-KR) |
+| 3개의 Analytics API 서비스에 대한 사용 종료 | 2021년 7월 15일 | **2021년 8월 18일**&#x200B;에 다음 Analytics 이전 API 서비스가 종료됩니다. 이러한 서비스를 사용하여 구축한 현재 모든 통합은 해당 날짜부터 더 이상 작동하지 않습니다.<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증(OAuth 및 JWT)</li></ul>Adobe는 질문에 답변하고 진행 방법에 대한 지침을 제공하기 위해 [이전 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) 를 제공했습니다. 이들 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 이전 OAuth 계정은 [Adobe I/O](https://console.adobe.io/home?mv=email#) Analytics 통합 계정으로 마이그레이션할 수 있으며, 이 계정은 1.4 Analytics API 및 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다. |
+| Adobe Data Connectors EOL | 2020년 7월 13일 | Adobe [!UICONTROL Data Connectors] 는 더 이상 실행 불가능하거나 지원되지 않는 레거시 기술을 기반으로 합니다. [Adobe Exchange Partner Program](https://partners.adobe.com/exchangeprogram/experiencecloud)에서 새로운 표준을 사용할 수 있습니다. 이 표준을 사용하여 모든 통합이 지속적으로 제공되고 지원될 수 있습니다. 공식 수명 종료 날짜는 **2021년 8월 1일**&#x200B;입니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=ko-KR) |
+| 전체 프로세싱 데이터 소스 서비스 중단 | 2021년 4월 12일 | Adobe은 2021년 7월 31일에 전체 처리 데이터 소스 **를 사용하지 않도록 설정할 계획입니다**. 2021년 3월 25일부터 이 유형의 새로운 가져오기는 더 이상 생성되지 않습니다. 이 유형의 데이터를 가져오려면 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 를 사용해 주십시오. |
+| [!UICONTROL Report Builder]로 로그인 업데이트 | 2021년 4월 21일 | 2021년 1월 14일 [!UICONTROL Report Builder] 로그인 업데이트로 레거시 기술의 종속성이 제거되었고, 로그인 프로세스와 Experience Cloud가 연결되었습니다. Experience Cloud는 Enterprise ID(이메일과 암호)를 사용합니다. [!UICONTROL Report Builder]에 중단 없이 액세스하려면 2021년 7월 22일까지 [!UICONTROL Report Builder]**추가 기능을 버전 5.6.47 이상으로 업데이트합니다**. Report Builder 버전 5.6.47 이상은 Experience Cloud 로그인을 지원하고, Single Sign-On을 지원하지 않습니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -183,12 +182,9 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [JavaScript용 AppMeas
 
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021년 6월 | [관리자를 위한 Customer Journey Analytics 시작하기](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-A-1-2020.1) | 교육 과정 | Customer Journey Analytics 설정, 구성 및 관리 방법을 알아봅니다. 기초와 관련된 몇 가지 기본 개념을 학습한 다음 더 많은 구성 단계로 이동합니다. 그런 다음 계산된 지표 및 세그먼트를 Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션하는 방법에 대한 몇 가지 권장 사항으로 교육 과정이 제한됩니다. |
-| 2021년 6월 | [내부 사이트 검색 보고서 구성](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-use-cases/internal-site-search/configure-internal-site-search-reports.html?lang=en) | 비디오 | Analysis Workspace에서 자유 형식 테이블을 만들고 구성하여 사이트의 내부 검색 기능을 분석합니다. |
-| 2021년 6월 | [Web SDK 변수를 Adobe Analytics에 매핑](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-use-cases/internal-site-search/map-web-sdk-variables-into-adobe-analytics.html?lang=en) | 비디오 | 처리 규칙을 사용하여 웹 SDK에서 Adobe Analytics으로 분석 변수를 매핑하는 방법을 알아봅니다. |
-| 2021년 6월 | [Web SDK를 사용하여 내부 검색 변수 구현](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-use-cases/internal-site-search/implement-internal-search-variables-using-web-sdk.html?lang=en) | 비디오 | 웹 SDK를 사용하여 내부 검색어 추적 사용 사례용 Adobe Analytics 변수를 구현하는 방법을 알아봅니다. 페이지에서 Experience Edge로 간, 그리고 Adobe Analytics으로 데이터의 흐름을 참조하십시오. |
-| 2021년 6월 | [AppMeasurement를 사용하여 내부 검색 변수 구현](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-use-cases/internal-site-search/implement-internal-search-variables-using-appmeasurement.html?lang=en) | 비디오 | 이 비디오에서는 검색어, 결과 수 등을 포함하여 Experience Platform 데이터 수집/실행 을 사용하여 Adobe Analytics에 대한 내부 사이트 검색 변수를 구현하는 단계를 알아봅니다. |
-| 2021년 6월 | [내부 사이트 검색 비즈니스 요구 사항 정의](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-use-cases/internal-site-search/defining-your-internal-site-search-business-requirements.html?lang=en) | 비디오 | 사이트에서 내부 검색을 추적하기로 결정할 때 먼저 추적할 검색의 측면과 결과 분석에서 수행할 수 있는 작업을 결정하는 것이 중요합니다. 이 비디오에서는 비즈니스 요구 사항을 문서화하여 설명합니다. |
+| 2021년 7월 | [프로젝트에서 도넛 시각화 사용](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/using-the-donut-visualization.html?lang=en) | 비디오 | Analysis Workspace 프로젝트에서 도넛 시각화를 추가하고 구성하는 방법을 알아봅니다. |
+| 2021년 7월 | [막대 및 스택 막대 시각화](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/bar-and-bar-stacked-visualizations.html?lang=en) | 비디오 | 이 비디오에서는 Analysis Workspace의 프로젝트에서 막대, 스택 막대, 가로 막대 및 스택 가로 막대 시각화를 추가 및 구성하는 방법에 대해 설명합니다. 기본 것으로 간주되지만 이러한 시각화는 데이터 스토리를 전달하고 분석가를 위한 통찰력을 제공하는 데 도움이 될 수 있습니다. |
+| 2021년 7월 | [영역 및 스택 영역](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/area-and-area-stacked.html) | 비디오 | Analysis Workspace에서 프로젝트에 영역 및 스택 영역 시각화를 추가하는 방법을 배우고, 필요에 따라 시각화를 사용자 지정하는 데 도움이 되는 몇 가지 팁을 알아봅니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -202,82 +198,108 @@ Audience Manager의 수정 및 개선 사항.
 
 ### 수정 사항 및 향상된 기능 {#aam-fixes-and-improvements}
 
-* 이제 1년 이상의 데이터를 검토할 수 있는 [활동 사용량 보고서](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/activity-usage-reporting.html?lang=en)에 대한 개선 사항이 릴리스되었습니다. (AAM-58268)
-* Adobe은 Audience Manager 고객에게 Audience Manager Amazon S3 버킷에 대한 사용자 액세스 키를 제공합니다. 보안상의 이유로 100일 동안 활동이 없으면 키가 자동으로 비활성화됩니다. 자세한 내용은 [데이터 수집 및 제품 통합 FAQ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/faqs/faq-data-collection.html?lang=en)에서 페이지 하단에 있는 질문을 참조하십시오.
+* Admin Console에서 IMS 사용자 계정을 삭제할 때 사용자 계정이 사용자 그룹의 일부인 경우 Audience Manager에서 제거되지 않았습니다. 이제 IMS 사용자 계정은 Admin Console에서 삭제 시 Audience Manager 사용자 그룹에서 자동으로 매핑되지 않습니다. (AAM-57633)
 
 ## ![아이콘](/assets/aem.png) Experience Manager {#aem}
 
- Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니다. 안정성, 보안 및 성능 향상을 위해 최신 패치를 배포하려는 경우 온프레미스 배포를 사용하는 것이 좋습니다.
+Experience Manager의 새로운 기능, 수정 내용 및 업데이트. 안정성, 보안 및 성능 향상을 위해 최신 패치를 배포하려는 경우 온프레미스 배포를 사용하는 것이 좋습니다.
 
 >[!NOTE]
 >
 >Adobe는 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Manager 릴리스 업데이트 및 로드맵](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=ko-KR) 페이지를 방문할 것을 권장합니다.
 
-### Experience Manager 제품 업데이트
-
-* **Experience Manager 6.5.9.0**
-
-   Experience Manager 6.5, 서비스 팩 9.0(2021년 5월 27일 릴리스된 6.5.9.0)은 새로운 기능, 주요 고객 요청 개선 사항, 향상된 성능, 안정성 및 보안 기능을 포함한 중요한 업데이트로, 2019년 4월 AEM 6.5의 공식 출시 이후 릴리스되었습니다.
-
-   * [릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=ko-KR)
-   * [AEM Forms 릴리스 결과물](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html?lang=en)
-
 ### Experience Manager 제품 릴리스
 
 * **Experience Manager as a Cloud Service**
 
-   Experience Manager as a Cloud Service의 새로운 기능.
+   Experience Manager as a Cloud Service의 새로운 기능:
 
-   >[!NOTE]
-   >
-   >이제 Cloud Service으로 Experience Manager 6월 기능 릴리스를 사용할 수 있습니다. 새 기능을 경험하려면 2021.6.5561 Experience Manager 이상을 사용 중인지 확인하십시오.
+   * **Adobe Experience Manager as a Cloud Service용 XML 설명서**
 
-   * **Adobe Experience Manager as a Cloud Service 기반**
+      * **클라우드 기반의 구성 요소 컨텐츠 관리 시스템**  - Adobe Experience Manager용 XML 설명서는 Cloud Service으로 사용할 수 있습니다. 문서 및 컨텐츠를 규모에 맞게 작성, 관리 및 전달할 수 있는 환경을 조성합니다.
+      * **AI 기반 설명서**  - 메타데이터 레이블 지정을 위해 텍스트에서 관련 메타데이터 키워드를 자동으로 식별 및 추출하는 스마트 태그 지정 기능입니다.
+      * **웹 편집기의 새로운 모양 및 느낌**  - UI 변경 사항이 추가되어 보다 직관적인 기능을 제공합니다. 기본 아키텍처가 coral에서 React 기반 스펙트럼으로 변경되었습니다.
+   * **Cloud Service으로 Experience Manager**
 
-      * [사전 릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/prerelease.html?lang=en):프로덕션에서 라이브로 전환되기 한 달 전에 예정된 기능을 미리 봅니다!
-      * [API 사용 중단](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html?lang=en):더 이상 사용되지 않는 최신 API 목록.
-      * [Experience Manager as a Cloud Service SDK Build Analyzer Maven 플러그인](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/build-analyzer-maven-plugin.html?lang=en):더 이상 사용되지 않는 Java™ API 확인 및 기타 개선 사항이 포함된 전문 프로젝트를 최신 버전으로 업데이트합니다.
-   * **Experience Manager Sites as a Cloud Service**
-
-      이제 새 [미리 보기 계층](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/previewing-content.html?lang=en)에서 콘텐츠를 확인하여 게시 계층에서 수행한 최종 경험 모양과 느낌을 시뮬레이션할 수 있습니다. 이 새 기능은 사이트 관리 게시 Experience Manager 마법사에서 활성화됩니다. 이 마법사를 사용하여 [!UICONTROL 게시] 또는 [!UICONTROL 미리 보기] 간에 게시 대상을 선택할 수 있습니다. 그런 다음 전용 URL을 사용하여 [!UICONTROL 미리 보기]에 있는 경험에 액세스할 수 있습니다. [!UICONTROL 미리 보기]에 대한 유효성 검사 후 평소대로 [!UICONTROL 작성자]에서 [!UICONTROL 게시]에 콘텐츠를 게시할 수 있습니다. Cloud Service 환경으로서 Experience Manager에서 [!UICONTROL 미리 보기] 서비스를 활성화하는 것이 몇 주 후에 점진적으로 진행되고 있습니다.
-
+      * [!UICONTROL 미리 ] 보기 서비스는 모든 프로그램에 롤링 기반으로 배포됩니다. [!UICONTROL 미리 보기 서비스]에 대한 프로그램이 활성화되면 고객이 제품 내에 알림을 받게 됩니다. [미리 보기 서비스 액세스](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/manage-environments.html?lang=en#access-preview-service)를 참조하십시오.
+      * 이제 빌드 단계 중에 다운로드한 Maven 종속성이 파이프라인 실행 간에 캐시됩니다. 이 기능은 다음 몇 주 후에 고객에 대해 활성화됩니다.
+      * 이제 [!UICONTROL 프로그램 편집] 대화 상자를 통해 프로그램 이름을 편집할 수 있습니다.
+      * Git 워크플로우를 관리하는 방식으로 프로젝트 생성 및 기본 [!UICONTROL Push] 명령에 사용되는 기본 분기 이름이 `main`(으)로 변경되었습니다.
+      * 인터페이스의 프로그램 편집 환경을 새로 고쳤습니다.
+      * `/oak:index` 노드를 변경할 수 없는 것으로 분류하도록 품질 규칙 `ImmutableMutableMixCheck`이 업데이트되었습니다.
+      * 품질 규칙 `CQBP-84andCQBP-84--dependencies`이(가) 단일 규칙으로 통합되었습니다. 이 통합의 일부로, 종속성을 스캔하면 Experience Manager 런타임으로 배포되는 타사 종속성의 문제를 보다 정확하게 식별할 수 있습니다.
+      * 혼동을 방지하기 위해 환경 세부 사항 페이지의 Experience Manager 게시 및 Dispatcher 세그먼트 행이 통합되었습니다.
+      * `damAssetLucene`인덱스 구조의 유효성을 확인하기 위해 새 코드 품질 규칙이 추가되었습니다. [사용자 지정 DAM Asset Lucene Oak 색인](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/test-results/custom-code-quality-rules.html?lang=en#oakpal-damAssetLucene-sanity-check)을 참조하십시오.
+      * 이제 환경 세부 사항 페이지에 해당하는 경우 게시 및 미리 보기 서비스의 여러 도메인 이름이 표시됩니다. [환경 세부 정보](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/manage-environments.html?lang=en#viewing-environment)를 참조하십시오.
    * **Experience Manager Assets as a Cloud Service**
 
-      사전 릴리스 채널의 새로운 기능:
+      자산의 새로운 기능:
+
+      * [!UICONTROL 컨텐츠 ] 자동 기능을 사용하면 Experience Manager 자산에서 Adobe Creative Cloud API를 사용하여 자산 프로덕션을 규모에 맞게 자동화할 수 있습니다. 동일한 자산의 변형을 만드는 데 필요한 시간과 반복 시간을 크게 줄여 컨텐츠 속도를 향상시킵니다. 이 기능은 DAM 내에서 프로그래밍과 작업할 필요가 없습니다. [Adobe Creative Cloud 통합을 사용하여 자산의 변형 생성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/cc-api-integration.html?lang=en)을 참조하십시오.
+      * [Adobe Photoshop, Adobe Illustrator 및 Adobe InDesign용 Adobe Asset Link 3.0](https://helpx.adobe.com/kr/enterprise/using/adobe-asset-link.html) 과 Adobe XD용 Adobe  [Adobe Asset Link 2.0](https://helpx.adobe.com/kr/enterprise/using/adobe-asset-link-for-xd.html) 을 사용할 수 있습니다. Assets Essentials 및 Experience Manager에 Cloud Service 또는 Assets Essentials으로 자동으로 연결하는 기능을 지원합니다.
+      * [자산 일괄 수집 도구](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ko-KR#asset-bulk-ingestor)를 사용하면 일괄 수집 중에 메타데이터를 추가할 수 있습니다.
+
+      Assets 사전 릴리스 채널의 새로운 기능:
+
+      * 보기 설정이 개선되어 기본 보기와 기본 정렬 매개 변수를 선택할 수 있습니다.
+      * [!UICONTROL 링크 공유] 다운로드 기능은 다운로드 속도를 높이는 비동기 다운로드를 사용합니다. [링크 공유를 사용하여 공유된 자산 다운로드](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=en#link-share-download)를 참조하십시오.
+      * 속성 설명을 기반으로 폴더를 검색하고 필터링할 수 있습니다.
+      * Experience Manager 자산에는 지원되는 문서 형식을 미리 보기 위한 PDF 뷰어가 포함되어 있습니다. Adobe Document Cloud에서 지원합니다. 이 기능을 사용하면 복잡한 처리 없이 PDF 및 기타 다중 페이지 파일을 미리 볼 수 있습니다. 이 기능은 Experience Manager 6.5와의 기능 패리티를 개선합니다. 미리 보기에서 사용할 수 있는 컨트롤은 확대/축소, 페이지 탐색, 도킹 해제 컨트롤 및 전체 화면에서 보는 것입니다. 통합 PDF 뷰어는 AI, DOCX, INDD, PDF 및 PSD 파일 형식을 지원합니다. 자산 자체에 주석을 달 수 있지만 PDF 파일 내의 주석 및 주석은 지원되지 않습니다.
+      * 사용자 환경 개선 사항에 폴더에 있는 자산 수가 표시됩니다. 폴더에 있는 자산이 1000개 이상인 경우 Assets에 1000 이상이 표시됩니다.
+      * 메타데이터 스키마를 속성의 폴더에 직접 적용할 수 있습니다.
+   * **Experience Manager Sites as a Cloud Service**
+
+      새로운 기능:
+
+      * 이제 미리 보기 계층에 게시 가 Sites 관리 UI에서 페이지 상태로 표시됩니다.
+      * 이제 미리 보기 계층에 게시하면 작업 끝에 미리 보기 URL이 표시되고 나중에 참조할 수 있도록 페이지 속성에서 URL이 유지됩니다.
+   * **Experience Manager Forms as a Cloud Service**
+
+      새로운 기능:
 
       * 메타데이터 스키마는 폴더 속성에 직접 적용할 수 있습니다.
-      * [!UICONTROL 자산 일괄 수집 또는] 도구를 사용하여 일괄 수집 중에 메타데이터를 추가할 수 있습니다.
+      * 자산 일괄 수집 도구를 사용하여 일괄 수집 중에 메타데이터를 추가할 수 있습니다.
       * 사용자 환경 개선 사항에 폴더에 있는 자산 수가 표시됩니다. 폴더에 있는 자산이 1000개 이상인 경우 Experience Manager 자산에 1000 이상이 표시됩니다.
 
-      [!UICONTROL Dynamic Media]의 새로운 기능:
+      Forms의 베타 기능:
 
-      * DPR(Smart Imaging Device Pixel Ratio) 및 네트워크 대역폭 최적화를 사용하면 고해상도 디스플레이와 제한된 네트워크 대역폭을 사용하는 장치에서 최상의 품질의 이미지를 효율적으로 제공할 수 있습니다. [스마트 이미징 FAQ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/imaging-faq.html?lang=en)를 참조하십시오.
+      * **Forms as a Cloud Service Experience Manager - 통신**  - 통신 API를 사용하면 XDP 템플릿과 XML 데이터를 결합하여 다양한 형식으로 인쇄 문서를 생성할 수 있습니다. 이 서비스를 사용하면 동기 모드로 문서를 생성할 수 있습니다. API를 사용하면 다음을 수행할 수 있는 애플리케이션을 만들 수 있습니다.
+         * XML 데이터로 템플릿 파일을 채워서 문서를 생성합니다.
+         * 비대화형 PDF 인쇄 스트림을 포함하여 다양한 형식으로 출력 양식을 생성합니다.
+         * XFA 양식 PDF 및 Adobe Acrobat 양식(AcroForm)에서 인쇄 PDF를 생성합니다.
+
+      [formscsbeta@adobe.com](mailto:formscsbeta@adobe.com)에 작성하여 베타 프로그램에 등록할 수 있습니다.
+
+   * **Cloud Service으로 Experience Manager Screens**
+
+      * 대량 장치 등록 관리는 대량의 플레이어 장치를 제공하는 것이 더 빠르고 효율적이라는 것을 의미합니다.
+      * 각 장치, 표시 및 채널 인벤토리 보기에 대한 검색 및 필터 옵션이 개선되었습니다.
+      * 디바이스 상태 스냅샷은 중요한 상태를 한 눈에 제공하여 시간을 절약합니다.
+      * 객체 세부 정보 페이지에는 프로젝트의 각 객체에 대한 가장 관련성이 높은 정보가 요약되어 있습니다.
 
 
 
-### **Experience Manager 커뮤니티**
 
-* [모든 Experience Manager 블로그에 대해 원스톱 스토어](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/bd-p/adobe-experience-manager-discussions)
 
-* [새 Experience Manager 아이디어 제출 지침](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/guidelines-for-submitting-a-new-experience-manager-aem-idea/td-p/382376)
 
-* [2021 Adobe Summit이 댄 레비를 몰래 데리고 온다](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/adobe-summit-2021-sneaks-with-dan-levy/td-p/405865).매년 한 번, 엔지니어 및 데이터 과학자에서 UX 디자이너와 제품 관리자에 이르기까지 모든 Adobe 직원은 브랜드와 고객의 상호 작용을 발전시키는 혁신적인 아이디어를 공유할 수 있는 기회를 제공합니다. Adobe와 함께 상위 7개 프로젝트를 공유하고 AI 및 낮은 코드 앱과 같은 분야에서 최신 기술을 활용할 수 있는 Adobe Skinks를 이용해 보십시오.
+
 
 ### Experience Manager 릴리스 정보
 
 모든 Experience Manager 릴리스 정보는 다음 페이지에서 유지 관리됩니다.
 
-* [Experience Manager as a Cloud Service 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=en)
+* [Experience Manager as a Cloud Service 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=ko-KR)
 * [Cloud Service 릴리스 노트로 Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=en)
 * [Experience Manager Cloud Manager 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/release-notes/release-notes-current.html?lang=en)
 * [자동 양식 전환 서비스 릴리스 정보](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/release-notes.html?lang=en)
-* [Experience Manager 6.5 서비스 팩 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=en)
+* [Experience Manager 6.5 서비스 팩 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=ko-KR)
 * [Experience Manager 6.4 Cumulative Fix Pack 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/cfp-release-notes.html?lang=ko-KR)
 * [Experience Manager Assets Dynamic Media 릴리스 정보](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/release-notes/s7rn2017.html?lang=ko-KR)
 * [Experience Manager Brand Portal 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html?lang=ko-KR)
 * [Experience Manager 데스크탑 앱 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/release-notes.html?lang=en)
 * [Experience Manager Dispatcher 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/getting-started/release-notes.html?lang=ko-KR)
-* [Livefyre 릴리스 정보](https://experienceleague.adobe.com/docs/livefyre/using/release-notes/c-rn.html?lang=ko-KR)
+* [Adobe Primetime 릴리스 정보](https://experienceleague.adobe.com/docs/primetime/release-notes/home.html)
+* [Livefyre 릴리스 정보](https://experienceleague.adobe.com/docs/livefyre/using/release-notes/c-rn.html)
 
 ### 새로운 Experience Manager 교육 과정 및 튜토리얼 {#tutorials-aem}
 
@@ -285,20 +307,14 @@ Audience Manager의 수정 및 개선 사항.
 
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021년 6월 | [인터페이스 메서드 구현](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/doc-cloud-sdk/implement-interface.html?lang=en) | 문서 | Document Cloud REST API를 사용하여 PDF를 만드는 인터페이스 방법을 구현하는 방법을 알아봅니다. |
-| 2021년 6월 | [서비스 인터페이스 만들기](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/doc-cloud-sdk/create-interface.html) | 문서 | 인터페이스에서 노출할 메서드를 정의합니다. |
-| 2021년 6월 | [사용자 지정 OSGi 구성 만들기](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/doc-cloud-sdk/create-doc-cloud-configuration.html?lang=en) | 문서 | Adobe I/O 프로젝트 세부 사항을 캡처할 수 있도록 사용자 지정 OSGi 구성에 대해 알아봅니다. |
-| 2021년 6월 | [컨텐츠 분석기 만들기](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/doc-cloud-sdk/get-content-analyzer.html?lang=en) | 문서 | PDF REST 만들기 호출에 입력 매개 변수에 대한 정보가 포함된 JSON 부분을 만드는 방법을 알아봅니다. |
-| 2021년 6월 | [사용자 지정 프로세스 단계 만들기](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/doc-cloud-sdk/custom-process-step.html?lang=en) | 문서 | 기본 파일을 변환된 PDF로 변환하고 대체하는 사용자 정의 프로세스 단계의 전체 코드를 표시합니다. 이 사용자 지정 단계에서는 워크플로우에서 프로세스 인수로 제공되는 폴더 이름의 모든 첨부 파일을 검색합니다. 이 사용자 지정 프로세스 단계에서는 사용자 지정 `DocumentCloudSDKService` 메서드를 사용하여 PDF를 만듭니다. |
-| 2021년 6월 | [GraphQL 지속적인 쿼리](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/video-series/graphql-persisted-queries.html?lang=en) | 비디오 | Experience Manager에서 지속되는 쿼리를 활성화, 생성, 업데이트 및 실행하는 방법을 알아봅니다. |
-| 2021년 6월 | [AEM Forms에서 첫 번째 서블릿 만들기](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-osgi-bundle/create-servlet.html?lang=en) | 문서 | 데이터를 양식 템플릿과 병합할 수 있도록 첫 번째 sling 서블릿을 빌드합니다. |
-| 2021년 6월 | [Experience Manager 양식을 사용하여 첫 번째 OSGi 서비스 만들기](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-osgi-bundle/create-osgi-service.html?lang=en) | 문서 | 템플릿에 데이터를 병합하여 PDF를 생성할 수 있도록 AEM Forms에서 첫 번째 OSGi 서비스를 빌드합니다. |
+| 2021년 7월 | [Adobe Experience Manager용 XML 설명서](https://experienceleague.adobe.com/docs/experience-manager-xml-documentation-learn/tutorials/overview.html?lang=en) | 문서 | [!UICONTROL XML 설명서 솔루션]에서 공동 작업, 검토, 번역, 검색 및 DITA 콘텐츠 보고서와 같은 모든 핵심 CMS 기능을 제공하는 방법을 알아봅니다. 이러한 기능을 통해 작성자는 효율적인 컨텐츠 재사용 및 강력한 워크플로우를 통해 적은 시간에 더 많은 작업을 수행할 수 있습니다. |
+| 2021년 7월 | [AEM 헤드리스 GraphQL 포스트만 컬렉션](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/video-series/modeling-basics.html?lang=en) | 비디오 | GraphQL에 사용되는 Adobe Experience Manager(AEM)에서 콘텐츠 조각을 정의 및 사용하는 방법을 알아봅니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
 ### Experience Manager용 기타 도움말 리소스
 
-* [Experience Manager as a Cloud Service 안내서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=en)
+* [Experience Manager as a Cloud Service 안내서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ko-KR)
 * [Experience Manager 6.5 학습 및 지원 홈](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/home.html?lang=ko-KR)
 * [Experience Manager 6.4 학습 및 지원 홈](https://experienceleague.adobe.com/docs/experience-manager-64.html?lang=ko-KR)
 * [Experience Manager 6.3 학습 및 지원 홈](https://helpx.adobe.com/kr/support/experience-manager/6-3.html)
@@ -316,29 +332,23 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 릴리스된 최신 기능, 개선 사항 및 수정 사항에 대해 자세히 알아보십시오.
 
-* **새로운 Adobe Campaign v8** 에서는 중요한 인프라, 보안, 게재 기능 및 모니터링 개선 사항을 제공합니다. Adobe Campaign v8은 더 많은 수의 고객 프로필을 관리할 수 있을 뿐만 아니라 시간당 훨씬 더 높은 전송률 및 트랜잭션을 지원하므로 크기 및 속도를 크게 향상시킵니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html)에서 알아보십시오.
-
-* **Adobe Campaign Classic v7 21.1.3 릴리스:**  [Campaign Classic v7 릴리스 노트](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ko-KR)에서 자세히 알아보십시오.
-
-* **Adobe Campaign Standard 21.2 릴리스:**  [Campaign Standard 릴리스 노트](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=ko-KR)에서 자세히 알아보십시오.
+* [Campaign Standard 릴리스 정보](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=ko-KR)
+* [Campaign Classic 릴리스 정보](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ko-KR)
 
 ### 새 [!UICONTROL Campaign] 교육 과정 및 자습서 {#tutorials-campaign}
 
 | 게시일 | 이름 | 솔루션 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021년 6월 | [Campaign Standard를 Analytics와 통합하여 이메일 마케팅 최적화](https://experienceleague.adobe.com/?lang=ko-KR?recommended=Campaign-U-1-2021.1.integration) | Campaign Standard | (교육 과정) Campaign Standard을 Adobe Analytics과 통합하고 실시간 데이터를 사용하여 이메일 마케팅 전략을 최적화하는 방법을 알아봅니다. 이 과정에서는 Adobe Analytics에서 Campaign Standard 보고서를 작성하는 방법을 보여 줍니다. 그런 다음 Experience Cloud 트리거 및 Platform Launch를 사용하여 고객 활동을 기반으로 마케팅 및 트랜잭션 메시지를 구성하는 방법에 대해 알아봅니다. |
-| 2021년 6월 | [Adobe Campaign v8 튜토리얼](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html) | Campaign V8 | 이 사용 안내서에는 Adobe Campaign V8의 다양한 기능과 성능에 대한 비디오 및 튜토리얼이 포함되어 있습니다. |
-| 2021년 6월 | [이메일 전달성 작성 및 디자인](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/content-creation/email/create-and-design-email-deliveries.html) | Campaign V8 | (비디오) 이메일 게재를 만드는 프로세스를 이해하고 이메일 콘텐츠를 디자인하고 개인화하는 방법을 알아봅니다. |
-| 2021년 6월 | [이메일 전달성 디자인](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/sending-messages/email/design-emails-for-deliverability.html) | Campaign V8 | (비디오) 이메일 게재에 게재 기능 우수 사례를 적용하는 방법을 알아봅니다. |
-| 2021년 6월 | [유형화 규칙을 사용하여 피로도 관리](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/sending-messages/fatigue-management/typology-rules-for-fatigue-management.html) | Campaign V8 | (비디오) 유형화 규칙을 적용하여 피로 관리를 구현하는 방법을 알아봅니다. |
-| 2021년 6월 | [필터를 사용하여 피로도 관리 설정](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/sending-messages/fatigue-management/fatigue-management-using-filters.html) | Campaign Standard | (비디오) 필터를 사용하여 Adobe Campaign에서 피로도 관리를 구현하는 방법을 알아봅니다. |
+| 2021년 7월 | [쿼리 결과를 결합하여 대상 세분화하기](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/process-management/refine-targets-by-combining-query-results.html) | Campaign v8 | 교차 또는 결합 활동을 사용하여 워크플로우에 쿼리 결과를 결합하여 대상을 세분화하는 방법을 알아봅니다.  |
+| 2021년 7월 | [마케팅 계획, 프로그램 및 캠페인 만들기](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/create-a-marketing-plan-programs-and-campaigns.html) | Campaign v8 | 마케팅 계획, 프로그램 및 캠페인을 만들어 캠페인에 대한 속성을 설정하고 일정을 사용하는 방법을 알아봅니다. |
+| 2021년 7월 | [구독 서비스 구성 및 관리](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/sending-messages/configure-and-manage-subscription-services.html) | Campaign v8 | 구독 및 대상 구독자를 설정 및 관리하는 방법을 알아봅니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
 ### 캠페인 도움말 리소스
 
-* Adobe Campaign Standard: [도움말 센터](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=ko-KR) - [릴리스 노트](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en) - [사용 방법 비디오](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko-KR) - [릴리스 계획](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-planning.html?lang=ko-KR) [- 최신 설명서 업데이트](https://experienceleague.adobe.com/docs/campaign-standard/using/documentation-updates.html?lang=ko-KR)
-* Adobe Campaign Classic: [도움말 센터](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=ko-KR) - [릴리스 정보](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=en) - [사용 방법 비디오](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko-KR)- [최신 설명서 업데이트](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=ko-KR)
+* Adobe Campaign Standard: [도움말 센터](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=ko-KR) - [릴리스 노트](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en) - [사용 방법 비디오](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en) - [릴리스 계획](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-planning.html?lang=ko-KR) [- 최신 설명서 업데이트](https://experienceleague.adobe.com/docs/campaign-standard/using/documentation-updates.html?lang=en)
+* Adobe Campaign Classic: [도움말 센터](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=ko-KR) - [릴리스 정보](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=en) - [사용 방법 비디오](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=en)- [최신 설명서 업데이트](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=en)
 * Adobe Campaign 제어판: [설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko-KR) - [릴리스 정보](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=en) - [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=ko-KR) / [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=ko-KR) 방법 비디오
 
 ## ![아이콘](/assets/advertising-cloud.png) Advertising {#adcloud}
@@ -350,7 +360,7 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 ### [!DNL Advertising DSP] 의 새로운 기능  {#adcloud-dsp}
 
-마지막 업데이트:**2021년 6월 10일(6월 16일 릴리스**)
+마지막 업데이트: **2021년 6월 10일(6월 16일 릴리스**)
 
 | 기능 | 설명 |
 | -----------| ---------- |
@@ -372,7 +382,7 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 최신 릴리스 정보는 Magento Commerce 및 오픈 소스 [릴리스 정보](https://devdocs.magento.com/guides/v2.4/release-notes/bk-release-notes.html)를 참조하십시오.
 
-## ![아이콘](/assets/target.png)[!DNL Target] {#target}
+## ![아이콘](/assets/target.png) [!DNL Target] {#target}
 
 최신 릴리스 정보는 [[!DNL Target] 릴리스 정보](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=ko-KR)를 참조하십시오.
 
@@ -398,7 +408,19 @@ Adobe Document Cloud용으로 게시된 새로운 비디오, 튜토리얼 또는
 
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021년 6월 | [Google Drive용 Adobe Acrobat](https://experienceleague.adobe.com/docs/document-cloud-learn/acrobat-learning/integrations/acrobatandgoogle.html) | 비디오 | Google Drive 앱에서 바로 시간 절약형 PDF 도구 및 전자 서명 워크플로우에 액세스할 수 있습니다. |
+| 2021년 7월 | [Adobe Sign의 액체 모드](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/mobile/mobile-tutorials/liquidmode.html) | 비디오 | 액체 모드 로 모바일 서명 경험을 개선하는 방법을 알아봅니다. 핀치 및 확대/축소를 줄여 입력 가능한 필드에 쉽게 집중할 수 있습니다. |
+| 2021년 7월 | [Adobe Sign API 시작하기](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/signapi.html) | 문서 | 개발자가 Sign API를 사용하여 Adobe 문서 서비스로 만든 애플리케이션 및 워크플로우를 향상시키는 방법을 알아봅니다. |
+| 2021년 7월 | [Adobe PDF 포함 API를 사용한 디지털 문서 게시](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/ddppdfembedapi.html) | 문서 | 웹 페이지에 PDF 뷰어를 포함함으로써 사용자가 HTML 및 CSS를 다시 디자인하거나 웹 사이트 액세스를 방해하지 않고 문서를 볼 수 있도록 할 수 있습니다. |
+| 2021년 7월 | [Adobe 문서 서비스 API를 사용한 학생-교사 공동 작업](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/educationcollab.html) | 문서 | PDF 서비스 API에 액세스하기 위한 `Node.js` 응용 프로그램의 공식 SDK에 대해 알아봅니다. 이렇게 하면 Microsoft Word 또는 Microsoft Excel과 같은 문서를 PDF로 변환할 수 있습니다. |
+| 2021년 7월 | [Adobe 문서 서비스 API를 사용하여 작업 게시](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/jobposting.html?lang=en) | 문서 | 여러 사용자가 있는 웹 사이트를 운영할 때는 모든 사용자에게 원활한 경험을 제공할 수 있는 경험을 디자인하는 것이 중요합니다. 업로드된 모든 문서를 자동으로 PDF로 변환하여 게시물에 인라인 포함시키는 방법을 알아봅니다. |
+| 2021년 7월 | [Adobe 문서 서비스 API를 사용하여 보고서 만들기 및 편집](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/reportcreation.html?lang=en) | 문서 | PDF를 사용하면 테이블, 그래픽 및 대화형 컨텐츠와 함께 모든 사람이 볼 수 있는 형식으로 풍부한 문서를 쉽게 공유할 수 있습니다. 경영진, 주주, 기증자 또는 기타 이해관계자와 이러한 통계를 공유하는 방법을 알아봅니다. |
+| 2021년 7월 | [Adobe 문서 서비스 API를 사용한 검토 및 승인](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/reviews.html?lang=en) | 문서 | 여러 Adobe 문서 서비스 API를 사용하여 실습 검토 및 승인 사용 사례를 해결하는 방법을 알아봅니다. |
+| 2021년 7월 | [Adobe 문서 서비스 API를 사용하여 검색 및 색인 지정](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/searching.html?lang=en) | 문서 | 이 자습서에서는 Adobe Document Services API의 환상적인 기능과 문서를 보관 및 디지털화하는 데 쉽게 사용할 수 있는 방법에 대해 설명합니다. Express NodeJS 애플리케이션을 작성한 다음 아카이빙, 디지털화 및 문서 변환을 위해 Document Services API를 통합하여 이러한 기능을 살펴봅니다. |
+| 2021년 7월 | [Adobe 문서 서비스 API를 사용하여 직원 오퍼 편지 관리](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/offer.html) | 문서 | 이 자습서에서는 사용자가 직원 세부 사항으로 채울 웹 양식을 표시하는 Node Express 프로젝트를 설정하는 과정을 안내합니다. 이러한 세부 사항은 웹을 통해 문서 서비스를 사용하여 나중에 Adobe Sign API를 사용하여 서명을 위해 고객에게 배달할 수 있는 PDF로 오퍼 편지를 생성합니다. |
+| 2021년 7월 | [Adobe 문서 서비스 API를 사용하여 법적 계약 관리](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/legal.html) | 문서 | 이 자습서에서는 문서의 사용자 지정 입력 필드 생성에서 Document Services API의 기능을 살펴봅니다. 또한 데이터 조작을 방지하기 위해 생성된 이러한 문서를 보호된 PDF(Portable Document Format)로 손쉽게 변환할 수 있는 방법을 살펴봅니다. |
+| 2021년 7월 | [Adobe 문서 서비스 API를 사용하여 NDA 만들기](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/nda.html) | 문서 | 회사 NDA용 Microsoft Word 템플릿을 만드는 방법을 알아봅니다. Microsoft Word용 Adobe의 무료 추가 기능인 Adobe 문서 생성 태그는 동적 값을 입력하기 위해 &quot;태그&quot;를 삽입할 수 있도록 도와줍니다. 템플릿에 JSON 데이터를 전달하고 동적 PDF를 만드는 방법도 알아봅니다. 그런 다음 비즈니스 요구 사항과 목표에 따라 해당 PDF를 이메일로 전송하거나 공동 작업자에게 표시할 수 있습니다. |
+| 2021년 7월 | [Adobe 문서 서비스 API를 사용하여 판매 제안 및 계약 관리](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/sales.html) | 문서 | 동적 데이터 및 워크플로우를 사용하여 영업 제안 생성 프로세스를 효율적으로 구축하는 방법을 알아봅니다. |
+| 2021년 7월 | [Adobe 문서 생성 API를 사용하여 송장 처리](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/invoices.html?lang=en) | 문서 | Adobe 문서 생성 API를 사용하여 송장을 자동으로 생성하고 PDF를 암호로 보호하며 각 고객에게 송장을 전달하는 방법을 알아봅니다. Node.js, JavaScript, Express.js, HTML 및 CSS에 대한 간단한 지식이 필요합니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
