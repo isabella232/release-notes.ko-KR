@@ -6,10 +6,10 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 96f2c28dfcebf903d11fa5fc02ab90405e0e4888
+source-git-commit: d33f6947012a86061ab4431f1b58c56dfa53910a
 workflow-type: tm+mt
-source-wordcount: '3950'
-ht-degree: 48%
+source-wordcount: '3936'
+ht-degree: 46%
 
 ---
 
@@ -47,7 +47,7 @@ Experience Cloud 애플리케이션과 서비스는 매달 업데이트됩니다
 
 ## ![](/assets/ec_appicon_24.png) 아이콘Experience Cloud Central UI 구성 요소 {#ecloud}
 
-Experience Cloud 중앙 인터페이스 구성 요소에는 자체 도움말, 검색 및 사용자 계정 환경 설정과 같은 통합 제품 헤더에서 액세스할 수 있는 업데이트가 포함됩니다. 사람, 위치(위치) 및 제품 관리 업데이트는 여기에서 확인할 수 있습니다.
+Experience Cloud 중앙 인터페이스 구성 요소에는 자체 도움말, 검색 및 사용자 계정 환경 설정과 같은 통합 제품 헤더에서 액세스되는 업데이트가 포함됩니다. 사람, 위치(위치) 및 제품 관리 업데이트는 여기에서 확인할 수 있습니다.
 
 | 기능 | 날짜 | 설명 |
 | ------- | ------- | -------|
@@ -72,7 +72,7 @@ Adobe 시스템 상태에 대한 최신 업데이트 및 최신 릴리스 정보
 릴리스 업데이트 정보와 Experience Platform 및 Experience Platform Launch에 대한 새 설명서를 포함합니다.
 
 * **2021년 6월 30일** [Experience Platform 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR)
-* **2021년 5월 17일** [Experience Platform 데이터 수집 릴리스 노트](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html?lang=ko-KR) (이전, Experience Platform Launch)
+* **2021년 5월 17일** [Experience Platform 데이터 수집 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/tags/release-notes/current.html) (이전, Experience Platform Launch)
 
 ### Experience Platform 튜토리얼 및 교육 과정 {#tutorials-platform}
 
@@ -138,7 +138,7 @@ Experience Platform을 사용하여 모든 개인의 요구 사항을 실시간 
 
 | 기능 | 설명 | [일반 가용성](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=ko-KR) - 대상 날짜 |
 | ----------- | ---------- | ------- |
-| 새 Adobe Analytics 랜딩 페이지(베타 열기) | Adobe Analytics의 새 랜딩 페이지는 Analysis Workspace과 Reports &amp; Analytics를 모두 작업 공간 우산 아래 단일 인터페이스 및 액세스 포인트로 가져옵니다. 여기에는 새로운 프로젝트 관리자 홈 페이지, 업데이트된 보고서 메뉴 및 현대화된 보고서뿐 아니라 보다 효과적으로 시작하는 데 도움이 되는 새로운 학습 섹션도 포함되어 있습니다. 새 페이지는 검색 기능을 향상시키고 Reports &amp; Analytics 사용자를 Workspace에서 개선된 보고 환경을 제공합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html) | 2021년 7월 26일 |
+| 새 Adobe Analytics 랜딩 페이지(베타 열기) | Adobe Analytics의 새 랜딩 페이지는 Analysis Workspace과 Reports &amp; Analytics를 모두 작업 공간 우산 아래 단일 인터페이스 및 액세스 포인트로 가져옵니다. 새 프로젝트 관리자 홈 페이지, 업데이트된 보고서 메뉴, 현대화된 보고서 및 새로운 학습 섹션을 통해 보다 효과적으로 시작할 수 있습니다. 새 페이지는 검색 기능을 향상시키고 Reports &amp; Analytics 사용자를 Workspace에서 개선된 보고 환경을 제공합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html) | 2021년 7월 26일 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -152,7 +152,7 @@ Experience Platform을 사용하여 모든 개인의 요구 사항을 실시간 
 
 ### Adobe Analytics의 수정 사항 {#aa-fixes}
 
-* 새 경고를 만들 때 경고가 전송되지 않고 오류가 표시되는 문제를 해결했습니다. (AN-263962)
+* 경고를 보낼 때 경고가 전송되지 않고 경고를 만들 때 오류가 표시되는 문제를 해결했습니다. (AN-263962)
 * Analysis Workspace의 가상 보고서 세트 문제를 수정했습니다. 지정한 날짜 범위를 벗어나는 데이터가 추출되었습니다. (AN-263121)
 * 작업 공간 프로젝트가 열리지 않는 문제를 수정했습니다(시간 초과). (AN-247248)
 * 보고서 세트 사용량 데이터를 [!UICONTROL 서버 호출 사용량]에서 로드할 수 없는 문제가 해결되었습니다. (AN-264215)
@@ -202,16 +202,14 @@ Audience Manager의 수정 및 개선 사항.
 
 ## ![아이콘](/assets/aem.png) Experience Manager {#aem}
 
-Experience Manager의 새로운 기능, 수정 내용 및 업데이트. 안정성, 보안 및 성능 향상을 위해 최신 패치를 배포하려는 경우 온프레미스 배포를 사용하는 것이 좋습니다.
+Adobe은 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Manager 릴리스 업데이트 및 로드맵](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=ko-KR) 자주 페이지를 방문할 것을 권장합니다.
 
->[!NOTE]
->
->Adobe은 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Manager 릴리스 업데이트 및 로드맵](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=ko-KR) 자주 페이지를 방문할 것을 권장합니다.
+### Experience Manager 릴리스 정보 {#aem-links}
 
-Experience Manager 릴리스 정보에 대한 링크:
+Experience Manager에 대한 릴리스 노트 및 기타 릴리스 정보 링크는 다음과 같습니다.
 
-* [Experience Manager as a Cloud Service 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=ko-KR)
 * [Cloud Service 릴리스 노트로 Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=en)
+* [Experience Manager as a Cloud Service 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=en)
 * [Experience Manager Cloud Manager 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/release-notes/release-notes-current.html?lang=en)
 * [자동 양식 전환 서비스 릴리스 정보](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/release-notes.html?lang=en)
 * [Experience Manager 6.5 서비스 팩 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=ko-KR)
@@ -234,12 +232,12 @@ Experience Manager 릴리스 정보에 대한 링크:
 
 {style=&quot;table-layout:auto&quot;}
 
-### Experience Manager용 기타 도움말 리소스
+### Experience Manager에 대한 기타 도움말 리소스
 
 * [Experience Manager as a Cloud Service 안내서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ko-KR)
 * [Experience Manager 6.5 학습 및 지원 홈](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/home.html?lang=ko-KR)
 * [Experience Manager 6.4 학습 및 지원 홈](https://experienceleague.adobe.com/docs/experience-manager-64.html?lang=ko-KR)
-* [Experience Manager 6.3 학습 및 지원 홈](https://helpx.adobe.com/kr/support/experience-manager/6-3.html)
+* [Experience Manager 6.3 학습 및 지원 홈](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=ko-KR)
 * [Experience Manager 6.2 학습 및 지원 홈](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=ko-KR#previous-updates)
 * [이전 버전의 Experience Manager 설명서](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en#previous-updates)
 * [Cloud Manager 사용 안내서](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=ko-KR)
@@ -335,14 +333,14 @@ Adobe Document Cloud용으로 게시된 새로운 비디오, 튜토리얼 또는
 | 2021년 7월 | [Adobe Sign의 액체 모드](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/mobile/mobile-tutorials/liquidmode.html) | 비디오 | 액체 모드 로 모바일 서명 경험을 개선하는 방법을 알아봅니다. 핀치 및 확대/축소를 줄여 입력 가능한 필드에 쉽게 집중할 수 있습니다. |
 | 2021년 7월 | [Adobe Sign API 시작하기](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/signapi.html) | 문서 | 개발자가 Sign API를 사용하여 Adobe 문서 서비스로 만든 애플리케이션 및 워크플로우를 향상시키는 방법을 알아봅니다. |
 | 2021년 7월 | [Adobe PDF 포함 API를 사용한 디지털 문서 게시](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/ddppdfembedapi.html) | 문서 | 웹 페이지에 PDF 뷰어를 포함함으로써 사용자가 HTML 및 CSS를 다시 디자인하거나 웹 사이트 액세스를 방해하지 않고 문서를 볼 수 있도록 할 수 있습니다. |
-| 2021년 7월 | [Adobe 문서 서비스 API를 사용한 학생-교사 공동 작업](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/educationcollab.html) | 문서 | PDF 서비스 API에 액세스하기 위한 `Node.js` 응용 프로그램의 공식 SDK에 대해 알아봅니다. 이렇게 하면 Microsoft Word 또는 Microsoft Excel과 같은 문서를 PDF로 변환할 수 있습니다. |
+| 2021년 7월 | [Adobe 문서 서비스 API를 사용한 학생-교사 공동 작업](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/educationcollab.html) | 문서 | PDF 서비스 API에 액세스하기 위한 `Node.js` 응용 프로그램의 공식 SDK에 대해 알아봅니다. 이렇게 하면 Microsoft® Word 또는 Microsoft® Excel과 같은 문서를 PDF로 변환할 수 있습니다. |
 | 2021년 7월 | [Adobe 문서 서비스 API를 사용하여 작업 게시](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/jobposting.html?lang=en) | 문서 | 여러 사용자가 있는 웹 사이트를 운영할 때는 모든 사용자에게 원활한 경험을 제공할 수 있는 경험을 디자인하는 것이 중요합니다. 업로드된 모든 문서를 자동으로 PDF로 변환하여 게시물에 인라인 포함시키는 방법을 알아봅니다. |
 | 2021년 7월 | [Adobe 문서 서비스 API를 사용하여 보고서 만들기 및 편집](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/reportcreation.html?lang=en) | 문서 | PDF를 사용하면 테이블, 그래픽 및 대화형 컨텐츠와 함께 모든 사람이 볼 수 있는 형식으로 풍부한 문서를 쉽게 공유할 수 있습니다. 경영진, 주주, 기증자 또는 기타 이해관계자와 이러한 통계를 공유하는 방법을 알아봅니다. |
 | 2021년 7월 | [Adobe 문서 서비스 API를 사용한 검토 및 승인](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/reviews.html?lang=en) | 문서 | 여러 Adobe 문서 서비스 API를 사용하여 실습 검토 및 승인 사용 사례를 해결하는 방법을 알아봅니다. |
 | 2021년 7월 | [Adobe 문서 서비스 API를 사용하여 검색 및 색인 지정](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/searching.html?lang=en) | 문서 | 이 자습서에서는 Adobe Document Services API의 환상적인 기능과 문서를 보관 및 디지털화하는 데 쉽게 사용할 수 있는 방법에 대해 설명합니다. Express NodeJS 애플리케이션을 작성한 다음 아카이빙, 디지털화 및 문서 변환을 위해 Document Services API를 통합하여 이러한 기능을 살펴봅니다. |
-| 2021년 7월 | [Adobe 문서 서비스 API를 사용하여 직원 오퍼 편지 관리](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/offer.html) | 문서 | 이 자습서에서는 사용자가 직원 세부 사항으로 채울 웹 양식을 표시하는 Node Express 프로젝트를 설정하는 과정을 안내합니다. 이러한 세부 사항은 웹을 통해 문서 서비스를 사용하여 나중에 Adobe Sign API를 사용하여 서명을 위해 고객에게 배달할 수 있는 PDF로 오퍼 편지를 생성합니다. |
+| 2021년 7월 | [Adobe 문서 서비스 API를 사용하여 직원 오퍼 편지 관리](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/offer.html) | 문서 | 이 자습서에서는 사용자가 직원 세부 사항으로 채울 웹 양식을 표시하는 Node Express 프로젝트를 설정하는 과정을 안내합니다. 이러한 세부 사항은 웹을 통해 문서 서비스를 사용하여 나중에 Adobe Sign API를 사용하여 서명을 위해 고객에게 배달할 수 있는 PDF로 오퍼 레터를 생성합니다. |
 | 2021년 7월 | [Adobe 문서 서비스 API를 사용하여 법적 계약 관리](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/legal.html) | 문서 | 이 자습서에서는 문서의 사용자 지정 입력 필드 생성에서 Document Services API의 기능을 살펴봅니다. 또한 데이터 조작을 방지하기 위해 생성된 이러한 문서를 보호된 PDF(Portable Document Format)로 손쉽게 변환할 수 있는 방법을 살펴봅니다. |
-| 2021년 7월 | [Adobe 문서 서비스 API를 사용하여 NDA 만들기](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/nda.html) | 문서 | 회사 NDA용 Microsoft Word 템플릿을 만드는 방법을 알아봅니다. Microsoft Word용 Adobe의 무료 추가 기능인 Adobe 문서 생성 태그는 동적 값을 입력하기 위해 &quot;태그&quot;를 삽입할 수 있도록 도와줍니다. 템플릿에 JSON 데이터를 전달하고 동적 PDF를 만드는 방법도 알아봅니다. 그런 다음 비즈니스 요구 사항과 목표에 따라 해당 PDF를 이메일로 전송하거나 공동 작업자에게 표시할 수 있습니다. |
+| 2021년 7월 | [Adobe 문서 서비스 API를 사용하여 NDA 만들기](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/nda.html) | 문서 | 회사 NDA용 Microsoft® Word 템플릿을 만드는 방법을 알아봅니다. Microsoft® Word용 Adobe의 무료 추가 기능인 Adobe 문서 생성 태그는 동적 값을 입력하기 위해 &quot;태그&quot;를 삽입할 수 있도록 도와줍니다. 템플릿에 JSON 데이터를 전달하고 동적 PDF를 만드는 방법도 알아봅니다. 그런 다음 비즈니스 요구 사항과 목표에 따라 해당 PDF를 이메일로 전송하거나 공동 작업자에게 표시할 수 있습니다. |
 | 2021년 7월 | [Adobe 문서 서비스 API를 사용하여 판매 제안 및 계약 관리](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/sales.html) | 문서 | 동적 데이터 및 워크플로우를 사용하여 영업 제안 생성 프로세스를 효율적으로 구축하는 방법을 알아봅니다. |
 | 2021년 7월 | [Adobe 문서 생성 API를 사용하여 송장 처리](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/invoices.html?lang=en) | 문서 | Adobe 문서 생성 API를 사용하여 송장을 자동으로 생성하고 PDF를 암호로 보호하며 각 고객에게 송장을 전달하는 방법을 알아봅니다. Node.js, JavaScript, Express.js, HTML 및 CSS에 대한 간단한 지식이 필요합니다. |
 
