@@ -6,9 +6,9 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: bd6b98b1decdcf563421c1f828d3fb068fb6ca33
+source-git-commit: 906530244a4f60dd032aaafb772025478c42c017
 workflow-type: tm+mt
-source-wordcount: '4863'
+source-wordcount: '4867'
 ht-degree: 41%
 
 ---
@@ -23,7 +23,7 @@ Experience Cloud 애플리케이션과 서비스는 매달 업데이트됩니다
 >
 >월별 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html) 를 구독하면 이 페이지의 업데이트에 대한 이메일 알림을 받을 수 있습니다. 이 페이지는 한 달 동안 유지되므로 Adobe 엔터프라이즈 제품 및 Experience League 설명서에 대한 업데이트를 정기적으로 확인하십시오.
 
-최신 업데이트: **2021년 7월 16일**
+최신 업데이트: **2021년 7월 19일**
 
 * [Experience Cloud 중앙 인터페이스 구성 요소](#ecloud)
 * [Adobe 시스템 상태](#status)
@@ -31,7 +31,7 @@ Experience Cloud 애플리케이션과 서비스는 매달 업데이트됩니다
 * [Journey Optimizer](#journey-opt)
 * [Journey Orchestration](#journey-orch)
 * [Offer Decisioning](#offer-decisioning)
-* [[!DNL Analytics]](#analytics) 및  [Customer Journey Analytics](#cust-journey)
+* [[!DNL Analytics]](#analytics) 및  [Customer Journey Analytics](#cust-journey) (2021년 7월 19일 업데이트됨)
 * [[!DNL Audience Manager]](#aam)
 * [[!DNL Experience Manager]](#aem)
 * [[!DNL Campaign]](#ac)
@@ -128,7 +128,7 @@ Experience Platform을 사용하여 모든 개인의 요구 사항을 실시간 
 릴리스 날짜: **2021년 7월 22일**
 
 * [Adobe Analytics의 새로운 기능](#aa-features)
-* [Customer Journey Analytics의 새로운 기능](#cust-journey)
+* [Customer Journey Analytics의 새로운 기능](#cust-journey) (업데이트 날짜: 2021년 7월 19일)
 * [Adobe Analytics의 수정 사항](#aa-fixes)
 * [Analytics 관리자에 대한 중요 공지](#aa-notices)
 * [Analytics 교육 과정 및 튜토리얼](#tutorials-analytics)
@@ -146,7 +146,7 @@ Experience Platform을 사용하여 모든 개인의 요구 사항을 실시간 
 
 | 기능 | 설명 | [일반 가용성](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=en) - 대상 날짜 |
 | ----------- | ---------- | ----- |
-| 새 연결 정보 환경 | 이 연결 UI 개선 사항을 통해 데이터를 보고에 사용할 준비가 되었는지 여부와 시기를 알 수 있습니다. 또한 처리 데이터와 관련된 문제를 추적할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=en) | 2021년 8월 19일 |
+| 새 연결 정보 환경 | 이 연결 UI 개선 사항을 통해 데이터를 보고에 사용할 준비가 되었는지 여부와 시기를 알 수 있습니다. 또한 처리 데이터와 관련된 문제를 추적할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=en) | 2021년 8월 10일 |
 
 {style=&quot;table-layout:auto&quot;}
 
