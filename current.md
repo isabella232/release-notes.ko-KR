@@ -6,9 +6,9 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 3621c31c456cf7fc9de8ed65991aeab9fc8fedc8
+source-git-commit: a168806cc4b7e5ab5e9d1ab9c71583a4b89c020b
 workflow-type: tm+mt
-source-wordcount: '4909'
+source-wordcount: '4923'
 ht-degree: 38%
 
 ---
@@ -213,6 +213,9 @@ Adobe은 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Ma
       * **클라우드 기반의 구성 요소 컨텐츠 관리 시스템**  - Adobe Experience Manager용 XML 설명서는 Cloud Service으로 사용할 수 있습니다. 문서 및 컨텐츠를 규모에 맞게 작성, 관리 및 전달할 수 있는 환경을 조성합니다.
       * **AI 기반 설명서**  - 메타데이터 레이블 지정을 위해 텍스트에서 관련 메타데이터 키워드를 자동으로 식별 및 추출하는 스마트 태그 지정 기능입니다.
       * **웹 편집기의 새로운 모양 및 느낌**  - UI 변경 사항이 추가되어 보다 직관적인 기능을 제공합니다. 기본 아키텍처가 coral에서 React 기반 스펙트럼으로 변경되었습니다.
+
+      자세한 내용은 [Adobe Experience Manager용 XML 설명서](https://www.adobe.com/products/xml-documentation-for-experience-manager.html)를 참조하십시오.
+
    * **AEM as a Cloud Service의 Cloud Manager**
 
       * [!UICONTROL 미리 ] 보기 서비스는 모든 프로그램에 롤링 기반으로 배포됩니다. [!UICONTROL 미리 보기 서비스]에 대한 프로그램이 활성화되면 고객이 제품 내에 알림을 받게 됩니다. [미리 보기 서비스 액세스](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/manage-environments.html?lang=en#access-preview-service)를 참조하십시오.
