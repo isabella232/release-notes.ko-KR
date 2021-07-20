@@ -6,10 +6,10 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: fbea6cb1eb34af8d7957451bb7c9117202e002d4
+source-git-commit: 9a3217d27c176834935ae72ae375bda5cdf6c7f2
 workflow-type: tm+mt
-source-wordcount: '3934'
-ht-degree: 46%
+source-wordcount: '4899'
+ht-degree: 38%
 
 ---
 
@@ -203,6 +203,80 @@ Audience Manager의 수정 및 개선 사항.
 ## ![아이콘](/assets/aem.png) Experience Manager {#aem}
 
 Adobe은 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Manager 릴리스 업데이트 및 로드맵](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=ko-KR)을 자주 방문할 것을 권장합니다.
+
+* **Experience Manager as a Cloud Service**
+
+   Experience Manager as a Cloud Service의 새로운 기능:
+
+   * **Adobe Experience Manager as a Cloud Service용 XML 설명서**
+
+      * **클라우드 기반의 구성 요소 컨텐츠 관리 시스템**  - Adobe Experience Manager용 XML 설명서는 Cloud Service으로 사용할 수 있습니다. 문서 및 컨텐츠를 규모에 맞게 작성, 관리 및 전달할 수 있는 환경을 조성합니다.
+      * **AI 기반 설명서**  - 메타데이터 레이블 지정을 위해 텍스트에서 관련 메타데이터 키워드를 자동으로 식별 및 추출하는 스마트 태그 지정 기능입니다.
+      * **웹 편집기의 새로운 모양 및 느낌**  - UI 변경 사항이 추가되어 보다 직관적인 기능을 제공합니다. 기본 아키텍처가 coral에서 React 기반 스펙트럼으로 변경되었습니다.
+   * **AEM as a Cloud Service의 Cloud Manager**
+
+      * [!UICONTROL 미리 ] 보기 서비스는 모든 프로그램에 롤링 기반으로 배포됩니다. [!UICONTROL 미리 보기 서비스]에 대한 프로그램이 활성화되면 고객이 제품 내에 알림을 받게 됩니다. [미리 보기 서비스 액세스](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/manage-environments.html?lang=en#access-preview-service)를 참조하십시오.
+      * 이제 빌드 단계 중에 다운로드한 Maven 종속성이 파이프라인 실행 간에 캐시됩니다. 이 기능은 다음 몇 주 후에 고객에 대해 활성화됩니다.
+      * 이제 [!UICONTROL 프로그램 편집] 대화 상자를 통해 프로그램 이름을 편집할 수 있습니다.
+      * Git 워크플로우를 관리하는 방식으로 프로젝트 생성 및 기본 [!UICONTROL Push] 명령에 사용되는 기본 분기 이름이 `main`(으)로 변경되었습니다.
+      * 인터페이스의 프로그램 편집 환경을 새로 고쳤습니다.
+      * `/oak:index` 노드를 변경할 수 없는 것으로 분류하도록 품질 규칙 `ImmutableMutableMixCheck`이 업데이트되었습니다.
+      * 품질 규칙 `CQBP-84andCQBP-84--dependencies`이(가) 단일 규칙으로 통합되었습니다. 이 통합의 일부로, 종속성을 스캔하면 Experience Manager 런타임으로 배포되는 타사 종속성의 문제를 보다 정확하게 식별할 수 있습니다.
+      * 혼동을 방지하기 위해 환경 세부 사항 페이지의 Experience Manager 게시 및 Dispatcher 세그먼트 행이 통합되었습니다.
+      * `damAssetLucene`인덱스 구조의 유효성을 확인하기 위해 새 코드 품질 규칙이 추가되었습니다. [사용자 지정 DAM Asset Lucene Oak 색인](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/test-results/custom-code-quality-rules.html?lang=en#oakpal-damAssetLucene-sanity-check)을 참조하십시오.
+      * 이제 환경 세부 사항 페이지에 해당하는 경우 게시 및 미리 보기 서비스의 여러 도메인 이름이 표시됩니다. [환경 세부 정보](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/manage-environments.html?lang=en#viewing-environment)를 참조하십시오.
+   * **Experience Manager Assets as a Cloud Service**
+
+      자산의 새로운 기능:
+
+      * [!UICONTROL 컨텐츠 ] 자동 기능을 사용하면 Experience Manager 자산에서 Adobe Creative Cloud API를 사용하여 자산 프로덕션을 규모에 맞게 자동화할 수 있습니다. 동일한 자산의 변형을 만드는 데 필요한 시간과 반복 시간을 크게 줄여 컨텐츠 속도를 향상시킵니다. 이 기능은 DAM 내에서 프로그래밍과 작업할 필요가 없습니다. [Adobe Creative Cloud 통합을 사용하여 자산의 변형 생성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/cc-api-integration.html?lang=en)을 참조하십시오.
+      * [Adobe Photoshop, Adobe Illustrator 및 Adobe InDesign용 Adobe Asset Link 3.0](https://helpx.adobe.com/kr/enterprise/using/adobe-asset-link.html) 과 Adobe XD용 Adobe  [Adobe Asset Link 2.0](https://helpx.adobe.com/kr/enterprise/using/adobe-asset-link-for-xd.html) 을 사용할 수 있습니다. Assets Essentials 및 Experience Manager에 Cloud Service 또는 Assets Essentials으로 자동으로 연결하는 기능을 지원합니다.
+      * [자산 일괄 수집 도구](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ko-KR#asset-bulk-ingestor)를 사용하면 일괄 수집 중에 메타데이터를 추가할 수 있습니다.
+
+      Assets 사전 릴리스 채널의 새로운 기능:
+
+      * 보기 설정이 개선되어 기본 보기와 기본 정렬 매개 변수를 선택할 수 있습니다.
+      * [!UICONTROL 링크 공유] 다운로드 기능은 다운로드 속도를 높이는 비동기 다운로드를 사용합니다. [링크 공유를 사용하여 공유된 자산 다운로드](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=en#link-share-download)를 참조하십시오.
+      * 속성 설명을 기반으로 폴더를 검색하고 필터링할 수 있습니다.
+      * Experience Manager 자산에는 지원되는 문서 형식을 미리 보기 위한 PDF 뷰어가 포함되어 있습니다. Adobe Document Cloud에서 지원합니다. 이 기능을 사용하면 복잡한 처리 없이 PDF 및 기타 다중 페이지 파일을 미리 볼 수 있습니다. 이 기능은 Experience Manager 6.5와의 기능 패리티를 개선합니다. 미리 보기에서 사용할 수 있는 컨트롤은 확대/축소, 페이지 탐색, 도킹 해제 컨트롤 및 전체 화면에서 보는 것입니다. 통합 PDF 뷰어는 AI, DOCX, INDD, PDF 및 PSD 파일 형식을 지원합니다. 자산 자체에 주석을 달 수 있지만 PDF 파일 내의 주석 및 주석은 지원되지 않습니다.
+      * 사용자 환경 개선 사항에 폴더에 있는 자산 수가 표시됩니다. 폴더에 있는 자산이 1000개 이상인 경우 Assets에 1000 이상이 표시됩니다.
+      * 메타데이터 스키마를 속성의 폴더에 직접 적용할 수 있습니다.
+   * **Experience Manager Sites as a Cloud Service**
+
+      새로운 기능:
+
+      * 이제 미리 보기 계층에 게시 가 Sites 관리 UI에서 페이지 상태로 표시됩니다.
+      * 이제 미리 보기 계층에 게시하면 작업 끝에 미리 보기 URL이 표시되고 나중에 참조할 수 있도록 페이지 속성에서 URL이 유지됩니다.
+   * **Experience Manager Forms as a Cloud Service**
+
+      새로운 기능:
+
+      * 메타데이터 스키마는 폴더 속성에 직접 적용할 수 있습니다.
+      * 자산 일괄 수집 도구를 사용하여 일괄 수집 중에 메타데이터를 추가할 수 있습니다.
+      * 사용자 환경 개선 사항에 폴더에 있는 자산 수가 표시됩니다. 폴더에 있는 자산이 1000개 이상인 경우 Experience Manager 자산에 1000 이상이 표시됩니다.
+
+      Forms의 베타 기능:
+
+      * **Forms as a Cloud Service Experience Manager - 통신**  - 통신 API를 사용하면 XDP 템플릿과 XML 데이터를 결합하여 다양한 형식으로 인쇄 문서를 생성할 수 있습니다. 이 서비스를 사용하면 동기 모드로 문서를 생성할 수 있습니다. API를 사용하면 다음을 수행할 수 있는 애플리케이션을 만들 수 있습니다.
+         * XML 데이터로 템플릿 파일을 채워서 문서를 생성합니다.
+         * 비대화형 PDF 인쇄 스트림을 포함하여 다양한 형식으로 출력 양식을 생성합니다.
+         * XFA 양식 PDF 및 Adobe Acrobat 양식(AcroForm)에서 인쇄 PDF를 생성합니다.
+
+      [formscsbeta@adobe.com](mailto:formscsbeta@adobe.com)에 작성하여 베타 프로그램에 등록할 수 있습니다.
+
+   * **Cloud Service으로 Experience Manager Screens**
+
+      * 대량 장치 등록 관리는 대량의 플레이어 장치를 제공하는 것이 더 빠르고 효율적이라는 것을 의미합니다.
+      * 각 장치, 표시 및 채널 인벤토리 보기에 대한 검색 및 필터 옵션이 개선되었습니다.
+      * 디바이스 상태 스냅샷은 중요한 상태를 한 눈에 제공하여 시간을 절약합니다.
+      * 객체 세부 정보 페이지에는 프로젝트의 각 객체에 대한 가장 관련성이 높은 정보가 요약되어 있습니다.
+
+
+
+
+
+
+
 
 ### Experience Manager 릴리스 정보 {#aem-links}
 
