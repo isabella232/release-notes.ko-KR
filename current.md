@@ -6,9 +6,9 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 722ad9ef37f15c3c6070ccaa66c9b55e25b4e35d
+source-git-commit: 3621c31c456cf7fc9de8ed65991aeab9fc8fedc8
 workflow-type: tm+mt
-source-wordcount: '4899'
+source-wordcount: '4909'
 ht-degree: 38%
 
 ---
@@ -37,7 +37,7 @@ Experience Cloud 애플리케이션과 서비스는 매달 업데이트됩니다
 * [[!DNL Campaign]](#ac)
 * [[!DNL Advertising]](#adcloud)
 * [[!DNL Target]](#target)
-* [[!DNL Magento]](#magento)
+* [[!DNL Commerce]] ((#magento)
 * [[!DNL Marketo Engage]](#marketo)
 * [[!DNL Workfront]](#workfront)
 * [Document Cloud](#doc-cloud)
@@ -374,9 +374,12 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 {style=&quot;table-layout:auto&quot;}
 
-## ![아이콘](/assets/magento.png) [!DNL Magento] {#magento}
+## ![아이콘](/assets/magento.png) [!DNL Commerce] (Magento) {#magento}
 
-최신 릴리스 정보는 Magento Commerce 및 오픈 소스 [릴리스 정보](https://devdocs.magento.com/guides/v2.4/release-notes/bk-release-notes.html)를 참조하십시오.
+Adobe Commerce 릴리스 노트에 대해서는 다음 링크를 참조하십시오.
+
+* [Magento Commerce 및 오픈 소스](https://devdocs.magento.com/guides/v2.4/release-notes/bk-release-notes.html)
+* [Cloud Suite](https://devdocs.magento.com/cloud/release-notes/cloud-tools.html)
 
 ## ![아이콘](/assets/target.png) [!DNL Target] {#target}
 
