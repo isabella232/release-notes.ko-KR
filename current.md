@@ -6,7 +6,7 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 9a3217d27c176834935ae72ae375bda5cdf6c7f2
+source-git-commit: 722ad9ef37f15c3c6070ccaa66c9b55e25b4e35d
 workflow-type: tm+mt
 source-wordcount: '4899'
 ht-degree: 38%
@@ -23,7 +23,7 @@ Experience Cloud 애플리케이션과 서비스는 매달 업데이트됩니다
 >
 >월별 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html) 를 구독하면 이 페이지의 업데이트에 대한 이메일 알림을 받을 수 있습니다. 이 페이지는 한 달 동안 유지되므로 Adobe 엔터프라이즈 제품 및 Experience League 설명서에 대한 업데이트를 정기적으로 확인하십시오.
 
-최신 업데이트: **2021년 7월 19일**
+최신 업데이트: **2021년 7월 20일**
 
 * [Experience Cloud 중앙 인터페이스 구성 요소](#ecloud)
 * [Adobe 시스템 상태](#status)
@@ -278,6 +278,17 @@ Adobe은 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Ma
 
 
 
+### 새로운 Experience Manager 교육 과정 및 튜토리얼 {#tutorials-aem}
+
+지난 달에 게시된 새로운 비디오, 튜토리얼 및 교육 과정입니다.
+
+| 게시일 | 이름 | 유형 | 설명 |
+| -----------| ---------- | ---------- | ---------- |
+| 2021년 7월 | [Adobe Experience Manager용 XML 설명서](https://experienceleague.adobe.com/docs/experience-manager-xml-documentation-learn/tutorials/overview.html?lang=en) | 문서 | [!UICONTROL XML 설명서 솔루션]에서 공동 작업, 검토, 번역, 검색 및 DITA 콘텐츠 보고서와 같은 모든 핵심 CMS 기능을 제공하는 방법을 알아봅니다. 이러한 기능을 통해 작성자는 효율적인 컨텐츠 재사용 및 강력한 워크플로우를 통해 적은 시간에 더 많은 작업을 수행할 수 있습니다. |
+| 2021년 7월 | [AEM 헤드리스 GraphQL 포스트만 컬렉션](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/video-series/modeling-basics.html?lang=en) | 비디오 | GraphQL에 사용되는 Adobe Experience Manager(AEM)에서 콘텐츠 조각을 정의 및 사용하는 방법을 알아봅니다. |
+
+{style=&quot;table-layout:auto&quot;}
+
 ### Experience Manager 릴리스 정보 {#aem-links}
 
 Experience Manager에 대한 릴리스 노트 및 기타 릴리스 정보 링크는 다음과 같습니다.
@@ -294,17 +305,6 @@ Experience Manager에 대한 릴리스 노트 및 기타 릴리스 정보 링크
 * [Experience Manager Dispatcher 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/getting-started/release-notes.html?lang=ko-KR)
 * [Adobe Primetime 릴리스 정보](https://experienceleague.adobe.com/docs/primetime/release-notes/home.html)
 * [Livefyre 릴리스 정보](https://experienceleague.adobe.com/docs/livefyre/using/release-notes/c-rn.html)
-
-### 새로운 Experience Manager 교육 과정 및 튜토리얼 {#tutorials-aem}
-
-지난 달에 게시된 새로운 비디오, 튜토리얼 및 교육 과정입니다.
-
-| 게시일 | 이름 | 유형 | 설명 |
-| -----------| ---------- | ---------- | ---------- |
-| 2021년 7월 | [Adobe Experience Manager용 XML 설명서](https://experienceleague.adobe.com/docs/experience-manager-xml-documentation-learn/tutorials/overview.html?lang=en) | 문서 | [!UICONTROL XML 설명서 솔루션]에서 공동 작업, 검토, 번역, 검색 및 DITA 콘텐츠 보고서와 같은 모든 핵심 CMS 기능을 제공하는 방법을 알아봅니다. 이러한 기능을 통해 작성자는 효율적인 컨텐츠 재사용 및 강력한 워크플로우를 통해 적은 시간에 더 많은 작업을 수행할 수 있습니다. |
-| 2021년 7월 | [AEM 헤드리스 GraphQL 포스트만 컬렉션](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/video-series/modeling-basics.html?lang=en) | 비디오 | GraphQL에 사용되는 Adobe Experience Manager(AEM)에서 콘텐츠 조각을 정의 및 사용하는 방법을 알아봅니다. |
-
-{style=&quot;table-layout:auto&quot;}
 
 ### Experience Manager에 대한 기타 도움말 리소스
 
