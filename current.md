@@ -6,10 +6,10 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 5de9bc92bc3752726b7af80dd0abf91e253a5c33
+source-git-commit: 272c8da44a241b5a8eb5930462cc53b3e6c43297
 workflow-type: tm+mt
-source-wordcount: '5139'
-ht-degree: 36%
+source-wordcount: '5023'
+ht-degree: 37%
 
 ---
 
@@ -22,14 +22,6 @@ Experience Cloud 애플리케이션과 서비스는 매달 업데이트됩니다
 >[!NOTE]
 >
 >월별 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html) 를 구독하면 이 페이지의 업데이트에 대한 이메일 알림을 받을 수 있습니다. 이 페이지는 한 달 동안 유지되므로 Adobe 엔터프라이즈 제품 및 Experience League 설명서에 대한 업데이트를 정기적으로 확인하십시오.
-
-## Experience League 라이브
-
-[Adobe Analytics 구현 - 팁과 트릭](https://www.youtube.com/watch?v=lxOvLCzEGBI)
-
-Summit에서 무대 위에 있는 그를 봤잖아요. Adobe 인사이더 투어에서 그가 전문가의 조언을 공유한다고 들었는데요. Adobe Analytics 구현에서 그와 함께 작업할 수 있다는 이점이 있을 것입니다. 이제 Eric Matisof가 가장 좋아하는 세 가지 Adobe Analytics 구현 팁을 이 독점 Experience League Live 토론에 제공합니다.
-
-모든 Adobe Analytics 구현 팀이 알아야 하는 구체적인 팁을 듣고 채팅 창에서 Eric이 질문에 답변하도록 하십시오. 이 이벤트는 라이브 이벤트이므로 미리 등록할 필요가 없지만, 꼭 달력에 넣어 잊지 않도록 하세요!
 
 최신 업데이트: **2021년 7월 20일**
 
@@ -51,7 +43,7 @@ Summit에서 무대 위에 있는 그를 봤잖아요. Adobe 인사이더 투어
 * [Document Cloud](#doc-cloud)
 * [Creative Cloud for enterprise](#creative-cloud)
 
-도움이 필요하십니까? [Adobe Experience League](https://experienceleague.adobe.com/#home) 에서 제품 및 기술 문서, Adobe에서 제공하는 교육 과정, 비디오 튜토리얼, 빠른 답변, 커뮤니티 통찰력 및 강사 중심의 트레이닝을 확인할 수 있습니다.
+도움이 필요하십니까? [Adobe Experience League](https://experienceleague.adobe.com/?lang=ko-KR/#home) 에서 제품 및 기술 문서, Adobe에서 제공하는 교육 과정, 비디오 튜토리얼, 빠른 답변, 커뮤니티 통찰력 및 강사 중심의 트레이닝을 확인할 수 있습니다.
 
 ## ![](/assets/ec_appicon_24.png) 아이콘Experience Cloud Central UI 구성 요소 {#ecloud}
 
@@ -146,7 +138,7 @@ Experience Platform을 사용하여 모든 개인의 요구 사항을 실시간 
 
 모든 Adobe Analytics 구현 팀이 알아야 하는 구체적인 팁을 듣고 채팅 창에서 Eric Matisof가 질문에 답변하도록 하십시오. 이 이벤트는 라이브 이벤트이므로 미리 등록할 필요가 없지만, 꼭 달력에 넣어 잊지 않도록 하세요!
 
-[Adobe Analytics 구현 - 팁과 트릭](https://www.youtube.com/watch?v=lxOvLCzEGBI)
+**이벤트:** [Adobe Analytics 구현 - 팁과 트릭](https://www.youtube.com/watch?v=lxOvLCzEGBI)
 
 **시기:** 2021년 7월 29일 오전 9시(PDT)
 
