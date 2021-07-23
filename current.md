@@ -6,9 +6,9 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 563d306d19333cdfe78c7eb1077b9b8309fadd4e
+source-git-commit: 1d747dd10da74db31ce6195c43f6529a2663d1a0
 workflow-type: tm+mt
-source-wordcount: '5036'
+source-wordcount: '5035'
 ht-degree: 37%
 
 ---
@@ -73,7 +73,7 @@ Adobe 시스템 상태에 대한 최신 업데이트 및 최신 릴리스 정보
 릴리스 업데이트 정보와 Experience Platform 및 Experience Platform Launch에 대한 새 설명서를 포함합니다.
 
 * **2021년 6월 30일** [Experience Platform 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR)
-* **2021년 5월 17일** [Experience Platform 데이터 수집 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/tags/release-notes/current.html) (이전, Experience Platform Launch)
+* **2021년 5월 17일** [Experience Platform 태그 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/tags/release-notes/current.html) (이전, Experience Platform Launch)
 
 ### Experience Platform 튜토리얼 및 교육 과정 {#tutorials-platform}
 
