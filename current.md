@@ -6,10 +6,10 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 1d747dd10da74db31ce6195c43f6529a2663d1a0
+source-git-commit: 0a6bbad001bc4aeb0b8f6537d87d8d98131af5d5
 workflow-type: tm+mt
-source-wordcount: '5035'
-ht-degree: 37%
+source-wordcount: '5034'
+ht-degree: 45%
 
 ---
 
@@ -32,7 +32,7 @@ Experience Cloud 애플리케이션과 서비스는 매달 업데이트됩니다
 * [Journey Optimizer](#journey-opt)
 * [Journey Orchestration](#journey-orch)
 * [Offer Decisioning](#offer-decisioning)
-* [[!DNL Analytics]](#analytics) 및  [Customer Journey Analytics](#cust-journey) (2021년 7월 19일 업데이트됨)
+* [[!DNL Analytics]](#analytics) 및 [Customer Journey Analytics](#cust-journey) (업데이트 날짜: 2021년 7월 19일)
 * [[!DNL Audience Manager]](#aam)
 * [[!DNL Experience Manager]](#aem)
 * [[!DNL Campaign]](#ac)
@@ -46,9 +46,9 @@ Experience Cloud 애플리케이션과 서비스는 매달 업데이트됩니다
 
 도움이 필요하십니까? [Adobe Experience League](https://experienceleague.adobe.com/?lang=ko-KR/#home) 에서 제품 및 기술 문서, Adobe에서 제공하는 교육 과정, 비디오 튜토리얼, 빠른 답변, 커뮤니티 통찰력 및 강사 중심의 트레이닝을 확인할 수 있습니다.
 
-## ![](/assets/ec_appicon_24.png) 아이콘Experience Cloud Central UI 구성 요소 {#ecloud}
+## ![아이콘](/assets/ec_appicon_24.png) Experience Cloud 중앙 UI 구성 요소 {#ecloud}
 
-Experience Cloud 중앙 인터페이스 구성 요소에는 자체 도움말, 검색 및 사용자 계정 환경 설정과 같은 통합 제품 헤더에서 액세스되는 업데이트가 포함됩니다. 사람, 위치(위치) 및 제품 관리 업데이트는 여기에서 확인할 수 있습니다.
+Experience Cloud 중앙 인터페이스 구성 요소에는 자체 도움말, 검색 및 사용자 계정 환경 설정과 같은 통합 제품 헤더에서 액세스되는 업데이트가 포함됩니다. 인물, 장소(위치) 및 제품 관리에 대한 업데이트는 여기에서 찾을 수 있습니다.
 
 | 기능 | 날짜 | 설명 |
 | ------- | ------- | -------|
@@ -59,8 +59,8 @@ Experience Cloud 중앙 인터페이스 구성 요소에는 자체 도움말, �
 **추가 도움말 리소스**
 
 * [중앙 인터페이스 구성 요소](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=en) 및 사용자 관리에 대한 관리 도움말
-* [위치 - 위치 서비스](https://experienceleague.adobe.com/docs/places/using/release-notes.html?lang=en)에 대한 도움말 및 릴리스 노트
-* [사람 - 고객 속성 및 대상 라이브러리에 대한 도움말입니다](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services-landing.html?lang=en).
+* [장소 - 위치 서비스](https://experienceleague.adobe.com/docs/places/using/release-notes.html?lang=en)에 대한 도움말 및 릴리스 정보
+* [인물 - 고객 속성 및 대상 라이브러리](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services-landing.html?lang=en)에 대한 도움말.
 
 ## ![아이콘](/assets/adobe.png) Adobe 시스템 상태 {#status}
 
@@ -70,7 +70,7 @@ Adobe 시스템 상태에 대한 최신 업데이트 및 최신 릴리스 정보
 
 ## ![아이콘](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
-릴리스 업데이트 정보와 Experience Platform 및 Experience Platform Launch에 대한 새 설명서를 포함합니다.
+릴리스 업데이트 정보와 Experience Platform 및 플랫폼 태깅에 대한 새 설명서를 포함합니다.
 
 * **2021년 6월 30일** [Experience Platform 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR)
 * **2021년 5월 17일** [Experience Platform 태그 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/tags/release-notes/current.html) (이전, Experience Platform Launch)
@@ -104,7 +104,7 @@ Adobe Journey Optimizer을 사용하면 하나의 애플리케이션에서 수�
 
 ## ![아이콘](/assets/experience_platform_appicon_24.png) Journey Orchestration {#journey-orch}
 
-Experience Platform을 사용하여 모든 개인의 요구 사항을 실시간 지능적으로 예측하여 경험 채널에서 규모에 맞게 고객 여정을 오케스트레이션할 수 있습니다.
+Experience Platform을 사용하여 모든 개인의 요구 사항을 실시간으로 지능적으로 예측하여 경험 채널에서 규모에 맞게 고객 여정을 조율할 수 있습니다.
 
 [Journey Orchestration 릴리스 정보](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=ko-KR)에서 최신 기능, 개선 사항 및 수정 사항에 대해 알아봅니다.
 
@@ -190,9 +190,9 @@ AN-160022; AN-186365; AN-234768 (CJA); AN-253041; AN-255098; AN-256319; AN-25656
 
 ### AppMeasurement {#appm}
 
-AppMeasurement 릴리스에 대한 최신 업데이트는 [JavaScript용 AppMeasurement 릴리스 노트](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=ko-KR)를 참조하십시오.
+AppMeasurement 릴리스에 대한 최신 업데이트는 [JavaScript용 AppMeasurement 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=ko-KR)를 참조하십시오.
 
-### 새로운 Analytics 교육 과정 및 자습서 {#tutorials-analytics}
+### 새로운 Analytics 교육 과정 및 튜토리얼 {#tutorials-analytics}
 
 [!DNL Analytics] 및 [!UICONTROL Customer Journey Analytics]의 새 교육 과정, 튜토리얼 및 기사입니다.
 
@@ -206,7 +206,7 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [JavaScript용 AppMeas
 
 ### Analytics 도움말 리소스
 
-* [Adobe Analytics 제품 설명서 및 튜토리얼](https://experienceleague.adobe.com/docs/analytics.html?lang=ko-KR)
+* [Adobe Analytics 제품 설명서 및 튜토리얼](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## ![아이콘](/assets/audience-manager.png) Audience Manager {#aam}
 
@@ -218,7 +218,7 @@ Audience Manager의 수정 및 개선 사항.
 
 ## ![아이콘](/assets/aem.png) Experience Manager {#aem}
 
-Adobe은 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Manager 릴리스 업데이트 및 로드맵](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=ko-KR)을 자주 방문할 것을 권장합니다.
+Adobe은 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Manager 릴리스 업데이트 및 로드맵](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html)을 자주 방문할 것을 권장합니다.
 
 * **Experience Manager as a Cloud Service**
 
@@ -258,7 +258,7 @@ Adobe은 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Ma
       * [!UICONTROL 링크 공유] 다운로드 기능은 다운로드 속도를 높이는 비동기 다운로드를 사용합니다. [링크 공유를 사용하여 공유된 자산 다운로드](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=en#link-share-download)를 참조하십시오.
       * 속성 설명을 기반으로 폴더를 검색하고 필터링할 수 있습니다.
       * Experience Manager 자산에는 지원되는 문서 형식을 미리 보기 위한 PDF 뷰어가 포함되어 있습니다. Adobe Document Cloud에서 지원합니다. 이 기능을 사용하면 복잡한 처리 없이 PDF 및 기타 다중 페이지 파일을 미리 볼 수 있습니다. 이 기능은 Experience Manager 6.5와의 기능 패리티를 개선합니다. 미리 보기에서 사용할 수 있는 컨트롤은 확대/축소, 페이지 탐색, 도킹 해제 컨트롤 및 전체 화면에서 보는 것입니다. 통합 PDF 뷰어는 AI, DOCX, INDD, PDF 및 PSD 파일 형식을 지원합니다. 자산 자체에 주석을 달 수 있지만 PDF 파일 내의 주석 및 주석은 지원되지 않습니다.
-      * 사용자 환경 개선 사항에 폴더에 있는 자산 수가 표시됩니다. 폴더에 있는 자산이 1000개 이상인 경우 Assets에 1000 이상이 표시됩니다.
+      * 폴더에 있는 에셋의 수를 표시하는 사용자 경험 개선 사항이 있습니다. 폴더에 있는 자산이 1000개 이상인 경우 Assets에 1000 이상이 표시됩니다.
       * 메타데이터 스키마를 속성의 폴더에 직접 적용할 수 있습니다.
    * **Experience Manager Sites as a Cloud Service**
 
@@ -271,8 +271,8 @@ Adobe은 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Ma
       새로운 기능:
 
       * 메타데이터 스키마는 폴더 속성에 직접 적용할 수 있습니다.
-      * 자산 일괄 수집 도구를 사용하여 일괄 수집 중에 메타데이터를 추가할 수 있습니다.
-      * 사용자 환경 개선 사항에 폴더에 있는 자산 수가 표시됩니다. 폴더에 있는 자산이 1000개 이상인 경우 Experience Manager 자산에 1000 이상이 표시됩니다.
+      * 일괄 에셋 수집기 도구를 사용하면 일괄 수집 중에 메타데이터를 추가할 수 있습니다.
+      * 폴더에 있는 에셋의 수를 표시하는 사용자 경험 개선 사항이 있습니다. 폴더에 있는 에셋이 1000개가 넘는 경우 Experience Manager 에셋은 1000+를 표시합니다.
 
       Forms의 베타 기능:
 
@@ -315,12 +315,12 @@ Experience Manager에 대한 릴리스 노트 및 기타 릴리스 정보 링크
 * [Cloud Service 릴리스 노트로 Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=en)
 * [Experience Manager as a Cloud Service 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=en)
 * [Experience Manager Cloud Manager 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/release-notes/release-notes-current.html?lang=en)
-* [자동 양식 전환 서비스 릴리스 정보](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/release-notes.html?lang=en)
+* [자동 양식 전환 서비스 릴리스 정보](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/release-notes.html?lang=ko-KR)
 * [Experience Manager 6.5 서비스 팩 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=ko-KR)
 * [Experience Manager 6.4 Cumulative Fix Pack 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/cfp-release-notes.html?lang=ko-KR)
 * [Experience Manager Assets Dynamic Media 릴리스 정보](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/release-notes/s7rn2017.html?lang=ko-KR)
 * [Experience Manager Brand Portal 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html?lang=ko-KR)
-* [Experience Manager 데스크탑 앱 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/release-notes.html?lang=en)
+* [Experience Manager 데스크탑 앱 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/release-notes.html?lang=ko-KR)
 * [Experience Manager Dispatcher 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/getting-started/release-notes.html?lang=ko-KR)
 * [Adobe Primetime 릴리스 정보](https://experienceleague.adobe.com/docs/primetime/release-notes/home.html)
 * [Livefyre 릴리스 정보](https://experienceleague.adobe.com/docs/livefyre/using/release-notes/c-rn.html)
@@ -330,7 +330,7 @@ Experience Manager에 대한 릴리스 노트 및 기타 릴리스 정보 링크
 * [Experience Manager as a Cloud Service 안내서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ko-KR)
 * [Experience Manager 6.5 학습 및 지원 홈](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/home.html?lang=ko-KR)
 * [Experience Manager 6.4 학습 및 지원 홈](https://experienceleague.adobe.com/docs/experience-manager-64.html?lang=ko-KR)
-* [Experience Manager 6.3 학습 및 지원 홈](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=ko-KR)
+* [Experience Manager 6.3 학습 및 지원 홈](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html)
 * [Experience Manager 6.2 학습 및 지원 홈](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=ko-KR#previous-updates)
 * [이전 버전의 Experience Manager 설명서](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en#previous-updates)
 * [Cloud Manager 사용 안내서](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=ko-KR)
@@ -349,7 +349,7 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 * [Campaign Standard 릴리스 정보](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=ko-KR)
 * [Campaign Classic 릴리스 정보](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ko-KR)
 
-### 새 [!UICONTROL Campaign] 교육 과정 및 자습서 {#tutorials-campaign}
+### 새로운 [!UICONTROL Campaign] 교육 과정 및 튜토리얼 {#tutorials-campaign}
 
 | 게시일 | 이름 | 솔루션 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
@@ -364,7 +364,7 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 * Adobe Campaign v8: [도움말 센터](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html) - [릴리스 노트](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/whats-new.html?lang=en) - [구현 안내서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=en)
 * Adobe Campaign Standard: [도움말 센터](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=ko-KR) - [릴리스 정보](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en) - [사용 방법 비디오](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en) - [릴리스 계획](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-planning.html?lang=ko-KR) [- 최신 설명서 업데이트](https://experienceleague.adobe.com/docs/campaign-standard/using/documentation-updates.html?lang=en)
 * Adobe Campaign Classic: [도움말 센터](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=ko-KR) - [릴리스 정보](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=en) - [사용 방법 비디오](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=en)- [최신 설명서 업데이트](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=en)
-* Adobe Campaign 제어판: [설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko-KR) - [릴리스 정보](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=en) - [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=ko-KR) / [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=ko-KR) 방법 비디오
+* Adobe Campaign 제어판: [설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko-KR) - [릴리스 정보](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko-KR) - [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=ko-KR) / [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=ko-KR) 방법 비디오
 
 ## ![아이콘](/assets/advertising-cloud.png) Advertising {#adcloud}
 
@@ -375,11 +375,11 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 ### [!DNL Advertising DSP] 의 새로운 기능  {#adcloud-dsp}
 
-마지막 업데이트: **2021년 6월 10일(6월 16일 릴리스**)
+마지막 업데이트: **2021년 6월 10일, 6월 16일 릴리스**
 
 | 기능 | 설명 |
 | -----------| ---------- |
-| 캠페인 관리 | (6월 16일 릴리스) 배치 수준 간격 및 예산이 있는 표준 디스플레이 배치에는 예측을 사용할 수 있습니다. |
+| 캠페인 관리 | (6월 16일 릴리스)배치 수준의 게재 간격 및 예산과 더불어 표준 디스플레이 배치에 대한 예측이 가능합니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -410,19 +410,19 @@ Adobe Commerce 릴리스 노트에 대해서는 다음 링크를 참조하십시
 
 ### 핵심 Marketo Engage 업데이트
 
-최신 릴리스 예약 정보 및 릴리스 노트는 [!DNL Marketo Engage] [릴리스 예약](https://experienceleague.adobe.com/docs/marketo/using/release-notes/release-schedule.html?lang=en)을 참조하십시오.
+최신 릴리스 일정 정보 및 릴리스 정보는 [!DNL Marketo Engage] [릴리스 일정](https://experienceleague.adobe.com/docs/marketo/using/release-notes/release-schedule.html?lang=en)을 참조하십시오.
 
 ## ![아이콘](/assets/workfront.png) [!DNL Workfront] {#workfront}
 
-Adobe [!DNL Workfront]은(는) 아이디어를 공유하고, 컨텐츠를 만들고, 복잡한 프로세스를 관리하고, 최상의 작업을 수행하기 위한 통합된 작업 관리 애플리케이션입니다.
+Adobe [!DNL Workfront]는 아이디어 공유, 콘텐츠 생성, 복잡한 프로세스 관리 및 최상의 작업 수행을 위한 통합 작업 관리 애플리케이션입니다.
 
-모든 제품에 대한 최신 정보에 대한 라운드는 [[!DNL Workfront] 릴리스](https://one.workfront.com/s/product-releases) 페이지를 참조하십시오.
+모든 제품에 대한 최신 정보를 보려면 [[!DNL Workfront] 릴리스](https://one.workfront.com/s/product-releases) 페이지를 참조하십시오.
 
 ## ![아이콘](/assets/document-cloud-24.png) Document Cloud {#doc-cloud}
 
 Adobe Document Cloud용으로 게시된 새로운 비디오, 튜토리얼 또는 교육 과정
 
-### Document Cloud 교육 과정 및 자습서 {#tutorials-doc-cloud}
+### Document Cloud 과정 및 튜토리얼 {#tutorials-doc-cloud}
 
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
@@ -446,16 +446,16 @@ Document Cloud 도움말은 다음을 참조하십시오.
 
 * [Adobe Acrobat](https://experienceleague.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html?lang=ko-KR)
 * [Adobe Sign](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=ko-KR)
-* [Document Cloud 학습 및 지원](https://helpx.adobe.com/kr/support/document-cloud.html)
+* [Document Cloud 학습 및 지원](https://helpx.adobe.com/support/document-cloud.html)
 
-## ![](/assets/creative-cloud-24.png) 아이콘Creative Cloud for enterprise {#creative-cloud}
+## ![아이콘](/assets/creative-cloud-24.png) Creative Cloud for enterprise {#creative-cloud}
 
-기업용 Creative Cloud에 대해 게시된 새로운 비디오, 자습서 또는 교육 과정
+Creative Cloud for enterprise용으로 게시된 새로운 비디오, 튜토리얼 또는 교육 과정
 
 | 게시일 | 이름 | 유형 | 설명 |
 | ----------| --------- | --------- | --------- |
-| 2021년 6월 | [iPad(및 iPhone)에서 Fresco을 사용해 보십시오](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/ccetutorials/frescoworkshop.html) | 비디오 | 15분 간의 실습 워크숍에서 Adobe Fresco과 함께 디지털 드로잉과 페인팅의 새로운 세계를 경험해 보십시오. 레이어 및 클리핑 마스크를 사용하여 기본 모양에 페인트 및 텍스처를 적용하는 방법을 신속하게 학습합니다. |
-| 2021년 6월 | [그래픽 형식의 알파벳 수프 복호화](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/ccetutorials/alphabetsoup.html) | 비디오 | PG, PNG, SVG, GIF 및 EPS 파일은 모두 디자인에서 일반적으로 사용되며 일부는 웹 페이지용이고 일부는 프레젠테이션, 발행물 및 크리에이티브 프로젝트에 사용됩니다. 그런데... 그게 무슨 뜻인데 어떤 걸 골라야 하죠? 15분 분량의 실습 워크숍에서 확인해 보십시오. |
+| 2021년 6월 | [iPad와 iPhone에서 Fresco 체험하기](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/ccetutorials/frescoworkshop.html) | 비디오 | 이 15분 실습 워크숍에서 Adobe Fresco를 사용하여 완전히 새로운 디지털 드로잉과 페인팅의 세계를 탐험해 보십시오. 레이어 및 클리핑 마스크로 작업하여 페인트와 텍스처를 기본 모양에 맞추는 방법을 빠르게 학습합니다. |
+| 2021년 6월 | [그래픽 형식의 어려운 약어 의미 파악](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/ccetutorials/alphabetsoup.html) | 비디오 | PG, PNG, SVG, GIF, EPS 파일은 모두 디자인에서 일반적으로 사용됩니다. 일부는 웹 페이지에 사용되며 일부는 프레젠테이션, 발행물 및 크리에이티브 프로젝트에 사용됩니다. 하지만… 이 약어들의 의미는 무엇이며 무엇을 선택해야 할까요? 이 15분 실습 워크샵에서 알아보십시오. |
 
 {style=&quot;table-layout:auto&quot;}
 
