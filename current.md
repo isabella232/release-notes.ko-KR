@@ -59,8 +59,8 @@ Experience Cloud 중앙 인터페이스 구성 요소에는 자체 도움말, �
 **추가 도움말 리소스**
 
 * [중앙 인터페이스 구성 요소](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=en) 및 사용자 관리에 대한 관리 도움말
-* [장소 - 위치 서비스](https://experienceleague.adobe.com/docs/places/using/release-notes.html?lang=en)에 대한 도움말 및 릴리스 정보
-* [인물 - 고객 속성 및 대상 라이브러리](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services-landing.html?lang=en)에 대한 도움말.
+* [장소 - 위치 서비스](https://experienceleague.adobe.com/docs/places/using/release-notes.html?lang=ko-KR)에 대한 도움말 및 릴리스 정보
+* [인물 - 고객 속성 및 대상 라이브러리](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services-landing.html?lang=ko-KR)에 대한 도움말.
 
 ## ![아이콘](/assets/adobe.png) Adobe 시스템 상태 {#status}
 
@@ -206,7 +206,7 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [JavaScript용 AppMeas
 
 ### Analytics 도움말 리소스
 
-* [Adobe Analytics 제품 설명서 및 튜토리얼](https://experienceleague.adobe.com/docs/analytics.html)
+* [Adobe Analytics 제품 설명서 및 튜토리얼](https://experienceleague.adobe.com/docs/analytics.html?lang=ko-KR)
 
 ## ![아이콘](/assets/audience-manager.png) Audience Manager {#aam}
 
@@ -218,7 +218,7 @@ Audience Manager의 수정 및 개선 사항.
 
 ## ![아이콘](/assets/aem.png) Experience Manager {#aem}
 
-Adobe은 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Manager 릴리스 업데이트 및 로드맵](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html)을 자주 방문할 것을 권장합니다.
+Adobe은 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Manager 릴리스 업데이트 및 로드맵](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=ko-KR)을 자주 방문할 것을 권장합니다.
 
 * **Experience Manager as a Cloud Service**
 
@@ -330,7 +330,7 @@ Experience Manager에 대한 릴리스 노트 및 기타 릴리스 정보 링크
 * [Experience Manager as a Cloud Service 안내서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ko-KR)
 * [Experience Manager 6.5 학습 및 지원 홈](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/home.html?lang=ko-KR)
 * [Experience Manager 6.4 학습 및 지원 홈](https://experienceleague.adobe.com/docs/experience-manager-64.html?lang=ko-KR)
-* [Experience Manager 6.3 학습 및 지원 홈](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html)
+* [Experience Manager 6.3 학습 및 지원 홈](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=ko-KR)
 * [Experience Manager 6.2 학습 및 지원 홈](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=ko-KR#previous-updates)
 * [이전 버전의 Experience Manager 설명서](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en#previous-updates)
 * [Cloud Manager 사용 안내서](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=ko-KR)
@@ -361,7 +361,7 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 ### 캠페인 도움말 리소스
 
-* Adobe Campaign v8: [도움말 센터](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html) - [릴리스 노트](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/whats-new.html?lang=en) - [구현 안내서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=en)
+* Adobe Campaign v8: [도움말 센터](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ko-KR) - [릴리스 노트](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/whats-new.html?lang=en) - [구현 안내서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=en)
 * Adobe Campaign Standard: [도움말 센터](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=ko-KR) - [릴리스 정보](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en) - [사용 방법 비디오](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en) - [릴리스 계획](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-planning.html?lang=ko-KR) [- 최신 설명서 업데이트](https://experienceleague.adobe.com/docs/campaign-standard/using/documentation-updates.html?lang=en)
 * Adobe Campaign Classic: [도움말 센터](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=ko-KR) - [릴리스 정보](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=en) - [사용 방법 비디오](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=en)- [최신 설명서 업데이트](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=en)
 * Adobe Campaign 제어판: [설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko-KR) - [릴리스 정보](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko-KR) - [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=ko-KR) / [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=ko-KR) 방법 비디오
@@ -373,7 +373,7 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 * [Advertising DSP의 새로운 기능](#adcloud-dsp)
 * [Advertising Search의 새로운 기능](#adcloud-search)
 
-### [!DNL Advertising DSP] 의 새로운 기능  {#adcloud-dsp}
+### [!DNL Advertising DSP]의 새로운 기능 {#adcloud-dsp}
 
 마지막 업데이트: **2021년 6월 10일, 6월 16일 릴리스**
 
@@ -383,7 +383,7 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 {style=&quot;table-layout:auto&quot;}
 
-### [!DNL Advertising Search] 의 새로운 기능  {#adcloud-search}
+### [!DNL Advertising Search]의 새로운 기능 {#adcloud-search}
 
 마지막 업데이트: **2021년 5월 19일, 5월 18일 릴리스**
 
@@ -410,7 +410,7 @@ Adobe Commerce 릴리스 노트에 대해서는 다음 링크를 참조하십시
 
 ### 핵심 Marketo Engage 업데이트
 
-최신 릴리스 일정 정보 및 릴리스 정보는 [!DNL Marketo Engage] [릴리스 일정](https://experienceleague.adobe.com/docs/marketo/using/release-notes/release-schedule.html?lang=en)을 참조하십시오.
+최신 릴리스 일정 정보 및 릴리스 정보는 [!DNL Marketo Engage] [릴리스 일정](https://experienceleague.adobe.com/docs/marketo/using/release-notes/release-schedule.html?lang=ko-KR)을 참조하십시오.
 
 ## ![아이콘](/assets/workfront.png) [!DNL Workfront] {#workfront}
 
@@ -446,7 +446,7 @@ Document Cloud 도움말은 다음을 참조하십시오.
 
 * [Adobe Acrobat](https://experienceleague.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html?lang=ko-KR)
 * [Adobe Sign](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=ko-KR)
-* [Document Cloud 학습 및 지원](https://helpx.adobe.com/support/document-cloud.html)
+* [Document Cloud 학습 및 지원](https://helpx.adobe.com/kr/support/document-cloud.html)
 
 ## ![아이콘](/assets/creative-cloud-24.png) Creative Cloud for enterprise {#creative-cloud}
 
@@ -454,8 +454,8 @@ Creative Cloud for enterprise용으로 게시된 새로운 비디오, 튜토리�
 
 | 게시일 | 이름 | 유형 | 설명 |
 | ----------| --------- | --------- | --------- |
-| 2021년 6월 | [iPad와 iPhone에서 Fresco 체험하기](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/ccetutorials/frescoworkshop.html) | 비디오 | 이 15분 실습 워크숍에서 Adobe Fresco를 사용하여 완전히 새로운 디지털 드로잉과 페인팅의 세계를 탐험해 보십시오. 레이어 및 클리핑 마스크로 작업하여 페인트와 텍스처를 기본 모양에 맞추는 방법을 빠르게 학습합니다. |
-| 2021년 6월 | [그래픽 형식의 어려운 약어 의미 파악](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/ccetutorials/alphabetsoup.html) | 비디오 | PG, PNG, SVG, GIF, EPS 파일은 모두 디자인에서 일반적으로 사용됩니다. 일부는 웹 페이지에 사용되며 일부는 프레젠테이션, 발행물 및 크리에이티브 프로젝트에 사용됩니다. 하지만… 이 약어들의 의미는 무엇이며 무엇을 선택해야 할까요? 이 15분 실습 워크샵에서 알아보십시오. |
+| 2021년 6월 | [iPad와 iPhone에서 Fresco 체험하기](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/ccetutorials/frescoworkshop.html?lang=ko-KR) | 비디오 | 이 15분 실습 워크숍에서 Adobe Fresco를 사용하여 완전히 새로운 디지털 드로잉과 페인팅의 세계를 탐험해 보십시오. 레이어 및 클리핑 마스크로 작업하여 페인트와 텍스처를 기본 모양에 맞추는 방법을 빠르게 알아봅니다. |
+| 2021년 6월 | [그래픽 형식의 어려운 약어 의미 파악](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/ccetutorials/alphabetsoup.html?lang=ko-KR) | 비디오 | PG, PNG, SVG, GIF, EPS 파일은 모두 디자인에서 일반적으로 사용됩니다. 일부는 웹 페이지에 사용되며 일부는 프레젠테이션, 발행물 및 크리에이티브 프로젝트에 사용됩니다. 하지만… 이 약어들의 의미는 무엇이며 무엇을 선택해야 할까요? 이 15분 실습 워크샵에서 알아보십시오. |
 
 {style=&quot;table-layout:auto&quot;}
 
