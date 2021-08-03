@@ -6,9 +6,9 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 0a6bbad001bc4aeb0b8f6537d87d8d98131af5d5
+source-git-commit: b3b30ac28d820aa30482c823ccd537bcf9cdcfb3
 workflow-type: tm+mt
-source-wordcount: '5034'
+source-wordcount: '5036'
 ht-degree: 45%
 
 ---
@@ -23,7 +23,7 @@ Experience Cloud 애플리케이션과 서비스는 매달 업데이트됩니다
 >
 >월별 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html) 를 구독하면 이 페이지의 업데이트에 대한 이메일 알림을 받을 수 있습니다. 이 페이지는 한 달 동안 유지되므로 Adobe 엔터프라이즈 제품 및 Experience League 설명서에 대한 업데이트를 정기적으로 확인하십시오.
 
-최신 업데이트: **2021년 7월 22일**
+최신 업데이트: **2021년 8월 3일**
 
 * [Experience League Live에 대한 이벤트 알림](#events)  - 2021년  **7월 29일**
 * [Experience Cloud 중앙 인터페이스 구성 요소](#ecloud)
@@ -32,7 +32,7 @@ Experience Cloud 애플리케이션과 서비스는 매달 업데이트됩니다
 * [Journey Optimizer](#journey-opt)
 * [Journey Orchestration](#journey-orch)
 * [Offer Decisioning](#offer-decisioning)
-* [[!DNL Analytics]](#analytics) 및 [Customer Journey Analytics](#cust-journey) (업데이트 날짜: 2021년 7월 19일)
+* [[!DNL Analytics]](#analytics) 및 [Customer Journey Analytics](#cust-journey) **(2021년 8월 3일 업데이트됨)**
 * [[!DNL Audience Manager]](#aam)
 * [[!DNL Experience Manager]](#aem)
 * [[!DNL Campaign]](#ac)
@@ -132,7 +132,7 @@ Experience Platform을 사용하여 모든 개인의 요구 사항을 실시간�
 * [Adobe Analytics의 새로운 기능](#aa-features)
 * [Customer Journey Analytics의 새로운 기능](#cust-journey) (업데이트 날짜: 2021년 7월 19일)
 * [Adobe Analytics의 수정 사항](#aa-fixes)
-* [Analytics 관리자에 대한 중요 공지](#aa-notices)
+* [Analytics 관리자를 대상으로 한 중요 공지](#aa-notices)(2021년 8월 3일 업데이트됨)
 * [Analytics 교육 과정 및 튜토리얼](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -154,7 +154,7 @@ Experience Platform을 사용하여 모든 개인의 요구 사항을 실시간�
 
 | 기능 | 설명 | [일반 가용성](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=ko-KR) - 대상 날짜 |
 | ----------- | ---------- | ------- |
-| 새 Adobe Analytics 랜딩 페이지(베타 열기) | Adobe Analytics의 새 랜딩 페이지는 Analysis Workspace과 Reports &amp; Analytics를 모두 작업 공간 우산 아래 단일 인터페이스 및 액세스 포인트로 가져옵니다. 새 프로젝트 관리자 홈 페이지, 업데이트된 보고서 메뉴, 현대화된 보고서 및 새로운 학습 섹션을 통해 보다 효과적으로 시작할 수 있습니다. 새 페이지는 검색 기능을 향상시키고 Reports &amp; Analytics 사용자를 Workspace에서 개선된 보고 환경을 제공합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html) | 2021년 7월 26일 |
+| 새 Adobe Analytics 랜딩 페이지(베타 열기) | Adobe Analytics의 새 랜딩 페이지는 Analysis Workspace과 Reports &amp; Analytics를 모두 작업 공간 우산 아래 단일 인터페이스 및 액세스 포인트로 가져옵니다. 새 프로젝트 관리자 홈 페이지, 업데이트된 보고서 메뉴, 현대화된 보고서 및 새로운 학습 섹션을 통해 보다 효과적으로 시작할 수 있습니다. 새 페이지는 검색 기능을 개선하고 Report &amp; Analytics 사용자에게 Workspace의 향상된 보고 경험을 안내합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html) | 2021년 7월 26일 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -181,8 +181,8 @@ AN-160022; AN-186365; AN-234768 (CJA); AN-253041; AN-255098; AN-256319; AN-25656
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | ----------- | ---------- | ---------- |
+| Adobe Data Connectors EOL | 2021년 8월 3일 | Adobe [!UICONTROL Data Connectors] 는 더 이상 실행 불가능하거나 지원되지 않는 레거시 기술을 기반으로 합니다. [Adobe Exchange Partner Program](https://partners.adobe.com/exchangeprogram/experiencecloud)에서 새로운 표준을 사용할 수 있습니다. 이 표준을 사용하여 모든 통합이 지속적으로 제공되고 지원될 수 있습니다. 공식 수명 종료 날짜는 **2021년 8월 19일**&#x200B;입니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=ko-KR) |
 | 3개의 Analytics API 서비스에 대한 사용 종료 | 2021년 7월 15일 | **2021년 8월 18일**&#x200B;에 다음 Analytics 이전 API 서비스가 종료됩니다. 이러한 서비스를 사용하여 구축한 현재 모든 통합은 해당 날짜부터 더 이상 작동하지 않습니다.<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증(OAuth 및 JWT)</li></ul>Adobe는 질문에 답변하고 진행 방법에 대한 지침을 제공하기 위해 [이전 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) 를 제공했습니다. 이들 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 이전 OAuth 계정은 [Adobe I/O](https://console.adobe.io/home?mv=email#) Analytics 통합 계정으로 마이그레이션할 수 있으며, 이 계정은 1.4 Analytics API 및 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다. |
-| Adobe Data Connectors EOL | 2020년 7월 13일 | Adobe [!UICONTROL Data Connectors] 는 더 이상 실행 불가능하거나 지원되지 않는 레거시 기술을 기반으로 합니다. [Adobe Exchange Partner Program](https://partners.adobe.com/exchangeprogram/experiencecloud)에서 새로운 표준을 사용할 수 있습니다. 이 표준을 사용하여 모든 통합이 지속적으로 제공되고 지원될 수 있습니다. 공식 수명 종료 날짜는 **2021년 8월 1일**&#x200B;입니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=ko-KR) |
 | 전체 프로세싱 데이터 소스 서비스 중단 | 2021년 4월 12일 | Adobe은 2021년 7월 31일에 전체 처리 데이터 소스 **를 사용하지 않도록 설정할 계획입니다**. 2021년 3월 25일부터 이 유형의 새로운 가져오기는 더 이상 생성되지 않습니다. 이 유형의 데이터를 가져오려면 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 를 사용해 주십시오. |
 | [!UICONTROL Report Builder]로 로그인 업데이트 | 2021년 4월 21일 | 2021년 1월 14일 [!UICONTROL Report Builder] 로그인 업데이트로 레거시 기술의 종속성이 제거되었고, 로그인 프로세스와 Experience Cloud가 연결되었습니다. Experience Cloud는 Enterprise ID(이메일과 암호)를 사용합니다. [!UICONTROL Report Builder]에 중단 없이 액세스하려면 2021년 7월 22일까지 [!UICONTROL Report Builder]**추가 기능을 버전 5.6.47 이상으로 업데이트합니다**. Report Builder 버전 5.6.47 이상은 Experience Cloud 로그인을 지원하고, Single Sign-On을 지원하지 않습니다. |
 
