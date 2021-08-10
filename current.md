@@ -6,7 +6,7 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: b3b30ac28d820aa30482c823ccd537bcf9cdcfb3
+source-git-commit: 78eda24b09b4fd09e6dbddde9ba32104cca40261
 workflow-type: tm+mt
 source-wordcount: '5036'
 ht-degree: 99%
@@ -32,7 +32,7 @@ Experience Cloud 애플리케이션과 서비스는 매달 업데이트됩니다
 * [Journey Optimizer](#journey-opt)
 * [Journey Orchestration](#journey-orch)
 * [Offer Decisioning](#offer-decisioning)
-* [[!DNL Analytics]](#analytics) 및 [Customer Journey Analytics](#cust-journey) **(2021년 8월 3일 업데이트됨)**
+* [[!DNL Analytics]](#analytics) 및 [Customer Journey Analytics](#cust-journey) **(2021년 8월 10일 업데이트됨)**
 * [[!DNL Audience Manager]](#aam)
 * [[!DNL Experience Manager]](#aem)
 * [[!DNL Campaign]](#ac)
@@ -130,7 +130,7 @@ Experience Platform을 사용하여 모든 개인의 요구 사항을 실시간�
 
 * [Experience League 라이브에 대한 이벤트 알림](#events)
 * [Adobe Analytics의 새로운 기능](#aa-features)
-* [Customer Journey Analytics의 새로운 기능](#cust-journey) (2021년 7월 19일 업데이트됨)
+* [Customer Journey Analytics의 새로운 기능](#cust-journey) (2021년 8월 10일 업데이트됨)
 * [Adobe Analytics의 수정 사항](#aa-fixes)
 * [Analytics 관리자를 대상으로 한 중요 공지](#aa-notices)(2021년 8월 3일 업데이트됨)
 * [Analytics 교육 과정 및 튜토리얼](#tutorials-analytics)
@@ -162,7 +162,7 @@ Experience Platform을 사용하여 모든 개인의 요구 사항을 실시간�
 
 | 기능 | 설명 | [일반 가용성](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=en) - 대상 날짜 |
 | ----------- | ---------- | ----- |
-| 새 연결 정보 경험 | 이 연결 UI의 향상된 기능을 통해 데이터를 보고에 사용할 준비가 되었는지 여부와 그 시기를 알 수 있습니다. 데이터 처리와 관련된 문제를 추적할 수도 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=ko-KR) | 2021년 8월 10일 |
+| 새 연결 정보 경험 | 이 연결 UI의 향상된 기능을 통해 데이터를 보고에 사용할 준비가 되었는지 여부와 그 시기를 알 수 있습니다. 데이터 처리와 관련된 문제를 추적할 수도 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=ko-KR) | 2021년 8월 19일 |
 
 {style=&quot;table-layout:auto&quot;}
 
