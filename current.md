@@ -6,10 +6,10 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 78eda24b09b4fd09e6dbddde9ba32104cca40261
+source-git-commit: a93d9deb8ad36d396899d0b0505b1d6bf9441c3b
 workflow-type: tm+mt
-source-wordcount: '5036'
-ht-degree: 99%
+source-wordcount: '5002'
+ht-degree: 98%
 
 ---
 
@@ -36,7 +36,7 @@ Experience Cloud 애플리케이션과 서비스는 매달 업데이트됩니다
 * [[!DNL Audience Manager]](#aam)
 * [[!DNL Experience Manager]](#aem)
 * [[!DNL Campaign]](#ac)
-* [[!DNL Advertising]](#adcloud)
+* [[!DNL Advertising Cloud]](#adcloud)
 * [[!DNL Target]](#target)
 * [[!DNL Commerce]](#magento) (Magento)
 * [[!DNL Marketo Engage]](#marketo)
@@ -366,30 +366,30 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 * Adobe Campaign Classic: [도움말 센터](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=ko-KR) - [릴리스 정보](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=en) - [사용 방법 비디오](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko-KR)- [최신 설명서 업데이트](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=ko-KR)
 * Adobe Campaign 제어판: [설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko-KR) - [릴리스 정보](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko-KR) - [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=ko-KR) / [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=ko-KR) 방법 비디오
 
-## ![아이콘](/assets/advertising-cloud.png) Advertising {#adcloud}
+## ![아이콘](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
-[!DNL Adobe Advertising]의 릴리스 정보.
+[!DNL Adobe Advertising Cloud]의 릴리스 정보.
 
-* [Advertising DSP의 새로운 기능](#adcloud-dsp)
-* [Advertising Search의 새로운 기능](#adcloud-search)
+* [Advertising Cloud DSP의 새로운 기능](#adcloud-dsp)
+* [Advertising Cloud Search의 새로운 기능](#adcloud-search)
 
-### [!DNL Advertising DSP]의 새로운 기능 {#adcloud-dsp}
+### [!DNL Advertising Cloud DSP]의 새로운 기능 {#adcloud-dsp}
 
 마지막 업데이트: **2021년 6월 10일, 6월 16일 릴리스**
 
 | 기능 | 설명 |
-| -----------| ---------- |
+| ------- | ----------- |
 | 캠페인 관리 | (6월 16일 릴리스)배치 수준의 게재 간격 및 예산과 더불어 표준 디스플레이 배치에 대한 예측이 가능합니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
-### [!DNL Advertising Search]의 새로운 기능 {#adcloud-search}
+### [!DNL Advertising Cloud Search]의 새로운 기능 {#adcloud-search}
 
-마지막 업데이트: **2021년 5월 19일, 5월 18일 릴리스**
+마지막 업데이트: **7월 24일 릴리스**
 
 | 기능 | 설명 |
-| -----------| ---------- |
-| [!UICONTROL 알림 센터 Beta] | [!UICONTROL 알림 센터 Beta]는 모든 사용자가 사용할 수 있습니다. 이를 사용하여 계정 인증 오류, 트리거된 사용자 지정 경고 및 생성한 [!UICONTROL Advertising Insights] 완료에 대한 이메일 및 웹 알림을 구독하십시오.<br>다음 중 하나에서 알림을 볼 수 있습니다.<ul><li>페이지의 오른쪽 상단에 있는 알림 링크에서 열리는 [!UICONTROL 알림]패널.</li><li>[!UICONTROL Insights &amp; Reports >알림 센터 Beta]의 [!UICONTROL 알림 센터].</li></ul><br><b>참고:</b> 알림 저장 방법이 개선되어 기존 알림이 모두 지워졌습니다. |
+| ------- | ----------- |
+| [!UICONTROL 도구] | 광고 계정이 하이브리드 최적화를 사용하도록 구성된 경우 Advertising Cloud에서는 선택적으로 계정의 목표를 Google 광고 및 Microsoft Ads에 전환으로 업로드하여 하이브리드 최적화에 사용할 수 있습니다. [!UICONTROL 검색] > [!UICONTROL 도구] > [!UICONTROL 변환 업로드 설정]에서 기능을 활성화할 수 있습니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
