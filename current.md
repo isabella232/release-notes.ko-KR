@@ -6,7 +6,7 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: a93d9deb8ad36d396899d0b0505b1d6bf9441c3b
+source-git-commit: a802b3ea8757944a04c24b3f7b8992e1ffe9bac8
 workflow-type: tm+mt
 source-wordcount: '5002'
 ht-degree: 98%
@@ -389,7 +389,7 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 | 기능 | 설명 |
 | ------- | ----------- |
-| [!UICONTROL 도구] | 광고 계정이 하이브리드 최적화를 사용하도록 구성된 경우 Advertising Cloud에서는 선택적으로 계정의 목표를 Google 광고 및 Microsoft Ads에 전환으로 업로드하여 하이브리드 최적화에 사용할 수 있습니다. [!UICONTROL 검색] > [!UICONTROL 도구] > [!UICONTROL 변환 업로드 설정]에서 기능을 활성화할 수 있습니다. |
+| [!UICONTROL 도구] | 광고 계정이 하이브리드 최적화를 사용하도록 구성된 경우 Advertising Cloud에서는 선택적으로 계정의 목표를 Google 광고 및 Microsoft Ads에 전환으로 업로드하여 하이브리드 최적화에 사용할 수 있습니다. **[!UICONTROL 검색]** > **[!UICONTROL 도구]** > **[!UICONTROL 변환 업로드 설정]**&#x200B;에서 기능을 활성화할 수 있습니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
