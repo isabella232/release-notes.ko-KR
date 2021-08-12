@@ -6,9 +6,9 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 6c6ebfbf878dcdd9db406789f1350e04b42f3d85
+source-git-commit: 7a9c166e6b3efc239e039f7aa2c2d52a7fadd680
 workflow-type: tm+mt
-source-wordcount: '5004'
+source-wordcount: '5003'
 ht-degree: 98%
 
 ---
@@ -385,11 +385,11 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 ### [!DNL Advertising Cloud Search]의 새로운 기능 {#adcloud-search}
 
-마지막 업데이트: **7월 24일 릴리스**
+마지막 업데이트: **7월 24일 8월 11일 릴리스**
 
 | 기능 | 설명 |
 | ------- | ----------- |
-| [!UICONTROL 도구] | 광고 계정이 하이브리드 최적화를 사용하도록 구성된 경우 Advertising Cloud에서는 선택적으로 계정의 목표를 Google 광고 및 Microsoft Ads에 전환으로 업로드하여 하이브리드 최적화에 사용할 수 있습니다. **[!UICONTROL 검색]** > **[!UICONTROL 도구]** > **[!UICONTROL 변환 업로드 설정]**&#x200B;에서 기능을 활성화할 수 있습니다. |
+| [!UICONTROL 도구] | 광고 계정이 하이브리드 최적화를 사용하도록 구성된 경우 선택적으로 [!DNL Advertising Cloud Search] 계정 포트폴리오의 목표를 전환으로 Google Ads에 업로드할 수 있으므로 하이브리드 최적화에 사용할 수 있습니다. **[!UICONTROL 검색]** > **[!UICONTROL 도구]** > **[!UICONTROL 변환 업로드 설정]**&#x200B;에서 기능을 활성화할 수 있습니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
