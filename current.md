@@ -6,10 +6,10 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 4bcabafad300591b5dd46afad7032ecb8c9f5bcf
+source-git-commit: cfeac2dbfaef453f24b54450c45d22e737510281
 workflow-type: tm+mt
 source-wordcount: '4362'
-ht-degree: 52%
+ht-degree: 51%
 
 ---
 
@@ -65,13 +65,13 @@ Experience Cloud 중앙 인터페이스 구성 요소에는 자체 도움말, �
 
 [!UICONTROL Adobe 시스템 상태] 는 Adobe 클라우드 제품 및 서비스 중단, 중단 및 유지 관리 이벤트에 대한 자세한 정보, 상태 업데이트 및 이메일 알림을 제공합니다. [status.adobe.com](https://status.adobe.com/)에서 관련 정보를 확인하십시오.
 
-Adobe 시스템 상태에 대한 최신 업데이트 및 최신 릴리스 정보는 [Adobe 시스템 상태 - 2020년 5월 21일](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/previous/2020/05212020.html?lang=ko-KR) 에서 확인할 수 있습니다.
+Adobe 시스템 상태에 대한 최신 릴리스 정보는 2020년 5월 21일](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/previous/2020/05212020.html?lang=ko-KR) 릴리스 노트에서 확인할 수 있습니다.[
 
 ## ![아이콘](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
 Experience Platform 및 플랫폼 태그 지정에 대한 릴리스 업데이트 정보와 새로운 설명서가 포함되어 있습니다.
 
-* **2021년 7월 28일** [Experience Platform 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR)
+* **2021년 7월 28일** [Experience Platform 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR) (다음 예정된 릴리스:  **(8월 19일**)
 * **2021년 7월 19일** [Experience Platform 태그 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/tags/release-notes/current.html?lang=ko-KR) (이전, Experience Platform Launch)
 
 ### Experience Platform 튜토리얼 및 교육 과정 {#tutorials-platform}
@@ -91,7 +91,7 @@ Adobe Journey Optimizer를 사용하면 단일 애플리케이션에서 수백�
 
 ### 최신 Journey Optimizer 제품 릴리스
 
-[Journey Orchestration 릴리스 정보](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html?lang=en)에서 최신 기능, 개선 사항 및 수정 사항에 대해 알아봅니다.
+[Journey Optimizer 릴리스 노트](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html?lang=en)의 최신 기능, 개선 사항 및 수정 사항에 대해 자세히 알아보십시오.
 
 **Journey Optimizer를 위한 추가 리소스**
 
