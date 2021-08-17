@@ -6,9 +6,9 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: c0e65e13f424913c82f6608b24a8f797ee7a0341
+source-git-commit: 98ff0e6871649fdf5e88c4119de1b21f27de21bf
 workflow-type: tm+mt
-source-wordcount: '4360'
+source-wordcount: '4374'
 ht-degree: 51%
 
 ---
@@ -23,7 +23,7 @@ Experience Cloud 애플리케이션과 서비스는 매달 업데이트됩니다
 >
 >월별 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html) 를 구독하면 이 페이지의 업데이트에 대한 이메일 알림을 받을 수 있습니다. 이 페이지는 한 달 동안 유지되므로 Adobe 엔터프라이즈 제품 및 Experience League 설명서에 대한 업데이트를 정기적으로 확인하십시오.
 
-최신 업데이트: **2021년 8월 13일**
+최신 업데이트: **2021년 8월 17일**
 
 * [Experience Cloud 중앙 인터페이스 구성 요소](#ecloud)
 * [Experience Platform](#platform)
@@ -31,7 +31,7 @@ Experience Cloud 애플리케이션과 서비스는 매달 업데이트됩니다
 * [Journey Optimizer](#journey-opt)
 * [Journey Orchestration](#journey-orch)
 * [Offer Decisioning](#offer-decisioning)
-* [[!DNL Analytics]](#analytics) 및 [Customer Journey Analytics](#cust-journey)
+* [[!DNL Analytics]](#analytics) 및 [Customer Journey Analytics](#cust-journey) **2021년 8월 17일** 업데이트됨
 * [[!DNL Audience Manager]](#aam)
 * [[!DNL Experience Manager]](#aem)
 * [[!DNL Campaign]](#ac)
@@ -135,9 +135,9 @@ Adobe Campaign에 대해 게시된 새로운 비디오, 자습서 또는 교육 
 릴리스 날짜: **2021년 19월 8일**
 
 * [Adobe Analytics의 새로운 기능](#aa-features)
-* [Customer Journey Analytics의 새로운 기능](#cust-journey)
+* [Customer Journey Analytics의 새로운 기능](#cust-journey) (**2021년 8월 17일** 업데이트됨)
 * [Adobe Analytics의 수정 사항](#aa-fixes)
-* [Analytics 관리자를 대상으로 한 중요 공지](#aa-notices)(2021년 8월 3일 업데이트됨)
+* [Analytics 관리자에 대한 중요 공지](#aa-notices)
 * [Analytics 교육 과정 및 튜토리얼](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -154,7 +154,7 @@ Adobe Campaign에 대해 게시된 새로운 비디오, 자습서 또는 교육 
 | 기능 | 설명 | [일반 가용성](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=en) - 대상 날짜 |
 | ----------- | ---------- | ----- |
 | 새 연결 정보 경험 | 이 연결 UI의 향상된 기능을 통해 데이터를 보고에 사용할 준비가 되었는지 여부와 그 시기를 알 수 있습니다. 데이터 처리와 관련된 문제를 추적할 수도 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=ko-KR) | 2021년 8월 19일 |
-| 데이터 보기 차원의 대/소문자 구분 제어 | Customer Journey Analytics이 차원 값을 대/소문자를 구분하는지 여부를 제어할 수 있습니다. 이렇게 하면 값이 동일하지만 대소문자가 다른 행의 중복 제거를 수행할 수 있습니다. | 2021년 8월 19일 |
+| 데이터 보기 차원의 대/소문자 구분 제어 | Customer Journey Analytics이 차원 값을 대/소문자를 구분하는지 여부를 제어할 수 있습니다. 이렇게 하면 값이 동일하지만 대소문자가 다른 행의 중복 제거를 수행할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-behavior-settings) | 2021년 8월 19일 |
 
 {style=&quot;table-layout:auto&quot;}
 
