@@ -8,7 +8,7 @@ mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 source-git-commit: 98ff0e6871649fdf5e88c4119de1b21f27de21bf
 workflow-type: tm+mt
-source-wordcount: '4374'
+source-wordcount: '4363'
 ht-degree: 51%
 
 ---
@@ -333,9 +333,9 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 릴리스된 최신 기능, 개선 사항 및 수정 사항에 대해 자세히 알아보십시오.
 
-* Adobe Campaign Classic v8 8.1.14 릴리스: [Campaign Classic v8 릴리스 정보](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/release-notes.html?lang=en)에서 자세히 알아보십시오
+* [Campaign v8 8.1.14](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/release-notes.html?lang=en)
 * [Campaign Standard 릴리스 정보](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en)
-* [Campaign Classic 릴리스 정보](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ko-KR)
+* [Campaign Classic v7 21.1.3 릴리스 노트](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ko-KR)
 
 <!-- ### New [!UICONTROL Campaign] courses and tutorials {#tutorials-campaign}
 
