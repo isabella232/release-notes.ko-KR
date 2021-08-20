@@ -6,10 +6,10 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 98ff0e6871649fdf5e88c4119de1b21f27de21bf
+source-git-commit: 9b538a541f0211a3026fb3f8bdd7de834bced917
 workflow-type: tm+mt
-source-wordcount: '4363'
-ht-degree: 51%
+source-wordcount: '4444'
+ht-degree: 52%
 
 ---
 
@@ -109,10 +109,10 @@ Adobe Campaign에 대해 게시된 새로운 비디오, 자습서 또는 교육 
 
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021년 8월 | [여정 만들기 소개](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html) | 비디오 | 여정 캔버스에서 여정을 작성하는 기본 사항을 이해합니다. |
-| 2021년 8월 | [데이터 설정 - 개요](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/get-started/data-configuration/set-up-data-overview.html) | 비디오 | Journey Optimizer용 고객 프로필 데이터를 설정하는 데 필요한 실시간 고객 프로필 데이터와 단계에 대해 알아봅니다. |
-| 2021년 8월 | [ID 매핑](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/get-started/data-configuration/map-identities.html) | 비디오 | 스키마 필드를 ID로 레이블을 지정하는 방법 및 시기, 네임스페이스를 만드는 방법, ID 기본 속성을 만드는 시기, ID 데이터를 수집 및 확인하는 방법을 알아봅니다. |
-| 2021년 8월 | [사용 사례: 버스트 메시지](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-read-burst-message.html) | 비디오 | 버스트 메시지에 적용할 수 있는 사용 사례를 이해합니다. 버스트 메시지에 대한 여정을 구성하는 방법과 적용할 모범 사례를 알아봅니다. |
+| 2021년 8월 | [여정 작성 소개](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html) | 비디오 | 여정 캔버스에서 여정을 작성하는 기본적인 방법을 이해합니다. |
+| 2021년 8월 | [데이터 설정 - 개요](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/get-started/data-configuration/set-up-data-overview.html) | 비디오 | 실시간 고객 프로필 데이터의 정의와 Journey Optimizer에서 사용할 고객 프로필 데이터를 설정하기 위해 취해야 할 단계에 대해 알아봅니다. |
+| 2021년 8월 | [ID 매핑](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/get-started/data-configuration/map-identities.html) | 비디오 | 스키마 필드에 ID 레이블을 지정하는 방법과 적절한 시점, 네임스페이스를 만드는 방법, 특정 ID를 기본 ID로 만들어야 할 시점, ID 데이터를 수집 및 확인하는 방법을 알아봅니다. |
+| 2021년 8월 | [사용 사례: 버스트 메시지](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-read-burst-message.html) | 비디오 | 버스트 메시지에 적용할 수 있는 사용 사례를 이해합니다. 버스트 메시지에 대한 여정을 구성하는 방법 및 적용할 모범 사례를 알아봅니다. |
 
 **Journey Orchestration을 위한 추가 리소스**
 
@@ -373,10 +373,11 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 ### [!DNL Advertising Cloud Search]의 새로운 기능 {#adcloud-search}
 
-마지막 업데이트: **2021년 8월 12일, 8월 21일 릴리스**
+마지막 업데이트: **2021년 8월 20일, 8월 21일 릴리스**
 
 | 기능 | 설명 |
 | ------- | ----------- |
+| — | 새로운 베타 Advertising Cloud Javascript 태그는 ECID(Adobe Experience Cloud ID) 서비스와 기존 ef_id 및 gsurferid를 사용하여 전환을 측정합니다. 새 태그는 [자사 Experience Cloud s_ecid 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html)를 만들고 다른 Experience Cloud 제품과의 더 긴밀해진 통합을 제공합니다.<br><br>ITP 매핑이 있는 기존 Advertising Cloud Javascript 태그는 2021년 9월에 더 이상 사용되지 않습니다.<br><br>자세한 정보와 구현 지침이 있는 Adobe 계정 관리자에게 문의하십시오. |
 | [!UICONTROL 포트폴리오] | 자동화된 가중치 권장 사항을 사용하는 새 [!UICONTROL 목표 베타]를 모든 사용자가 사용할 수 있습니다. 새 인터페이스에는 목표 생성 및 초기 목표 가중치 설정에 대한 자세한 지침이 포함되어 있습니다. 가중치 권장 사항은 지원 지표에만 사용할 수 있습니다. |
 
 {style=&quot;table-layout:auto&quot;}
