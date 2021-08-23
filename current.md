@@ -6,9 +6,9 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: c47b884401c2d9b4cce5d6b56252c58acccc598c
+source-git-commit: fd638c92e6804ccdec2adfc9aec1f571c610b798
 workflow-type: tm+mt
-source-wordcount: '4427'
+source-wordcount: '4430'
 ht-degree: 52%
 
 ---
@@ -389,6 +389,8 @@ Adobe Commerce 릴리스 정보에 대한 다음 링크를 참조하십시오.
 * [Cloud Suite](https://devdocs.magento.com/cloud/release-notes/cloud-tools.html)
 
 ## ![아이콘](/assets/target.png) [!DNL Target] {#target}
+
+마지막 업데이트 날짜: **2021년 8월 3일**
 
 최신 릴리스 정보는 [[!DNL Target] 릴리스 정보](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=ko-KR)를 참조하십시오.
 
