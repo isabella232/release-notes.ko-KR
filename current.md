@@ -6,9 +6,9 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: fd638c92e6804ccdec2adfc9aec1f571c610b798
+source-git-commit: 0f1c37e20e20740e60c6e6c72e465c8611e4a60b
 workflow-type: tm+mt
-source-wordcount: '4430'
+source-wordcount: '4445'
 ht-degree: 52%
 
 ---
@@ -23,10 +23,10 @@ Experience Cloud 애플리케이션과 서비스는 매달 업데이트됩니다
 >
 >월별 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html) 를 구독하면 이 페이지의 업데이트에 대한 이메일 알림을 받을 수 있습니다. 이 페이지는 한 달 동안 유지되므로 Adobe 엔터프라이즈 제품 및 Experience League 설명서에 대한 업데이트를 정기적으로 확인하십시오.
 
-최신 업데이트: **2021년 8월 20일**
+최신 업데이트: **2021년 8월 25일**
 
 * [Experience Cloud 중앙 인터페이스 구성 요소](#ecloud)
-* [Experience Platform](#platform)
+* [Experience Platform](#platform)  (2021년  **8월 25일 업데이트됨**)
 * [Adobe 시스템 상태](#status)
 * [Journey Optimizer](#journey-opt)
 * [Journey Orchestration](#journey-orch)
@@ -71,7 +71,13 @@ Adobe 시스템 상태에 대한 최신 릴리스 정보는 2020년 5월 21일](
 
 Experience Platform 및 플랫폼 태그 지정에 대한 릴리스 업데이트 정보와 새로운 설명서가 포함되어 있습니다.
 
-* **2021년 7월 28일** [Experience Platform 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR) (다음 예정 릴리스 -  **8월 25일**)
+**2021년 8월 25일**  Experience Platform의 기존 기능에 대한 업데이트에는 다음이 포함됩니다.
+
+* 가시성 통찰력
+* 실시간 고객 프로필
+* 소스
+
+자세한 내용은 [Experience Platform 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR)를 참조하십시오.
 
 ### Experience Platform 튜토리얼 및 교육 과정 {#tutorials-platform}
 
