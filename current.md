@@ -6,10 +6,10 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 0f1c37e20e20740e60c6e6c72e465c8611e4a60b
+source-git-commit: 8b1a49bf761607dccb2793e0223c072cd6121be3
 workflow-type: tm+mt
-source-wordcount: '4445'
-ht-degree: 52%
+source-wordcount: '4503'
+ht-degree: 51%
 
 ---
 
@@ -23,8 +23,9 @@ Experience Cloud 애플리케이션과 서비스는 매달 업데이트됩니다
 >
 >월별 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html) 를 구독하면 이 페이지의 업데이트에 대한 이메일 알림을 받을 수 있습니다. 이 페이지는 한 달 동안 유지되므로 Adobe 엔터프라이즈 제품 및 Experience League 설명서에 대한 업데이트를 정기적으로 확인하십시오.
 
-최신 업데이트: **2021년 8월 25일**
+최신 업데이트: **2021년 8월 26일**
 
+* [Experience League Live에 대한 이벤트 알림](#events)  - 2021년  **8월 26일**
 * [Experience Cloud 중앙 인터페이스 구성 요소](#ecloud)
 * [Experience Platform](#platform)  (2021년  **8월 25일 업데이트됨**)
 * [Adobe 시스템 상태](#status)
@@ -44,6 +45,14 @@ Experience Cloud 애플리케이션과 서비스는 매달 업데이트됩니다
 * [Creative Cloud for enterprise](#creative-cloud)
 
 도움이 필요하십니까? [Adobe Experience League](https://experienceleague.adobe.com/?lang=ko-KR/#home) 에서 제품 및 기술 문서, Adobe에서 제공하는 교육 과정, 비디오 튜토리얼, 빠른 답변, 커뮤니티 통찰력 및 강사 중심의 트레이닝을 확인할 수 있습니다.
+
+## Experience League 라이브 이벤트를 위한 이벤트 알림 - 다음 대상 세그먼트를 보다 스마트하게 만들기 {#events}
+
+Aaron Shields, Yaya Wang 및 Andres Monroy가 포함된 Experience Platform LIVE의 세그먼트 빌더를 살펴보십시오!
+
+**이벤트:** [다음 대상 세그먼트를 더 똑똑하게 만듭니다](https://www.youtube.com/watch?v=rogVKsTFbWk)
+
+**시기:** 2021년 8월 26일 오전 9시(PST)
 
 ## ![아이콘](/assets/ec_appicon_24.png) Experience Cloud 중앙 UI 구성 요소 {#ecloud}
 
