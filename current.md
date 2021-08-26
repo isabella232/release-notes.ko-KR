@@ -6,9 +6,9 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 8b1a49bf761607dccb2793e0223c072cd6121be3
+source-git-commit: c402b360cc166a76c694b383806a21a34ccd2e60
 workflow-type: tm+mt
-source-wordcount: '4503'
+source-wordcount: '4508'
 ht-degree: 51%
 
 ---
@@ -46,13 +46,11 @@ Experience Cloud 애플리케이션과 서비스는 매달 업데이트됩니다
 
 도움이 필요하십니까? [Adobe Experience League](https://experienceleague.adobe.com/?lang=ko-KR/#home) 에서 제품 및 기술 문서, Adobe에서 제공하는 교육 과정, 비디오 튜토리얼, 빠른 답변, 커뮤니티 통찰력 및 강사 중심의 트레이닝을 확인할 수 있습니다.
 
-## Experience League 라이브 이벤트를 위한 이벤트 알림 - 다음 대상 세그먼트를 보다 스마트하게 만들기 {#events}
+## ![](/assets/experience-league.png) 아이콘Experience League Live {#events}
 
-Aaron Shields, Yaya Wang 및 Andres Monroy가 포함된 Experience Platform LIVE의 세그먼트 빌더를 살펴보십시오!
+**2021년 8월 26일** | 다음  [대상자를 더욱 똑똑하게 만들기](https://www.youtube.com/watch?v=rogVKsTFbWk)  - Experience Platform에서 Doug Moore, Aaron Shields, Yaya Wang 및 Andres Monroy와 함께 세그먼트 빌더를 알아보십시오!
 
-**이벤트:** [다음 대상 세그먼트를 더 똑똑하게 만듭니다](https://www.youtube.com/watch?v=rogVKsTFbWk)
-
-**시기:** 2021년 8월 26일 오전 9시(PST)
+더 많은 비디오를 보려면 YouTube의 [Adobe Experience League 채널](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw)을 방문해 보십시오.
 
 ## ![아이콘](/assets/ec_appicon_24.png) Experience Cloud 중앙 UI 구성 요소 {#ecloud}
 
