@@ -6,9 +6,9 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 331a26c572b1fc08fe46bd95ed80df1df1986077
+source-git-commit: 86c72625cfc50612c0a7cf0c9893b3d6dc4e90f4
 workflow-type: tm+mt
-source-wordcount: '6307'
+source-wordcount: '6299'
 ht-degree: 30%
 
 ---
@@ -194,12 +194,10 @@ Experience Platform 및 서비스를 위해 게시된 새로운 비디오, 튜�
 
 Journey Orchestration에 대한 기능, 수정 내용 및 새로운 도움말 컨텐츠입니다.
 
-**2021년 8월**
-
 * **동적 헤더:**  이제 HTTP 헤더 매개 변수로 동적 데이터를 전달할 수 있습니다. 이러한 매개 변수는 타임스탬프 또는 추적 ID와 같이 여정 작업 HTTP 호출을 받는 통합 시스템에서 사용할 수 있습니다. [자세히 보기...](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action-third-party/url-configuration.html?lang=en)
 * **동적 URL 경로:**  이제 사용자 지정 작업에 대한 동적 URL 경로를 설정할 수 있습니다. [자세히 보기...](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action-third-party/url-configuration.html?lang=en)
 
-자세한 내용은 [Journey Orchestration 릴리스 노트](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=ko-KR)를 참조하십시오.
+* **2021년 8월**  -  [Journey Orchestration 릴리스 노트 참조](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=ko-KR)
 
 #### 새로운 Journey Orchestration 자습서 및 교육 과정 {#tutorials-ajo}
 
@@ -361,7 +359,7 @@ Adobe는 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Ma
 * [[!DNL Experience Manager as a Cloud Service] 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=ko-KR)
 * [[!DNL Experience Manager as a Cloud Service] 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=ko-KR)
 * [[!DNL Experience Manager Cloud Manager] 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/release-notes/release-notes-current.html?lang=ko-KR)
-* [자동 양식 전환 서비스 릴리스 정보](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/release-notes.html?lang=ko-KR)
+* [!DNL [Automated Forms Conversion Service] release notes](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/release-notes.html?lang=ko-KR)
 * [Experience Manager 6.5 서비스 팩 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=ko-KR)
 * [Experience Manager 6.4 Cumulative Fix Pack 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/cfp-release-notes.html?lang=ko-KR)
 * [[!DNL Experience Manager Assets Dynamic Media] 릴리스 정보](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/release-notes/s7rn2017.html?lang=ko-KR)

@@ -4,9 +4,9 @@ description: Experience Cloud 릴리스 노트
 doc-type: release notes
 last-update: June 2021
 author: mfrei
-source-git-commit: 48c0f82523382da9a78a78d850432c0bafd7cee7
+source-git-commit: b83f085d9fca7c4ae2b3519d32033a03aec28026
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '725'
 ht-degree: 86%
 
 ---
@@ -26,20 +26,25 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 >
 >릴리스 후 게시된 새 정보는 발행 날짜로 표시됩니다.
 
-**릴리스 날짜: 2021년**
+최신 업데이트: **2021년 9월**
 
-* [Adobe 시스템 상태](#status)
-* [Experience Cloud 인터페이스](#ecloud)
+* [라이브 이벤트 Experience League](#events)
+* [Experience Cloud 중앙 인터페이스 구성 요소](#ecloud)
 * [Experience Platform](#platform)
-* [Analytics](#analytics)
-* [Audience Manager](#aam)
-* [Experience Manager](#aem)
-* [Campaign](#ac)
-* [광고](#adcloud)
-* [Magento](#magento)
-* [Marketo](#marketo)
-* [Primetime](https://experienceleague.adobe.com/docs/primetime.html)(솔루션 도움말 링크)
-* [새로운 설명서 및 자습서](#selfhelp)
+* [Experience Platform 응용 프로그램 서비스](#services)
+* [Adobe 시스템 상태](#status)
+* [Journey Optimizer](#journey-opt)
+* [[!DNL Analytics]](#analytics) 및 [Customer Journey Analytics](#cust-journey)
+* [[!DNL Audience Manager]](#aam)
+* [[!DNL Experience Manager]](#aem)
+* [[!DNL Campaign]](#ac)
+* [[!DNL Advertising Cloud]](#adcloud)
+* [[!DNL Target]](#target)
+* [[!DNL Commerce]](#magento) (Magento)
+* [[!DNL Marketo Engage]](#marketo)
+* [[!DNL Workfront]](#workfront)
+* [Document Cloud](#doc-cloud)
+* [Creative Cloud for enterprise](#creative-cloud)
 
 ## Adobe 시스템 상태 {#status}
 
@@ -47,12 +52,15 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 
 [Adobe 시스템 상태](https://status.adobe.com/)를 참조하십시오.
 
-## Experience Cloud 인터페이스{#ecloud}
+## ![아이콘](/assets/ec_appicon_24.png) Experience Cloud 중앙 UI 구성 요소 {#ecloud}
 
-관리 및 핵심 서비스(고객 특성, 대상, 트리거, 쿠키 등)를 비롯한 Experience Cloud 인터페이스의 새로운 기능 및 수정 사항
+Experience Cloud 중앙 인터페이스 구성 요소에는 자체 도움말, 검색 및 사용자 계정 환경 설정과 같은 통합 제품 헤더에서 액세스된 업데이트가 포함되어 있습니다. 인물, 장소(위치) 및 제품 관리에 대한 업데이트는 여기에서 찾을 수 있습니다.
 
-* [[!UICONTROL 핵심 서비스]](#core-services)
-* [관리 및 개발자](#admin)
+| 기능 | 날짜 | 설명 |
+| ------- | ------- | -------|
+| 기능 | 2021년 9월 | 설명 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### [!UICONTROL 핵심 서비스] {#core-services}
 
@@ -220,7 +228,7 @@ Adobe Experience Manager(AEM)의 새로운 기능, 수정 및 업데이트입니
 * 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
 * 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는
 
-## 캠페인 {#ac}
+## Campaign {#ac}
 
 Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적이고, 자동화된 방식으로 일대일 메시지를 제공합니다. 이제 고객이 습관 및 선호도에 따라 결정된 작업 환경을 통해 원하는 사항을 예측할 수 있습니다.
 
@@ -274,7 +282,7 @@ Marketo Engage은 리드 관리를 위한 완전한 솔루션이며, 복잡한 �
 
 ### 공지
 
-**Marketo Engage Success Center:** 2020년 2월 출시. Success Center는 Product Docs 및 Community를 검색하고 사용 방법 가이드를 실행하고 채택률 컨텐츠에 액세스하는 등 다양한 작업을 할 수 있는 제품 내 도움말 센터입니다. 참고:이 기능은 ANZ에서 베타 버전으로 출시되었으며, 해당 분기 후반에 북미에 출시될 예정입니다.
+**Marketo Engage Success Center:** 2020년 2월 출시. Success Center는 Product Docs 및 Community를 검색하고 사용 방법 가이드를 실행하고 채택률 컨텐츠에 액세스하는 등 다양한 작업을 할 수 있는 제품 내 도움말 센터입니다. 참고: 이 기능은 ANZ에서 베타 버전으로 출시되었으며, 해당 분기 후반에 북미에 출시될 예정입니다.
 
 ### 사용 중단
 
