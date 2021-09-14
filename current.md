@@ -6,9 +6,9 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 8dbb4ef3665160ade3ec8ffa503c01bd5af64b0e
+source-git-commit: fcba6592d43896676fff4a62d15756823c8a1b20
 workflow-type: tm+mt
-source-wordcount: '6339'
+source-wordcount: '6343'
 ht-degree: 34%
 
 ---
@@ -23,13 +23,13 @@ ht-degree: 34%
 >
 >월별 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html) 를 구독하면 이 페이지의 업데이트에 대한 이메일 알림을 받을 수 있습니다. 이 페이지는 한 달 동안 유지되므로 Adobe 엔터프라이즈 제품 및 Experience League 설명서에 대한 업데이트를 정기적으로 확인하십시오.
 
-최신 업데이트: **2021년 9월 10일**
+최신 업데이트: **2021년 9월 14일**
 
 * [[!DNL Experience League] 라이브 이벤트](#events)
 * [[!DNL Experience Cloud Central Interface Components] &amp; 관리](#ecloud)
 * [Adobe [!UICONTROL 시스템 상태]](#status)
 * [[!DNL Adobe Analytics]](#analytics) 및 [Customer Journey Analytics](#cust-journey)
-* [[!DNL Adobe Audience Manager]](#aam)
+* [[!DNL Adobe Audience Manager]](#aam) (업데이트 날짜: 2021년  **9월 14일**)
 * [[!DNL Adobe Experience Platform]](#platform)
 * [[!DNL Adobe Journey Optimizer]](#journey-opt)
 * [[!DNL Adobe Experience Manager]](#aem)
@@ -163,7 +163,7 @@ AppMeasurement 릴리스(버전 2.22.2)에 대한 최신 업데이트는 [JavaSc
 
 ## ![아이콘](/assets/audience-manager.png) Audience Manager {#aam}
 
-Audience Manager의 새로운 기능.
+Audience Manager의 새로운 기능 - 업데이트됨 **2021년 9월 14일**:
 
 | 기능 | 설명 |
 | ------- | ------- |
