@@ -6,10 +6,10 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: cc9f1d42093c54689b6d15c640879891e4d4ce24
+source-git-commit: 8dbb4ef3665160ade3ec8ffa503c01bd5af64b0e
 workflow-type: tm+mt
-source-wordcount: '6298'
-ht-degree: 30%
+source-wordcount: '6339'
+ht-degree: 34%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 30%
 
 {style=&quot;table-layout:auto&quot;}
 
-더 많은 비디오를 보려면 YouTube의 [Adobe Experience League 채널](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw)을 방문해 보십시오.
+자세한 비디오는 YouTube의 [Adobe Experience League 채널](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw)을 참조하십시오.
 
 ## ![아이콘](/assets/ec_appicon_24.png) [!DNL Experience Cloud Central UI Components]  및 관리 {#ecloud}
 
@@ -116,20 +116,20 @@ ht-degree: 30%
 
 #### Adobe Analytics의 추가 수정 사항
 
-AN-224899; AN-239753; AN-256295; AN-262122; AN-262449; AN-263969; AN-264665; AN-265223; AN-265260; AN-265519; AN-265579; AN-266199; AN-266354; AN-266968; AN-267564; AN-267624; AN-267711; AN-267781; AN-268170; AN-268267; AN-268334; AN-268402; AN-268551; AN-268675; AN-269000; AN-269050; AN-269059; AN-269305; AN-269531
+-224899; AN-239753; AN-256295; AN-262122; AN-262449; AN-263969; AN-264665; AN-265223; AN-265260; AN-265519; AN-265579; AN-; AN-266199; AN-266354; AN-266968; AN-267564; AN-267624; AN-267711; AN-267781; AN-268170; AN-268267; AN-268334; AN-268402; AN-268551; AN-268675; AN-269000; AN-269050; AN-269059; AN-269305; AN-269531
 
 ### [!DNL Analytics] 관리자에 대한 중요 공지 {#aa-notices}
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | ----------- | ---------- | ---------- |
 | Adobe [!UICONTROL Data Connectors] 의 EOL | 2020년 8월 3일 | Adobe [!UICONTROL Data Connectors] 는 더 이상 실행 불가능하거나 지원되지 않는 레거시 기술을 기반으로 합니다. [Adobe Exchange Partner Program](https://partners.adobe.com/exchangeprogram/experiencecloud)에서 새로운 표준을 사용할 수 있습니다. 이 표준을 사용하여 모든 통합이 지속적으로 제공되고 지원될 수 있습니다. 공식적인 서비스 종료 날짜는 **2021년 8월 19일**&#x200B;입니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=ko-KR) |
-| 전체 프로세싱[!UICONTROL  데이터 소스] 서비스 중단 | 2021년 4월 12일 | Adobe은 2021년 7월 31일에 전체 처리 데이터 소스 **를 더 이상 사용하지 않습니다**. 2021년 3월 25일부터 이 유형의 새로운 가져오기는 더 이상 생성되지 않습니다. 이 유형의 데이터를 가져오려면 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 를 사용해 주십시오. |
+| 전체 프로세싱[!UICONTROL  데이터 소스] 서비스 중단 | 2021년 4월 12일 | Adobe는 **2021년 7월 31일**&#x200B;에 전체 처리 데이터 소스에 대한 사용을 중단합니다. 2021년 3월 25일부터 이 유형의 새로운 가져오기는 더 이상 생성되지 않습니다. 이 유형의 데이터를 가져오려면 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 를 사용해 주십시오. |
 
 {style=&quot;table-layout:auto&quot;}
 
 ### AppMeasurement {#appm}
 
-AppMeasurement 릴리스(버전 2.22.2)에 대한 최신 업데이트는 [AppMeasurement for JavaScript 릴리스 노트](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=en)를 참조하십시오.
+AppMeasurement 릴리스(버전 2.22.2)에 대한 최신 업데이트는 [JavaScript용 AppMeasurement 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=en)를 참조하십시오.
 
 ### 새로운 Analytics 교육 과정 및 튜토리얼 {#tutorials-analytics}
 
@@ -159,17 +159,21 @@ AppMeasurement 릴리스(버전 2.22.2)에 대한 최신 업데이트는 [AppMea
 
 ### Analytics 도움말 리소스
 
-* [Adobe Analytics 제품 설명서 및 튜토리얼](https://experienceleague.adobe.com/docs/analytics.html?lang=ko-KR)
+* [Adobe Analytics 제품 설명서 및 튜토리얼](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## ![아이콘](/assets/audience-manager.png) Audience Manager {#aam}
 
-업데이트되지 않았습니다.
+Audience Manager의 새로운 기능.
+
+| 기능 | 설명 |
+| ------- | ------- |
+| 모바일 ID 데이터 수집 동의 | 모바일 ID 데이터 수집 동의에 대한 지원을 추가했습니다. 이 업데이트를 활용하려면 고객이 [AEP Mobile SDK iOS Core 2.8.0](https://aep-sdks.gitbook.io/docs/foundation-extensions/mobile-core/mobile-core-release-notes#november-4-2020) 이상으로 업그레이드해야 합니다. |
 
 ## ![아이콘](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
 릴리스 업데이트 정보와 Experience Platform 및 플랫폼 서비스([!UICONTROL Journey Orchestration], [!UICONTROL Offer decisioning] 및 [!UICONTROL Mobile SDK])에 대한 새 설명서를 포함합니다.
 
-**2021년 8월 25일**  Experience Platform의 기존 기능에 대한 업데이트에는 다음이 포함됩니다.
+**2021년 8월 25일** Experience Platform의 기존 기능에 대한 업데이트는 다음과 같습니다.
 
 * **[!UICONTROL 대상]:** 대상, 세그먼트  를 기존 대상에 원활하게 활성화할 수 있는 마케터의 유용성 개선 사항.
 * **[!UICONTROL 가시성 통찰력]:**  이제 Platform에서 실행되는 워크플로우와 관련된 중요한 경고를 구독할 수 있습니다.
@@ -201,13 +205,13 @@ Journey Orchestration에 대한 기능, 수정 내용 및 새로운 도움말 �
 
 자세한 내용은 [Journey Orchestration 릴리스 노트](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=ko-KR)를 참조하십시오.
 
-#### 새로운 Journey Orchestration 자습서 및 교육 과정 {#tutorials-ajo}
+#### 새로운 Journey Orchestration 튜토리얼 및 교육 과정 {#tutorials-ajo}
 
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
 | 2021년 8월 | [여정 작성 소개](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html) | 비디오 | 여정 캔버스에서 여정을 작성하는 기본적인 방법을 이해합니다. |
 | 2021년 8월 | [고객 프로필 데이터 설정 - 개요](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/data-configuration/set-up-data-overview.html) | 비디오 | Journey Optimizer용 고객 프로필 데이터를 설정하는 데 필요한 실시간 고객 프로필 데이터 및 단계에 대해 알아봅니다. |
-| 2021년 8월 | [ID 매핑](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/data-configuration/map-identities.html) | 비디오 | 스키마 필드에 ID 레이블을 지정하는 방법과 적절한 시점, 네임스페이스를 만드는 방법, 특정 ID를 기본 ID로 만들어야 할 시점, ID 데이터를 수집 및 확인하는 방법을 알아봅니다. |
+| 2021년 8월 | [맵 ID](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/data-configuration/map-identities.html) | 비디오 | 스키마 필드에 ID 레이블을 지정하는 방법과 적절한 시점, 네임스페이스를 만드는 방법, 특정 ID를 기본 ID로 만들어야 할 시점, ID 데이터를 수집 및 확인하는 방법을 알아봅니다. |
 | 2021년 8월 | [사용 사례 - 버스트 메시지](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-burst-message.html) | 비디오 | 버스트 메시지에 적용할 수 있는 사용 사례를 이해합니다. 버스트 메시지에 대한 여정을 구성하는 방법 및 적용할 모범 사례를 알아봅니다. |
 
 {style=&quot;table-layout:auto&quot;}
@@ -249,7 +253,7 @@ Adobe Experience Platform Mobile SDK에 대한 [릴리스 노트 및 변경 로�
 
 ## ![아이콘](/assets/aem.png) Experience Manager {#aem}
 
-Adobe는 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Manager 릴리스 업데이트 및 로드맵](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=ko-KR) 페이지를 방문할 것을 권장합니다.
+Adobe는 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Manager 릴리스 업데이트 및 로드맵](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html) 페이지를 방문할 것을 권장합니다.
 
 ### Experience Manager 제품 릴리스
 
@@ -285,7 +289,7 @@ Adobe는 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Ma
       * [!DNL AEM Forms as a Cloud Service] - 통신. [Communication ](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/aem-forms-cloud-service-communications.html?lang=en) APIshelp에서는 XDP 템플릿과 XML 데이터를 결합하여 다양한 형식으로 인쇄 문서를 생성합니다. 이 서비스를 사용하면 동기화 모드에서 문서를 생성할 수 있습니다. API를 사용하면 다음을 수행하는 데 도움이 되는 애플리케이션을 만들 수 있습니다.
          * XML 데이터로 템플릿 파일을 채워 문서를 생성합니다.
          * 비대화형 PDF 인쇄 스트림을 포함하여 다양한 형식의 출력 양식을 생성합니다.
-         * XFA 양식 PDF 및 Adobe Acrobat 양식에서 인쇄 PDF 파일을 생성합니다.
+         * XFA 양식 PDF 및 Adobe Acrobat Form에서 인쇄 PDF 파일을 생성합니다.
 
          Beta 프로그램에 등록하려면 [formscsbeta@adobe.com](mailto:formscsbeta@adobe.com)에 문의하십시오.
       _Forms 사전 릴리스 채널에서 사용할 수 있는 새로운 기능_
@@ -331,15 +335,15 @@ Adobe는 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Ma
 
 * [Experience League의 최신 Adobe Experience Manager 콘텐츠 목록 | 2021년 9월](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/list-of-latest-adobe-experience-manager-content-on-experience/m-p/421751#M29908)
 
-   최신 문서의 전체 목록은 [여기](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/list-of-latest-adobe-experience-manager-content-on-experience/m-p/421751#M29908)입니다.
+   최신 문서의 전체 목록은 [여기](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/list-of-latest-adobe-experience-manager-content-on-experience/m-p/421751#M29908)에 있습니다.
 
 * [Adobe Experience ](https://www.linkedin.com/company/adobe-experience-cloud/) Cloud Communities는 Adobe 사용자가 고객을 위해 게임 변경 디지털 경험을 만들고, 참여시키고, 권한을 부여하는 하트비트입니다.
 
    모든 구성원 목록을 보려면 [Adobe 블로그](https://blog.adobe.com/en/publish/2021/09/02/introducing-the-2021-adobe-community-advisors.html#gs.a6braz)를 방문하십시오.
 
-* [Experience Manager에 대한 새 기능 요청/제안을 제출하는 방법](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/announcing-the-new-process-to-submit-experience-manager-feature/td-p/380425)
+* [Experience Manager에 대한 새로운 기능 요청/제안을 제출하는 방법은 무엇입니까?](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/announcing-the-new-process-to-submit-experience-manager-feature/td-p/380425)
 
-   Experience Manager 기능 요청을 제출하는 새로운 프로세스는 Live Now입니다. [아이디어 만들기](https://experienceleaguecommunities.adobe.com/t5/forums/postpage/board-id/adobe-experience-manager-ideas)를 참조하십시오 | 자세히 보기 [여기](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/announcing-the-new-process-to-submit-experience-manager-feature/td-p/380425) | [지침 제출](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/guidelines-for-submitting-a-new-experience-manager-aem-idea/m-p/382376#M27427)
+   Experience Manager 기능 요청을 제출하는 새로운 프로세스는 Live Now입니다. [아이디어 생성](https://experienceleaguecommunities.adobe.com/t5/forums/postpage/board-id/adobe-experience-manager-ideas) | [자세히 알아보기](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/announcing-the-new-process-to-submit-experience-manager-feature/td-p/380425) | [제출 가이드라인](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/guidelines-for-submitting-a-new-experience-manager-aem-idea/m-p/382376#M27427)
 
 ### 새로운 Experience Manager 교육 과정 및 튜토리얼 {#tutorials-aem}
 
@@ -392,7 +396,7 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 릴리스된 최신 기능, 개선 사항 및 수정 사항에 대해 자세히 알아보십시오.
 
 * [Campaign v8 릴리스 정보](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/release-notes.html)
-* [Campaign Classic v7 릴리스 노트](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html)
+* [Campaign Classic v7 릴리스 정보](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html)
 * [Campaign Standard 릴리스 정보](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html)
 
 ### 새로운 [!UICONTROL Campaign] 교육 과정 및 튜토리얼 {#tutorials-campaign}
@@ -439,22 +443,22 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 ### [!DNL Advertising Cloud DSP]의 새로운 기능 {#adcloud-dsp}
 
-마지막 업데이트: **2021년 8월 12일, 8월 11일 릴리스**
+최신 업데이트: **2021년 8월 12일, 8월 11일 릴리스**
 
 | 기능 | 설명 |
 | ------- | ----------- |
-| [!UICONTROL 배치에 ] 대한 사전 입찰 보기 기능 | [!UICONTROL 이제 배치에 ] Oracle 광고(해자)의 입찰 전 뷰가능 필터를 사용할 수 있습니다. |
+| 배치에 대한 [!UICONTROL 사전 입찰 가시성] | 이제 Oracle Advertising(Moat)의 [!UICONTROL 사전 입찰 가시성] 필터를 배치에 사용할 수 있습니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
 ### [!DNL Advertising Cloud Search]의 새로운 기능 {#adcloud-search}
 
-마지막 업데이트: **2021년 8월 20일, 8월 21일 릴리스**
+최신 업데이트: **2021년 8월 20일, 8월 21일 릴리스**
 
 | 기능 | 설명 |
 | ------- | ----------- |
-| — | 새로운 베타 Advertising Cloud JavaScript 태그는 ECID(Adobe Experience Cloud ID) 서비스 및 기존 `ef_id` 및 `gsurferid` 를 사용하여 전환을 측정합니다. 새 태그는 [자사 Experience Cloud s_ecid 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html)를 만들고 다른 Experience Cloud 제품과의 더 긴밀해진 통합을 제공합니다.<br><br>ITP 매핑이 있는 기존 Advertising Cloud JavaScript 태그는 2021년 9월에 더 이상 사용되지 않습니다.<br><br>자세한 정보와 구현 지침이 있는 Adobe 계정 관리자에게 문의하십시오. |
-| [!UICONTROL 포트폴리오] | 자동화된 가중치 권장 사항을 사용하는 새 [!UICONTROL 목표 베타]를 모든 사용자가 사용할 수 있습니다. 새 인터페이스에는 목표 생성 및 초기 목표 가중치 설정에 대한 자세한 지침이 포함되어 있습니다. 가중치 권장 사항은 지원 지표에만 사용할 수 있습니다. |
+| — | 새로운 베타 Advertising Cloud JavaScript 태그는 ECID(Adobe Experience Cloud ID) 서비스 및 기존 `ef_id` 및 `gsurferid` 를 사용하여 전환을 측정합니다. 새 태그는 [자사 Experience Cloud s_ecid 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html)를 생성하고 다른 Experience Cloud 제품과의 긴밀한 통합을 제공합니다.<br><br>ITP 매핑이 있는 기존 Advertising Cloud JavaScript 태그는 2021년 9월에 더 이상 사용되지 않습니다.<br><br>자세한 내용과 구현 지침에 대해서는 Adobe 계정 관리자에게 문의해 주십시오. |
+| [!UICONTROL 포트폴리오] | 모든 사용자는 자동화된 가중치 권장 사항이 포함된 새로운 [!UICONTROL Objectives Beta]를 사용할 수 있습니다. 새로운 인터페이스에는 목표 생성 및 초기 목표 가중치 설정에 대한 추가 지침이 포함되어 있습니다. 가중치 권장 사항은 지원 메트릭에만 사용할 수 있습니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -467,7 +471,7 @@ Adobe Commerce 릴리스 정보에 대한 다음 링크를 참조하십시오.
 
 ## ![아이콘](/assets/target.png) [!DNL Target] {#target}
 
-마지막 업데이트 날짜: **2021년 8월 3일**
+최근 업데이트: **2021년 8월 3일**
 
 최신 릴리스 정보는 [[!DNL Target] 릴리스 정보](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=ko-KR)를 참조하십시오.
 
