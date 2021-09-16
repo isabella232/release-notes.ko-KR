@@ -6,10 +6,10 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: f94180b097c70ad3b4c8b93599c0d26db15892c6
+source-git-commit: 0f0032bbcf0c0fa46caaf1604a0c5aceaffbbe8e
 workflow-type: tm+mt
-source-wordcount: '6343'
-ht-degree: 35%
+source-wordcount: '6485'
+ht-degree: 36%
 
 ---
 
@@ -122,6 +122,7 @@ ht-degree: 35%
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | ----------- | ---------- | ---------- |
+| 3개의 Analytics API 서비스에 대한 EOL | 2021년 9월 16일 | **2021년 10월 28일**&#x200B;에 다음 Analytics 이전 API 서비스가 종료됩니다. 이러한 서비스를 사용하여 구축한 현재 모든 통합은 해당 날짜부터 더 이상 작동하지 않습니다.<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증(OAuth 및 JWT)</li></ul>Adobe는 질문에 답변하고 진행 방법에 대한 지침을 제공하기 위해 [이전 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) 를 제공했습니다. 이들 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 이전 OAuth 계정은 [Adobe I/O](https://console.adobe.io/home?mv=email#) Analytics 통합 계정으로 마이그레이션할 수 있으며, 이 계정은 1.4 Analytics API 및 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다. |
 | Adobe [!UICONTROL Data Connectors] 의 EOL | 2020년 8월 3일 | Adobe [!UICONTROL Data Connectors] 는 더 이상 실행 불가능하거나 지원되지 않는 레거시 기술을 기반으로 합니다. [Adobe Exchange Partner Program](https://partners.adobe.com/exchangeprogram/experiencecloud)에서 새로운 표준을 사용할 수 있습니다. 이 표준을 사용하여 모든 통합이 지속적으로 제공되고 지원될 수 있습니다. 공식적인 서비스 종료 날짜는 **2021년 8월 19일**&#x200B;입니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=ko-KR) |
 | 전체 프로세싱[!UICONTROL  데이터 소스] 서비스 중단 | 2021년 4월 12일 | Adobe는 **2021년 7월 31일**&#x200B;에 전체 처리 데이터 소스에 대한 사용을 중단합니다. 2021년 3월 25일부터 이 유형의 새로운 가져오기는 더 이상 생성되지 않습니다. 이 유형의 데이터를 가져오려면 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 를 사용해 주십시오. |
 
