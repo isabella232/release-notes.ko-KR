@@ -6,9 +6,9 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 0f0032bbcf0c0fa46caaf1604a0c5aceaffbbe8e
+source-git-commit: dfec28cdcc99e9f8840e0eb1dec5c721775d65b8
 workflow-type: tm+mt
-source-wordcount: '6485'
+source-wordcount: '6533'
 ht-degree: 36%
 
 ---
@@ -97,10 +97,10 @@ ht-degree: 36%
 
 | 기능 | 설명 | [일반 가용성](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=en) - 대상 날짜 |
 | ----------- | ---------- | ----- |
-| 지표 중복 제거 | 이제 Customer Journey Analytics(CJA)에서 지표의 인스턴스를 중복 제거할 수 있습니다. 동일한 값이 열(자신 또는 다른 열)에 표시되면 지표가 증가하지 않도록 할 수 있습니다. 중복 제거는 주요 지표를 과다 카운트하지 않도록 하고 데이터에 대한 신뢰도를 높입니다. | 2021년 9월 16일 |
-| 보고를 위한 일광 절약 시간 지원 | CJA의 모든 데이터는 UTC에 저장됩니다(특정 시간대가 아님). [!UICONTROL 이제 ] CJA에서 데이터 보기를 사용하면 일광 절약 시간을 기반으로 1시간 증가 또는 감소를 고려하여 데이터를 이동할 수 있습니다. | 2021년 9월 16일 |
-| [!UICONTROL 사용자 지정 달력] | 데이터 보기에 대해 다른 달력 유형(예: [!UICONTROL 소매 4-4-5])을 선택할 수 있도록 해줍니다. 동일한 연결을 기반으로 여러 데이터 보기를 만들어 동일한 데이터를 다른 달력 형식으로 볼 수 있습니다. | 2021년 9월 16일 |
-| 부울 필드 지원 | 이제 CJA에서 부울 필드를 지원합니다. | 2021년 9월 16일 |
+| 지표 중복 제거 | 이제 Customer Journey Analytics(CJA)에서 지표의 인스턴스를 중복 제거할 수 있습니다. 동일한 값이 열(자신 또는 다른 열)에 표시되면 지표가 증가하지 않도록 할 수 있습니다. 중복 제거는 주요 지표를 과다 카운트하지 않도록 하고 데이터에 대한 신뢰도를 높입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication.html?lang=en) | 2021년 9월 16일 |
+| 보고를 위한 일광 절약 시간 지원 | CJA의 모든 데이터는 UTC에 저장됩니다(특정 시간대가 아님). [!UICONTROL 이제 ] CJA에서 데이터 보기를 사용하면 일광 절약 시간을 기반으로 1시간 증가 또는 감소를 고려하여 데이터를 이동할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#calendar) | 2021년 9월 16일 |
+| [!UICONTROL 사용자 지정 달력] | 데이터 보기에 대해 다른 달력 유형(예: [!UICONTROL 소매 4-4-5])을 선택할 수 있도록 해줍니다. 동일한 연결을 기반으로 여러 데이터 보기를 만들어 동일한 데이터를 다른 달력 형식으로 볼 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#calendar) | 2021년 9월 16일 |
+| 부울 필드 지원 | 이제 CJA에서 부울 필드를 지원합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/behavior.html?lang=en) | 2021년 9월 16일 |
 | 새 [!UICONTROL 연결] 정보 경험 | 이 [!UICONTROL 연결] UI 개선 사항을 통해 데이터를 보고에 사용할 준비가 되었는지 여부와 시기를 알 수 있습니다. 데이터 처리와 관련된 문제를 추적할 수도 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=ko-KR) | 2021년 9월 20일 |
 
 {style=&quot;table-layout:auto&quot;}
