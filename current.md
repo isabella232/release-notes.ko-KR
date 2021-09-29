@@ -6,7 +6,7 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 9ab0cd435039085791c186a439f16954c317c2df
+source-git-commit: e12356a1860ce775f703426a7bf7e883ad69e404
 workflow-type: tm+mt
 source-wordcount: '6533'
 ht-degree: 98%
@@ -206,8 +206,6 @@ Journey Orchestration의 기능, 수정 사항 및 새로운 도움말 콘텐츠
 
 자세한 내용은 [Journey Orchestration 릴리스 정보](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html)를 참조하십시오.
 
-{style=&quot;table-layout:auto&quot;}
-
 #### Journey Orchestration을 위한 추가 리소스
 
 [도움말 센터](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html) - [릴리스 정보](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html) - [사용 방법 비디오](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html) - [최신 설명서 업데이트](https://experienceleague.adobe.com/docs/journeys/using/release-notes/documentation-updates.html)
@@ -247,6 +245,8 @@ Adobe Experience Platform Mobile SDK에 대한 [릴리스 정보 및 변경 로�
 | 2021년 8월 | [고객 프로필 데이터 설정 - 개요](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/data-configuration/set-up-data-overview.html) | 비디오 | 실시간 고객 프로필 데이터에 대해 알아보고 Journey Optimizer에 대한 고객 프로필 데이터를 설정하는 데 필요한 단계에 대해 알아보십시오. |
 | 2021년 8월 | [맵 ID](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/data-configuration/map-identities.html) | 비디오 | 스키마 필드에 ID 레이블을 지정하는 방법과 적절한 시점, 네임스페이스를 만드는 방법, 특정 ID를 기본 ID로 만들어야 할 시점, ID 데이터를 수집 및 확인하는 방법을 알아봅니다. |
 | 2021년 8월 | [사용 사례 - 버스트 메시지](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-burst-message.html) | 비디오 | 버스트 메시지에 적용할 수 있는 사용 사례를 이해합니다. 버스트 메시지에 대한 여정을 구성하는 방법 및 적용할 모범 사례를 알아봅니다. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### Journey Optimizer를 위한 추가 리소스
 
