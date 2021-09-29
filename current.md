@@ -6,7 +6,7 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: e12356a1860ce775f703426a7bf7e883ad69e404
+source-git-commit: 705386fb5b736ff9bf05219162697926821cd686
 workflow-type: tm+mt
 source-wordcount: '6533'
 ht-degree: 98%
@@ -195,31 +195,6 @@ Experience Platform 및 서비스를 위해 게시된 새로운 비디오, 튜�
 
 {style=&quot;table-layout:auto&quot;}
 
-### Journey Orchestration {#journey-orch}
-
-Journey Orchestration의 기능, 수정 사항 및 새로운 도움말 콘텐츠.
-
-**2021년 8월**
-
-* **동적 헤더:** 이제 HTTP 헤더 매개 변수에서 동적 데이터를 전달할 수 있습니다. 이러한 매개 변수는 여정 작업 HTTP 호출(예: 타임스탬프 또는 추적 ID)을 수신하는 통합 시스템에서 사용할 수 있습니다. [자세히 보기...](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action-third-party/url-configuration.html?lang=en)
-* **동적 URL 경로:** 이제 사용자 지정 작업에 대한 동적 URL 경로를 설정할 수 있습니다. [자세히 보기...](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action-third-party/url-configuration.html?lang=en)
-
-자세한 내용은 [Journey Orchestration 릴리스 정보](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html)를 참조하십시오.
-
-#### Journey Orchestration을 위한 추가 리소스
-
-[도움말 센터](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html) - [릴리스 정보](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html) - [사용 방법 비디오](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html) - [최신 설명서 업데이트](https://experienceleague.adobe.com/docs/journeys/using/release-notes/documentation-updates.html)
-
-### [!UICONTROL Offer Decisioning] {#offer-decisioning}
-
-**표시 흐름:** 향상된 사용자 경험을 위해, 오퍼를 생성할 때 오퍼 표시를 추가하고 구성하는 방식이 업데이트되었습니다.
-
-* 자세한 내용은 [[!UICONTROL Offer Decisioning] 릴리스 정보](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/release-notes.html)를 참조하십시오.
-
-#### [!UICONTROL Offer Decisioning]을 위한 추가 리소스
-
-[도움말 센터](https://experienceleague.adobe.com/docs/offer-decisioning/using/offer-decisioning-home.html) - [릴리스 정보](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/release-notes.html#new) - [사용 방법 비디오](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/overview.html) - [최신 설명서 업데이트](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/documentation-updates.html)
-
 ### Adobe 모바일 SDK
 
 Adobe Experience Platform Mobile SDK에 대한 [릴리스 정보 및 변경 로그](https://aep-sdks.gitbook.io/docs/release-notes)를 참조하십시오.
@@ -251,6 +226,31 @@ Adobe Experience Platform Mobile SDK에 대한 [릴리스 정보 및 변경 로�
 ### Journey Optimizer를 위한 추가 리소스
 
 [도움말 센터](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html) - [릴리스 정보](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [방법 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html)
+
+### Journey Orchestration {#journey-orch}
+
+Journey Orchestration의 기능, 수정 사항 및 새로운 도움말 콘텐츠.
+
+**2021년 8월**
+
+* **동적 헤더:** 이제 HTTP 헤더 매개 변수에서 동적 데이터를 전달할 수 있습니다. 이러한 매개 변수는 여정 작업 HTTP 호출(예: 타임스탬프 또는 추적 ID)을 수신하는 통합 시스템에서 사용할 수 있습니다. [자세히 보기...](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action-third-party/url-configuration.html?lang=en)
+* **동적 URL 경로:** 이제 사용자 지정 작업에 대한 동적 URL 경로를 설정할 수 있습니다. [자세히 보기...](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action-third-party/url-configuration.html?lang=en)
+
+자세한 내용은 [Journey Orchestration 릴리스 정보](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html)를 참조하십시오.
+
+#### Journey Orchestration을 위한 추가 리소스
+
+[도움말 센터](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html) - [릴리스 정보](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html) - [사용 방법 비디오](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html) - [최신 설명서 업데이트](https://experienceleague.adobe.com/docs/journeys/using/release-notes/documentation-updates.html)
+
+### [!UICONTROL Offer Decisioning] {#offer-decisioning}
+
+**표시 흐름:** 향상된 사용자 경험을 위해, 오퍼를 생성할 때 오퍼 표시를 추가하고 구성하는 방식이 업데이트되었습니다.
+
+* 자세한 내용은 [[!UICONTROL Offer Decisioning] 릴리스 정보](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/release-notes.html)를 참조하십시오.
+
+#### [!UICONTROL Offer Decisioning]을 위한 추가 리소스
+
+[도움말 센터](https://experienceleague.adobe.com/docs/offer-decisioning/using/offer-decisioning-home.html) - [릴리스 정보](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/release-notes.html#new) - [사용 방법 비디오](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/overview.html) - [최신 설명서 업데이트](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/documentation-updates.html)
 
 ## ![아이콘](/assets/aem.png) Experience Manager {#aem}
 
