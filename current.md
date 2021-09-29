@@ -6,7 +6,7 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 705386fb5b736ff9bf05219162697926821cd686
+source-git-commit: acd15846c8be6d3fd4ad9bdb8688912013d92f74
 workflow-type: tm+mt
 source-wordcount: '6533'
 ht-degree: 98%
@@ -212,7 +212,7 @@ Adobe Experience Platform Mobile SDK에 대한 [릴리스 정보 및 변경 로�
 
 자세한 내용은 [Journey Optimizer 릴리스 정보](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html)를 참조하십시오.
 
-#### 새로운 Journey Optimizer 자습서 및 강좌 {#tutorials-ajo}
+### 새로운 Journey Optimizer 자습서 및 강좌 {#tutorials-ajo}
 
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
