@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: October 2021
 author: mfrei
 mini-toc-levels: 1
-source-git-commit: 8b36fbc422c8b7b2bf3f2a7497a5dc51495e0562
+source-git-commit: ff7a3736e7490af8b815eda72e4ba0b363aef472
 workflow-type: tm+mt
 source-wordcount: '5136'
 ht-degree: 40%
@@ -180,7 +180,7 @@ Experience Platform 및 서비스를 위해 게시된 최신 비디오, 자습�
 
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021년 10월 | [[!DNL Platform] 관리](https://experienceleague.corp.adobe.com/?recommended=ExperiencePlatform-A-1-2021.1.admin) | 교육 과정 | 권한 및 샌드박스 관리를 포함한 Experience Platform 관리 활동에 대해 알아봅니다. |
+| 2021년 10월 | [[!DNL Platform] 관리](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-A-1-2021.1.admin) | 교육 과정 | 권한 및 샌드박스 관리를 포함한 Experience Platform 관리 활동에 대해 알아봅니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
