@@ -6,10 +6,10 @@ last-update: October 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 614e6d1d0f003ed788aafd806d25afdf3cd723e9
+source-git-commit: e3a7e1b80d25a3b9625ca0ee31a07bae674eda6f
 workflow-type: tm+mt
 source-wordcount: '5278'
-ht-degree: 40%
+ht-degree: 39%
 
 ---
 
@@ -444,4 +444,4 @@ Document Cloud 도움말은 다음을 참조하십시오.
 
 ## ![아이콘](/assets/creative-cloud-24.png) Creative Cloud for enterprise {#creative-cloud}
 
-최신 튜토리얼은 [Creative Cloud for Enterprise Tutorials](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/overview.html?lang=ko-KR)를 참조하십시오.
+최신 자습서는 [엔터프라이즈 자습서 Creative Cloud](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/overview.html?lang=ko-KR)을 참조하십시오.
