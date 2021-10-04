@@ -6,9 +6,9 @@ last-update: October 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: e3a7e1b80d25a3b9625ca0ee31a07bae674eda6f
+source-git-commit: bee65444e8ef1c12779c991fa9e199d93b8028f0
 workflow-type: tm+mt
-source-wordcount: '5278'
+source-wordcount: '5361'
 ht-degree: 39%
 
 ---
@@ -48,12 +48,12 @@ ht-degree: 39%
 
 [!DNL Experience League] 라이브 이벤트는 Adobe 기술을 제공하는 데 중요한 역할을 하는 Adobe 전문가 및 특별 게스트와 함께하는 토론입니다. 다음의 일정을 확인하여 실시간으로 참여하거나 이전에 녹화된 이벤트를 시청하세요.
 
-| 이벤트 날짜 | 이벤트 이름 | 유형 | 설명 |
-| -----------| ---------- | ---------- | ---------- |
-| 2021년 10월 21일 | TBD | 라이브 비디오 이벤트 | 자세한 내용 |
-| 2021년 9월 23일 | [연말연시 캠페인을 돋보이게 할 수 있는 전문가의 팁](https://www.youtube.com/watch?v=bsU1lAv0xes) | 라이브 비디오 이벤트 | 연말연시 선물 준비를 미리 시작할수록 좋은 것처럼, 대성공을 거둬야 하는 연말연시 마케팅 캠페인을 위한 계획도 미리 시작할수록 좋습니다. Adobe Campaign을 통해 귀사에서 연말연시에 이루기를 소망하는 모든 것을 담은 캠페인을 설계하고 계획하고 실행할 수 있습니다.<br>하지만, 여러분은 한 해를 완전히 끝낸 캠페인을 실행하기 위한 모든 팁을 알고 있나요? Sandra와 함께 라이브 토론을 할 수 있습니다. 세 명의 Adobe 전문가들, 그들은 단지 그것을 하는 데 있어 수십 억 정도의 전문 지식을 가지고 있습니다. |
-| 2021년 8월 26일 | [보다 스마트한 향후 대상 세그먼트 구축하기](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-02.html?lang=ko) | 이벤트 녹화본 | 모든 훌륭한 마케팅 캠페인의 성공 여부는 대상자를 정확하게 타기팅하느냐에 달려 있습니다. 새로운 Adobe Experience Platform [!UICONTROL 세그먼트 빌더]를 통해 채널 전반의 프로필 데이터 및 시간 기반 사용자 행동을 사용하여 향후 대상 세그먼트를 구축할 수 있습니다. 캠페인의 메시지가 정말 닿아야 할 사람들에게 닿도록 하는 데 이보다 더 좋은 방법은 없습니다. |
-| 2021년 7월 29일 | [내가 가장 좋아하는 세 가지 Adobe Analytics 구현 팁](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-01.html?lang=ko) | 이벤트 녹화본 | Summit 무대에서 만난 적 있는 분입니다. Adobe Insider Tours에서 전문가 조언을 들려줬던 분입니다. 자체 Adobe Analytics 구현과 관련하여 이 분과 협력하는 혜택을 얻은 적이 있을 수도 있습니다. 이제 이 독점 Experience League Live 토론에서 Eric Matisoff 씨가 자신이 가장 좋아하는 세 가지 Adobe Analytics 구현 팁을 소개합니다. |
+| 이벤트 날짜 | 시간 | 이벤트 이름 | 유형 | 설명 |
+| -----------| ---------- | ---------- | ---------- |---------- |
+| 2021년 10월 21일 | 오후 12시 (EST) | [누가 클릭했어요? Adobe Analytics](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw)을 사용한 링크 클릭에 대한 고급 보고 | 라이브 비디오 이벤트 | 웹 또는 모바일 속성과 사용자의 상호 작용에 대해 보고하는 것은 고객의 여정을 이해하는 데 중요한 부분입니다. Adobe Analytics을 사용하면 애플리케이션에서 클릭하는 모든 사람, 이유, 위치를 파악할 수 있습니다. Adobe Analytics 전문가에게 Activity Map 분류 및 사용자 지정 속성을 사용하여 사용자 참여를 더 잘 이해할 수 있도록 도움을 주는 주요 팁을 알아봅니다. |
+| 2021년 9월 23일 | 주문형 | [연말연시 캠페인을 돋보이게 할 수 있는 전문가의 팁](https://www.youtube.com/watch?v=bsU1lAv0xes) | 라이브 비디오 이벤트 | 연말연시 선물 준비를 미리 시작할수록 좋은 것처럼, 대성공을 거둬야 하는 연말연시 마케팅 캠페인을 위한 계획도 미리 시작할수록 좋습니다. Adobe Campaign을 통해 귀사에서 연말연시에 이루기를 소망하는 모든 것을 담은 캠페인을 설계하고 계획하고 실행할 수 있습니다.<br>하지만, 여러분은 한 해를 완전히 끝낸 캠페인을 실행하기 위한 모든 팁을 알고 있나요? Sandra와 함께 라이브 토론을 할 수 있습니다. 세 명의 Adobe 전문가들, 그들은 단지 그것을 하는 데 있어 수십 억 정도의 전문 지식을 가지고 있습니다. |
+| 2021년 8월 26일 | 주문형 | [보다 스마트한 향후 대상 세그먼트 구축하기](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-02.html?lang=ko) | 이벤트 녹화본 | 모든 훌륭한 마케팅 캠페인의 성공 여부는 대상자를 정확하게 타기팅하느냐에 달려 있습니다. 새로운 Adobe Experience Platform [!UICONTROL 세그먼트 빌더]를 통해 채널 전반의 프로필 데이터 및 시간 기반 사용자 행동을 사용하여 향후 대상 세그먼트를 구축할 수 있습니다. 캠페인의 메시지가 정말 닿아야 할 사람들에게 닿도록 하는 데 이보다 더 좋은 방법은 없습니다. |
+| 2021년 7월 29일 | 주문형 | [내가 가장 좋아하는 세 가지 Adobe Analytics 구현 팁](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-01.html?lang=ko) | 이벤트 녹화본 | Summit 무대에서 만난 적 있는 분입니다. Adobe Insider Tours에서 전문가 조언을 들려줬던 분입니다. 자체 Adobe Analytics 구현과 관련하여 이 분과 협력하는 혜택을 얻은 적이 있을 수도 있습니다. 이제 이 독점 Experience League Live 토론에서 Eric Matisoff 씨가 자신이 가장 좋아하는 세 가지 Adobe Analytics 구현 팁을 소개합니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
