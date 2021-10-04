@@ -5,10 +5,11 @@ doc-type: release notes
 last-update: October 2021
 author: mfrei
 mini-toc-levels: 1
-source-git-commit: ff7a3736e7490af8b815eda72e4ba0b363aef472
+exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
+source-git-commit: 2ad6cb4ae1ae0c9a9414df7c1360a3d4d428f1e5
 workflow-type: tm+mt
-source-wordcount: '5136'
-ht-degree: 40%
+source-wordcount: '5271'
+ht-degree: 39%
 
 ---
 
@@ -339,9 +340,13 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 Adobe Campaign을 위한 최신 자습서 및 교육 과정
 
-| 게시일 | 이름 | 애플리케이션 | 설명 |
+| 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021년 10월 | [비즈니스 사용자를 위한 Adobe Campaign V8을 사용하여 고급 캠페인 만들기](https://experienceleague.adobe.com/?recommended=Campaign-U-1.2021.1.v8) | Campaign V8 | Adobe Campaign V8을 사용하여 고급 마케팅 캠페인을 구성하고 실행하는 방법을 알아봅니다. 사전 요구 사항에 대해 알아보고, 고급 캠페인, 게재 및 구독을 빌드 및 구성합니다. |
+| 2021년 10월 | [비즈니스 사용자를 위한 Adobe Campaign V8을 사용하여 고급 캠페인 만들기](https://experienceleague.adobe.com/?recommended=Campaign-U-1.2021.1.v8) | 교육 과정 | Adobe Campaign V8을 사용하여 고급 마케팅 캠페인을 구성하고 실행하는 방법을 알아봅니다. 사전 요구 사항에 대해 알아보고, 고급 캠페인, 게재 및 구독을 빌드 및 구성합니다. |
+| 2021년 10월 | [워크플로우에서 SOAP API 사용 - 소개](https://experienceleague.adobe.com/docs/campaign-learn/use-soap-apis/introduction.html?lang=en) | 튜토리얼 | API를 통해 받은 데이터를 기반으로 Adobe Campaign Soap API를 사용하고 고급 배달 워크플로우를 만드는 방법을 알아봅니다. |
+| 2021년 10월 | [이벤트 만들기](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/create-events.html?lang=en) | 튜토리얼 | 이벤트를 구성하고, 스트리밍 종단점 및 이벤트에 대한 페이로드를 지정하는 방법을 알아봅니다. |
+| 2021년 10월 | [데이터 소스 구성](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=en) | 튜토리얼 | 데이터 소스의 의미와 Experience Platform 및 외부 데이터 소스를 구성하는 방법을 살펴봅니다. |
+| 2021년 10월 | [사용 사례 - 버스트 메시지](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-burst-message.html?lang=en) | 튜토리얼 | 버스트 메시지에 적용할 수 있는 사용 사례를 이해합니다. 버스트 메시지에 대한 여정을 구성하는 방법 및 적용할 모범 사례를 알아봅니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
