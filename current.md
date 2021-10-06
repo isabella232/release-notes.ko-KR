@@ -6,9 +6,9 @@ last-update: October 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 6665a58ee466e984524e883a5dab84f7edf55fa2
+source-git-commit: f0bc233f66b61333fee0cf07f816918d61c0776e
 workflow-type: tm+mt
-source-wordcount: '5378'
+source-wordcount: '5394'
 ht-degree: 39%
 
 ---
@@ -97,7 +97,7 @@ ht-degree: 39%
 
 | 기능 | 설명 | [일반 가용성](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=ko) - 대상 날짜 |
 | ----------- | ---------- | ------- |
-| Analytics 대시보드에 대한 시각화 | Analytics [!UICONTROL 대시보드]는 경영진 및 의사 결정자가 자신의 데이터를 더 잘 이해할 수 있도록 해주는 세 가지 새로운 시각화를 도입했습니다. 새로운 [!UICONTROL 도넛], [!UICONTROL 라인] 및 [!UICONTROL 가로] 막대 차트를 사용하면 세부 사항 보기를 열지 않고도 개별 차원 항목에 대한 데이터를 보다 쉽게 볼 수 있습니다. (참조할 설명서 링크) | 2021년 10월 7일 |
+| Analytics 대시보드에 대한 시각화 | Analytics [!UICONTROL 대시보드]는 경영진 및 의사 결정자가 자신의 데이터를 더 잘 이해할 수 있도록 해주는 세 가지 새로운 시각화를 도입했습니다. 새로운 [!UICONTROL 도넛], [!UICONTROL 라인] 및 [!UICONTROL 가로] 막대 차트를 사용하면 세부 사항 보기를 열지 않고도 개별 차원 항목에 대한 데이터를 보다 쉽게 볼 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#apply-visualizations) | 2021년 10월 7일 |
 | [!UICONTROL 미디어 재생 시간] | Adobe 스트리밍 미디어 재생 [!UICONTROL 체류 시간]은(는) 뷰어 참여에 대한 중요한 통찰력을 제공하고 미디어 조직이 시간대 지정 기능이 포함된 고급 체류 시간 분석을 통해 분당 사용자 참여로 보다 깊고 세분화된 통찰력을 얻을 수 있도록 합니다. 특정 시점에 미디어 스트림을 보는 데 걸린 시간을 관찰할 수 있습니다. 새로운 5분, 15분 및 30분 세부기간을 포함하여 재생 기간을 다양한 세부기간으로 분할할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-panels/media-playback-time-spent.html?lang=en) | 2021년 10월 18일 |
 | 빠른 [!UICONTROL 세그먼트 빌더] | 비즈니스 사용자가 간소화된 인라인 프로젝트 워크플로우에서 기본 세그먼트를 신속하게 적용할 수 있습니다. [!UICONTROL 세그먼트 빌더]로 이동할 필요가 없습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=en) | 2021년 10월 21일 |
 | Analysis Workspace 왼쪽 레일 검색 개선 | 왼쪽 레일 검색은 1) 구성 요소 최신성 및 관련성을 계속 고려하는 것 외에도 광범위한 일치 항목 위에 정확히 일치하는 항목을 우선 순위를 지정합니다. 2) 검색 결과를 보다 쉽게 이해할 수 있도록 일치된 문자를 강조 표시합니다. 3) 차원과 관련된 분류를 쉽게 찾을 수 있습니다. 4) 마지막으로 필요한 특정 구성 요소를 보다 쉽게 찾을 수 있도록 와일드카드(`*`) 검색을 지원합니다. 참고: 와일드카드 검색이 차원 항목 수준에서 아직 작동하지 않습니다. | 2021년 10월 21일 |
@@ -110,7 +110,7 @@ ht-degree: 39%
 | 기능 | 설명 | [일반 가용성](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=en) - 대상 날짜 |
 | ----------- | ---------- | ----- |
 | Report Builder 지원 | Report Builder은 Customer Journey Analytics 데이터를 사용하여 사용자 지정 보고서를 쉽게 만들고, 편집하고, 새로 고칠 수 있는 Microsoft® [!DNL Excel] 추가 기능입니다. Report Builder 및 Excel을 사용하면 간단하지만 유연한 드래그 앤 드롭 UI를 사용하여 복잡한 데이터 요청을 쉽게 작성할 수 있습니다. Customer Journey Analytics Report Builder을 사용하면 다음 작업을 수행할 수 있습니다.<ul><li>기존 워크시트 셀을 참조하여 완벽한 행 순서, 날짜 범위 또는 필터를 가져옵니다</li><li>달력, 셀 참조 또는 날짜 수학을 사용하여 사용자 지정 날짜 만들기</li><li>익숙한 Excel 서식 도구를 사용하여 표 및 시각화 디자인</li><li>macOS, 웹용 Microsoft 365 및 Microsoft Windows에서 사용 가능</li></ul> | 2021년 10월 7일 |
-| Analytics 대시보드에 대한 시각화 | Analytics [!UICONTROL 대시보드]는 경영진 및 의사 결정자가 자신의 데이터를 보다 잘 이해할 수 있도록 해주는 세 가지 새로운 시각화를 도입했습니다. 새로운 도넛, 선 및 가로 막대형 차트를 사용하면 세부 사항 보기를 열지 않고도 개별 차원 항목에 대한 데이터를 더 쉽게 볼 수 있습니다. (참조할 설명서 링크) | 2021년 10월 7일 |
+| Analytics 대시보드에 대한 시각화 | Analytics [!UICONTROL 대시보드]는 경영진 및 의사 결정자가 자신의 데이터를 보다 잘 이해할 수 있도록 해주는 세 가지 새로운 시각화를 도입했습니다. 새로운 도넛, 선 및 가로 막대형 차트를 사용하면 세부 사항 보기를 열지 않고도 개별 차원 항목에 대한 데이터를 더 쉽게 볼 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html?lang=en#apply-visualizations) | 2021년 10월 7일 |
 | Customer Journey Analytics 감사 로그 API | [감사 로그](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) API 엔드포인트를 사용하면 Adobe에서 감사 로그 데이터를 요청할 수 있습니다. 이는 보안 규정 준수의 중요한 부분이며 데이터 또는 사용자 작업을 감사하는 데 중요합니다. | 2021년 10월 7일 |
 | 빠른 [!UICONTROL 필터 빌더] | 비즈니스 사용자가 간소화된 인라인 프로젝트 워크플로우에서 기본 세그먼트를 신속하게 적용할 수 있습니다. [!UICONTROL 필터 빌더]로 이동할 필요가 없습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html?lang=en) | 2021년 10월 21일 |
 | Analysis Workspace 왼쪽 레일 검색 개선 | 왼쪽 레일 검색은 1) 구성 요소 최신성 및 관련성을 계속 고려하는 것 외에도 광범위한 일치 항목 위에 정확히 일치하는 항목을 우선 순위를 지정합니다. 2) 검색 결과를 보다 쉽게 이해할 수 있도록 일치된 문자를 강조 표시합니다. 3) 차원과 관련된 분류를 쉽게 찾을 수 있습니다. 4) 마지막으로 필요한 특정 구성 요소를 보다 쉽게 찾을 수 있도록 와일드카드(`*`) 검색을 지원합니다. 참고: 와일드카드 검색이 차원 항목 수준에서 아직 작동하지 않습니다. | 2021년 10월 21일 |
