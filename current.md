@@ -6,10 +6,10 @@ last-update: October 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 7cf9cf52da1afbbad7f5457077759b127a2e2312
+source-git-commit: e3facdc781ebcea6c4e623799ba1c431c83ae05f
 workflow-type: tm+mt
-source-wordcount: '5405'
-ht-degree: 39%
+source-wordcount: '5537'
+ht-degree: 38%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 39%
 >
 >월별 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html) 를 구독하면 이 페이지의 업데이트에 대한 이메일 알림을 받을 수 있습니다. 이 페이지는 한 달 동안 유지되므로 Adobe 엔터프라이즈 제품 및 Experience League 설명서에 대한 업데이트를 정기적으로 확인하십시오.
 
-최신 업데이트: **2021년 10월 4일**
+최신 업데이트: **2021년 10월 7일**
 
 * [[!DNL Experience League] 라이브 이벤트](#events)
 * [[!DNL Experience Cloud Central Interface Components] 및 관리](#ecloud)
 * [Adobe [!UICONTROL 시스템 상태]](#status)
-* [[!DNL Adobe Analytics]](#analytics) 및 [Customer Journey Analytics](#cust-journey)
+* [[!DNL Adobe Analytics]](#analytics) 및 [Customer Journey Analytics](#cust-journey)  **업데이트 날짜: 2021년 10월 7일**
 * [[!DNL Adobe Audience Manager]](#aam)
 * [[!DNL Adobe Experience Platform]](#platform)
 * [[!DNL Adobe Journey Optimizer]](#journey-opt)
@@ -87,7 +87,7 @@ ht-degree: 39%
 릴리스 날짜: **2021년 10월 7일**
 
 * [Adobe Analytics의 새로운 기능](#aa-features)
-* [Customer Journey Analytics의 새로운 기능](#cust-journey)
+* [Customer Journey Analytics의 새로운 기능](#cust-journey)  **업데이트 날짜: 2021년 10월 7일**
 * [Adobe Analytics의 수정 사항](#aa-fixes)
 * [Analytics 관리자에 대한 중요 공지](#aa-notices)
 * [Analytics 교육 과정 및 튜토리얼](#tutorials-analytics)
@@ -109,6 +109,7 @@ ht-degree: 39%
 
 | 기능 | 설명 | [일반 가용성](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=en) - 대상 날짜 |
 | ----------- | ---------- | ----- |
+| [!UICONTROL 연결] 데이터 유지에 대한 롤링 창 | **참고: 이 설정을 구현하려면 고객 지원 센터 또는 Adobe 계정 관리자에게 문의하십시오. CJA UI를 통해 아직 사용할 수 없습니다.**<p>CJA 데이터 보존 설정을 [!UICONTROL 연결] 수준([!UICONTROL 데이터 세트] 수준이 아님)에서 월(3개월, 6개월 등)으로 롤링 창으로 정의할 수 있습니다. 데이터 유지는 이벤트 데이터 세트 타임스탬프를 기반으로 하며 이벤트 데이터 세트에만 적용됩니다. 적용 가능한 타임스탬프가 없으므로 프로필 또는 조회 데이터 세트에 대한 데이터 유지 설정이 없습니다. 주요 이점은 적용 가능하고 유용한 데이터만 저장하거나 보고하고 더 이상 유용하지 않은 이전 데이터를 삭제하는 것입니다. 이것은 여러분이 계약 한도 내에서 머무르는 데 도움이 되고, 과도한 비용이 발생할 위험을 줄여줍니다. | 2021년 10월 7일 |
 | Report Builder 지원 | Report Builder은 Customer Journey Analytics 데이터를 사용하여 사용자 지정 보고서를 쉽게 만들고, 편집하고, 새로 고칠 수 있는 Microsoft® [!DNL Excel] 추가 기능입니다. Report Builder 및 Excel을 사용하면 간단하지만 유연한 드래그 앤 드롭 UI를 사용하여 복잡한 데이터 요청을 쉽게 작성할 수 있습니다. Customer Journey Analytics Report Builder을 사용하면 다음 작업을 수행할 수 있습니다.<ul><li>기존 워크시트 셀을 참조하여 완벽한 행 순서, 날짜 범위 또는 필터를 가져옵니다</li><li>달력, 셀 참조 또는 날짜 수학을 사용하여 사용자 지정 날짜 만들기</li><li>익숙한 Excel 서식 도구를 사용하여 표 및 시각화 디자인</li><li>macOS, 웹용 Microsoft 365 및 Microsoft Windows에서 Excel에 사용 가능</li></ul>[자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/report-buider-overview.html#) | 2021년 10월 7일 |
 | Analytics 대시보드에 대한 시각화 | Analytics [!UICONTROL 대시보드]는 경영진 및 의사 결정자가 자신의 데이터를 보다 잘 이해할 수 있도록 해주는 세 가지 새로운 시각화를 도입했습니다. 새로운 도넛, 선 및 가로 막대형 차트를 사용하면 세부 사항 보기를 열지 않고도 개별 차원 항목에 대한 데이터를 더 쉽게 볼 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html?lang=en#apply-visualizations) | 2021년 10월 7일 |
 | Customer Journey Analytics 감사 로그 API | [감사 로그](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) API 엔드포인트를 사용하면 Adobe에서 감사 로그 데이터를 요청할 수 있습니다. 이는 보안 규정 준수의 중요한 부분이며 데이터 또는 사용자 작업을 감사하는 데 중요합니다. | 2021년 10월 7일 |
