@@ -6,9 +6,9 @@ last-update: October 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: f0bc233f66b61333fee0cf07f816918d61c0776e
+source-git-commit: 7cf9cf52da1afbbad7f5457077759b127a2e2312
 workflow-type: tm+mt
-source-wordcount: '5394'
+source-wordcount: '5405'
 ht-degree: 39%
 
 ---
@@ -109,7 +109,7 @@ ht-degree: 39%
 
 | 기능 | 설명 | [일반 가용성](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=en) - 대상 날짜 |
 | ----------- | ---------- | ----- |
-| Report Builder 지원 | Report Builder은 Customer Journey Analytics 데이터를 사용하여 사용자 지정 보고서를 쉽게 만들고, 편집하고, 새로 고칠 수 있는 Microsoft® [!DNL Excel] 추가 기능입니다. Report Builder 및 Excel을 사용하면 간단하지만 유연한 드래그 앤 드롭 UI를 사용하여 복잡한 데이터 요청을 쉽게 작성할 수 있습니다. Customer Journey Analytics Report Builder을 사용하면 다음 작업을 수행할 수 있습니다.<ul><li>기존 워크시트 셀을 참조하여 완벽한 행 순서, 날짜 범위 또는 필터를 가져옵니다</li><li>달력, 셀 참조 또는 날짜 수학을 사용하여 사용자 지정 날짜 만들기</li><li>익숙한 Excel 서식 도구를 사용하여 표 및 시각화 디자인</li><li>macOS, 웹용 Microsoft 365 및 Microsoft Windows에서 사용 가능</li></ul> | 2021년 10월 7일 |
+| Report Builder 지원 | Report Builder은 Customer Journey Analytics 데이터를 사용하여 사용자 지정 보고서를 쉽게 만들고, 편집하고, 새로 고칠 수 있는 Microsoft® [!DNL Excel] 추가 기능입니다. Report Builder 및 Excel을 사용하면 간단하지만 유연한 드래그 앤 드롭 UI를 사용하여 복잡한 데이터 요청을 쉽게 작성할 수 있습니다. Customer Journey Analytics Report Builder을 사용하면 다음 작업을 수행할 수 있습니다.<ul><li>기존 워크시트 셀을 참조하여 완벽한 행 순서, 날짜 범위 또는 필터를 가져옵니다</li><li>달력, 셀 참조 또는 날짜 수학을 사용하여 사용자 지정 날짜 만들기</li><li>익숙한 Excel 서식 도구를 사용하여 표 및 시각화 디자인</li><li>macOS, 웹용 Microsoft 365 및 Microsoft Windows에서 Excel에 사용 가능</li></ul>[자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/report-buider-overview.html#) | 2021년 10월 7일 |
 | Analytics 대시보드에 대한 시각화 | Analytics [!UICONTROL 대시보드]는 경영진 및 의사 결정자가 자신의 데이터를 보다 잘 이해할 수 있도록 해주는 세 가지 새로운 시각화를 도입했습니다. 새로운 도넛, 선 및 가로 막대형 차트를 사용하면 세부 사항 보기를 열지 않고도 개별 차원 항목에 대한 데이터를 더 쉽게 볼 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html?lang=en#apply-visualizations) | 2021년 10월 7일 |
 | Customer Journey Analytics 감사 로그 API | [감사 로그](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) API 엔드포인트를 사용하면 Adobe에서 감사 로그 데이터를 요청할 수 있습니다. 이는 보안 규정 준수의 중요한 부분이며 데이터 또는 사용자 작업을 감사하는 데 중요합니다. | 2021년 10월 7일 |
 | 빠른 [!UICONTROL 필터 빌더] | 비즈니스 사용자가 간소화된 인라인 프로젝트 워크플로우에서 기본 세그먼트를 신속하게 적용할 수 있습니다. [!UICONTROL 필터 빌더]로 이동할 필요가 없습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html?lang=en) | 2021년 10월 21일 |
