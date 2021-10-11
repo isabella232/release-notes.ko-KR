@@ -6,7 +6,7 @@ last-update: October 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: e3facdc781ebcea6c4e623799ba1c431c83ae05f
+source-git-commit: bc6e1a293674c9554cb5c4bb18e3e39bb8c38213
 workflow-type: tm+mt
 source-wordcount: '5537'
 ht-degree: 38%
@@ -98,7 +98,7 @@ ht-degree: 38%
 | 기능 | 설명 | [일반 가용성](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=ko) - 대상 날짜 |
 | ----------- | ---------- | ------- |
 | Analytics 대시보드에 대한 시각화 | Analytics [!UICONTROL 대시보드]는 경영진 및 의사 결정자가 자신의 데이터를 더 잘 이해할 수 있도록 해주는 세 가지 새로운 시각화를 도입했습니다. 새로운 [!UICONTROL 도넛], [!UICONTROL 라인] 및 [!UICONTROL 가로] 막대 차트를 사용하면 세부 사항 보기를 열지 않고도 개별 차원 항목에 대한 데이터를 보다 쉽게 볼 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#apply-visualizations) | 2021년 10월 7일 |
-| [!UICONTROL 미디어 재생 시간] | Adobe 스트리밍 미디어 재생 [!UICONTROL 체류 시간]은(는) 뷰어 참여에 대한 중요한 통찰력을 제공하고 미디어 조직이 시간대 지정 기능이 포함된 고급 체류 시간 분석을 통해 분당 사용자 참여로 보다 깊고 세분화된 통찰력을 얻을 수 있도록 합니다. 특정 시점에 미디어 스트림을 보는 데 걸린 시간을 관찰할 수 있습니다. 새로운 5분, 15분 및 30분 세부기간을 포함하여 재생 기간을 다양한 세부기간으로 분할할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-panels/media-playback-time-spent.html?lang=en) | 2021년 10월 18일 |
+| [!UICONTROL 미디어 재생 소요 시간] | Adobe 스트리밍 미디어 재생 [!UICONTROL 체류 시간]은(는) 뷰어 참여에 대한 중요한 통찰력을 제공하고 미디어 조직이 시간대 지정 기능이 포함된 고급 체류 시간 분석을 통해 분당 사용자 참여로 보다 깊고 세분화된 통찰력을 얻을 수 있도록 합니다. 특정 시점에 미디어 스트림을 보는 데 걸린 시간을 관찰할 수 있습니다. 새로운 5분, 15분 및 30분 세부기간을 포함하여 재생 기간을 다양한 세부기간으로 분할할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-panels/media-playback-time-spent.html?lang=en) | 2021년 10월 18일 |
 | 빠른 [!UICONTROL 세그먼트 빌더] | 비즈니스 사용자가 간소화된 인라인 프로젝트 워크플로우에서 기본 세그먼트를 신속하게 적용할 수 있습니다. [!UICONTROL 세그먼트 빌더]로 이동할 필요가 없습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=en) | 2021년 10월 21일 |
 | Analysis Workspace 왼쪽 레일 검색 개선 | 왼쪽 레일 검색은 1) 구성 요소 최신성 및 관련성을 계속 고려하는 것 외에도 광범위한 일치 항목 위에 정확히 일치하는 항목을 우선 순위를 지정합니다. 2) 검색 결과를 보다 쉽게 이해할 수 있도록 일치된 문자를 강조 표시합니다. 3) 차원과 관련된 분류를 쉽게 찾을 수 있습니다. 4) 마지막으로 필요한 특정 구성 요소를 보다 쉽게 찾을 수 있도록 와일드카드(`*`) 검색을 지원합니다. 참고: 와일드카드 검색이 차원 항목 수준에서 아직 작동하지 않습니다. | 2021년 10월 21일 |
 | Analysis Workspace 다크 테마 | 어두운 테마는 표시 옵션으로 사용할 수 있습니다. | 2021년 10월 21일 |
@@ -132,7 +132,7 @@ AN-256136; AN-265420; AN-268455; AN-269768; AN-270276; AN-270287; AN-271601; AN-
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | ----------- | ---------- | ---------- |
-| 3개의 Analytics API 서비스에 대한 EOL | 2021년 9월 16일 | **2021년 10월 28일**&#x200B;에 다음 Analytics 이전 API 서비스가 종료됩니다. 이들 서비스를 사용하여 구축한 현재 모든 통합은 해당 날짜부터 더 이상 작동하지 않습니다.<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증(OAuth 및 JWT)</li></ul>Adobe는 질문에 답변하고 진행 방법에 대한 지침을 제공하기 위해 [이전 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) 를 제공했습니다. 이들 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 이전 OAuth 계정은 [Adobe I/O](https://developer.adobe.com/console) Analytics 통합 계정으로 마이그레이션할 수 있으며, 이 계정은 1.4 Analytics API 및 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다. |
+| 3개의 Analytics API 서비스에 대한 EOL | 2021년 9월 16일 | **2021년 10월 20일**&#x200B;에 다음 Analytics 이전 API 서비스가 종료됩니다. 이들 서비스를 사용하여 구축한 현재 모든 통합은 해당 날짜부터 더 이상 작동하지 않습니다.<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증(OAuth 및 JWT)</li></ul>Adobe는 질문에 답변하고 진행 방법에 대한 지침을 제공하기 위해 [이전 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) 를 제공했습니다. 이들 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 이전 OAuth 계정은 [Adobe I/O](https://developer.adobe.com/console) Analytics 통합 계정으로 마이그레이션할 수 있으며, 이 계정은 1.4 Analytics API 및 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
