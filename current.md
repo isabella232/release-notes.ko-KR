@@ -52,8 +52,8 @@ ht-degree: 38%
 | -----------| ---------- | ---------- | ---------- |---------- |
 | 2021년 10월 21일 | 오후 12시 (EST) | [누가 클릭했어요? Adobe Analytics](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw)을 사용한 링크 클릭에 대한 고급 보고 | 라이브 비디오 이벤트 | 웹 또는 모바일 속성과 사용자의 상호 작용에 대해 보고하는 것은 고객의 여정을 이해하는 데 중요한 부분입니다. Adobe Analytics을 사용하면 애플리케이션에서 클릭하는 모든 사람, 이유, 위치를 파악할 수 있습니다. Adobe Analytics 전문가에게 Activity Map 분류 및 사용자 지정 속성을 사용하여 사용자 참여를 더 잘 이해할 수 있도록 도움을 주는 주요 팁을 알아봅니다. |
 | 2021년 9월 23일 | 주문형 | [연말연시 캠페인을 돋보이게 할 수 있는 전문가의 팁](https://www.youtube.com/watch?v=bsU1lAv0xes) | 라이브 비디오 이벤트 | 연말연시 선물 준비를 미리 시작할수록 좋은 것처럼, 대성공을 거둬야 하는 연말연시 마케팅 캠페인을 위한 계획도 미리 시작할수록 좋습니다. Adobe Campaign을 통해 귀사에서 연말연시에 이루기를 소망하는 모든 것을 담은 캠페인을 설계하고 계획하고 실행할 수 있습니다.<br>하지만, 여러분은 한 해를 완전히 끝낸 캠페인을 실행하기 위한 모든 팁을 알고 있나요? Sandra와 함께 라이브 토론을 할 수 있습니다. 세 명의 Adobe 전문가들, 그들은 단지 그것을 하는 데 있어 수십 억 정도의 전문 지식을 가지고 있습니다. |
-| 2021년 8월 26일 | 주문형 | [보다 스마트한 향후 대상 세그먼트 구축하기](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-02.html?lang=ko) | 이벤트 녹화본 | 모든 훌륭한 마케팅 캠페인의 성공 여부는 대상자를 정확하게 타기팅하느냐에 달려 있습니다. 새로운 Adobe Experience Platform [!UICONTROL 세그먼트 빌더]를 통해 채널 전반의 프로필 데이터 및 시간 기반 사용자 행동을 사용하여 향후 대상 세그먼트를 구축할 수 있습니다. 캠페인의 메시지가 정말 닿아야 할 사람들에게 닿도록 하는 데 이보다 더 좋은 방법은 없습니다. |
-| 2021년 7월 29일 | 주문형 | [내가 가장 좋아하는 세 가지 Adobe Analytics 구현 팁](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-01.html?lang=ko) | 이벤트 녹화본 | Summit 무대에서 만난 적 있는 분입니다. Adobe Insider Tours에서 전문가 조언을 들려줬던 분입니다. 자체 Adobe Analytics 구현과 관련하여 이 분과 협력하는 혜택을 얻은 적이 있을 수도 있습니다. 이제 이 독점 Experience League Live 토론에서 Eric Matisoff 씨가 자신이 가장 좋아하는 세 가지 Adobe Analytics 구현 팁을 소개합니다. |
+| 2021년 8월 26일 | 주문형 | [보다 스마트한 향후 대상 세그먼트 구축하기](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-02.html?lang=ko-KR) | 이벤트 녹화본 | 모든 훌륭한 마케팅 캠페인의 성공 여부는 대상자를 정확하게 타기팅하느냐에 달려 있습니다. 새로운 Adobe Experience Platform [!UICONTROL 세그먼트 빌더]를 통해 채널 전반의 프로필 데이터 및 시간 기반 사용자 행동을 사용하여 향후 대상 세그먼트를 구축할 수 있습니다. 캠페인의 메시지가 정말 닿아야 할 사람들에게 닿도록 하는 데 이보다 더 좋은 방법은 없습니다. |
+| 2021년 7월 29일 | 주문형 | [내가 가장 좋아하는 세 가지 Adobe Analytics 구현 팁](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-01.html?lang=ko-KR) | 이벤트 녹화본 | Summit 무대에서 만난 적 있는 분입니다. Adobe Insider Tours에서 전문가 조언을 들려줬던 분입니다. 자체 Adobe Analytics 구현과 관련하여 이 분과 협력하는 혜택을 얻은 적이 있을 수도 있습니다. 이제 이 독점 Experience League Live 토론에서 Eric Matisoff 씨가 자신이 가장 좋아하는 세 가지 Adobe Analytics 구현 팁을 소개합니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -95,7 +95,7 @@ ht-degree: 38%
 
 ### Adobe Analytics의 새로운 기능 {#aa-features}
 
-| 기능 | 설명 | [일반 가용성](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=ko) - 대상 날짜 |
+| 기능 | 설명 | [일반 가용성](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=ko-KR) - 대상 날짜 |
 | ----------- | ---------- | ------- |
 | Analytics 대시보드에 대한 시각화 | Analytics [!UICONTROL 대시보드]는 경영진 및 의사 결정자가 자신의 데이터를 더 잘 이해할 수 있도록 해주는 세 가지 새로운 시각화를 도입했습니다. 새로운 [!UICONTROL 도넛], [!UICONTROL 라인] 및 [!UICONTROL 가로] 막대 차트를 사용하면 세부 사항 보기를 열지 않고도 개별 차원 항목에 대한 데이터를 보다 쉽게 볼 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#apply-visualizations) | 2021년 10월 7일 |
 | [!UICONTROL 미디어 재생 소요 시간] | Adobe 스트리밍 미디어 재생 [!UICONTROL 체류 시간]은(는) 뷰어 참여에 대한 중요한 통찰력을 제공하고 미디어 조직이 시간대 지정 기능이 포함된 고급 체류 시간 분석을 통해 분당 사용자 참여로 보다 깊고 세분화된 통찰력을 얻을 수 있도록 합니다. 특정 시점에 미디어 스트림을 보는 데 걸린 시간을 관찰할 수 있습니다. 새로운 5분, 15분 및 30분 세부기간을 포함하여 재생 기간을 다양한 세부기간으로 분할할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-panels/media-playback-time-spent.html?lang=en) | 2021년 10월 18일 |
@@ -152,7 +152,7 @@ AppMeasurement 릴리스(버전 2.22.2)에 대한 최신 업데이트는 [JavaSc
 
 ### Analytics 도움말 리소스
 
-* [Adobe Analytics 제품 설명서 및 튜토리얼](https://experienceleague.adobe.com/docs/analytics.html)
+* [Adobe Analytics 제품 설명서 및 튜토리얼](https://experienceleague.adobe.com/docs/analytics.html?lang=ko-KR)
 
 ## ![아이콘](/assets/audience-manager.png) Audience Manager {#aam}
 
@@ -175,7 +175,7 @@ Audience Manager의 새로운 기능 - **2021년 9월 14일** 업데이트:
 | [만료되지 않은 자격 증명](https://experienceleague.adobe.com/docs/experience-platform/query/ui/credentials.html) | [!UICONTROL 쿼리 서비스] 사용자에 대한 만료되지 않은 자격 증명은 24시간마다 자격 증명을 갱신하는 대신 외부 클라이언트에 대한 영구 연결을 허용합니다. |
 | [[!UICONTROL 대상 SDK]](https://www.adobe.com/go/destination-sdk-overview-en) | [!UICONTROL 대상 SDK]를 사용하여 [!DNL Platform]와 통합하고 지속적으로 증가하는 대상 카탈로그에 기여합니다. 이 기능에 대한 액세스는 Experience Platform 활성화 고객만 사용할 수 있습니다. |
 
-모든 자세한 내용은 [Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html)를 참조하십시오.
+모든 자세한 내용은 [Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR)를 참조하십시오.
 
 ### Experience Platform 튜토리얼 및 교육 과정 {#tutorials-platform}
 
@@ -193,7 +193,7 @@ Adobe Experience Platform Mobile SDK에 대한 [릴리스 정보 및 변경 로�
 
 ## ![아이콘](/assets/experience_platform_appicon_24.png) Journey Optimizer {#journey-opt}
 
-[Journey Optimizer 릴리스 정보](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html)에서 최신 기능, 개선 사항 및 수정 사항에 대해 알아봅니다.
+[Journey Optimizer 릴리스 정보](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html?lang=ko-KR)에서 최신 기능, 개선 사항 및 수정 사항에 대해 알아봅니다.
 
 ### Journey Optimizer 자습서 및 강좌 {#tutorials-ajo}
 
@@ -209,7 +209,7 @@ Adobe Experience Platform Mobile SDK에 대한 [릴리스 정보 및 변경 로�
 
 ### [!DNL Journey Optimizer]에 대한 추가 리소스
 
-[도움말 센터](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html) - [릴리스 정보](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [방법 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html)
+[도움말 센터](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=ko-KR) - [릴리스 정보](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [방법 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ko-KR)
 
 ## ![아이콘](/assets/experience_platform_appicon_24.png) [!DNL Journey Orchestration] {#journey-orch}
 
@@ -217,11 +217,11 @@ Experience Platform을 사용하여 모든 개인의 요구 사항을 실시간�
 
 ### 최신 [!DNL Journey Orchestration] 제품 릴리스
 
-[[!DNL Journey Orchestration]  릴리스 정보](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html)에서 최신 기능, 개선 사항 및 수정 사항에 대해 알아봅니다.
+[[!DNL Journey Orchestration]  릴리스 정보](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=ko-KR)에서 최신 기능, 개선 사항 및 수정 사항에 대해 알아봅니다.
 
 #### [!DNL Journey Orchestration]에 대한 추가 리소스
 
-[도움말 센터](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html) - [릴리스 정보](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html) - [사용 방법 비디오](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html) - [최신 설명서 업데이트](https://experienceleague.adobe.com/docs/journeys/using/release-notes/documentation-updates.html)
+[도움말 센터](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=ko-KR) - [릴리스 정보](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html) - [사용 방법 비디오](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=ko-KR) - [최신 설명서 업데이트](https://experienceleague.adobe.com/docs/journeys/using/release-notes/documentation-updates.html?lang=ko-KR)
 
 ## ![아이콘](/assets/experience_platform_appicon_24.png) Offer Decisioning {#offer-decisioning}
 
@@ -233,11 +233,11 @@ Experience Platform을 사용하여 모든 개인의 요구 사항을 실시간�
 
 #### [!UICONTROL Offer Decisioning]을 위한 추가 리소스
 
-[도움말 센터](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ko) - [릴리스 정보](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [사용 방법 비디오](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/overview.html) - [최신 설명서 업데이트](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/documentation-updates.html)
+[도움말 센터](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ko) - [릴리스 정보](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [사용 방법 비디오](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/overview.html?lang=ko-KR) - [최신 설명서 업데이트](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/documentation-updates.html)
 
 ## ![아이콘](/assets/aem.png) Experience Manager {#aem}
 
-Adobe는 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Manager 릴리스 업데이트 및 로드맵](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html) 페이지를 방문할 것을 권장합니다.
+Adobe는 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Manager 릴리스 업데이트 및 로드맵](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=ko-KR) 페이지를 방문할 것을 권장합니다.
 
 ### 커뮤니티
 
@@ -334,9 +334,9 @@ Adobe Campaign은 온라인 및 오프라인 마케팅 채널 간에 직관적�
 
 릴리스된 최신 기능, 개선 사항 및 수정 사항에 대해 자세히 알아보십시오.
 
-* [Campaign v8 릴리스 정보](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/release-notes.html)
-* [Campaign Classic v7 릴리스 정보](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html)
-* [Campaign Standard 릴리스 정보](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html)
+* [Campaign v8 릴리스 정보](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/release-notes.html?lang=ko-KR)
+* [Campaign Classic v7 릴리스 정보](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ko-KR)
+* [Campaign Standard 릴리스 정보](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=ko-KR)
 
 ### 새로운 [!UICONTROL Campaign] 교육 과정 및 튜토리얼 {#tutorials-campaign}
 
@@ -354,10 +354,10 @@ Adobe Campaign을 위한 최신 자습서 및 교육 과정
 
 ### Campaign 도움말 리소스
 
-* Adobe Campaign v8: [도움말 센터](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html) - [릴리스 정보](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/whats-new.html) - [구현 안내서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html)
-* Adobe Campaign Standard: [Campaign Standard 설명서](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html) - [릴리스 정보](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html) - [사용 방법 비디오](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html) - [릴리스 계획](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-planning.html) - [최신 설명서 업데이트](https://experienceleague.adobe.com/docs/campaign-standard/using/documentation-updates.html)
-* Adobe Campaign Classic: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html) - [릴리스 정보](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html) - [사용 방법 비디오](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html) - [최신 설명서 업데이트](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html)
-* Adobe Campaign 제어판: [설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html) - [릴리스 정보](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko) - [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html) / [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html) 방법 비디오
+* Adobe Campaign v8: [도움말 센터](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ko-KR) - [릴리스 정보](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/whats-new.html?lang=ko-KR) - [구현 안내서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=ko-KR)
+* Adobe Campaign Standard: [Campaign Standard 설명서](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=ko-KR) - [릴리스 정보](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html) - [사용 방법 비디오](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko-KR) - [릴리스 계획](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-planning.html?lang=ko-KR) - [최신 설명서 업데이트](https://experienceleague.adobe.com/docs/campaign-standard/using/documentation-updates.html?lang=ko-KR)
+* Adobe Campaign Classic: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=ko-KR) - [릴리스 정보](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html) - [사용 방법 비디오](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko-KR) - [최신 설명서 업데이트](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=ko-KR)
+* Adobe Campaign 제어판: [설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko-KR) - [릴리스 정보](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko-KR) - [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=ko-KR) / [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=ko-KR) 방법 비디오
 
 ## ![아이콘](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
