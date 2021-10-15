@@ -6,9 +6,9 @@ last-update: October 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: d2d02b2130c11f1971220646ac19f4fa6f0ab5da
+source-git-commit: 506c543d97a19bf88e7ba767c82893b02704ea8b
 workflow-type: tm+mt
-source-wordcount: '5553'
+source-wordcount: '5631'
 ht-degree: 38%
 
 ---
@@ -349,7 +349,7 @@ Adobe Campaign을 위한 최신 자습서 및 교육 과정
 | 2021년 10월 | [비즈니스 사용자를 위한 Adobe Campaign V8을 사용하여 고급 캠페인 만들기](https://experienceleague.adobe.com/?recommended=Campaign-U-1.2021.1.v8) | 교육 과정 | Adobe Campaign V8을 사용하여 고급 마케팅 캠페인을 구성하고 실행하는 방법을 알아봅니다. 사전 요구 사항에 대해 알아보고, 고급 캠페인, 게재 및 구독을 빌드 및 구성합니다. |
 | 2021년 10월 | [워크플로우에서 SOAP API 사용 - 소개](https://experienceleague.adobe.com/docs/campaign-learn/use-soap-apis/introduction.html?lang=en) | 튜토리얼 | API를 통해 받은 데이터를 기반으로 Adobe Campaign Soap API를 사용하고 고급 배달 워크플로우를 만드는 방법을 알아봅니다. |
 | 2021년 10월 | [이벤트 만들기](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/create-events.html?lang=en) | 튜토리얼 | 이벤트를 구성하고, 스트리밍 종단점 및 이벤트에 대한 페이로드를 지정하는 방법을 알아봅니다. |
-| 2021년 10월 | [데이터 소스 구성](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=en) | 튜토리얼 | 데이터 소스의 의미와 Experience Platform 및 외부 데이터 소스를 구성하는 방법을 살펴봅니다. |
+| 2021년 10월 | [데이터 소스 구성](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=en) | 튜토리얼 | 데이터 소스의 정의를 이해하고 Experience Platform 및 외부 데이터 소스를 구성하는 방법을 알아봅니다. |
 | 2021년 10월 | [사용 사례 - 버스트 메시지](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-burst-message.html?lang=en) | 튜토리얼 | 버스트 메시지에 적용할 수 있는 사용 사례를 이해합니다. 버스트 메시지에 대한 여정을 구성하는 방법 및 적용할 모범 사례를 알아봅니다. |
 
 {style=&quot;table-layout:auto&quot;}
@@ -370,22 +370,21 @@ Adobe Campaign을 위한 최신 자습서 및 교육 과정
 
 ### [!DNL Advertising Cloud DSP]의 새로운 기능 {#adcloud-dsp}
 
-마지막 업데이트: **2021년 9월 28일**
+마지막 업데이트: **2021년 10월 7일**
 
 | 기능 | 설명 |
 | ------- | ----------- |
-| 캠페인 관리 보기 | 이제 [!UICONTROL 캠페인], [!UICONTROL 패키지], [!UICONTROL 배치] 및 [!UICONTROL 광고] 보기에 대한 사용자 지정 열 세트에서 &quot;[!UICONTROL 생성 날짜]&quot; 열을 사용할 수 있습니다. [!UICONTROL 만든 날짜]로 [!UICONTROL 배치] 및 [!UICONTROL 광고] 보기를 필터링할 수도 있습니다. |
-| 프로그램 방식의 보장 거래 | (8월 릴리스) 이제 프로그램 방식으로 보장되는(PG) 거래를 위한 기본 배치에 대한 [!UICONTROL 최대 입찰]을 편집할 수 있습니다. 그러나 PG 계약에는 항상 고정된 CPM이 있으므로 국제 클라이언트만 통화 교환 비용을 계산하려면 [!UICONTROL 최대 입찰]을 편집해야 합니다. |
-|  | (8 9월 릴리스) 이제 &quot;[!DNL FreeWheel Programmatic Guaranteed]&quot; 권한을 가진 사용자는 [!UICONTROL Ads] 보기 또는 [!UICONTROL 배치] 보기에서 [!DNL FreeWheel Programmatic Creative API]에 광고를 제출할 수 있습니다. 여전히 [!UICONTROL 거래] 보기에서 광고를 제출할 수 있습니다. |
+| 설명서 | [!DNL Experience League]의 모든 [DSP 및 기타 Advertising Cloud 설명서](https://experienceleague.adobe.com/docs/advertising-cloud.html)는 이제 모든 사용 가능한 언어로 번역됩니다. 표시된 언어를 변경하려면 페이지의 왼쪽 하단에 있는 &quot;언어 변경&quot; 메뉴를 사용합니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
 ### [!DNL Advertising Cloud Search]의 새로운 기능 {#adcloud-search}
 
-마지막 업데이트: **2021년 9월 28일**
+마지막 업데이트: **2021년 10월 7일**
 
 | 기능 | 설명 |
 | ------- | ----------- |
+| [!UICONTROL 보고서],  [!UICONTROL 알림 센터] | (10월 9일 릴리스) 사용자 지정 또는 예약된 보고서가 완료되거나 실패할 때 Advertising Cloud Search에서 보내는 보고서에 대한 모든 이메일 알림은 이제 [!UICONTROL 알림 센터에서 처리합니다.] 보고서에 대해 기본적으로 이메일 알림 및 웹 알림이 활성화되지만 선택적으로 알림 설정을 변경할 수 있습니다. 이 변경 사항:<ul><li>전자 메일 수신자는 Advertising Cloud Search의 등록된 인증된 사용자로 제한되어 있고 광고주 계정에 액세스할 수 있습니다. 이렇게 하면 권한이 없는 사용자에게 기밀 데이터가 전송되지 않습니다.</li><li>전자 메일의 형식 및 콘텐츠는 보고서의 더 많은 세부 정보를 포함하고 모든 보고서 형식에 대한 직접 다운로드 링크를 포함하는 [!UICONTROL 알림 센터] 템플릿을 사용합니다.</li><li>보고서 알림은 [!UICONTROL 알림 센터]에서 고유한 알림 환경 설정이 있는 새로운 알림 유형입니다.</li></ul>자동화를 사용하여 전자 메일 알림에서 보고서를 가져오는 경우, 프로세스 지속성을 위해 필터링 논리를 업데이트해야 할 수 있습니다. |
 | Advertising Insights | 추가 인사이트는 베타 모드에서 사용할 수 있습니다. |
 
 {style=&quot;table-layout:auto&quot;}
