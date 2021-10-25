@@ -9,7 +9,7 @@ exl-id: null
 source-git-commit: c22db21d36f9ff7309f1ca835ff3241f87b86286
 workflow-type: tm+mt
 source-wordcount: '4190'
-ht-degree: 59%
+ht-degree: 60%
 
 ---
 
@@ -48,11 +48,11 @@ ht-degree: 59%
 
 ## ![아이콘](/assets/experience-league.png) [!DNL Experience League] 라이브 이벤트 {#events}
 
-[라이브 이벤트 Experience League](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en) Adobe 전문가 및 특별 손님과 함께 Adobe 기술을 귀사에 제공하는 데 중요한 역할을 합니다. 다음의 일정을 확인하여 실시간으로 참여하거나 이전에 녹화된 이벤트를 시청하세요.
+[라이브 이벤트 Experience League](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en) Adobe 전문가 및 특별 손님과 함께 Adobe 기술을 귀사에 제공하는 데 중요한 역할을 합니다. 아래 일정을 확인하여 실시간으로 참여하거나 이전에 녹화된 이벤트를 시청하십시오.
 
 | 이벤트 날짜 | 시간 | 이벤트 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |---------- |
-| 2021년 10월 21일 | 온디맨드 | [누가 클릭했는가? Adobe Analytics를 사용한 링크 클릭에 대한 고급 보고](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en) | 라이브 비디오 이벤트 | 웹 또는 모바일 속성과의 사용자 상호 작용에 대한 보고는 고객의 여정을 이해하는 데 중요한 부분입니다. Adobe Analytics를 사용하면 애플리케이션에서 클릭할 때마다 누가, 무엇을, 왜, 어디에서 클릭하는지 이해할 수 있습니다. Activity Map 분류 및 사용자 지정 속성 분석을 사용하여 사용자 참여를 보다 잘 이해할 수 있는 주요 팁을 Adobe Analytics 전문가로부터 배워 보세요. |
+| 2021년 10월 21일 | 온디맨드 | [누가 클릭했는가? Adobe Analytics를 사용한 링크 클릭에 대한 고급 보고](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en) | 라이브 비디오 이벤트 | 웹 또는 모바일 속성과의 사용자 상호 작용에 대한 보고는 고객의 여정을 이해하는 데 중요한 부분입니다. Adobe Analytics를 사용하면 애플리케이션에서 클릭할 때마다 누가, 무엇을, 왜, 어디에서 클릭하는지 이해할 수 있습니다. Activity Map 분류 및 사용자 지정 속성 분석을 사용하여 사용자 참여를 보다 잘 이해할 수 있는 주요 팁을 Adobe Analytics 전문가로부터 배워 보십시오. |
 | 2021년 10월 4일 | 온디맨드 | [Adobe 개발자 라이브](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=en) | 비디오 | 이벤트가 없거나 특정 세션의 재생을 찾고 계십니까? Experience League에서 찾으십시오. Developers Live는 업계 전반에 걸쳐 디자인, 컨텐츠 제작 워크플로우, 문서 서비스 및 고객 경험 관리를 제공하는 최신 기술 향상 및 개발자 도구를 소개합니다. 기조 연설을 보고 Analytics API, 클라이언트 데이터 레이어, 오픈 소스 프로젝트 Adobe I/O 등에 대해 알아보십시오. |
 
 {style=&quot;table-layout:auto&quot;}
@@ -69,7 +69,7 @@ ht-degree: 59%
 
 {style=&quot;table-layout:auto&quot;}
 
-**[!DNL Experience Cloud Central UI Components] 및 관리**&#x200B;에 대한 추가 도움말 리소스
+**[!DNL Experience Cloud Central UI Components] 및 관리에 대한 추가 도움말 리소스**
 
 * [중앙 인터페이스 구성 요소](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=ko-KR) 및 사용자 관리에 대한 관리 도움말
 * [장소 - 위치 서비스](https://experienceleague.adobe.com/docs/places/using/release-notes.html?lang=ko-KR)에 대한 도움말 및 릴리스 정보
@@ -116,7 +116,7 @@ ht-degree: 59%
 
 {style=&quot;table-layout:auto&quot;}
 
-### Adobe Analytics 및 {#aa-fixes}
+### Adobe Analytics의 수정 사항 {#aa-fixes}
 
 * 경고 관리자에서 경고를 삭제할 수 없는 문제를 해결했습니다. (AN-270656)
 * 간헐적으로 Data Warehouse 요청이 실패하는 문제를 해결했습니다. (AN-273713, AN-272790)
@@ -140,7 +140,7 @@ AN-270649
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | ----------- | ---------- | ---------- |
-| 3개의 Analytics API 서비스에 대한 EOL | 2021년 9월 16일 | **2021년 10월 20일**&#x200B;에 다음 Analytics Legacy API 서비스가 사용 수명 종료 날짜에 도달하여 중단됩니다. 이들 서비스를 사용하여 구축한 현재 모든 통합은 해당 날짜부터 더 이상 작동하지 않습니다.<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증(OAuth 및 JWT)</li></ul>Adobe는 질문에 답변하고 진행 방법에 대한 지침을 제공하기 위해 [이전 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) 를 제공했습니다. 이들 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 이전 OAuth 계정은 [Adobe I/O](https://developer.adobe.com/console) Analytics 통합 계정으로 마이그레이션할 수 있으며, 이 계정은 1.4 Analytics API 및 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다. |
+| 3개의 Analytics API 서비스에 대한 EOL | 2021년 9월 16일 | **2021년 10월 20일**&#x200B;에 다음 Analytics Legacy API 서비스가 사용 수명 종료 날짜에 도달하여 중단됩니다. 이들 서비스를 사용하여 구축한 현재 모든 통합은 해당 날짜부터 더 이상 작동하지 않습니다.<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증 (OAuth 및 JWT)</li></ul>Adobe는 질문에 답변하고 진행 방법에 대한 지침을 제공하기 위해 [이전 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) 를 제공했습니다. 이들 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 이전 OAuth 계정은 [Adobe I/O](https://developer.adobe.com/console) Analytics 통합 계정으로 마이그레이션할 수 있으며, 이 계정은 1.4 Analytics API 및 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다. |
 | Data Sources에서 전체 처리를 위한 EOL | 2021년 10월 18일 | 설정 **2022년 1월 31일**, Adobe은 사용자가 오프라인 히트 데이터를 Analytics에 수집할 수 있는 전체 처리 과정을 종료합니다. 이 기능은 를 통해 사용할 수 있습니다 [대량 데이터 삽입 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md). [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html?lang=ko-KR?lang=ko) |
 
 {style=&quot;table-layout:auto&quot;}
@@ -158,7 +158,7 @@ AppMeasurement 릴리스(버전 2.22.2)에 대한 최신 업데이트는 [JavaSc
 | 2021년 11월 | [Adobe Analytics의 세그먼트 컨테이너](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html?lang=en) | 비디오 (업데이트됨) | 이 비디오에서는 컨테이너를 사용하는 방법을 학습하고 각 컨테이너 유형에 대한 몇 가지 예를 들어 보십시오. |
 | 2021년 11월 | [Adobe Analytics의 순차적 세그먼테이션](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation.html?lang=en#) | 비디오 (업데이트됨) | 사이트 또는 애플리케이션에서 일련의 동작을 통해 Analysis Workspace에서 세그먼트를 만드는 방법을 알아봅니다. |
 | 2021년 11월 | [순차적인 세분화 전/후 시퀀스](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/before-after-sequences-in-sequential-segmentation.html?lang=en) | 비디오 (업데이트됨) | 특정 사용자 경로 전 또는 후의 데이터만 가져오도록 Adobe Analytics에서 세그먼트화하는 방법을 알아봅니다. |
-| 2021년 11월 | [Customer Journey Analytics Report Builder](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/report-builder-for-customer-journey-analytics.html) | 비디오 | Report Builder의 간단하고 유연한 드래그 앤 드롭 UI를 사용하면 Excel 내에서 Customer Journey Analytics 데이터에서 복잡한 데이터 쿼리 및 사용자 지정 보고서를 만들 수 있습니다. |
+| 2021년 11월 | [Customer Journey Analytics용 Report Builder](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/report-builder-for-customer-journey-analytics.html) | 비디오 | Report Builder의 간단하고 유연한 드래그 앤 드롭 UI를 사용하여 Excel 내의 모든 Customer Journey Analytics 데이터에서 복잡한 데이터 쿼리와 사용자 지정 보고서를 만들 수 있습니다. |
 | 2021년 10월 | [시각화를 사용하여 데이터 스토리 전달](https://experienceleague.adobe.com/?recommended=Analytics-U-1-2021.1.visualizations) | 교육 과정 | 프로젝트에 시각화를 추가하고, 데이터를 시각화로 가져오는 방법, 각 시각화가 보여 주는 항목 등 시각화에 대한 기본 사항을 알아봅니다. 필요한 정확한 데이터를 얻기 위해 설정을 구성하는 방법에 대해 알아봅니다. 또한 일반 분석에 실용적인 시각화를 만드는 데 도움이 되는 몇 가지 팁과 사용 사례를 얻을 수 있습니다. |
 
 {style=&quot;table-layout:auto&quot;}
@@ -261,7 +261,7 @@ Adobe는 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Ma
 
    Experience Cloud, Document Cloud 및 Creative Cloud의 Adobe 제품 팀에서는 업계 전반에 걸쳐 디자인, 컨텐츠 제작 워크플로우, 문서 서비스 및 고객 경험 관리를 제공하는 최신 기술 향상 및 개발자 도구를 소개합니다.
 
-   Adobe는 20개의 Experience Manager 세션을 계획하고 있습니다. 많이 소문 내 주세요!
+   Adobe는 20개의 Experience Manager 세션을 계획하고 있습니다. 널리 알려 주십시오!
 
    * [전체 세션 목록](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/adobe-developers-live-october-2021-complete-session-list/m-p/423041#M120517)
    * [무료 등록 – 로그인하여 참석 여부 알리기](https://developerevents.adobe.com/events/details/adobe-developer-events-developer-experience-presents-adobe-developers-live/?cid=Kautuk)
@@ -284,7 +284,7 @@ Adobe는 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Ma
 
 ### Experience Manager 릴리스 정보 {#aem-links}
 
-릴리스 정보 및 Experience Manager에 대한 다른 릴리스 정보 링크는 여기를 참조하십시오.
+아래에서 Experience Manager에 대한 릴리스 정보 및 기타 릴리스 정보 링크를 찾아보십시오.
 
 * [[!DNL Experience Manager as a Cloud Service] 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=ko-KR)
 * [[!DNL Experience Manager as a Cloud Service] 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=ko-KR)
