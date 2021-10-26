@@ -6,9 +6,9 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: f348d6153d81dae8ef84cd1aeb797e707104f392
+source-git-commit: 99bb9c88f2aa8b9f62cf2f088671fe60c1e684ab
 workflow-type: tm+mt
-source-wordcount: '4128'
+source-wordcount: '4131'
 ht-degree: 60%
 
 ---
@@ -182,7 +182,7 @@ AppMeasurement 릴리스(버전 2.22.2)에 대한 최신 업데이트는 [JavaSc
 | 2021년 11월 | [Adobe Analytics의 세그먼트 컨테이너](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html?lang=en) | 비디오 (업데이트됨) | 이 비디오에서는 컨테이너를 사용하는 방법을 학습하고 각 컨테이너 유형에 대한 몇 가지 예를 들어 보십시오. |
 | 2021년 11월 | [Adobe Analytics의 순차적 세그먼테이션](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation.html?lang=en#) | 비디오 (업데이트됨) | 사이트 또는 애플리케이션에서 일련의 동작을 통해 Analysis Workspace에서 세그먼트를 만드는 방법을 알아봅니다. |
 | 2021년 11월 | [순차적인 세분화 전/후 시퀀스](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/before-after-sequences-in-sequential-segmentation.html?lang=en) | 비디오 (업데이트됨) | 특정 사용자 경로 전 또는 후의 데이터만 가져오도록 Adobe Analytics에서 세그먼트화하는 방법을 알아봅니다. |
-| 2021년 11월 | [Customer Journey Analytics용 Report Builder](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/report-builder-for-customer-journey-analytics.html) | 비디오 | Report Builder의 간단하고 유연한 드래그 앤 드롭 UI를 사용하여 Excel 내의 모든 Customer Journey Analytics 데이터에서 복잡한 데이터 쿼리와 사용자 지정 보고서를 만들 수 있습니다. |
+| 2021년 11월 | [Customer Journey Analytics용 Report Builder](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/report-builder-for-customer-journey-analytics.html) | 비디오 | Report Builder의 간단하고 유연한 드래그 앤 드롭 UI를 사용하여 Excel 내의 모든 Customer Journey Analytics 데이터에서 복잡한 데이터 쿼리와 맞춤형 보고서를 만들 수 있습니다. |
 | 2021년 10월 | [시각화를 사용하여 데이터 스토리 전달](https://experienceleague.adobe.com/?recommended=Analytics-U-1-2021.1.visualizations) | 교육 과정 | 프로젝트에 시각화를 추가하고, 데이터를 시각화로 가져오는 방법, 각 시각화가 보여 주는 항목 등 시각화에 대한 기본 사항을 알아봅니다. 필요한 정확한 데이터를 얻기 위해 설정을 구성하는 방법에 대해 알아봅니다. 또한 일반 분석에 실용적인 시각화를 만드는 데 도움이 되는 몇 가지 팁과 사용 사례를 얻을 수 있습니다. |
 
 {style=&quot;table-layout:auto&quot;}
@@ -203,7 +203,10 @@ Audience Manager의 수정 및 개선 사항.
 
 Adobe는 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Manager 릴리스 업데이트 및 로드맵](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html) 페이지를 방문할 것을 권장합니다.
 
-**업데이트 10/13/2021:** 다음을 확인하십시오 [2021년 9월 릴리스 개요](https://video.tv.adobe.com/v/337381) 새로운 기능에 대한 개요는 비디오를 참조하십시오.
+### 릴리스 개요 비디오
+
+* [2021년 10월 릴리스 개요](https://video.tv.adobe.com/v/338253) 새로운 기능 비디오.
+* [2021년 9월 릴리스 개요](https://video.tv.adobe.com/v/337381) 새로운 기능 비디오.
 
 ### 커뮤니티
 
