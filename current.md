@@ -6,9 +6,9 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: 99bb9c88f2aa8b9f62cf2f088671fe60c1e684ab
+source-git-commit: ed5f9c6b35b65bab0c26887788e2232a0e9a6ab5
 workflow-type: tm+mt
-source-wordcount: '4131'
+source-wordcount: '4147'
 ht-degree: 60%
 
 ---
@@ -124,7 +124,7 @@ Adobe Experience Platform Mobile SDK에 대한 [릴리스 정보 및 변경 로�
 | [!UICONTROL 미디어 재생 소요 시간] | Adobe 스트리밍 미디어 재생 [!UICONTROL 소요 시간]은 시청자 참여에 대한 가치 있는 통찰력을 제공하며 미디어 조직에서는 시간대 지정 기능이 있는 고급 소요 시간 분석을 통해 분 단위 사용자 참여에 대한 보다 심층적이고 세부적인 통찰력을 얻을 수 있습니다. 특정 시점에 미디어 스트림을 보는 데 소요된 시간을 관찰할 수 있습니다. 새로운 5분, 15분 및 30분 세부기간을 포함하여 재생 기간을 다양한 세부기간으로 분할할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-panels/media-playback-time-spent.html?lang=en) | 2021년 10월 18일 |
 | 빠른 [!UICONTROL 세그먼트 빌더] | 비즈니스 사용자가 간소화된 인라인 프로젝트 워크플로에서 기본 세그먼트를 빠르게 적용할 수 있습니다. [!UICONTROL 세그먼트 빌더]로 이동할 필요가 없습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=en) | 2021년 10월 21일 |
 | Analysis Workspace 왼쪽 레일 검색 개선 사항 | 왼쪽 레일 검색 1)에서는 구성 요소 최신성 및 관련성을 계속 고려하는 것 외에도 광범위한 일치보다 정확하게 일치하는 항목에 우선 순위를 둡니다. 2) 일치하는 문자를 강조 표시하여 검색 결과를 보다 이해하기 쉽게 만듭니다. 3) 차원과 관련된 분류를 쉽게 찾을 수 있습니다. 4) 마지막으로 와일드카드(`*`) 검색을 지원하여 필요한 특정 구성 요소를 보다 쉽게 찾을 수 있습니다. 참고: 와일드카드 검색은 아직 차원 항목 수준에서 작동하지 않습니다. | 2021년 10월 21일 |
-| Analysis Workspace 어두운 테마 | 어두운 테마를 표시 옵션으로 사용할 수 있습니다. | 2021년 10월 21일 |
+| 어두운 테마 | [어두운 테마를 표시 옵션으로 사용할 수 있습니다.](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#dark-theme) | 2021년 10월 21일 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -135,7 +135,7 @@ Adobe Experience Platform Mobile SDK에 대한 [릴리스 정보 및 변경 로�
 | Analysis Workspace의 분 수준 날짜 범위 | 패널 달력의 고급 설정에서 분 수준 날짜 범위를 적용하거나 사용자 지정 날짜 범위를 작성할 수 있습니다. 여러 일에 걸쳐 있는 날짜 범위에 대해 보고하는 경우, 시작 시간이 첫 번째 날에 적용되고 종료 시간이 범위의 마지막 날에 적용됩니다. | 2021년 10월 18일 |
 | 빠른 [!UICONTROL 필터 빌더] | 비즈니스 사용자가 간소화된 인라인 프로젝트 워크플로에서 기본 세그먼트를 빠르게 적용할 수 있습니다. [!UICONTROL 필터 빌더]로 이동할 필요가 없습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html) | 2021년 10월 21일 |
 | Analysis Workspace 왼쪽 레일 검색 개선 사항 | 왼쪽 레일 검색 1)에서는 구성 요소 최신성 및 관련성을 계속 고려하는 것 외에도 광범위한 일치보다 정확하게 일치하는 항목에 우선 순위를 둡니다. 2) 일치하는 문자를 강조 표시하여 검색 결과를 보다 이해하기 쉽게 만듭니다. 3) 차원과 관련된 분류를 쉽게 찾을 수 있습니다. 4) 마지막으로 와일드카드(`*`) 검색을 지원하여 필요한 특정 구성 요소를 보다 쉽게 찾을 수 있습니다. 참고: 와일드카드 검색은 아직 차원 항목 수준에서 작동하지 않습니다. | 2021년 10월 21일 |
-| Analysis Workspace 어두운 테마 | 어두운 테마를 표시 옵션으로 사용할 수 있습니다. | 2021년 10월 21일 |
+| 어두운 테마 | [어두운 테마를 표시 옵션으로 사용할 수 있습니다.](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/user-preferences.html?lang=en#dark-theme) | 2021년 10월 21일 |
 | 차원 할당에 대한 전환 확인 기간 | 최대 90일의 검색 창이 데이터 보기 구성의 지속성 아래의 차원 할당 설정에 추가됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html) | 2021년 10월 28일 |
 
 {style=&quot;table-layout:auto&quot;}
