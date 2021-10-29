@@ -6,10 +6,10 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: ed5f9c6b35b65bab0c26887788e2232a0e9a6ab5
+source-git-commit: 4dfe2c2ab39fe82b40fc87e289d2c55c6ccc6735
 workflow-type: tm+mt
-source-wordcount: '4147'
-ht-degree: 60%
+source-wordcount: '4456'
+ht-degree: 56%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 60%
 
 릴리스 시기: **2021년 11월**
 
-최신 업데이트: **2021년 10월 22일**
+최신 업데이트: **2021년 10월 28일**
 
 * [[!DNL Experience League] 라이브 이벤트](#events)
 * [[!DNL Experience Cloud Central Interface Components] 및 관리](#ecloud)
@@ -41,7 +41,7 @@ ht-degree: 60%
 * [[!DNL Journey Orchestration]](#journey-orch)
 * [[!DNL Adobe Marketo Engage]](#marketo)
 * [[!DNL Adobe Workfront]](#workfront)
-* [[!DNL Adobe Advertising Cloud]](#adcloud)
+* [[!DNL Adobe Advertising Cloud]](#adcloud) (**2021년 10월 27일**)
 * [[!DNL Document Cloud]](#doc-cloud)
 * [[!DNL Creative Cloud for enterprise]](#creative-cloud)
 
@@ -372,16 +372,32 @@ Adobe [!DNL Workfront]는 아이디어 공유, 콘텐츠 생성, 복잡한 프�
 
 [!DNL Adobe Advertising Cloud]의 릴리스 정보.
 
+* [의 새로운 기능 [!DNL Advertising Cloud]](#adcloud-all)
 * [ [!DNL Advertising Cloud DSP]의 새로운 기능](#adcloud-dsp)
 * [ [!DNL Advertising Cloud Search]의 새로운 기능](#adcloud-search)
 
-### [!DNL Advertising Cloud DSP]의 새로운 기능 {#adcloud-dsp}
+### 의 새로운 기능 [!DNL Advertising Cloud] {#adcloud-all}
 
-마지막 업데이트: **2021년 10월 7일**
+마지막 업데이트: **2021년 10월 27일**
 
 | 기능 | 설명 |
 | ------- | ----------- |
-| 설명서 | 모두 [DSP 및 기타 Advertising Cloud 설명서](https://experienceleague.adobe.com/docs/advertising-cloud.html) on [!DNL Experience League] 이제 모든 언어로 번역된 기계입니다. 표시된 언어를 변경하려면 페이지의 왼쪽 하단에 있는 &quot;언어 변경&quot; 메뉴를 사용합니다. |
+| Advertising Cloud용 Analytics | 조직에서 이전 Adobe Analytics을 사용하지 않으려면 `visitorAPI.js` Adobe Experience Platform 라이브러리에 라이브러리(`alloy.js`)를 데이터 수집하려면 ID 결합을 활성화하려면 몇 가지 사항을 변경해야 합니다. 참조:[사용 [!DNL Last Event Service] Adobe Experience Platform을 사용한 JavaScript 라이브러리 [!DNL Web SDK]](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/planning/web-sdk.html).&quot; |
+
+{style=&quot;table-layout:auto&quot;}
+
+### [!DNL Advertising Cloud DSP]의 새로운 기능 {#adcloud-dsp}
+
+마지막 업데이트: **2021년 10월 27일**
+
+| 기능 | 설명 |
+| ------- | ----------- |
+| 사용자 지정 보고서 | 이제 만들고 관리할 수 있습니다 [!DNL Amazon S3] 및 라는 다양한 유형의 FTP 배달 위치 *[!DNL report destinations]*: 사용자 지정 보고서에 사용할 수 있습니다. 보고서 대상을 구성하면, 단일 대상 유형의 하나 이상의 위치 또는 이메일 수신자에게 전달되도록 각 새로운 사용자 지정 보고서를 설정할 수 있습니다. 업데이트 [!DNL Amazon S3] 및 FTP 자격 증명은 보고서 전달을 방해하지 않습니다.<br><br>기존 보고서는 여전히 지정된 전자 메일 수신자에게 전송됩니다. 다른 보고서 대상에 전달을 구성하려면 새 대상을 사용하여 새 보고서를 만듭니다. |
+| [!UICONTROL 패키지], [!UICONTROL 배치], 및 [!UICONTROL 광고] 보기 | 이제 하루에 대한 데이터를 볼 때 트렌드 차트에 시간별 데이터가 포함됩니다. 커서를 아무 지점이나 눌러 해당 시간의 데이터를 확인합니다. |
+| [!UICONTROL 배치] | 배치 [!UICONTROL 검사자] 이제 에 가 포함됩니다 [!UICONTROL 인벤토리] 탭에 배치에 대한 모든 거래 및 관련 지표가 표시됩니다. 사용자 지정 보고서를 생성하지 않고 정보를 사용하여 문제를 빠르게 조정하거나 해결할 수 있습니다. |
+| [!UICONTROL 광고] | (광고에 Clearcastclock 번호를 포함할 권한이 있는 사용자) 다른 광고에 첨부된 시계 번호를 사용하는 경우 DSP에 오류가 더 이상 표시되지 않습니다. **참고:**  가장 좋은 방법은 각 비디오 광고에 고유한 시계 번호를 사용하는 것입니다. 그렇지 않으면 게시자가 모든 광고를 승인하지 않습니다. |
+| [!UICONTROL 거래 ID] | 다음 [!UICONTROL 거래 ID] 사용자 인터페이스의 설정 및 기타 위치는 다음에 대한 새 브랜딩을 반영합니다. [!DNL Magnite] SSP:<br><ul><li>SSP &quot;[!DNL Tremor]&quot; ([!DNL Telaria])가 이제 &quot;&quot;가 됩니다.[!DNL Magnite CTV].&quot;</li><li>몇 주 후에 [!DNL Rubicon]&quot; 은(는) &quot;[!DNL Magnite DV+],&quot; 위치 [!DNL DV+] 디스플레이, 비디오 및 오디오와 같은 기타 형식을 나타냅니다.</li></ul> |
+| [!DNL Freewheel] 프로그램 보장 거래 | 이제 광고 상태를 찾을 수 있습니다 [!DNL Freewheel] 프로그램 방식으로 보장되는 거래 [!UICONTROL 광고] 보기. 이전에는 [!UICONTROL 딜] 보기. |
 
 {style=&quot;table-layout:auto&quot;}
 
