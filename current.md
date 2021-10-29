@@ -6,10 +6,10 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: 4dfe2c2ab39fe82b40fc87e289d2c55c6ccc6735
+source-git-commit: 88923d059ec73215facae2efc1888b07b2e60fc7
 workflow-type: tm+mt
-source-wordcount: '4456'
-ht-degree: 56%
+source-wordcount: '4513'
+ht-degree: 55%
 
 ---
 
@@ -53,6 +53,7 @@ ht-degree: 56%
 
 | 이벤트 날짜 | 시간 | 이벤트 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |---------- |
+| 2021년 11월 18일 | TBA | Experience Manager에서 빠른 사이트 생성 기능을 통해 보다 신속하게 라이브로 전환하십시오 | 라이브 비디오 이벤트 | Experience Manager Sites에는 매력적인 웹 경험을 빠르게 제공하기 위한 몇 가지 기능이 포함되어 있습니다. 사전 정의된 사이트 템플릿을 사용하여 Adobe Experience Manager에서 낮은 코드 접근 방식을 사용하여 사이트를 만드는 방법을 알아봅니다. 더 자세한 내용을 알려주십시오! |
 | 2021년 10월 21일 | 온디맨드 | [누가 클릭했는가? Adobe Analytics를 사용한 링크 클릭에 대한 고급 보고](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en) | 라이브 비디오 이벤트 | 웹 또는 모바일 속성과의 사용자 상호 작용에 대한 보고는 고객의 여정을 이해하는 데 중요한 부분입니다. Adobe Analytics를 사용하면 애플리케이션에서 클릭할 때마다 누가, 무엇을, 왜, 어디에서 클릭하는지 이해할 수 있습니다. Activity Map 분류 및 사용자 지정 속성 분석을 사용하여 사용자 참여를 보다 잘 이해할 수 있는 주요 팁을 Adobe Analytics 전문가로부터 배워 보십시오. |
 | 2021년 10월 4일 | 온디맨드 | [Adobe 개발자 라이브](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=en) | 비디오 | 이벤트가 없거나 특정 세션의 재생을 찾고 계십니까? Experience League에서 찾으십시오. Developers Live는 업계 전반에 걸쳐 디자인, 컨텐츠 제작 워크플로우, 문서 서비스 및 고객 경험 관리를 제공하는 최신 기술 향상 및 개발자 도구를 소개합니다. 기조 연설을 보고 Analytics API, 클라이언트 데이터 레이어, 오픈 소스 프로젝트 Adobe I/O 등에 대해 알아보십시오. |
 
