@@ -6,9 +6,9 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: f5fa780e217bd43eb835442326692e3a056f16c3
+source-git-commit: 18e7570cc950555d53a82bbb67555c3a273e2cbc
 workflow-type: tm+mt
-source-wordcount: '5070'
+source-wordcount: '4782'
 ht-degree: 83%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 83%
 
 릴리스 월: **2021년 11월**
 
-최신 업데이트: **2021년 10월 28일**
+최신 업데이트: **2021년 11월 15일**
 
-* [[!DNL Experience League] 라이브 이벤트](#events)
+* [[!DNL Experience League] 이벤트](#events) (업데이트 날짜: 2021년 11월 15일)
 * [[!DNL Experience Cloud Central Interface Components] 및 관리](#ecloud)
 * [Adobe [!UICONTROL 시스템 상태]](#status)
 * [[!DNL Adobe Experience Platform]](#platform)
@@ -49,7 +49,13 @@ ht-degree: 83%
 
 ## ![아이콘](/assets/experience-league.png) [!DNL Experience League] 이벤트 {#events}
 
-Experience League 이벤트는 Adobe에서 제품 전문가의 답변을 얻을 수 있는 좋은 장소입니다. 저희 회사 _커뮤니티 Q&amp;A 커피 브레이크_, 라이브 비디오 이벤트 Experience League (주문형)와 개발자 라이브 Adobe 일정 및 이벤트는 다음과 같습니다.
+Experience League 이벤트는 Adobe에서 제품 전문가의 답변을 얻을 수 있는 좋은 장소입니다. 저희 회사
+
+* 커뮤니티 Q&amp;A 커피 브레이크
+* 라이브 비디오 이벤트 Experience League(주문형 사용 가능)
+* Adobe 개발자 라이브
+
+일정 및 이벤트는 다음과 같습니다.
 
 ### Experience League 라이브{#exl-live}
 
@@ -57,25 +63,21 @@ Experience League 이벤트는 Adobe에서 제품 전문가의 답변을 얻을 
 
 | 이벤트 날짜 | 시간 | 이벤트 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |---------- |
-| 2021년 11월 18일 | 오후 12시 (EST) | [Adobe Experience Manager에서 신속하게 사이트를 제작하여 보다 신속하게 라이브로 전환하십시오](https://www.youtube.com/watch?v=7-Lcw5PejhI) | 라이브 비디오 이벤트 | 백엔드 개발 없이 수일 내에 개인화된 다양한 웹 경험을 배포합니다. 사전 정의된 사이트 템플릿을 사용하여 Adobe Experience Manager에서 낮은 코드 접근 방식을 사용하여 사이트를 만드는 방법을 알아봅니다. Adobe 제품 관리자 Shankari Panchapakehan 및 Gabriel Walt와 함께 라이브 프레젠테이션 및 데모를 개최합니다. 여러분은 심지어 몇몇 라이브 코딩을 볼 수도 있어요! |
+| 2021년 11월 18일 | 오후 12시 (EST) | [Adobe Experience Manager에서 신속하게 사이트를 제작하여 보다 신속하게 라이브로 전환하십시오](https://www.youtube.com/watch?v=7-Lcw5PejhI) | 라이브 비디오 이벤트 | 백엔드 개발 없이 수일 내에 개인화된 다양한 웹 경험을 배포합니다. 사전 정의된 를 사용하여 Adobe Experience Manager에서 낮은 코드 접근 방식을 사용하여 사이트를 만드는 방법을 알아봅니다 [!UICONTROL 사이트 템플릿]. Adobe 제품 관리자 Shankari Panchapakehan, Gabriel Walt 및 Danny Gordon과 함께 라이브 프레젠테이션 및 데모를 개최합니다. 여러분은 심지어 몇몇 라이브 코딩을 볼 수도 있어요! |
 | 2021년 10월 21일 | 오후 12시 (EST) | [누가 클릭했는가? Adobe Analytics를 사용한 링크 클릭에 대한 고급 보고](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw) | 온디맨드 | 웹 또는 모바일 속성과의 사용자 상호 작용에 대한 보고는 고객의 여정을 이해하는 데 중요한 부분입니다. Adobe Analytics를 사용하면 애플리케이션에서 클릭할 때마다 누가, 무엇을, 왜, 어디에서 클릭하는지 이해할 수 있습니다. Activity Map 분류 및 사용자 지정 속성 분석을 사용하여 사용자 참여를 보다 잘 이해할 수 있는 주요 팁을 Adobe Analytics 전문가로부터 배워 보십시오. |
-| 2021년 9월 23일 | 온디맨드 | [연말연시 캠페인을 돋보이게 할 수 있는 전문가의 팁](https://www.youtube.com/watch?v=bsU1lAv0xes) | 라이브 비디오 이벤트 | 연말연시 선물 준비를 미리 시작할수록 좋은 것처럼, 대성공을 거둬야 하는 연말연시 마케팅 캠페인을 위한 계획도 미리 시작할수록 좋습니다. Adobe Campaign을 통해 귀사에서 연말연시에 이루기를 소망하는 모든 것을 담은 캠페인을 설계하고 계획하고 실행할 수 있습니다.<br>하지만 한 해를 멋지게 마무리할 수 있는 캠페인을 실행하기 위한 팁을 모두 알고 계시나요? 오랜 시간 동안 축적된 전문 지식을 보유한 세 명의 Adobe 전문가가 참여하는 라이브 토론에 Sandra와 함께 해 보십시오. |
-| 2021년 8월 26일 | 온디맨드 | [보다 스마트한 향후 대상 세그먼트 구축하기](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-02.html?lang=ko-KR) | 이벤트 녹화본 | 모든 훌륭한 마케팅 캠페인의 성공 여부는 대상자를 정확하게 타기팅하느냐에 달려 있습니다. 새로운 Adobe Experience Platform [!UICONTROL 세그먼트 빌더]를 통해 채널 전반의 프로필 데이터 및 시간 기반 사용자 행동을 사용하여 향후 대상 세그먼트를 구축할 수 있습니다. 캠페인의 메시지가 정말 닿아야 할 사람들에게 닿도록 하는 데 이보다 더 좋은 방법은 없습니다. |
-| 2021년 7월 29일 | 온디맨드 | [내가 가장 좋아하는 세 가지 Adobe Analytics 구현 팁](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-01.html?lang=ko-KR) | 이벤트 녹화본 | Summit 무대에서 만난 적 있는 분입니다. Adobe Insider Tours에서 전문가 조언을 들려줬던 분입니다. 자체 Adobe Analytics 구현과 관련하여 이 분과 협력하는 혜택을 얻은 적이 있을 수도 있습니다. 이제 이 독점 Experience League Live 토론에서 Eric Matisoff 씨가 자신이 가장 좋아하는 세 가지 Adobe Analytics 구현 팁을 소개합니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
+과거 에피소드에 대해서는 [Experience League 라이브](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en).
+
 ### 커뮤니티 Q&amp;A 커피 브레이크{#coffee}
 
-Adobe 기술을 귀사에 제공하는 데 유용한 Adobe 전문가 및 특별 손님과 의견을 나누십시오. 커뮤니티 Q&amp;A 커피 브레이크 다음 일정을 살펴보고 실시간으로 참여하거나 이전에 기록된 이벤트를 확인하십시오.
+Adobe의 제품 전문가로부터 질문에 대한 답변을 받을 수 있는 Experience League 커뮤니티에서 특별한 게스트와 한 시간을 보내 질문을 제출하십시오!
 
-Adobe의 제품 전문가로부터 질문에 대한 답변을 받을 수 있는 Experience League 커뮤니티에서 특별한 게스트와 한 시간을 보내 질문을 제출하십시오.
-
-| 이벤트 이름 | 날짜 및 시간 | 주제 | 유형 | 설명 |
+| 이벤트 이름 | 날짜 및 시간 | 애플리케이션 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |---------- |
-| 커뮤니티 Q&amp;A 커피 브레이크 | 11월 10일 (수) @ 8am PT | Adobe Target | 포럼 Q&amp;A | 제품 관리자인 Cristinel Anastasoaie와 한 시간을 보내십시오. Adobe Target 인터페이스, 통합, 엔터프라이즈 권한 및 작업 공간에 대한 질문에 대한 답변을 얻을 수 있습니다. <br>[세부 사항](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-11-10-21-cristinel-quot-muti/td-p/426696) |
-|  | 11월 11일 (목요일) @ 8 오전 PT | Adobe Target | 포럼 Q&amp;A | 제품 관리자인 Cristinel Anastasoaie와 한 시간을 보내십시오. Adobe Target 인터페이스, 통합, 엔터프라이즈 권한 및 작업 공간에 대한 질문에 대한 답변을 얻을 수 있습니다. <br>[세부 사항](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-11-10-21-cristinel-quot-muti/td-p/426696) |
-| 2021년 11월 18일 | TBA | Experience Manager에서 빠른 사이트 생성 기능을 통해 보다 신속하게 라이브로 전환하십시오 | 라이브 비디오 이벤트 | Experience Manager Sites에는 매력적인 웹 경험을 빠르게 제공하기 위한 몇 가지 기능이 포함되어 있습니다. 사전 정의된 사이트 템플릿을 사용하여 Adobe Experience Manager에서 낮은 코드 접근 방식을 사용하여 사이트를 만드는 방법을 알아봅니다. 더 자세한 내용을 알려주십시오! |
+| Adobe Target - 설정 및 관리 UI, A4T 통합, AEM 통합, 일반 UI  | 12월 8일 (수) @ 8 오전 PT | Adobe Target | 포럼 Q&amp;A | Adobe는 Adobe Target 커뮤니티에 있는 Adobe Target의 수석 제품 관리자인 @Robert_Calangiu인 Robert Calangui와 함께 커뮤니티에서 그의 전문 지식과 관련된 Adobe Target 관련 질문에 대해 직접 대화를 나눌 예정입니다. <br>[세부 사항](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697) |
+| Adobe Campaign - 다른 애플리케이션을 통해 데이터 가져오기 | 2021년 12월 2일 @ 8 am PT | Adobe Campaign | 포럼 Q&amp;A | 다른 애플리케이션을 통한 데이터 가져오기 - 기술 컨설턴트인 Zariely Garcia와 함께 기술 워크플로우를 사용하여 SFTP/API를 통해 데이터를 가져오는 우수 사례입니다. <br>[세부 사항](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4UuYOxSr9BdGsLPtk3ITDIdUMFYwT0REQTk5RDZPTjlEWFlSUk1XWTBHVy4u&amp;wdLOR=cEEEC3C73-227C-457C-AA83-44CC08D697B9). |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -83,7 +85,7 @@ Adobe의 제품 전문가로부터 질문에 대한 답변을 받을 수 있는 
 
 | 이벤트 이름 | 날짜 및 시간 | 주제 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |---------- |
-| 2021년 10월 4일 | 온디맨드 | [Adobe Developers Live](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=en) | 비디오 | 이벤트를 놓쳤거나 특정 세션의 리플레이를 찾고 계십니까? Experience League에서 찾아보십시오. Developers Live는 업계 전반에 걸쳐 디자인, 콘텐츠 제작 워크플로, 문서 서비스 및 고객 경험 관리를 지원하는 최신 기술 발전 및 개발자 도구를 소개합니다. 기조 연설을 보고 Analytics API, 클라이언트 데이터 레이어, Adobe I/O 오픈 소스 프로젝트 등에 대해 알아보십시오. |
+| 2021년 10월 4일 - 5일 | 온디맨드 | [Adobe Developers Live](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=en) | 비디오 | 이벤트를 놓쳤거나 특정 세션의 리플레이를 찾고 계십니까? Experience League에서 찾아보십시오. Developers Live는 업계 전반에 걸쳐 디자인, 콘텐츠 제작 워크플로, 문서 서비스 및 고객 경험 관리를 지원하는 최신 기술 발전 및 개발자 도구를 소개합니다. 기조 연설을 보고 Analytics API, 클라이언트 데이터 레이어, Adobe I/O 오픈 소스 프로젝트 등에 대해 알아보십시오. |
 
 자세한 비디오는 YouTube의 [Adobe Experience League 채널](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw)을 참조하십시오.
 
