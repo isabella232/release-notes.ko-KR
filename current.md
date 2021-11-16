@@ -6,10 +6,10 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: 2877f5206f1baeb4d9ea33529e476bbfe220ac7a
+source-git-commit: 6c7006998126d9e8921d32777ddde423b2f3c863
 workflow-type: tm+mt
-source-wordcount: '4804'
-ht-degree: 82%
+source-wordcount: '4724'
+ht-degree: 92%
 
 ---
 
@@ -61,10 +61,11 @@ Experience League 이벤트는 Adobe에서 제품 전문가의 답변을 얻을 
 
 [Experience League 라이브](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en) 는 Experience League 팀이 만든 라이브 스트리밍 쇼입니다. Adobe Experience Cloud 애플리케이션에 적용할 수 있는 실용적인 팁, 요령 및 전략을 Adobe 제품 전문가와 교류할 수 있는 기회입니다.
 
+예정된 이벤트:
+
 | 이벤트 날짜 | 시간 | 이벤트 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |---------- |
 | 2021년 11월 18일 | 오후 12시 (EST) | [Adobe Experience Manager에서 신속하게 사이트를 제작하여 보다 신속하게 라이브로 전환하십시오](https://www.youtube.com/watch?v=7-Lcw5PejhI) | 라이브 비디오 이벤트 | 백엔드 개발 없이 수일 내에 개인화된 다양한 웹 경험을 배포합니다. 사전 정의된 를 사용하여 Adobe Experience Manager에서 낮은 코드 접근 방식을 사용하여 사이트를 만드는 방법을 알아봅니다 [!UICONTROL 사이트 템플릿]. Adobe 제품 관리자 Shankari Panchapakehan, Gabriel Walt 및 Danny Gordon과 함께 라이브 프레젠테이션 및 데모를 개최합니다. 여러분은 심지어 몇몇 라이브 코딩을 볼 수도 있어요! |
-| 2021년 10월 21일 | 오후 12시 (EST) | [누가 클릭했는가? Adobe Analytics를 사용한 링크 클릭에 대한 고급 보고](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw) | 온디맨드 | 웹 또는 모바일 속성과의 사용자 상호 작용에 대한 보고는 고객의 여정을 이해하는 데 중요한 부분입니다. Adobe Analytics를 사용하면 애플리케이션에서 클릭할 때마다 누가, 무엇을, 왜, 어디에서 클릭하는지 이해할 수 있습니다. Activity Map 분류 및 사용자 지정 속성 분석을 사용하여 사용자 참여를 보다 잘 이해할 수 있는 주요 팁을 Adobe Analytics 전문가로부터 배워 보십시오. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -96,7 +97,7 @@ Adobe의 제품 전문가로부터 질문에 대한 답변을 받을 수 있는 
 | 기능 | 설명 |
 | ------- | ------- |
 | 홈 페이지 | 환경 설정의 법적 고지 사항 및 언어 선택을 포함하여 Experience Cloud 홈 바닥글 정보가 사용자 프로필 카드로 이동되었습니다. |
-| AEP 대시보드 | [!DNL Helios Lite]은 Experience Platform 위젯 생성 워크플로 내에서 차트 권장 사항을 제공합니다. 데이터 선택(현재 단일 변수 데이터 선택)이 주어지면, [!DNL Helios] 는 해당 데이터 선택 시 적절한 시각화를 사용할 것을 권장합니다. |
+| AEP 대시보드 | [!DNL Helios Lite]은 Experience Platform 위젯 생성 워크플로 내에서 차트 권장 사항을 제공합니다. 데이터 선택(현재 단일 변수 데이터 선택)이 주어지면 [!DNL Helios]는 해당 데이터 선택과 동반될 수 있는 적절한 시각화를 권장합니다. |
 | AEP 대시보드 | [!DNL Instory]은 차트에 대한 ML 기반 서면 내레이션 및 캡션을 제공합니다. 그래프로 표시된 데이터의 주요 변경 사항 및 인시던트를 호출하는 관련 글머리 기호로 AEP 대시보드 페이지의 차트를 장식합니다. |
 
 {style=&quot;table-layout:auto&quot;}
@@ -152,10 +153,10 @@ Adobe Experience Platform Mobile SDK에 대한 [릴리스 정보 및 변경 로�
 | 기능 | 설명 | [일반 가용성](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=en) - 대상 날짜 |
 | ----------- | ---------- | ------- |
 | Analysis Workspace의 분 단위 날짜 범위 | 패널 캘린더의 고급 설정에서 또는 사용자 지정 날짜 범위를 만들 때 분 단위 날짜 범위를 적용할 수 있습니다. 여러 날에 걸친 날짜 범위에 대해 보고하는 경우 시작 시간은 범위의 첫 번째 날에 적용되고 종료 시간은 범위의 마지막 날에 적용됩니다. | 2021년 10월 18일 |
-| [!UICONTROL 미디어 재생 소요 시간] | Adobe 스트리밍 미디어 재생 [!UICONTROL 소요 시간]은 시청자 참여에 대한 가치 있는 통찰력을 제공하며 미디어 조직에서는 시간대 지정 기능이 있는 고급 소요 시간 분석을 통해 분 단위 사용자 참여에 대한 보다 심층적이고 세부적인 통찰력을 얻을 수 있습니다. 특정 시점에 미디어 스트림을 보는 데 소요된 시간을 관찰할 수 있습니다. 새로운 5분, 15분 및 30분 세부기간을 포함하여 재생 기간을 다양한 세부기간으로 분할할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-panels/media-playback-time-spent.html?lang=en) | 2021년 10월 18일 |
+| [!UICONTROL 미디어 재생 소요 시간] | Adobe 스트리밍 미디어 재생 [!UICONTROL 소요 시간]은 시청자 참여에 대한 가치 있는 통찰력을 제공하며 미디어 조직에서는 시간대 지정 기능이 있는 고급 소요 시간 분석을 통해 분 단위 사용자 참여에 대한 보다 심층적이고 세부적인 통찰력을 얻을 수 있습니다. 특정 시점에 미디어 스트림을 보는 데 소요된 시간을 관찰할 수 있습니다. 새로운 5분, 15분, 30분 단위를 포함하여 다양한 단위로 재생 시간을 분할할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-panels/media-playback-time-spent.html?lang=en) | 2021년 10월 18일 |
 | 빠른 [!UICONTROL 세그먼트 빌더] | 비즈니스 사용자가 간소화된 인라인 프로젝트 워크플로에서 기본 세그먼트를 빠르게 적용할 수 있습니다. [!UICONTROL 세그먼트 빌더]로 이동할 필요가 없습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=en) | 2021년 10월 21일 |
 | Analysis Workspace 왼쪽 레일 검색 개선 사항 | 왼쪽 레일 검색은 1) 구성 요소의 최신성 및 관련성을 지속적으로 고려할 뿐만 아니라 광범위한 일치보다 정확한 일치를 우선시합니다. 2) 일치하는 문자를 강조 표시하여 검색 결과를 보다 이해하기 쉽게 만듭니다. 3) 차원과 관련된 분류를 쉽게 찾을 수 있습니다. 4) 마지막으로 와일드카드(`*`) 검색을 지원하여 필요한 특정 구성 요소를 보다 쉽게 찾을 수 있습니다. 참고: 와일드카드 검색은 아직 차원 항목 수준에서 작동하지 않습니다. | 2021년 10월 21일 |
-| 어두운 테마 | [어두운 테마를 표시 옵션으로 사용할 수 있습니다.](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#dark-theme) | 2021년 10월 21일 |
+| 어두운 테마 | [어두운 테마](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#dark-theme)를 표시 옵션으로 사용할 수 있습니다. | 2021년 10월 21일 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -166,7 +167,7 @@ Adobe Experience Platform Mobile SDK에 대한 [릴리스 정보 및 변경 로�
 | Analysis Workspace의 분 단위 날짜 범위 | 패널 캘린더의 고급 설정에서 또는 사용자 지정 날짜 범위를 만들 때 분 단위 날짜 범위를 적용할 수 있습니다. 여러 날에 걸친 날짜 범위에 대해 보고하는 경우 시작 시간은 범위의 첫 번째 날에 적용되고 종료 시간은 범위의 마지막 날에 적용됩니다. | 2021년 10월 18일 |
 | 빠른 [!UICONTROL 필터 빌더] | 비즈니스 사용자가 간소화된 인라인 프로젝트 워크플로에서 기본 세그먼트를 빠르게 적용할 수 있습니다. [!UICONTROL 필터 빌더]로 이동할 필요가 없습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html) | 2021년 10월 21일 |
 | Analysis Workspace 왼쪽 레일 검색 개선 사항 | 왼쪽 레일 검색은 1) 구성 요소의 최신성 및 관련성을 지속적으로 고려할 뿐만 아니라 광범위한 일치보다 정확한 일치를 우선시합니다. 2) 일치하는 문자를 강조 표시하여 검색 결과를 보다 이해하기 쉽게 만듭니다. 3) 차원과 관련된 분류를 쉽게 찾을 수 있습니다. 4) 마지막으로 와일드카드(`*`) 검색을 지원하여 필요한 특정 구성 요소를 보다 쉽게 찾을 수 있습니다. 참고: 와일드카드 검색은 아직 차원 항목 수준에서 작동하지 않습니다. | 2021년 10월 21일 |
-| 어두운 테마 | [어두운 테마를 표시 옵션으로 사용할 수 있습니다.](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/user-preferences.html?lang=en#dark-theme) | 2021년 10월 21일 |
+| 어두운 테마 | [어두운 테마](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/user-preferences.html?lang=en#dark-theme)를 표시 옵션으로 사용할 수 있습니다. | 2021년 10월 21일 |
 | 차원 할당을 위한 전환 확인 기간 | 데이터 보기 구성의 지속성 아래에 있는 차원 할당 설정에 최대 90일의 전환 확인 기간이 추가됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html) | 2021년 10월 28일 |
 
 {style=&quot;table-layout:auto&quot;}
@@ -236,8 +237,8 @@ Adobe는 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Ma
 
 ### 릴리스 개요 비디오
 
-* [2021년 10월 릴리스 개요](https://video.tv.adobe.com/v/338253) 새로운 기능 비디오.
-* [2021년 9월 릴리스 개요](https://video.tv.adobe.com/v/337381) 새로운 기능 비디오.
+* 새로운 기능에 대한 [2021년 10월 릴리스 개요](https://video.tv.adobe.com/v/338253) 비디오.
+* 새로운 기능에 대한 [2021년 9월 릴리스 개요](https://video.tv.adobe.com/v/337381) 비디오.
 
 ### 커뮤니티
 
@@ -263,7 +264,7 @@ Adobe는 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Ma
 | 2021년 11월 | [AEM as a Cloud Service로의 전환 계획](https://experienceleague.adobe.com/?recommended=ExperienceManager-A-1-2021.1.migration) | 교육 과정 | AEM as a Cloud Service로 전환할 때의 고려 사항과 프로세스를 간소화하는 사용 가능한 도구에 대해 알아봅니다. | AEM CS |
 | 2021년 11월 | [AEM as a Cloud Service로 전환](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2021.1.migration) | 교육 과정 | AEM 6에서 Experience Manager as a Cloud Service로 성공적으로 전환하는 방법에 대해 알아봅니다. | AEM CS |
 | 2021년 11월 | [인터랙티브 DoR 다운로드](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/document-services/generate-interactive-dor.html?lang=en#create-custom-servlet) | 비디오 | 적응형 양식 데이터가 포함된 인터랙티브 DoR을 다운로드하는 방법에 대해 알아봅니다. | AEM Forms |
-| 2021년 11월 | [Adobe Experience Manager as a Cloud Service 전문가 시리즈](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/aem-experts-series.html?lang=en) | 비디오 시리즈 | Adobe을 구축하는 전문 엔지니어의 AEM(Adobe Experience Manager) as a Cloud Service 및 이를 제공하는 전문 서비스 팀에 대해 알아봅니다. AEM as a Cloud Service가 무엇인지, AEM 6과 어떻게 비교되는지, AEM 6에서 AEM as a Cloud Service로 전환하는 방법에 대해 Adobe 전문가와 함께 알아보십시오. | AEM CS |
+| 2021년 11월 | [Adobe Experience Manager as a Cloud Service 전문가 시리즈](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/aem-experts-series.html?lang=en) | 비디오 시리즈 | Adobe Experience Manager(AEM) as a Cloud Service를 구축하는 Adobe의 전문 엔지니어와 이를 제공하는 전문 서비스 팀에 대해 알아봅니다. AEM as a Cloud Service가 무엇인지, AEM 6과 어떻게 비교되는지, AEM 6에서 AEM as a Cloud Service로 전환하는 방법에 대해 Adobe 전문가와 함께 알아보십시오. | AEM CS |
 | 2021년 11월 | [서비스 사용자](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/advanced/service-users.html?lang=en) | 비디오 | AEM 코드에서 서비스 사용자를 만들고 사용하여 제어된 프로그래밍 방식 AEM 리포지토리 액세스를 제공하는 방법에 대해 알아봅니다. | AEM CS |
 
 {style=&quot;table-layout:auto&quot;}
@@ -314,7 +315,7 @@ Adobe Commerce 릴리스 정보에 대한 다음 링크를 참조하십시오.
 
 마지막 업데이트: **2021년 10월 20일**
 
-최신 릴리스 정보는 [[!DNL Target] 릴리스 정보](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=ko-KR)를 참조하십시오.
+최신 릴리스 정보는 [[!DNL Target] 릴리스 정보](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=en)를 참조하십시오.
 
 ## ![아이콘](/assets/campaign.png) [!DNL Adobe Campaign] {#ac}
 
@@ -370,8 +371,8 @@ Adobe Journey Optimizer를 사용하면 단일 애플리케이션에서 수백�
 
 ### [!DNL Journey Optimizer]를 위한 추가 리소스
 
-* [Journey Optimizer 설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=ko-KR) - [릴리스 노트](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [방법 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ko-KR)
-* [의사 결정 관리 설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ko) - [릴리스 노트](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [방법 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/decision-management-configuration/introduction-to-offer-decisioning.html) - [최신 설명서 업데이트](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/documentation-updates.html)
+* [Journey Optimizer 설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=ko-KR) - [릴리스 정보](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [방법 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ko-KR)
+* [의사 결정 관리 설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ko) - [릴리스 정보](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [사용 방법 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/decision-management-configuration/introduction-to-offer-decisioning.html) - [최신 설명서 업데이트](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/documentation-updates.html)
 
 ## ![아이콘](/assets/experience_platform_appicon_24.png) [!DNL Journey Orchestration] {#journey-orch}
 
@@ -379,11 +380,11 @@ Experience Platform을 사용하여 모든 개인의 요구 사항을 실시간�
 
 ### 최신 [!DNL Journey Orchestration] 제품 릴리스
 
-의 최신 기능, 개선 사항 및 수정 사항에 대해 자세히 알아보십시오 [[!DNL Journey Orchestration] 릴리스 노트](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=ko-KR).
+[[!DNL Journey Orchestration] 릴리스 정보](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=ko-KR)에서 최신 기능, 개선 사항 및 수정 사항에 대해 알아봅니다.
 
 #### [!DNL Journey Orchestration]를 위한 추가 리소스
 
-* [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=ko-KR) - [릴리스 노트](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html) - [방법 비디오](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=ko-KR) - [최신 설명서 업데이트](https://experienceleague.adobe.com/docs/journeys/using/release-notes/documentation-updates.html?lang=ko-KR)
+* [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=ko-KR) - [릴리스 정보](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html) - [사용 방법 비디오](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=ko-KR) - [최신 설명서 업데이트](https://experienceleague.adobe.com/docs/journeys/using/release-notes/documentation-updates.html?lang=ko-KR)
 
 ## ![아이콘](/assets/marketo.png) [!DNL Marketo Engage] {#marketo}
 
@@ -403,17 +404,17 @@ Adobe [!DNL Workfront]는 아이디어 공유, 콘텐츠 생성, 복잡한 프�
 
 [!DNL Adobe Advertising Cloud]의 릴리스 정보.
 
-* [의 새로운 기능 [!DNL Advertising Cloud]](#adcloud-all)
+* [ [!DNL Advertising Cloud]의 새로운 기능](#adcloud-all)
 * [ [!DNL Advertising Cloud DSP]의 새로운 기능](#adcloud-dsp)
 * [ [!DNL Advertising Cloud Search]의 새로운 기능](#adcloud-search)
 
-### 의 새로운 기능 [!DNL Advertising Cloud] {#adcloud-all}
+### [!DNL Advertising Cloud]의 새로운 기능 {#adcloud-all}
 
 마지막 업데이트: **2021년 10월 27일**
 
 | 기능 | 설명 |
 | ------- | ----------- |
-| Advertising Cloud용 Analytics | 조직에서 이전 Adobe Analytics을 사용하지 않으려면 `visitorAPI.js` Adobe Experience Platform 라이브러리에 라이브러리(`alloy.js`)를 데이터 수집하려면 ID 결합을 활성화하려면 몇 가지 사항을 변경해야 합니다. 참조:[사용 [!DNL Last Event Service] Adobe Experience Platform을 사용한 JavaScript 라이브러리 [!DNL Web SDK]](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/planning/web-sdk.html).&quot; |
+| Advertising Cloud용 Analytics | 조직이 데이터 수집을 위해 레거시 Adobe Analytics `visitorAPI.js` 라이브러리에서 Adobe Experience Platform 라이브러리(`alloy.js`)로 전환하려는 경우 일부 내용을 변경하여 ID 결합을 활성화할 수 있습니다. “[Adobe Experience Platform과  [!DNL Last Event Service] JavaScript 라이브러리 사용 [!DNL Web SDK]](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/planning/web-sdk.html)”을 참조하십시오. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -423,12 +424,12 @@ Adobe [!DNL Workfront]는 아이디어 공유, 콘텐츠 생성, 복잡한 프�
 
 | 기능 | 설명 |
 | ------- | ----------- |
-| 사용자 지정 보고서 | 이제 만들고 관리할 수 있습니다 [!DNL Amazon S3] 및 라는 다양한 유형의 FTP 배달 위치 *[!DNL report destinations]*: 사용자 지정 보고서에 사용할 수 있습니다. 보고서 대상을 구성하면, 단일 대상 유형의 하나 이상의 위치 또는 이메일 수신자에게 전달되도록 각 새로운 사용자 지정 보고서를 설정할 수 있습니다. 업데이트 [!DNL Amazon S3] 및 FTP 자격 증명은 보고서 전달을 방해하지 않습니다.<br><br>기존 보고서는 여전히 지정된 전자 메일 수신자에게 전송됩니다. 다른 보고서 대상에 전달을 구성하려면 새 대상을 사용하여 새 보고서를 만듭니다. |
-| [!UICONTROL 패키지], [!UICONTROL 배치], 및 [!UICONTROL 광고] 보기 | 이제 하루에 대한 데이터를 볼 때 트렌드 차트에 시간별 데이터가 포함됩니다. 커서를 아무 지점이나 눌러 해당 시간의 데이터를 확인합니다. |
-| [!UICONTROL 배치] | 배치 [!UICONTROL 검사자] 이제 에 가 포함됩니다 [!UICONTROL 인벤토리] 탭에 배치에 대한 모든 거래 및 관련 지표가 표시됩니다. 사용자 지정 보고서를 생성하지 않고 정보를 사용하여 문제를 빠르게 조정하거나 해결할 수 있습니다. |
-| [!UICONTROL 광고] | (광고에 Clearcastclock 번호를 포함할 권한이 있는 사용자) 다른 광고에 첨부된 시계 번호를 사용하는 경우 DSP에 오류가 더 이상 표시되지 않습니다. **참고:**  가장 좋은 방법은 각 비디오 광고에 고유한 시계 번호를 사용하는 것입니다. 그렇지 않으면 게시자가 모든 광고를 승인하지 않습니다. |
-| [!UICONTROL 거래 ID] | 다음 [!UICONTROL 거래 ID] 사용자 인터페이스의 설정 및 기타 위치는 다음에 대한 새 브랜딩을 반영합니다. [!DNL Magnite] SSP:<br><ul><li>SSP &quot;[!DNL Tremor]&quot; ([!DNL Telaria])가 이제 &quot;&quot;가 됩니다.[!DNL Magnite CTV].&quot;</li><li>몇 주 후에 [!DNL Rubicon]&quot; 은(는) &quot;[!DNL Magnite DV+],&quot; 위치 [!DNL DV+] 디스플레이, 비디오 및 오디오와 같은 기타 형식을 나타냅니다.</li></ul> |
-| [!DNL Freewheel] 프로그램 보장 거래 | 이제 광고 상태를 찾을 수 있습니다 [!DNL Freewheel] 프로그램 방식으로 보장되는 거래 [!UICONTROL 광고] 보기. 이전에는 [!UICONTROL 딜] 보기. |
+| 맞춤형 보고서 | 이제 FTP 맞춤형 보고서로 *[!DNL report destinations]*&#x200B;라는 [!DNL Amazon S3]과 다양한 유형의 배포 위치를 만들고 관리할 수 있습니다. 보고서 대상이 구성되면, 한 개 이상의 단일 대상 유형 위치나 이메일 수신자에게 배포되는 새로운 맞춤형 보고서를 각각 설정할 수 있습니다. [!DNL Amazon S3] 및 FTP 자격 증명으로 업데이트하면 보고서 배포가 중단되지 않습니다.<br><br>기존 보고서는 지정된 이메일 수신자에게 계속 전송됩니다. 다른 보고서 대상에 배포를 구성하려면 새로운 대상이 포함된 새로운 보고서를 만듭니다. |
+| [!UICONTROL 패키지], [!UICONTROL 배치] 및 [!UICONTROL 광고] 보기 | 일주일에 해당하는 데이터가 표시되면 트렌드 차트에 시간별 데이터가 포함됩니다. 해당 시간의 데이터를 보려면 모든 포인트 위에 커서를 놓습니다. |
+| [!UICONTROL 배치] | 이제 배치 [!UICONTROL 관리자]에 모든 거래와 배치 관련 지표를 보여 주는 [!UICONTROL 인벤토리] 탭이 포함됩니다. 정보를 사용하여 맞춤형 보고서를 생성하지 않고 문제를 신속하게 조정하거나 해결할 수 있습니다. |
+| [!UICONTROL 광고] | (광고에 Clearcastclock 번호를 기재할 수 있는 권한이 있는 사용자) 다른 광고에 첨부된 시계 번호를 사용하는 경우 오류는 DSP에 더 이상 표시되지 않습니다. **참고:**  가장 좋은 방법은 각 비디오 광고의 고유 시계 번호를 사용하는 것입니다. 그렇지 않으면 게시자는 모든 광고를 승인하지 않습니다. |
+| [!UICONTROL 거래 ID] | [!UICONTROL 거래 ID] 설정과 기타 위치는 사용자 인터페이스에 다음 [!DNL Magnite] SSP의 새 브랜딩을 반영합니다.<br><ul><li>이제 SSP “[!DNL Tremor]”([!DNL Telaria])은 “[!DNL Magnite CTV]”입니다.</li><li>앞으로 몇 주 이내에 “[!DNL Rubicon]“은 [!DNL DV+]가 디스플레이, 비디오와 다른 포맷을 의미하는 “[!DNL Magnite DV+]”로 변경될 예정입니다.</li></ul> |
+| [!DNL Freewheel] 프로그램 보증 거래 | 이제 [!UICONTROL 광고] 보기에서 [!DNL Freewheel] 프로그램 보증 거래의 상태 광고를 찾을 수 있습니다. 이전에는 [!UICONTROL 거래] 보기에서만 상태를 확인할 수 있었습니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
