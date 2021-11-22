@@ -6,10 +6,10 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: 6c7006998126d9e8921d32777ddde423b2f3c863
+source-git-commit: 89342047732a95ba2669eb58397d6a1dc936a8a3
 workflow-type: tm+mt
-source-wordcount: '4724'
-ht-degree: 100%
+source-wordcount: '4803'
+ht-degree: 98%
 
 ---
 
@@ -25,13 +25,14 @@ ht-degree: 100%
 
 릴리스 월: **2021년 11월**
 
-최신 업데이트: **2021년 11월 15일**
+최신 업데이트: **2021년 11월 22일**
 
 * [[!DNL Experience League] 이벤트](#events)(2021년 11월 15일 업데이트)
 * [[!DNL Experience Cloud Central Interface Components] 및 관리](#ecloud)
 * [Adobe [!UICONTROL 시스템 상태]](#status)
 * [[!DNL Adobe Experience Platform]](#platform)
-* [[!DNL Adobe Analytics]](#analytics) 및 [Customer Journey Analytics](#cust-journey)
+* [[!DNL Adobe Analytics]](#analytics)(업데이트 날짜: 2021년 11월 22일)
+* [Customer Journey Analytics](#cust-journey)
 * [[!DNL Adobe Audience Manager]](#aam)
 * [[!DNL Adobe Experience Manager]](#aem)
 * [[!DNL Adobe Commerce]](#magento)
@@ -144,7 +145,7 @@ Adobe Experience Platform Mobile SDK에 대한 [릴리스 정보 및 변경 로�
 * [Adobe Analytics의 새로운 기능](#aa-features)
 * [Customer Journey Analytics의 새로운 기능](#cust-journey)
 * [Adobe Analytics의 수정 사항](#aa-fixes)
-* [Analytics 관리자에 대한 중요 공지](#aa-notices)
+* [Analytics 관리자에 대한 중요 공지](#aa-notices) (업데이트 날짜: 2021년 11월 22일)
 * [Analytics 교육 과정 및 튜토리얼](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -196,6 +197,7 @@ AN-270649
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | ----------- | ---------- | ---------- |
+| &quot;글로벌 + 중국&quot; RDC 유형 | 2021년 11월 22일 | &quot;글로벌 + 중국&quot;은 를 사용하여 글로벌 고객에 대한 트래픽 라우팅을 간소화하는 새로운 RDC(지역 데이터 수집) 유형입니다 [!UICONTROL 중국 성능 최적화 추가 기능 패키지]. 이전에는 데이터를 중국 수집 종단점 또는 글로벌 수집 종단점 중 하나로 라우팅해야 하는지 여부를 결정해야 했습니다. 이제 이 RDC를 선택할 수 있습니다 **유형** Adobe이 사용자의 지리적 위치에 따라 최적의 컬렉션 끝점을 결정하도록 하려면 다음을 수행하십시오. |
 | 3개의 Analytics API 서비스에 대한 EOL | 2021년 9월 16일 | **2021년 10월 20일**&#x200B;에 다음 Analytics Legacy API 서비스가 사용 수명 종료 날짜에 도달하여 중단됩니다. 이들 서비스를 사용하여 구축한 현재 모든 통합은 해당 날짜부터 더 이상 작동하지 않습니다.<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증 (OAuth 및 JWT)</li></ul>Adobe는 질문에 답변하고 진행 방법에 대한 지침을 제공하기 위해 [이전 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) 를 제공했습니다. 이들 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 이전 OAuth 계정은 [Adobe I/O](https://developer.adobe.com/console) Analytics 통합 계정으로 마이그레이션할 수 있으며, 이 계정은 1.4 Analytics API 및 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다. |
 | 데이터 소스의 전체 처리를 위한 EOL | 2021년 10월 18일 | **2022년 1월 31일**&#x200B;에 Adobe는 사용자가 오프라인 히트 데이터를 Analytics로 수집할 수 있는 전체 처리를 위한 수명을 종료합니다. 이 기능은 [대량 데이터 삽입 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)를 통해 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html?lang=ko-KR?lang=ko-KR) |
 
