@@ -9,7 +9,7 @@ exl-id: null
 source-git-commit: 6c7006998126d9e8921d32777ddde423b2f3c863
 workflow-type: tm+mt
 source-wordcount: '4724'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 92%
 
 최신 업데이트: **2021년 11월 15일**
 
-* [[!DNL Experience League] 이벤트](#events) (업데이트 날짜: 2021년 11월 15일)
+* [[!DNL Experience League] 이벤트](#events)(2021년 11월 15일 업데이트)
 * [[!DNL Experience Cloud Central Interface Components] 및 관리](#ecloud)
 * [Adobe [!UICONTROL 시스템 상태]](#status)
 * [[!DNL Adobe Experience Platform]](#platform)
@@ -49,44 +49,44 @@ ht-degree: 92%
 
 ## ![아이콘](/assets/experience-league.png) [!DNL Experience League] 이벤트 {#events}
 
-Experience League 이벤트는 Adobe에서 제품 전문가의 답변을 얻을 수 있는 좋은 장소입니다. 사용 가능한 이벤트는 다음과 같습니다.
+Experience League 이벤트는 Adobe의 제품 전문가로부터 답변을 얻을 수 있는 훌륭한 공간입니다. 사용 가능한 이벤트는 다음과 같습니다.
 
-* [Experience League 라이브](#exl-live): YouTube의 라이브 및 온디맨드 비디오 이벤트
-* [커뮤니티 Q&amp;A 커피 브레이크](#coffee): 커뮤니티 포럼에서 제품 관리자와 채팅
-* [Adobe 개발자 라이브](#dev-live): Experience League 시 사용할 수 있는 주문형 비디오 이벤트
+* [Experience League Live](#exl-live): YouTube의 라이브 및 주문형 비디오 이벤트
+* [커뮤니티 Q&amp;A Coffee Break](#coffee): 커뮤니티 포럼에서 제품 관리자와 채팅
+* [Adobe Developers Live](#dev-live): Experience League에서 제공되는 주문형 비디오 이벤트
 
 일정 및 이벤트는 다음과 같습니다.
 
-### Experience League 라이브{#exl-live}
+### Experience League Live{#exl-live}
 
-[Experience League 라이브](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en) 는 Experience League 팀이 만든 라이브 스트리밍 쇼입니다. Adobe Experience Cloud 애플리케이션에 적용할 수 있는 실용적인 팁, 요령 및 전략을 Adobe 제품 전문가와 교류할 수 있는 기회입니다.
+[Experience League Live](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=ko-KR)는 Experience League 팀에서 제작한 라이브 스트리밍 쇼입니다. Adobe 제품 전문가를 만나고 Adobe Experience Cloud 애플리케이션에 적용할 수 있는 유용한 팁, 요령 및 전략을 배울 수 있는 기회입니다.
 
 예정된 이벤트:
 
 | 이벤트 날짜 | 시간 | 이벤트 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |---------- |
-| 2021년 11월 18일 | 오후 12시 (EST) | [Adobe Experience Manager에서 신속하게 사이트를 제작하여 보다 신속하게 라이브로 전환하십시오](https://www.youtube.com/watch?v=7-Lcw5PejhI) | 라이브 비디오 이벤트 | 백엔드 개발 없이 수일 내에 개인화된 다양한 웹 경험을 배포합니다. 사전 정의된 를 사용하여 Adobe Experience Manager에서 낮은 코드 접근 방식을 사용하여 사이트를 만드는 방법을 알아봅니다 [!UICONTROL 사이트 템플릿]. Adobe 제품 관리자 Shankari Panchapakehan, Gabriel Walt 및 Danny Gordon과 함께 라이브 프레젠테이션 및 데모를 개최합니다. 여러분은 심지어 몇몇 라이브 코딩을 볼 수도 있어요! |
+| 2021년 11월 18일 | 오후 12시 (EST) | [Adobe Experience Manager의 빠른 사이트 생성 기능으로 더 빠른 속도로 실행](https://www.youtube.com/watch?v=7-Lcw5PejhI) | 라이브 비디오 이벤트 | 백엔드 개발 없이 기능이 풍부하고 개인화된 웹 경험을 며칠 만에 배포할 수 있습니다. 사전 정의된 [!UICONTROL 사이트 템플릿]을 사용하여 Adobe Experience Manager에서 사이트를 제작하는 로우 코드 접근법에 대해 알아봅니다. Adobe 제품 관리자 Shankari Panchapakesan, Gabriel Walt, Danny Gordon과 함께하는 라이브 프레젠테이션 및 데모에 참여해 보십시오. 라이브 코딩도 볼 수 있습니다! |
 
 {style=&quot;table-layout:auto&quot;}
 
-과거 에피소드에 대해서는 [Experience League 라이브](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en).
+지난 에피소드는 [Experience League Live](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en)를 참조하십시오.
 
-### 커뮤니티 Q&amp;A 커피 브레이크{#coffee}
+### 커뮤니티 Q&amp;A Coffee Break{#coffee}
 
-Adobe의 제품 전문가로부터 질문에 대한 답변을 받을 수 있는 Experience League 커뮤니티에서 특별한 게스트와 한 시간을 보내 질문을 제출하십시오!
+1시간 동안 특별한 게스트와 함께하며 Adobe의 제품 전문가로부터 질문에 대한 답변을 얻을 수 있는 Experience League 커뮤니티에 질문을 제출해 보십시오!
 
 | 이벤트 이름 | 날짜 및 시간 | 애플리케이션 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |---------- |
-| Adobe Target - 설정 및 관리 UI, A4T 통합, AEM 통합, 일반 UI  | 수요일, 12월 8일 @ 8 am PT | Adobe Target | 포럼 Q&amp;A | Adobe는 Adobe Target 커뮤니티에 있는 Adobe Target의 수석 제품 관리자인 @Robert_Calangiu인 Robert Calangui와 함께 커뮤니티에서 그의 전문 지식과 관련된 Adobe Target 관련 질문에 대해 직접 대화를 나눌 예정입니다. <br>[세부 사항](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697) |
-| Adobe Campaign - 다른 애플리케이션을 통해 데이터 가져오기 | 2021년 12월 2일 목요일 @ 8 am PT | Adobe Campaign | 포럼 Q&amp;A | 다른 애플리케이션을 통한 데이터 가져오기 - 기술 컨설턴트인 Zariely Garcia와 함께 기술 워크플로우를 사용하여 SFTP/API를 통해 데이터를 가져오는 우수 사례입니다. <br>[세부 사항](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4UuYOxSr9BdGsLPtk3ITDIdUMFYwT0REQTk5RDZPTjlEWFlSUk1XWTBHVy4u&amp;wdLOR=cEEEC3C73-227C-457C-AA83-44CC08D697B9). |
+| Adobe Target - 설정 및 관리 UI, A4T 통합, AEM 통합, 일반 UI  | 12월 8일 수요일 오전 8시(PT) | Adobe Target | 포럼 Q&amp;A | Adobe Target 커뮤니티에서, Adobe Target의 수석 제품 관리자 Robert Calangiu(@Robert_Calangiu)가 여러분과 직접 소통하며 자신의 전문 지식을 바탕으로 관련된 Adobe Target 질문에 답변해 드립니다. <br>[세부 사항](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697) |
+| Adobe Campaign - 다른 애플리케이션을 통한 데이터 가져오기 | 2021년 12월 2일 목요일 오전 8시(PT) | Adobe Campaign | 포럼 Q&amp;A | 다른 애플리케이션을 통한 데이터 가져오기 - 수석 기술 컨설턴트 Zariely Garcia와 함께하는 기술 워크플로를 사용하여 SFTP/API를 통해 데이터를 가져오기에 대한 모범 사례입니다. <br>[세부 사항](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4UuYOxSr9BdGsLPtk3ITDIdUMFYwT0REQTk5RDZPTjlEWFlSUk1XWTBHVy4u&amp;wdLOR=cEEEC3C73-227C-457C-AA83-44CC08D697B9). |
 
 {style=&quot;table-layout:auto&quot;}
 
-### Adobe 개발자 라이브{#dev-live}
+### Adobe Developers Live{#dev-live}
 
 | 이벤트 이름 | 날짜 및 시간 | 주제 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |---------- |
-| 2021년 10월 4일 - 5일 | 온디맨드 | [Adobe Developers Live](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=en) | 비디오 | 이벤트를 놓쳤거나 특정 세션의 리플레이를 찾고 계십니까? Experience League에서 찾아보십시오. Developers Live는 업계 전반에 걸쳐 디자인, 콘텐츠 제작 워크플로, 문서 서비스 및 고객 경험 관리를 지원하는 최신 기술 발전 및 개발자 도구를 소개합니다. 기조 연설을 보고 Analytics API, 클라이언트 데이터 레이어, Adobe I/O 오픈 소스 프로젝트 등에 대해 알아보십시오. |
+| 2021년 10월 4~5일 | 온디맨드 | [Adobe Developers Live](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=ko-KR) | 비디오 | 이벤트를 놓쳤거나 특정 세션의 리플레이를 찾고 계십니까? Experience League에서 찾아보십시오. Developers Live는 업계 전반에 걸쳐 디자인, 콘텐츠 제작 워크플로, 문서 서비스 및 고객 경험 관리를 지원하는 최신 기술 발전 및 개발자 도구를 소개합니다. 기조 연설을 보고 Analytics API, 클라이언트 데이터 레이어, Adobe I/O 오픈 소스 프로젝트 등에 대해 알아보십시오. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -128,7 +128,7 @@ Experience Platform 및 서비스를 위해 게시된 최신 비디오, 튜토�
 
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021년 11월 | [ 자사 데이터 컨텍스트에서의 데이터 공동 작업 ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/industry/data-collaboration-in-the-first-party-data-context.html?lang=en#) | 비디오 | 적은 데이터에 액세스하여 경험 약속을 이행합니다. 광고주든, 게시자든 아니면 에이전시든, 이 웨비나는 서드파티 쿠키 없이 향후 데이터 공동 작업의 기회를 여는 데 도움이 됩니다. |
+| 2021년 11월 | [ 자사 데이터 컨텍스트에서의 데이터 공동 작업 ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/industry/data-collaboration-in-the-first-party-data-context.html?lang=ko-KR#) | 비디오 | 적은 데이터에 액세스하여 경험 약속을 이행합니다. 광고주든, 게시자든 아니면 에이전시든, 이 웨비나는 서드파티 쿠키 없이 향후 데이터 공동 작업의 기회를 여는 데 도움이 됩니다. |
 | 2021년 10월 | [[!DNL Platform] 관리](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-A-1-2021.1.admin) | 교육 과정 | 권한 및 샌드박스 관리를 포함하여 Experience Platform의 관리 활동에 대해 알아봅니다. |
 
 {style=&quot;table-layout:auto&quot;}
@@ -150,13 +150,13 @@ Adobe Experience Platform Mobile SDK에 대한 [릴리스 정보 및 변경 로�
 
 ### Adobe Analytics의 새로운 기능 {#aa-features}
 
-| 기능 | 설명 | [일반 가용성](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=en) - 대상 날짜 |
+| 기능 | 설명 | [일반 가용성](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=ko-KR) - 대상 날짜 |
 | ----------- | ---------- | ------- |
 | Analysis Workspace의 분 단위 날짜 범위 | 패널 캘린더의 고급 설정에서 또는 사용자 지정 날짜 범위를 만들 때 분 단위 날짜 범위를 적용할 수 있습니다. 여러 날에 걸친 날짜 범위에 대해 보고하는 경우 시작 시간은 범위의 첫 번째 날에 적용되고 종료 시간은 범위의 마지막 날에 적용됩니다. | 2021년 10월 18일 |
-| [!UICONTROL 미디어 재생 소요 시간] | Adobe 스트리밍 미디어 재생 [!UICONTROL 소요 시간]은 시청자 참여에 대한 가치 있는 통찰력을 제공하며 미디어 조직에서는 시간대 지정 기능이 있는 고급 소요 시간 분석을 통해 분 단위 사용자 참여에 대한 보다 심층적이고 세부적인 통찰력을 얻을 수 있습니다. 특정 시점에 미디어 스트림을 보는 데 소요된 시간을 관찰할 수 있습니다. 새로운 5분, 15분, 30분 단위를 포함하여 다양한 단위로 재생 시간을 분할할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-panels/media-playback-time-spent.html?lang=en) | 2021년 10월 18일 |
-| 빠른 [!UICONTROL 세그먼트 빌더] | 비즈니스 사용자가 간소화된 인라인 프로젝트 워크플로에서 기본 세그먼트를 빠르게 적용할 수 있습니다. [!UICONTROL 세그먼트 빌더]로 이동할 필요가 없습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=en) | 2021년 10월 21일 |
+| [!UICONTROL 미디어 재생 소요 시간] | Adobe 스트리밍 미디어 재생 [!UICONTROL 소요 시간]은 시청자 참여에 대한 가치 있는 통찰력을 제공하며 미디어 조직에서는 시간대 지정 기능이 있는 고급 소요 시간 분석을 통해 분 단위 사용자 참여에 대한 보다 심층적이고 세부적인 통찰력을 얻을 수 있습니다. 특정 시점에 미디어 스트림을 보는 데 소요된 시간을 관찰할 수 있습니다. 새로운 5분, 15분, 30분 단위를 포함하여 다양한 단위로 재생 시간을 분할할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-panels/media-playback-time-spent.html?lang=ko-KR) | 2021년 10월 18일 |
+| 빠른 [!UICONTROL 세그먼트 빌더] | 비즈니스 사용자가 간소화된 인라인 프로젝트 워크플로에서 기본 세그먼트를 빠르게 적용할 수 있습니다. [!UICONTROL 세그먼트 빌더]로 이동할 필요가 없습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=ko-KR) | 2021년 10월 21일 |
 | Analysis Workspace 왼쪽 레일 검색 개선 사항 | 왼쪽 레일 검색은 1) 구성 요소의 최신성 및 관련성을 지속적으로 고려할 뿐만 아니라 광범위한 일치보다 정확한 일치를 우선시합니다. 2) 일치하는 문자를 강조 표시하여 검색 결과를 보다 이해하기 쉽게 만듭니다. 3) 차원과 관련된 분류를 쉽게 찾을 수 있습니다. 4) 마지막으로 와일드카드(`*`) 검색을 지원하여 필요한 특정 구성 요소를 보다 쉽게 찾을 수 있습니다. 참고: 와일드카드 검색은 아직 차원 항목 수준에서 작동하지 않습니다. | 2021년 10월 21일 |
-| 어두운 테마 | [어두운 테마](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#dark-theme)를 표시 옵션으로 사용할 수 있습니다. | 2021년 10월 21일 |
+| 어두운 테마 | [어두운 테마](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=ko-KR#dark-theme)를 표시 옵션으로 사용할 수 있습니다. | 2021년 10월 21일 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -167,7 +167,7 @@ Adobe Experience Platform Mobile SDK에 대한 [릴리스 정보 및 변경 로�
 | Analysis Workspace의 분 단위 날짜 범위 | 패널 캘린더의 고급 설정에서 또는 사용자 지정 날짜 범위를 만들 때 분 단위 날짜 범위를 적용할 수 있습니다. 여러 날에 걸친 날짜 범위에 대해 보고하는 경우 시작 시간은 범위의 첫 번째 날에 적용되고 종료 시간은 범위의 마지막 날에 적용됩니다. | 2021년 10월 18일 |
 | 빠른 [!UICONTROL 필터 빌더] | 비즈니스 사용자가 간소화된 인라인 프로젝트 워크플로에서 기본 세그먼트를 빠르게 적용할 수 있습니다. [!UICONTROL 필터 빌더]로 이동할 필요가 없습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html) | 2021년 10월 21일 |
 | Analysis Workspace 왼쪽 레일 검색 개선 사항 | 왼쪽 레일 검색은 1) 구성 요소의 최신성 및 관련성을 지속적으로 고려할 뿐만 아니라 광범위한 일치보다 정확한 일치를 우선시합니다. 2) 일치하는 문자를 강조 표시하여 검색 결과를 보다 이해하기 쉽게 만듭니다. 3) 차원과 관련된 분류를 쉽게 찾을 수 있습니다. 4) 마지막으로 와일드카드(`*`) 검색을 지원하여 필요한 특정 구성 요소를 보다 쉽게 찾을 수 있습니다. 참고: 와일드카드 검색은 아직 차원 항목 수준에서 작동하지 않습니다. | 2021년 10월 21일 |
-| 어두운 테마 | [어두운 테마](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/user-preferences.html?lang=en#dark-theme)를 표시 옵션으로 사용할 수 있습니다. | 2021년 10월 21일 |
+| 어두운 테마 | [어두운 테마](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/user-preferences.html?lang=ko-KR#dark-theme)를 표시 옵션으로 사용할 수 있습니다. | 2021년 10월 21일 |
 | 차원 할당을 위한 전환 확인 기간 | 데이터 보기 구성의 지속성 아래에 있는 차원 할당 설정에 최대 90일의 전환 확인 기간이 추가됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html) | 2021년 10월 28일 |
 
 {style=&quot;table-layout:auto&quot;}
@@ -197,13 +197,13 @@ AN-270649
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | ----------- | ---------- | ---------- |
 | 3개의 Analytics API 서비스에 대한 EOL | 2021년 9월 16일 | **2021년 10월 20일**&#x200B;에 다음 Analytics Legacy API 서비스가 사용 수명 종료 날짜에 도달하여 중단됩니다. 이들 서비스를 사용하여 구축한 현재 모든 통합은 해당 날짜부터 더 이상 작동하지 않습니다.<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증 (OAuth 및 JWT)</li></ul>Adobe는 질문에 답변하고 진행 방법에 대한 지침을 제공하기 위해 [이전 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) 를 제공했습니다. 이들 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 이전 OAuth 계정은 [Adobe I/O](https://developer.adobe.com/console) Analytics 통합 계정으로 마이그레이션할 수 있으며, 이 계정은 1.4 Analytics API 및 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다. |
-| 데이터 소스의 전체 처리를 위한 EOL | 2021년 10월 18일 | **2022년 1월 31일**&#x200B;에 Adobe는 사용자가 오프라인 히트 데이터를 Analytics로 수집할 수 있는 전체 처리를 위한 수명을 종료합니다. 이 기능은 [대량 데이터 삽입 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)를 통해 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html?lang=ko-KR?lang=en) |
+| 데이터 소스의 전체 처리를 위한 EOL | 2021년 10월 18일 | **2022년 1월 31일**&#x200B;에 Adobe는 사용자가 오프라인 히트 데이터를 Analytics로 수집할 수 있는 전체 처리를 위한 수명을 종료합니다. 이 기능은 [대량 데이터 삽입 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)를 통해 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html?lang=ko-KR?lang=ko-KR) |
 
 {style=&quot;table-layout:auto&quot;}
 
 ### AppMeasurement {#appm}
 
-AppMeasurement 릴리스(버전 2.22.2)에 대한 최신 업데이트는 [JavaScript용 AppMeasurement 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=en)를 참조하십시오.
+AppMeasurement 릴리스(버전 2.22.2)에 대한 최신 업데이트는 [JavaScript용 AppMeasurement 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=ko-KR)를 참조하십시오.
 
 ### Analytics 교육 과정 및 튜토리얼 {#tutorials-analytics}
 
@@ -211,9 +211,9 @@ AppMeasurement 릴리스(버전 2.22.2)에 대한 최신 업데이트는 [JavaSc
 
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021년 11월 | [Adobe Analytics의 세그먼트 컨테이너](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html?lang=en) | 비디오(업데이트됨) | 이 비디오에서는 컨테이너를 사용하는 방법을 배우고 각 컨테이너 유형의 몇 가지 예를 알아보십시오. |
-| 2021년 11월 | [Adobe Analytics의 순차적인 세분화](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation.html?lang=en#) | 비디오(업데이트됨) | 사이트 또는 애플리케이션에 있는 동작 시퀀스로부터 Analysis Workspace에 세그먼트를 구축하는 방법에 대해 알아봅니다. |
-| 2021년 11월 | [순차적인 세분화 전/후 시퀀스](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/before-after-sequences-in-sequential-segmentation.html?lang=en) | 비디오(업데이트됨) | 특정 사용자 경로 이전 또는 이후의 데이터만 가져오도록 Adobe Analytics에서 세분화하는 방법에 대해 알아봅니다. |
+| 2021년 11월 | [Adobe Analytics의 세그먼트 컨테이너](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html?lang=ko-KR) | 비디오(업데이트됨) | 이 비디오에서는 컨테이너를 사용하는 방법을 배우고 각 컨테이너 유형의 몇 가지 예를 알아보십시오. |
+| 2021년 11월 | [Adobe Analytics의 순차적인 세분화](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation.html?lang=ko-KR#) | 비디오(업데이트됨) | 사이트 또는 애플리케이션에 있는 동작 시퀀스로부터 Analysis Workspace에 세그먼트를 구축하는 방법에 대해 알아봅니다. |
+| 2021년 11월 | [순차적인 세분화 전/후 시퀀스](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/before-after-sequences-in-sequential-segmentation.html?lang=ko-KR) | 비디오(업데이트됨) | 특정 사용자 경로 이전 또는 이후의 데이터만 가져오도록 Adobe Analytics에서 세분화하는 방법에 대해 알아봅니다. |
 | 2021년 11월 | [Customer Journey Analytics용 Report Builder](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/report-builder-for-customer-journey-analytics.html) | 비디오 | Report Builder의 간단하고 유연한 드래그 앤 드롭 UI를 사용하여 Excel 내의 모든 Customer Journey Analytics 데이터에서 복잡한 데이터 쿼리와 사용자 지정 보고서를 만들 수 있습니다. |
 | 2021년 10월 | [시각화를 사용하여 데이터 스토리 전달](https://experienceleague.adobe.com/?recommended=Analytics-U-1-2021.1.visualizations) | 교육 과정 | 시각화를 프로젝트에 추가하는 방법, 데이터를 가져오는 방법, 각 시각화가 표시할 수 있는 사항 등을 포함하여 시각화에 대한 기본 사항을 배웁니다. 필요한 정확한 데이터를 얻기 위해 설정을 구성하는 방법에 대해 알아봅니다. 또한 일반 분석에 실용적인 시각화를 만드는 데 도움이 되는 몇 가지 팁과 사용 사례를 얻을 수 있습니다. |
 
@@ -260,12 +260,12 @@ Adobe는 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Ma
 
 | 게시일 | 이름 | 설명 | 유형 | 버전 |
 | -----------| ---------- | ---------- |---------- | ---------- |
-| 2021년 11월 | [Adobe Experience Manager Sites 기본 사항](https://experienceleague.adobe.com/docs/experience-manager-skill-builder/skill-builder/2021/authoring-fundamentals.html?lang=en) | 비디오 시리즈 | 5부로 구성된 이 웨비나 시리즈에서 Adobe Experience Manager에서 풍부하고 매력적인 고객 경험을 만드는 방법에 대해 알아봅니다. 기본 개념과 작업을 학습하면서 콘텐츠 작성의 빌딩 블록으로 시작합니다. 사이트 관리 기능과 AEM 내에서 디지털 에셋을 처리하는 기본 사항에 대해 알아봅니다. 이후에는 콘텐츠를 재사용하고 여러 채널에 제공하여 시간을 절약하고 효율성을 높일 수 있는 기능을 살펴보십시오. | AEM Sites |
+| 2021년 11월 | [Adobe Experience Manager Sites 기본 사항](https://experienceleague.adobe.com/docs/experience-manager-skill-builder/skill-builder/2021/authoring-fundamentals.html?lang=ko-KR) | 비디오 시리즈 | 5부로 구성된 이 웨비나 시리즈에서 Adobe Experience Manager에서 풍부하고 매력적인 고객 경험을 만드는 방법에 대해 알아봅니다. 기본 개념과 작업을 학습하면서 콘텐츠 작성의 빌딩 블록으로 시작합니다. 사이트 관리 기능과 AEM 내에서 디지털 에셋을 처리하는 기본 사항에 대해 알아봅니다. 이후에는 콘텐츠를 재사용하고 여러 채널에 제공하여 시간을 절약하고 효율성을 높일 수 있는 기능을 살펴보십시오. | AEM Sites |
 | 2021년 11월 | [AEM as a Cloud Service로의 전환 계획](https://experienceleague.adobe.com/?recommended=ExperienceManager-A-1-2021.1.migration) | 교육 과정 | AEM as a Cloud Service로 전환할 때의 고려 사항과 프로세스를 간소화하는 사용 가능한 도구에 대해 알아봅니다. | AEM CS |
 | 2021년 11월 | [AEM as a Cloud Service로 전환](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2021.1.migration) | 교육 과정 | AEM 6에서 Experience Manager as a Cloud Service로 성공적으로 전환하는 방법에 대해 알아봅니다. | AEM CS |
-| 2021년 11월 | [인터랙티브 DoR 다운로드](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/document-services/generate-interactive-dor.html?lang=en#create-custom-servlet) | 비디오 | 적응형 양식 데이터가 포함된 인터랙티브 DoR을 다운로드하는 방법에 대해 알아봅니다. | AEM Forms |
-| 2021년 11월 | [Adobe Experience Manager as a Cloud Service 전문가 시리즈](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/aem-experts-series.html?lang=en) | 비디오 시리즈 | Adobe Experience Manager(AEM) as a Cloud Service를 구축하는 Adobe의 전문 엔지니어와 이를 제공하는 전문 서비스 팀에 대해 알아봅니다. AEM as a Cloud Service가 무엇인지, AEM 6과 어떻게 비교되는지, AEM 6에서 AEM as a Cloud Service로 전환하는 방법에 대해 Adobe 전문가와 함께 알아보십시오. | AEM CS |
-| 2021년 11월 | [서비스 사용자](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/advanced/service-users.html?lang=en) | 비디오 | AEM 코드에서 서비스 사용자를 만들고 사용하여 제어된 프로그래밍 방식 AEM 리포지토리 액세스를 제공하는 방법에 대해 알아봅니다. | AEM CS |
+| 2021년 11월 | [인터랙티브 DoR 다운로드](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/document-services/generate-interactive-dor.html?lang=ko-KR#create-custom-servlet) | 비디오 | 적응형 양식 데이터가 포함된 인터랙티브 DoR을 다운로드하는 방법에 대해 알아봅니다. | AEM Forms |
+| 2021년 11월 | [Adobe Experience Manager as a Cloud Service 전문가 시리즈](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/aem-experts-series.html?lang=ko-KR) | 비디오 시리즈 | Adobe Experience Manager(AEM) as a Cloud Service를 구축하는 Adobe의 전문 엔지니어와 이를 제공하는 전문 서비스 팀에 대해 알아봅니다. AEM as a Cloud Service가 무엇인지, AEM 6과 어떻게 비교되는지, AEM 6에서 AEM as a Cloud Service로 전환하는 방법에 대해 Adobe 전문가와 함께 알아보십시오. | AEM CS |
+| 2021년 11월 | [서비스 사용자](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/advanced/service-users.html?lang=ko-KR) | 비디오 | AEM 코드에서 서비스 사용자를 만들고 사용하여 제어된 프로그래밍 방식 AEM 리포지토리 액세스를 제공하는 방법에 대해 알아봅니다. | AEM CS |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -309,13 +309,13 @@ Adobe Commerce 릴리스 정보에 대한 다음 링크를 참조하십시오.
 
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021년 11월 | [Adobe Commerce 비디오 및 튜토리얼](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/overview.html?lang=en) | 튜토리얼 홈 | 이러한 튜토리얼 리소스에는 주제에 대한 높은 수준의 보기를 제공하는 비디오 시리즈와 특정 작업 및 프로세스를 대상으로 하는 개별 비디오가 포함됩니다. 컬렉션은 백엔드 개발자, 프론트엔드 개발자, 시스템 관리자, 판매자 및 조직 내 기타 역할에 유용한 콘텐츠를 제공하도록 설계되었습니다. |
+| 2021년 11월 | [Adobe Commerce 비디오 및 튜토리얼](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/overview.html?lang=ko-KR) | 튜토리얼 홈 | 이러한 튜토리얼 리소스에는 주제에 대한 높은 수준의 보기를 제공하는 비디오 시리즈와 특정 작업 및 프로세스를 대상으로 하는 개별 비디오가 포함됩니다. 컬렉션은 백엔드 개발자, 프론트엔드 개발자, 시스템 관리자, 판매자 및 조직 내 기타 역할에 유용한 콘텐츠를 제공하도록 설계되었습니다. |
 
 ## ![아이콘](/assets/target.png) [!DNL Target] {#target}
 
 마지막 업데이트: **2021년 10월 20일**
 
-최신 릴리스 정보는 [[!DNL Target] 릴리스 정보](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=en)를 참조하십시오.
+최신 릴리스 정보는 [[!DNL Target] 릴리스 정보](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=ko-KR)를 참조하십시오.
 
 ## ![아이콘](/assets/campaign.png) [!DNL Adobe Campaign] {#ac}
 
@@ -335,10 +335,10 @@ Adobe Campaign용 최신 튜토리얼 및 교육 과정입니다.
 
 | 게시일 | 이름 | 설명 | 유형 | 버전 |
 | -----------| ---------- | ---------- |---------- | ---------- |
-| 2021년 11월 | [Campaign을 대상으로 Experience Platform에 연결](https://experienceleague.adobe.com/docs/campaign-learn/integrate-with-experience-platform/import-experience-platform-data-into-campaign/connect-campaign-to-experience-platform-as-destination.html?lang=en) | 비디오 | Amazon S3 연결 유형을 사용하여 대상에 Adobe Experience Platform 세그먼트를 활성화하는 방법을 알아봅니다. | AEP &amp; Campaign V8 |
-| 2021년 11월 | [Experience Platform과 통합 - 개요](https://experienceleague.adobe.com/docs/campaign-learn/integrate-with-experience-platform/overview.html?lang=en) | 비디오 | Campaign과 Experience Cloud 사이에서 데이터를 공유하는 방법을 알아봅니다. | AEP &amp; Campaign V8 |
-| 2021년 11월 | [Experience Platform에서 수신자 데이터 가져오기 및 이메일 보내기](https://experienceleague.adobe.com/docs/campaign-learn/integrate-with-experience-platform/import-experience-platform-data-into-campaign/import-recipient-data-from-platform.html?lang=en) | 비디오 | Adobe Experience Platform에서 Campaign으로 수신자 데이터를 가져오기 위해 Adobe Campaign에서 외부 계정을 구성하는 방법을 배웁니다. Experience Platform에서 받은 수신자를 업로드하고 타기팅하는 워크플로를 만드는 방법을 이해합니다. | AEP &amp; Campaign V8 |
-| 2021년 11월 | [워크플로에서 SOAP API 사용](https://experienceleague.adobe.com/docs/campaign-learn/use-soap-apis/introduction.html?lang=en) | 비디오 튜토리얼 | Adobe Campaign Soap API를 사용하는 방법 및 API를 통해 수신된 데이터를 기반으로 고급 전달 워크플로를 만드는 방법에 대해 알아봅니다. | Campaign V8 |
+| 2021년 11월 | [Campaign을 대상으로 Experience Platform에 연결](https://experienceleague.adobe.com/docs/campaign-learn/integrate-with-experience-platform/import-experience-platform-data-into-campaign/connect-campaign-to-experience-platform-as-destination.html?lang=ko-KR) | 비디오 | Amazon S3 연결 유형을 사용하여 대상에 Adobe Experience Platform 세그먼트를 활성화하는 방법을 알아봅니다. | AEP &amp; Campaign V8 |
+| 2021년 11월 | [Experience Platform과 통합 - 개요](https://experienceleague.adobe.com/docs/campaign-learn/integrate-with-experience-platform/overview.html?lang=ko-KR) | 비디오 | Campaign과 Experience Cloud 사이에서 데이터를 공유하는 방법을 알아봅니다. | AEP &amp; Campaign V8 |
+| 2021년 11월 | [Experience Platform에서 수신자 데이터 가져오기 및 이메일 보내기](https://experienceleague.adobe.com/docs/campaign-learn/integrate-with-experience-platform/import-experience-platform-data-into-campaign/import-recipient-data-from-platform.html?lang=ko-KR) | 비디오 | Adobe Experience Platform에서 Campaign으로 수신자 데이터를 가져오기 위해 Adobe Campaign에서 외부 계정을 구성하는 방법을 배웁니다. Experience Platform에서 받은 수신자를 업로드하고 타기팅하는 워크플로를 만드는 방법을 이해합니다. | AEP &amp; Campaign V8 |
+| 2021년 11월 | [워크플로에서 SOAP API 사용](https://experienceleague.adobe.com/docs/campaign-learn/use-soap-apis/introduction.html?lang=ko-KR) | 비디오 튜토리얼 | Adobe Campaign Soap API를 사용하는 방법 및 API를 통해 수신된 데이터를 기반으로 고급 전달 워크플로를 만드는 방법에 대해 알아봅니다. | Campaign V8 |
 
 {style=&quot;table-layout:auto&quot;}
 
