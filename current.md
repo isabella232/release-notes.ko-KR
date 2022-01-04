@@ -6,9 +6,9 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: b9ede188c852a99934bc91cf428cdf924ed26322
+source-git-commit: 81cf97e0a4f0280549c23a68b45ff3a7088dd644
 workflow-type: tm+mt
-source-wordcount: '4903'
+source-wordcount: '4902'
 ht-degree: 97%
 
 ---
@@ -197,9 +197,9 @@ AN-270649
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | ----------- | ---------- | ---------- |
-| Reports &amp; Analytics용 EOL | 2022년 1월 4일 | 2023년 12월 31일부터 Adobe은 Reports &amp; Analytics와 함께 제공되는 보고서 및 기능을 중단할 예정입니다. Reports &amp; Analytics를 제공하는 보고서, 시각화 및 기본 기술은 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 Reports &amp; Analytics 기능은 내에서 사용할 수 있습니다 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR). 2015년 Analysis Workspace 릴리스 이후 Reports &amp; Analytics 기능 및 기능이 Analysis Workspace으로 이동되었으며 워크플로우 패리티의 임계값에 도달했습니다. [이 알림](https://spark.adobe.com/page/6WnF8JK6IRDhf) 수명 종료 프로세스에 대해 설명합니다. |
+| Reports &amp; Analytics용 EOL | 2022년 1월 4일 | 유효 **2023년 12월 31일**, Adobe은 Reports &amp; Analytics와 함께 제공되는 보고서 및 기능을 중단하려고 합니다. Reports &amp; Analytics를 제공하는 보고서, 시각화 및 기본 기술은 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 Reports &amp; Analytics 기능은 내에서 사용할 수 있습니다 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR). 2015년 Analysis Workspace 릴리스 이후 Reports &amp; Analytics 기능 및 기능이 Analysis Workspace으로 이동되었으며 워크플로우 패리티의 임계값에 도달했습니다. [이 알림](https://spark.adobe.com/page/6WnF8JK6IRDhf) 수명 종료 프로세스에 대해 설명합니다. |
 | “글로벌 + 중국” RDC 유형 | 2021년 11월 22일 | “글로벌 + 중국”은 [!UICONTROL 중국 성능 최적화 추가 기능 패키지]를 사용하여 글로벌 고객의 트래픽 라우팅을 간소화하는 새로운 지역 데이터 수집(RDC) 유형입니다. 이전까지는 데이터를 중국 수집 끝점으로 라우팅할지 또는 글로벌 수집 끝점 중 하나로 라우팅할지를 결정해야 했습니다. 이제 이 RDC **유형**&#x200B;을 선택하여 Adobe가 사용자의 지리적 위치를 기반으로 최적의 수집 끝점을 결정하도록 할 수 있습니다. |
-| 3개의 Analytics API 서비스에 대한 EOL | 2021년 9월 16일 | **2021년 10월 20일**&#x200B;에 다음 Analytics Legacy API 서비스가 사용 수명 종료 날짜에 도달하여 중단됩니다. 이들 서비스를 사용하여 구축한 현재 모든 통합은 해당 날짜부터 더 이상 작동하지 않습니다.<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증 (OAuth 및 JWT)</li></ul>Adobe는 질문에 답변하고 진행 방법에 대한 지침을 제공하기 위해 [이전 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) 를 제공했습니다. 이들 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 이전 OAuth 계정은 [Adobe I/O](https://developer.adobe.com/console) Analytics 통합 계정으로 마이그레이션할 수 있으며, 이 계정은 1.4 Analytics API 및 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다. |
+| 3개의 Analytics API 서비스에 대한 EOL | 2021년 9월 16일 | 설정 **2021년 10월 20일**, 다음 Analytics 이전 API 서비스가 사용 종료 날짜에 도달하여 종료되었습니다. 이러한 서비스들을 사용하여 구축된 현재 모든 통합은 해당 날짜에 작동을 중단했습니다.<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증 (OAuth 및 JWT)</li></ul>Adobe는 질문에 답변하고 진행 방법에 대한 지침을 제공하기 위해 [이전 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) 를 제공했습니다. 이들 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 이전 OAuth 계정은 [Adobe I/O](https://developer.adobe.com/console) Analytics 통합 계정으로 마이그레이션할 수 있으며, 이 계정은 1.4 Analytics API 및 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다. |
 | 데이터 소스의 전체 처리를 위한 EOL | 2021년 10월 18일 | **2022년 1월 31일**&#x200B;에 Adobe는 사용자가 오프라인 히트 데이터를 Analytics로 수집할 수 있는 전체 처리를 위한 수명을 종료합니다. 이 기능은 [대량 데이터 삽입 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)를 통해 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html?lang=ko-KR?lang=ko-KR) |
 
 {style=&quot;table-layout:auto&quot;}
