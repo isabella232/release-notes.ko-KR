@@ -1,6 +1,6 @@
 ---
 title: 최신 릴리스 정보
-description: ' [!DNL Experience Cloud] 제품 및 서비스의 최신 릴리스 정보, 새로운 기능 및 새로운 설명서에 대해 알아봅니다. 에 대한 새로운 도움말 및 자습서 찾기 [!DNL Experience Cloud], [!DNL Creative Cloud for enterprise], 및 [!DNL Document Cloud].'
+description: ' [!DNL Experience Cloud] 제품 및 서비스의 최신 릴리스 정보, 새로운 기능 및 새로운 설명서에 대해 알아봅니다.  [!DNL Experience Cloud], [!DNL Creative Cloud for enterprise] 및 [!DNL Document Cloud]에 대한 새로운 도움말과 튜토리얼을 찾아보십시오.'
 doc-type: release notes
 last-update: November 2021
 author: mfrei
@@ -240,7 +240,7 @@ Adobe는 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Ma
 
 ### 릴리스 개요 비디오
 
-* [2021년 12월 릴리스 개요](https://video.tv.adobe.com/v/339278) 새로운 기능 비디오.
+* 새로운 기능에 대한 [2021년 12월 릴리스 개요](https://video.tv.adobe.com/v/339278) 비디오.
 * 새로운 기능에 대한 [2021년 10월 릴리스 개요](https://video.tv.adobe.com/v/338253) 비디오.
 * 새로운 기능에 대한 [2021년 9월 릴리스 개요](https://video.tv.adobe.com/v/337381) 비디오.
 
@@ -376,7 +376,7 @@ Adobe Journey Optimizer를 사용하면 단일 애플리케이션에서 수백�
 ### [!DNL Journey Optimizer]를 위한 추가 리소스
 
 * [Journey Optimizer 설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=ko-KR) - [릴리스 정보](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [방법 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ko-KR)
-* [의사 결정 관리 설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ko-KRlang=ko) - [릴리스 정보](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [사용 방법 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/decision-management-configuration/introduction-to-offer-decisioning.html?lang=ko-KR) - [최신 설명서 업데이트](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/documentation-updates.html?lang=ko-KR)
+* [의사 결정 관리 설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ko-KR) - [릴리스 정보](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [사용 방법 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/decision-management-configuration/introduction-to-offer-decisioning.html?lang=ko-KR) - [최신 설명서 업데이트](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/documentation-updates.html?lang=ko-KR)
 
 ## ![아이콘](/assets/experience_platform_appicon_24.png) [!DNL Journey Orchestration] {#journey-orch}
 
