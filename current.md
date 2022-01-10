@@ -6,10 +6,10 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: b8afd3888f15c0b6dd63d523a5b2d78227a8a7e1
+source-git-commit: 8908cbcaf8fa0dbcc2f85cb9bbe8386dc9b68adb
 workflow-type: tm+mt
-source-wordcount: '4902'
-ht-degree: 99%
+source-wordcount: '4903'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 99%
 >
 >월별 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html)를 구독하면 이 페이지의 업데이트에 대한 이메일 알림을 받을 수 있습니다. 이 페이지는 한 달 동안 유지되므로 Adobe 엔터프라이즈 제품 및 Experience League 설명서에 대한 업데이트를 정기적으로 확인하십시오.
 
-릴리스 월: **2021년 11월**
+릴리스 시기: **2021년 11월/12월**
 
 최신 업데이트: **2022년 1월 4일**
 
@@ -119,7 +119,7 @@ Experience League 이벤트는 Adobe의 제품 전문가로부터 답변을 얻�
 
 Experience Platform 및 [!UICONTROL Mobile SDK]에 대한 릴리스 업데이트 정보와 새로운 설명서가 포함되어 있습니다.
 
-**2021년 9월 29일**
+**2021년 11월 17일**
 
 모든 자세한 내용은 [Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR)를 참조하십시오.
 
@@ -317,7 +317,7 @@ Adobe Commerce 릴리스 정보에 대한 다음 링크를 참조하십시오.
 
 ## ![아이콘](/assets/target.png) [!DNL Target] {#target}
 
-마지막 업데이트: **2021년 10월 20일**
+마지막 업데이트 날짜: **2022년 1월 6일**
 
 최신 릴리스 정보는 [[!DNL Target] 릴리스 정보](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=ko-KR)를 참조하십시오.
 
