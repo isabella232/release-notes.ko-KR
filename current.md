@@ -9,7 +9,7 @@ exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 source-git-commit: 8908cbcaf8fa0dbcc2f85cb9bbe8386dc9b68adb
 workflow-type: tm+mt
 source-wordcount: '4903'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -78,8 +78,8 @@ Experience League 이벤트는 Adobe의 제품 전문가로부터 답변을 얻�
 
 | 이벤트 이름 | 날짜 및 시간 | 애플리케이션 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |---------- |
-| Adobe Target - 설정 및 관리 UI, A4T 통합, AEM 통합, 일반 UI | 12월 8일 수요일 @ 8 PT | Adobe Target | 포럼 Q&amp;A | Adobe Target 커뮤니티에서, Adobe Target의 수석 제품 관리자 Robert Calangiu(@Robert_Calangiu)가 여러분과 직접 소통하며 자신의 전문 지식을 바탕으로 관련된 Adobe Target 질문에 답변해 드립니다. <br>[세부 사항](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697) |
-| Adobe Campaign - 다른 애플리케이션을 통한 데이터 가져오기 | 2021년 12월 2일 목요일 오전 8시(PT) | Adobe Campaign | 포럼 Q&amp;A | 다른 애플리케이션을 통한 데이터 가져오기 - 기술 컨설턴트인 Zariely Garcia와 함께 기술 워크플로우를 사용하여 SFTP/API를 통해 데이터를 가져오는 우수 사례입니다. <br>[세부 사항](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4UuYOxSr9BdGsLPtk3ITDIdUMFYwT0REQTk5RDZPTjlEWFlSUk1XWTBHVy4u&amp;wdLOR=cEEEC3C73-227C-457C-AA83-44CC08D697B9). |
+| Adobe Target - 설정 및 관리 UI, A4T 통합, AEM 통합, 일반 UI | 12월 8일 수요일 오전 8시 (PT) | Adobe Target | 포럼 Q&amp;A | Adobe Target 커뮤니티에서, Adobe Target의 수석 제품 관리자 Robert Calangiu(@Robert_Calangiu)가 여러분과 직접 소통하며 자신의 전문 지식을 바탕으로 관련된 Adobe Target 질문에 답변해 드립니다. <br>[세부 사항](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697) |
+| Adobe Campaign - 다른 애플리케이션을 통한 데이터 가져오기 | 2021년 12월 2일 목요일 오전 8시(PT) | Adobe Campaign | 포럼 Q&amp;A | 다른 애플리케이션을 통한 데이터 가져오기 - 수석 기술 컨설턴트 Zariely Garcia와 함께하는 기술 워크플로를 사용하여 SFTP/API를 통해 데이터를 가져오기에 대한 모범 사례입니다. <br>[세부 사항](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4UuYOxSr9BdGsLPtk3ITDIdUMFYwT0REQTk5RDZPTjlEWFlSUk1XWTBHVy4u&amp;wdLOR=cEEEC3C73-227C-457C-AA83-44CC08D697B9). |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -199,7 +199,7 @@ AN-270649
 | ----------- | ---------- | ---------- |
 | Reports &amp; Analytics 서비스 종료 | 2022년 1월 4일 | **2023년 12월 31일**&#x200B;부로 Adobe는 Reports &amp; Analytics 및 관련 보고서와 기능에 대한 서비스를 중단할 예정입니다. Reports &amp; Analytics가 제공하는 보고서, 시각화 및 기반 기술은 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 Reports &amp; Analytics 기능은 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=en) 내에서 사용할 수 있습니다. 2015년 Analysis Workspace가 출시된 이후 Reports &amp; Analytics 기능이 Analysis Workspace로 이전되면서 워크플로 패리티의 한계점에 도달했습니다. [이 공지 사항](https://spark.adobe.com/page/6WnF8JK6IRDhf)은 서비스 종료 프로세스에 대해 설명합니다. |
 | “글로벌 + 중국” RDC 유형 | 2021년 11월 22일 | “글로벌 + 중국”은 [!UICONTROL 중국 성능 최적화 추가 기능 패키지]를 사용하여 글로벌 고객의 트래픽 라우팅을 간소화하는 새로운 지역 데이터 수집(RDC) 유형입니다. 이전까지는 데이터를 중국 수집 끝점으로 라우팅할지 또는 글로벌 수집 끝점 중 하나로 라우팅할지를 결정해야 했습니다. 이제 이 RDC **유형**&#x200B;을 선택하여 Adobe가 사용자의 지리적 위치를 기반으로 최적의 수집 끝점을 결정하도록 할 수 있습니다. |
-| 3개의 Analytics API 서비스에 대한 EOL | 2021년 9월 16일 | **2021년 10월 20일**&#x200B;에 다음 Analytics Legacy API 서비스가 서비스 종료 날짜에 도달하여 중단되었습니다. 이러한 서비스들을 사용하여 구축된 현재 모든 통합은 해당 날짜에 작동을 중단했습니다.<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증 (OAuth 및 JWT)</li></ul>Adobe이 [기존 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) 질문에 대한 답변과 진행 방법에 대한 지침을 제공하는 데 도움이 됩니다. 이들 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 이전 OAuth 계정은 [Adobe I/O](https://developer.adobe.com/console) Analytics 통합 계정으로 마이그레이션할 수 있으며, 이 계정은 1.4 Analytics API 및 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다. |
+| 3개의 Analytics API 서비스에 대한 EOL | 2021년 9월 16일 | **2021년 10월 20일**&#x200B;에 다음 Analytics Legacy API 서비스가 서비스 종료 날짜에 도달하여 중단되었습니다. 이러한 서비스들을 사용하여 구축된 현재 모든 통합은 해당 날짜에 작동을 중단했습니다.<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>이전 OAuth 인증 (OAuth 및 JWT)</li></ul>Adobe는 질문에 답변하고 진행 방법에 대한 지침을 제공하기 위해 [이전 API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)를 제공했습니다. 이들 서비스를 사용하는 API 통합은 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 또는 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)로 마이그레이션할 수 있습니다. 이전 OAuth 계정은 [Adobe I/O](https://developer.adobe.com/console) Analytics 통합 계정으로 마이그레이션할 수 있으며, 이 계정은 1.4 Analytics API 및 2.0 Analytics API에 모두 액세스하는 데 사용할 수 있습니다. |
 | 데이터 소스의 전체 처리를 위한 EOL | 2021년 10월 18일 | **2022년 1월 31일**&#x200B;에 Adobe는 사용자가 오프라인 히트 데이터를 Analytics로 수집할 수 있는 전체 처리를 위한 수명을 종료합니다. 이 기능은 [대량 데이터 삽입 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)를 통해 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html?lang=ko-KR?lang=ko-KR) |
 
 {style=&quot;table-layout:auto&quot;}
