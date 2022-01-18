@@ -6,10 +6,10 @@ last-update: January 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: e8e9579245a74552a4dc9ee88eb45375162de6e1
+source-git-commit: 1b16256611eb979c223368409f6887d8c6826332
 workflow-type: tm+mt
-source-wordcount: '6416'
-ht-degree: 40%
+source-wordcount: '6587'
+ht-degree: 41%
 
 ---
 
@@ -250,8 +250,8 @@ Adobe는 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Ma
       _Experience Manager Assets 사전 릴리스 채널의 새로운 기능_
 
       * Dynamic Media - 이제 Experience Manager Dynamic Media 인터페이스를 사용하여 다음을 구성할 수 있습니다 [!UICONTROL 일반 설정] 및 [!UICONTROL 게시 설정] Dynamic Media Classic 데스크탑 애플리케이션을 살펴보는 대신
-      * 이제 Dynamic Media은 MXF 비디오용 수집, 미리 보기, 재생 및 게시를 지원합니다. MXF 비디오에 대한 주석 및 쇼퍼블 비디오는 아직 지원되지 않습니다.
-      * 원격 DAM과 사이트 배포 간에 연결을 구성한 후 원격 DAM의 자산을 사이트 배포에서 사용할 수 있습니다. 이제 다음을 수행할 수 있습니다. [업데이트, 삭제, 이름 변경 및 이동 작업](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/admin/use-assets-across-connected-assets-instances.html?lang=en) 원격 DAM 자산 또는 폴더에서 사용할 수 있습니다. 업데이트가 지연되면 사이트 배포에서 자동으로 사용할 수 있습니다.
+      * 이제 Dynamic Media은 MXF 비디오용 수집, 미리 보기, 재생 및 게시를 지원합니다. MXF에 대한 주석 및 구매 가능한 비디오는 아직 지원되지 않습니다.
+      * 원격 DAM 및 Sites 배포 간의 연결을 구성한 후에는 Sites 배포에서 원격 DAM의 에셋을 사용할 수 있습니다. 이제 다음을 수행할 수 있습니다. [업데이트, 삭제, 이름 변경 및 이동 작업](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/admin/use-assets-across-connected-assets-instances.html?lang=en) 원격 DAM 자산 또는 폴더에서 사용할 수 있습니다. 업데이트는 약간의 지연과 함께 Sites 배포에서 자동으로 사용할 수 있습니다.
    * **Experience Manager Forms as a Cloud Service**
 
       _새로운 기능_
@@ -263,13 +263,13 @@ Adobe는 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Ma
       * **AEM Forms as a Cloud Service - 통신**: [통신 API](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/using-communications/aem-forms-cloud-service-communications.html?lang=en) 서식 파일과 XML 데이터를 결합하여 인쇄 문서를 다양한 형식으로 생성하는 데 도움이 됩니다. 서비스를 사용하여 동기식 및 배치 모드로 문서를 생성할 수 있습니다. API를 사용하여 다음을 수행할 애플리케이션을 만들 수 있습니다.
          * XML 데이터로 템플릿 파일(PDF 및 XDP)을 채워 문서를 생성합니다.
          * 비대화형 PDF 인쇄 스트림을 포함하여 다양한 형식의 출력 양식을 생성합니다.
-      * **Communications API로 작성된 레코드 문서 및 PDF 문서에 대한 사용자 정의 글꼴**: 이제 Communications API를 사용하여 생성된 PDF 문서에서 브랜드 승인 글꼴을 사용하여 조직 요구 사항에 맞게 만들 수 있습니다.
-      * **Forms 포털**: 다음을 사용할 수 있습니다 [Forms 포털](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-forms-portal.html?lang=en) 게시된 적응형 양식을 Experience Manager Sites 페이지에 나열하려면 다음을 수행하십시오. 사이트 방문자가 사용 가능한 모든 양식을 검색하는 데 도움이 됩니다. 또한 방문자는 [!UICONTROL Forms 포털] 적응형 양식의 초안을 저장하고 액세스하고 제출된 적응형 양식의 PDF 버전을 확인합니다.
+      * **커뮤니케이션 API로 생성된 기록 문서 및 PDF 문서에 대한 맞춤형 글꼴**: 이제 커뮤니케이션 API를 사용하여 생성된 PDF 문서의 브랜드 승인 글꼴을 사용하여 조직 요구 사항을 맞출 수 있습니다.
+      * **Forms 포털**: 다음을 사용할 수 있습니다 [Forms 포털](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-forms-portal.html?lang=en) 게시된 적응형 양식을 Experience Manager Sites 페이지에 나열하려면 다음을 수행하십시오. 이렇게 하면 사이트 방문자가 사용 가능한 모든 양식을 탐색할 수 있습니다. 또한 방문자는 [!UICONTROL Forms 포털] 적응형 양식의 초안을 저장하고 액세스하고 제출된 적응형 양식의 PDF 버전을 확인합니다.
    * **Cloud Manager**
 
       _새로운 기능_
 
-      * 이제 사용자는 새로운 프런트 엔드 파이프라인을 사용하여 프런트 엔드 코드만 신속하게 배포할 수 있습니다. 자세한 내용은 [Cloud Manager 프런트엔드 파이프라인](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/cicd-pipelines/introduction-ci-cd-pipelines.html?lang=en#front-end) 추가 정보
+      * 이제 사용자는 새로운 프런트 엔드 파이프라인을 사용하여 프런트 엔드 코드만 신속하게 배포할 수 있습니다. 자세히 알아보려면 [Cloud Manager 프론트엔드 파이프라인](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/cicd-pipelines/introduction-ci-cd-pipelines.html?lang=en#front-end)을 참조하십시오.
 
          >[!IMPORTANT]
          >
@@ -278,8 +278,8 @@ Adobe는 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Ma
       * 코드 품질 파이프라인 기간은 전체 Experience Manager 이미지를 만들지 않고도 코드 분석을 보다 효율적으로 수행하여 줄어듭니다. 이 변경 사항은 릴리스 후 몇 주에 걸쳐 점진적으로 출시되고 있습니다.
       * 이제 Git 커밋 ID가 파이프라인 실행 세부 사항에 표시되므로 빌드된 코드를 쉽게 추적할 수 있습니다.
       * [!UICONTROL 프로그램 만들기] 는 이제 공개적으로 노출된 API를 통해 사용할 수 있습니다.
-      * [!UICONTROL 환경 만들기] 는 이제 공개적으로 노출된 API를 통해 사용할 수 있습니다.
-      * 다음 `x-request-id` 이제 응답 헤더가 의 API Playground에 표시됩니다. [www.adobe.io](https://www.adobe.io/). 이 헤더는 문제 해결을 위해 고객 지원 문제를 제출할 때 유용합니다.
+      * [!UICONTROL 이제 환경 생성을 공개적으로 노출된 API를 통해 사용할 수 있습니다.]
+      * 이제 `x-request-id` 응답 헤더를 [www.adobe.io](https://www.adobe.io/)의 API Playground에서 볼 수 있습니다. 이 헤더는 문제 해결을 위한 고객 지원 센터 문제 제출 시 유용합니다.
       * 새로운 [!UICONTROL 활동] 페이지는 파이프라인 및 코드 실행과 같은 활동을 연관된 세부 정보와 함께 볼 수 있는 페이지에서 사용할 수 있습니다. 시간이 지나면서 이 페이지에 나열된 활동은 제공된 세부 정보와 함께 범위가 확장됩니다.
       * 새로운 [!UICONTROL 파이프라인] 이제 세부 사항 요약을 쉽게 볼 수 있도록 상태 팝오버가 포함된 페이지를 사용할 수 있습니다. 다음을 볼 수 있습니다 [!UICONTROL 파이프라인] 은 관련 세부 정보와 함께 을 실행합니다.
       * 다음 [!UICONTROL 파이프라인 편집] 이제 API는 배포 단계에서 사용되는 환경 변경을 지원합니다.
@@ -289,6 +289,28 @@ Adobe는 릴리스 정보를 최신 상태로 유지하기 위해 [Experience Ma
 
 
 
+
+### 커뮤니티
+
+* **Experience Manager GEM 웨비나 - Experience Manager as a Cloud Service** | 2021년 검토 및 2022년 전망
+
+   **날짜**: 2022년 1월 25일 화요일
+   **시간**: 오전 8시(PST) 또는 오후 5시(CET 또는 오후 9시 30분 IST)
+   **기간**: 60분
+   **비용**: 자유!
+
+   * [여기에 등록](https://adobe.ly/3tAh3OC)
+   * [질문](https://adobe.ly/3zJrS0f)
+
+* [2021년 커뮤니티 구성원 발표](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/announcing-community-members-of-the-year-2021/td-p/436782)
+
+   참가하신 모든 분들께 큰 감사를 드리고 싶습니다 [Experience Manager 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community) 2021년에, 그리고 다른 사람들이 문제를 해결하는 것을 도왔습니다.
+
+   매년, Experience Cloud 커뮤니티는 서비스를 넘어 다니는 회원에게 경의를 표하고 올해의 커뮤니티 멤버에게 탁월한 지원을 제공합니다. 그 노력을 공공연하게 인식하여, 우리는 여기에서 발표한다 [@Asutosh_Jena_](https://experienceleaguecommunities.adobe.com/t5/user/viewprofilepage/user-id/7532759)  및 [@Vijayalakshmi_S](https://experienceleaguecommunities.adobe.com/t5/user/viewprofilepage/user-id/11077056) 를 2021년의 커뮤니티 구성원으로서 사용하십시오.
+
+* [2022년 1월 Experience League 컨텐츠](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/experience-league-content-for-month-of-january-2022/td-p/437137)
+
+   [Experience League에 게시된 모든 Experience Manager 컨텐츠 목록](https://adobe.ly/3tuGuRH)
 
 ### 새로운 Experience Manager 교육 과정 및 튜토리얼 {#tutorials-aem}
 
