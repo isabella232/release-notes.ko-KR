@@ -6,9 +6,9 @@ last-update: January 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 3ecd5dfeeee5692b7fb5c5fa4dcac497b3c49ce0
+source-git-commit: e50b1d99621d2a32597e7a28c1602decef814ead
 workflow-type: tm+mt
-source-wordcount: '6573'
+source-wordcount: '6590'
 ht-degree: 98%
 
 ---
@@ -135,7 +135,6 @@ Adobe Experience Platform Mobile SDK에 대한 [릴리스 정보 및 변경 로�
 릴리스 날짜: **2022년 1월 19일**
 
 * [Adobe Analytics의 새로운 기능](#aa-features)
-* [Customer Journey Analytics의 새로운 기능](#cust-journey)
 * [Adobe Analytics의 수정 사항](#aa-fixes)
 * [Analytics 관리자에 대한 중요 공지](#aa-notices)
 * [Analytics 교육 과정 및 튜토리얼](#tutorials-analytics)
@@ -148,18 +147,6 @@ Adobe Experience Platform Mobile SDK에 대한 [릴리스 정보 및 변경 로�
 | 해당 없음 |  | [일반 가용성](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=ko-KR) 확인 |
 
 {style=&quot;table-layout:auto&quot;}
-
-### Customer Journey Analytics의 새로운 기능 {#cust-journey}
-
-| 기능 | 설명 | 목표 날짜 |
-| ----------- | ---------- | ----- |
-| 바인딩 차원 및 바인딩 지표를 위한 [!UICONTROL 지속성] 옵션 | 데이터 보기 생성 또는 편집 시 차원 지속성을 다른 차원 및 지표로 바인딩할 수 있습니다. Reports &amp; Analytics에서는 이러한 개념을 _머천다이징_&#x200B;이라고 하며, 이는 현재 CJA에서 지원됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension) | 2022년 1월 19일 |
-| [!UICONTROL 처음 알려짐] 및 [!UICONTROL 마지막 알려짐] 할당 모델 | 이 두 개의 새로운 할당 모델은 지정된 지속성 범위(전환 확인이 있는 세션, 사용자 또는 사용자 지정 기간) 내의 차원에 대해 첫 번째 또는 마지막 관측 값을 취합니다. 그런 다음 할당 모델을 지정된 범위 내의 모든 이벤트에 적용합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#allocation-settings) | 2022년 1월 19일 |
-| 차원으로서의 [!UICONTROL PersonID] 및 [!UICONTROL PersonID 네임스페이스] | `personID`(또는 `customerID`, 또는 데이터 세트를 하나의 연결로 병합하기 위해 사용 중인 모든 ID)를 데이터 보기의 차원으로 노출합니다. 이 향상된 기능을 통해 차원으로서의 `personID`를 해당 연결에서 가져와 손쉽게 데이터 보기에 포함할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional-standard-components) | 2022년 1월 19일 |
-
-{style=&quot;table-layout:auto&quot;}
-
-릴리스 정보는 [일반 가용성](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html)을 참조하십시오.
 
 ### Adobe Analytics 및 Customer Journey Analytics의 수정 사항 {#aa-fixes}
 
@@ -175,7 +162,7 @@ Adobe Experience Platform Mobile SDK에 대한 [릴리스 정보 및 변경 로�
 * 일광 절약 시간으로 인해 예약된 보고서가 예정보다 일찍 전송되는 문제가 해결되었습니다. (AN-276410; AN-276305)
 * 작업 영역에서 프로젝트를 `.csv` 파일로 다운로드할 수 없는 문제가 해결되었습니다. (AN-275834)
 
-#### Adobe Analytics 및 CJA의 추가 수정 사항
+#### Adobe Analytics의 추가 수정 사항
 
 AN-253294; AN-254976; AN-255377; AN-255561; AN-258550; AN-259336; AN-263935; AN-265094; AN-269441; AN-269486; AN-269855; AN-271166; AN-271588; AN-272088; AN-272249; AN-272859; AN-272873; AN-272885; AN-273229; AN-273913; AN-274237; AN-274472; AN-274491; AN-274619; AN-274766; AN-275248; AN-275259; AN-275271; AN-275315; AN-275388; AN-275418; AN-275597; AN-275643; AN-275650; AN-275651; AN-275675; AN-275682; AN-275704; AN-275711; AN-275796; AN-275834; AN-275923; AN-275941; AN-276044; AN-276125; AN-276157; AN-276397; AN-276597; AN-276789; AN-276834; AN-276861; AN-276870; AN-276963; AN-276975; AN-277000; AN-277044; AN-277093; AN-277200; AN-277215; AN-277271; AN-277281; AN-277362; AN-277419; AN-277492; AN-277498; AN-277533; AN-277619; AN-277675; AN-277681; AN-277767; AN-277805; AN-277810; AN-277818; AN-277875; AN-277933; AN-277988; AN-278105; AN-278115; AN-278122; AN-278192; AN-278407; AN-278437; AN-278559; AN-278604; AN-278610; AN-278709; AN-278835; AN-278849; AN-278881; AN-279067; AN-279103; AN-279111; AN-279219; AN-279237; AN-279312
 
@@ -218,6 +205,28 @@ Adobe Analytics용으로 게시된 새로운 비디오, 튜토리얼 또는 교�
 ### Analytics 도움말 리소스
 
 * [Adobe Analytics 제품 설명서 및 튜토리얼](https://experienceleague.adobe.com/docs/analytics.html?lang=ko-KR)
+
+## [!DNL Customer Journey Analytics] {#cja}
+
+* [Customer Journey Analytics의 새로운 기능](#cust-journey)
+
+릴리스 날짜: **2022년 1월 19일**
+
+### Customer Journey Analytics의 새로운 기능 {#cust-journey}
+
+| 기능 | 설명 | 목표 날짜 |
+| ----------- | ---------- | ----- |
+| 바인딩 차원 및 바인딩 지표를 위한 [!UICONTROL 지속성] 옵션 | 데이터 보기 생성 또는 편집 시 차원 지속성을 다른 차원 및 지표로 바인딩할 수 있습니다. Reports &amp; Analytics에서는 이러한 개념을 _머천다이징_&#x200B;이라고 하며, 이는 현재 CJA에서 지원됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension) | 2022년 1월 19일 |
+| [!UICONTROL 처음 알려짐] 및 [!UICONTROL 마지막 알려짐] 할당 모델 | 이 두 개의 새로운 할당 모델은 지정된 지속성 범위(전환 확인이 있는 세션, 사용자 또는 사용자 지정 기간) 내의 차원에 대해 첫 번째 또는 마지막 관측 값을 취합니다. 그런 다음 할당 모델을 지정된 범위 내의 모든 이벤트에 적용합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#allocation-settings) | 2022년 1월 19일 |
+| 차원으로서의 [!UICONTROL PersonID] 및 [!UICONTROL PersonID 네임스페이스] | `personID`(또는 `customerID`, 또는 데이터 세트를 하나의 연결로 병합하기 위해 사용 중인 모든 ID)를 데이터 보기의 차원으로 노출합니다. 이 향상된 기능을 통해 차원으로서의 `personID`를 해당 연결에서 가져와 손쉽게 데이터 보기에 포함할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional-standard-components) | 2022년 1월 19일 |
+
+{style=&quot;table-layout:auto&quot;}
+
+릴리스 정보는 [일반 가용성](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html)을 참조하십시오.
+
+### Analytics 도움말 리소스
+
+* [Customer Journey Analytics 제품 설명서](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=en)
 
 ## ![아이콘](/assets/audience-manager.png) Audience Manager {#aam}
 
