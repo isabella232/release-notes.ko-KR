@@ -6,9 +6,9 @@ last-update: January 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 36c608bd0501936778dc791aac7f3c92bc6ce187
+source-git-commit: c73e91e379acb34734b4ed3a1d267688ea3f1222
 workflow-type: tm+mt
-source-wordcount: '6609'
+source-wordcount: '6611'
 ht-degree: 99%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 99%
 
 **2022년 1월**
 
-최신 업데이트: **2022년 1월 26일**
+최종 업데이트: **2022년 2월 3일**
 
 * [[!DNL Experience League] 이벤트](#events)
 * [[!DNL Experience Cloud Central Interface Components] 및 관리](#ecloud)
@@ -37,7 +37,7 @@ ht-degree: 99%
 * [[!DNL Adobe Experience Manager]](#aem)
 * [[!DNL XML Documentation for Adobe Experience Manager]](#xml-doc)
 * [[!DNL Adobe Commerce]](#magento)
-* [[!DNL Adobe Target]](#target)
+* [[!DNL Adobe Target]](#target) (업데이트: **2022년 2월 3일**)
 * [[!DNL Adobe Campaign]](#ac)
 * [[!DNL Adobe Journey Optimizer]](#journey-opt)
 * [[!DNL Journey Orchestration]](#journey-orch)
