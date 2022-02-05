@@ -6,10 +6,10 @@ last-update: January 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: c73e91e379acb34734b4ed3a1d267688ea3f1222
+source-git-commit: 9e16facc25424bb8ce23e35230b7503195cf1a3d
 workflow-type: tm+mt
-source-wordcount: '6611'
-ht-degree: 99%
+source-wordcount: '6534'
+ht-degree: 98%
 
 ---
 
@@ -527,12 +527,11 @@ Adobe [!DNL Workfront]는 아이디어 공유, 콘텐츠 생성, 복잡한 프�
 
 ### [!DNL Advertising Cloud Search]의 새로운 기능 {#adcloud-search}
 
-마지막 업데이트: **2021년 10월 7일**
+마지막 업데이트: **2022년 2월 4일**
 
 | 기능 | 설명 |
 | ------- | ----------- |
-| [!UICONTROL 보고서], [!UICONTROL 알림 센터] | (10월 9일 릴리스) 사용자 지정 또는 예약된 보고서가 완료되거나 실패했을 때 Advertising Cloud Search에서 보내는 보고서에 대한 모든 이메일 알림은 이제 [!UICONTROL 알림 센터]에서 처리됩니다. 이메일 알림 및 웹 알림은 보고서에 대해 기본적으로 활성화되어 있지만 선택적으로 알림 설정을 변경할 수 있습니다. 이번 변경으로:<ul><li>이메일 수신자는 Advertising Cloud Search에 등록되고 인증된 사용자이며 광고주 계정에 대한 액세스 권한이 있는 사용자로 제한됩니다. 이 기능은 승인되지 않은 사용자에게 기밀 데이터가 전송되지 않도록 합니다.</li><li>이메일의 형식과 내용은 보고서의 자세한 내용을 포함하고 모든 보고서 형식에 대한 직접 다운로드 링크를 포함하는 [!UICONTROL 알림 센터] 템플릿을 사용합니다.</li><li>보고서 알림은 [!UICONTROL 알림 센터]에 고유한 알림 기본 설정이 있는 새로운 알림 유형입니다.</li></ul>자동화를 사용하여 이메일 알림에서 보고서를 가져오는 경우 프로세스 연속성을 보장하기 위해 필터링 논리를 업데이트해야 할 수 있습니다. |
-| 광고 인사이트 | 추가 Insights는 Beta 모드에서 사용할 수 있습니다. |
+| [!UICONTROL 일괄 시트], [!UICONTROL 알림 센터] | (1월 22일 릴리스) 일괄 시트 작업이 완료되었거나 실패할 때 Advertising Cloud Search에서 보내는 일괄 시트에 대한 모든 이메일 알림은 이제 [!UICONTROL 알림 센터].<br><br>[!UICONTROL 일괄 시트] 는 고유한 알림 환경 설정이 있는 새 알림 유형이며, [!UICONTROL 알림 센터]. 전자 메일 알림 및 웹 알림은 기본적으로 활성화되어 있지만 선택적으로 알림 설정을 변경할 수 있습니다.<br><br>이메일 알림의 형식과 콘텐츠는 [!UICONTROL 알림 센터] 템플릿과 연결된 일괄 시트 파일 또는 오류 파일에 대한 직접 다운로드 링크가 포함되어 있습니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
