@@ -4,9 +4,9 @@ description: Experience Cloud 릴리스 노트
 doc-type: release notes
 last-update: June 2021
 author: mfrei
-source-git-commit: b83f085d9fca7c4ae2b3519d32033a03aec28026
+source-git-commit: e415b562703712157d907d3e3995ff5adad4db1e
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '716'
 ht-degree: 86%
 
 ---
@@ -28,11 +28,11 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 
 최신 업데이트: **2021년 9월**
 
-* [라이브 이벤트 Experience League](#events)
+* [Experience League 라이브 이벤트](#events)
 * [Experience Cloud 중앙 인터페이스 구성 요소](#ecloud)
+* [Adobe 시스템 상태](#status)
 * [Experience Platform](#platform)
 * [Experience Platform 응용 프로그램 서비스](#services)
-* [Adobe 시스템 상태](#status)
 * [Journey Optimizer](#journey-opt)
 * [[!DNL Analytics]](#analytics) 및 [Customer Journey Analytics](#cust-journey)
 * [[!DNL Audience Manager]](#aam)
@@ -55,12 +55,6 @@ Adobe Experience Cloud의 새로운 기능 및 수정 사항.
 ## ![아이콘](/assets/ec_appicon_24.png) Experience Cloud 중앙 UI 구성 요소 {#ecloud}
 
 Experience Cloud 중앙 인터페이스 구성 요소에는 자체 도움말, 검색 및 사용자 계정 환경 설정과 같은 통합 제품 헤더에서 액세스된 업데이트가 포함되어 있습니다. 인물, 장소(위치) 및 제품 관리에 대한 업데이트는 여기에서 찾을 수 있습니다.
-
-| 기능 | 날짜 | 설명 |
-| ------- | ------- | -------|
-| 기능 | 2021년 9월 | 설명 |
-
-{style=&quot;table-layout:auto&quot;}
 
 ### [!UICONTROL 핵심 서비스] {#core-services}
 
@@ -263,7 +257,7 @@ Marketo Engage은 리드 관리를 위한 완전한 솔루션이며, 복잡한 �
 
 릴리스 날짜: 2020년 2월 21일
 
-* **Microsoft® Dynamics  _변경 담당자(Microsoft®_ 흐름 작업:** 리드를 변경하거나 Marketo Engage에서 직접 담당자에게 문의하십시오.
+* **Microsoft® Dynamics _Microsoft®에서 소유자 변경_ 흐름 작업:** 리드를 변경하거나 Marketo Engage에서 직접 담당자에게 문의하십시오.
 * **API 호출에 대한 개선 사항:**
    * 사용자 관리 API
    * 사용자 지정 개체 스키마 API
