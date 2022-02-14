@@ -6,9 +6,9 @@ last-update: February 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 85a73da3f5957c5d073d9b0018d1758f14432252
+source-git-commit: 10b5876c8ea0e21f0e10ea36165c0e3f1dab9665
 workflow-type: tm+mt
-source-wordcount: '4933'
+source-wordcount: '4940'
 ht-degree: 51%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 51%
 
 Experience Maker로 성공의 경로는 다음으로 시작합니다 [Adobe Experience League](https://experienceleague.adobe.com/?lang=en#home). 다양한 사용 방법 설명서 라이브러리, 자가 안내 자습서, 사용 방법 비디오, 모든 수준 및 역할에 대한 교육 과정, 동료들의 온라인 커뮤니티 및 필요할 때 전문가 지원을 이용할 수 있습니다.
 
-시작할 준비가 되었습니까? [5분간 퀴즈를 내서 우승하세요](https://exploreadobe.com/experience-league-quiz/)!
+시작할 준비가 되었습니까? [5분간 퀴즈를 내서 우승하세요](https://exploreadobe.com/experience-league-quiz/?sdid=4NM897N2&amp;mv=email&amp;mv2=nslsp)!
 
 >[!NOTE]
 >
