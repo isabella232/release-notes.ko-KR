@@ -6,7 +6,7 @@ last-update: February 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: e9a119ac8351d6431039b1e0387db1d4875a91bb
+source-git-commit: 85a73da3f5957c5d073d9b0018d1758f14432252
 workflow-type: tm+mt
 source-wordcount: '4933'
 ht-degree: 51%
@@ -96,7 +96,7 @@ Experience League 이벤트는 Adobe의 제품 전문가로부터 답변을 얻�
 
 **새로운 기능**
 
-* 이제 Adobe 상태가 제품 수준에서 인시던트 를 보고합니다. 상태 클라우드 및 제품 페이지에는 사고의 제품 수준 보고를 기반으로 새로운 모양과 향상된 필터가 있습니다. 이를 통해 제품의 영향을 쉽게 파악할 수 있습니다 [status.adobe.com](https://status.adobe.com/) 및 를 사용할 수 있습니다. 구독하지 않은 경우 이 링크를 사용하여 개인화된 구독 환경 설정을 설정하십시오 [https://status.adobe.com/proactive-notifications/manage](https://status.adobe.com/proactive-notifications/manage)
+* 이제 Adobe 상태가 제품 수준에서 인시던트 를 보고합니다. 상태 클라우드 및 제품 페이지에는 사고의 제품 수준 보고를 기반으로 새로운 모양과 향상된 필터가 있습니다. 이를 통해 제품의 영향을 쉽게 파악할 수 있습니다 [status.adobe.com](https://status.adobe.com/) 및 를 사용할 수 있습니다. 구독하지 않은 경우 이 링크를 사용하여 개인화된 구독 환경 설정을 설정하십시오 [https://status.adobe.com/proactive-notifications/manage](https://status.adobe.com/proactive-notifications/manage).
 
 * 이제 상태 홈 페이지는 자격 및 제품 가입에 따라 필터링된 이벤트로 개인화됩니다. 다음에서 확인해 보세요 **status.adobe.com** > **[!UICONTROL 내 이벤트]** 탭.
 
