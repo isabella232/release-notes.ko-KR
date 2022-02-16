@@ -6,9 +6,9 @@ last-update: February 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 10b5876c8ea0e21f0e10ea36165c0e3f1dab9665
+source-git-commit: f4b652db4759a65f38afe0fbd6dca07301875277
 workflow-type: tm+mt
-source-wordcount: '4940'
+source-wordcount: '4963'
 ht-degree: 51%
 
 ---
@@ -177,7 +177,7 @@ Adobe Analytics용으로 게시된 새로운 비디오, 튜토리얼 또는 교�
 | 게시일 | 이름 | 유형 | 설명 |
 | -----------| ---------- | ---------- | ---------- |
 | 2022년 2월 | [처리 규칙을 사용하여 수신 데이터 조작](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/manipulating-incoming-data-with-processing-rules.html?lang=en) | 비디오 | Adobe Analytics의 처리 규칙에 대한 개요를 보고 이 규칙이 사용되는 방식을 알아봅니다. 몇 가지 팁, 예 및 경고를 학습합니다. |
-| 2022년 2월 | [목록 변수 구성](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configuring-list-variables.html?lang=en) | 비디오 | 한 번에 두 개 이상의 값을 eVar(전환 변수)에 추가해야 하는 경우 어떻게 하시겠습니까? 구조할 변수 나열! Adobe Analytics에서 목록 변수를 구성하고 사용하는 방법 및 이유를 알아봅니다. |
+| 2022년 2월 | [목록 변수 구성](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configuring-list-variables.html?lang=en) | 비디오 | 한 번에 두 개 이상의 값을 eVar(전환 변수)에 추가해야 하는 경우 어떻게 하시겠습니까? 목록 변수를 사용하면 됩니다. Adobe Analytics에서 목록 변수를 구성하고 사용하는 방법 및 이유를 알아봅니다. |
 | 2022년 2월 | [트래픽 분류 구성](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-traffic-classifications.html?lang=en) | 비디오 | 종종 호출되는 트래픽 변수에 대한 분류를 구성하는 방법을 알아봅니다 _prop_, 및에 대해 _pagename_&#x200B;등 |
 | 2022년 2월 | [전환 분류 구성](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-conversion-classifications.html?lang=en) | 비디오 | 전환 변수에 대한 분류 구성에 대해 알아봅니다(라고도 함). _eVar_. 이 구성은 제품 및 목록 변수에도 적용됩니다. |
 
@@ -473,10 +473,11 @@ Adobe [!DNL Workfront]는 아이디어 공유, 콘텐츠 생성, 복잡한 프�
 
 ### [!DNL Advertising Cloud Search]의 새로운 기능 {#adcloud-search}
 
-마지막 업데이트: **2022년 2월 4일**
+마지막 업데이트: **2022년 2월 16일**
 
 | 기능 | 설명 |
 | ------- | ----------- |
+| [!UICONTROL 캠페인], [!UICONTROL Bulksheets] | (1월 22일 릴리스) ([!DNL Microsoft Advertising accounts])에서 반응형 검색 광고(RSA)를 만들고 관리할 수 있습니다. [!UICONTROL 캠페인] > [!UICONTROL 광고] 보기 및 보낸 사람 [!UICONTROL 캠페인] > [!UICONTROL 일괄 시트]. |
 | [!UICONTROL 일괄 시트], [!UICONTROL 알림 센터] | (1월 22일 릴리스) 일괄 시트 작업이 완료되었거나 실패할 때 Advertising Cloud Search에서 보내는 일괄 시트에 대한 모든 이메일 알림은 이제 [!UICONTROL 알림 센터].<br><br>[!UICONTROL 일괄 시트] 는 고유한 알림 환경 설정이 있는 새 알림 유형이며, [!UICONTROL 알림 센터]. 전자 메일 알림 및 웹 알림은 기본적으로 활성화되어 있지만 선택적으로 알림 설정을 변경할 수 있습니다.<br><br>이메일 알림의 형식과 콘텐츠는 [!UICONTROL 알림 센터] 템플릿과 연결된 일괄 시트 파일 또는 오류 파일에 대한 직접 다운로드 링크가 포함되어 있습니다. |
 
 {style=&quot;table-layout:auto&quot;}
